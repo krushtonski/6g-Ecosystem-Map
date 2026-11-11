@@ -1,0 +1,2157 @@
+{
+ "generated": "2026-11-11",
+ "nodes": [
+  {
+   "id": "vt-iac",
+   "name": "Virginia Tech Institute for Advanced Computing",
+   "short": "VT Institute for Advanced Computing",
+   "category": "Academic & research",
+   "region": "Alexandria",
+   "description": "Virginia Tech's graduate research institute in Academic Building One, 3625 Potomac Ave, Potomac Yard (opened spring 2025; formerly branded the Innovation Campus). Next G Wireless is one of its four research areas: AI-native wireless, joint sensing and communications, mmWave/THz, reconfigurable intelligent surfaces, distributed MIMO and O-RAN. Wireless lab on the 3rd floor.",
+   "role": "",
+   "org": null,
+   "address": "3625 Potomac Ave, Alexandria, VA 22305",
+   "lat": 38.8318,
+   "lng": -77.0476,
+   "precision": "Street address",
+   "sources": [
+    "https://iac.vt.edu/research-areas/next-g-wireless.html",
+    "https://iac.vt.edu/about/location.html",
+    "https://virginiabusiness.com/virginia-tech-opens-academic-building-alexandria/"
+   ]
+  },
+  {
+   "id": "wireless-vt",
+   "name": "Wireless@Virginia Tech",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "Virginia Tech's wireless research centre (30+ faculty), led from Blacksburg. Its director, Lingjia Liu, is core faculty in Alexandria.",
+   "role": "",
+   "org": null,
+   "address": "Blacksburg, VA",
+   "lat": 37.2296,
+   "lng": -80.4139,
+   "precision": "Campus",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1005697",
+    "https://iac.vt.edu/research-areas/next-g-wireless.html"
+   ]
+  },
+  {
+   "id": "vt-nsi",
+   "name": "VT National Security Institute",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "Virginia Tech institute working with the Alexandria institute on NextG, including the DoD Mobile dMIMO project.",
+   "role": "",
+   "org": null,
+   "address": "Blacksburg, VA",
+   "lat": 37.231,
+   "lng": -80.417,
+   "precision": "Campus",
+   "sources": [
+    "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html",
+    "https://iac.vt.edu/research-areas/next-g-wireless.html"
+   ]
+  },
+  {
+   "id": "vt-arc",
+   "name": "Virginia Tech Applied Research Corporation (VT-ARC)",
+   "short": "VT-ARC",
+   "category": "Academic & research",
+   "region": "Northern Virginia",
+   "description": "Virginia Tech's applied research affiliate in Arlington. Selected as the Technical Program Office for ATIS' Next G Alliance, which runs the North American 6G roadmap work.",
+   "role": "",
+   "org": null,
+   "address": "Arlington, VA",
+   "lat": 38.8822,
+   "lng": -77.1158,
+   "precision": "City",
+   "sources": [
+    "https://atis.org/press-releases/atis-next-g-alliance-names-vt-arc-as-technical-program-office-major-role-in-advancing-6g/",
+    "https://iac.vt.edu/research-areas/next-g-wireless.html"
+   ]
+  },
+  {
+   "id": "cci",
+   "name": "Commonwealth Cyber Initiative (CCI) & xG Testbed",
+   "short": "CCI / xG Testbed",
+   "category": "Academic & research",
+   "region": "Northern Virginia",
+   "description": "State-funded network of 40+ Virginia institutions led by Virginia Tech. Its xG Testbed at the Virginia Tech Research Center in Arlington is an O-RAN Alliance Open Testing and Integration Center (OTIC). Member of the Next G Alliance, O-RAN Alliance and National Spectrum Consortium.",
+   "role": "",
+   "org": null,
+   "address": "Virginia Tech Research Center, 900 N Glebe Rd, Arlington, VA 22203",
+   "lat": 38.8818,
+   "lng": -77.1163,
+   "precision": "Street address",
+   "sources": [
+    "https://cyberinitiative.org/content/dam/cci_research_vt_edu/one-pagers-andbrochures-for-website-downloads/CCI%20xG%20Testbed%202024.pdf",
+    "https://ccixgtestbed.research.vt.edu/cci-designated-as-otic.html",
+    "https://rga.lis.virginia.gov/Published/2024/RD545/PDF"
+   ]
+  },
+  {
+   "id": "gmu",
+   "name": "George Mason University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Northern Virginia",
+   "description": "Leads the CCI Northern Virginia node and runs the Living Innovation Lab in Arlington with commercial-grade NextG/O-RAN testbeds. Part of the OTIC team and a WISPER university.",
+   "role": "",
+   "org": null,
+   "address": "Fairfax campus, VA",
+   "lat": 38.8316,
+   "lng": -77.3075,
+   "precision": "Campus",
+   "sources": [
+    "https://news.vt.edu/articles/2019/10/cci-5Gwirelesstestbed.html",
+    "https://cyberinitiative.org/about/regional-structure/northern-virginia-node/living-innovation-lab.html",
+    "https://cec.gmu.edu/news/2023-07/george-mason-university-improving-next-gen-wireless-networks",
+    "https://iucrc.nsf.gov/centers/center-for-wireless-innovation-towards-secure-pervasive-efficient-and-resilient-next-g-networks-wisper"
+   ]
+  },
+  {
+   "id": "u-arizona",
+   "name": "University of Arizona",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "WISPER partner university.",
+   "role": "",
+   "org": null,
+   "address": "Tucson, AZ",
+   "lat": 32.2319,
+   "lng": -110.9501,
+   "precision": "Campus",
+   "sources": [
+    "https://iucrc.nsf.gov/centers/center-for-wireless-innovation-towards-secure-pervasive-efficient-and-resilient-next-g-networks-wisper"
+   ]
+  },
+  {
+   "id": "mit",
+   "name": "MIT",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance contributing member. Collaborates with Lingjia Liu's lab on AI-native wireless.",
+   "role": "",
+   "org": null,
+   "address": "Cambridge, MA",
+   "lat": 42.3601,
+   "lng": -71.0942,
+   "precision": "Campus",
+   "sources": [
+    "https://nextgalliance.org/contributing-members",
+    "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html"
+   ]
+  },
+  {
+   "id": "duke",
+   "name": "Duke University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "Collaborates with Lingjia Liu's lab on AI-native wireless prototypes.",
+   "role": "",
+   "org": null,
+   "address": "Durham, NC",
+   "lat": 36.0014,
+   "lng": -78.9382,
+   "precision": "Campus",
+   "sources": [
+    "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html"
+   ]
+  },
+  {
+   "id": "nsf",
+   "name": "National Science Foundation (NSF)",
+   "short": "NSF",
+   "category": "Government & funders",
+   "region": "Alexandria",
+   "description": "Headquartered in Alexandria since 2017. Staying in the city but moving from 2415 Eisenhower Ave to 401 Dulany St (the USPTO campus) as HUD takes over its old building. Main federal funder of NextG research: RINGS, SpectrumX and the WISPER industry-university centre.",
+   "role": "",
+   "org": null,
+   "address": "401 Dulany St, Alexandria, VA 22314 (relocating from 2415 Eisenhower Ave)",
+   "lat": 38.8027,
+   "lng": -77.0644,
+   "precision": "Street address",
+   "sources": [
+    "https://www.alexandriava.gov/go/7624",
+    "https://www.costar.com/article/1362686323",
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581",
+    "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
+   ]
+  },
+  {
+   "id": "ida",
+   "name": "Institute for Defense Analyses (IDA)",
+   "short": "IDA",
+   "category": "Government & funders",
+   "region": "Alexandria",
+   "description": "Federally funded research centre at 4850 Mark Center Drive, Alexandria. Has published analysis for the DoD on the implications of 5G and next-generation mobile networks.",
+   "role": "",
+   "org": null,
+   "address": "4850 Mark Center Dr, Alexandria, VA 22311",
+   "lat": 38.8404,
+   "lng": -77.1103,
+   "precision": "Street address",
+   "sources": [
+    "https://ida.org/research-and-publications/publications/all/i/im/implications-and-considerations-of-5th-generation"
+   ]
+  },
+  {
+   "id": "futureg",
+   "name": "DoD FutureG Office (OUSD R&E)",
+   "short": "DoD FutureG Office",
+   "category": "Government & funders",
+   "region": "Northern Virginia",
+   "description": "Pentagon office responsible for strategic assessment and R&D of FutureG (5G/6G). Funds work through the National Spectrum Consortium and direct awards, such as Virginia Tech's $9M Mobile dMIMO project.",
+   "role": "",
+   "org": null,
+   "address": "The Pentagon, Arlington, VA",
+   "lat": 38.8719,
+   "lng": -77.0563,
+   "precision": "Street address",
+   "sources": [
+    "https://rt.cto.mil/?p=11714",
+    "https://news.vt.edu/articles/2023/10/eng-futuregaward.html",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "ntia",
+   "name": "NTIA (Dept of Commerce)",
+   "short": "NTIA",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "description": "Runs the Public Wireless Supply Chain Innovation Fund, which funded the $42M ACCoRD O-RAN project and Virginia Tech O-RAN research. Supports SpectrumX.",
+   "role": "",
+   "org": null,
+   "address": "Herbert C. Hoover Building, 1401 Constitution Ave NW, Washington, DC",
+   "lat": 38.8936,
+   "lng": -77.0327,
+   "precision": "Street address",
+   "sources": [
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html",
+    "https://cyberinitiative.org/about/cci-and-the-ntia.html",
+    "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
+   ]
+  },
+  {
+   "id": "nist",
+   "name": "NIST",
+   "short": "",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "description": "Federal partner in the NSF RINGS NextG programme.",
+   "role": "",
+   "org": null,
+   "address": "Gaithersburg, MD",
+   "lat": 39.1336,
+   "lng": -77.2167,
+   "precision": "Campus",
+   "sources": [
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+   ]
+  },
+  {
+   "id": "fcc",
+   "name": "FCC",
+   "short": "",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "description": "Supports the NSF Spectrum Innovation Initiative behind SpectrumX.",
+   "role": "",
+   "org": null,
+   "address": "45 L St NE, Washington, DC",
+   "lat": 38.9035,
+   "lng": -77.008,
+   "precision": "Street address",
+   "sources": [
+    "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
+   ]
+  },
+  {
+   "id": "cova",
+   "name": "Commonwealth of Virginia",
+   "short": "",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "description": "Funds the Commonwealth Cyber Initiative and invested in Virginia Tech's Alexandria campus, part of the Amazon HQ2 talent package.",
+   "role": "",
+   "org": null,
+   "address": "Richmond, VA",
+   "lat": 37.5385,
+   "lng": -77.4343,
+   "precision": "City",
+   "sources": [
+    "https://rga.lis.virginia.gov/Published/2024/RD545/PDF",
+    "https://iac.vt.edu/research-areas/next-g-wireless.html",
+    "https://wtop.com/alexandria/2025/02/virginia-tech-innovation-building-gets-ready-to-open"
+   ]
+  },
+  {
+   "id": "aedp",
+   "name": "Alexandria Economic Development Partnership (AEDP)",
+   "short": "AEDP",
+   "category": "Economic development & place",
+   "region": "Alexandria",
+   "description": "The city's economic development partnership. Championed the Virginia Tech campus and Potomac Yard Metro, and worked to keep NSF in Alexandria.",
+   "role": "",
+   "org": null,
+   "address": "Alexandria, VA",
+   "lat": 38.8048,
+   "lng": -77.0469,
+   "precision": "City",
+   "sources": [
+    "https://virginiabusiness.com/potomac-yard-vt-metro-station-opens-in-alexandria/",
+    "https://www.alexandriava.gov/go/7624"
+   ]
+  },
+  {
+   "id": "jbg",
+   "name": "JBG SMITH",
+   "short": "",
+   "category": "Economic development & place",
+   "region": "Northern Virginia",
+   "description": "Developer of National Landing and North Potomac Yard alongside Virginia Tech. Holds licensed CBRS spectrum covering Arlington and the City of Alexandria, deployed with Federated Wireless.",
+   "role": "",
+   "org": null,
+   "address": "National Landing, Arlington, VA",
+   "lat": 38.858,
+   "lng": -77.051,
+   "precision": "City",
+   "sources": [
+    "https://www.citybiz.co/article/324238/jbg-smith-and-federated-wireless-announce-an-innovative-private-wireless-partnership/",
+    "https://vtx.vt.edu/articles/2021/09/innovationcampus-groundbreaking.html"
+   ]
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon (HQ2)",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Northern Virginia",
+   "description": "HQ2 in National Landing, two miles from the Virginia Tech campus. The campus was part of the package that won HQ2 for Northern Virginia.",
+   "role": "",
+   "org": null,
+   "address": "National Landing, Arlington, VA",
+   "lat": 38.8603,
+   "lng": -77.056,
+   "precision": "City",
+   "sources": [
+    "https://wtop.com/alexandria/2025/02/virginia-tech-innovation-building-gets-ready-to-open"
+   ]
+  },
+  {
+   "id": "ericsson",
+   "name": "Ericsson",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member, RINGS partner, WISPER industry member, ACCoRD partner and Open Generation Consortium member.",
+   "role": "",
+   "org": null,
+   "address": "Stockholm, Sweden",
+   "lat": 59.3293,
+   "lng": 18.0686,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581",
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html",
+    "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+   ]
+  },
+  {
+   "id": "nokia",
+   "name": "Nokia / Nokia Federal / Bell Labs",
+   "short": "Nokia",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member, RINGS partner, ACCoRD partner. Nokia Federal leads a RAPID ISAC award via the National Spectrum Consortium. Bell Labs gave the first Innovation Campus distinguished lecture on 6G.",
+   "role": "",
+   "org": null,
+   "address": "Espoo, Finland",
+   "lat": 60.2055,
+   "lng": 24.6559,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581",
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
+    "https://news.vt.edu/articles/2024/03/innovation-campus-lecture-series-01.html"
+   ]
+  },
+  {
+   "id": "samsung",
+   "name": "Samsung",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member and ACCoRD partner.",
+   "role": "",
+   "org": null,
+   "address": "Suwon, South Korea",
+   "lat": 37.2636,
+   "lng": 127.0286,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+   ]
+  },
+  {
+   "id": "qualcomm",
+   "name": "Qualcomm",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member and RINGS partner.",
+   "role": "",
+   "org": null,
+   "address": "San Diego, CA",
+   "lat": 32.7157,
+   "lng": -117.1611,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+   ]
+  },
+  {
+   "id": "interdigital",
+   "name": "InterDigital",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member. Chairs the WISPER Industry Advisory Board.",
+   "role": "",
+   "org": null,
+   "address": "Wilmington, DE",
+   "lat": 39.7391,
+   "lng": -75.5398,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+   ]
+  },
+  {
+   "id": "keysight",
+   "name": "Keysight Technologies",
+   "short": "Keysight",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member and WISPER industry member.",
+   "role": "",
+   "org": null,
+   "address": "Santa Rosa, CA",
+   "lat": 38.4405,
+   "lng": -122.7144,
+   "precision": "City",
+   "sources": [
+    "https://convergedigest.com/atis-builds-its-6g-alliance/",
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+   ]
+  },
+  {
+   "id": "intel",
+   "name": "Intel",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member, RINGS partner and ACCoRD partner.",
+   "role": "",
+   "org": null,
+   "address": "Santa Clara, CA",
+   "lat": 37.3541,
+   "lng": -121.9552,
+   "precision": "City",
+   "sources": [
+    "https://convergedigest.com/atis-builds-its-6g-alliance/",
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581",
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+   ]
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member and RINGS partner.",
+   "role": "",
+   "org": null,
+   "address": "Cupertino, CA",
+   "lat": 37.3349,
+   "lng": -122.009,
+   "precision": "City",
+   "sources": [
+    "https://convergedigest.com/atis-builds-its-6g-alliance/",
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+   ]
+  },
+  {
+   "id": "google",
+   "name": "Google",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member and RINGS partner.",
+   "role": "",
+   "org": null,
+   "address": "Mountain View, CA",
+   "lat": 37.422,
+   "lng": -122.0841,
+   "precision": "City",
+   "sources": [
+    "https://convergedigest.com/atis-builds-its-6g-alliance/",
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+   ]
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member and RINGS partner.",
+   "role": "",
+   "org": null,
+   "address": "Redmond, WA",
+   "lat": 47.674,
+   "lng": -122.1215,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+   ]
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Research partner of Virginia Tech on AI for wireless (GPU-accelerated RAN). Hosted Lingjia Liu at GTC Washington DC 2025. Partner in Booz Allen's AI WIN initiative.",
+   "role": "",
+   "org": null,
+   "address": "Santa Clara, CA",
+   "lat": 37.3707,
+   "lng": -121.9638,
+   "precision": "City",
+   "sources": [
+    "https://blogs.nvidia.com/blog/ai-5g-research/",
+    "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html",
+    "https://www.executivebiz.com/?p=470581"
+   ]
+  },
+  {
+   "id": "mavenir",
+   "name": "Mavenir",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "ACCoRD O-RAN project partner.",
+   "role": "",
+   "org": null,
+   "address": "Richardson, TX",
+   "lat": 32.9483,
+   "lng": -96.7299,
+   "precision": "City",
+   "sources": [
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+   ]
+  },
+  {
+   "id": "fujitsu",
+   "name": "Fujitsu",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "ACCoRD O-RAN project partner.",
+   "role": "",
+   "org": null,
+   "address": "Tokyo, Japan",
+   "lat": 35.6762,
+   "lng": 139.6503,
+   "precision": "City",
+   "sources": [
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+   ]
+  },
+  {
+   "id": "parallel",
+   "name": "Parallel Wireless",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Leads a RAPID ISAC award with Andro and Virginia Tech (Nov 2026).",
+   "role": "",
+   "org": null,
+   "address": "Nashua, NH",
+   "lat": 42.7654,
+   "lng": -71.4676,
+   "precision": "City",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+   ]
+  },
+  {
+   "id": "deepsig",
+   "name": "DeepSig",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Northern Virginia",
+   "description": "Arlington-based AI-native wireless software company. Awarded FutureG work through the National Spectrum Consortium, and part of the Nokia Federal RAPID team.",
+   "role": "",
+   "org": null,
+   "address": "Arlington, VA",
+   "lat": 38.883,
+   "lng": -77.103,
+   "precision": "City",
+   "sources": [
+    "https://rt.cto.mil/deepsig-and-srs-chosen-by-futureg",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "federated",
+   "name": "Federated Wireless",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Northern Virginia",
+   "description": "Arlington-based CBRS and private wireless provider. Partner of JBG SMITH on private wireless across National Landing and Alexandria.",
+   "role": "",
+   "org": null,
+   "address": "Arlington, VA",
+   "lat": 38.88,
+   "lng": -77.1068,
+   "precision": "City",
+   "sources": [
+    "https://www.citybiz.co/article/324238/jbg-smith-and-federated-wireless-announce-an-innovative-private-wireless-partnership/"
+   ]
+  },
+  {
+   "id": "comsovereign",
+   "name": "COMSovereign",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Donated commercial-grade O-RAN and 5G/NextG testbeds to the CCI Living Innovation Lab.",
+   "role": "",
+   "org": null,
+   "address": "Dallas, TX",
+   "lat": 32.78,
+   "lng": -96.8,
+   "precision": "City",
+   "sources": [
+    "https://cyberinitiative.org/about/regional-structure/northern-virginia-node/living-innovation-lab.html"
+   ]
+  },
+  {
+   "id": "att",
+   "name": "AT&T",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member. Co-leads ACCoRD. Part of the Nokia Federal RAPID team.",
+   "role": "",
+   "org": null,
+   "address": "Dallas, TX",
+   "lat": 32.7767,
+   "lng": -96.797,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "verizon",
+   "name": "Verizon",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member, ACCoRD co-lead, Open Generation Consortium member.",
+   "role": "",
+   "org": null,
+   "address": "New York, NY",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html",
+    "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+   ]
+  },
+  {
+   "id": "tmobile",
+   "name": "T-Mobile",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "Next G Alliance founding member.",
+   "role": "",
+   "org": null,
+   "address": "Bellevue, WA",
+   "lat": 47.6101,
+   "lng": -122.2015,
+   "precision": "City",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+   ]
+  },
+  {
+   "id": "lockheed",
+   "name": "Lockheed Martin",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Washington DC & Maryland",
+   "description": "Industry partner on Virginia Tech's Mobile dMIMO FutureG project (Advanced Technology Laboratories). WISPER industry member.",
+   "role": "",
+   "org": null,
+   "address": "Bethesda, MD",
+   "lat": 39.0247,
+   "lng": -77.1426,
+   "precision": "City",
+   "sources": [
+    "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html",
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+   ]
+  },
+  {
+   "id": "northrop",
+   "name": "Northrop Grumman",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Northern Virginia",
+   "description": "WISPER industry member. Funds quantum research at the Alexandria institute.",
+   "role": "",
+   "org": null,
+   "address": "Falls Church, VA",
+   "lat": 38.8582,
+   "lng": -77.2195,
+   "precision": "City",
+   "sources": [
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
+    "https://iac.vt.edu/research-areas.html"
+   ]
+  },
+  {
+   "id": "rtx",
+   "name": "RTX",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Northern Virginia",
+   "description": "WISPER industry member.",
+   "role": "",
+   "org": null,
+   "address": "Arlington, VA",
+   "lat": 38.8958,
+   "lng": -77.071,
+   "precision": "City",
+   "sources": [
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+   ]
+  },
+  {
+   "id": "bae",
+   "name": "BAE Systems",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "description": "WISPER industry member.",
+   "role": "",
+   "org": null,
+   "address": "Farnborough, UK",
+   "lat": 51.2946,
+   "lng": -0.7539,
+   "precision": "City",
+   "sources": [
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+   ]
+  },
+  {
+   "id": "gdms",
+   "name": "General Dynamics Mission Systems",
+   "short": "GD Mission Systems",
+   "category": "Defence & integrators",
+   "region": "Northern Virginia",
+   "description": "WISPER industry member.",
+   "role": "",
+   "org": null,
+   "address": "Fairfax, VA",
+   "lat": 38.8462,
+   "lng": -77.3064,
+   "precision": "City",
+   "sources": [
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+   ]
+  },
+  {
+   "id": "booz",
+   "name": "Booz Allen Hamilton",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Northern Virginia",
+   "description": "Collaborates with CCI and Virginia Tech on NTIA-funded O-RAN projects. Runs the AI Wireless Innovation Networks (AI WIN) initiative with NVIDIA and MITRE.",
+   "role": "",
+   "org": null,
+   "address": "McLean, VA",
+   "lat": 38.9246,
+   "lng": -77.2236,
+   "precision": "City",
+   "sources": [
+    "https://news.vt.edu/articles/2023/12/ntia-innovation-fund-showcases-vt-cci-researchers.html",
+    "https://www.executivebiz.com/?p=470581"
+   ]
+  },
+  {
+   "id": "mitre",
+   "name": "MITRE",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Northern Virginia",
+   "description": "Partner in the AI WIN spectrum demonstrations.",
+   "role": "",
+   "org": null,
+   "address": "McLean, VA",
+   "lat": 38.9238,
+   "lng": -77.2133,
+   "precision": "City",
+   "sources": [
+    "https://www.executivebiz.com/?p=470581"
+   ]
+  },
+  {
+   "id": "peraton",
+   "name": "Peraton Labs",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "description": "RAPID ISAC awardee via the National Spectrum Consortium.",
+   "role": "",
+   "org": null,
+   "address": "Basking Ridge, NJ",
+   "lat": 40.7062,
+   "lng": -74.5493,
+   "precision": "City",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "nga",
+   "name": "ATIS Next G Alliance",
+   "short": "Next G Alliance",
+   "category": "Associations & alliances",
+   "region": "Washington DC & Maryland",
+   "description": "ATIS initiative (Washington DC) for North American 6G leadership. Publishes the Roadmap to 6G. Membership tiers: Full, Contributing, Government and Strategic. VT-ARC runs its Technical Program Office.",
+   "role": "",
+   "org": null,
+   "address": "ATIS, 1200 G St NW, Washington, DC",
+   "lat": 38.8983,
+   "lng": -77.0289,
+   "precision": "Street address",
+   "sources": [
+    "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
+    "https://nextgalliance.org/faqs/",
+    "https://atis.org/press-releases/atis-next-g-alliance-names-vt-arc-as-technical-program-office-major-role-in-advancing-6g/"
+   ]
+  },
+  {
+   "id": "oran",
+   "name": "O-RAN Alliance",
+   "short": "",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "description": "Global alliance for open, intelligent RAN. Designated CCI's Arlington testbed as a North American OTIC.",
+   "role": "",
+   "org": null,
+   "address": "Bonn area, Germany",
+   "lat": 50.7374,
+   "lng": 7.0982,
+   "precision": "City",
+   "sources": [
+    "https://ccixgtestbed.research.vt.edu/cci-designated-as-otic.html"
+   ]
+  },
+  {
+   "id": "nsc",
+   "name": "National Spectrum Consortium",
+   "short": "",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "description": "Roughly 400-member consortium holding the DoD's $2.5B Spectrum Forward OTA. Channels FutureG prototype awards to members.",
+   "role": "",
+   "org": null,
+   "address": "Summerville, SC",
+   "lat": 33.0185,
+   "lng": -80.1756,
+   "precision": "City",
+   "sources": [
+    "https://www.ati.org/success-stories/nsc-develops-working-groups-to-focus-on-spectrum-and-5g/",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "wisper",
+   "name": "WISPER (NSF Industry-University Center)",
+   "short": "WISPER",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "description": "NSF IUCRC for secure, resilient Next G networks, led by Virginia Tech with George Mason and the University of Arizona. Industry members fund and steer projects.",
+   "role": "",
+   "org": null,
+   "address": "Led from Virginia Tech, Blacksburg, VA",
+   "lat": 37.23,
+   "lng": -80.42,
+   "precision": "Campus",
+   "sources": [
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
+    "https://iucrc.nsf.gov/centers/center-for-wireless-innovation-towards-secure-pervasive-efficient-and-resilient-next-g-networks-wisper"
+   ]
+  },
+  {
+   "id": "ogc",
+   "name": "Open Generation Consortium",
+   "short": "",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "description": "5G/drone innovation consortium. Virginia Tech is a partner.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+   ]
+  },
+  {
+   "id": "ctia",
+   "name": "CTIA",
+   "short": "",
+   "category": "Associations & alliances",
+   "region": "Washington DC & Maryland",
+   "description": "US wireless industry association. Member of the Open Generation Consortium.",
+   "role": "",
+   "org": null,
+   "address": "1400 16th St NW, Washington, DC",
+   "lat": 38.9087,
+   "lng": -77.0365,
+   "precision": "Street address",
+   "sources": [
+    "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+   ]
+  },
+  {
+   "id": "rings",
+   "name": "NSF RINGS",
+   "short": "",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "description": "Resilient & Intelligent NextG Systems: about $40M public-private research programme run by NSF with DoD, NIST and industry partners.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+   ]
+  },
+  {
+   "id": "spectrumx",
+   "name": "SpectrumX",
+   "short": "",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "description": "NSF's $25M national spectrum innovation centre, with NTIA and FCC support.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
+   ]
+  },
+  {
+   "id": "accord",
+   "name": "ACCoRD O-RAN project",
+   "short": "ACCoRD",
+   "category": "Programmes & testbeds",
+   "region": "Northern Virginia",
+   "description": "$42M NTIA-funded O-RAN testing project announced at the Virginia Tech Research Center, Arlington. CCI xG Testbed is its DC-area home.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+   ]
+  },
+  {
+   "id": "dmimo",
+   "name": "Mobile dMIMO (FutureG)",
+   "short": "Mobile dMIMO",
+   "category": "Programmes & testbeds",
+   "region": "Alexandria",
+   "description": "$9M DoD FutureG project led by Virginia Tech, now worked on in the Alexandria wireless lab with Lockheed Martin.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://news.vt.edu/articles/2023/10/eng-futuregaward.html",
+    "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+   ]
+  },
+  {
+   "id": "rapid",
+   "name": "RAPID ISAC awards",
+   "short": "RAPID ISAC",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "description": "Eleven awards (over $50M, Nov 2026) from the National Spectrum Consortium and the FutureG Office for integrated sensing and communications prototypes for 5G/6G.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+   ]
+  },
+  {
+   "id": "aiwin",
+   "name": "AI WIN",
+   "short": "",
+   "category": "Programmes & testbeds",
+   "region": "Northern Virginia",
+   "description": "Booz Allen's AI Wireless Innovation Networks initiative with NVIDIA and MITRE, focused on spectrum agility for 6G.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.executivebiz.com/?p=470581"
+   ]
+  },
+  {
+   "id": "liu",
+   "name": "Lingjia Liu",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "description": "Professor, core faculty at the Alexandria institute and director (now co-director) of Wireless@Virginia Tech. Leads Mobile dMIMO. Research: 6G, AI for wireless, O-RAN, spectrum sharing.",
+   "role": "Professor; co-director, Wireless@Virginia Tech",
+   "org": "vt-iac",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://iac.vt.edu/research-areas/next-g-wireless.html",
+    "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html",
+    "https://news.vt.edu/articles/2023/10/eng-futuregaward.html"
+   ]
+  },
+  {
+   "id": "saad",
+   "name": "Walid Saad",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "description": "Professor and Next-G wireless lead at the Alexandria institute. Leads the NEWS group.",
+   "role": "Professor; Next-G wireless lead",
+   "org": "vt-iac",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://iac.vt.edu/research-areas/next-g-wireless.html"
+   ]
+  },
+  {
+   "id": "cameron",
+   "name": "Kirk Cameron",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "description": "Faculty lead and managing director, Virginia Tech Institute for Advanced Computing.",
+   "role": "Managing director, VT Institute for Advanced Computing",
+   "org": "vt-iac",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://virginiabusiness.com/virginia-tech-opens-academic-building-alexandria/"
+   ]
+  },
+  {
+   "id": "collins",
+   "name": "Lance Collins",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "description": "Virginia Tech's Washington DC area vice president.",
+   "role": "Vice president, Washington DC area, Virginia Tech",
+   "org": "vt-iac",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://virginiabusiness.com/virginia-tech-opens-academic-building-alexandria/"
+   ]
+  },
+  {
+   "id": "burger",
+   "name": "Eric Burger",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Chair of the Next G Alliance Research Council and its Technical Program Director. Research professor at CCI and Virginia Tech.",
+   "role": "Chair, Next G Alliance Research Council",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://wirelessinnovation.org/assets/International-spectrum-sharing-workshop-2024/Wednesday%20Buger%20for%20distro.pdf"
+   ]
+  },
+  {
+   "id": "dasilva",
+   "name": "Luiz DaSilva",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Executive director of CCI and director of WISPER.",
+   "role": "Executive director, CCI; director, WISPER",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
+    "https://rga.lis.virginia.gov/Published/2024/RD545/PDF"
+   ]
+  },
+  {
+   "id": "rondeau",
+   "name": "Tom Rondeau",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Principal Director, DoD FutureG Office.",
+   "role": "Principal Director, DoD FutureG Office",
+   "org": "futureg",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+   ]
+  },
+  {
+   "id": "landrum",
+   "name": "Stephanie Landrum",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "description": "President and CEO, Alexandria Economic Development Partnership.",
+   "role": "President & CEO, AEDP",
+   "org": "aedp",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://virginiabusiness.com/potomac-yard-vt-metro-station-opens-in-alexandria/"
+   ]
+  },
+  {
+   "id": "gazda",
+   "name": "Robert Gazda",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Senior director of wireless research at InterDigital. Inaugural chair of the WISPER Industry Advisory Board.",
+   "role": "Senior director of wireless research, InterDigital",
+   "org": "interdigital",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+   ]
+  },
+  {
+   "id": "anderson",
+   "name": "Gus Anderson",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Fellow, Lockheed Martin Advanced Technology Laboratories. Industry lead on Mobile dMIMO.",
+   "role": "Fellow, Lockheed Martin ATL",
+   "org": "lockheed",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+   ]
+  },
+  {
+   "id": "jakubisin",
+   "name": "Daniel Jakubisin",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Research associate professor, VT National Security Institute. Works on Mobile dMIMO.",
+   "role": "Research associate professor, VT NSI",
+   "org": "vt-nsi",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+   ]
+  },
+  {
+   "id": "griffith",
+   "name": "Jaydee Griffith",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Managing Director of ATIS' Next G Alliance. Previously Chief Technologist for NTIA's $1.5B Public Wireless Supply Chain Innovation Fund, and earlier at NTIA's Institute for Telecommunication Sciences working on 5G architecture standards and testing.",
+   "role": "Managing Director, ATIS Next G Alliance",
+   "org": "nga",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/jaydee-griffith",
+    "https://tmt.knect365.com/network-x-demo/speakers/jaydee-griffith",
+    "https://nextgalliance.org"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "att",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "verizon",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "tmobile",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "ericsson",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "nokia",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "samsung",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "qualcomm",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "interdigital",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "microsoft",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology"
+  },
+  {
+   "from": "intel",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://convergedigest.com/atis-builds-its-6g-alliance/"
+  },
+  {
+   "from": "keysight",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://convergedigest.com/atis-builds-its-6g-alliance/"
+  },
+  {
+   "from": "apple",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://convergedigest.com/atis-builds-its-6g-alliance/"
+  },
+  {
+   "from": "google",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://convergedigest.com/atis-builds-its-6g-alliance/"
+  },
+  {
+   "from": "mit",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Contributing member",
+   "source": "https://nextgalliance.org/contributing-members"
+  },
+  {
+   "from": "cci",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://cyberinitiative.org/content/dam/cci_research_vt_edu/one-pagers-andbrochures-for-website-downloads/CCI%20xG%20Testbed%202024.pdf"
+  },
+  {
+   "from": "vt-arc",
+   "to": "nga",
+   "type": "Partnership / project",
+   "label": "Runs the Technical Program Office",
+   "source": "https://atis.org/press-releases/atis-next-g-alliance-names-vt-arc-as-technical-program-office-major-role-in-advancing-6g/"
+  },
+  {
+   "from": "cci",
+   "to": "oran",
+   "type": "Membership",
+   "label": "Member; runs a North American OTIC",
+   "source": "https://ccixgtestbed.research.vt.edu/cci-designated-as-otic.html"
+  },
+  {
+   "from": "gmu",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "Part of the OTIC team; leads CCI NoVA node",
+   "source": "https://cec.gmu.edu/news/2023-07/george-mason-university-improving-next-gen-wireless-networks"
+  },
+  {
+   "from": "cci",
+   "to": "nsc",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://cyberinitiative.org/content/dam/cci_research_vt_edu/one-pagers-andbrochures-for-website-downloads/CCI%20xG%20Testbed%202024.pdf"
+  },
+  {
+   "from": "nokia",
+   "to": "nsc",
+   "type": "Membership",
+   "label": "Member (RAPID awardee)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "parallel",
+   "to": "nsc",
+   "type": "Membership",
+   "label": "Member (RAPID awardee)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "peraton",
+   "to": "nsc",
+   "type": "Membership",
+   "label": "Member (RAPID awardee)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "deepsig",
+   "to": "nsc",
+   "type": "Contract or award",
+   "label": "Member (FutureG OCUDU award)",
+   "source": "https://rt.cto.mil/deepsig-and-srs-chosen-by-futureg"
+  },
+  {
+   "from": "futureg",
+   "to": "nsc",
+   "type": "Funding",
+   "label": "Spectrum Forward OTA ($2.5B)",
+   "source": "https://www.ati.org/success-stories/nsc-develops-working-groups-to-focus-on-spectrum-and-5g/"
+  },
+  {
+   "from": "ericsson",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Industry member",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "interdigital",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Industry member",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "keysight",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Industry member",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "lockheed",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Industry member",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "northrop",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Industry member",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "rtx",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Industry member",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "bae",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Industry member",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "gdms",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Industry member",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "wireless-vt",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Lead university",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "gmu",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Partner university",
+   "source": "https://iucrc.nsf.gov/centers/center-for-wireless-innovation-towards-secure-pervasive-efficient-and-resilient-next-g-networks-wisper"
+  },
+  {
+   "from": "u-arizona",
+   "to": "wisper",
+   "type": "Membership",
+   "label": "Partner university",
+   "source": "https://iucrc.nsf.gov/centers/center-for-wireless-innovation-towards-secure-pervasive-efficient-and-resilient-next-g-networks-wisper"
+  },
+  {
+   "from": "nsf",
+   "to": "wisper",
+   "type": "Funding",
+   "label": "NSF IUCRC programme",
+   "source": "https://iucrc.nsf.gov/centers/center-for-wireless-innovation-towards-secure-pervasive-efficient-and-resilient-next-g-networks-wisper"
+  },
+  {
+   "from": "wireless-vt",
+   "to": "ogc",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+  },
+  {
+   "from": "ericsson",
+   "to": "ogc",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+  },
+  {
+   "from": "nokia",
+   "to": "ogc",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+  },
+  {
+   "from": "verizon",
+   "to": "ogc",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+  },
+  {
+   "from": "ctia",
+   "to": "ogc",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+  },
+  {
+   "from": "nsf",
+   "to": "rings",
+   "type": "Funding",
+   "label": "Leads (~$40M)",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "nsf",
+   "to": "spectrumx",
+   "type": "Funding",
+   "label": "Funds ($25M)",
+   "source": "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
+  },
+  {
+   "from": "nsf",
+   "to": "wireless-vt",
+   "type": "Funding",
+   "label": "$800K NextG grant (Liu)",
+   "source": "https://www.eurekalert.org/news-releases/1005697"
+  },
+  {
+   "from": "ntia",
+   "to": "spectrumx",
+   "type": "Funding",
+   "label": "Supports",
+   "source": "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
+  },
+  {
+   "from": "fcc",
+   "to": "spectrumx",
+   "type": "Funding",
+   "label": "Supports",
+   "source": "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
+  },
+  {
+   "from": "nist",
+   "to": "rings",
+   "type": "Funding",
+   "label": "Federal partner",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "futureg",
+   "to": "rings",
+   "type": "Funding",
+   "label": "Federal partner (OUSD R&E)",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "futureg",
+   "to": "dmimo",
+   "type": "Funding",
+   "label": "$9M award",
+   "source": "https://news.vt.edu/articles/2023/10/eng-futuregaward.html"
+  },
+  {
+   "from": "futureg",
+   "to": "rapid",
+   "type": "Funding",
+   "label": "Over $50M with NSC",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "ntia",
+   "to": "accord",
+   "type": "Funding",
+   "label": "$42M Innovation Fund",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "ntia",
+   "to": "wireless-vt",
+   "type": "Funding",
+   "label": "Innovation Fund O-RAN grants",
+   "source": "https://cyberinitiative.org/about/cci-and-the-ntia.html"
+  },
+  {
+   "from": "ntia",
+   "to": "booz",
+   "type": "Funding",
+   "label": "Innovation Fund project with CCI/VT",
+   "source": "https://news.vt.edu/articles/2023/12/ntia-innovation-fund-showcases-vt-cci-researchers.html"
+  },
+  {
+   "from": "cova",
+   "to": "cci",
+   "type": "Funding",
+   "label": "State funding",
+   "source": "https://rga.lis.virginia.gov/Published/2024/RD545/PDF"
+  },
+  {
+   "from": "cova",
+   "to": "vt-iac",
+   "type": "Funding",
+   "label": "State investment",
+   "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
+  },
+  {
+   "from": "northrop",
+   "to": "vt-iac",
+   "type": "Funding",
+   "label": "Funds quantum research group",
+   "source": "https://iac.vt.edu/research-areas.html"
+  },
+  {
+   "from": "apple",
+   "to": "rings",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "ericsson",
+   "to": "rings",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "google",
+   "to": "rings",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "intel",
+   "to": "rings",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "microsoft",
+   "to": "rings",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "nokia",
+   "to": "rings",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "qualcomm",
+   "to": "rings",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+  },
+  {
+   "from": "att",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "Co-lead",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "verizon",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "Co-lead",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "ericsson",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "nokia",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "samsung",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "fujitsu",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "mavenir",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "intel",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "cci",
+   "to": "accord",
+   "type": "Partnership / project",
+   "label": "xG Testbed is its DC-area home",
+   "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+  },
+  {
+   "from": "vt-iac",
+   "to": "dmimo",
+   "type": "Partnership / project",
+   "label": "Lead (Alexandria wireless lab)",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "wireless-vt",
+   "to": "dmimo",
+   "type": "Partnership / project",
+   "label": "Research team",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "vt-nsi",
+   "to": "dmimo",
+   "type": "Partnership / project",
+   "label": "Research team",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "lockheed",
+   "to": "dmimo",
+   "type": "Partnership / project",
+   "label": "Industry partner",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "nsc",
+   "to": "rapid",
+   "type": "Partnership / project",
+   "label": "Runs the solicitation",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "parallel",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award lead",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "wireless-vt",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (with Parallel Wireless)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "nokia",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award lead (Nokia Federal)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "att",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Nokia Federal)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "deepsig",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Nokia Federal)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "peraton",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award lead",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "booz",
+   "to": "aiwin",
+   "type": "Partnership / project",
+   "label": "Leads",
+   "source": "https://www.executivebiz.com/?p=470581"
+  },
+  {
+   "from": "nvidia",
+   "to": "aiwin",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.executivebiz.com/?p=470581"
+  },
+  {
+   "from": "mitre",
+   "to": "aiwin",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.executivebiz.com/?p=470581"
+  },
+  {
+   "from": "vt-iac",
+   "to": "wireless-vt",
+   "type": "Partnership / project",
+   "label": "Close collaboration",
+   "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
+  },
+  {
+   "from": "vt-iac",
+   "to": "vt-nsi",
+   "type": "Partnership / project",
+   "label": "Close collaboration",
+   "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
+  },
+  {
+   "from": "vt-iac",
+   "to": "vt-arc",
+   "type": "Partnership / project",
+   "label": "Close collaboration",
+   "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
+  },
+  {
+   "from": "vt-iac",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "Close collaboration",
+   "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
+  },
+  {
+   "from": "booz",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "O-RAN collaboration",
+   "source": "https://news.vt.edu/articles/2023/12/ntia-innovation-fund-showcases-vt-cci-researchers.html"
+  },
+  {
+   "from": "comsovereign",
+   "to": "gmu",
+   "type": "Partnership / project",
+   "label": "Donated O-RAN/5G testbeds",
+   "source": "https://cyberinitiative.org/about/regional-structure/northern-virginia-node/living-innovation-lab.html"
+  },
+  {
+   "from": "nvidia",
+   "to": "wireless-vt",
+   "type": "Research together",
+   "label": "AI-for-5G research partnership",
+   "source": "https://blogs.nvidia.com/blog/ai-5g-research/"
+  },
+  {
+   "from": "nokia",
+   "to": "vt-iac",
+   "type": "Partnership / project",
+   "label": "Bell Labs 6G distinguished lecture",
+   "source": "https://news.vt.edu/articles/2024/03/innovation-campus-lecture-series-01.html"
+  },
+  {
+   "from": "mit",
+   "to": "vt-iac",
+   "type": "Research together",
+   "label": "AI-native wireless research",
+   "source": "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html"
+  },
+  {
+   "from": "duke",
+   "to": "vt-iac",
+   "type": "Research together",
+   "label": "AI-native wireless research",
+   "source": "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html"
+  },
+  {
+   "from": "jbg",
+   "to": "vt-iac",
+   "type": "Partnership / project",
+   "label": "Co-developer of Potomac Yard district",
+   "source": "https://vtx.vt.edu/articles/2021/09/innovationcampus-groundbreaking.html"
+  },
+  {
+   "from": "jbg",
+   "to": "federated",
+   "type": "Partnership / project",
+   "label": "CBRS private wireless across Arlington & Alexandria",
+   "source": "https://www.citybiz.co/article/324238/jbg-smith-and-federated-wireless-announce-an-innovative-private-wireless-partnership/"
+  },
+  {
+   "from": "aedp",
+   "to": "vt-iac",
+   "type": "Partnership / project",
+   "label": "Campus and Metro champion",
+   "source": "https://virginiabusiness.com/potomac-yard-vt-metro-station-opens-in-alexandria/"
+  },
+  {
+   "from": "aedp",
+   "to": "nsf",
+   "type": "Partnership / project",
+   "label": "Kept NSF headquarters in Alexandria",
+   "source": "https://www.alexandriava.gov/go/7624"
+  },
+  {
+   "from": "amazon",
+   "to": "vt-iac",
+   "type": "Partnership / project",
+   "label": "Campus part of the HQ2 talent package",
+   "source": "https://wtop.com/alexandria/2025/02/virginia-tech-innovation-building-gets-ready-to-open"
+  },
+  {
+   "from": "ida",
+   "to": "futureg",
+   "type": "Partnership / project",
+   "label": "FFRDC analysis of 5G for the DoD",
+   "source": "https://ida.org/research-and-publications/publications/all/i/im/implications-and-considerations-of-5th-generation"
+  },
+  {
+   "from": "liu",
+   "to": "vt-iac",
+   "type": "Role",
+   "label": "Core faculty",
+   "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
+  },
+  {
+   "from": "liu",
+   "to": "wireless-vt",
+   "type": "Role",
+   "label": "Director / co-director",
+   "source": "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html"
+  },
+  {
+   "from": "liu",
+   "to": "dmimo",
+   "type": "Role",
+   "label": "Project lead",
+   "source": "https://news.vt.edu/articles/2023/10/eng-futuregaward.html"
+  },
+  {
+   "from": "liu",
+   "to": "nvidia",
+   "type": "Role",
+   "label": "Spoke at GTC DC 2025",
+   "source": "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html"
+  },
+  {
+   "from": "saad",
+   "to": "vt-iac",
+   "type": "Role",
+   "label": "Next-G wireless lead",
+   "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
+  },
+  {
+   "from": "cameron",
+   "to": "vt-iac",
+   "type": "Role",
+   "label": "Managing director",
+   "source": "https://virginiabusiness.com/virginia-tech-opens-academic-building-alexandria/"
+  },
+  {
+   "from": "collins",
+   "to": "vt-iac",
+   "type": "Role",
+   "label": "VP, Washington DC area",
+   "source": "https://virginiabusiness.com/virginia-tech-opens-academic-building-alexandria/"
+  },
+  {
+   "from": "burger",
+   "to": "nga",
+   "type": "Role",
+   "label": "Chairs Research Council",
+   "source": "https://wirelessinnovation.org/assets/International-spectrum-sharing-workshop-2024/Wednesday%20Buger%20for%20distro.pdf"
+  },
+  {
+   "from": "burger",
+   "to": "cci",
+   "type": "Role",
+   "label": "Research professor",
+   "source": "https://wirelessinnovation.org/assets/International-spectrum-sharing-workshop-2024/Wednesday%20Buger%20for%20distro.pdf"
+  },
+  {
+   "from": "dasilva",
+   "to": "cci",
+   "type": "Role",
+   "label": "Executive director",
+   "source": "https://rga.lis.virginia.gov/Published/2024/RD545/PDF"
+  },
+  {
+   "from": "dasilva",
+   "to": "wisper",
+   "type": "Role",
+   "label": "Director",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "rondeau",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Principal Director",
+   "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+  },
+  {
+   "from": "landrum",
+   "to": "aedp",
+   "type": "Role",
+   "label": "President & CEO",
+   "source": "https://virginiabusiness.com/potomac-yard-vt-metro-station-opens-in-alexandria/"
+  },
+  {
+   "from": "gazda",
+   "to": "interdigital",
+   "type": "Role",
+   "label": "Senior director, wireless research",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "gazda",
+   "to": "wisper",
+   "type": "Role",
+   "label": "Industry Advisory Board chair",
+   "source": "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+  },
+  {
+   "from": "anderson",
+   "to": "lockheed",
+   "type": "Role",
+   "label": "Fellow, Advanced Technology Labs",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "anderson",
+   "to": "dmimo",
+   "type": "Role",
+   "label": "Industry lead",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "jakubisin",
+   "to": "vt-nsi",
+   "type": "Role",
+   "label": "Research associate professor",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "jakubisin",
+   "to": "dmimo",
+   "type": "Role",
+   "label": "Research team",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "liu",
+   "to": "jakubisin",
+   "type": "Research together",
+   "label": "Mobile dMIMO research team",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "liu",
+   "to": "anderson",
+   "type": "Research together",
+   "label": "Mobile dMIMO: VT lead and Lockheed industry lead",
+   "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+  },
+  {
+   "from": "liu",
+   "to": "saad",
+   "type": "Research together",
+   "label": "NextG and O-RAN applications at the Alexandria institute",
+   "source": "https://www.theroanokestar.com/2025/02/20/how-wireless-ai-are-driving-a-digital-twin-revolution/"
+  },
+  {
+   "from": "griffith",
+   "to": "nga",
+   "type": "Role",
+   "label": "Managing Director",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/jaydee-griffith"
+  },
+  {
+   "from": "griffith",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Former Chief Technologist, Innovation Fund",
+   "source": "https://tmt.knect365.com/network-x-demo/speakers/jaydee-griffith"
+  }
+ ]
+}

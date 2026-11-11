@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexandria 6G Ecosystem Map</title>
+<meta name="description" content="Who is shaping 6G around Alexandria, Virginia: organisations, people, associations, funding and research links, mapped and sourced.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css">
+<style>
+/* Layout: header, tab strip, three columns (filters | view | details). Geographic map opens on the DC region with Alexandria highlighted. */
+:root{
+  --bg:#f3f5f7; --panel:#ffffff; --ink:#18212b; --muted:#5b6774; --line:#d9dee4;
+  --accent:#0b6e74; --accent-soft:#d8eeee; --ring:#e6eaee;
+  --display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#11161c; --panel:#1a2129; --ink:#e7ecf1; --muted:#9aa6b2; --line:#2c3640; --accent:#4fc1c4; --accent-soft:#163a3d; --ring:#232c35; color-scheme:dark; }
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font:14px/1.45 var(--body);display:flex;flex-direction:column}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+header{padding:14px 20px 10px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:flex-end;border-bottom:1px solid var(--line);background:var(--panel)}
+header h1{font-size:22px}
+header p{margin:2px 0 0;color:var(--muted);max-width:64ch;font-size:13px}
+.stats{display:flex;gap:18px;margin-left:auto;font-variant-numeric:tabular-nums}
+.stat b{display:block;font:600 20px var(--display)}
+.stat span{color:var(--muted);font-size:12px}
+.tabs{display:flex;gap:4px;padding:8px 20px 0;background:var(--panel);border-bottom:1px solid var(--line);flex-wrap:wrap}
+.tab{border:1px solid transparent;border-bottom:none;background:none;color:var(--muted);font:600 13px var(--body);padding:8px 14px;border-radius:6px 6px 0 0;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--bg);color:var(--ink);border-color:var(--line);margin-bottom:-1px}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible,.node:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{flex:1;min-height:0;display:flex}
+aside{width:250px;flex:none;overflow:auto;padding:14px 16px;border-right:1px solid var(--line);background:var(--panel)}
+aside h3,.detail h3{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:14px 0 6px}
+aside h3:first-child{margin-top:0}
+.chk{display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer;font-size:13px}
+.chk input{margin:0;accent-color:var(--accent)}
+.sw{width:11px;height:11px;border-radius:50%;flex:none;display:inline-block}
+.sw.sq{border-radius:2px}
+.ek{display:inline-block;width:22px;height:0;border-top:2px solid;flex:none}
+select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+.hint{color:var(--muted);font-size:12px;margin:6px 0 0}
+.center{flex:1;min-width:0;position:relative;display:flex;flex-direction:column}
+.view{flex:1;min-height:0;display:none;position:relative}
+.view.on{display:block}
+#geo{position:absolute;inset:0}
+.leaflet-container{background:var(--bg);font:13px var(--body)}
+.geobar{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:500;display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:4px}
+.geobar button,.zoombtns button,.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;font:600 12.5px var(--body);padding:5px 10px;cursor:pointer}
+.geobar button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel)}
+.geonote{position:absolute;left:10px;bottom:22px;z-index:500;max-width:330px;font-size:11.5px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 9px}
+.pin{display:block;border-radius:50%;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.pin.sq{border-radius:3px}
+.clu{display:flex;align-items:center;justify-content:center;border-radius:50%;background:#0b6e74;color:#fff;font:600 12px var(--body);border:3px solid rgba(11,110,116,.3);background-clip:padding-box}
+.crumb{font-size:12px;color:var(--muted);padding:0 6px;align-self:center}
+#svg{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab}
+.ringlbl{font:600 11px var(--display);fill:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.node text{font:500 10.5px var(--body);fill:var(--ink);paint-order:stroke;stroke:var(--bg);stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+.node.alx text{font-weight:600}
+.node.person text{font-style:italic}
+.node{cursor:pointer}
+.dim{opacity:.12}
+.zoombtns{position:absolute;right:12px;top:12px;display:flex;flex-direction:column;gap:4px}
+.netnote{position:absolute;left:12px;bottom:10px;font-size:11.5px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 9px;max-width:320px}
+.detail{width:340px;flex:none;overflow:auto;padding:16px 18px;border-left:1px solid var(--line);background:var(--panel)}
+.detail h2{font-size:19px;margin-bottom:4px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--bg);border:1px solid var(--line);margin:2px 4px 2px 0}
+.pill.alx{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.conn{list-style:none;padding:0;margin:0}
+.conn li{padding:6px 0;border-bottom:1px solid var(--line);font-size:13px}
+.conn li:last-child{border-bottom:none}
+.go{all:unset;cursor:pointer;color:var(--accent);font-weight:600}
+.conn small{display:block;color:var(--muted)}
+.srcs{padding-left:16px;margin:4px 0;font-size:12.5px}
+.srcs a,.detail a{color:var(--accent);word-break:break-word}
+.scroll{position:absolute;inset:0;overflow:auto;padding:16px 20px}
+table{border-collapse:collapse;font-size:12.5px;background:var(--panel)}
+th,td{border:1px solid var(--line);padding:5px 8px;text-align:left}
+thead th{position:sticky;top:0;background:var(--panel);z-index:1}
+.mx th.col{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;font-weight:600;padding:8px 4px;vertical-align:bottom}
+.mx td.dot{text-align:center;color:var(--accent);font-size:14px;min-width:26px}
+.mx th.grp{text-align:center;font:600 12px var(--display);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.mx tbody th{font-weight:500;white-space:nowrap}
+.intro{max-width:72ch;color:var(--muted);margin:0 0 12px;font-size:13px}
+footer{font-size:11.5px;color:var(--muted);padding:6px 20px;border-top:1px solid var(--line);background:var(--panel)}
+footer a{color:var(--accent)}
+.err{padding:24px;color:var(--muted)}
+@media (max-width:980px){
+  main{flex-direction:column;overflow:auto}
+  aside,.detail{width:auto;border:none;border-bottom:1px solid var(--line)}
+  .center{min-height:560px}
+  .stats{margin-left:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Alexandria 6G Ecosystem Map</h1>
+    <p>Who is shaping 6G (NextG) around Alexandria, Virginia, and how they connect through research, funding, contracts and association membership. Every link carries its public source.</p>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" aria-selected="true" data-view="v-geo" id="t-geo">Geographic map</button>
+  <button class="tab" role="tab" aria-selected="false" data-view="v-net" id="t-net">Network</button>
+  <button class="tab" role="tab" aria-selected="false" data-view="v-mx" id="t-mx">Association membership</button>
+</div>
+<main>
+  <aside>
+    <h3>Search</h3>
+    <input type="search" id="q" placeholder="Organisation or person" aria-label="Search">
+    <h3>Categories</h3>
+    <div id="catf"></div>
+    <h3>Connection types</h3>
+    <div id="edgef"></div>
+    <label class="chk" style="margin-top:6px"><input type="checkbox" id="shared"> People linked by shared associations</label>
+    <p class="hint">Adds a link between two people when their organisations belong to the same association or consortium.</p>
+    <h3>Highlight an association</h3>
+    <select id="assocSel" aria-label="Highlight members of an association"><option value="">None</option></select>
+  </aside>
+  <div class="center">
+    <section class="view on" id="v-geo" role="tabpanel" aria-labelledby="t-geo">
+      <div id="geo" aria-label="Map of organisations by office location"></div>
+      <div class="geobar" role="group" aria-label="Map extent">
+        <button data-ext="world" aria-pressed="true">World</button><span class="crumb">›</span>
+        <button data-ext="us" aria-pressed="false">United States</button><span class="crumb">›</span>
+        <button data-ext="nova" aria-pressed="false">Northern Virginia &amp; DC</button><span class="crumb">›</span>
+        <button data-ext="alx" aria-pressed="false">Alexandria</button>
+      </div>
+      <div class="geonote" id="geonote"></div>
+    </section>
+    <section class="view" id="v-net" role="tabpanel" aria-labelledby="t-net">
+      <svg id="svg" role="img" aria-label="Network diagram with Alexandria at the centre and rings for Northern Virginia, Washington DC and beyond"></svg>
+      <div class="zoombtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button></div>
+      <div class="netnote">Rings show where each player's main presence sits, Alexandria at the centre. Node size = number of connections. ■ associations ◆ programmes.</div>
+    </section>
+    <section class="view" id="v-mx" role="tabpanel" aria-labelledby="t-mx">
+      <div class="scroll">
+        <p class="intro">Which organisations belong to which associations, alliances and consortia, and which shared programmes they take part in. ● = member or participant, $ = funder. Click a name for details.</p>
+        <table class="mx" id="mx"></table>
+      </div>
+    </section>
+  </div>
+  <div class="detail" id="detail"></div>
+</main>
+<footer id="foot">Compiled from public sources. Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script>
+const CATS = {
+  "Academic & research":{c:"#2f6fd0"}, "Government & funders":{c:"#7a4fc4"}, "Equipment & tech vendors":{c:"#d0662f"},
+  "Network operators":{c:"#c23d5e"}, "Defence & integrators":{c:"#5b7a2f"}, "Associations & alliances":{c:"#0b8a7a",sq:true},
+  "Programmes & testbeds":{c:"#b08a12",sq:true}, "Economic development & place":{c:"#8a5a3c"}, "Person":{c:"#6b7480"}
+};
+const ETYPES = {
+  "Membership":{c:"#0b8a7a",dash:null}, "Funding":{c:"#7a4fc4",dash:"5 4"}, "Contract or award":{c:"#b08a12",dash:null},
+  "Research together":{c:"#d0662f",dash:null}, "Partnership / project":{c:"#7f8a96",dash:null}, "Role":{c:"#7f8a96",dash:"1.5 3"},
+  "Shared association":{c:"#0b8a7a",dash:"2 4"}
+};
+const REGIONS = ["Alexandria","Northern Virginia","Washington DC & Maryland","Rest of US & global"];
+const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nm = n => n.short || n.name;
+const isGroup = n => n.category==="Associations & alliances";
+const isProg = n => n.category==="Programmes & testbeds";
+
+let NODES=[], LINKS=[], byId={}, SHARED=[];
+const state = {cats:new Set(Object.keys(CATS)), types:new Set(Object.keys(ETYPES).filter(t=>t!=="Shared association")), shared:false, q:"", assoc:"", sel:null, view:"v-geo"};
+
+fetch("data/ecosystem.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+ .then(boot).catch(e=>{ document.querySelector(".center").innerHTML=`<p class="err">The map data could not be loaded (${esc(e.message)}). If you opened this file directly, serve the folder over HTTP or view it on GitHub Pages.</p>`; });
+
+function boot(data){
+  NODES = data.nodes; byId = Object.fromEntries(NODES.map(n=>[n.id,n]));
+  LINKS = data.edges.filter(e=>byId[e.from]&&byId[e.to]).map(e=>({source:e.from,target:e.to,type:e.type,label:e.label,src:e.source}));
+  // people inherit their organisation's memberships; link people whose organisations share an association
+  const memberOf = id => new Set(LINKS.filter(l=>l.source===id && l.type==="Membership" && isGroup(byId[l.target])).map(l=>l.target));
+  const orgsOf = p => [p.org, ...LINKS.filter(l=>l.source===p.id && l.type==="Role").map(l=>l.target)].filter(Boolean);
+  const people = NODES.filter(n=>n.category==="Person");
+  const pa = Object.fromEntries(people.map(p=>{ const s=new Set(); orgsOf(p).forEach(o=>{ memberOf(o).forEach(a=>s.add(a)); if(isGroup(byId[o]||{})) s.add(o); }); return [p.id,s]; }));
+  for(let i=0;i<people.length;i++) for(let j=i+1;j<people.length;j++){
+    const a=people[i], b=people[j]; const common=[...pa[a.id]].filter(x=>pa[b.id].has(x));
+    if(common.length) SHARED.push({source:a.id,target:b.id,type:"Shared association",label:"Both connected to "+common.map(x=>nm(byId[x])).join(", "),derived:true});
+  }
+  NODES.forEach(n=>n.deg = LINKS.filter(l=>l.source===n.id||l.target===n.id).length);
+  document.getElementById("foot").innerHTML = `Compiled from public sources. Last updated ${esc(data.generated||"")}. Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.`;
+  renderStats(); renderFilters(); renderMatrix(); renderDetail(); buildGeo(); buildNet(); applyAll();
+  const h = location.hash.slice(1); if(h && byId[h]) select(h);
+}
+
+function allLinks(){ return state.shared? LINKS.concat(SHARED) : LINKS; }
+
+/* ---------- Stats & filters ---------- */
+function renderStats(){
+  const orgs = NODES.filter(n=>!["Person","Programmes & testbeds","Associations & alliances"].includes(n.category)).length;
+  const alx = NODES.filter(n=>n.region==="Alexandria" && n.category!=="Person").length;
+  const items=[[orgs,"organisations"],[NODES.filter(n=>n.category==="Person").length,"people"],[alx,"in Alexandria"],[NODES.filter(isGroup).length,"associations"],[LINKS.length,"connections"]];
+  document.getElementById("stats").innerHTML = items.map(([v,l])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
+}
+function renderFilters(){
+  const cf=document.getElementById("catf");
+  cf.innerHTML = Object.entries(CATS).map(([k,c])=>`<label class="chk"><input type="checkbox" data-cat="${esc(k)}" checked><span class="sw ${c.sq?"sq":""}" style="background:${c.c}"></span>${esc(k==="Person"?"Key people":k)}<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category===k).length}</span></label>`).join("");
+  cf.onchange=e=>{ const k=e.target.dataset.cat; e.target.checked?state.cats.add(k):state.cats.delete(k); applyAll(); };
+  const ef=document.getElementById("edgef");
+  ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}" checked><span class="ek" style="border-top-color:${t.c};border-top-style:${t.dash?(k==="Role"?"dotted":"dashed"):"solid"}"></span>${esc(k)}</label>`).join("");
+  ef.onchange=e=>{ const k=e.target.dataset.t; e.target.checked?state.types.add(k):state.types.delete(k); applyAll(); };
+  document.getElementById("shared").onchange=e=>{ state.shared=e.target.checked; e.target.checked?state.types.add("Shared association"):state.types.delete("Shared association"); buildNet(); applyAll(); if(state.sel) renderDetail(); };
+  const as=document.getElementById("assocSel");
+  NODES.filter(n=>isGroup(n)||isProg(n)).sort((a,b)=>(isGroup(b)-isGroup(a))||nm(a).localeCompare(nm(b))).forEach(n=>{ const o=document.createElement("option"); o.value=n.id; o.textContent=(isProg(n)?"Programme: ":"")+nm(n); as.appendChild(o); });
+  as.onchange=()=>{ state.assoc=as.value; if(as.value) select(as.value); else applyAll(); };
+  document.getElementById("q").oninput=e=>{ state.q=e.target.value.trim().toLowerCase(); applyAll(); };
+}
+const visible = n => state.cats.has(n.category);
+const matches = n => !state.q || n.name.toLowerCase().includes(state.q) || (n.short||"").toLowerCase().includes(state.q) || (n.role||"").toLowerCase().includes(state.q);
+function focusSet(){
+  if(state.sel){ const s=new Set([state.sel]); allLinks().forEach(l=>{ if(!state.types.has(l.type)) return; const a=l.source.id||l.source,b=l.target.id||l.target; if(a===state.sel) s.add(b); if(b===state.sel) s.add(a); }); return s; }
+  if(state.assoc){ const s=new Set([state.assoc]); LINKS.forEach(l=>{ if(l.target===state.assoc && l.type!=="Role") s.add(l.source); if(l.source===state.assoc && l.type!=="Role") s.add(l.target); }); return s; }
+  return null;
+}
+function applyAll(){ applyNet(); applyGeo(); }
+
+/* ---------- Geographic map ---------- */
+let geo, markers={}, geoLines, cluster;
+const EXT = {world:[[-45,-150],[68,150]], us:[[24,-125],[49.5,-66]], nova:[[38.62,-77.50],[39.16,-76.90]], alx:[[38.785,-77.15],[38.86,-77.03]]};
+function pinIcon(n,faded){
+  const r = Math.round(6 + Math.min(10, Math.sqrt(n.deg)*1.6)), d=r*2, c=CATS[n.category];
+  return L.divIcon({className:"",iconSize:[d,d],iconAnchor:[r,r],html:`<span class="pin ${c.sq?"sq":""}" style="width:${d}px;height:${d}px;background:${c.c};opacity:${faded?.18:1}"></span>`});
+}
+function buildGeo(){
+  geo = L.map("geo",{zoomControl:true,worldCopyJump:true,minZoom:2});
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(geo);
+  geo.fitBounds(EXT.world);
+  cluster = L.markerClusterGroup({disableClusteringAtZoom:10,maxClusterRadius:45,showCoverageOnHover:false,spiderfyOnMaxZoom:true,
+    iconCreateFunction:c=>{ const k=c.getChildCount(), d=k>9?42:34; return L.divIcon({className:"",iconSize:[d,d],html:`<span class="clu" style="width:${d}px;height:${d}px" aria-label="${k} organisations">${k}</span>`}); }});
+  geo.addLayer(cluster);
+  geoLines = L.layerGroup().addTo(geo);
+  L.circle([38.8166,-77.0880],{radius:4300,color:"#0b6e74",weight:1.5,dashArray:"4 5",fill:false,interactive:false}).addTo(geo);
+  NODES.filter(n=>n.lat!=null && n.category!=="Person").forEach(n=>{
+    const m = L.marker([n.lat,n.lng],{icon:pinIcon(n,false),title:nm(n),keyboard:true}).bindTooltip(esc(nm(n)),{direction:"top",offset:[0,-8]});
+    m.on("click",()=>select(n.id)); markers[n.id]=m; cluster.addLayer(m);
+  });
+  document.querySelectorAll(".geobar button").forEach(b=>b.onclick=()=>{ geo.flyToBounds(EXT[b.dataset.ext],{duration:.8}); });
+  geo.on("zoomend",()=>{ const z=geo.getZoom(); const ext = z>=12?"alx":z>=9?"nova":z>=4?"us":"world"; document.querySelectorAll(".geobar button").forEach(x=>x.setAttribute("aria-pressed",x.dataset.ext===ext)); });
+  const unplaced = NODES.filter(n=>n.lat==null && n.category!=="Person");
+  const ppl = NODES.filter(n=>n.category==="Person").length;
+  document.getElementById("geonote").innerHTML = `Numbered circles group nearby organisations: click one, or use the buttons above, to drill down to Northern Virginia. Pins mark each organisation's office (street-level in the DC region, city-level elsewhere). ${ppl} people appear under their organisation, never at a personal location. ${unplaced.length} programmes and consortia without one home are in the Network view.`;
+}
+function applyGeo(){
+  if(!geo) return;
+  const fs = focusSet();
+  Object.entries(markers).forEach(([id,m])=>{
+    const n=byId[id]; const show = visible(n);
+    if(show && !cluster.hasLayer(m)) cluster.addLayer(m); if(!show && cluster.hasLayer(m)) cluster.removeLayer(m);
+    const faded = (fs && !fs.has(id)) || (state.q && !matches(n));
+    m.setIcon(pinIcon(n,faded));
+  });
+  geoLines.clearLayers();
+  if(state.sel){
+    const self = byId[state.sel]; const anchor = self.lat!=null? self : (self.org && byId[self.org]);
+    allLinks().forEach(l=>{
+      if(!state.types.has(l.type)) return;
+      const a=l.source.id||l.source, b=l.target.id||l.target; if(a!==state.sel && b!==state.sel) return;
+      let o = byId[a===state.sel? b : a]; if(o.lat==null && o.org) o = byId[o.org];
+      if(!anchor || anchor.lat==null || !o || o.lat==null || !visible(byId[a===state.sel?b:a])) return;
+      L.polyline([[anchor.lat,anchor.lng],[o.lat,o.lng]],{color:ETYPES[l.type].c,weight:2,opacity:.75,dashArray:ETYPES[l.type].dash}).addTo(geoLines).bindTooltip(esc(l.type+": "+l.label));
+    });
+  }
+}
+
+/* ---------- Network ---------- */
+let svg, root, ringG, linkG, nodeG, sim, linkSel, nodeSel, zoom, R=[0,0,0,0];
+function netBox(){ const el=document.getElementById("v-net"); const b=el.getBoundingClientRect(); return {w:b.width||900,h:b.height||640}; }
+function targetR(n){ return n.region==="Alexandria"? R[1]*0.36 : n.region==="Northern Virginia"? (R[1]+R[2])/2 : n.region==="Washington DC & Maryland"? (R[2]+R[3])/2 : R[3]*1.06; }
+function radius(n){ return n.category==="Person"? 5 : 5 + Math.sqrt(n.deg)*2.6; }
+function buildNet(){
+  if(!svg){ svg=d3.select("#svg"); root=svg.append("g"); ringG=root.append("g"); linkG=root.append("g"); nodeG=root.append("g");
+    zoom=d3.zoom().scaleExtent([.35,4]).on("zoom",e=>root.attr("transform",e.transform)); svg.call(zoom);
+    document.getElementById("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.3);
+    document.getElementById("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.3);
+    document.getElementById("zreset").onclick=resetZoom;
+    svg.on("click",()=>{ state.sel=null; renderDetail(); applyAll(); });
+  }
+  const base = 340; R=[0,base*0.42,base*0.68,base*0.95];
+  ringG.selectAll("*").remove();
+  [R[1]*0.62,(R[1]+R[2])/2,(R[2]+R[3])/2,R[3]*1.14].forEach((r,i)=>{
+    ringG.append("circle").attr("r",r).attr("fill",i?"none":"var(--accent-soft)").attr("stroke",i?"var(--line)":"var(--accent)").attr("stroke-dasharray",i?"4 5":null).attr("opacity",i?1:.6);
+    ringG.append("text").attr("class","ringlbl").attr("y",-r+15).attr("text-anchor","middle").style("fill",i?null:"var(--accent)").text(REGIONS[i]);
+  });
+  const cats=Object.keys(CATS);
+  NODES.forEach((n,i)=>{ if(n.x==null){ const a=cats.indexOf(n.category)/cats.length*Math.PI*2+(i%7)*.12; n.x=Math.cos(a)*targetR(n); n.y=Math.sin(a)*targetR(n);} });
+  const links = allLinks().map(l=>({...l, source:l.source.id||l.source, target:l.target.id||l.target}));
+  if(sim) sim.stop();
+  sim = d3.forceSimulation(NODES)
+    .force("link", d3.forceLink(links).id(d=>d.id).distance(l=>l.type==="Role"?28:60).strength(l=>l.type==="Role"?.5:l.type==="Shared association"?.01:.05))
+    .force("charge", d3.forceManyBody().strength(-60))
+    .force("collide", d3.forceCollide(d=>radius(d)+(d.category==="Person"?10:16)).iterations(2))
+    .force("radial", d3.forceRadial(targetR,0,0).strength(.9)).alphaDecay(.035);
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(reduce){ sim.stop(); for(let i=0;i<300;i++) sim.tick(); }
+  linkSel = linkG.selectAll("path").data(links).join("path").attr("fill","none")
+    .attr("stroke",l=>ETYPES[l.type].c).attr("stroke-width",l=>l.type==="Role"?1:1.3)
+    .attr("stroke-opacity",l=>l.type==="Partnership / project"?.35:.6).attr("stroke-dasharray",l=>ETYPES[l.type].dash);
+  nodeSel = nodeG.selectAll("g.node").data(NODES,d=>d.id).join(enter=>{
+    const g=enter.append("g").attr("class",d=>`node ${d.region==="Alexandria"?"alx":""} ${d.category==="Person"?"person":""}`).attr("tabindex",0).attr("role","button").attr("aria-label",d=>`${d.name}, ${d.category}, ${d.region}`);
+    g.each(function(d){ const s=d3.select(this), r=radius(d), col=CATS[d.category].c;
+      if(isGroup(d)||isProg(d)) s.append("rect").attr("x",-r).attr("y",-r).attr("width",2*r).attr("height",2*r).attr("rx",isProg(d)?r*.25:3).attr("transform",isProg(d)?"rotate(45)":null).attr("fill",col).attr("stroke","var(--panel)").attr("stroke-width",1.5);
+      else s.append("circle").attr("r",r).attr("fill",col).attr("stroke","var(--panel)").attr("stroke-width",1.5);
+      s.append("text").attr("dy",r+12).attr("text-anchor","middle").text(nm(d)); });
+    g.on("click",(e,d)=>{ e.stopPropagation(); select(d.id); }).on("keydown",(e,d)=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); select(d.id);} })
+     .call(d3.drag().on("start",(e,d)=>{ if(!e.active) sim.alphaTarget(.2).restart(); d.fx=d.x; d.fy=d.y; }).on("drag",(e,d)=>{ d.fx=e.x; d.fy=e.y; }).on("end",(e,d)=>{ if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
+    return g; });
+  const tick=()=>{ linkSel.attr("d",l=>{ const dx=l.target.x-l.source.x, dy=l.target.y-l.source.y, dr=Math.hypot(dx,dy)*1.6; return `M${l.source.x},${l.source.y}A${dr},${dr} 0 0,1 ${l.target.x},${l.target.y}`; }); nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`); };
+  sim.on("tick",tick); if(reduce) tick();
+  if(state.view==="v-net") resetZoom();
+}
+function resetZoom(){ const {w,h}=netBox(); const k=Math.max(.45,Math.min(1.2,Math.min(w,h)/(R[3]*2.5))); svg.call(zoom.transform,d3.zoomIdentity.translate(w/2,h/2).scale(k)); }
+function applyNet(){
+  if(!nodeSel) return;
+  const fs=focusSet();
+  nodeSel.style("display",d=>visible(d)||d.id===state.sel?null:"none").classed("dim",d=>(fs&&!fs.has(d.id))||(state.q&&!matches(d)));
+  linkSel.style("display",l=>state.types.has(l.type)&&visible(l.source)&&visible(l.target)?null:"none")
+    .classed("dim",l=>state.sel? !(l.source.id===state.sel||l.target.id===state.sel) : fs? !(fs.has(l.source.id)&&fs.has(l.target.id)) : (state.q&&!(matches(l.source)||matches(l.target))));
+}
+
+/* ---------- Selection & details ---------- */
+function select(id){
+  state.sel=id; renderDetail(); applyAll();
+  try{ history.replaceState(null,"","#"+id); }catch(e){}
+  const n=byId[id];
+  if(state.view==="v-geo"){ const p = n.lat!=null? n : (n.org&&byId[n.org]); if(p&&p.lat!=null&&markers[p.id]) cluster.zoomToShowLayer(markers[p.id],()=>{}); }
+  if(state.view==="v-net" && n.x!=null){ const {w,h}=netBox(); const k=Math.max(d3.zoomTransform(svg.node()).k,.9); svg.transition().duration(500).call(zoom.transform,d3.zoomIdentity.translate(w/2-n.x*k,h/2-n.y*k).scale(k)); }
+}
+function renderDetail(){
+  const el=document.getElementById("detail");
+  if(!state.sel){
+    const alx=NODES.filter(n=>n.region==="Alexandria").sort((a,b)=>b.deg-a.deg);
+    el.innerHTML=`<h2>Start in Alexandria</h2><p style="color:var(--muted);font-size:13px">These players are based in Alexandria. Click any pin or node to see who it connects to, how, and the source behind each link.</p>
+      <h3>Based in Alexandria</h3><ul class="conn">${alx.map(n=>`<li><button class="go" data-go="${n.id}">${esc(n.name)}</button><small>${esc(n.category==="Person"?n.role:n.category)} · ${n.deg} connections</small></li>`).join("")}</ul>
+      <h3>Connection types</h3><ul class="conn">${Object.entries(ETYPES).map(([k,t])=>`<li><span class="ek" style="border-top-color:${t.c};border-top-style:${t.dash?(k==="Role"?"dotted":"dashed"):"solid"}"></span> ${esc(k)}</li>`).join("")}</ul>
+      <p class="hint">Memberships shown are those confirmed in public sources. Most associations have many more members than appear here.</p>`;
+    bindGo(el); return;
+  }
+  const n=byId[state.sel];
+  const rel = allLinks().filter(l=>{ const a=l.source.id||l.source,b=l.target.id||l.target; return a===n.id||b===n.id; })
+    .map(l=>{ const a=l.source.id||l.source,b=l.target.id||l.target; return {o:byId[a===n.id?b:a], l}; })
+    .sort((x,y)=>Object.keys(ETYPES).indexOf(x.l.type)-Object.keys(ETYPES).indexOf(y.l.type));
+  const people = NODES.filter(p=>p.category==="Person" && p.org===n.id);
+  const srcs=[...new Set([...(n.sources||[]), ...rel.map(r=>r.l.src).filter(Boolean)])];
+  el.innerHTML=`<h2>${esc(n.name)}</h2>
+   <div><span class="pill"><span class="sw ${CATS[n.category].sq?"sq":""}" style="background:${CATS[n.category].c}"></span>${esc(n.category==="Person"?"Person":n.category)}</span><span class="pill ${n.region==="Alexandria"?"alx":""}">${esc(n.region)}</span></div>
+   ${n.role?`<p style="margin:8px 0 0;font-weight:600">${esc(n.role)}</p>`:""}
+   <p style="font-size:13.5px">${esc(n.description)}</p>
+   ${n.address?`<p class="hint">📍 ${esc(n.address)}${n.precision&&n.precision!=="Street address"?` (${esc(n.precision.toLowerCase())}-level)`:""}</p>`:""}
+   ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button><small>${esc(p.role)}</small></li>`).join("")}</ul>`:""}
+   <h3>Connections (${rel.length})</h3>
+   <ul class="conn">${rel.map(r=>`<li><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${esc(r.l.type)}: ${esc(r.l.label)}</small></li>`).join("")}</ul>
+   <h3>Sources</h3><ol class="srcs">${srcs.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,"").slice(0,70))}</a></li>`).join("")}</ol>
+   <p><button class="btn" id="clr">Clear selection</button></p>`;
+  bindGo(el); document.getElementById("clr").onclick=()=>{ state.sel=null; try{history.replaceState(null,"",location.pathname);}catch(e){} renderDetail(); applyAll(); };
+}
+function bindGo(el){ el.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>select(b.dataset.go)); }
+
+/* ---------- Membership matrix ---------- */
+function renderMatrix(){
+  const c1=NODES.filter(isGroup), c2=NODES.filter(isProg), cols=[...c1,...c2], colIds=new Set(cols.map(c=>c.id));
+  const rows=NODES.filter(n=>!isGroup(n)&&!isProg(n)&&n.category!=="Person"&&LINKS.some(l=>(l.source===n.id&&colIds.has(l.target))||(l.target===n.id&&colIds.has(l.source))))
+    .sort((a,b)=>(a.region==="Alexandria"?0:1)-(b.region==="Alexandria"?0:1)||a.category.localeCompare(b.category)||nm(a).localeCompare(nm(b)));
+  const cell=(r,c)=>{ const l=LINKS.find(l=>(l.source===r.id&&l.target===c.id)||(l.target===r.id&&l.source===c.id)); return l?`<td class="dot" title="${esc(l.type+": "+l.label)}">${l.type==="Funding"?"$":"●"}</td>`:"<td></td>"; };
+  document.getElementById("mx").innerHTML=`<thead><tr><th></th><th></th><th class="grp" colspan="${c1.length}">Associations & consortia</th><th class="grp" colspan="${c2.length}">Programmes</th></tr>
+   <tr><th>Organisation</th><th>Category</th>${cols.map(c=>`<th class="col">${esc(nm(c))}</th>`).join("")}</tr></thead>
+   <tbody>${rows.map(r=>`<tr><th><button class="go" data-go="${r.id}">${esc(nm(r))}</button>${r.region==="Alexandria"?' <span class="pill alx">Alexandria</span>':""}</th><td><span class="sw" style="background:${CATS[r.category].c}"></span> ${esc(r.category)}</td>${cols.map(c=>cell(r,c)).join("")}</tr>`).join("")}</tbody>`;
+  bindGo(document.getElementById("mx"));
+}
+
+/* ---------- Tabs ---------- */
+document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
+  state.view=t.dataset.view;
+  document.querySelectorAll(".view").forEach(v=>v.classList.toggle("on",v.id===state.view));
+  document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x===t));
+  if(state.view==="v-geo" && geo) setTimeout(()=>geo.invalidateSize(),0);
+  if(state.view==="v-net" && svg) setTimeout(resetZoom,0);
+});
+</script>
+</body>
+</html>
