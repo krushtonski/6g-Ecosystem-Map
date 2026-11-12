@@ -3219,6 +3219,25 @@
    "name": "Paul Dabbar",
    "category": "Person",
    "description": "Commerce Secretary Howard Lutnick's number two, confirmed June 2025. Former DOE Under Secretary for Science. Spoke with Arielle Roth at the CSIS launch of the Call to Action for 6G Leadership and Security (29 Jul 2026); argues allies must build an interoperable, trusted 6G equipment ecosystem."
+  },
+  {
+   "id": "jaisha-wray",
+   "name": "Jaisha Wray",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Career Senior Executive Service member leading NTIA's Office of International Affairs, which advances US telecoms and ICT positions at the ITU, OECD and G7. Previously Director for International Cyber Policy at the National Security Council, responsible for US 5G strategy with allies; earlier at the State Department and Office of the Secretary of Defense.",
+   "role": "Associate Administrator for International Affairs, NTIA",
+   "org": "ntia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.ntia.gov/page/jaisha-wray",
+    "https://ntia.gov/office/office-international-affairs-oia",
+    "https://sanford.duke.edu/event/space-telecom-cyber-policy-conversation-jaisha-wray"
+   ]
   }
  ],
  "edges": [
@@ -5356,6 +5375,20 @@
    "type": "Funding",
    "label": "NSF CAREER award",
    "source": "https://iac.vt.edu/about/faculty/saad-walid.html"
+  },
+  {
+   "from": "jaisha-wray",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Associate Administrator, International Affairs",
+   "source": "https://www.ntia.gov/page/jaisha-wray"
+  },
+  {
+   "from": "griffith",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Former staff, NTIA Office of International Affairs (listed 2022)",
+   "source": "https://www.ntia.doc.gov/page/oia-staff-directory-2022"
   }
  ]
 }
