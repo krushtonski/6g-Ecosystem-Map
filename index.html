@@ -134,7 +134,7 @@ footer a{color:var(--accent)}
       <div class="geobar" role="group" aria-label="Map extent">
         <button data-ext="world" aria-pressed="true">World</button><span class="crumb">›</span>
         <button data-ext="us" aria-pressed="false">United States</button><span class="crumb">›</span>
-        <button data-ext="nova" aria-pressed="false">Northern Virginia &amp; DC</button>
+        <button data-ext="nova" aria-pressed="false">Northern Virginia</button>
       </div>
       <div class="geonote" id="geonote"></div>
     </section>
@@ -351,7 +351,7 @@ function renderDetail(){
   const el=document.getElementById("detail");
   if(!state.sel){
     const top=NODES.filter(n=>n.category!=="Person").sort((a,b)=>b.deg-a.deg).slice(0,10);
-    el.innerHTML=`<h2>Explore the ecosystem</h2><p style="color:var(--muted);font-size:13px">Click any pin, node or name to see who it connects to, how, and the source behind each link. Use the buttons on the map to drill down from World to Northern Virginia &amp; DC.</p>
+    el.innerHTML=`<h2>Explore the ecosystem</h2><p style="color:var(--muted);font-size:13px">Click any pin, node or name to see who it connects to, how, and the source behind each link. Use the buttons on the map to drill down from World to Northern Virginia.</p>
       <h3>Most connected</h3><ul class="conn">${top.map(n=>`<li><button class="go" data-go="${n.id}">${esc(n.name)}</button><small>${esc(n.category)} · ${n.deg} connections</small></li>`).join("")}</ul>
       <h3>Connection types</h3><ul class="conn">${Object.entries(ETYPES).map(([k,t])=>`<li><span class="ek" style="border-top-color:${t.c};border-top-style:${t.dash?(k==="Role"?"dotted":"dashed"):"solid"}"></span> ${esc(k)}</li>`).join("")}</ul>
       <p class="hint">Memberships shown are those confirmed in public sources. Most associations have many more members than appear here.</p>`;
