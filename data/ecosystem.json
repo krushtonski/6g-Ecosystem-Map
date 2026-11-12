@@ -1067,14 +1067,15 @@
    "short": "",
    "category": "Person",
    "region": "Alexandria",
-   "description": "Professor, core faculty at the Alexandria institute and director (now co-director) of Wireless@Virginia Tech. Leads Mobile dMIMO. Research: 6G, AI for wireless, O-RAN, spectrum sharing.",
-   "role": "Professor; co-director, Wireless@Virginia Tech",
+   "description": "Boeing Distinguished Professor (2026) at Virginia Tech's Institute for Advanced Computing in Alexandria and co-director of Wireless@Virginia Tech. Elected academic member of the National Spectrum Consortium Executive Committee. IEEE Fellow. Former Samsung Research America technical leader and 3GPP RAN1 delegate; visiting professor at MIT (Fall 2024). Leads Mobile dMIMO. Research: ISAC, distributed massive MIMO, non-terrestrial networks, AI/ML for wireless, O-RAN.",
+   "role": "Boeing Distinguished Professor; Co-Director, Wireless@Virginia Tech",
    "org": "vt-iac",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "sources": [
+    "https://lingjialiu.ece.vt.edu/index.html",
     "https://iac.vt.edu/research-areas/next-g-wireless.html",
     "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html",
     "https://news.vt.edu/articles/2023/10/eng-futuregaward.html"
@@ -1086,14 +1087,15 @@
    "short": "",
    "category": "Person",
    "region": "Alexandria",
-   "description": "Professor and Next-G wireless lead at the Alexandria institute. Leads the NEWS group.",
-   "role": "Professor; Next-G wireless lead",
+   "description": "Professor of Electrical and Computer Engineering and Next-G Wireless Lead at Virginia Tech's Institute for Advanced Computing in Alexandria. Leads the NEWS Laboratory. Editor-in-Chief, IEEE Transactions on Machine Learning in Communications and Networking. IEEE Fellow; IEEE ComSoc Marconi Prize (2023). Research: 5G/6G, AI and causal learning, semantic and quantum communications, drones, cybersecurity.",
+   "role": "Professor of ECE; Next-G Wireless Lead, VT Institute for Advanced Computing",
    "org": "vt-iac",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "sources": [
+    "https://iac.vt.edu/about/faculty/saad-walid.html",
     "https://iac.vt.edu/research-areas/next-g-wireless.html"
    ]
   },
@@ -5291,6 +5293,69 @@
    "type": "Partnership / project",
    "label": "NIST is an agency of the Department of Commerce",
    "source": "https://www.nist.gov/ctl/pscr/funding-opportunities/open-innovation-prize-challenges"
+  },
+  {
+   "from": "liu",
+   "to": "nsc",
+   "type": "Role",
+   "label": "Elected Executive Committee member (academia)",
+   "source": "https://lingjialiu.ece.vt.edu/index.html"
+  },
+  {
+   "from": "liu",
+   "to": "mit",
+   "type": "Role",
+   "label": "Visiting professor (Fall 2024)",
+   "source": "https://lingjialiu.ece.vt.edu/index.html"
+  },
+  {
+   "from": "liu",
+   "to": "samsung",
+   "type": "Role",
+   "label": "Former Samsung Research America technical leader; 3GPP RAN1 delegate",
+   "source": "https://lingjialiu.ece.vt.edu/index.html"
+  },
+  {
+   "from": "nsf",
+   "to": "liu",
+   "type": "Funding",
+   "label": "Research sponsor",
+   "source": "https://lingjialiu.ece.vt.edu/index.html"
+  },
+  {
+   "from": "nsc",
+   "to": "liu",
+   "type": "Funding",
+   "label": "Research sponsor",
+   "source": "https://lingjialiu.ece.vt.edu/index.html"
+  },
+  {
+   "from": "intel",
+   "to": "liu",
+   "type": "Funding",
+   "label": "Research sponsor",
+   "source": "https://lingjialiu.ece.vt.edu/index.html"
+  },
+  {
+   "from": "qualcomm",
+   "to": "liu",
+   "type": "Funding",
+   "label": "Research sponsor",
+   "source": "https://lingjialiu.ece.vt.edu/index.html"
+  },
+  {
+   "from": "samsung",
+   "to": "liu",
+   "type": "Funding",
+   "label": "Research sponsor (Samsung Research America)",
+   "source": "https://lingjialiu.ece.vt.edu/index.html"
+  },
+  {
+   "from": "nsf",
+   "to": "saad",
+   "type": "Funding",
+   "label": "NSF CAREER award",
+   "source": "https://iac.vt.edu/about/faculty/saad-walid.html"
   }
  ]
 }
