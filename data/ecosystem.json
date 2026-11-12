@@ -208,7 +208,7 @@
    "short": "DoD FutureG Office",
    "category": "Government & funders",
    "region": "Northern Virginia",
-   "description": "Pentagon office responsible for strategic assessment and R&D of FutureG (5G/6G). Funds work through the National Spectrum Consortium and direct awards, such as Virginia Tech's $9M Mobile dMIMO project.",
+   "description": "Pentagon office (OUSW R&E) for strategic assessment and R&D of next-generation wireless. Priorities: open commercial solutions, tactical use, secure access, integrated sensing and communication, agile spectrum. Founding member and funder of the Linux Foundation's OCUDU open-source RAN project.",
    "role": "",
    "org": null,
    "address": "The Pentagon, Arlington, VA",
@@ -216,6 +216,7 @@
    "lng": -77.0563,
    "precision": "Street address",
    "sources": [
+    "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/",
     "https://rt.cto.mil/?p=11714",
     "https://news.vt.edu/articles/2023/10/eng-futuregaward.html",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
@@ -3090,6 +3091,95 @@
    "sources": [
     "https://www.federalregister.gov/documents/2026/03/11/2026-04704/ntia-innovation-fund-ai-ran-listening-session"
    ]
+  },
+  {
+   "short": "OCUDU",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Linux Foundation, San Francisco, CA",
+   "lat": 37.7749,
+   "lng": -122.4194,
+   "precision": "City",
+   "sources": [
+    "https://ocudu.org",
+    "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation",
+    "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
+   ],
+   "id": "ocudu",
+   "name": "OCUDU Ecosystem Foundation",
+   "category": "Associations & alliances",
+   "description": "Linux Foundation initiative building open-source RAN centralised and distributed unit (CU/DU) software for 5G and early 6G. Launched at MWC 2026. Seeded by FutureG and National Spectrum Consortium funding to DeepSig and Software Radio Systems."
+  },
+  {
+   "short": "SRS",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://6gworld.com/linux-foundation-launches-ocudu-to-turn-ai-ran-into-an-open-software-foundation/",
+    "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
+   ],
+   "id": "srs",
+   "name": "Software Radio Systems (SRS)",
+   "category": "Equipment & tech vendors",
+   "description": "Maker of the open-source srsRAN software. Funded by FutureG and NSC with DeepSig to build the initial OCUDU stack. OCUDU leading member."
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Raleigh, NC",
+   "lat": 35.7746,
+   "lng": -78.6385,
+   "precision": "City",
+   "sources": [
+    "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/",
+    "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+   ],
+   "id": "redhat",
+   "name": "Red Hat",
+   "category": "Equipment & tech vendors",
+   "description": "Open-source software company. OCUDU general member; named as a FutureG partner."
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Deputy Principal Director, DoD FutureG Office",
+   "org": "futureg",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
+   ],
+   "id": "marlan-macklin",
+   "name": "Marlan Macklin",
+   "category": "Person",
+   "description": "Deputy Principal Director for FutureG at the Pentagon."
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "Director, Public Wireless Supply Chain Innovation Fund, NTIA",
+   "org": "ntia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/amanda-toman/"
+   ],
+   "id": "amanda-toman",
+   "name": "Amanda Toman",
+   "category": "Person",
+   "description": "Directs NTIA's $1.5B Public Wireless Supply Chain Innovation Fund for open, interoperable networks. Previously Acting Principal Director for 5G and Next G at DoD OUSD(R&E), the forerunner of the FutureG Office. Virginia Tech alumna."
   }
  ],
  "edges": [
@@ -4975,6 +5065,174 @@
    "type": "Role",
    "label": "Telecommunications Policy Specialist, Innovation Fund",
    "source": "https://www.federalregister.gov/documents/2026/03/11/2026-04704/ntia-innovation-fund-ai-ran-listening-session"
+  },
+  {
+   "from": "futureg",
+   "to": "ocudu",
+   "type": "Funding",
+   "label": "Founding member; three years of funding",
+   "source": "https://www.rcrwireless.com/20260709/telecom-software/ocudu-open-source-ran"
+  },
+  {
+   "from": "nsc",
+   "to": "ocudu",
+   "type": "Funding",
+   "label": "Backs OCUDU alongside FutureG",
+   "source": "https://6gworld.com/linux-foundation-launches-ocudu-to-turn-ai-ran-into-an-open-software-foundation/"
+  },
+  {
+   "from": "futureg",
+   "to": "srs",
+   "type": "Funding",
+   "label": "Funded initial OCUDU software (with NSC)",
+   "source": "https://6gworld.com/linux-foundation-launches-ocudu-to-turn-ai-ran-into-an-open-software-foundation/"
+  },
+  {
+   "from": "futureg",
+   "to": "deepsig",
+   "type": "Funding",
+   "label": "Funded initial OCUDU software (with NSC)",
+   "source": "https://6gworld.com/linux-foundation-launches-ocudu-to-turn-ai-ran-into-an-open-software-foundation/"
+  },
+  {
+   "from": "futureg",
+   "to": "redhat",
+   "type": "Partnership / project",
+   "label": "Named FutureG partner",
+   "source": "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
+  },
+  {
+   "from": "amd",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "att",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "deepsig",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "ericsson",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "nokia",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "nvidia",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "softbank",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "srs",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "verizon",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Leading member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "booz",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "General member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "keysight",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "General member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "marvell",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "General member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "redhat",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "General member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "tmobile",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "General member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "parallel",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "General member",
+   "source": "https://www.linuxfoundation.org/press/ocudu-ecosystem-foundation-emerges-as-key-hub-for-open-source-ran-innovation-with-21-new-global-member-organizations-since-launch"
+  },
+  {
+   "from": "qualcomm",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Member (joined May 2026)",
+   "source": "https://www.rcrwireless.com/20260709/telecom-software/ocudu-open-source-ran"
+  },
+  {
+   "from": "samsung",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://www.rcrwireless.com/20260709/telecom-software/ocudu-open-source-ran"
+  },
+  {
+   "from": "marlan-macklin",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Deputy Principal Director",
+   "source": "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
+  },
+  {
+   "from": "amanda-toman",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Director, Innovation Fund",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/amanda-toman/"
   }
  ]
 }
