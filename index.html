@@ -55,6 +55,9 @@ select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);ba
 .leaflet-container{background:var(--bg);font:13px var(--body)}
 .geobar{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:500;display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:4px}
 .geobar button,.zoombtns button,.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;font:600 12.5px var(--body);padding:5px 10px;cursor:pointer}
+.geobar .sep{width:1px;background:var(--line);margin:2px 4px}
+.cta-list{columns:2;padding-left:18px;margin:4px 0 10px}
+.cta-key{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin-right:6px}
 .geobar button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel)}
 .geonote{position:absolute;left:10px;bottom:22px;z-index:500;max-width:330px;font-size:11.5px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 9px}
 .pin{display:block;border-radius:50%;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
@@ -135,6 +138,8 @@ footer a{color:var(--accent)}
         <button data-ext="world" aria-pressed="true">World</button><span class="crumb">›</span>
         <button data-ext="us" aria-pressed="false">United States</button><span class="crumb">›</span>
         <button data-ext="nova" aria-pressed="false">Northern Virginia</button>
+        <span class="sep" aria-hidden="true"></span>
+        <button id="ctaBtn" aria-pressed="false" title="Show the governments that affirmed the Call to Action for 6G Leadership and Security">6G Call to Action</button>
       </div>
       <div class="geonote" id="geonote"></div>
     </section>
@@ -252,11 +257,48 @@ function buildGeo(){
     const m = L.marker([n.lat,n.lng],{icon:pinIcon(n,false),title:nm(n),keyboard:true}).bindTooltip(esc(nm(n)),{direction:"top",offset:[0,-8]});
     m.on("click",()=>select(n.id)); markers[n.id]=m; cluster.addLayer(m);
   });
-  document.querySelectorAll(".geobar button").forEach(b=>b.onclick=()=>{ geo.flyToBounds(EXT[b.dataset.ext],{duration:.8}); });
-  geo.on("moveend",()=>{ const z=geo.getZoom(), c=geo.getCenter(); const inB=k=>L.latLngBounds(EXT[k]).contains(c); const ext = z>=8&&inB("nova")?"nova":z>=4&&z<8&&inB("us")?"us":z<4?"world":""; document.querySelectorAll(".geobar button").forEach(x=>x.setAttribute("aria-pressed",x.dataset.ext===ext)); });
+  document.querySelectorAll(".geobar button[data-ext]").forEach(b=>b.onclick=()=>{ geo.flyToBounds(EXT[b.dataset.ext],{duration:.8}); });
+  geo.on("moveend",()=>{ const z=geo.getZoom(), c=geo.getCenter(); const inB=k=>L.latLngBounds(EXT[k]).contains(c); const ext = z>=8&&inB("nova")?"nova":z>=4&&z<8&&inB("us")?"us":z<4?"world":""; document.querySelectorAll(".geobar button[data-ext]").forEach(x=>x.setAttribute("aria-pressed",x.dataset.ext===ext)); });
+  document.getElementById("ctaBtn").onclick=toggleCTA;
   const unplaced = NODES.filter(n=>n.lat==null && n.category!=="Person");
   const ppl = NODES.filter(n=>n.category==="Person").length;
   document.getElementById("geonote").innerHTML = `Numbered circles group nearby organisations: click one, or use the buttons above, to drill down to Northern Virginia. Pins mark each organisation's office (street-level in the DC region, city-level elsewhere). ${ppl} people appear under their organisation, never at a personal location. ${unplaced.length} programmes and consortia without one home are in the Network view.`;
+}
+/* ---------- Call to Action for 6G Leadership and Security overlay ---------- */
+const CTA = {
+  title:"Call to Action for 6G Leadership and Security",
+  url:"https://www.ntia.gov/other-publication/2026/call-action-6g-leadership-and-security",
+  blurb:"A multi-government statement published by NTIA in 2026. More than 20 governments affirm a shared aim for 6G: an open, interoperable, secure, resilient, AI-supported, highly innovative and resource-efficient global communications system, led by like-minded nations.",
+  groups:{"Europe":"#0b6e74","Americas":"#c2410c","Asia-Pacific":"#7c3aed","Publisher":"#64748b"}
+};
+let ctaLayer=null, ctaOn=false;
+async function toggleCTA(){
+  ctaOn=!ctaOn; document.getElementById("ctaBtn").setAttribute("aria-pressed",ctaOn);
+  if(ctaOn){
+    if(!ctaLayer){
+      try{ const gj=await fetch("data/call-to-action-6g.geojson").then(r=>r.json());
+        ctaLayer=L.geoJSON(gj,{style:f=>({color:CTA.groups[f.properties.group],weight:1,fillColor:CTA.groups[f.properties.group],fillOpacity:f.properties.group==="Publisher"?.12:.32,dashArray:f.properties.group==="Publisher"?"4 3":null}),
+          onEachFeature:(f,l)=>l.bindTooltip(esc(f.properties.name)+(f.properties.group==="Publisher"?" (publisher, via NTIA)":""),{sticky:true})});
+        ctaLayer.__gj=gj;
+      }catch(e){ ctaOn=false; document.getElementById("ctaBtn").setAttribute("aria-pressed",false); return; }
+    }
+    ctaLayer.addTo(geo); ctaLayer.bringToBack(); geo.flyToBounds(EXT.world,{duration:.8});
+    state.sel=null; renderCTA();
+  } else { if(ctaLayer) geo.removeLayer(ctaLayer); renderDetail(); }
+}
+function renderCTA(){
+  const gj=ctaLayer.__gj, by={};
+  gj.features.forEach(f=>{ (by[f.properties.group]=by[f.properties.group]||[]).push(f.properties.name); });
+  const sec=g=>by[g]?`<h3><span class="cta-key" style="background:${CTA.groups[g]}"></span>${g} (${by[g].length})</h3><ul class="cta-list">${by[g].sort().map(n=>`<li>${esc(n)}</li>`).join("")}</ul>`:"";
+  const n=gj.features.filter(f=>f.properties.group!=="Publisher").length;
+  document.getElementById("detail").innerHTML=`<h2>${esc(CTA.title)}</h2>
+    <p style="color:var(--muted);font-size:13px">${esc(CTA.blurb)}</p>
+    <p><strong>${n} affirming governments shaded on the map.</strong></p>
+    ${sec("Europe")}${sec("Americas")}${sec("Asia-Pacific")}
+    <p class="hint"><span class="cta-key" style="background:${CTA.groups.Publisher};opacity:.5"></span>United States: published by NTIA (dashed outline).</p>
+    <p class="hint">Source: <a href="${CTA.url}" target="_blank" rel="noopener">NTIA</a></p>
+    <p><button class="btn" id="ctaOff">Hide overlay</button></p>`;
+  document.getElementById("ctaOff").onclick=toggleCTA;
 }
 function applyGeo(){
   if(!geo) return;
