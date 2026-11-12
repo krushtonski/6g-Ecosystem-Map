@@ -3039,6 +3039,57 @@
    "sources": [
     "https://b6gs.com/agenda"
    ]
+  },
+  {
+   "id": "tricia-paoletta",
+   "name": "Tricia Paoletta",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Leads NTIA's spectrum policy agenda, domestic and international, including WRC-27 preparations. Previously NTIA Senior Advisor for Spectrum and a partner at HWG LLP.",
+   "role": "Principal Deputy Assistant Secretary and Deputy Administrator, NTIA",
+   "org": "ntia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.ntia.gov/personnel-profile/tricia-j-paoletta"
+   ]
+  },
+  {
+   "id": "lynn-bagorazzi",
+   "name": "Lynn Bagorazzi",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Grants lead at NTIA. Previously at the US Treasury and Department of Homeland Security.",
+   "role": "Grants Lead, NTIA",
+   "org": "ntia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.ntia.gov/personnel-profile/lynn-bagorazzi"
+   ]
+  },
+  {
+   "id": "richard-upchurch",
+   "name": "Richard Upchurch",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Point of contact for NTIA's Public Wireless Supply Chain Innovation Fund, including the 2026 AI-RAN listening session. Designated Federal Officer for the Innovation Fund Advisory Committee.",
+   "role": "Telecommunications Policy Specialist, Public Wireless Supply Chain Innovation Fund, NTIA",
+   "org": "ntia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.federalregister.gov/documents/2026/03/11/2026-04704/ntia-innovation-fund-ai-ran-listening-session"
+   ]
   }
  ],
  "edges": [
@@ -4903,6 +4954,27 @@
    "type": "Membership",
    "label": "Contributing member",
    "source": "https://nextgalliance.org/contributing-members"
+  },
+  {
+   "from": "tricia-paoletta",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Principal Deputy Assistant Secretary",
+   "source": "https://www.ntia.gov/personnel-profile/tricia-j-paoletta"
+  },
+  {
+   "from": "lynn-bagorazzi",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Grants Lead",
+   "source": "https://www.ntia.gov/personnel-profile/lynn-bagorazzi"
+  },
+  {
+   "from": "richard-upchurch",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Telecommunications Policy Specialist, Innovation Fund",
+   "source": "https://www.federalregister.gov/documents/2026/03/11/2026-04704/ntia-innovation-fund-ai-ran-listening-session"
   }
  ]
 }
