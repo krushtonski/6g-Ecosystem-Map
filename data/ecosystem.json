@@ -3180,6 +3180,43 @@
    "name": "Amanda Toman",
    "category": "Person",
    "description": "Directs NTIA's $1.5B Public Wireless Supply Chain Innovation Fund for open, interoperable networks. Previously Acting Principal Director for 5G and Next G at DoD OUSD(R&E), the forerunner of the FutureG Office. Virginia Tech alumna."
+  },
+  {
+   "short": "Commerce",
+   "region": "Washington DC & Maryland",
+   "role": "",
+   "org": null,
+   "address": "Herbert C. Hoover Building, 1401 Constitution Ave NW, Washington, DC",
+   "lat": 38.8938,
+   "lng": -77.033,
+   "precision": "Street address",
+   "sources": [
+    "https://www.executivegov.com/articles/ntia-6g-leadership-security-initiative",
+    "https://www.whitehouse.gov/presidential-actions/2025/12/national-security-presidential-memorandum-nspm-8-0bda"
+   ],
+   "id": "commerce",
+   "name": "US Department of Commerce",
+   "category": "Government & funders",
+   "description": "Federal department that houses NTIA and NIST. One of the departments tasked under the December 2025 'Winning the 6G Race' memorandum; through NTIA it launched the Call to Action for 6G Leadership and Security."
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "Deputy Secretary of Commerce",
+   "org": "commerce",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://broadbandbreakfast.com/paul-dabbar-confirmed-as-deputy-secretary-of-commerce/",
+    "https://www.ntia.gov/press-release/2026/ntia-launches-global-call-action-6g-leadership-and-security",
+    "https://broadbandbreakfast.com/commerce-official-dabbar-says-allies-must-coordinate-on-6g-equipment/"
+   ],
+   "id": "paul-dabbar",
+   "name": "Paul Dabbar",
+   "category": "Person",
+   "description": "Commerce Secretary Howard Lutnick's number two, confirmed June 2025. Former DOE Under Secretary for Science. Spoke with Arielle Roth at the CSIS launch of the Call to Action for 6G Leadership and Security (29 Jul 2026); argues allies must build an interoperable, trusted 6G equipment ecosystem."
   }
  ],
  "edges": [
@@ -5233,6 +5270,27 @@
    "type": "Role",
    "label": "Director, Innovation Fund",
    "source": "https://tmt.knect365.com/network-x-americas/speakers/amanda-toman/"
+  },
+  {
+   "from": "paul-dabbar",
+   "to": "commerce",
+   "type": "Role",
+   "label": "Deputy Secretary",
+   "source": "https://broadbandbreakfast.com/paul-dabbar-confirmed-as-deputy-secretary-of-commerce/"
+  },
+  {
+   "from": "commerce",
+   "to": "ntia",
+   "type": "Partnership / project",
+   "label": "NTIA is an agency of the Department of Commerce",
+   "source": "https://www.executivegov.com/articles/ntia-6g-leadership-security-initiative"
+  },
+  {
+   "from": "commerce",
+   "to": "nist",
+   "type": "Partnership / project",
+   "label": "NIST is an agency of the Department of Commerce",
+   "source": "https://www.nist.gov/ctl/pscr/funding-opportunities/open-innovation-prize-challenges"
   }
  ]
 }
