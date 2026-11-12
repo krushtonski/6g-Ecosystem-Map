@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11",
+ "generated": "2026-11-12",
  "nodes": [
   {
    "id": "vt-iac",
@@ -1268,6 +1268,1777 @@
     "https://tmt.knect365.com/network-x-demo/speakers/jaydee-griffith",
     "https://nextgalliance.org"
    ]
+  },
+  {
+   "id": "nyu",
+   "name": "NYU (Tandon & NYU WIRELESS)",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "New York University, including the Tandon School of Engineering and the NYU WIRELESS research centre in Brooklyn.",
+   "role": "",
+   "org": null,
+   "address": "Brooklyn, NY",
+   "lat": 40.6942,
+   "lng": -73.9866,
+   "precision": "Campus",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "mobile-experts",
+   "name": "Mobile Experts",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Mobile and wireless market analyst firm.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "stanford",
+   "name": "Stanford University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "University.",
+   "role": "",
+   "org": null,
+   "address": "Stanford, CA",
+   "lat": 37.4275,
+   "lng": -122.1697,
+   "precision": "Campus",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "scaleway",
+   "name": "Scaleway",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "European cloud and AI infrastructure provider.",
+   "role": "",
+   "org": null,
+   "address": "Paris, France",
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "docomo",
+   "name": "NTT DOCOMO",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "Japanese mobile operator.",
+   "role": "",
+   "org": null,
+   "address": "Tokyo, Japan",
+   "lat": 35.6731,
+   "lng": 139.7442,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "vodafonethree",
+   "name": "VodafoneThree",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "UK mobile operator formed from Vodafone UK and Three UK.",
+   "role": "",
+   "org": null,
+   "address": "United Kingdom",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "skt",
+   "name": "SK Telecom",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "South Korean mobile operator.",
+   "role": "",
+   "org": null,
+   "address": "Seoul, South Korea",
+   "lat": 37.5665,
+   "lng": 126.978,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "cspire",
+   "name": "C Spire",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "US regional operator.",
+   "role": "",
+   "org": null,
+   "address": "Ridgeland, MS",
+   "lat": 32.4285,
+   "lng": -90.1323,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Semiconductor company.",
+   "role": "",
+   "org": null,
+   "address": "Santa Clara, CA",
+   "lat": 37.3819,
+   "lng": -121.9713,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "hrt",
+   "name": "Hudson River Trading",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Quantitative trading firm with large-scale HPC networks.",
+   "role": "",
+   "org": null,
+   "address": "New York, NY",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "softbank",
+   "name": "SoftBank Corp.",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "Japanese operator; its research institute chairs the AI-RAN Alliance.",
+   "role": "",
+   "org": null,
+   "address": "Tokyo, Japan",
+   "lat": 35.6627,
+   "lng": 139.759,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "mediatek",
+   "name": "MediaTek",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Chipmaker; MediaTek USA.",
+   "role": "",
+   "org": null,
+   "address": "San Jose, CA (US arm)",
+   "lat": 37.3382,
+   "lng": -121.8863,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "bdr",
+   "name": "Building Diagnostic Robotics",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Robotics start-up.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "ut-austin",
+   "name": "UT Austin",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "The University of Texas at Austin.",
+   "role": "",
+   "org": null,
+   "address": "Austin, TX",
+   "lat": 30.2849,
+   "lng": -97.7341,
+   "precision": "Campus",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "kddi",
+   "name": "KDDI Research",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "Research arm of Japanese operator KDDI.",
+   "role": "",
+   "org": null,
+   "address": "Fujimino, Japan",
+   "lat": 35.8794,
+   "lng": 139.5196,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "eridan",
+   "name": "Eridan",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Radio hardware company.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "ucsd",
+   "name": "UC San Diego",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "University.",
+   "role": "",
+   "org": null,
+   "address": "San Diego, CA",
+   "lat": 32.8801,
+   "lng": -117.234,
+   "precision": "Campus",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "dell",
+   "name": "Dell Technologies",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Computing and telecom systems vendor.",
+   "role": "",
+   "org": null,
+   "address": "Round Rock, TX",
+   "lat": 30.5083,
+   "lng": -97.6789,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "github",
+   "name": "GitHub",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Software development platform.",
+   "role": "",
+   "org": null,
+   "address": "San Francisco, CA",
+   "lat": 37.7749,
+   "lng": -122.4194,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "spacexai",
+   "name": "SpaceXAI",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "AI company.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "odd",
+   "name": "ODD Advisory",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Advisory firm.",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "kt",
+   "name": "KT",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "South Korean operator.",
+   "role": "",
+   "org": null,
+   "address": "Seongnam, South Korea",
+   "lat": 37.3595,
+   "lng": 127.1052,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "ast",
+   "name": "AST SpaceMobile",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "Satellite direct-to-device network operator.",
+   "role": "",
+   "org": null,
+   "address": "Midland, TX",
+   "lat": 31.9973,
+   "lng": -102.0779,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "skylo",
+   "name": "Skylo Technologies",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "description": "Satellite direct-to-device connectivity provider.",
+   "role": "",
+   "org": null,
+   "address": "Mountain View, CA",
+   "lat": 37.3861,
+   "lng": -122.0839,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "anritsu",
+   "name": "Anritsu",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Test and measurement company.",
+   "role": "",
+   "org": null,
+   "address": "Atsugi, Japan",
+   "lat": 35.4436,
+   "lng": 139.3625,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "mda",
+   "name": "MDA Space",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Space technology company.",
+   "role": "",
+   "org": null,
+   "address": "Brampton, Canada",
+   "lat": 43.7315,
+   "lng": -79.7624,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "airbus-ds",
+   "name": "Airbus Defence and Space",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "description": "Airbus defence and space division.",
+   "role": "",
+   "org": null,
+   "address": "Taufkirchen, Germany",
+   "lat": 48.0485,
+   "lng": 11.64,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "tud",
+   "name": "TU Dresden / Barkhausen Institut",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "University and research institute.",
+   "role": "",
+   "org": null,
+   "address": "Dresden, Germany",
+   "lat": 51.0285,
+   "lng": 13.7268,
+   "precision": "Campus",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "ucla",
+   "name": "UCLA",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "University.",
+   "role": "",
+   "org": null,
+   "address": "Los Angeles, CA",
+   "lat": 34.0689,
+   "lng": -118.4452,
+   "precision": "Campus",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "northeastern",
+   "name": "Northeastern University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "University; home of the Institute for the Wireless Internet of Things.",
+   "role": "",
+   "org": null,
+   "address": "Boston, MA",
+   "lat": 42.3398,
+   "lng": -71.0892,
+   "precision": "Campus",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "marvell",
+   "name": "Marvell Technology",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Semiconductor company; Next G Alliance contributing member.",
+   "role": "",
+   "org": null,
+   "address": "Santa Clara, CA",
+   "lat": 37.378,
+   "lng": -121.965,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda",
+    "https://nextgalliance.org/contributing-members"
+   ]
+  },
+  {
+   "id": "zscaler",
+   "name": "Zscaler",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "description": "Cloud security company.",
+   "role": "",
+   "org": null,
+   "address": "San Jose, CA",
+   "lat": 37.3382,
+   "lng": -121.8763,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "nyuad",
+   "name": "NYU Abu Dhabi",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "NYU campus in Abu Dhabi.",
+   "role": "",
+   "org": null,
+   "address": "Abu Dhabi, UAE",
+   "lat": 24.5239,
+   "lng": 54.4344,
+   "precision": "Campus",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "b6gs-2026",
+   "name": "Brooklyn 6G Summit 2026",
+   "short": "Brooklyn 6G Summit",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "description": "Brooklyn AI-Native 6G Summit, 3 to 5 November 2026. 70 speakers from operators, vendors, academia and US government.",
+   "role": "",
+   "org": null,
+   "address": "Brooklyn, NY",
+   "lat": 40.6782,
+   "lng": -73.9442,
+   "precision": "City",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "guru-parulkar",
+   "name": "Guru Parulkar",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 3: Networking reception.",
+   "role": "Head of Bell Labs, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "sundeep-rangan",
+   "name": "Sundeep Rangan",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 3: Reception; Nov 4: Welcome address; Nov 5: University panel (moderator).",
+   "role": "Director, NYU WIRELESS",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "juan-de-pablo",
+   "name": "Juan de Pablo",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Welcome address.",
+   "role": "EVP, Global Science & Technology; Executive Dean, NYU Tandon, NYU",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "pallavi-mahajan",
+   "name": "Pallavi Mahajan",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Welcome; Fireside chat; Panel: The AI Supercycle. Nov 5: Panel: AI-Powered Software Development (moderator).",
+   "role": "Chief Technology and AI Officer, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "joe-madden",
+   "name": "Joe Madden",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Welcome; Operators panel (moderator); Closing remarks. Nov 5: Welcome; TN-NTN panel (moderator); Closing remarks.",
+   "role": "Founder, Mobile Experts",
+   "org": "mobile-experts",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "nick-mckeown",
+   "name": "Nick McKeown",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Keynote: AI Infrastructure; Fireside chat.",
+   "role": "Scientist and Professor Emeritus, Stanford University",
+   "org": "stanford",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "ronnie-vasishta",
+   "name": "Ronnie Vasishta",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: The AI Supercycle.",
+   "role": "SVP Telecom, NVIDIA",
+   "org": "nvidia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "damien-lucas",
+   "name": "Damien Lucas",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: The AI Supercycle.",
+   "role": "CEO, Scaleway",
+   "org": "scaleway",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "takehiro-nakamura",
+   "name": "Takehiro Nakamura",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Operators panel.",
+   "role": "Chief Standardization Officer, NTT DOCOMO",
+   "org": "docomo",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "valeria-baiamonte",
+   "name": "Valeria Baiamonte",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Operators panel.",
+   "role": "Director of Network Strategy & Transformation, VodafoneThree",
+   "org": "vodafonethree",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "takki-yu",
+   "name": "Takki Yu",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Operators panel.",
+   "role": "SVP, SK Telecom",
+   "org": "skt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "charles-d-watson-ii",
+   "name": "Charles D. Watson II",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Operators panel.",
+   "role": "SVP Network Operations, C Spire",
+   "org": "cspire",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "pavan-kurapati",
+   "name": "Pavan Kurapati",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Beyond the GPU (moderator).",
+   "role": "SVP & CTO Data Center Networks, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "devang-patel",
+   "name": "Devang Patel",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Beyond the GPU.",
+   "role": "GPU Network Architect, AMD",
+   "org": "amd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "albane-bruyas",
+   "name": "Albane Bruyas",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Beyond the GPU.",
+   "role": "COO, Scaleway",
+   "org": "scaleway",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "alankar-sharma",
+   "name": "Alankar Sharma",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Beyond the GPU.",
+   "role": "Senior HPC Network Architect, Hudson River Trading",
+   "org": "hrt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "arielle-roth",
+   "name": "Arielle Roth",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Fireside chat: 6G Leadership in US.",
+   "role": "Assistant Secretary of Commerce for Communications and Information, NTIA",
+   "org": "ntia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "glenn-reynolds",
+   "name": "Glenn Reynolds",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Fireside chat: 6G Leadership in US.",
+   "role": "VP Government Affairs North America, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "rajeev-koodli",
+   "name": "Rajeev Koodli",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Presentation: Physical AI. Nov 5: Panel: Distributed Infrastructure.",
+   "role": "Principal Fellow & SVP, SoftBank Corp.",
+   "org": "softbank",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "sean-kennedy",
+   "name": "Sean Kennedy",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Physical AI at scale (moderator).",
+   "role": "Vice President, Nokia Bell Labs",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "doru-calin",
+   "name": "Doru Calin",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Physical AI at scale.",
+   "role": "AVP, MediaTek USA",
+   "org": "mediatek",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "bilal-sher",
+   "name": "Bilal Sher",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Physical AI at scale.",
+   "role": "CEO & Co-founder, Building Diagnostic Robotics",
+   "org": "bdr",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "volkan-isler",
+   "name": "Volkan Isler",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Physical AI at scale.",
+   "role": "Professor, UT Austin",
+   "org": "ut-austin",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "ludovic-righetti",
+   "name": "Ludovic Righetti",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Physical AI at scale.",
+   "role": "Professor, NYU",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "amreeta-gill",
+   "name": "Amreeta Gill",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: Physical AI at scale.",
+   "role": "Worldwide Physical AI Specialist, AWS",
+   "org": "amazon",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "martin-weiss",
+   "name": "Martin Weiss",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: ISAC presentation; Panel: ISAC and AI in 6G.",
+   "role": "Director of Applied Research for FutureG, OUSW(R&E)",
+   "org": "futureg",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda",
+    "https://wirelessinnovation.org/assets/International-spectrum-sharing-workshop-2024/Wednesday%20Weiss.pdf"
+   ]
+  },
+  {
+   "id": "nada-golmie",
+   "name": "Nada Golmie",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: ISAC and AI in 6G (moderator).",
+   "role": "NIST Fellow, NIST",
+   "org": "nist",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "harish-viswanathan",
+   "name": "Harish Viswanathan",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: ISAC and AI in 6G.",
+   "role": "Head, Radio Systems Research Lab, Nokia Bell Labs",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "chris-christou",
+   "name": "Chris (Christos) Christou",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: ISAC and AI in 6G.",
+   "role": "SVP Edge and NextG Networks, Booz Allen Hamilton",
+   "org": "booz",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda",
+    "https://www.executivebiz.com/?p=470581"
+   ]
+  },
+  {
+   "id": "satoshi-konishi",
+   "name": "Satoshi Konishi",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: ISAC and AI in 6G.",
+   "role": "President & CEO, KDDI Research",
+   "org": "kddi",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "kiran-mukkavilli",
+   "name": "Kiran Mukkavilli",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: ISAC and AI in 6G.",
+   "role": "Sr. Director of Engineering, Qualcomm",
+   "org": "qualcomm",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "doug-kirkpatrick",
+   "name": "Doug Kirkpatrick",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: ISAC and AI in 6G.",
+   "role": "Co-founder & CTO, Eridan",
+   "org": "eridan",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "vandana-nagal",
+   "name": "Vandana Nagal",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Closing remarks.",
+   "role": "Chief of Staff, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "roberto-padovani",
+   "name": "Roberto Padovani",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: VIP dinner.",
+   "role": "Affiliate Professor (former Qualcomm CTO), UC San Diego",
+   "org": "ucsd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "ted-rappaport",
+   "name": "Ted Rappaport",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: VIP dinner.",
+   "role": "Founder, NYU WIRELESS",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "yago-tenorio",
+   "name": "Yago Tenorio",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Presentation: AI-native 6G era.",
+   "role": "CTO, Verizon",
+   "org": "verizon",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "oguz-sunay",
+   "name": "Oguz Sunay",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Distributed Infrastructure (moderator).",
+   "role": "CTO, AI & Autonomous Networks, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "manish-singh",
+   "name": "Manish Singh",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Distributed Infrastructure.",
+   "role": "CTO, Telecom Systems Business, Dell Technologies",
+   "org": "dell",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "sree-sankar",
+   "name": "Sree Sankar",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Distributed Infrastructure.",
+   "role": "Global Head, Product Strategy & BD, Telecom, NVIDIA",
+   "org": "nvidia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "abhi-kushwaha",
+   "name": "Abhi (Abhitabh) Kushwaha",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Distributed Infrastructure.",
+   "role": "AVP Network AI & Data, Verizon",
+   "org": "verizon",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "mario-rodriguez",
+   "name": "Mario Rodriguez",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI-Powered Software Development; Panel: AI trust imperative.",
+   "role": "Chief Product Officer, GitHub",
+   "org": "github",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "tido-carriero",
+   "name": "Tido Carriero",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI-Powered Software Development.",
+   "role": "AI Products, SpaceXAI",
+   "org": "spacexai",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "udayan-mukherjee",
+   "name": "Udayan Mukherjee",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI-RAN Platform (moderator).",
+   "role": "CTO RAN & Core, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "soma-velayutham",
+   "name": "Soma Velayutham",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI-RAN Platform.",
+   "role": "VP for AI and Telecoms, NVIDIA",
+   "org": "nvidia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "egil-gronstad",
+   "name": "Egil Grönstad",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI-RAN Platform.",
+   "role": "Sr. Director, Emerging Technologies & Innovation, T-Mobile US",
+   "org": "tmobile",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "aji-ed",
+   "name": "Aji Ed",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI-RAN Platform.",
+   "role": "VP, Head of AI-RAN, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "sebastian-barros",
+   "name": "Sebastian Barros",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI-RAN Platform.",
+   "role": "CEO, ODD Advisory",
+   "org": "odd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "won-yeol-lee",
+   "name": "Won-Yeol Lee",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Presentation: KT's evolution strategy.",
+   "role": "VP / Head of Network Infra R&D, KT",
+   "org": "kt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "luiz-abud",
+   "name": "Luiz Abud",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Presentation: Direct-to-Device; TN-NTN panel.",
+   "role": "VP, AST SpaceMobile",
+   "org": "ast",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "marko-keskinen",
+   "name": "Marko Keskinen",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: TN-NTN panel.",
+   "role": "CEO Europe, Skylo Technologies",
+   "org": "skylo",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "adnan-khan",
+   "name": "Adnan Khan",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: TN-NTN panel.",
+   "role": "Director of Advanced Technology Marketing, Anritsu",
+   "org": "anritsu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "alberto-rico-alvarino",
+   "name": "Alberto Rico Alvariño",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: TN-NTN panel.",
+   "role": "Director, Technical Standards, Qualcomm",
+   "org": "qualcomm",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "john-baker",
+   "name": "John Baker",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: TN-NTN panel.",
+   "role": "Executive Adviser to MDA Space Leadership, MDA Space",
+   "org": "mda",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "amina-boubendir",
+   "name": "Amina Boubendir",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: TN-NTN panel.",
+   "role": "Head of Research and Standardisation, Airbus Defence and Space",
+   "org": "airbus-ds",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "kaushik-chowdhury",
+   "name": "Kaushik Chowdhury",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: University panel.",
+   "role": "Professor, UT Austin",
+   "org": "ut-austin",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "gerhard-fettweis",
+   "name": "Gerhard Fettweis",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: University panel.",
+   "role": "Professor & CEO, TU Dresden / Barkhausen Institut",
+   "org": "tud",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "danijela-cabric",
+   "name": "Danijela Cabric",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: University panel.",
+   "role": "Professor, UCLA",
+   "org": "ucla",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "abhimanyu-gosain",
+   "name": "Abhimanyu Gosain",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: University panel.",
+   "role": "Senior Director / Co-Chair 6G Working Group, Northeastern University",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "jakob-hoydis",
+   "name": "Jakob Hoydis",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Presentation: Wireless research in the age of AI.",
+   "role": "Distinguished Research Scientist, NVIDIA",
+   "org": "nvidia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "alex-jinsung-choi",
+   "name": "Alex Jinsung Choi",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI (moderator).",
+   "role": "Principal Fellow; Chair, AI-RAN Alliance, SoftBank Corp.",
+   "org": "softbank",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "magnus-frodigh",
+   "name": "Magnus Frodigh",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI.",
+   "role": "Senior Advisor, Ericsson",
+   "org": "ericsson",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "joel-brand",
+   "name": "Joel Brand",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI.",
+   "role": "AVP, Intelligent Edge BU, Marvell",
+   "org": "marvell",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "douglas-castor",
+   "name": "Douglas Castor",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI.",
+   "role": "VP & Head of Wireless Research, InterDigital",
+   "org": "interdigital",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "atlas-wang",
+   "name": "Atlas Wang",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI.",
+   "role": "Associate Professor, UT Austin",
+   "org": "ut-austin",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "tim-o-shea",
+   "name": "Tim O'Shea",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI.",
+   "role": "CTO, DeepSig",
+   "org": "deepsig",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "aparna-kumar",
+   "name": "Aparna Kumar",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI trust imperative (moderator).",
+   "role": "AI Transformation Officer, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "misha-kuperman",
+   "name": "Misha (Michael) Kuperman",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI trust imperative.",
+   "role": "Chief Reliability Officer & GM, Zscaler",
+   "org": "zscaler",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "christina-popper",
+   "name": "Christina Pöpper",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Fireside chat: Security and privacy.",
+   "role": "Associate Professor of Computer Science, NYU Abu Dhabi",
+   "org": "nyuad",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "roger-piqueras-jover",
+   "name": "Roger Piqueras Jover",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Fireside chat: Security and privacy.",
+   "role": "Security Engineering Leader",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
+  },
+  {
+   "id": "ulrich-dropmann",
+   "name": "Ulrich Dropmann",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Closing remarks.",
+   "role": "Head of Standardisation and Ecosystem Engagement, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://b6gs.com/agenda"
+   ]
   }
  ],
  "edges": [
@@ -2152,6 +3923,986 @@
    "type": "Role",
    "label": "Former Chief Technologist, Innovation Fund",
    "source": "https://tmt.knect365.com/network-x-demo/speakers/jaydee-griffith"
+  },
+  {
+   "from": "guru-parulkar",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 3: Networking reception",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "guru-parulkar",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Head of Bell Labs",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "sundeep-rangan",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 3: Reception; Nov 4: Welcome address; Nov 5: University panel (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "sundeep-rangan",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Director",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "juan-de-pablo",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Welcome address",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "juan-de-pablo",
+   "to": "nyu",
+   "type": "Role",
+   "label": "EVP, Global Science & Technology; Executive Dean, NYU Tandon",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "pallavi-mahajan",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Welcome; Fireside chat; Panel: The AI Supercycle. Nov 5: Panel: AI-Powered Software Development (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "pallavi-mahajan",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Chief Technology and AI Officer",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "joe-madden",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Welcome; Operators panel (moderator); Closing remarks. Nov 5: Welcome; TN-NTN panel (moderator); Closing remarks",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "joe-madden",
+   "to": "mobile-experts",
+   "type": "Role",
+   "label": "Founder",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "nick-mckeown",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Keynote: AI Infrastructure; Fireside chat",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "nick-mckeown",
+   "to": "stanford",
+   "type": "Role",
+   "label": "Scientist and Professor Emeritus",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "ronnie-vasishta",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: The AI Supercycle",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "ronnie-vasishta",
+   "to": "nvidia",
+   "type": "Role",
+   "label": "SVP Telecom",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "damien-lucas",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: The AI Supercycle",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "damien-lucas",
+   "to": "scaleway",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "takehiro-nakamura",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Operators panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "takehiro-nakamura",
+   "to": "docomo",
+   "type": "Role",
+   "label": "Chief Standardization Officer",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "valeria-baiamonte",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Operators panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "valeria-baiamonte",
+   "to": "vodafonethree",
+   "type": "Role",
+   "label": "Director of Network Strategy & Transformation",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "takki-yu",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Operators panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "takki-yu",
+   "to": "skt",
+   "type": "Role",
+   "label": "SVP",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "charles-d-watson-ii",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Operators panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "charles-d-watson-ii",
+   "to": "cspire",
+   "type": "Role",
+   "label": "SVP Network Operations",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "pavan-kurapati",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Beyond the GPU (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "pavan-kurapati",
+   "to": "nokia",
+   "type": "Role",
+   "label": "SVP & CTO Data Center Networks",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "devang-patel",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Beyond the GPU",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "devang-patel",
+   "to": "amd",
+   "type": "Role",
+   "label": "GPU Network Architect",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "albane-bruyas",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Beyond the GPU",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "albane-bruyas",
+   "to": "scaleway",
+   "type": "Role",
+   "label": "COO",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "alankar-sharma",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Beyond the GPU",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "alankar-sharma",
+   "to": "hrt",
+   "type": "Role",
+   "label": "Senior HPC Network Architect",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "arielle-roth",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Fireside chat: 6G Leadership in US",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "arielle-roth",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Assistant Secretary of Commerce for Communications and Information",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "glenn-reynolds",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Fireside chat: 6G Leadership in US",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "glenn-reynolds",
+   "to": "nokia",
+   "type": "Role",
+   "label": "VP Government Affairs North America",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "rajeev-koodli",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Presentation: Physical AI. Nov 5: Panel: Distributed Infrastructure",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "rajeev-koodli",
+   "to": "softbank",
+   "type": "Role",
+   "label": "Principal Fellow & SVP",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "sean-kennedy",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Physical AI at scale (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "sean-kennedy",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Vice President",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "doru-calin",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Physical AI at scale",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "doru-calin",
+   "to": "mediatek",
+   "type": "Role",
+   "label": "AVP",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "bilal-sher",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Physical AI at scale",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "bilal-sher",
+   "to": "bdr",
+   "type": "Role",
+   "label": "CEO & Co-founder",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "volkan-isler",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Physical AI at scale",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "volkan-isler",
+   "to": "ut-austin",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "ludovic-righetti",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Physical AI at scale",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "ludovic-righetti",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "amreeta-gill",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: Physical AI at scale",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "amreeta-gill",
+   "to": "amazon",
+   "type": "Role",
+   "label": "Worldwide Physical AI Specialist",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "martin-weiss",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: ISAC presentation; Panel: ISAC and AI in 6G",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "martin-weiss",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Director of Applied Research for FutureG",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "nada-golmie",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: ISAC and AI in 6G (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "nada-golmie",
+   "to": "nist",
+   "type": "Role",
+   "label": "NIST Fellow",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "harish-viswanathan",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: ISAC and AI in 6G",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "harish-viswanathan",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Head, Radio Systems Research Lab",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "chris-christou",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: ISAC and AI in 6G",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "chris-christou",
+   "to": "booz",
+   "type": "Role",
+   "label": "SVP Edge and NextG Networks",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "satoshi-konishi",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: ISAC and AI in 6G",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "satoshi-konishi",
+   "to": "kddi",
+   "type": "Role",
+   "label": "President & CEO",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "kiran-mukkavilli",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: ISAC and AI in 6G",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "kiran-mukkavilli",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "Sr. Director of Engineering",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "doug-kirkpatrick",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Panel: ISAC and AI in 6G",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "doug-kirkpatrick",
+   "to": "eridan",
+   "type": "Role",
+   "label": "Co-founder & CTO",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "vandana-nagal",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: Closing remarks",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "vandana-nagal",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Chief of Staff",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "roberto-padovani",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: VIP dinner",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "roberto-padovani",
+   "to": "ucsd",
+   "type": "Role",
+   "label": "Affiliate Professor, UCSD (former Qualcomm CTO)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "ted-rappaport",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 4: VIP dinner",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "ted-rappaport",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Founder",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "yago-tenorio",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Presentation: AI-native 6G era",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "yago-tenorio",
+   "to": "verizon",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "oguz-sunay",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Distributed Infrastructure (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "oguz-sunay",
+   "to": "nokia",
+   "type": "Role",
+   "label": "CTO, AI & Autonomous Networks",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "manish-singh",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Distributed Infrastructure",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "manish-singh",
+   "to": "dell",
+   "type": "Role",
+   "label": "CTO, Telecom Systems Business",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "sree-sankar",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Distributed Infrastructure",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "sree-sankar",
+   "to": "nvidia",
+   "type": "Role",
+   "label": "Global Head, Product Strategy & BD, Telecom",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "abhi-kushwaha",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Distributed Infrastructure",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "abhi-kushwaha",
+   "to": "verizon",
+   "type": "Role",
+   "label": "AVP Network AI & Data",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "mario-rodriguez",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI-Powered Software Development; Panel: AI trust imperative",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "mario-rodriguez",
+   "to": "github",
+   "type": "Role",
+   "label": "Chief Product Officer",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "tido-carriero",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI-Powered Software Development",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "tido-carriero",
+   "to": "spacexai",
+   "type": "Role",
+   "label": "AI Products",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "udayan-mukherjee",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI-RAN Platform (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "udayan-mukherjee",
+   "to": "nokia",
+   "type": "Role",
+   "label": "CTO RAN & Core",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "soma-velayutham",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI-RAN Platform",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "soma-velayutham",
+   "to": "nvidia",
+   "type": "Role",
+   "label": "VP for AI and Telecoms",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "egil-gronstad",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI-RAN Platform",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "egil-gronstad",
+   "to": "tmobile",
+   "type": "Role",
+   "label": "Sr. Director, Emerging Technologies & Innovation",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "aji-ed",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI-RAN Platform",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "aji-ed",
+   "to": "nokia",
+   "type": "Role",
+   "label": "VP, Head of AI-RAN",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "sebastian-barros",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI-RAN Platform",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "sebastian-barros",
+   "to": "odd",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "won-yeol-lee",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Presentation: KT's evolution strategy",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "won-yeol-lee",
+   "to": "kt",
+   "type": "Role",
+   "label": "VP / Head of Network Infra R&D",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "luiz-abud",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Presentation: Direct-to-Device; TN-NTN panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "luiz-abud",
+   "to": "ast",
+   "type": "Role",
+   "label": "VP",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "marko-keskinen",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: TN-NTN panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "marko-keskinen",
+   "to": "skylo",
+   "type": "Role",
+   "label": "CEO Europe",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "adnan-khan",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: TN-NTN panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "adnan-khan",
+   "to": "anritsu",
+   "type": "Role",
+   "label": "Director of Advanced Technology Marketing",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "alberto-rico-alvarino",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: TN-NTN panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "alberto-rico-alvarino",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "Director, Technical Standards",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "john-baker",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: TN-NTN panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "john-baker",
+   "to": "mda",
+   "type": "Role",
+   "label": "Executive Adviser to MDA Space Leadership",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "amina-boubendir",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: TN-NTN panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "amina-boubendir",
+   "to": "airbus-ds",
+   "type": "Role",
+   "label": "Head of Research and Standardisation",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "kaushik-chowdhury",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: University panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "kaushik-chowdhury",
+   "to": "ut-austin",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "gerhard-fettweis",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: University panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "gerhard-fettweis",
+   "to": "tud",
+   "type": "Role",
+   "label": "Professor & CEO",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "danijela-cabric",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: University panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "danijela-cabric",
+   "to": "ucla",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "abhimanyu-gosain",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: University panel",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "abhimanyu-gosain",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "Senior Director / Co-Chair 6G Working Group",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "jakob-hoydis",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Presentation: Wireless research in the age of AI",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "jakob-hoydis",
+   "to": "nvidia",
+   "type": "Role",
+   "label": "Distinguished Research Scientist",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "alex-jinsung-choi",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Wireless research in the age of AI (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "alex-jinsung-choi",
+   "to": "softbank",
+   "type": "Role",
+   "label": "Principal Fellow; Chair, AI-RAN Alliance",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "magnus-frodigh",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Wireless research in the age of AI",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "magnus-frodigh",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Senior Advisor",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "joel-brand",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Wireless research in the age of AI",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "joel-brand",
+   "to": "marvell",
+   "type": "Role",
+   "label": "AVP, Intelligent Edge BU",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "douglas-castor",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Wireless research in the age of AI",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "douglas-castor",
+   "to": "interdigital",
+   "type": "Role",
+   "label": "VP & Head of Wireless Research",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "atlas-wang",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Wireless research in the age of AI",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "atlas-wang",
+   "to": "ut-austin",
+   "type": "Role",
+   "label": "Associate Professor",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "tim-o-shea",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: Wireless research in the age of AI",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "tim-o-shea",
+   "to": "deepsig",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "aparna-kumar",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI trust imperative (moderator)",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "aparna-kumar",
+   "to": "nokia",
+   "type": "Role",
+   "label": "AI Transformation Officer",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "misha-kuperman",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Panel: AI trust imperative",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "misha-kuperman",
+   "to": "zscaler",
+   "type": "Role",
+   "label": "Chief Reliability Officer & GM",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "christina-popper",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Fireside chat: Security and privacy",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "christina-popper",
+   "to": "nyuad",
+   "type": "Role",
+   "label": "Associate Professor of Computer Science",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "roger-piqueras-jover",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Fireside chat: Security and privacy",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "ulrich-dropmann",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Speaker: Nov 5: Closing remarks",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "ulrich-dropmann",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Head of Standardisation and Ecosystem Engagement",
+   "source": "https://b6gs.com/agenda"
+  },
+  {
+   "from": "marvell",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Contributing member",
+   "source": "https://nextgalliance.org/contributing-members"
   }
  ]
 }
