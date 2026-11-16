@@ -616,10 +616,10 @@
    "description": "Arlington-based AI-native wireless and Open RAN company (CEO and co-founder Jim Shea). Chosen with SRS by the FutureG Office in September 2025 to lead OCUDU, the DoD's open-source 5G/6G RAN stack; founding member of the Linux Foundation's OCUDU Ecosystem Foundation (March 2026). Opened an OCUDU AI-RAN Lab at its Arlington headquarters on 19 October 2026, where operators and engineers can see AI-native capabilities running on an open CU/DU stack. Part of the Nokia Federal RAPID ISAC team. Two leaders sit on the FCC's Technological Advisory Council.",
    "role": "",
    "org": null,
-   "address": "Arlington, VA",
-   "lat": 38.883,
-   "lng": -77.103,
-   "precision": "City",
+   "address": "950 N Glebe Rd, Suite 910, Arlington, VA 22203",
+   "lat": 38.8822,
+   "lng": -77.1161,
+   "precision": "Street address",
    "sources": [
     "https://rt.cto.mil/deepsig-and-srs-chosen-by-futureg",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
@@ -1153,7 +1153,7 @@
    "category": "Person",
    "region": "Northern Virginia",
    "description": "Chair of the Next G Alliance Research Council and its Technical Program Director. Research professor at CCI and Virginia Tech.",
-   "role": "Chair, Next G Alliance Research Council",
+   "role": "Research Director, Commonwealth Cyber Initiative; Chair, Next G Alliance Research Council",
    "org": "cci",
    "address": "",
    "lat": null,
@@ -2962,8 +2962,8 @@
    "short": "",
    "category": "Person",
    "region": "Northern Virginia",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI.",
-   "role": "CTO, DeepSig",
+   "description": "CTO of DeepSig and member of the FCC's Technological Advisory Council. Speaker at the Brooklyn 6G Summit 2026 (panel: Wireless research in the age of AI) and the 2026 FutureG for Defense & Warfare Summit.",
+   "role": "CTO, DeepSig; Member, FCC Technological Advisory Council",
    "org": "deepsig",
    "address": "",
    "lat": null,
@@ -3410,18 +3410,20 @@
    "region": "Rest of US & global",
    "role": "",
    "org": null,
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "precision": "",
+   "address": "Suwanee, GA (metro Atlanta)",
+   "lat": 34.0515,
+   "lng": -84.0713,
+   "precision": "City",
    "sources": [
     "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced",
-    "https://washingtonexec.com/2023/05/nokia-and-future-technologies-win-multi-million-dollar-private-5g-projects-in-federal-market"
+    "https://washingtonexec.com/2023/05/nokia-and-future-technologies-win-multi-million-dollar-private-5g-projects-in-federal-market",
+    "https://www.cbinsights.com/company/future-technologies"
    ],
    "id": "future-tech",
    "name": "Future Technologies (Future Tech)",
    "category": "Defence & integrators",
-   "description": "Federal systems integrator and long-time Nokia private 5G partner. Team member on Nokia Federal's RAPID ISAC prototype award (Nov 2026)."
+   "description": "Private wireless systems integrator (private 5G/LTE, CBRS) for energy, utilities, transport and government. Probably the 'Future Tech' on Nokia Federal's RAPID ISAC team. CEO Peter Cappiello spoke at the 2026 FutureG for Defense & Warfare Summit.",
+   "website": "https://www.futuretechllc.com/"
   },
   {
    "short": "",
@@ -3808,8 +3810,8 @@
   {
    "short": "",
    "region": "Northern Virginia",
-   "role": "LTG (Ret), former Deputy Chief of Staff, G-6, US Army",
-   "org": "us-army",
+   "role": "CEO, Morrison Adaptive Solutions; LTG (Ret), former Army Deputy Chief of Staff, G-6",
+   "org": "morrison-adaptive",
    "address": "",
    "lat": null,
    "lng": null,
@@ -3821,7 +3823,7 @@
    "id": "john-morrison",
    "name": "John Morrison",
    "category": "Person",
-   "description": "Retired Army lieutenant general and the Army's first Deputy Chief of Staff, G-6 (2020–2024), overseeing Army-wide communications and cyber operations; earlier Chief of Staff of US Cyber Command. Retired December 2024 and now in the private sector. Opening keynote at the POC 2022 5G Forum."
+   "description": "Retired Army lieutenant general and the Army's first Deputy Chief of Staff, G-6 (2020–2024), overseeing Army-wide communications and cyber operations; earlier Chief of Staff of US Cyber Command. Now CEO of Morrison Adaptive Solutions. Opening keynote at the POC 2022 5G Forum; speaker at the 2026 FutureG for Defense & Warfare Summit."
   },
   {
    "short": "",
@@ -4035,6 +4037,486 @@
    "category": "Events",
    "description": "DSI's 3rd annual FutureG for Defense & Warfare Summit, 25–26 March 2026, Washington DC. Town-hall event on operationalising 5G, secure supply chains and NextG/6G for defence.",
    "website": "https://futureg.dsigroup.org/",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "Airspan",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Plano, TX",
+   "lat": 33.0198,
+   "lng": -96.6989,
+   "precision": "City",
+   "id": "airspan",
+   "name": "Airspan Networks",
+   "category": "Equipment & tech vendors",
+   "description": "RAN equipment vendor (5G, Open RAN, in-building, fixed wireless). Moved its HQ from Boca Raton, FL to Plano, TX in December 2025. ISAC partnership with Tiami Networks. Speakers at the 2026 FutureG for Defense & Warfare Summit.",
+   "website": "https://airspan.com/",
+   "sources": [
+    "https://www.businesswire.com/news/home/20251217557354/en/Airspan-Networks-Opens-New-Corporate-Headquarters-in-Plano-Texas"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Harrisburg, PA",
+   "lat": 40.2732,
+   "lng": -76.8867,
+   "precision": "City",
+   "id": "limitless-mobile",
+   "name": "Limitless Mobile",
+   "category": "Network operators",
+   "description": "Rural mobile operator in central Pennsylvania and wholesale infrastructure provider (MNO, MVNO, IoT), with operations in Europe. CTO Jim Croal spoke at the 2026 FutureG for Defense & Warfare Summit.",
+   "website": "https://limitlessmobile.com/",
+   "sources": [
+    "https://limitlessmobile.com/about"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "cohere",
+   "name": "Cohere Technologies",
+   "category": "Equipment & tech vendors",
+   "description": "Wireless technology company behind OTFS modulation, a candidate 6G waveform. SVP Strategy Dr Anton Monk spoke at the 2026 FutureG for Defense & Warfare Summit.",
+   "website": "https://cohere-tech.com/",
+   "sources": [
+    "https://cohere-tech.com/executive-team"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "revelare",
+   "name": "Revelare Networks",
+   "category": "Equipment & tech vendors",
+   "description": "5G security start-up led by CEO Alex Marder. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "morrison-adaptive",
+   "name": "Morrison Adaptive Solutions",
+   "category": "Defence & integrators",
+   "description": "Firm led by LTG (Ret) John Morrison, former Army Deputy Chief of Staff, G-6.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "DON CIO",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "The Pentagon, Arlington, VA",
+   "lat": 38.8719,
+   "lng": -77.0563,
+   "precision": "Street address",
+   "id": "us-navy",
+   "name": "US Navy (DON CIO)",
+   "category": "Government & funders",
+   "description": "Department of the Navy Chief Information Officer, which leads Navy and Marine Corps spectrum policy.",
+   "website": "https://www.doncio.navy.mil/",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "CEO, Revelare Networks",
+   "org": "revelare",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "alex-marder",
+   "name": "Alex Marder",
+   "category": "Person",
+   "description": "CEO of Revelare Networks, a 5G security start-up. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "CTO, Limitless Mobile",
+   "org": "limitless-mobile",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "jim-croal",
+   "name": "Jim Croal",
+   "category": "Person",
+   "description": "Group CTO of Limitless Mobile, a rural Pennsylvania mobile operator and infrastructure provider. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "CEO, Future Technologies",
+   "org": "future-tech",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "peter-cappiello",
+   "name": "Peter Cappiello",
+   "category": "Person",
+   "description": "CEO of Future Technologies, a private wireless systems integrator. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "SVP Strategy, Cohere Technologies",
+   "org": "cohere",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "anton-monk",
+   "name": "Anton Monk",
+   "category": "Person",
+   "description": "SVP Strategy at Cohere Technologies and co-author of the first OTFS paper. Previously VP and CTO of Wireless Initiatives at Viasat. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "President and CEO, Airspan Networks",
+   "org": "airspan",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "glenn-laxdal",
+   "name": "Glenn Laxdal",
+   "category": "Person",
+   "description": "President and CEO of Airspan Networks since 2023. Previously at Infinera and Ericsson North America. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "CTO, Airspan Networks",
+   "org": "airspan",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "paul-senior",
+   "name": "Paul Senior",
+   "category": "Person",
+   "description": "CTO of Airspan Networks, leading its 3GPP RAN strategy across public and private networks. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "CTO North America, Ericsson",
+   "org": "ericsson",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "sheryl-genco",
+   "name": "Sheryl Genco",
+   "category": "Person",
+   "description": "CTO North America at Ericsson. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Global Business Director, Ericsson",
+   "org": "ericsson",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "kenyatta-clark",
+   "name": "Kenyatta Clark",
+   "category": "Person",
+   "description": "Global Business Director at Ericsson. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Verizon",
+   "org": "verizon",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "lamont-copeland",
+   "name": "Lamont Copeland",
+   "category": "Person",
+   "description": "Verizon representative at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "AT&T",
+   "org": "att",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "stephen-matherne",
+   "name": "Stephen Matherne",
+   "category": "Person",
+   "description": "AT&T representative at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "T-Mobile",
+   "org": "tmobile",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "jeffrey-neal",
+   "name": "Jeffrey Neal",
+   "category": "Person",
+   "description": "T-Mobile representative at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Dell Federal 5G",
+   "org": "dell",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "don-hawkins",
+   "name": "Don Hawkins",
+   "category": "Person",
+   "description": "Dell Technologies Federal 5G lead. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Director, NextG Networks, Booz Allen",
+   "org": "booz",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "andrew-bolka",
+   "name": "Andrew Bolka",
+   "category": "Person",
+   "description": "Director of NextG Networks at Booz Allen Hamilton. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "CTIA",
+   "org": "ctia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "john-marinho",
+   "name": "John Marinho",
+   "category": "Person",
+   "description": "CTIA representative at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Director, Spectrum Initiatives & Analysis, OUSD(R&E)",
+   "org": "futureg",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "joshua-weaver",
+   "name": "Joshua Weaver",
+   "category": "Person",
+   "description": "Director of Spectrum Initiatives & Analysis in the Office of the Under Secretary for Research and Engineering at the Pentagon. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "NSF",
+   "org": "nsf",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "sudharam-jayaweera",
+   "name": "Sudharam Jayaweera",
+   "category": "Person",
+   "description": "National Science Foundation representative at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "NIST",
+   "org": "nist",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "mike-bartock",
+   "name": "Mike Bartock",
+   "category": "Person",
+   "description": "NIST representative at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Spectrum policy, Department of the Navy CIO",
+   "org": "us-navy",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "arthur-de-leon",
+   "name": "Arthur De Leon",
+   "category": "Person",
+   "description": "Spectrum policy lead in the Department of the Navy CIO office. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Lt Col, US Marine Corps",
+   "org": "usmc",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "benjamin-pimentel",
+   "name": "Benjamin Pimentel",
+   "category": "Person",
+   "description": "Marine Corps lieutenant colonel. Also a panellist on intelligent network operations at POC's 2024 Defense R&D Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "Chief Program Officer, National Spectrum Consortium",
+   "org": "nsc",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "mari-silbey",
+   "name": "Mari Silbey",
+   "category": "Person",
+   "description": "Chief Program Officer at the National Spectrum Consortium. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Open6G, Northeastern University",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "pedram-johari",
+   "name": "Pedram Johari",
+   "category": "Person",
+   "description": "Northeastern University, Open6G. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "RADM (Ret), Professor of Practice, Pamplin College of Business, Virginia Tech",
+   "org": "vt-iac",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "david-simpson",
+   "name": "David Simpson",
+   "category": "Person",
+   "description": "Retired Navy rear admiral and Professor of Practice at Virginia Tech's Pamplin College of Business. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
     "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
    ]
@@ -6707,6 +7189,356 @@
    "type": "Funding",
    "label": "Series A investor (Mar 2026)",
    "source": "https://www.cerberus.com/media/odc-completes-a-45m-series-a-funding-architecting-the-global-distributed-compute-grid-to-power-the-ai-native-era/"
+  },
+  {
+   "from": "alex-marder",
+   "to": "revelare",
+   "type": "Role",
+   "label": "CEO, Revelare Networks",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "jim-croal",
+   "to": "limitless-mobile",
+   "type": "Role",
+   "label": "CTO, Limitless Mobile",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "peter-cappiello",
+   "to": "future-tech",
+   "type": "Role",
+   "label": "CEO, Future Technologies",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "anton-monk",
+   "to": "cohere",
+   "type": "Role",
+   "label": "SVP Strategy, Cohere Technologies",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "glenn-laxdal",
+   "to": "airspan",
+   "type": "Role",
+   "label": "President and CEO, Airspan Networks",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "paul-senior",
+   "to": "airspan",
+   "type": "Role",
+   "label": "CTO, Airspan Networks",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "sheryl-genco",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "CTO North America, Ericsson",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "kenyatta-clark",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Global Business Director, Ericsson",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "lamont-copeland",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Verizon",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "stephen-matherne",
+   "to": "att",
+   "type": "Role",
+   "label": "AT&T",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "jeffrey-neal",
+   "to": "tmobile",
+   "type": "Role",
+   "label": "T-Mobile",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "don-hawkins",
+   "to": "dell",
+   "type": "Role",
+   "label": "Dell Federal 5G",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "andrew-bolka",
+   "to": "booz",
+   "type": "Role",
+   "label": "Director, NextG Networks, Booz Allen",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "john-marinho",
+   "to": "ctia",
+   "type": "Role",
+   "label": "CTIA",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "joshua-weaver",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Director, Spectrum Initiatives & Analysis, OUSD(R&E)",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "sudharam-jayaweera",
+   "to": "nsf",
+   "type": "Role",
+   "label": "NSF",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "mike-bartock",
+   "to": "nist",
+   "type": "Role",
+   "label": "NIST",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "arthur-de-leon",
+   "to": "us-navy",
+   "type": "Role",
+   "label": "Spectrum policy, Department of the Navy CIO",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "benjamin-pimentel",
+   "to": "usmc",
+   "type": "Role",
+   "label": "Lt Col, US Marine Corps",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "mari-silbey",
+   "to": "nsc",
+   "type": "Role",
+   "label": "Chief Program Officer, National Spectrum Consortium",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "pedram-johari",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "Open6G, Northeastern University",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "david-simpson",
+   "to": "vt-iac",
+   "type": "Role",
+   "label": "RADM (Ret), Professor of Practice, Pamplin College of Business, Virginia Tech",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "alex-marder",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "jim-croal",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "peter-cappiello",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "anton-monk",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "glenn-laxdal",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "paul-senior",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "sheryl-genco",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "kenyatta-clark",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "lamont-copeland",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "stephen-matherne",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "jeffrey-neal",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "don-hawkins",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "andrew-bolka",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "john-marinho",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "joshua-weaver",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "sudharam-jayaweera",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "mike-bartock",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "arthur-de-leon",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "benjamin-pimentel",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "mari-silbey",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "pedram-johari",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "david-simpson",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "anderson",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "burger",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "john-morrison",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "us-army",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Several G-6 and DEVCOM C5ISR speakers",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "john-morrison",
+   "to": "morrison-adaptive",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "airspan",
+   "to": "tiami",
+   "type": "Partnership / project",
+   "label": "ISAC partnership (MoU, Feb 2025)",
+   "source": "https://airspan.com/news/tiami-networks-and-airspan-announce-expanded-partnership-to-pave-the-way-for-5g-and-6g-innovation/"
   }
  ]
 }
