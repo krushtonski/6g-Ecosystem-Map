@@ -52,8 +52,8 @@ select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);ba
 .view{flex:1;min-height:0;display:none;position:relative}
 .view.on{display:block}
 #geo{position:absolute;inset:0}
-.leaflet-container{background:#fbfcfd;font:13px var(--body)}
-.plc{font:600 11px var(--body);color:#8a96a3;white-space:nowrap;transform:translate(-50%,-50%);pointer-events:none;letter-spacing:.02em}
+.leaflet-container{background:#fff;font:13px var(--body)}
+.plc{font:600 11px var(--body);color:#b3bcc5;white-space:nowrap;transform:translate(-50%,-50%);pointer-events:none;letter-spacing:.02em}
 .geobar{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:500;display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:4px}
 .geobar button,.zoombtns button,.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;font:600 12.5px var(--body);padding:5px 10px;cursor:pointer}
 .geobar .sep{width:1px;background:var(--line);margin:2px 4px}
@@ -61,9 +61,9 @@ select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);ba
 .cta-key{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin-right:6px}
 .geobar button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel)}
 .geonote{position:absolute;left:10px;bottom:22px;z-index:500;max-width:330px;font-size:11.5px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 9px}
-.pin{display:block;border-radius:50%;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.pin{display:block;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1.5px rgba(0,0,0,.45),0 2px 5px rgba(0,0,0,.3)}
 .pin.sq{border-radius:3px}
-.clu{display:flex;align-items:center;justify-content:center;border-radius:50%;background:#0b6e74;color:#fff;font:600 12px var(--body);border:3px solid rgba(11,110,116,.3);background-clip:padding-box}
+.clu{display:flex;align-items:center;justify-content:center;border-radius:50%;background:#0b6e74;color:#fff;font:700 13px var(--body);border:4px solid rgba(11,110,116,.35);box-shadow:0 2px 6px rgba(0,0,0,.3);background-clip:padding-box}
 .crumb{font-size:12px;color:var(--muted);padding:0 6px;align-self:center}
 #svg{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab}
 .ringlbl{font:600 11px var(--display);fill:var(--muted);letter-spacing:.06em;text-transform:uppercase}
@@ -242,22 +242,22 @@ function applyAll(){ applyNet(); applyGeo(); }
 let geo, markers={}, geoLines, cluster;
 const EXT = {world:[[-45,-150],[68,150]], us:[[24,-125],[49.5,-66]], nova:[[38.62,-77.50],[39.16,-76.90]]};
 function pinIcon(n,faded){
-  const r = Math.round(6 + Math.min(10, Math.sqrt(n.deg)*1.6)), d=r*2, c=CATS[n.category];
+  const r = Math.round(8 + Math.min(12, Math.sqrt(n.deg)*2)), d=r*2, c=CATS[n.category];
   return L.divIcon({className:"",iconSize:[d,d],iconAnchor:[r,r],html:`<span class="pin ${c.sq?"sq":""}" style="width:${d}px;height:${d}px;background:${c.c};opacity:${faded?.18:1}"></span>`});
 }
 function buildGeo(){
   geo = L.map("geo",{zoomControl:true,worldCopyJump:true,minZoom:2});
-  // Minimal basemap: land, country borders, US states and DC-area counties only. No streets, no tiles.
+  // Very basic basemap: faint coastline, country and US state lines only. No streets, no tiles.
   geo.setMaxZoom(12);
   geo.attributionControl.addAttribution('Boundaries: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, US Census');
   geo.createPane("base"); geo.getPane("base").style.zIndex=200;
   fetch("data/basemap.json").then(r=>r.json()).then(bm=>{
     const o={pane:"base",interactive:false};
-    L.geoJSON(bm.coast,{...o,style:{color:"#c3ccd5",weight:.9}}).addTo(geo);
-    L.geoJSON(bm.borders,{...o,style:{color:"#dbe1e7",weight:.7}}).addTo(geo);
-    const st=L.geoJSON(bm.states,{...o,style:{color:"#dde3e8",weight:.7,fill:false}});
+    L.geoJSON(bm.coast,{...o,style:{color:"#d3d9df",weight:.8}}).addTo(geo);
+    L.geoJSON(bm.borders,{...o,style:{color:"#e9edf0",weight:.6}}).addTo(geo);
+    const st=L.geoJSON(bm.states,{...o,style:{color:"#eef1f3",weight:.6,fill:false}});
     const co=L.geoJSON(bm.counties,{...o,style:{color:"#e8ecef",weight:.6,fill:false}});
-    const upd=()=>{ const z=geo.getZoom(); z>=4?st.addTo(geo):st.remove(); z>=8?co.addTo(geo):co.remove(); };
+    const upd=()=>{ const z=geo.getZoom(); z>=4?st.addTo(geo):st.remove(); co.remove(); };
     geo.on("zoomend",upd); upd();
   }).catch(()=>{});
   // A few place names, only when zoomed into the DC region
@@ -266,7 +266,7 @@ function buildGeo(){
   geo.on("zoomend",()=>{ geo.getZoom()>=9?plc.addTo(geo):plc.remove(); });
   geo.fitBounds(EXT.world);
   cluster = L.markerClusterGroup({disableClusteringAtZoom:10,maxClusterRadius:45,showCoverageOnHover:false,spiderfyOnMaxZoom:true,
-    iconCreateFunction:c=>{ const k=c.getChildCount(), d=k>9?42:34; return L.divIcon({className:"",iconSize:[d,d],html:`<span class="clu" style="width:${d}px;height:${d}px" aria-label="${k} organisations">${k}</span>`}); }});
+    iconCreateFunction:c=>{ const k=c.getChildCount(), d=k>9?48:40; return L.divIcon({className:"",iconSize:[d,d],html:`<span class="clu" style="width:${d}px;height:${d}px" aria-label="${k} organisations">${k}</span>`}); }});
   geo.addLayer(cluster);
   geoLines = L.layerGroup().addTo(geo);
   NODES.filter(n=>n.lat!=null && n.category!=="Person").forEach(n=>{
