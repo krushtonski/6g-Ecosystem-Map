@@ -730,7 +730,8 @@
    "sources": [
     "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html",
     "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
-   ]
+   ],
+   "website": "https://www.lockheedmartin.com/"
   },
   {
    "id": "northrop",
@@ -817,7 +818,8 @@
    "sources": [
     "https://news.vt.edu/articles/2023/12/ntia-innovation-fund-showcases-vt-cci-researchers.html",
     "https://www.executivebiz.com/?p=470581"
-   ]
+   ],
+   "website": "https://www.boozallen.com/expertise/tech-ecosystem/nextg-technologies.html"
   },
   {
    "id": "mitre",
@@ -2341,7 +2343,7 @@
    "short": "",
    "category": "Person",
    "region": "Northern Virginia",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: ISAC and AI in 6G.",
+   "description": "Senior Vice President for Edge and NextG Networks in Booz Allen's chief technology office; 25 years in telecoms. Leads AI-WIN (AI Wireless Innovation Network), through which Booz Allen works with ODC, NVIDIA and others on AI-native wireless for 6G, and the Booz Allen Ventures investment in ODC (Mar 2026). Co-writes with chief engineer Michael Jacobs on AI for spectrum sharing. Spoke at the Brooklyn 6G Summit 2026 (ISAC and AI in 6G panel).",
    "role": "SVP Edge and NextG Networks, Booz Allen Hamilton",
    "org": "booz",
    "address": "",
@@ -2349,8 +2351,10 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda",
-    "https://www.executivebiz.com/?p=470581"
+    "https://www.executivebiz.com/?p=472089",
+    "https://www.executivebiz.com/?p=470581",
+    "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-advances-ai-powered-nextg-america",
+    "https://b6gs.com/agenda"
    ]
   },
   {
@@ -3542,6 +3546,77 @@
    "name": "Joe Kochan",
    "category": "Person",
    "description": "Leads the National Spectrum Consortium (since May 2022). Previously co-founder and CEO of US Ignite, principal investigator for NSF's $100M Platforms for Advanced Wireless Research (PAWR) project office, and a federal program officer at NTIA. Washington, DC-based."
+  },
+  {
+   "short": "ODC",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-advances-ai-powered-nextg-america",
+    "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+   ],
+   "id": "odc",
+   "name": "O-RAN Development Company (ODC)",
+   "category": "Equipment & tech vendors",
+   "description": "US company building AI-native Open RAN software for 5G and emerging 6G. Series A (Mar 2026) backed by Booz Allen Ventures and NVIDIA. AI-WIN partner and OCUDU general member."
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Chief Engineer, RF Systems and Computational Electromagnetics, Booz Allen",
+   "org": "booz",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://executivebiz.com/?p=451437",
+    "https://potomacofficersclub.com/speakers/mike-jacobs/"
+   ],
+   "id": "michael-jacobs",
+   "name": "Michael Jacobs",
+   "category": "Person",
+   "description": "Chief engineer at Booz Allen leading its RF systems engineering portfolio; 35+ years in telecoms and defence. Expertise in spectrum engineering, antennas and DoD 5G/6G spectrum sharing. Co-writes with Chris Christou on AI for spectrum sharing."
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "Vice President, Technology Initiatives, Lockheed Martin (5G.MIL)",
+   "org": "lockheed",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.mwcbarcelona.com/agenda/speakers/14501-daniel-rice",
+    "https://www.govconwire.com/articles/qanda-with-lockheed-5g-mil-programs-vp-dan-rice"
+   ],
+   "id": "dan-rice",
+   "name": "Dan Rice",
+   "category": "Person",
+   "description": "Leads strategy and execution of Lockheed Martin's 5G.MIL Unified Network Solutions portfolio and its Demonstrations & Prototypes technology transition work, reporting to the SVP for Technology & Strategic Innovation. Previously VP of 5G.MIL Programs and VP of Technology Strategy and Research. Holds four US patents."
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Director, 5G.MIL Programs, Lockheed Martin",
+   "org": "lockheed",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://potomacofficersclub.com/lizy-paul-leads-lockheed-martins-5g-mil-program"
+   ],
+   "id": "lizy-paul",
+   "name": "Lizy Paul",
+   "category": "Person",
+   "description": "Director of 5G.MIL programs at Lockheed Martin. Chaired the National Spectrum Consortium in 2021 while at Collins Aerospace, after serving on its Executive Committee from 2019. Earlier engineering roles at Motorola, Ericsson and Hughes Network Systems."
   }
  ],
  "edges": [
@@ -5910,6 +5985,83 @@
    "type": "Role",
    "label": "Former Federal Program Officer",
    "source": "https://www.citybiz.co/article/264963/national-spectrum-consortium-appoints-joe-kochan-executive-director/"
+  },
+  {
+   "from": "booz",
+   "to": "odc",
+   "type": "Funding",
+   "label": "Booz Allen Ventures Series A investment (Mar 2026)",
+   "source": "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-advances-ai-powered-nextg-america"
+  },
+  {
+   "from": "nvidia",
+   "to": "odc",
+   "type": "Funding",
+   "label": "Co-investor, Series A (Mar 2026)",
+   "source": "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-advances-ai-powered-nextg-america"
+  },
+  {
+   "from": "odc",
+   "to": "aiwin",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-advances-ai-powered-nextg-america"
+  },
+  {
+   "from": "odc",
+   "to": "ocudu",
+   "type": "Membership",
+   "label": "General member",
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+  },
+  {
+   "from": "booz",
+   "to": "asc-demo",
+   "type": "Contract or award",
+   "label": "Team member with Nokia Federal (>$25M)",
+   "source": "https://www.executivebiz.com/?p=470581"
+  },
+  {
+   "from": "att",
+   "to": "asc-demo",
+   "type": "Contract or award",
+   "label": "Subcontractor to Nokia Federal",
+   "source": "https://www.executivebiz.com/articles/dod-nokia-federal-spectrum-coexistence-demo"
+  },
+  {
+   "from": "michael-jacobs",
+   "to": "chris-christou",
+   "type": "Research together",
+   "label": "Co-authors on AI for spectrum sharing",
+   "source": "https://www.rcrwireless.com/20240402/5g/why-ai-holds-major-promise-for-spectrum-sharing-at-scale-reader-forum"
+  },
+  {
+   "from": "michael-jacobs",
+   "to": "booz",
+   "type": "Role",
+   "label": "Chief Engineer",
+   "source": "https://potomacofficersclub.com/speakers/mike-jacobs/"
+  },
+  {
+   "from": "dan-rice",
+   "to": "lockheed",
+   "type": "Role",
+   "label": "VP Technology Initiatives; leads 5G.MIL",
+   "source": "https://www.mwcbarcelona.com/agenda/speakers/14501-daniel-rice"
+  },
+  {
+   "from": "lizy-paul",
+   "to": "lockheed",
+   "type": "Role",
+   "label": "Director, 5G.MIL Programs",
+   "source": "https://potomacofficersclub.com/lizy-paul-leads-lockheed-martins-5g-mil-program"
+  },
+  {
+   "from": "lizy-paul",
+   "to": "nsc",
+   "type": "Role",
+   "label": "Former Chair (2021); Executive Committee 2019–2021",
+   "source": "https://potomacofficersclub.com/lizy-paul-leads-lockheed-martins-5g-mil-program"
   }
  ]
 }
