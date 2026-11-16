@@ -994,13 +994,13 @@
    "short": "",
    "category": "Programmes & testbeds",
    "region": "Rest of US & global",
-   "description": "NSF's $25M national spectrum innovation centre, with NTIA and FCC support.",
+   "description": "NSF's $25M national spectrum innovation centre, with NTIA and FCC support. Led by the University of Notre Dame's Wireless Institute.",
    "role": "",
    "org": null,
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "precision": "",
+   "address": "University of Notre Dame, Notre Dame, IN",
+   "lat": 41.7052,
+   "lng": -86.2353,
+   "precision": "City",
    "sources": [
     "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
    ]
@@ -1973,7 +1973,7 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: Panel: The AI Supercycle.",
+   "description": "SVP Telecom at NVIDIA. Leads NVIDIA's AI-native 6G stack work on the AI Aerial platform with partners including T-Mobile, MITRE, Cisco, ODC and Booz Allen. Speaker at the Brooklyn 6G Summit 2026 (Nov 4: The AI Supercycle).",
    "role": "SVP Telecom, NVIDIA",
    "org": "nvidia",
    "address": "",
@@ -2453,8 +2453,8 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: VIP dinner.",
-   "role": "Founder, NYU WIRELESS",
+   "description": "Founding director of NYU WIRELESS. Key figure in the mmWave research behind 5G; his team first argued that 6G would move into sub-terahertz frequencies. Elected to the American Academy of Arts and Sciences. Speaker at the Brooklyn 6G Summit 2026 (Nov 4: VIP dinner).",
+   "role": "Founding Director, NYU WIRELESS",
    "org": "nyu",
    "address": "",
    "lat": null,
@@ -2844,7 +2844,7 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: University panel.",
+   "description": "Senior Director, Institute for the Wireless Internet of Things, Northeastern University. Co-chaired the FCC Technological Advisory Council's 6G Working Group with Brian Daly (AT&T). Speaker at the Brooklyn 6G Summit 2026 (Nov 5: University panel).",
    "role": "Senior Director / Co-Chair 6G Working Group, Northeastern University",
    "org": "northeastern",
    "address": "",
@@ -4766,6 +4766,237 @@
    "description": "Distinguished Chief Spectrum Economist at MITRE and co-author of its 'Path to Smart 6G Spectrum Access' paper.",
    "sources": [
     "https://siliconflatirons.org/?p=68384"
+   ]
+  },
+  {
+   "short": "Notre Dame",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Notre Dame, IN",
+   "lat": 41.7052,
+   "lng": -86.2353,
+   "precision": "City",
+   "id": "notre-dame",
+   "name": "University of Notre Dame",
+   "category": "Academic & research",
+   "description": "Indiana university whose Wireless Institute leads SpectrumX, the NSF Spectrum Innovation Center.",
+   "website": "https://wireless.nd.edu/",
+   "sources": [
+    "https://www.spectrumx.org/news/spectrumx-policy-outreach-director-notre-dame-professor-monisha-ghosh-testifies-at-senate-hearing-on-spectrum-and-national-security/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Institute Professor, ECE, NYU Tandon; NYU WIRELESS",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "elza-erkip",
+   "name": "Elza Erkip",
+   "category": "Person",
+   "description": "NYU WIRELESS faculty working on upper mid-band and sub-THz wireless systems. NYU WIRELESS runs the Brooklyn 6G Summit.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Truchard Family Chair in Engineering; Director, 6G@UT",
+   "org": "ut-austin",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "jeff-andrews",
+   "name": "Jeff Andrews",
+   "category": "Person",
+   "description": "Director of 6G@UT at UT Austin. His research is supported by AT&T, Amazon Leo, Keysight, Nokia, Qualcomm, Ericsson and NSF. Co-author of the widely read '6G Takes Shape' paper with Todd Humphreys and Qualcomm's Tingfang Ji.",
+   "sources": [
+    "https://sites.utexas.edu/jandrews",
+    "https://arxiv.org/html/2411.18435v1"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "William Lincoln Smith Chair Professor; Founding Director, Institute for the Wireless Internet of Things",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "tommaso-melodia",
+   "name": "Tommaso Melodia",
+   "category": "Person",
+   "description": "Founding director of Northeastern's Institute for the Wireless Internet of Things, home of the OUSD(R&E)-funded Open6G centre for open, programmable 6G. Industry partners include AT&T, Dell, AMD and Intel.",
+   "sources": [
+    "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/",
+    "https://coe.northeastern.edu/?p=32846"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, Northeastern University",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "josep-jornet",
+   "name": "Josep Jornet",
+   "category": "Person",
+   "description": "Terahertz communications researcher since 2009, at Northeastern's Institute for the Wireless Internet of Things (TeraNova testbed).",
+   "sources": [
+    "https://ece.northeastern.edu/?p=5824"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Charles Lee Powell Chair in Wireless Communications, UC San Diego",
+   "org": "ucsd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "robert-heath",
+   "name": "Robert Heath",
+   "category": "Person",
+   "description": "Leading voice on MIMO and extreme MIMO for 6G. Joined UC San Diego in 2024 from NC State (and UT Austin before that). Panellist on the Next G Alliance's extreme MIMO panel (Jan 2026).",
+   "sources": [
+    "https://jacobsschool.ucsd.edu/people/profile/robert-w-heath-jr",
+    "https://nextgalliance.org/technology-roadmap-working-group-hosts-extreme-mimo-panel/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Professor, EE, University of Notre Dame; Policy Outreach Director, SpectrumX",
+   "org": "notre-dame",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "monisha-ghosh",
+   "name": "Monisha Ghosh",
+   "category": "Person",
+   "description": "Former FCC Chief Technology Officer (to June 2021) and SpectrumX Policy Outreach Director. Argues 6G should be 'sharing native'. Testified to the Senate Commerce Committee on spectrum and national security (March 2024). Co-chairs the FCC TAC Advanced Spectrum Sharing working group.",
+   "sources": [
+    "https://spectrumx.org/?p=5386",
+    "https://www.techuk.org/asset/A0AB424F%2D83FE%2D4B9F%2DBAA7ECE51B0463BE",
+    "https://ee.nd.edu/?p=3495"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Director, SpectrumX; Professor, University of Notre Dame",
+   "org": "notre-dame",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "nick-laneman",
+   "name": "Nick Laneman",
+   "category": "Person",
+   "description": "Director of SpectrumX, the NSF Spectrum Innovation Center led by Notre Dame.",
+   "sources": [
+    "https://www.spectrumx.org/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "SVP Engineering, Qualcomm Technologies",
+   "org": "qualcomm",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "john-smee",
+   "name": "John Smee",
+   "category": "Person",
+   "description": "Runs Qualcomm's 6G strategy. Has said pre-commercial 6G trials target the LA 2028 Olympics, with commercial rollout from late 2029.",
+   "sources": [
+    "https://www.fierce-network.com/wireless/qa-6g-coming-qualcomms-john-smee-ai-connectivity-and-future-everything",
+    "https://www.pulse.bot/telecom/video/qualcomms-6g-vision-ai-sensing-the-road-to-2029-john-smee-at-mwc-2026-0975b081-dcc4-4639-b431-3cf8ab63caf2/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "6G research lead, Qualcomm",
+   "org": "qualcomm",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "tingfang-ji",
+   "name": "Tingfang Ji",
+   "category": "Person",
+   "description": "Described as Qualcomm's 6G research leader. Co-author of '6G Takes Shape' with Jeff Andrews and Todd Humphreys.",
+   "sources": [
+    "https://arxiv.org/html/2411.18435v1"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Nokia Fellow, Nokia Standards and Strategy; Chair, Next G Alliance Technology Roadmap Working Group",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "amitava-ghosh",
+   "name": "Amitava Ghosh",
+   "category": "Person",
+   "description": "Nokia Fellow and Head of Radio Interface Group. Chairs the Next G Alliance Technology Roadmap Working Group (previously the National 6G Roadmap Working Group). Based at Nokia in Naperville, IL.",
+   "sources": [
+    "https://nextgalliance.org/technology-roadmap-working-group-focus-areas-and-priorities/",
+    "https://ieeeaccess.ieee.org/editorial-team/amitava-amitabha-ghosh/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Former President, Bell Labs Core Research, Nokia (retired July 2026)",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "peter-vetter",
+   "name": "Peter Vetter",
+   "category": "Person",
+   "description": "Led Bell Labs Core Research for nearly two decades, latterly as co-president of Bell Labs. Retired on 17 July 2026 when Nokia merged its two research units under new head Guru Parulkar, amid cuts and the move from Murray Hill to New Brunswick, NJ.",
+   "sources": [
+    "https://convergedigest.com/guru-parulkar-takes-helm-of-nokia-bell-labs-research/?amp=1",
+    "https://www.lightreading.com/business-transformation/nokia-s-former-cto-rages-at-shocking-bell-labs-cuts"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "AT&T Fellow; AVP Wireless Technology & Standards, AT&T",
+   "org": "att",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "brian-daly",
+   "name": "Brian Daly",
+   "category": "Person",
+   "description": "AT&T Fellow who leads AT&T's standards strategy. Co-chair of the FCC TAC 6G Working Group, co-chair of the Next G Alliance Steering Group, and co-lead of the National Spectrum Consortium 5G/Next G Working Group.",
+   "sources": [
+    "https://nextgalliance.org/nga_event_speaker/brain-daly/",
+    "https://www.fcc.gov/sites/default/files/Consolidated_6G_Paper_FCCTAC23_Final_for_Web.pdf"
    ]
   }
  ],
@@ -7919,6 +8150,244 @@
    "type": "Role",
    "label": "Chair, Spectrum Working Group",
    "source": "https://www.afcea.org/sites/default/files/2024-02/Andrew%20Thiessen%20Bio%20-%20Short.pdf"
+  },
+  {
+   "from": "elza-erkip",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Institute Professor, ECE, NYU Tandon; NYU WIRELESS",
+   "source": "https://wireless.engineering.nyu.edu/"
+  },
+  {
+   "from": "jeff-andrews",
+   "to": "ut-austin",
+   "type": "Role",
+   "label": "Truchard Family Chair in Engineering; Director, 6G@UT",
+   "source": "https://sites.utexas.edu/jandrews"
+  },
+  {
+   "from": "tommaso-melodia",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "William Lincoln Smith Chair Professor; Founding Director, Institute for the Wireless Internet of Things",
+   "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
+  },
+  {
+   "from": "josep-jornet",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "Professor, ECE, Northeastern University",
+   "source": "https://ece.northeastern.edu/?p=5824"
+  },
+  {
+   "from": "robert-heath",
+   "to": "ucsd",
+   "type": "Role",
+   "label": "Charles Lee Powell Chair in Wireless Communications, UC San Diego",
+   "source": "https://jacobsschool.ucsd.edu/people/profile/robert-w-heath-jr"
+  },
+  {
+   "from": "monisha-ghosh",
+   "to": "notre-dame",
+   "type": "Role",
+   "label": "Professor, EE, University of Notre Dame; Policy Outreach Director, SpectrumX",
+   "source": "https://spectrumx.org/?p=5386"
+  },
+  {
+   "from": "nick-laneman",
+   "to": "notre-dame",
+   "type": "Role",
+   "label": "Director, SpectrumX; Professor, University of Notre Dame",
+   "source": "https://www.spectrumx.org/"
+  },
+  {
+   "from": "john-smee",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "SVP Engineering, Qualcomm Technologies",
+   "source": "https://www.fierce-network.com/wireless/qa-6g-coming-qualcomms-john-smee-ai-connectivity-and-future-everything"
+  },
+  {
+   "from": "tingfang-ji",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "6G research lead, Qualcomm",
+   "source": "https://arxiv.org/html/2411.18435v1"
+  },
+  {
+   "from": "amitava-ghosh",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Nokia Fellow, Nokia Standards and Strategy; Chair, Next G Alliance Technology Roadmap Working Group",
+   "source": "https://nextgalliance.org/technology-roadmap-working-group-focus-areas-and-priorities/"
+  },
+  {
+   "from": "peter-vetter",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Former President, Bell Labs Core Research, Nokia (retired July 2026)",
+   "source": "https://convergedigest.com/guru-parulkar-takes-helm-of-nokia-bell-labs-research/?amp=1"
+  },
+  {
+   "from": "brian-daly",
+   "to": "att",
+   "type": "Role",
+   "label": "AT&T Fellow; AVP Wireless Technology & Standards, AT&T",
+   "source": "https://nextgalliance.org/nga_event_speaker/brain-daly/"
+  },
+  {
+   "from": "monisha-ghosh",
+   "to": "spectrumx",
+   "type": "Role",
+   "label": "Policy Outreach Director",
+   "source": "https://spectrumx.org/?p=5386"
+  },
+  {
+   "from": "monisha-ghosh",
+   "to": "fcc",
+   "type": "Role",
+   "label": "Former Chief Technology Officer (to June 2021)",
+   "source": "https://spectrumx.org/?p=5386"
+  },
+  {
+   "from": "nick-laneman",
+   "to": "spectrumx",
+   "type": "Role",
+   "label": "Director",
+   "source": "https://www.spectrumx.org/"
+  },
+  {
+   "from": "notre-dame",
+   "to": "spectrumx",
+   "type": "Partnership / project",
+   "label": "Lead institution (Wireless Institute)",
+   "source": "https://www.spectrumx.org/news/spectrumx-policy-outreach-director-notre-dame-professor-monisha-ghosh-testifies-at-senate-hearing-on-spectrum-and-national-security/"
+  },
+  {
+   "from": "amitava-ghosh",
+   "to": "nga",
+   "type": "Role",
+   "label": "Chair, Technology Roadmap Working Group",
+   "source": "https://nextgalliance.org/technology-roadmap-working-group-focus-areas-and-priorities/"
+  },
+  {
+   "from": "brian-daly",
+   "to": "nga",
+   "type": "Role",
+   "label": "Co-chair, Steering Group",
+   "source": "https://nextgalliance.org/nga_event_speaker/brain-daly/"
+  },
+  {
+   "from": "brian-daly",
+   "to": "fcc",
+   "type": "Role",
+   "label": "Co-chair, TAC 6G Working Group",
+   "source": "https://www.fcc.gov/sites/default/files/Consolidated_6G_Paper_FCCTAC23_Final_for_Web.pdf"
+  },
+  {
+   "from": "abhimanyu-gosain",
+   "to": "fcc",
+   "type": "Role",
+   "label": "Co-chair, TAC 6G Working Group",
+   "source": "https://www.fcc.gov/sites/default/files/Consolidated_6G_Paper_FCCTAC23_Final_for_Web.pdf"
+  },
+  {
+   "from": "brian-daly",
+   "to": "nsc",
+   "type": "Role",
+   "label": "Co-lead, 5G/Next G Working Group",
+   "source": "https://nextgalliance.org/nga_event_speaker/brain-daly/"
+  },
+  {
+   "from": "jeff-andrews",
+   "to": "tingfang-ji",
+   "type": "Research together",
+   "label": "Co-authors, '6G Takes Shape'",
+   "source": "https://arxiv.org/html/2411.18435v1"
+  },
+  {
+   "from": "att",
+   "to": "ut-austin",
+   "type": "Funding",
+   "label": "Sponsors 6G@UT research (Jeff Andrews)",
+   "source": "https://sites.utexas.edu/jandrews"
+  },
+  {
+   "from": "amazon",
+   "to": "ut-austin",
+   "type": "Funding",
+   "label": "Sponsors 6G@UT research (Jeff Andrews) via Amazon Leo",
+   "source": "https://sites.utexas.edu/jandrews"
+  },
+  {
+   "from": "keysight",
+   "to": "ut-austin",
+   "type": "Funding",
+   "label": "Sponsors 6G@UT research (Jeff Andrews)",
+   "source": "https://sites.utexas.edu/jandrews"
+  },
+  {
+   "from": "nokia",
+   "to": "ut-austin",
+   "type": "Funding",
+   "label": "Sponsors 6G@UT research (Jeff Andrews)",
+   "source": "https://sites.utexas.edu/jandrews"
+  },
+  {
+   "from": "qualcomm",
+   "to": "ut-austin",
+   "type": "Funding",
+   "label": "Sponsors 6G@UT research (Jeff Andrews)",
+   "source": "https://sites.utexas.edu/jandrews"
+  },
+  {
+   "from": "ericsson",
+   "to": "ut-austin",
+   "type": "Funding",
+   "label": "Sponsors 6G@UT research (Jeff Andrews)",
+   "source": "https://sites.utexas.edu/jandrews"
+  },
+  {
+   "from": "att",
+   "to": "northeastern",
+   "type": "Partnership / project",
+   "label": "Industry partner, Institute for the Wireless Internet of Things",
+   "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
+  },
+  {
+   "from": "dell",
+   "to": "northeastern",
+   "type": "Partnership / project",
+   "label": "Industry partner, Institute for the Wireless Internet of Things",
+   "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
+  },
+  {
+   "from": "amd",
+   "to": "northeastern",
+   "type": "Partnership / project",
+   "label": "Industry partner, Institute for the Wireless Internet of Things",
+   "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
+  },
+  {
+   "from": "intel",
+   "to": "northeastern",
+   "type": "Partnership / project",
+   "label": "Industry partner, Institute for the Wireless Internet of Things",
+   "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
+  },
+  {
+   "from": "nyu",
+   "to": "b6gs-2026",
+   "type": "Event participation",
+   "label": "Organiser (NYU WIRELESS)",
+   "source": "https://wireless.engineering.nyu.edu/"
+  },
+  {
+   "from": "futureg",
+   "to": "northeastern",
+   "type": "Funding",
+   "label": "Open6G anchor award (OUSD(R&E))",
+   "source": "https://coe.northeastern.edu/?p=32846"
   }
  ]
 }
