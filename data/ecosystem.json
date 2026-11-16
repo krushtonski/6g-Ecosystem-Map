@@ -831,7 +831,7 @@
    "short": "",
    "category": "Defence & integrators",
    "region": "Northern Virginia",
-   "description": "Partner in the AI WIN spectrum demonstrations.",
+   "description": "Not-for-profit R&D organisation headquartered in McLean, VA. NVIDIA's founding 6G research partner and the only not-for-profit in AI-WIN; led the spectrum agility application in AI-WIN's AI-native RAN prototype (Oct 2025).",
    "role": "",
    "org": null,
    "address": "McLean, VA",
@@ -839,7 +839,8 @@
    "lng": -77.2133,
    "precision": "City",
    "sources": [
-    "https://www.executivebiz.com/?p=470581"
+    "https://www.executivebiz.com/?p=470581",
+    "https://www.mitre.org/news-insights/news-release/mitre-shape-ai-driven-future-wireless-collaboration-nvidia"
    ]
   },
   {
@@ -1153,7 +1154,7 @@
    "category": "Person",
    "region": "Northern Virginia",
    "description": "Chair of the Next G Alliance Research Council and its Technical Program Director. Research professor at CCI and Virginia Tech.",
-   "role": "Research Director, Commonwealth Cyber Initiative; Chair, Next G Alliance Research Council",
+   "role": "Research Professor of NextG Security, Commonwealth Cyber Initiative; Technical Program Director, Next G Alliance",
    "org": "cci",
    "address": "",
    "lat": null,
@@ -1255,7 +1256,7 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Research associate professor, VT National Security Institute. Works on Mobile dMIMO.",
+   "description": "Research associate professor at the Virginia Tech National Security Institute, working on resilient next-generation wireless for commercial and DoD use. On the $9M FutureG Mobile dMIMO project team.",
    "role": "Research associate professor, VT NSI",
    "org": "vt-nsi",
    "address": "",
@@ -4520,6 +4521,252 @@
    "sources": [
     "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
    ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "cirrus360",
+   "name": "Cirrus360",
+   "category": "Equipment & tech vendors",
+   "description": "Start-up making tools for rapid O-RAN prototyping, including a RAN domain-specific language (RDSL) and cloud automation for building the DU. Co-founded by Jeff Reed.",
+   "sources": [
+    "https://5g.ieee.org/images/files/pdf/DL/FutureNetworks_DL_Nov2023-Jeff_Reed.pdf"
+   ]
+  },
+  {
+   "short": "Chalmers",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Gothenburg, Sweden",
+   "lat": 57.6896,
+   "lng": 11.9744,
+   "precision": "City",
+   "id": "chalmers",
+   "name": "Chalmers University of Technology",
+   "category": "Academic & research",
+   "description": "Swedish technical university. Partner with Virginia Tech on a three-year NSF/Swedish Research Council project using AI and brain-inspired computing for energy-efficient 6G radio transmitters in FR3.",
+   "website": "https://www.chalmers.se/en/",
+   "sources": [
+    "https://www.chalmers.se/en/current/news/mc2-millions-in-funding-for-swedish-american-research-on-future-6g-networks"
+   ]
+  },
+  {
+   "short": "UVA",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Charlottesville, VA",
+   "lat": 38.0336,
+   "lng": -78.508,
+   "precision": "City",
+   "id": "uva",
+   "name": "University of Virginia",
+   "category": "Academic & research",
+   "description": "Charlottesville university. Its Charles L. Brown Department of ECE works on machine learning for future wireless, including Cong Shen's NSF CAREER project on 6G.",
+   "website": "https://engineering.virginia.edu/",
+   "sources": [
+    "https://engineering.virginia.edu/news-events/news/career-award-designing-next-generation-wireless-communications-systems"
+   ]
+  },
+  {
+   "short": "ODU",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Norfolk, VA",
+   "lat": 36.8853,
+   "lng": -76.3059,
+   "precision": "City",
+   "id": "odu",
+   "name": "Old Dominion University",
+   "category": "Academic & research",
+   "description": "Norfolk university. Its Center for Secure and Intelligent Critical Systems (CSICS) researches 6G security, including adversarial attacks on AI-driven RAN slicing.",
+   "website": "https://www.odu.edu/",
+   "sources": [
+    "https://www.odu.edu/article/keeping-tomorrows-wireless-networks-safe-when-it-matters-most"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Willis G. Worcester Professor of ECE; Founding Director, Wireless@Virginia Tech",
+   "org": "wireless-vt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "jeff-reed",
+   "name": "Jeff Reed",
+   "category": "Person",
+   "description": "Founding director of Wireless@Virginia Tech and founding faculty member of the Hume Center for National Security and Technology. Former CTO of the Commonwealth Cyber Initiative. Co-founder of Federated Wireless, PFP Cybersecurity and Cirrus360 (O-RAN prototyping tools).",
+   "sources": [
+    "https://5g.ieee.org/images/files/pdf/DL/FutureNetworks_DL_Nov2023-Jeff_Reed.pdf",
+    "https://news.vt.edu/articles/2020/10/cci-jeff-reed-cto-commonwealth-cyber-initiative.html"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, Virginia Tech; IEEE Fellow",
+   "org": "wireless-vt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "harpreet-dhillon",
+   "name": "Harpreet Dhillon",
+   "category": "Person",
+   "description": "IEEE Fellow working on wireless networks, real-time optimisation, spectrum sharing and 5G/6G. Blacksburg-based.",
+   "sources": [
+    "https://wireless.vt.edu/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE; former Director, Wireless@Virginia Tech",
+   "org": "wireless-vt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "michael-buehrer",
+   "name": "Michael Buehrer",
+   "category": "Person",
+   "description": "Former director of Wireless@Virginia Tech who still works on its 6G research.",
+   "sources": [
+    "https://wireless.vt.edu/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Alexandria",
+   "role": "Professor, ECE; Director, BRICCS Lab, Virginia Tech Institute for Advanced Computing",
+   "org": "vt-iac",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "cindy-yi",
+   "name": "Cindy Yang Yi",
+   "category": "Person",
+   "description": "ECE professor at Virginia Tech's Institute for Advanced Computing in Alexandria and director of the BRain-Inspired Computing, Communications and Security Lab. Works on neuromorphic computing, AI chips and machine learning for 5G/6G. On a new NSF/Swedish Research Council project with Chalmers using AI and brain-inspired computing for energy-efficient 6G transmitters.",
+   "sources": [
+    "https://bricc.ece.vt.edu/index.html",
+    "https://www.chalmers.se/en/current/news/mc2-millions-in-funding-for-swedish-american-research-on-future-6g-networks"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE; Wireless@Virginia Tech affiliated faculty",
+   "org": "wireless-vt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "paul-ampadu",
+   "name": "Paul Ampadu",
+   "category": "Person",
+   "description": "Wireless@Virginia Tech affiliated faculty. Interests include 6G, AI-RAN, ISAC, standards, non-terrestrial networks and dual-use defence work. Co-PI on an NSF-funded AI-enabled 6G circuits project.",
+   "sources": [
+    "https://news.vt.edu/articles/2023/07/eng-ece-jeff-walling-wireless-systems-research-nsf-semiconductor-grant.html"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Professor and Chair, ECE, George Mason University; Academic Fellow and Chair of Research Council, Next G Alliance",
+   "org": "gmu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "alex-sprintson",
+   "name": "Alex Sprintson",
+   "category": "Person",
+   "description": "Chair of Electrical and Computer Engineering at George Mason (since 2025) and Academic Fellow and Chair of the Research Council at the Next G Alliance. Previously led the $40M NSF RINGS NextG programme as an NSF programme director, and was Network Security Principal at Nokia Bell Labs. A key policy-to-research link in Northern Virginia.",
+   "sources": [
+    "https://cec.sitemasonry.gmu.edu/news/2025-08/new-ece-chair-focuses-future-proof-engineering-george-mason",
+    "https://lingjialiu.ece.vt.edu/index/research/US-ALIGNS/Agenda.html"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Associate Professor, ECE, University of Virginia; Deputy Director, NSF SpectrumX",
+   "org": "uva",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "cong-shen",
+   "name": "Cong Shen",
+   "category": "Person",
+   "description": "Leads UVA's Laboratory for Intelligent Communications and Networking. Won a 2022 NSF CAREER award to design 6G wireless systems that support machine learning. Founding member of SpectrumX, the NSF Spectrum Innovation Center. Previously at Qualcomm Research and SpiderCloud Wireless.",
+   "sources": [
+    "https://engineering.virginia.edu/news-events/news/career-award-designing-next-generation-wireless-communications-systems",
+    "https://cshen317.github.io/bio.html"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE; Executive Director, CSICS, Old Dominion University",
+   "org": "odu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "sachin-shetty",
+   "name": "Sachin Shetty",
+   "category": "Person",
+   "description": "Professor of ECE and Executive Director of ODU's Center for Secure and Intelligent Critical Systems. Researches 6G security, including AI-driven RAN slicing being manipulated by adversaries. Named a 2026–2027 ODU Eminent Scholar.",
+   "sources": [
+    "https://www.odu.edu/article/keeping-tomorrows-wireless-networks-safe-when-it-matters-most",
+    "https://ww2.odu.edu/~sshetty/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Research Assistant Professor, CSICS, Old Dominion University",
+   "org": "odu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "safdar-bouk",
+   "name": "Safdar Hussain Bouk",
+   "category": "Person",
+   "description": "Research assistant professor at ODU's Center for Secure and Intelligent Critical Systems. Co-author with Sachin Shetty of an IEEE 6G Security chapter on adversarial machine learning in RAN slicing.",
+   "sources": [
+    "https://www.odu.edu/article/keeping-tomorrows-wireless-networks-safe-when-it-matters-most"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Distinguished Chief Spectrum Economist, MITRE",
+   "org": "mitre",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "carolyn-kahn",
+   "name": "Carolyn Kahn",
+   "category": "Person",
+   "description": "Distinguished Chief Spectrum Economist at MITRE and co-author of its 'Path to Smart 6G Spectrum Access' paper.",
+   "sources": [
+    "https://siliconflatirons.org/?p=68384"
+   ]
   }
  ],
  "edges": [
@@ -5290,7 +5537,7 @@
    "from": "burger",
    "to": "nga",
    "type": "Role",
-   "label": "Chairs Research Council",
+   "label": "Technical Program Director; former Chair, Research Council",
    "source": "https://wirelessinnovation.org/assets/International-spectrum-sharing-workshop-2024/Wednesday%20Buger%20for%20distro.pdf"
   },
   {
@@ -7539,6 +7786,139 @@
    "type": "Partnership / project",
    "label": "ISAC partnership (MoU, Feb 2025)",
    "source": "https://airspan.com/news/tiami-networks-and-airspan-announce-expanded-partnership-to-pave-the-way-for-5g-and-6g-innovation/"
+  },
+  {
+   "from": "jeff-reed",
+   "to": "wireless-vt",
+   "type": "Role",
+   "label": "Willis G. Worcester Professor of ECE; Founding Director, Wireless@Virginia Tech",
+   "source": "https://5g.ieee.org/images/files/pdf/DL/FutureNetworks_DL_Nov2023-Jeff_Reed.pdf"
+  },
+  {
+   "from": "harpreet-dhillon",
+   "to": "wireless-vt",
+   "type": "Role",
+   "label": "Professor, ECE, Virginia Tech; IEEE Fellow",
+   "source": "https://wireless.vt.edu/"
+  },
+  {
+   "from": "michael-buehrer",
+   "to": "wireless-vt",
+   "type": "Role",
+   "label": "Professor, ECE; former Director, Wireless@Virginia Tech",
+   "source": "https://wireless.vt.edu/"
+  },
+  {
+   "from": "cindy-yi",
+   "to": "vt-iac",
+   "type": "Role",
+   "label": "Professor, ECE; Director, BRICCS Lab, Virginia Tech Institute for Advanced Computing",
+   "source": "https://bricc.ece.vt.edu/index.html"
+  },
+  {
+   "from": "paul-ampadu",
+   "to": "wireless-vt",
+   "type": "Role",
+   "label": "Professor, ECE; Wireless@Virginia Tech affiliated faculty",
+   "source": "https://news.vt.edu/articles/2023/07/eng-ece-jeff-walling-wireless-systems-research-nsf-semiconductor-grant.html"
+  },
+  {
+   "from": "alex-sprintson",
+   "to": "gmu",
+   "type": "Role",
+   "label": "Professor and Chair, ECE, George Mason University; Academic Fellow and Chair of Research Council, Next G Alliance",
+   "source": "https://cec.sitemasonry.gmu.edu/news/2025-08/new-ece-chair-focuses-future-proof-engineering-george-mason"
+  },
+  {
+   "from": "cong-shen",
+   "to": "uva",
+   "type": "Role",
+   "label": "Associate Professor, ECE, University of Virginia; Deputy Director, NSF SpectrumX",
+   "source": "https://engineering.virginia.edu/news-events/news/career-award-designing-next-generation-wireless-communications-systems"
+  },
+  {
+   "from": "sachin-shetty",
+   "to": "odu",
+   "type": "Role",
+   "label": "Professor, ECE; Executive Director, CSICS, Old Dominion University",
+   "source": "https://www.odu.edu/article/keeping-tomorrows-wireless-networks-safe-when-it-matters-most"
+  },
+  {
+   "from": "safdar-bouk",
+   "to": "odu",
+   "type": "Role",
+   "label": "Research Assistant Professor, CSICS, Old Dominion University",
+   "source": "https://www.odu.edu/article/keeping-tomorrows-wireless-networks-safe-when-it-matters-most"
+  },
+  {
+   "from": "carolyn-kahn",
+   "to": "mitre",
+   "type": "Role",
+   "label": "Distinguished Chief Spectrum Economist, MITRE",
+   "source": "https://siliconflatirons.org/?p=68384"
+  },
+  {
+   "from": "jeff-reed",
+   "to": "federated-wireless",
+   "type": "Role",
+   "label": "Co-founder (2012)",
+   "source": "https://news.vt.edu/articles/2020/10/cci-jeff-reed-cto-commonwealth-cyber-initiative.html"
+  },
+  {
+   "from": "jeff-reed",
+   "to": "cirrus360",
+   "type": "Role",
+   "label": "Co-founder",
+   "source": "https://5g.ieee.org/images/files/pdf/DL/FutureNetworks_DL_Nov2023-Jeff_Reed.pdf"
+  },
+  {
+   "from": "jeff-reed",
+   "to": "cci",
+   "type": "Role",
+   "label": "Former CTO",
+   "source": "https://news.vt.edu/articles/2020/10/cci-jeff-reed-cto-commonwealth-cyber-initiative.html"
+  },
+  {
+   "from": "cindy-yi",
+   "to": "chalmers",
+   "type": "Research together",
+   "label": "AI and brain-inspired computing for energy-efficient 6G transmitters (NSF / Swedish Research Council)",
+   "source": "https://www.chalmers.se/en/current/news/mc2-millions-in-funding-for-swedish-american-research-on-future-6g-networks"
+  },
+  {
+   "from": "alex-sprintson",
+   "to": "nga",
+   "type": "Role",
+   "label": "Academic Fellow; Chair, Research Council",
+   "source": "https://lingjialiu.ece.vt.edu/index/research/US-ALIGNS/Agenda.html"
+  },
+  {
+   "from": "cong-shen",
+   "to": "spectrumx",
+   "type": "Role",
+   "label": "Founding member; Deputy Director of Collaboration",
+   "source": "https://cshen317.github.io/bio.html"
+  },
+  {
+   "from": "nsf",
+   "to": "cong-shen",
+   "type": "Funding",
+   "label": "NSF CAREER award (2022): 6G systems for machine learning",
+   "source": "https://engineering.virginia.edu/news-events/news/career-award-designing-next-generation-wireless-communications-systems"
+  },
+  {
+   "from": "mitre",
+   "to": "nvidia",
+   "type": "Partnership / project",
+   "label": "NVIDIA's founding 6G research partner (Mar 2025)",
+   "source": "https://www.mitre.org/news-insights/news-release/mitre-shape-ai-driven-future-wireless-collaboration-nvidia"
+  },
+  {
+   "from": "andrew-thiessen",
+   "to": "nga",
+   "type": "Role",
+   "label": "Chair, Spectrum Working Group",
+   "source": "https://www.afcea.org/sites/default/files/2024-02/Andrew%20Thiessen%20Bio%20-%20Short.pdf"
   }
  ]
 }
