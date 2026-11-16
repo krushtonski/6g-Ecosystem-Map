@@ -842,7 +842,7 @@
    "short": "",
    "category": "Defence & integrators",
    "region": "Rest of US & global",
-   "description": "RAPID ISAC awardee via the National Spectrum Consortium.",
+   "description": "Peraton's applied research arm (heritage: Bell Labs, Bellcore, Telcordia). Headquartered in Basking Ridge, NJ, with a 5G testbed in Red Bank, NJ. RAPID ISAC awardee (with Nexcepta) via the National Spectrum Consortium; project lead on the DoW Advanced Spectrum Coexistence demonstration; NSF Breaking Low award (up to $2.6M, to June 2027) for low-latency Next-G wireless for remote XR medical collaboration.",
    "role": "",
    "org": null,
    "address": "Basking Ridge, NJ",
@@ -850,8 +850,12 @@
    "lng": -74.5493,
    "precision": "City",
    "sources": [
-    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
-   ]
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
+    "https://www.executivebiz.com/articles/peraton-labs-nsf-xr-medical-collaboration",
+    "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration",
+    "https://rt.cto.mil/?p=13981"
+   ],
+   "website": "https://www.peratonlabs.com/"
   },
   {
    "id": "nga",
@@ -894,18 +898,19 @@
    "name": "National Spectrum Consortium",
    "short": "",
    "category": "Associations & alliances",
-   "region": "Rest of US & global",
-   "description": "Roughly 400-member consortium holding the DoD's $2.5B Spectrum Forward OTA. Channels FutureG prototype awards to members.",
+   "region": "Washington DC & Maryland",
+   "description": "Consortium of roughly 300–400 companies and universities (sources vary) holding the DoD's $2.5B Spectrum Forward OTA. Runs the FutureG RAPID ISAC prototype awards and the Advanced Spectrum Coexistence demonstration with the Pentagon. Operates mainly in Washington, DC.",
    "role": "",
    "org": null,
-   "address": "Summerville, SC",
-   "lat": 33.0185,
-   "lng": -80.1756,
+   "address": "Washington, DC (administrative address historically Summerville, SC)",
+   "lat": 38.9072,
+   "lng": -77.0369,
    "precision": "City",
    "sources": [
     "https://www.ati.org/success-stories/nsc-develops-working-groups-to-focus-on-spectrum-and-5g/",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
-   ]
+   ],
+   "website": "https://www.nationalspectrumconsortium.org/"
   },
   {
    "id": "wisper",
@@ -3355,6 +3360,188 @@
     "https://nextgalliance.org/the-next-g-alliance-spectrum-working-group-proactively-addressing-the-spectrum-issues-of-the-next-g-world/",
     "https://6gworld.com/?p=28150"
    ]
+  },
+  {
+   "short": "Texas Tech",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Lubbock, TX",
+   "lat": 33.5843,
+   "lng": -101.8783,
+   "precision": "Campus",
+   "sources": [
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+   ],
+   "id": "texas-tech",
+   "name": "Texas Tech University",
+   "category": "Academic & research",
+   "description": "Team member on Nokia Federal's RAPID ISAC prototype award (Nov 2026)."
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Syracuse, NY",
+   "lat": 43.0481,
+   "lng": -76.1474,
+   "precision": "City",
+   "sources": [
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+   ],
+   "id": "hidden-level",
+   "name": "Hidden Level",
+   "category": "Equipment & tech vendors",
+   "description": "Airspace sensing company. Team member on Nokia Federal's RAPID ISAC prototype award (Nov 2026)."
+  },
+  {
+   "short": "Future Tech",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced",
+    "https://washingtonexec.com/2023/05/nokia-and-future-technologies-win-multi-million-dollar-private-5g-projects-in-federal-market"
+   ],
+   "id": "future-tech",
+   "name": "Future Technologies (Future Tech)",
+   "category": "Defence & integrators",
+   "description": "Federal systems integrator and long-time Nokia private 5G partner. Team member on Nokia Federal's RAPID ISAC prototype award (Nov 2026)."
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "",
+   "org": null,
+   "address": "Gaithersburg, MD",
+   "lat": 39.1434,
+   "lng": -77.2014,
+   "precision": "City",
+   "sources": [
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+   ],
+   "id": "nexcepta",
+   "name": "Nexcepta",
+   "category": "Defence & integrators",
+   "description": "Defence technology company. Team member with Peraton Labs on a RAPID ISAC prototype award (Nov 2026)."
+  },
+  {
+   "short": "ASC Demo",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration",
+    "https://test.thedefensepost.com/?p=122442"
+   ],
+   "id": "asc-demo",
+   "name": "Advanced Spectrum Coexistence (ASC) Demonstration",
+   "category": "Programmes & testbeds",
+   "description": "Department of War large-scale spectrum-sharing demonstration in mid-band, awarded through the National Spectrum Consortium's $2.5B Spectrum Forward OTA (Oct 2025). Project leads: Peraton Labs, InterDigital, Nokia Federal Solutions, RTX BBN Technologies and Northeastern's Kostas Research Institute."
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Director and Chief Research Scientist, Peraton Labs",
+   "org": "peraton",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.peraton.com/?p=26853",
+    "https://siebelschool.illinois.edu/news/NSF-wireless-2025",
+    "https://www.executivebiz.com/articles/peraton-labs-nsf-xr-medical-collaboration"
+   ],
+   "id": "christine-zhang",
+   "name": "Christine Zhang",
+   "category": "Person",
+   "description": "Director and Chief Research Scientist at Peraton Labs (also listed as Qinqing (Christine) Zhang). Principal investigator on Peraton Labs' NSF Breaking Low award for low-latency Next-G wireless for remote XR medical collaboration, co-leading Project Agora ($7.1M overall) with the University of Illinois."
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Chief Technology Officer, Peraton",
+   "org": "peraton",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.peraton.com/company/leadership/todd-borkey/",
+    "https://www.peraton.com/?p=23041",
+    "https://test.thedefensepost.com/?p=122442"
+   ],
+   "id": "todd-borkey",
+   "name": "Todd Borkey",
+   "category": "Person",
+   "description": "CTO of Peraton since April 2025. Leads technology strategy and R&D and heads the Strategic Innovation Group, which includes Peraton Labs. Executive voice on Peraton Labs' spectrum-sharing demonstration work. Previously CTO at HII, Alion, Thales Defense and DRS; earlier at Northrop Grumman and AT&T Bell Labs."
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "President and CEO, Nokia Federal Solutions",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://nokia.com/federal-solutions/about-nfs/leadership",
+    "https://www.wash100.com/winners/2026/michael-loomis/",
+    "https://washingtonexec.com/2025/02/top-public-sector-leaders-to-watch-in-2025-nokia-federal-solutions-mike-loomis"
+   ],
+   "id": "mike-loomis",
+   "name": "Mike Loomis",
+   "category": "Person",
+   "description": "President and CEO of Nokia Federal Solutions, which he helped launch in January 2024; led Nokia's federal business since August 2021. Led the Fenix Group acquisition and the Nokia 5G Banshee tactical radio. Two-time Wash100 winner (2026). Previously ran Nokia's webscale segment."
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Principal Architect, Nokia Federal Solutions; President, HAPS Alliance",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://executivegov.com/2023/02/nokia-federals-ken-riordan-elected-to-nsc-executive-committee/",
+    "https://www.mwcbarcelona.com/agenda/speakers/10384-ken-riordan",
+    "https://executivegov.com/2022/04/nokia-taps-ken-riordan-to-lead-government-communications-business/"
+   ],
+   "id": "ken-riordan",
+   "name": "Ken Riordan",
+   "category": "Person",
+   "description": "Principal Architect at Nokia Federal Solutions, adapting 3GPP/5G technology for federal customers. President of the HAPS Alliance (high-altitude platforms). Elected to the National Spectrum Consortium Executive Committee for a three-year term, representing large non-traditional companies. Previously Head of Product Management, Connectivity Solutions at Loon (Alphabet)."
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "CEO and Executive Director, National Spectrum Consortium",
+   "org": "nsc",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.potomacofficersclub.com/speakers/joe-kochan/",
+    "https://www.businesswire.com/news/home/20220517005288/en/National-Spectrum-Consortium-Announces-New-Executive-Director-Joe-Kochan",
+    "https://6gworld.com/?p=21981"
+   ],
+   "id": "joe-kochan",
+   "name": "Joe Kochan",
+   "category": "Person",
+   "description": "Leads the National Spectrum Consortium (since May 2022). Previously co-founder and CEO of US Ignite, principal investigator for NSF's $100M Platforms for Advanced Wireless Research (PAWR) project office, and a federal program officer at NTIA. Washington, DC-based."
   }
  ],
  "edges": [
@@ -5597,6 +5784,132 @@
    "type": "Role",
    "label": "Former Division Chief, NTIA Institute for Telecommunication Sciences",
    "source": "https://roadmap.nextgalliance.org/?p=311"
+  },
+  {
+   "from": "texas-tech",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Nokia Federal)",
+   "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+  },
+  {
+   "from": "hidden-level",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Nokia Federal)",
+   "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+  },
+  {
+   "from": "future-tech",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Nokia Federal)",
+   "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+  },
+  {
+   "from": "nexcepta",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Peraton Labs)",
+   "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+  },
+  {
+   "from": "future-tech",
+   "to": "nokia",
+   "type": "Partnership / project",
+   "label": "Private 5G partner for federal projects",
+   "source": "https://washingtonexec.com/2023/05/nokia-and-future-technologies-win-multi-million-dollar-private-5g-projects-in-federal-market"
+  },
+  {
+   "from": "nsc",
+   "to": "asc-demo",
+   "type": "Partnership / project",
+   "label": "Awarded through NSC's Spectrum Forward OTA",
+   "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
+  },
+  {
+   "from": "peraton",
+   "to": "asc-demo",
+   "type": "Contract or award",
+   "label": "Project lead",
+   "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
+  },
+  {
+   "from": "nokia",
+   "to": "asc-demo",
+   "type": "Contract or award",
+   "label": "Project lead (Nokia Federal Solutions)",
+   "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
+  },
+  {
+   "from": "interdigital",
+   "to": "asc-demo",
+   "type": "Contract or award",
+   "label": "Project lead",
+   "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
+  },
+  {
+   "from": "rtx",
+   "to": "asc-demo",
+   "type": "Contract or award",
+   "label": "Project lead (RTX BBN Technologies)",
+   "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
+  },
+  {
+   "from": "nsf",
+   "to": "peraton",
+   "type": "Funding",
+   "label": "NSF Breaking Low cooperative agreement (up to $2.6M, to June 2027)",
+   "source": "https://www.executivebiz.com/articles/peraton-labs-nsf-xr-medical-collaboration"
+  },
+  {
+   "from": "christine-zhang",
+   "to": "peraton",
+   "type": "Role",
+   "label": "Director and Chief Research Scientist",
+   "source": "https://siebelschool.illinois.edu/news/NSF-wireless-2025"
+  },
+  {
+   "from": "todd-borkey",
+   "to": "peraton",
+   "type": "Role",
+   "label": "CTO of Peraton; heads the group that includes Peraton Labs",
+   "source": "https://www.peraton.com/company/leadership/todd-borkey/"
+  },
+  {
+   "from": "mike-loomis",
+   "to": "nokia",
+   "type": "Role",
+   "label": "President and CEO, Nokia Federal Solutions",
+   "source": "https://nokia.com/federal-solutions/about-nfs/leadership"
+  },
+  {
+   "from": "ken-riordan",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Principal Architect, Nokia Federal Solutions",
+   "source": "https://www.mwcbarcelona.com/agenda/speakers/10384-ken-riordan"
+  },
+  {
+   "from": "ken-riordan",
+   "to": "nsc",
+   "type": "Role",
+   "label": "Elected Executive Committee member (three-year term; may have ended)",
+   "source": "https://executivegov.com/2023/02/nokia-federals-ken-riordan-elected-to-nsc-executive-committee/"
+  },
+  {
+   "from": "joe-kochan",
+   "to": "nsc",
+   "type": "Role",
+   "label": "CEO and Executive Director",
+   "source": "https://www.potomacofficersclub.com/speakers/joe-kochan/"
+  },
+  {
+   "from": "joe-kochan",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Former Federal Program Officer",
+   "source": "https://www.citybiz.co/article/264963/national-spectrum-consortium-appoints-joe-kochan-executive-director/"
   }
  ]
 }
