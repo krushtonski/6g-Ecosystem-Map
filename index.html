@@ -156,7 +156,7 @@ footer a{color:var(--accent)}
   </div>
   <div class="detail" id="detail"></div>
 </main>
-<footer id="foot">Compiled from public sources. Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</footer>
+<footer id="foot">Compiled from public sources. Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, basemap © <a href="https://carto.com/attributions">CARTO</a>.</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -202,7 +202,7 @@ function boot(data){
     if(common.length) SHARED.push({source:a.id,target:b.id,type:"Shared association",label:"Both connected to "+common.map(x=>nm(byId[x])).join(", "),derived:true});
   }
   NODES.forEach(n=>n.deg = LINKS.filter(l=>l.source===n.id||l.target===n.id).length);
-  document.getElementById("foot").innerHTML = `Compiled from public sources. Last updated ${esc(data.generated||"")}. Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.`;
+  document.getElementById("foot").innerHTML = `Compiled from public sources. Last updated ${esc(data.generated||"")}. Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, basemap © <a href="https://carto.com/attributions">CARTO</a>.`;
   renderStats(); renderFilters(); renderMatrix(); renderDetail(); buildGeo(); buildNet(); applyAll();
   const h = location.hash.slice(1); if(h && byId[h]) select(h);
 }
@@ -246,7 +246,12 @@ function pinIcon(n,faded){
 }
 function buildGeo(){
   geo = L.map("geo",{zoomControl:true,worldCopyJump:true,minZoom:2});
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(geo);
+  // Clean basemap: no streets or building detail. Place-name labels only at country/region/city scale.
+  const ATTR='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>';
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",{subdomains:"abcd",maxZoom:13,minZoom:2,attribution:ATTR}).addTo(geo);
+  geo.createPane("labels"); geo.getPane("labels").style.zIndex=450; geo.getPane("labels").style.pointerEvents="none";
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png",{subdomains:"abcd",maxZoom:10,pane:"labels",opacity:.85}).addTo(geo);
+  geo.setMaxZoom(13);
   geo.fitBounds(EXT.world);
   cluster = L.markerClusterGroup({disableClusteringAtZoom:10,maxClusterRadius:45,showCoverageOnHover:false,spiderfyOnMaxZoom:true,
     iconCreateFunction:c=>{ const k=c.getChildCount(), d=k>9?42:34; return L.divIcon({className:"",iconSize:[d,d],html:`<span class="clu" style="width:${d}px;height:${d}px" aria-label="${k} organisations">${k}</span>`}); }});
