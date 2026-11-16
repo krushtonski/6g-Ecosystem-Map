@@ -3694,6 +3694,202 @@
     "https://www.businesswire.com/news/home/20260302355808/en/DeepSig-Joins-OCUDU-Ecosystem-Foundation-to-Advance-AI-Native-Open-RAN-Innovation",
     "https://briefglance.com/articles/the-pentagon-open-source-and-the-billion-dollar-race-to-6g"
    ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+   ],
+   "id": "poc-5g-forum-2022",
+   "name": "POC 2022 5G Forum",
+   "category": "Events",
+   "description": "Potomac Officers Club 5G Forum, held virtually on 13 September 2022. Covered 5G challenges, opportunities and NextG, with a panel on the role of 5G in the tactical environment moderated by Nokia's Mike Loomis.",
+   "website": "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+  },
+  {
+   "short": "CACI",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "Reston, VA",
+   "lat": 38.9586,
+   "lng": -77.357,
+   "precision": "City",
+   "sources": [
+    "https://www.caci.com/bio/retired-army-major-general-pete-gallagher"
+   ],
+   "id": "caci",
+   "name": "CACI International",
+   "category": "Defence & integrators",
+   "description": "Defence and intelligence technology contractor. Its Platform & Tactical C3I division delivers integration programmes for DoW, DHS and the intelligence community.",
+   "website": "https://www.caci.com/"
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "Reston, VA",
+   "lat": 38.9586,
+   "lng": -77.357,
+   "precision": "City",
+   "sources": [
+    "https://www.oceusnetworks.com/?p=59"
+   ],
+   "id": "oceus",
+   "name": "Oceus",
+   "category": "Equipment & tech vendors",
+   "description": "Private 4G/5G and tactical cellular network provider for defence and federal customers (Xiphos, ONmission). NSA Trusted Integrator for CSfC.",
+   "website": "https://oceusnetworks.com/"
+  },
+  {
+   "short": "NSA",
+   "region": "Washington DC & Maryland",
+   "role": "",
+   "org": null,
+   "address": "Fort Meade, MD",
+   "lat": 39.1086,
+   "lng": -76.7712,
+   "precision": "City",
+   "sources": [
+    "https://nsa.gov/About/Cybersecurity-Collaboration-Center/Enduring-Security-Framework"
+   ],
+   "id": "nsa",
+   "name": "National Security Agency (NSA)",
+   "category": "Government & funders",
+   "description": "Runs the Enduring Security Framework with CISA, a public-private partnership that has published 5G security guidance, including on network slicing.",
+   "website": "https://www.nsa.gov/"
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "The Pentagon, Arlington, VA",
+   "lat": 38.8719,
+   "lng": -77.0563,
+   "precision": "Street address",
+   "sources": [
+    "https://www.army.mil/article/282720"
+   ],
+   "id": "us-army",
+   "name": "US Army",
+   "category": "Government & funders",
+   "description": "US Army. Its Deputy Chief of Staff, G-6 leads Army network and cyber strategy, including 5G experimentation."
+  },
+  {
+   "short": "USMC",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "Quantico, VA",
+   "lat": 38.5224,
+   "lng": -77.2933,
+   "precision": "City",
+   "sources": [
+    "https://news.usni.org/2024/02/14/marine-corps-upcoming-project-dynamis-to-be-its-jadc2-accelerator"
+   ],
+   "id": "usmc",
+   "name": "US Marine Corps",
+   "category": "Government & funders",
+   "description": "US Marine Corps. Running tactical and installation 5G experiments; Project Dynamis is its JADC2 effort."
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "LTG (Ret), former Deputy Chief of Staff, G-6, US Army",
+   "org": "us-army",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.army.mil/article/282720",
+    "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+   ],
+   "id": "john-morrison",
+   "name": "John Morrison",
+   "category": "Person",
+   "description": "Retired Army lieutenant general and the Army's first Deputy Chief of Staff, G-6 (2020–2024), overseeing Army-wide communications and cyber operations; earlier Chief of Staff of US Cyber Command. Retired December 2024 and now in the private sector. Opening keynote at the POC 2022 5G Forum."
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "SVP, Programs Support & Solutions, Platform & Tactical C3I Division, CACI",
+   "org": "caci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.caci.com/bio/retired-army-major-general-pete-gallagher",
+    "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+   ],
+   "id": "pete-gallagher",
+   "name": "Pete Gallagher",
+   "category": "Person",
+   "description": "Retired Army major general at CACI since 2021, now SVP for Programs Support and Solutions in the Platform & Tactical C3I Division. Previously led the Army Futures Command Network Cross-Functional Team, commanded Network Enterprise Technology Command and was CIO/J6 at Central Command. Panellist at the POC 2022 5G Forum."
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "Chief, Enduring Security Framework, NSA",
+   "org": "nsa",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.rsaconference.com/experts/Natalie%20Pittore",
+    "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+   ],
+   "id": "natalie-pittore",
+   "name": "Natalie Pittore",
+   "category": "Person",
+   "description": "Chief of NSA's Enduring Security Framework, leading multilateral public-private partnerships on critical cybersecurity challenges, including 5G security. Previously NSA's Chief of Cybersecurity Communications. Panellist at the POC 2022 5G Forum."
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Col, Chief of Staff, I Marine Expeditionary Force, USMC",
+   "org": "usmc",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.usni.org/people/jason-quinter",
+    "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+   ],
+   "id": "jason-quinter",
+   "name": "Jason Quinter",
+   "category": "Person",
+   "description": "Marine Corps colonel and author of the Project Dynamis charter, the Marine Corps' JADC2 effort. Now Chief of Staff, I Marine Expeditionary Force; previously commanded Marine Air Control Group 38 and was G-6 of 3d Marine Aircraft Wing. Panellist at the POC 2022 5G Forum."
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "CTO, Oceus",
+   "org": "oceus",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.oceusnetworks.com/?p=59",
+    "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+   ],
+   "id": "kevin-stiles",
+   "name": "Kevin Stiles",
+   "category": "Person",
+   "description": "CTO of Oceus, responsible for product development, solutions customisation and systems integration; previously VP of Engineering at Oceus and VP at Ericsson Federal. Based in Oceus' Plano, Texas office. Panellist at the POC 2022 5G Forum."
   }
  ],
  "edges": [
@@ -6188,6 +6384,97 @@
    "type": "Role",
    "label": "Member, FCC Technological Advisory Council (appointed Aug 2026)",
    "source": "https://www.businesswire.com/news/home/20260805482925/en/"
+  },
+  {
+   "from": "john-morrison",
+   "to": "poc-5g-forum-2022",
+   "type": "Event participation",
+   "label": "Opening keynote",
+   "source": "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+  },
+  {
+   "from": "mike-loomis",
+   "to": "poc-5g-forum-2022",
+   "type": "Event participation",
+   "label": "Moderator",
+   "source": "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+  },
+  {
+   "from": "pete-gallagher",
+   "to": "poc-5g-forum-2022",
+   "type": "Event participation",
+   "label": "Panellist",
+   "source": "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+  },
+  {
+   "from": "natalie-pittore",
+   "to": "poc-5g-forum-2022",
+   "type": "Event participation",
+   "label": "Panellist",
+   "source": "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+  },
+  {
+   "from": "jason-quinter",
+   "to": "poc-5g-forum-2022",
+   "type": "Event participation",
+   "label": "Panellist",
+   "source": "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+  },
+  {
+   "from": "rondeau",
+   "to": "poc-5g-forum-2022",
+   "type": "Event participation",
+   "label": "Panellist",
+   "source": "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+  },
+  {
+   "from": "kevin-stiles",
+   "to": "poc-5g-forum-2022",
+   "type": "Event participation",
+   "label": "Panellist",
+   "source": "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+  },
+  {
+   "from": "kevin-stiles",
+   "to": "ericsson-federal",
+   "type": "Role",
+   "label": "Former Vice President",
+   "source": "https://www.oceusnetworks.com/?p=59"
+  },
+  {
+   "from": "john-morrison",
+   "to": "us-army",
+   "type": "Role",
+   "label": "Former Deputy Chief of Staff, G-6 (2020–2024)",
+   "source": "https://www.army.mil/article/282720"
+  },
+  {
+   "from": "pete-gallagher",
+   "to": "caci",
+   "type": "Role",
+   "label": "SVP",
+   "source": "https://www.caci.com/bio/retired-army-major-general-pete-gallagher"
+  },
+  {
+   "from": "natalie-pittore",
+   "to": "nsa",
+   "type": "Role",
+   "label": "Chief, Enduring Security Framework",
+   "source": "https://www.rsaconference.com/experts/Natalie%20Pittore"
+  },
+  {
+   "from": "jason-quinter",
+   "to": "usmc",
+   "type": "Role",
+   "label": "Chief of Staff, I MEF",
+   "source": "https://www.usni.org/people/jason-quinter"
+  },
+  {
+   "from": "kevin-stiles",
+   "to": "oceus",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://www.oceusnetworks.com/?p=59"
   }
  ]
 }
