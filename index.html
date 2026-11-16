@@ -52,7 +52,8 @@ select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);ba
 .view{flex:1;min-height:0;display:none;position:relative}
 .view.on{display:block}
 #geo{position:absolute;inset:0}
-.leaflet-container{background:var(--bg);font:13px var(--body)}
+.leaflet-container{background:#fbfcfd;font:13px var(--body)}
+.plc{font:600 11px var(--body);color:#8a96a3;white-space:nowrap;transform:translate(-50%,-50%);pointer-events:none;letter-spacing:.02em}
 .geobar{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:500;display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:4px}
 .geobar button,.zoombtns button,.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;font:600 12.5px var(--body);padding:5px 10px;cursor:pointer}
 .geobar .sep{width:1px;background:var(--line);margin:2px 4px}
@@ -156,7 +157,7 @@ footer a{color:var(--accent)}
   </div>
   <div class="detail" id="detail"></div>
 </main>
-<footer id="foot">Compiled from public sources. Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, basemap © <a href="https://carto.com/attributions">CARTO</a>.</footer>
+<footer id="foot">Compiled from public sources. Boundaries: Natural Earth, US Census.</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -202,7 +203,7 @@ function boot(data){
     if(common.length) SHARED.push({source:a.id,target:b.id,type:"Shared association",label:"Both connected to "+common.map(x=>nm(byId[x])).join(", "),derived:true});
   }
   NODES.forEach(n=>n.deg = LINKS.filter(l=>l.source===n.id||l.target===n.id).length);
-  document.getElementById("foot").innerHTML = `Compiled from public sources. Last updated ${esc(data.generated||"")}. Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, basemap © <a href="https://carto.com/attributions">CARTO</a>.`;
+  document.getElementById("foot").innerHTML = `Compiled from public sources. Last updated ${esc(data.generated||"")}. Boundaries: Natural Earth, US Census.`;
   renderStats(); renderFilters(); renderMatrix(); renderDetail(); buildGeo(); buildNet(); applyAll();
   const h = location.hash.slice(1); if(h && byId[h]) select(h);
 }
@@ -246,12 +247,23 @@ function pinIcon(n,faded){
 }
 function buildGeo(){
   geo = L.map("geo",{zoomControl:true,worldCopyJump:true,minZoom:2});
-  // Clean basemap: no streets or building detail. Place-name labels only at country/region/city scale.
-  const ATTR='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>';
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",{subdomains:"abcd",maxZoom:13,minZoom:2,attribution:ATTR}).addTo(geo);
-  geo.createPane("labels"); geo.getPane("labels").style.zIndex=450; geo.getPane("labels").style.pointerEvents="none";
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png",{subdomains:"abcd",maxZoom:10,pane:"labels",opacity:.85}).addTo(geo);
-  geo.setMaxZoom(13);
+  // Minimal basemap: land, country borders, US states and DC-area counties only. No streets, no tiles.
+  geo.setMaxZoom(12);
+  geo.attributionControl.addAttribution('Boundaries: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, US Census');
+  geo.createPane("base"); geo.getPane("base").style.zIndex=200;
+  fetch("data/basemap.json").then(r=>r.json()).then(bm=>{
+    const o={pane:"base",interactive:false};
+    L.geoJSON(bm.coast,{...o,style:{color:"#c3ccd5",weight:.9}}).addTo(geo);
+    L.geoJSON(bm.borders,{...o,style:{color:"#dbe1e7",weight:.7}}).addTo(geo);
+    const st=L.geoJSON(bm.states,{...o,style:{color:"#dde3e8",weight:.7,fill:false}});
+    const co=L.geoJSON(bm.counties,{...o,style:{color:"#e8ecef",weight:.6,fill:false}});
+    const upd=()=>{ const z=geo.getZoom(); z>=4?st.addTo(geo):st.remove(); z>=8?co.addTo(geo):co.remove(); };
+    geo.on("zoomend",upd); upd();
+  }).catch(()=>{});
+  // A few place names, only when zoomed into the DC region
+  const PLACES=[["Washington, DC",38.9072,-77.0369],["Alexandria",38.8048,-77.0469],["Arlington",38.8816,-77.0910],["McLean",38.9339,-77.1773],["Fairfax",38.8462,-77.3064],["Reston",38.9586,-77.3570],["Bethesda",38.9847,-77.0947]];
+  const plc=L.layerGroup(PLACES.map(([t,la,lo])=>L.marker([la,lo],{interactive:false,keyboard:false,pane:"base",icon:L.divIcon({className:"plc",iconSize:null,html:esc(t)})})));
+  geo.on("zoomend",()=>{ geo.getZoom()>=9?plc.addTo(geo):plc.remove(); });
   geo.fitBounds(EXT.world);
   cluster = L.markerClusterGroup({disableClusteringAtZoom:10,maxClusterRadius:45,showCoverageOnHover:false,spiderfyOnMaxZoom:true,
     iconCreateFunction:c=>{ const k=c.getChildCount(), d=k>9?42:34; return L.divIcon({className:"",iconSize:[d,d],html:`<span class="clu" style="width:${d}px;height:${d}px" aria-label="${k} organisations">${k}</span>`}); }});
