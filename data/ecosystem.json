@@ -2287,20 +2287,20 @@
   },
   {
    "id": "martin-weiss",
-   "name": "Martin Weiss",
+   "name": "Dr Martin Weiss",
    "short": "",
    "category": "Person",
    "region": "Northern Virginia",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 4: ISAC presentation; Panel: ISAC and AI in 6G.",
-   "role": "Director of Applied Research for FutureG, OUSW(R&E)",
+   "description": "Director for FutureG Applied Research in the FutureG Office, overseeing work that helps government, academia and industry build commercially useful wireless solutions for the DoW. Also Technical Lead for Resilient and Open Commercial Solutions, one of the office's priorities. Works alongside Tom Rondeau and Marlan Macklin.",
+   "role": "Director for FutureG Applied Research; Technical Lead for Resilient and Open Commercial Solutions, OUSW(R&E)",
    "org": "futureg",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda",
-    "https://wirelessinnovation.org/assets/International-spectrum-sharing-workshop-2024/Wednesday%20Weiss.pdf"
+    "https://www.ndss-symposium.org/?p=23020",
+    "https://innovate-defense.com/event/isac-strategy-summit-2025/"
    ]
   },
   {
@@ -3617,6 +3617,60 @@
    "name": "Lizy Paul",
    "category": "Person",
    "description": "Director of 5G.MIL programs at Lockheed Martin. Chaired the National Spectrum Consortium in 2021 while at Collins Aerospace, after serving on its Executive Committee from 2019. Earlier engineering roles at Motorola, Ericsson and Hughes Network Systems."
+  },
+  {
+   "short": "Ericsson Federal",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "Vienna, VA",
+   "lat": 38.9012,
+   "lng": -77.2653,
+   "precision": "City",
+   "sources": [
+    "https://www.businesswire.com/news/home/20260113370388/en/nathan-simington-joins-ericsson-federal-as-new-director-of-policy-strategy",
+    "https://www.executivebiz.com/?p=470535"
+   ],
+   "id": "ericsson-federal",
+   "name": "Ericsson Federal Technologies Group",
+   "category": "Equipment & tech vendors",
+   "description": "Ericsson's US government-focused business, based in Vienna, VA, set up to work directly with the US government on secure 5G/6G. Holds a seat on the Missile Defense Agency's SHIELD IDIQ. CEO Christopher Ling; Director of Policy & Strategy Nathan Simington (former FCC Commissioner)."
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Director of Policy & Strategy, Ericsson Federal",
+   "org": "ericsson-federal",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.businesswire.com/news/home/20260113370388/en/nathan-simington-joins-ericsson-federal-as-new-director-of-policy-strategy",
+    "https://www.executivebiz.com/?p=470535",
+    "https://www.fierce-network.com/wireless/former-fcc-commissioner-simington-calls-us-ambitions-greenland-family-disagreements"
+   ],
+   "id": "nathan-simington",
+   "name": "Nathan Simington",
+   "category": "Person",
+   "description": "Joined Ericsson Federal in January 2026 as Director of Policy & Strategy. FCC Commissioner 2020–2025, covering satellite, wireless, broadcast, telephony and radar. Before the FCC, Senior Advisor at NTIA on spectrum sharing and broadband. Expertise in spectrum sharing and 5G/6G policy for national security."
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "CEO, Ericsson Federal",
+   "org": "ericsson-federal",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.executivebiz.com/?p=470535"
+   ],
+   "id": "christopher-ling",
+   "name": "Christopher Ling",
+   "category": "Person",
+   "description": "Chief Executive Officer of Ericsson Federal Technologies Group."
   }
  ],
  "edges": [
@@ -6062,6 +6116,41 @@
    "type": "Role",
    "label": "Former Chair (2021); Executive Committee 2019–2021",
    "source": "https://potomacofficersclub.com/lizy-paul-leads-lockheed-martins-5g-mil-program"
+  },
+  {
+   "from": "ericsson",
+   "to": "ericsson-federal",
+   "type": "Partnership / project",
+   "label": "US government-focused business of Ericsson",
+   "source": "https://www.businesswire.com/news/home/20260113370388/en/nathan-simington-joins-ericsson-federal-as-new-director-of-policy-strategy"
+  },
+  {
+   "from": "nathan-simington",
+   "to": "ericsson-federal",
+   "type": "Role",
+   "label": "Director of Policy & Strategy",
+   "source": "https://www.businesswire.com/news/home/20260113370388/en/nathan-simington-joins-ericsson-federal-as-new-director-of-policy-strategy"
+  },
+  {
+   "from": "christopher-ling",
+   "to": "ericsson-federal",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://www.executivebiz.com/?p=470535"
+  },
+  {
+   "from": "nathan-simington",
+   "to": "fcc",
+   "type": "Role",
+   "label": "Former Commissioner (2020–2025)",
+   "source": "https://www.businesswire.com/news/home/20260113370388/en/nathan-simington-joins-ericsson-federal-as-new-director-of-policy-strategy"
+  },
+  {
+   "from": "nathan-simington",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Former Senior Advisor (spectrum sharing, broadband)",
+   "source": "https://www.businesswire.com/news/home/20260113370388/en/nathan-simington-joins-ericsson-federal-as-new-director-of-policy-strategy"
   }
  ]
 }
