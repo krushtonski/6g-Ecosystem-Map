@@ -3890,6 +3890,60 @@
    "name": "Kevin Stiles",
    "category": "Person",
    "description": "CTO of Oceus, responsible for product development, solutions customisation and systems integration; previously VP of Engineering at Oceus and VP at Ericsson Federal. Based in Oceus' Plano, Texas office. Panellist at the POC 2022 5G Forum."
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "National Landing, Arlington, VA",
+   "lat": 38.8545,
+   "lng": -77.0497,
+   "precision": "City",
+   "id": "federated-wireless",
+   "name": "Federated Wireless",
+   "category": "Equipment & tech vendors",
+   "description": "Later-stage shared-spectrum scale-up (CBRS SAS, 6 GHz AFC). Its 6G angle is spectrum policy: a white paper argues the 4.4–4.94 GHz band, a contiguous 500 MHz block, should be the US priority for 6G. In June 2026 it launched Spectrum AI, billed as the first Physical AI platform for shared spectrum planning and coordination.",
+   "website": "https://federatedwireless.ai/",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Federated_Wireless",
+    "https://corrierecomunicazioni.it/telco/banda-4-gh-corsia-preferenziale-verso-la-leadership-nel-6g",
+    "https://federatedwireless.ai/2026/06/18/federated-wireless-introduces-spectrum-ai-the-first-physical-ai-platform-for-shared-spectrum-delivering-up-to-5x-more-capacity-using-existing-spectrum-and-infrastructure/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "President and CEO, Federated Wireless",
+   "org": "federated-wireless",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "iyad-tarazi",
+   "name": "Iyad Tarazi",
+   "category": "Person",
+   "description": "President and CEO of Federated Wireless since 2014, after senior network roles at Sprint. Public voice for the company's Physical AI and shared-spectrum strategy.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Federated_Wireless"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "CTO, Federated Wireless",
+   "org": "federated-wireless",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "kurt-schaubach",
+   "name": "Kurt Schaubach",
+   "category": "Person",
+   "description": "Chief Technology Officer of Federated Wireless since 2015, leading its spectrum-sharing technology including 6 GHz Automated Frequency Coordination. Undergraduate and graduate degrees from Virginia Tech.",
+   "sources": [
+    "https://www.arlingtoneconomicdevelopment.com/News-Resources/Blog/TechConnect-Federated-Wireless-Raises-72M-in-Series-D-to-expand-5G"
+   ]
   }
  ],
  "edges": [
@@ -6475,6 +6529,20 @@
    "type": "Role",
    "label": "CTO",
    "source": "https://www.oceusnetworks.com/?p=59"
+  },
+  {
+   "from": "iyad-tarazi",
+   "to": "federated-wireless",
+   "type": "Role",
+   "label": "President and CEO",
+   "source": "https://en.wikipedia.org/wiki/Federated_Wireless"
+  },
+  {
+   "from": "kurt-schaubach",
+   "to": "federated-wireless",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://www.arlingtoneconomicdevelopment.com/News-Resources/Blog/TechConnect-Federated-Wireless-Raises-72M-in-Series-D-to-expand-5G"
   }
  ]
 }
