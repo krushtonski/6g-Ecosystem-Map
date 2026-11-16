@@ -3396,12 +3396,14 @@
    "lng": -76.1474,
    "precision": "City",
    "sources": [
-    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced",
+    "https://news.crunchbase.com/venture/defense-tech-startup-hidden-level-fundraises-dfj-growth/"
    ],
    "id": "hidden-level",
    "name": "Hidden Level",
    "category": "Equipment & tech vendors",
-   "description": "Airspace sensing company. Team member on Nokia Federal's RAPID ISAC prototype award (Nov 2026)."
+   "description": "Passive radar and RF sensing for drone and airspace detection. Team member on Nokia Federal's RAPID ISAC prototype award alongside DeepSig. Booz Allen Ventures invested in its Series B (2024) and $65M Series C (Feb 2025).",
+   "website": "https://www.hiddenlevel.com/"
   },
   {
    "short": "Future Tech",
@@ -3556,18 +3558,20 @@
    "region": "Rest of US & global",
    "role": "",
    "org": null,
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "precision": "",
+   "address": "New York, NY",
+   "lat": 40.7128,
+   "lng": -74.006,
+   "precision": "City",
    "sources": [
     "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-advances-ai-powered-nextg-america",
-    "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
+    "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation",
+    "https://www.telecomtv.com/content/the-future-of-ran/odc-completes-a-45m-series-a-funding-55205/"
    ],
    "id": "odc",
    "name": "O-RAN Development Company (ODC)",
    "category": "Equipment & tech vendors",
-   "description": "US company building AI-native Open RAN software for 5G and emerging 6G. Series A (Mar 2026) backed by Booz Allen Ventures and NVIDIA. AI-WIN partner and OCUDU general member."
+   "description": "AI-native RAN company (Odyssey RAN platform) for 5G and emerging 6G. Seeded by affiliates of Cerberus; $45M Series A (Mar 2026) from Booz Allen, Cisco Investments, Nokia, NVIDIA, AT&T, MTN, Telecom Italia and Phoenix Venture Partners. Works with Booz Allen (McLean) on AI-WIN; OCUDU general member.",
+   "website": "https://www.orandevco.com/"
   },
   {
    "short": "",
@@ -3943,6 +3947,96 @@
    "description": "Chief Technology Officer of Federated Wireless since 2015, leading its spectrum-sharing technology including 6 GHz Automated Frequency Coordination. Undergraduate and graduate degrees from Virginia Tech.",
    "sources": [
     "https://www.arlingtoneconomicdevelopment.com/News-Resources/Blog/TechConnect-Federated-Wireless-Raises-72M-in-Series-D-to-expand-5G"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Colorado Springs, CO",
+   "lat": 38.8339,
+   "lng": -104.8214,
+   "precision": "City",
+   "id": "sempre",
+   "name": "SEMPRE",
+   "category": "Equipment & tech vendors",
+   "description": "Builds hardened private 5G and edge platforms (EMP-hardened micro-edge data centres, private 5G, satellite links) for defence, government and first responders. Partnered with Tiami Networks in 2025 to add passive 5G ISAC drone sensing. Active in DC-area FutureG programmes and events.",
+   "sources": [
+    "https://www.cbinsights.com/company/sempre",
+    "https://journalofcyberpolicy.com/?p=334523"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Founder and CEO, SEMPRE",
+   "org": "sempre",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "rob-spalding",
+   "name": "Rob Spalding",
+   "category": "Person",
+   "description": "Retired US Air Force brigadier general and former National Security Council senior director for strategic planning, known for the 2018 NSC paper on a secure national 5G network. Founded SEMPRE. Speaker at the 2026 FutureG for Defense & Warfare Summit in DC.",
+   "sources": [
+    "https://www.govconwire.com/articles/sempre-buys-newspace-networks-to-grow-comm-tech-portfolio",
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Sacramento area, CA",
+   "lat": 38.4088,
+   "lng": -121.3716,
+   "precision": "City",
+   "id": "tiami",
+   "name": "Tiami Networks",
+   "category": "Equipment & tech vendors",
+   "description": "Integrated sensing and communications (ISAC) start-up turning ambient 4G/5G signals into passive radar (PolyEdge). Partners include SEMPRE, Airspan and Vodafone.",
+   "website": "https://www.tiaminetworks.com/",
+   "sources": [
+    "https://journalofcyberpolicy.com/?p=334523"
+   ]
+  },
+  {
+   "short": "Rampart",
+   "region": "Washington DC & Maryland",
+   "role": "",
+   "org": null,
+   "address": "Linthicum Heights, MD",
+   "lat": 39.2051,
+   "lng": -76.6527,
+   "precision": "City",
+   "id": "rampart",
+   "name": "Rampart Communications",
+   "category": "Equipment & tech vendors",
+   "description": "Secure wireless communications company. Won a $9.9M NTIA Innovation Fund grant (Jan 2025) for ASPEN, a 6G physical layer built with Virginia Tech that combines VT's interference suppression with Rampart's noise whitening and unitary braid division multiplexing (UBDM).",
+   "sources": [
+    "https://www.rfglobalnet.com/doc/rampart-communications-and-virginia-tech-awarded-m-from-chips-act-grant-0001",
+    "https://www.highergov.com/grant/2460IF2415"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Washington DC & Maryland",
+   "role": "",
+   "org": null,
+   "address": "American Institute of Architects, 1735 New York Ave NW, Washington, DC",
+   "lat": 38.8968,
+   "lng": -77.0411,
+   "precision": "Street address",
+   "id": "dsi-futureg-2026",
+   "name": "FutureG for Defense & Warfare Summit 2026",
+   "category": "Events",
+   "description": "DSI's 3rd annual FutureG for Defense & Warfare Summit, 25–26 March 2026, Washington DC. Town-hall event on operationalising 5G, secure supply chains and NextG/6G for defence.",
+   "website": "https://futureg.dsigroup.org/",
+   "sources": [
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
    ]
   }
  ],
@@ -6543,6 +6637,76 @@
    "type": "Role",
    "label": "CTO",
    "source": "https://www.arlingtoneconomicdevelopment.com/News-Resources/Blog/TechConnect-Federated-Wireless-Raises-72M-in-Series-D-to-expand-5G"
+  },
+  {
+   "from": "rob-spalding",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "rondeau",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "amanda-toman",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "tim-o-shea",
+   "to": "dsi-futureg-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+  },
+  {
+   "from": "rob-spalding",
+   "to": "sempre",
+   "type": "Role",
+   "label": "Founder and CEO",
+   "source": "https://www.govconwire.com/articles/sempre-buys-newspace-networks-to-grow-comm-tech-portfolio"
+  },
+  {
+   "from": "sempre",
+   "to": "tiami",
+   "type": "Partnership / project",
+   "label": "ISAC drone-sensing partnership (Jul 2025)",
+   "source": "https://journalofcyberpolicy.com/?p=334523"
+  },
+  {
+   "from": "ntia",
+   "to": "rampart",
+   "type": "Funding",
+   "label": "$9.9M Innovation Fund grant, ASPEN 6G physical layer (Jan 2025)",
+   "source": "https://www.highergov.com/grant/2460IF2415"
+  },
+  {
+   "from": "rampart",
+   "to": "wireless-vt",
+   "type": "Research together",
+   "label": "ASPEN 6G physical layer (VT subrecipient)",
+   "source": "https://www.highergov.com/grant/2460IF2415"
+  },
+  {
+   "from": "booz",
+   "to": "hidden-level",
+   "type": "Funding",
+   "label": "Booz Allen Ventures, Series B and C",
+   "source": "https://news.crunchbase.com/venture/defense-tech-startup-hidden-level-fundraises-dfj-growth/"
+  },
+  {
+   "from": "nokia",
+   "to": "odc",
+   "type": "Funding",
+   "label": "Series A investor (Mar 2026)",
+   "source": "https://www.cerberus.com/media/odc-completes-a-45m-series-a-funding-architecting-the-global-distributed-compute-grid-to-power-the-ai-native-era/"
   }
  ]
 }
