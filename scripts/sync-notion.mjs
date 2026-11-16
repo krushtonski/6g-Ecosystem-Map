@@ -45,6 +45,7 @@ const nodes = eco.map(pg => {
     region: sel(p["Region"]) || "Rest of US & global", description: text(p["Description"]), role: text(p["Role"]), org,
     address: text(p["Address"]), lat: num(p["Latitude"]), lng: num(p["Longitude"]), precision: sel(p["Location precision"]),
     sources: text(p["Sources"]).split(/\s+/).filter(s => /^https?:\/\//.test(s)),
+    website: (p["Website"] && p["Website"].url) || "",
   };
 }).filter(n => n.name);
 // People never carry their own coordinates: they are shown at their organisation

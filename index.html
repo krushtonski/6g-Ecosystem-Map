@@ -408,6 +408,7 @@ function renderDetail(){
    <div><span class="pill"><span class="sw ${CATS[n.category].sq?"sq":""}" style="background:${CATS[n.category].c}"></span>${esc(n.category==="Person"?"Person":n.category)}</span><span class="pill">${esc(REGIONS[ring(n)])}</span></div>
    ${n.role?`<p style="margin:8px 0 0;font-weight:600">${esc(n.role)}</p>`:""}
    <p style="font-size:13.5px">${esc(n.description)}</p>
+   ${n.website?`<p class="hint">🌐 <a href="${esc(n.website)}" target="_blank" rel="noopener">${esc(n.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a></p>`:""}
    ${n.address?`<p class="hint">📍 ${esc(n.address)}${n.precision&&n.precision!=="Street address"?` (${esc(n.precision.toLowerCase())}-level)`:""}</p>`:""}
    ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button><small>${esc(p.role)}</small></li>`).join("")}</ul>`:""}
    <h3>Connections (${rel.length})</h3>

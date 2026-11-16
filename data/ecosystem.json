@@ -216,11 +216,13 @@
    "lng": -77.0563,
    "precision": "Street address",
    "sources": [
+    "https://rt.cto.mil/futureg-home/about/",
     "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/",
     "https://rt.cto.mil/?p=11714",
     "https://news.vt.edu/articles/2023/10/eng-futuregaward.html",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
-   ]
+   ],
+   "website": "https://rt.cto.mil/futureg-home/"
   },
   {
    "id": "ntia",
@@ -3159,12 +3161,15 @@
    "lng": null,
    "precision": "",
    "sources": [
+    "https://innovate-defense.com/speaker/marlan-macklin/",
+    "https://executivegov.com/2023/11/marlan-macklin-named-deputy-principal-director-for-future-g-at-ousdrande/",
+    "https://www.govconwire.com/2025/02/marlan-macklin-dod-5g-futureg-path-forward/",
     "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
    ],
    "id": "marlan-macklin",
    "name": "Marlan L. Macklin",
    "category": "Person",
-   "description": "Deputy Principal Director for FutureG in the Office of the Under Secretary of Defense for Research & Engineering (OUSD(R&E)), at the Pentagon."
+   "description": "Deputy Principal Director for FutureG in the Office of the Under Secretary of Defense for Research & Engineering (OUSD(R&E)) since November 2023. Responsible for the office's strategic alignment, budget execution and programme oversight. Previously Chief of the Communications & Electronics Division at the US Mission to NATO; earlier in Army defence exports and cooperation. DoD civilian since 2004."
   },
   {
    "short": "",
@@ -3237,6 +3242,58 @@
     "https://www.ntia.gov/page/jaisha-wray",
     "https://ntia.gov/office/office-international-affairs-oia",
     "https://sanford.duke.edu/event/space-telecom-cyber-policy-conversation-jaisha-wray"
+   ]
+  },
+  {
+   "id": "ted-woodward",
+   "name": "Ted Woodward",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Technical Director for the DoD FutureG Office. Author of the office's RIC Forum readout.",
+   "role": "Technical Director, FutureG Office, OUSD(R&E)",
+   "org": "futureg",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://innovate-defense.com/event/isac-strategy-summit-2025/",
+    "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
+   ]
+  },
+  {
+   "id": "brian-stone",
+   "name": "Brian Stone",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Manages the development and execution of FutureG applied research programmes that advance wireless networking for national security.",
+   "role": "Program Developer and Portfolio Execution Lead, FutureG Applied Research, OUSD(R&E)",
+   "org": "futureg",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://innovate-defense.com/event/isac-strategy-summit-2025/"
+   ]
+  },
+  {
+   "id": "heather-edwards",
+   "name": "Heather Edwards",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Program Manager for FutureG. Previously Director of Technology Program Management at Peraton (DHS business unit) and a Program Director at Amentum.",
+   "role": "Program Manager for FutureG, OUSW(R&E)",
+   "org": "futureg",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.potomacofficersclub.com/speakers/heather-edwards/"
    ]
   }
  ],
@@ -5389,6 +5446,41 @@
    "type": "Role",
    "label": "Former staff, NTIA Office of International Affairs (listed 2022)",
    "source": "https://www.ntia.doc.gov/page/oia-staff-directory-2022"
+  },
+  {
+   "from": "ted-woodward",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Technical Director",
+   "source": "https://innovate-defense.com/event/isac-strategy-summit-2025/"
+  },
+  {
+   "from": "brian-stone",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Program Developer and Portfolio Execution Lead, Applied Research",
+   "source": "https://innovate-defense.com/event/isac-strategy-summit-2025/"
+  },
+  {
+   "from": "heather-edwards",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Program Manager",
+   "source": "https://www.potomacofficersclub.com/speakers/heather-edwards/"
+  },
+  {
+   "from": "heather-edwards",
+   "to": "peraton",
+   "type": "Role",
+   "label": "Former Director of Technology Program Management, Peraton",
+   "source": "https://www.potomacofficersclub.com/speakers/heather-edwards/"
+  },
+  {
+   "from": "abhimanyu-gosain",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Technical subject matter expert for FutureG",
+   "source": "https://innovate-defense.com/event/isac-strategy-summit-2025/"
   }
  ]
 }
