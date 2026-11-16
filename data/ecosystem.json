@@ -3295,6 +3295,66 @@
    "sources": [
     "https://www.potomacofficersclub.com/speakers/heather-edwards/"
    ]
+  },
+  {
+   "id": "ncsu",
+   "name": "NC State University",
+   "short": "NC State",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "description": "Public research university in Raleigh. Home of the NextG Wireless Lab@NC State and the NSF AERPAW wireless testbed.",
+   "role": "",
+   "org": null,
+   "address": "Raleigh, NC",
+   "lat": 35.7847,
+   "lng": -78.6821,
+   "precision": "Campus",
+   "sources": [
+    "https://ece.ncsu.edu/people/vkshah2/"
+   ],
+   "website": "https://ece.ncsu.edu/"
+  },
+  {
+   "id": "vijay-shah",
+   "name": "Vijay K. Shah",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Heads the NextG Wireless Lab, now at NC State (previously NextG Wireless Lab@Mason, George Mason University, 2021–2024; before that Research Assistant Professor with Wireless@Virginia Tech, 2019–2021). Research: 5G/6G, O-RAN, AI/ML and GenAI for wireless, cybersecurity, spectrum sharing. NSF CAREER award for open dynamic spectrum management for 6G. Worked on NTIA Innovation Fund O-RAN testing projects. Outreach Director for AERPAW; co-founder and CEO of WiSights Lab (LLMs for telecoms). The lab lists itself as open to collaborative research agreements, joint industry/university proposals, sponsored research and industry gifts.",
+   "role": "Assistant Professor, ECE, NC State; Director, NextG Wireless Lab",
+   "org": "ncsu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://ece.ncsu.edu/people/vkshah2/",
+    "https://nextgalliance.org/6g_lab_surveys/george-mason-university-nextg-wireless-lab",
+    "https://cybersecurity.sitemasonry.gmu.edu/node/456",
+    "https://volgenau.gmu.edu/news/2024-02/vijay-shah-joins-2m-ntia-funded-project-5g-cybersecurity",
+    "https://ece.ncsu.edu/?p=265891"
+   ],
+   "website": "https://www.nextgwirelesslab.org/"
+  },
+  {
+   "id": "andrew-thiessen",
+   "name": "Andrew Thiessen",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "description": "Head of 5G/xG at MITRE, coordinating more than 80 engineers on US government projects and leading MITRE's internal 5G/xG R&D. Chairs the Next G Alliance Spectrum Working Group and sits on its Steering Group. Previously a Division Chief at NTIA's Institute for Telecommunication Sciences, where he led public safety LTE standards work in 3GPP, ATIS and GSMA.",
+   "role": "Head of 5G/xG, MITRE; Chair, Next G Alliance Spectrum Working Group",
+   "org": "mitre",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.afcea.org/sites/default/files/2024-02/Andrew%20Thiessen%20Bio%20-%20Short.pdf",
+    "https://roadmap.nextgalliance.org/?p=311",
+    "https://nextgalliance.org/the-next-g-alliance-spectrum-working-group-proactively-addressing-the-spectrum-issues-of-the-next-g-world/",
+    "https://6gworld.com/?p=28150"
+   ]
   }
  ],
  "edges": [
@@ -5481,6 +5541,62 @@
    "type": "Role",
    "label": "Technical subject matter expert for FutureG",
    "source": "https://innovate-defense.com/event/isac-strategy-summit-2025/"
+  },
+  {
+   "from": "vijay-shah",
+   "to": "ncsu",
+   "type": "Role",
+   "label": "Assistant Professor; Director, NextG Wireless Lab",
+   "source": "https://ece.ncsu.edu/people/vkshah2/"
+  },
+  {
+   "from": "vijay-shah",
+   "to": "gmu",
+   "type": "Role",
+   "label": "Former Assistant Professor; directed NextG Wireless Lab@Mason (2021–2024)",
+   "source": "https://ece.ncsu.edu/people/vkshah2/"
+  },
+  {
+   "from": "vijay-shah",
+   "to": "wireless-vt",
+   "type": "Role",
+   "label": "Former Research Assistant Professor (2019–2021)",
+   "source": "https://ece.ncsu.edu/people/vkshah2/"
+  },
+  {
+   "from": "ntia",
+   "to": "vijay-shah",
+   "type": "Funding",
+   "label": "Innovation Fund: $2M O-RAN cybersecurity testing project (with Virginia Tech)",
+   "source": "https://volgenau.gmu.edu/news/2024-02/vijay-shah-joins-2m-ntia-funded-project-5g-cybersecurity"
+  },
+  {
+   "from": "nsf",
+   "to": "vijay-shah",
+   "type": "Funding",
+   "label": "NSF CAREER award: open dynamic spectrum management for 6G",
+   "source": "https://ece.ncsu.edu/?p=265891"
+  },
+  {
+   "from": "andrew-thiessen",
+   "to": "mitre",
+   "type": "Role",
+   "label": "Head of 5G/xG",
+   "source": "https://www.afcea.org/sites/default/files/2024-02/Andrew%20Thiessen%20Bio%20-%20Short.pdf"
+  },
+  {
+   "from": "andrew-thiessen",
+   "to": "nga",
+   "type": "Role",
+   "label": "Chair, Spectrum Working Group; Steering Group member",
+   "source": "https://nextgalliance.org/the-next-g-alliance-spectrum-working-group-proactively-addressing-the-spectrum-issues-of-the-next-g-world/"
+  },
+  {
+   "from": "andrew-thiessen",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Former Division Chief, NTIA Institute for Telecommunication Sciences",
+   "source": "https://roadmap.nextgalliance.org/?p=311"
   }
  ]
 }
