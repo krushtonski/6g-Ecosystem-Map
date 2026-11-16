@@ -613,7 +613,7 @@
    "short": "",
    "category": "Equipment & tech vendors",
    "region": "Northern Virginia",
-   "description": "Arlington-based AI-native wireless software company. Awarded FutureG work through the National Spectrum Consortium, and part of the Nokia Federal RAPID team.",
+   "description": "Arlington-based AI-native wireless and Open RAN company (CEO and co-founder Jim Shea). Chosen with SRS by the FutureG Office in September 2025 to lead OCUDU, the DoD's open-source 5G/6G RAN stack; founding member of the Linux Foundation's OCUDU Ecosystem Foundation (March 2026). Opened an OCUDU AI-RAN Lab at its Arlington headquarters on 19 October 2026, where operators and engineers can see AI-native capabilities running on an open CU/DU stack. Part of the Nokia Federal RAPID ISAC team. Two leaders sit on the FCC's Technological Advisory Council.",
    "role": "",
    "org": null,
    "address": "Arlington, VA",
@@ -622,8 +622,12 @@
    "precision": "City",
    "sources": [
     "https://rt.cto.mil/deepsig-and-srs-chosen-by-futureg",
-    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
-   ]
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
+    "https://www.businesswire.com/news/home/20250930836266/en",
+    "https://www.deepsig.ai/deepsig-joins-ocudu-ecosystem-foundation/",
+    "https://briefglance.com/articles/the-pentagon-open-source-and-the-billion-dollar-race-to-6g"
+   ],
+   "website": "https://www.deepsig.ai/"
   },
   {
    "id": "federated",
@@ -3671,6 +3675,25 @@
    "name": "Christopher Ling",
    "category": "Person",
    "description": "Chief Executive Officer of Ericsson Federal Technologies Group."
+  },
+  {
+   "id": "jim-shea",
+   "name": "Jim Shea",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "CEO and Co-Founder, DeepSig",
+   "org": "deepsig",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "CEO and co-founder of DeepSig. Led its selection with SRS to run the DoD FutureG Office's OCUDU open-source 5G/6G RAN initiative (Sept 2025), its founding membership of the OCUDU Ecosystem Foundation (Mar 2026), and the opening of its OCUDU AI-RAN Lab in Arlington (Oct 2026). Regular speaker at MWC and NVIDIA GTC on AI-native RAN.",
+   "sources": [
+    "https://www.businesswire.com/news/home/20250930836266/en",
+    "https://www.businesswire.com/news/home/20260302355808/en/DeepSig-Joins-OCUDU-Ecosystem-Foundation-to-Advance-AI-Native-Open-RAN-Innovation",
+    "https://briefglance.com/articles/the-pentagon-open-source-and-the-billion-dollar-race-to-6g"
+   ]
   }
  ],
  "edges": [
@@ -5610,7 +5633,7 @@
    "from": "deepsig",
    "to": "ocudu",
    "type": "Membership",
-   "label": "Leading member",
+   "label": "Founding member (Mar 2026); leads OCUDU development with SRS",
    "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
   },
   {
@@ -6151,6 +6174,20 @@
    "type": "Role",
    "label": "Former Senior Advisor (spectrum sharing, broadband)",
    "source": "https://www.businesswire.com/news/home/20260113370388/en/nathan-simington-joins-ericsson-federal-as-new-director-of-policy-strategy"
+  },
+  {
+   "from": "jim-shea",
+   "to": "deepsig",
+   "type": "Role",
+   "label": "CEO and Co-Founder",
+   "source": "https://www.businesswire.com/news/home/20250930836266/en"
+  },
+  {
+   "from": "tim-o-shea",
+   "to": "fcc",
+   "type": "Role",
+   "label": "Member, FCC Technological Advisory Council (appointed Aug 2026)",
+   "source": "https://www.businesswire.com/news/home/20260805482925/en/"
   }
  ]
 }
