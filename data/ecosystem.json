@@ -2810,7 +2810,7 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: University panel.",
+   "description": "Vodafone Chair at TU Dresden and founding director of the Barkhausen Institut. Member of the US National Academy of Engineering; his team has spun out around 30 start-ups. Dresden hosts the annual IEEE 6G Summit. Speaker at the Brooklyn 6G Summit 2026 (Nov 5: University panel).",
    "role": "Professor & CEO, TU Dresden / Barkhausen Institut",
    "org": "tud",
    "address": "",
@@ -2895,8 +2895,8 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI.",
-   "role": "Senior Advisor, Ericsson",
+   "description": "Former VP and Head of Ericsson Research (led the launch and 2025 renewal of Ericsson's UK 6G research programme); now an advisor in Ericsson's CTO office. Speaker at the Brooklyn 6G Summit 2026 (Nov 5: Panel: Wireless research in the age of AI).",
+   "role": "Advisor, CTO Office, Ericsson; former Head of Ericsson Research",
    "org": "ericsson",
    "address": "",
    "lat": null,
@@ -4997,6 +4997,557 @@
    "sources": [
     "https://nextgalliance.org/nga_event_speaker/brain-daly/",
     "https://www.fcc.gov/sites/default/files/Consolidated_6G_Paper_FCCTAC23_Final_for_Web.pdf"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Sophia Antipolis, France",
+   "lat": 43.6163,
+   "lng": 7.0552,
+   "precision": "City",
+   "id": "3gpp",
+   "name": "3GPP",
+   "category": "Associations & alliances",
+   "description": "The global partnership that writes mobile standards (LTE, 5G NR and now 6G). Its plenaries include TSG RAN (radio) and TSG SA (system architecture). Support centre hosted by ETSI in Sophia Antipolis, France.",
+   "sources": [
+    "https://www.3gpp.org/DynaReport/TSG-WG--RP--officials.htm?Itemid=268"
+   ],
+   "website": "https://www.3gpp.org/"
+  },
+  {
+   "short": "ITU-R WP 5D",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "ITU, Geneva, Switzerland",
+   "lat": 46.2105,
+   "lng": 6.1426,
+   "precision": "City",
+   "id": "itu-wp5d",
+   "name": "ITU-R Working Party 5D",
+   "category": "Associations & alliances",
+   "description": "The UN ITU group responsible for IMT standards, including IMT-2030 (6G). Sets the 6G requirements and evaluates candidate technologies such as 3GPP's.",
+   "sources": [
+    "https://www.telecomstechnews.com/news/itu-r-appoints-samsung-researcher-lead-6g-coordination-group/"
+   ],
+   "website": "https://www.itu.int/en/ITU-R/study-groups/rsg5/rwp5d/"
+  },
+  {
+   "short": "IAFI",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "New Delhi, India",
+   "lat": 28.6139,
+   "lng": 77.209,
+   "precision": "City",
+   "id": "iafi",
+   "name": "ITU-APT Foundation of India (IAFI)",
+   "category": "Associations & alliances",
+   "description": "Non-profit Indian industry foundation and ITU sector member. Its President, Bharat Bhatia, chairs ITU-R WP 5D's Working Group on General Aspects for IMT-2030 (6G).",
+   "sources": [
+    "https://ismc24.iafi.in/presentations/bharat-bhatia-day-one.pdf"
+   ],
+   "website": "https://www.iafi.in/"
+  },
+  {
+   "short": "Surrey 6GIC",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Guildford, Surrey, UK",
+   "lat": 51.2433,
+   "lng": -0.5891,
+   "precision": "City",
+   "id": "surrey-6gic",
+   "name": "University of Surrey 6G Innovation Centre (6GIC)",
+   "category": "Academic & research",
+   "description": "The UK's first 6G Innovation Centre, within Surrey's Institute for Communication Systems (also home of the world's first 5G centre, 5GIC). Partners with InterDigital on 6G research and led the £12M government-funded TUDOR project.",
+   "sources": [
+    "https://telecomtv.com/content/6g/interdigital-and-the-university-of-surrey-formalise-6g-research-partnership-47762"
+   ],
+   "website": "https://www.surrey.ac.uk/institute-communication-systems"
+  },
+  {
+   "short": "SRUK",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Staines-upon-Thames, UK",
+   "lat": 51.434,
+   "lng": -0.511,
+   "precision": "City",
+   "id": "samsung-uk",
+   "name": "Samsung R&D Institute UK",
+   "category": "Equipment & tech vendors",
+   "description": "Samsung's UK research centre, part of Samsung's global 6G research programme.",
+   "sources": [
+    "https://research.samsung.com/"
+   ]
+  },
+  {
+   "short": "Ericsson UK",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "ericsson-uk",
+   "name": "Ericsson UK 6G research programme",
+   "category": "Equipment & tech vendors",
+   "description": "Ericsson's UK-based 6G research programme, launched in 2022 with a ten-year, tens-of-millions-of-pounds commitment and renewed in June 2025. Worked on the UK government-backed REASON and TUDOR projects.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "tudor",
+   "name": "TUDOR",
+   "category": "Programmes & testbeds",
+   "description": "Towards Ubiquitous 3D Open Resilient Network: a £12M DSIT-funded UK flagship 6G research project (Feb 2023 to Jan 2025) led by Surrey's 6GIC, integrating satellite, airborne and terrestrial networks. Consortium included Ericsson, InterDigital, BT, BAE Systems and Qualcomm.",
+   "sources": [
+    "https://www.surrey.ac.uk/towards-ubiquitous-3d-open-resilient-network"
+   ],
+   "website": "https://www.surrey.ac.uk/towards-ubiquitous-3d-open-resilient-network"
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "reason",
+   "name": "REASON",
+   "category": "Programmes & testbeds",
+   "description": "Realising Enabling Architectures and Solutions for Open Networks: UK government-backed project developing a roadmap for open 6G networks. Includes Ericsson, Samsung and Nokia.",
+   "sources": [
+    "https://www.engineersireland.ie/Engineers-Journal/News/consortium-nets-close-to-16312m-in-bid-to-tap-into-6g-tech-potential"
+   ]
+  },
+  {
+   "short": "Oulu 6G Flagship",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Oulu, Finland",
+   "lat": 65.0593,
+   "lng": 25.4663,
+   "precision": "City",
+   "id": "oulu",
+   "name": "University of Oulu / 6G Flagship",
+   "category": "Academic & research",
+   "description": "Finnish university running 6G Flagship, the world's first large-scale 6G research programme (from 2018). Also runs NATO DIANA's 6G test centre.",
+   "sources": [
+    "https://www.6gflagship.com/?p=14218"
+   ],
+   "website": "https://www.6gflagship.com/"
+  },
+  {
+   "short": "Khalifa 6GRC",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Abu Dhabi, UAE",
+   "lat": 24.4473,
+   "lng": 54.3962,
+   "precision": "City",
+   "id": "khalifa-6grc",
+   "name": "Khalifa University 6G Research Center",
+   "category": "Academic & research",
+   "description": "6G Research Center at Khalifa University, Abu Dhabi, led by Merouane Debbah. Built TelecomGPT, a telco-first large language model, and works with GSMA Foundry on open telecom AI models and benchmarks.",
+   "sources": [
+    "https://www.ku.ac.ae/6g-research-center"
+   ],
+   "website": "https://www.ku.ac.ae/6g-research-center"
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Seoul, South Korea",
+   "lat": 37.5665,
+   "lng": 126.978,
+   "precision": "City",
+   "id": "6g-forum-korea",
+   "name": "6G Forum (Korea)",
+   "category": "Associations & alliances",
+   "description": "Korea's national 6G industry and research forum. Has run joint workshops with the Next G Alliance.",
+   "sources": [
+    "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/wanshi-chen/"
+   ]
+  },
+  {
+   "short": "6G-IA",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Brussels, Belgium",
+   "lat": 50.8503,
+   "lng": 4.3517,
+   "precision": "City",
+   "id": "6g-ia",
+   "name": "6G Smart Networks and Services Industry Association (6G-IA)",
+   "category": "Associations & alliances",
+   "description": "European industry association for 6G; the private-side partner of the EU's Smart Networks and Services Joint Undertaking (SNS JU).",
+   "sources": [
+    "https://6g-ia.eu/"
+   ],
+   "website": "https://6g-ia.eu/"
+  },
+  {
+   "short": "B6GA",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "New Delhi, India",
+   "lat": 28.6139,
+   "lng": 77.209,
+   "precision": "City",
+   "id": "bharat-6g",
+   "name": "Bharat 6G Alliance",
+   "category": "Associations & alliances",
+   "description": "India's 6G alliance of industry, operators, academia and research institutions, launched by the Department of Telecommunications in July 2023. Grown to about 90 members with seven working groups. India targets at least 10% of global 6G patents and standards.",
+   "sources": [
+    "https://www.rcrwireless.com/20230705/featured/india-announces-alliance-foster-6g-development",
+    "https://swarajyamag.com/tech/india-moves-from-5g-scale-to-6g-leadership-with-10-per-cent-global-patent-target-and-stronger-standards-push"
+   ]
+  },
+  {
+   "short": "IMT-2030 PG",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Beijing, China",
+   "lat": 39.9042,
+   "lng": 116.4074,
+   "precision": "City",
+   "id": "imt2030-pg",
+   "name": "IMT-2030 (6G) Promotion Group (China)",
+   "category": "Associations & alliances",
+   "description": "China's government-backed 6G promotion group coordinating research, standards and international cooperation on IMT-2030 (6G).",
+   "sources": []
+  },
+  {
+   "short": "XGMF",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Tokyo, Japan",
+   "lat": 35.6762,
+   "lng": 139.6503,
+   "precision": "City",
+   "id": "xgmf",
+   "name": "XG Mobile Promotion Forum (XGMF)",
+   "category": "Associations & alliances",
+   "description": "Japan's forum promoting 5G evolution and 6G (Beyond 5G) research, standards and deployment.",
+   "sources": []
+  },
+  {
+   "short": "NGMN",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Frankfurt, Germany",
+   "lat": 50.1109,
+   "lng": 8.6821,
+   "precision": "City",
+   "id": "ngmn",
+   "name": "NGMN Alliance",
+   "category": "Associations & alliances",
+   "description": "Global operator-led alliance (Next Generation Mobile Networks) that sets operator requirements and priorities for each generation, including 6G.",
+   "sources": [
+    "https://www.ngmn.org/"
+   ],
+   "website": "https://www.ngmn.org/"
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Shenzhen, China",
+   "lat": 22.5431,
+   "lng": 114.0579,
+   "precision": "City",
+   "id": "huawei",
+   "name": "Huawei",
+   "category": "Equipment & tech vendors",
+   "description": "Chinese telecoms vendor and a major player in 6G research and standards.",
+   "sources": [
+    "https://www.huawei.com/"
+   ],
+   "website": "https://www.huawei.com/"
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Head of Cellular Standards, HWT, Apple; 3GPP RAN Plenary Chair 2021–2025",
+   "org": "apple",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "wanshi-chen",
+   "name": "Wanshi Chen",
+   "category": "Person",
+   "description": "Apple's Head of Cellular Standards. Chaired the 3GPP RAN Plenary from April 2021 to January 2025 (the most senior radio role in 3GPP) and RAN WG1 from 2017 to 2021, while at Qualcomm.",
+   "sources": [
+    "https://gsacom.com/?p=18982"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Master (VP of Technology), Samsung Research; 3GPP TSG RAN Chair",
+   "org": "samsung",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "younsun-kim",
+   "name": "Younsun Kim",
+   "category": "Person",
+   "description": "Current 3GPP TSG RAN Chair (elected March 2025, term to March 2027) and the first Korean in the role. Samsung Research Master; previously chaired RAN WG1 (2021–2025). Succeeded Wanshi Chen.",
+   "sources": [
+    "https://www.telecomtv.com/content/5g/tsg-ran-elects-its-new-leadership-team-52549/"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Senior Principal Engineer & Senior Director of Standards, Intel; 3GPP TSG SA Chair",
+   "org": "intel",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "puneet-jain",
+   "name": "Puneet Jain",
+   "category": "Person",
+   "description": "3GPP TSG SA (Service and System Aspects) Plenary Chair since 2023, re-elected for a second term in March 2025. Previously chaired SA WG2.",
+   "sources": [
+    "https://3gpp.org/DynaReport/TSG-WG--SP--officialsHistory.htm"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Samsung Research; Chair, ITU-R Coordination Group on IMT-2030 (6G)",
+   "org": "samsung",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "hyoungjin-choi",
+   "name": "HyoungJin Choi",
+   "category": "Person",
+   "description": "Samsung Research researcher named chair of ITU-R WP 5D's Coordination Group on IMT-2030 (6G) in July 2024, serving until 2029. Previously chaired the ITU-R 6G Vision Group (2021–2023).",
+   "sources": [
+    "https://news.samsung.com/global/samsung-researcher-named-chair-of-itu-r-coordination-group-for-6g-standardization"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "President, IAFI; Chair, ITU-R WP 5D Working Group on General Aspects",
+   "org": "iafi",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "bharat-bhatia",
+   "name": "Bharat Bhatia",
+   "category": "Person",
+   "description": "President of the ITU-APT Foundation of India and Vice Chairman of the Wireless World Research Forum. Chairs ITU-R WP 5D's Working Group on General Aspects, which develops IMT-2030 (6G) documents including the call for candidate technologies.",
+   "sources": [
+    "https://iafi.in/system/static/uploads/pdf/june-2024-montly-news.pdf"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Regius Professor; Founding Director, 5GIC, 6GIC and Institute for Communication Systems, University of Surrey",
+   "org": "surrey-6gic",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "rahim-tafazolli",
+   "name": "Rahim Tafazolli",
+   "category": "Person",
+   "description": "Regius Professor of Electronic Engineering at Surrey and founder and director of the Institute for Communication Systems, the 5G Innovation Centre and the 6G Innovation Centre (the UK's first). Led the £12M TUDOR project and set up a 6G research partnership with InterDigital.",
+   "sources": [
+    "https://www.surrey.ac.uk/news/surrey-secures-ps12m-research-grant-make-future-telecommunications-network-greener-more-resilient"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Vice Rector for Research, University of Oulu; former Director, 6G Flagship",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "matti-latva-aho",
+   "name": "Matti Latva-aho",
+   "category": "Person",
+   "description": "Led Finland's 6G Flagship from its start in 2018 until mid-2025. Vice Rector for Research at the University of Oulu since July 2025 (term to 2030). IEEE Fellow.",
+   "sources": [
+    "https://www.oulu.fi/en/news/matti-latva-aho-appointed-vice-rector-for-research-and-petteri-alahuhta-vice-rector-for-cooperation"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Director, 6G Flagship, University of Oulu",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "ari-pouttu",
+   "name": "Ari Pouttu",
+   "category": "Person",
+   "description": "Director of 6G Flagship since 2025, succeeding Matti Latva-aho (previously Vice-Director).",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1086083"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Director of Sustainability and Regulation, 6G Flagship",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "marja-matinmikko-blue",
+   "name": "Marja Matinmikko-Blue",
+   "category": "Person",
+   "description": "Director of Sustainability and Regulation at 6G Flagship, University of Oulu; works on the path from 6G research to spectrum regulation.",
+   "sources": [
+    "https://www.6gflagship.com/?p=14218"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Senior Expert, Radio Access, Ericsson",
+   "org": "ericsson",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "erik-dahlman",
+   "name": "Erik Dahlman",
+   "category": "Person",
+   "description": "One of the most influential architects of the LTE and 5G standards, now leading Ericsson's 6G standardisation work with Stefan Parkvall. Keynote at the 6G@UT Forum 2025.",
+   "sources": [
+    "https://wncg.org/news/6gut-forum-2025-6g-takes-shape"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Senior Expert, Cellular Radio Access, Ericsson",
+   "org": "ericsson",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "stefan-parkvall",
+   "name": "Stefan Parkvall",
+   "category": "Person",
+   "description": "One of the most influential architects of the LTE and 5G standards, now leading Ericsson's 6G standardisation work with Erik Dahlman. Keynote at the 6G@UT Forum 2025.",
+   "sources": [
+    "https://wncg.org/news/6gut-forum-2025-6g-takes-shape"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Director, 6G Research Center, Khalifa University",
+   "org": "khalifa-6grc",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "merouane-debbah",
+   "name": "Merouane Debbah",
+   "category": "Person",
+   "description": "Founding director of Khalifa University's 6G Research Center. Leads TelecomGPT, a telco-first large language model, and the GSMA Foundry collaboration on open telecom AI. A key name where AI and 6G meet.",
+   "sources": [
+    "https://www.ku.ac.ae/6g-research-center"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "SVP, Samsung Research America; Head of Samsung Research 6G Team",
+   "org": "samsung",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "charlie-zhang",
+   "name": "Charlie Zhang",
+   "category": "Person",
+   "description": "SVP at Samsung Research America and head of Samsung Research's 6G team, which publishes Samsung's 6G white papers. Vice Chair of the Next G Alliance Full Member Group. Former 3GPP RAN WG1 vice chair. IEEE Fellow.",
+   "sources": [
+    "https://research.samsung.com/news/Samsung-s-Leadership-in-Next-Generation-Communications-and-AI"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Head, Advanced Communications Research Center, Samsung Electronics",
+   "org": "samsung",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "jinguk-jeong",
+   "name": "JinGuk Jeong",
+   "category": "Person",
+   "description": "Heads Samsung Electronics' Advanced Communications Research Center, leading research on AI-native networks and partnerships such as the Verizon 6G Innovation Forum.",
+   "sources": [
+    "https://news.samsung.com/global/next-generation-communications-leadership-interview-%E2%91%A3-ushering-in-the-6g-era-with-ai-innovation-and-global-partnerships"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Rest of US & global",
+   "role": "Founding Chair, Bharat 6G Alliance; Chairman, Tejas Networks",
+   "org": "bharat-6g",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "ng-subramaniam",
+   "name": "N. G. Subramaniam",
+   "category": "Person",
+   "description": "Founding chair of the Bharat 6G Alliance. Chairman of Tejas Networks and former COO of TCS.",
+   "sources": [
+    "https://www.rcrwireless.com/20230705/featured/india-announces-alliance-foster-6g-development"
    ]
   }
  ],
@@ -8388,6 +8939,251 @@
    "type": "Funding",
    "label": "Open6G anchor award (OUSD(R&E))",
    "source": "https://coe.northeastern.edu/?p=32846"
+  },
+  {
+   "from": "wanshi-chen",
+   "to": "apple",
+   "type": "Role",
+   "label": "Head of Cellular Standards, HWT, Apple; 3GPP RAN Plenary Chair 2021–2025",
+   "source": "https://gsacom.com/?p=18982"
+  },
+  {
+   "from": "younsun-kim",
+   "to": "samsung",
+   "type": "Role",
+   "label": "Master (VP of Technology), Samsung Research; 3GPP TSG RAN Chair",
+   "source": "https://www.telecomtv.com/content/5g/tsg-ran-elects-its-new-leadership-team-52549/"
+  },
+  {
+   "from": "puneet-jain",
+   "to": "intel",
+   "type": "Role",
+   "label": "Senior Principal Engineer & Senior Director of Standards, Intel; 3GPP TSG SA Chair",
+   "source": "https://3gpp.org/DynaReport/TSG-WG--SP--officialsHistory.htm"
+  },
+  {
+   "from": "hyoungjin-choi",
+   "to": "samsung",
+   "type": "Role",
+   "label": "Samsung Research; Chair, ITU-R Coordination Group on IMT-2030 (6G)",
+   "source": "https://news.samsung.com/global/samsung-researcher-named-chair-of-itu-r-coordination-group-for-6g-standardization"
+  },
+  {
+   "from": "bharat-bhatia",
+   "to": "iafi",
+   "type": "Role",
+   "label": "President, IAFI; Chair, ITU-R WP 5D Working Group on General Aspects",
+   "source": "https://iafi.in/system/static/uploads/pdf/june-2024-montly-news.pdf"
+  },
+  {
+   "from": "rahim-tafazolli",
+   "to": "surrey-6gic",
+   "type": "Role",
+   "label": "Regius Professor; Founding Director, 5GIC, 6GIC and Institute for Communication Systems, University of Surrey",
+   "source": "https://www.surrey.ac.uk/news/surrey-secures-ps12m-research-grant-make-future-telecommunications-network-greener-more-resilient"
+  },
+  {
+   "from": "matti-latva-aho",
+   "to": "oulu",
+   "type": "Role",
+   "label": "Vice Rector for Research, University of Oulu; former Director, 6G Flagship",
+   "source": "https://www.oulu.fi/en/news/matti-latva-aho-appointed-vice-rector-for-research-and-petteri-alahuhta-vice-rector-for-cooperation"
+  },
+  {
+   "from": "ari-pouttu",
+   "to": "oulu",
+   "type": "Role",
+   "label": "Director, 6G Flagship, University of Oulu",
+   "source": "https://www.eurekalert.org/news-releases/1086083"
+  },
+  {
+   "from": "marja-matinmikko-blue",
+   "to": "oulu",
+   "type": "Role",
+   "label": "Director of Sustainability and Regulation, 6G Flagship",
+   "source": "https://www.6gflagship.com/?p=14218"
+  },
+  {
+   "from": "erik-dahlman",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Senior Expert, Radio Access, Ericsson",
+   "source": "https://wncg.org/news/6gut-forum-2025-6g-takes-shape"
+  },
+  {
+   "from": "stefan-parkvall",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Senior Expert, Cellular Radio Access, Ericsson",
+   "source": "https://wncg.org/news/6gut-forum-2025-6g-takes-shape"
+  },
+  {
+   "from": "merouane-debbah",
+   "to": "khalifa-6grc",
+   "type": "Role",
+   "label": "Director, 6G Research Center, Khalifa University",
+   "source": "https://www.ku.ac.ae/6g-research-center"
+  },
+  {
+   "from": "charlie-zhang",
+   "to": "samsung",
+   "type": "Role",
+   "label": "SVP, Samsung Research America; Head of Samsung Research 6G Team",
+   "source": "https://research.samsung.com/news/Samsung-s-Leadership-in-Next-Generation-Communications-and-AI"
+  },
+  {
+   "from": "jinguk-jeong",
+   "to": "samsung",
+   "type": "Role",
+   "label": "Head, Advanced Communications Research Center, Samsung Electronics",
+   "source": "https://news.samsung.com/global/next-generation-communications-leadership-interview-%E2%91%A3-ushering-in-the-6g-era-with-ai-innovation-and-global-partnerships"
+  },
+  {
+   "from": "ng-subramaniam",
+   "to": "bharat-6g",
+   "type": "Role",
+   "label": "Founding Chair, Bharat 6G Alliance; Chairman, Tejas Networks",
+   "source": "https://www.rcrwireless.com/20230705/featured/india-announces-alliance-foster-6g-development"
+  },
+  {
+   "from": "wanshi-chen",
+   "to": "3gpp",
+   "type": "Role",
+   "label": "Former TSG RAN Plenary Chair (2021–2025)",
+   "source": "https://gsacom.com/?p=18982"
+  },
+  {
+   "from": "younsun-kim",
+   "to": "3gpp",
+   "type": "Role",
+   "label": "TSG RAN Chair (2025–2027)",
+   "source": "https://www.3gpp.org/DynaReport/TSG-WG--RP--officials.htm?Itemid=268"
+  },
+  {
+   "from": "puneet-jain",
+   "to": "3gpp",
+   "type": "Role",
+   "label": "TSG SA Chair",
+   "source": "https://3gpp.org/DynaReport/TSG-WG--SP--officialsHistory.htm"
+  },
+  {
+   "from": "hyoungjin-choi",
+   "to": "itu-wp5d",
+   "type": "Role",
+   "label": "Chair, Coordination Group on IMT-2030 (6G)",
+   "source": "https://news.samsung.com/global/samsung-researcher-named-chair-of-itu-r-coordination-group-for-6g-standardization"
+  },
+  {
+   "from": "bharat-bhatia",
+   "to": "itu-wp5d",
+   "type": "Role",
+   "label": "Chair, Working Group on General Aspects",
+   "source": "https://iafi.in/system/static/uploads/pdf/june-2024-montly-news.pdf"
+  },
+  {
+   "from": "interdigital",
+   "to": "surrey-6gic",
+   "type": "Research together",
+   "label": "6G research partnership",
+   "source": "https://telecomtv.com/content/6g/interdigital-and-the-university-of-surrey-formalise-6g-research-partnership-47762"
+  },
+  {
+   "from": "surrey-6gic",
+   "to": "tudor",
+   "type": "Partnership / project",
+   "label": "Lead",
+   "source": "https://www.surrey.ac.uk/news/surrey-secures-ps12m-research-grant-make-future-telecommunications-network-greener-more-resilient"
+  },
+  {
+   "from": "ericsson-uk",
+   "to": "tudor",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
+  },
+  {
+   "from": "interdigital",
+   "to": "tudor",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://www.surrey.ac.uk/news/surrey-secures-ps12m-research-grant-make-future-telecommunications-network-greener-more-resilient"
+  },
+  {
+   "from": "qualcomm",
+   "to": "tudor",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://www.gla.ac.uk/news/archiveofnews/2022/december/headline_902616_en.html"
+  },
+  {
+   "from": "ericsson-uk",
+   "to": "reason",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
+  },
+  {
+   "from": "samsung",
+   "to": "reason",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://www.engineersireland.ie/Engineers-Journal/News/consortium-nets-close-to-16312m-in-bid-to-tap-into-6g-tech-potential"
+  },
+  {
+   "from": "nokia",
+   "to": "reason",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://www.engineersireland.ie/Engineers-Journal/News/consortium-nets-close-to-16312m-in-bid-to-tap-into-6g-tech-potential"
+  },
+  {
+   "from": "ericsson-uk",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "UK research programme of Ericsson",
+   "source": "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
+  },
+  {
+   "from": "samsung-uk",
+   "to": "samsung",
+   "type": "Role",
+   "label": "UK research centre of Samsung",
+   "source": "https://research.samsung.com/"
+  },
+  {
+   "from": "magnus-frodigh",
+   "to": "ericsson-uk",
+   "type": "Role",
+   "label": "Launched and renewed the programme as Head of Ericsson Research",
+   "source": "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
+  },
+  {
+   "from": "erik-dahlman",
+   "to": "ut-austin",
+   "type": "Event participation",
+   "label": "Keynote, 6G@UT Forum 2025",
+   "source": "https://wncg.org/news/6gut-forum-2025-6g-takes-shape"
+  },
+  {
+   "from": "stefan-parkvall",
+   "to": "ut-austin",
+   "type": "Event participation",
+   "label": "Keynote, 6G@UT Forum 2025",
+   "source": "https://wncg.org/news/6gut-forum-2025-6g-takes-shape"
+  },
+  {
+   "from": "charlie-zhang",
+   "to": "nga",
+   "type": "Role",
+   "label": "Vice Chair, Full Member Group",
+   "source": "https://research.samsung.com/news/Samsung-s-Leadership-in-Next-Generation-Communications-and-AI"
+  },
+  {
+   "from": "nga",
+   "to": "6g-forum-korea",
+   "type": "Partnership / project",
+   "label": "Joint workshop",
+   "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/wanshi-chen/"
   }
  ]
 }
