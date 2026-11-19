@@ -5549,6 +5549,24 @@
    "sources": [
     "https://www.rcrwireless.com/20230705/featured/india-announces-alliance-foster-6g-development"
    ]
+  },
+  {
+   "id": "younghan-nam",
+   "name": "Younghan Nam",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director, Standards and Mobility Innovation Team, Samsung Research America",
+   "org": "samsung",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Senior Director in Samsung Research America's Standards and Mobility Innovation Team, where he leads 6G cellular system research. Earlier led 3GPP RAN1 work on mmWave, massive MIMO and 5G channel modelling. Works in Charlie Zhang's team. Speaker at the Next G Alliance and 6G Forum Korea joint workshop.",
+   "sources": [
+    "https://6gworld.com/?p=28207",
+    "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/younghan-nam/"
+   ]
   }
  ],
  "edges": [
@@ -9184,6 +9202,20 @@
    "type": "Partnership / project",
    "label": "Joint workshop",
    "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/wanshi-chen/"
+  },
+  {
+   "from": "younghan-nam",
+   "to": "samsung",
+   "type": "Role",
+   "label": "Senior Director, Standards and Mobility Innovation Team, Samsung Research America",
+   "source": "https://6gworld.com/?p=28207"
+  },
+  {
+   "from": "younghan-nam",
+   "to": "nga",
+   "type": "Event participation",
+   "label": "Speaker, Next G Alliance and 6G Forum Korea joint workshop",
+   "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/younghan-nam/"
   }
  ]
 }
