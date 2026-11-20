@@ -6127,6 +6127,61 @@
    "sources": [
     "https://ofinno.com/our-team/tiep-hoang/"
    ]
+  },
+  {
+   "id": "aloizio-da-silva",
+   "name": "Aloizio P. Da Silva",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Director, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Director of the CCI xG Testbed in Arlington since 2020, leading a team of faculty, postdocs, graduate research assistants and interns. Works on wireless networking (NFV, SDN, SDR), radio access and core networks, and large-scale testbed experimentation. Also research faculty in Virginia Tech's Bradley Department of ECE. Previously with the NSF PAWR programme. Not related to CCI executive director Luiz DaSilva.",
+   "sources": [
+    "https://cyberinitiative.org/people/faculty/aloizio-pereira-da-silva.html",
+    "https://ccixgtestbed.org/cci-xg-testbed-team.html",
+    "https://news.vt.edu/content/news_vt_edu/en/articles/2020/11/commonwealth-cyber-initiative-5g-testbed-advances-research.html"
+   ]
+  },
+  {
+   "id": "joao-santos",
+   "name": "Joao Santos",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Research Assistant Professor; 5G Testbed and AI Assurance Researcher, CCI",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "CCI research assistant professor working on radio resource management, radio virtualisation, network slicing, network security and end-to-end orchestration. PI on an NSF CISE CORE grant (about $553k, three years) on natively resilient 6G networks.",
+   "sources": [
+    "https://cyberinitiative.org/people/faculty/joao-santos.html",
+    "https://cyberinitiative.org/cci-news/2024-news/cci-researcher-gets-nsf-grant-to-strengthen-6g.html"
+   ]
+  },
+  {
+   "id": "sayanta-seth",
+   "name": "Sayanta Seth",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Postdoctoral Associate, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Postdoctoral associate on the CCI xG Testbed working on O-RAN, digital twins, AI-native wireless, FR3/mmWave spectrum coexistence, 6G and cislunar communications, plus commercial O-RAN interoperability and security testing. Formerly a postdoc at NC State's NextG Wireless Lab. PhD, University of Central Florida.",
+   "sources": [
+    "https://cyberinitiative.org/research/researcher-directory/seth-sayanta.html",
+    "https://ccixgtestbed.org/cci-xg-testbed-team.html"
+   ]
   }
  ],
  "edges": [
@@ -10042,6 +10097,55 @@
    "type": "Role",
    "label": "Patent Engineer",
    "source": "https://ofinno.com/our-team/tiep-hoang/"
+  },
+  {
+   "from": "aloizio-da-silva",
+   "to": "cci",
+   "type": "Role",
+   "label": "Director, xG Testbed",
+   "source": "https://ccixgtestbed.org/cci-xg-testbed-team.html"
+  },
+  {
+   "from": "joao-santos",
+   "to": "cci",
+   "type": "Role",
+   "label": "Research assistant professor; xG Testbed associate research faculty",
+   "source": "https://cyberinitiative.org/people/faculty/joao-santos.html"
+  },
+  {
+   "from": "sayanta-seth",
+   "to": "cci",
+   "type": "Role",
+   "label": "Postdoctoral associate, xG Testbed",
+   "source": "https://cyberinitiative.org/research/researcher-directory/seth-sayanta.html"
+  },
+  {
+   "from": "nsf",
+   "to": "joao-santos",
+   "type": "Funding",
+   "label": "CISE CORE grant: natively resilient 6G networks ($552,893, 3 years)",
+   "source": "https://cyberinitiative.org/cci-news/2024-news/cci-researcher-gets-nsf-grant-to-strengthen-6g.html"
+  },
+  {
+   "from": "verizon",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "OTIC co-host and xG Testbed partner",
+   "source": "https://ccixgtestbed.org/cci-designated-as-otic.html"
+  },
+  {
+   "from": "att",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "OTIC co-host",
+   "source": "https://ccixgtestbed.org/cci-designated-as-otic.html"
+  },
+  {
+   "from": "softbank",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "xG Testbed partner",
+   "source": "https://cyberinitiative.org/cci-xg-testbed.html"
   }
  ]
 }
