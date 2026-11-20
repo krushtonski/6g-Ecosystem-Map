@@ -5691,6 +5691,23 @@
     "https://6g.ucsd.edu/node/45",
     "https://vadiodes.com/en/resources/videos"
    ]
+  },
+  {
+   "id": "nishith-tripathi",
+   "name": "Nishith D. Tripathi",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Associate Professor, ECE, Virginia Tech",
+   "org": "wireless-vt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Research associate professor in electrical and computer engineering at Virginia Tech. Principal investigator, with Jeff Reed as co-PI, on 'Securing Non-Terrestrial Networks in NextG', a 2021 Commonwealth Cyber Initiative project on security risks in satellite and air-to-ground networks for 6G.",
+   "sources": [
+    "https://cyberinitiative.org/research/funded-projects/2021-funded-projects/2021-securing-nextg/non-terrestrial-networks.html"
+   ]
   }
  ],
  "edges": [
@@ -9424,6 +9441,27 @@
    "type": "Partnership / project",
    "label": "SpectrumX partner institution",
    "source": "https://spectrumx.org/about/partner-institution-map"
+  },
+  {
+   "from": "nishith-tripathi",
+   "to": "wireless-vt",
+   "type": "Role",
+   "label": "Research Associate Professor, ECE, Virginia Tech",
+   "source": "https://cyberinitiative.org/research/funded-projects/2021-funded-projects/2021-securing-nextg/non-terrestrial-networks.html"
+  },
+  {
+   "from": "nishith-tripathi",
+   "to": "jeff-reed",
+   "type": "Research together",
+   "label": "Securing Non-Terrestrial Networks in NextG (PI and co-PI, 2021)",
+   "source": "https://cyberinitiative.org/research/funded-projects/2021-funded-projects/2021-securing-nextg/non-terrestrial-networks.html"
+  },
+  {
+   "from": "cci",
+   "to": "nishith-tripathi",
+   "type": "Funding",
+   "label": "Securing NextG 2021 programme: Securing Non-Terrestrial Networks in NextG",
+   "source": "https://cyberinitiative.org/research/funded-projects/2021-funded-projects/2021-securing-nextg/non-terrestrial-networks.html"
   }
  ]
 }
