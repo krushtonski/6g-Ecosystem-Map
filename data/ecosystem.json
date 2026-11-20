@@ -5604,6 +5604,40 @@
     "https://www.telecomtv.com/content/6g-report-series-video/the-next-steps-towards-6g-networks-52951/",
     "https://reason-open-networks.ac.uk/?p=712"
    ]
+  },
+  {
+   "id": "christian-fager",
+   "name": "Christian Fager",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Microwave Electronics, Chalmers University of Technology",
+   "org": "chalmers",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Professor of Microwave Electronics at Chalmers and a project leader on the three-year Chalmers–Virginia Tech project on energy-efficient 6G radio, funded by the Swedish Research Council and NSF (VINES). Works on moving signal processing from the radio into the fibre network to cut energy losses.",
+   "sources": [
+    "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
+   ]
+  },
+  {
+   "id": "lars-svensson",
+   "name": "Lars Svensson",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor of VLSI Systems, Chalmers University of Technology",
+   "org": "chalmers",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Associate Professor of VLSI Systems at Chalmers, on the three-year Chalmers–Virginia Tech project on energy-efficient 6G radio funded by the Swedish Research Council and NSF (VINES).",
+   "sources": [
+    "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
+   ]
   }
  ],
  "edges": [
@@ -9274,6 +9308,41 @@
    "type": "Partnership / project",
    "label": "Named on REASON project page",
    "source": "https://reason-open-networks.ac.uk/?p=712"
+  },
+  {
+   "from": "christian-fager",
+   "to": "chalmers",
+   "type": "Role",
+   "label": "Professor of Microwave Electronics, Chalmers University of Technology",
+   "source": "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
+  },
+  {
+   "from": "lars-svensson",
+   "to": "chalmers",
+   "type": "Role",
+   "label": "Associate Professor of VLSI Systems, Chalmers University of Technology",
+   "source": "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
+  },
+  {
+   "from": "christian-fager",
+   "to": "cindy-yi",
+   "type": "Research together",
+   "label": "Chalmers–Virginia Tech energy-efficient 6G project (VR / NSF VINES)",
+   "source": "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
+  },
+  {
+   "from": "liu",
+   "to": "chalmers",
+   "type": "Research together",
+   "label": "Chalmers–Virginia Tech energy-efficient 6G project (VR / NSF VINES)",
+   "source": "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
+  },
+  {
+   "from": "nsf",
+   "to": "cindy-yi",
+   "type": "Funding",
+   "label": "NSF VINES funding for the Virginia Tech side of the Chalmers project (Swedish Research Council funds Chalmers)",
+   "source": "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
   }
  ]
 }
