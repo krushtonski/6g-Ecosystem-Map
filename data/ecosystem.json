@@ -5727,6 +5727,79 @@
     "https://job-boards.greenhouse.io/analyticservicesinc/jobs/4954814008",
     "https://littlesis.org/org/335665-Anser_Institute_for_Homeland_Security"
    ]
+  },
+  {
+   "short": "DoW CIO",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "The Pentagon, Arlington, VA",
+   "lat": 38.8719,
+   "lng": -77.0563,
+   "precision": "Street address",
+   "id": "dow-cio",
+   "name": "Department of War Office of the CIO",
+   "category": "Government & funders",
+   "website": "https://dowcio.war.gov/",
+   "description": "Office of the Department of War (Defense Department) Chief Information Officer, principal adviser to the Secretary of War on IT, cybersecurity, communications and spectrum. Leads the DoW 5G/6G enterprise strategy and 5G reference architecture for military installations; oversees DISA.",
+   "sources": [
+    "https://dodcio.defense.gov/About-DoW-CIO",
+    "https://www.anser.org/careers/job/?id=5386272008"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "Chief Information Officer, Department of War",
+   "org": "dow-cio",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "kirsten-davies",
+   "name": "Kirsten Davies",
+   "category": "Person",
+   "description": "Department of War CIO, sworn in on 23 December 2025 after Senate confirmation. Principal adviser to the Secretary of War on IT, cybersecurity and information assurance; oversees DISA. Her office runs the DoW 5G/6G enterprise strategy. Previously CISO at Unilever.",
+   "sources": [
+    "https://dodcio.defense.gov/About-DoW-CIO/Bios/Davies/",
+    "https://www.nextgov.com/people/2026/01/kirsten-davies-sworn-pentagon-cio/410454"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "1950 Opportunity Way, Suite 1200, Reston, VA 20190",
+   "lat": 38.9576,
+   "lng": -77.36,
+   "precision": "Street address",
+   "id": "ofinno",
+   "name": "Ofinno",
+   "category": "Equipment & tech vendors",
+   "website": "https://ofinno.com/",
+   "description": "Research and development lab that invents and patents wireless and video technologies for 5G/6G, next-gen Wi-Fi (IEEE 802.11) and video compression standards. Founded in 2011 by Esmael Dinan. Named a LexisNexis Top 100 Global Innovator for the fifth year running in 2026.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ofinno",
+    "https://ofinno.com/?p=7549"
+   ]
+  },
+  {
+   "short": "",
+   "region": "Northern Virginia",
+   "role": "CEO, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "id": "kavon-nasabzadeh",
+   "name": "Kavon Nasabzadeh",
+   "category": "Person",
+   "description": "CEO of Ofinno, the Reston R&D and patent lab working on 5G/6G, next-gen Wi-Fi and media compression standards.",
+   "sources": [
+    "https://ofinno.com/?p=7549"
+   ]
   }
  ],
  "edges": [
@@ -9481,6 +9554,34 @@
    "type": "Funding",
    "label": "Securing NextG 2021 programme: Securing Non-Terrestrial Networks in NextG",
    "source": "https://cyberinitiative.org/research/funded-projects/2021-funded-projects/2021-securing-nextg/non-terrestrial-networks.html"
+  },
+  {
+   "from": "kirsten-davies",
+   "to": "dow-cio",
+   "type": "Role",
+   "label": "Chief Information Officer",
+   "source": "https://dodcio.defense.gov/About-DoW-CIO/Bios/Davies/"
+  },
+  {
+   "from": "anser",
+   "to": "dow-cio",
+   "type": "Contract or award",
+   "label": "Supports DoW CIO 5G/6G enterprise strategy (hiring 5G/6G Subject Matter Expert, Alexandria)",
+   "source": "https://www.anser.org/careers/job/?id=5386272008"
+  },
+  {
+   "from": "kavon-nasabzadeh",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://ofinno.com/?p=7549"
+  },
+  {
+   "from": "ofinno",
+   "to": "samsung",
+   "type": "Contract or award",
+   "label": "Sold 40 US wireless patents and 31 applications to Samsung (Nov 2020)",
+   "source": "https://en.wikipedia.org/wiki/Ofinno"
   }
  ]
 }
