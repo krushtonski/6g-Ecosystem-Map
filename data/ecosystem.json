@@ -630,23 +630,6 @@
    "website": "https://www.deepsig.ai/"
   },
   {
-   "id": "federated",
-   "name": "Federated Wireless",
-   "short": "",
-   "category": "Equipment & tech vendors",
-   "region": "Northern Virginia",
-   "description": "Arlington-based CBRS and private wireless provider. Partner of JBG SMITH on private wireless across National Landing and Alexandria.",
-   "role": "",
-   "org": null,
-   "address": "Arlington, VA",
-   "lat": 38.88,
-   "lng": -77.1068,
-   "precision": "City",
-   "sources": [
-    "https://www.citybiz.co/article/324238/jbg-smith-and-federated-wireless-announce-an-innovative-private-wireless-partnership/"
-   ]
-  },
-  {
    "id": "comsovereign",
    "name": "COMSovereign",
    "short": "",
@@ -906,7 +889,7 @@
    "short": "",
    "category": "Associations & alliances",
    "region": "Washington DC & Maryland",
-   "description": "Consortium of roughly 300–400 companies and universities (sources vary) holding the DoD's $2.5B Spectrum Forward OTA. Runs the FutureG RAPID ISAC prototype awards and the Advanced Spectrum Coexistence demonstration with the Pentagon. Operates mainly in Washington, DC.",
+   "description": "Consortium of 350+ companies, universities and non-profits that runs the Pentagon's Spectrum Forward OTA contracting vehicle for next-generation wireless and 6G prototypes, in partnership with the DoW FutureG Office. Led by CEO Joe Kochan, Chair Salvador D'Itri and Chief Program Officer Mari Silbey. In Nov 2026 it announced 11 RAPID ISAC awards worth over $50M; it also backs the OCUDU open-source RAN project.",
    "role": "",
    "org": null,
    "address": "Washington, DC (administrative address historically Summerville, SC)",
@@ -915,7 +898,9 @@
    "precision": "City",
    "sources": [
     "https://www.ati.org/success-stories/nsc-develops-working-groups-to-focus-on-spectrum-and-5g/",
-    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
+    "https://www.financialcontent.com/article/bizwire-2026-11-3-nsc-announces-more-than-50-million-in-isac-awards-funded-by-the-dow-futureg-office",
+    "https://www.fedinsider.com/nextgen-cellular-networks/"
    ],
    "website": "https://www.nationalspectrumconsortium.org/"
   },
@@ -6407,6 +6392,256 @@
    "sources": [
     "https://cyberinitiative.org/cci-news/news-archive/cci-xg-testbed-wisig-networks.html"
    ]
+  },
+  {
+   "id": "abside",
+   "name": "Abside Networks",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "36 Knox Trail, Acton, MA 01720",
+   "lat": 42.4697,
+   "lng": -71.4553,
+   "precision": "Street address",
+   "description": "US designer and manufacturer of 4G/5G and O-RAN radio systems, including massive MIMO units and private 5G SA systems for federal spectrum (n79). xG Testbed partner at CCI and a RAPID ISAC awardee with Northeastern University.",
+   "sources": [
+    "https://www.cbinsights.com/company/abside-networks",
+    "https://cyberinitiative.org/cci-xg-testbed.html",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "altio",
+   "name": "Altio Labs",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Frisco, TX",
+   "lat": 33.1507,
+   "lng": -96.8236,
+   "precision": "City",
+   "description": "R&D firm adapting 3GPP cellular technology for DoD uses: telemetry, positioning and sensing. RAPID ISAC awardee with Arizona State, DASH Tech IC and Mississippi State.",
+   "sources": [
+    "https://govtribe.com/vendors/altio-labs-llc-9lty3",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "asu",
+   "name": "Arizona State University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Tempe, AZ",
+   "lat": 33.4242,
+   "lng": -111.9281,
+   "precision": "Campus",
+   "description": "Public research university. RAPID ISAC team member with Altio Labs, DASH Tech IC and Mississippi State.",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "dash-tech",
+   "name": "DASH Tech Integrated Circuits",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Phoenix, AZ",
+   "lat": 33.4484,
+   "lng": -112.074,
+   "precision": "City",
+   "description": "SoC design firm spun out of Arizona State and the University of Michigan in 2021. Builds domain-adaptive processors for RF sensing and communications at the edge, for commercial and DoD use. RAPID ISAC team member.",
+   "sources": [
+    "https://craft.co/dash-tech-integrated-circuits",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "msstate",
+   "name": "Mississippi State University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Starkville, MS",
+   "lat": 33.4552,
+   "lng": -88.7944,
+   "precision": "Campus",
+   "description": "Public research university. On two RAPID ISAC teams: with Altio Labs, ASU and DASH Tech IC, and on the INSPIRED ISAC platform with NC State and the University of Utah.",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "michigan-state",
+   "name": "Michigan State University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "East Lansing, MI",
+   "lat": 42.7018,
+   "lng": -84.4822,
+   "precision": "Campus",
+   "description": "Public research university. RAPID ISAC awardee with George Mason University; also leads an NTIA-funded AI-driven O-RAN testing project with GMU.",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
+    "https://volgenau.sitemasonry.gmu.edu/news/2023-12/mason-faculty-part-17-million-ntia-wireless-innovation-fund-project-using-ai-test-o"
+   ]
+  },
+  {
+   "id": "leidos",
+   "name": "Leidos",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "1750 Presidents Street, Reston, VA 20190",
+   "lat": 38.9593,
+   "lng": -77.3577,
+   "precision": "Street address",
+   "description": "Defence, IT and science integrator. RAPID ISAC awardee with Tiami Networks.",
+   "sources": [
+    "https://www.executivegov.com/articles/dow-futureg-isac-rapid-prototype-awards",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ],
+   "website": "https://www.leidos.com/"
+  },
+  {
+   "id": "utah",
+   "name": "University of Utah",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Salt Lake City, UT",
+   "lat": 40.7649,
+   "lng": -111.8421,
+   "precision": "Campus",
+   "description": "Public research university and home of the POWDER PAWR wireless testbed. On the RAPID INSPIRED ISAC platform team ($3M) with NC State and Mississippi State.",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "str",
+   "name": "System & Technology Research (STR)",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Woburn, MA",
+   "lat": 42.4793,
+   "lng": -71.1523,
+   "precision": "City",
+   "description": "Defence R&D company. RAPID ISAC awardee with Northeastern University.",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "tamu",
+   "name": "Texas A&M University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "College Station, TX",
+   "lat": 30.6187,
+   "lng": -96.3365,
+   "precision": "Campus",
+   "description": "Public research university. RAPID ISAC team member with UC San Diego, IBM and Northrop Grumman. Academic partner on the CCI xG Testbed project.",
+   "sources": [
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes",
+    "https://ccixgtestbed.org/work-opportunities-with-cci/blacksburg-based-ph-d--graduate-research-assistant.html"
+   ]
+  },
+  {
+   "id": "ibm",
+   "name": "IBM",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Armonk, NY",
+   "lat": 41.108,
+   "lng": -73.7203,
+   "precision": "City",
+   "description": "Technology company. RAPID ISAC team member with Texas A&M, UC San Diego and Northrop Grumman.",
+   "sources": [
+    "https://www.executivegov.com/articles/dow-futureg-isac-rapid-prototype-awards"
+   ],
+   "website": "https://www.ibm.com/"
+  },
+  {
+   "id": "andro",
+   "name": "ANDRO Computational Solutions",
+   "short": "",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "7980 Turin Rd, Rome, NY 13440",
+   "lat": 43.2283,
+   "lng": -75.4093,
+   "precision": "Street address",
+   "description": "Defence and commercial R&D firm working on software-defined waveforms, AI for RF spectrum sensing and wireless networking. RAPID ISAC team member with Parallel Wireless and Virginia Tech.",
+   "sources": [
+    "https://www.cbinsights.com/company/andro-computational-solutions",
+    "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ]
+  },
+  {
+   "id": "salvador-ditri",
+   "name": "Salvador D'Itri",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Chair, National Spectrum Consortium",
+   "org": "nsc",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Chair of the National Spectrum Consortium, which oversees a 350+ member ecosystem and the OTA contracting vehicle for DoW next-generation wireless prototypes. Long-time Federated Wireless executive (VP Federal) and former Wireless Innovation Forum board member. Previously chaired NSC 2019 to 2021.",
+   "sources": [
+    "https://fierce-network.com/tech/new-head-national-spectrum-consortium-sizes-sharing-open-ran",
+    "https://intelligencecommunitynews.com/lizy-paul-named-national-spectrum-consortium-chair/"
+   ]
+  },
+  {
+   "id": "david-kirkwood",
+   "name": "David Kirkwood",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "role": "Program Manager, OCUDU, FutureG Office, OUSW(R&E)",
+   "org": "futureg",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Program Manager for the FutureG Office's OCUDU programme. Building the public-private partnership behind OCUDU with the Linux Foundation and the National Spectrum Consortium, including the OCUDU Ecosystem Foundation (68+ members).",
+   "sources": [
+    "https://www.fedinsider.com/the-search-for-open-source-hardware/",
+    "https://innovate-defense.com/author/aaquiro/"
+   ]
   }
  ],
  "edges": [
@@ -7091,7 +7326,7 @@
   },
   {
    "from": "jbg",
-   "to": "federated",
+   "to": "federated-wireless",
    "type": "Partnership / project",
    "label": "CBRS private wireless across Arlington & Alexandria",
    "source": "https://www.citybiz.co/article/324238/jbg-smith-and-federated-wireless-announce-an-innovative-private-wireless-partnership/"
@@ -10469,6 +10704,188 @@
    "type": "Partnership / project",
    "label": "OTIC co-host (Dish has since shut its Open RAN network)",
    "source": "https://ccixgtestbed.org/cci-designated-as-otic.html"
+  },
+  {
+   "from": "abside",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award team with Northeastern University",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "northeastern",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member on two awards (with Abside Networks; with STR)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "altio",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award team with ASU, DASH Tech IC and Mississippi State",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "asu",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Altio Labs team)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "dash-tech",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Altio Labs team)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "msstate",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member on two awards (Altio Labs team; INSPIRED platform)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "ericsson",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award team with AT&T",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "gmu",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award team with Michigan State",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "michigan-state",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award team with George Mason",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "leidos",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award team with Tiami Networks",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "tiami",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Leidos team)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "ncsu",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "INSPIRED ISAC research platform ($3M, via PAWR) with Utah and Mississippi State",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "utah",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "INSPIRED ISAC research platform team member",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "str",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award team with Northeastern University",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "tamu",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Award team with UC San Diego, IBM and Northrop Grumman",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "ucsd",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Texas A&M team)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "ibm",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Texas A&M team)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "northrop",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Texas A&M team)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "andro",
+   "to": "rapid",
+   "type": "Contract or award",
+   "label": "Team member (Parallel Wireless team)",
+   "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+  },
+  {
+   "from": "david-kirkwood",
+   "to": "ocudu",
+   "type": "Partnership / project",
+   "label": "Program Manager, OCUDU (FutureG)",
+   "source": "https://innovate-defense.com/author/aaquiro/"
+  },
+  {
+   "from": "david-kirkwood",
+   "to": "nsc",
+   "type": "Partnership / project",
+   "label": "Works with NSC to transition 6G tech into dual-use systems via OCUDU",
+   "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
+  },
+  {
+   "from": "rondeau",
+   "to": "nsc",
+   "type": "Partnership / project",
+   "label": "Works with NSC to transition 6G tech into dual-use systems",
+   "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
+  },
+  {
+   "from": "abside",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "xG Testbed partner",
+   "source": "https://cyberinitiative.org/cci-xg-testbed.html"
+  },
+  {
+   "from": "tamu",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "Academic partner on the xG Testbed project",
+   "source": "https://ccixgtestbed.org/work-opportunities-with-cci/blacksburg-based-ph-d--graduate-research-assistant.html"
+  },
+  {
+   "from": "salvador-ditri",
+   "to": "nsc",
+   "type": "Role",
+   "label": "Chair",
+   "source": "https://fierce-network.com/tech/new-head-national-spectrum-consortium-sizes-sharing-open-ran"
+  },
+  {
+   "from": "david-kirkwood",
+   "to": "futureg",
+   "type": "Role",
+   "label": "Program Manager, OCUDU",
+   "source": "https://www.fedinsider.com/the-search-for-open-source-hardware/"
   }
  ]
 }
