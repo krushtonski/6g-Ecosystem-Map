@@ -5567,6 +5567,43 @@
     "https://6gworld.com/?p=28207",
     "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/younghan-nam/"
    ]
+  },
+  {
+   "id": "vodafone-group",
+   "name": "Vodafone Group",
+   "short": "Vodafone",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Newbury, Berkshire, UK",
+   "lat": 51.4014,
+   "lng": -1.3231,
+   "precision": "City",
+   "website": "https://www.vodafone.com/",
+   "description": "Global mobile operator. Its Group R&D team, led by Luke Ibbetson, shapes Vodafone's thinking on 6G, non-terrestrial networks and quantum. Separate from VodafoneThree, its UK joint venture.",
+   "sources": [
+    "https://www.vodafone.com/news/newsroom/technology/the-inventors-of-vodafone-a-licence-to-disrupt"
+   ]
+  },
+  {
+   "id": "luke-ibbetson",
+   "name": "Luke Ibbetson",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Group R&D, Vodafone Group; Board Director, NGMN",
+   "org": "vodafone-group",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Head of Group R&D at Vodafone, with the company since 1996. Shapes Vodafone's thinking on 6G, non-terrestrial networks and quantum; pioneer of NB-IoT. Board director of the NGMN Alliance. Argues operators should deploy 6G when the technology is mature and in step with network refresh cycles. Named on the UK REASON project.",
+   "sources": [
+    "https://www.etsi.org/speakers/luke-ibbetson/",
+    "https://www.telecomtv.com/content/6g-report-series-video/the-next-steps-towards-6g-networks-52951/",
+    "https://reason-open-networks.ac.uk/?p=712"
+   ]
   }
  ],
  "edges": [
@@ -9216,6 +9253,27 @@
    "type": "Event participation",
    "label": "Speaker, Next G Alliance and 6G Forum Korea joint workshop",
    "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/younghan-nam/"
+  },
+  {
+   "from": "luke-ibbetson",
+   "to": "vodafone-group",
+   "type": "Role",
+   "label": "Head of Group R&D",
+   "source": "https://www.etsi.org/speakers/luke-ibbetson/"
+  },
+  {
+   "from": "luke-ibbetson",
+   "to": "ngmn",
+   "type": "Role",
+   "label": "Board Director",
+   "source": "https://www.telecomtv.com/content/6g-report-series-video/the-next-steps-towards-6g-networks-52951/"
+  },
+  {
+   "from": "luke-ibbetson",
+   "to": "reason",
+   "type": "Partnership / project",
+   "label": "Named on REASON project page",
+   "source": "https://reason-open-networks.ac.uk/?p=712"
   }
  ]
 }
