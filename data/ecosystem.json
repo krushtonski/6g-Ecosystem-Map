@@ -5708,6 +5708,25 @@
    "sources": [
     "https://cyberinitiative.org/research/funded-projects/2021-funded-projects/2021-securing-nextg/non-terrestrial-networks.html"
    ]
+  },
+  {
+   "id": "anser",
+   "name": "ANSER (Analytic Services Inc.)",
+   "short": "ANSER",
+   "category": "Defence & integrators",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "Alexandria, VA",
+   "lat": 38.8048,
+   "lng": -77.0469,
+   "precision": "City",
+   "website": "https://www.anser.org/",
+   "description": "Not-for-profit public-service research institute supporting national and homeland security through independent analysis and practical solutions. Founded in 1958 as an Air Force federal contract research centre. Has a wireless communications policy practice covering 5G, ISAC, Open RAN, AI-RAN, spectrum management and satellite networking.",
+   "sources": [
+    "https://job-boards.greenhouse.io/analyticservicesinc/jobs/4954814008",
+    "https://littlesis.org/org/335665-Anser_Institute_for_Homeland_Security"
+   ]
   }
  ],
  "edges": [
