@@ -5872,6 +5872,261 @@
     "https://ofinno.com/our-technologies/6g-innovation-lab/",
     "https://ofinno.com/our-team/"
    ]
+  },
+  {
+   "id": "sechang-myung",
+   "name": "Sechang Myung",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "3GPP RAN1 researcher in Ofinno's 6G Innovation Lab, working on network energy saving, initial access, and high-frequency and unlicensed spectrum.",
+   "sources": [
+    "https://ofinno.com/our-team/"
+   ]
+  },
+  {
+   "id": "joanne-tsai",
+   "name": "Chiou-Wei (Joanne) Tsai",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Staff Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "3GPP RAN1 delegate and inventor in Ofinno's 6G Innovation Lab, working on 6G control channel design, scheduling and HARQ. RAN1 delegate since 2017; Feature Lead for Rel-20 6GR Bandwidth Operation. Formerly at MediaTek.",
+   "sources": [
+    "https://ofinno.com/our-team/chiou-wei-joanne-tsai/"
+   ]
+  },
+  {
+   "id": "umut-ugurlu",
+   "name": "Umut Ugurlu",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "3GPP delegate at Ofinno working on MIMO, beam management, HARQ, initial access, and integrated sensing and communications (ISAC).",
+   "sources": [
+    "https://ofinno.com/standards-readout/initial-access-at-ran1-malta-designing-the-first-few-milliseconds-of-a-6g-connection/"
+   ]
+  },
+  {
+   "id": "javad-abdoli",
+   "name": "Javad Abdoli",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Staff Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Inventor at Ofinno focused on the 6G air interface. Formerly a 3GPP RAN1 delegate at Huawei and Intel, and a systems engineer at Mavenir and Samsung Research America. Named on 45+ US patents. PhD, University of Waterloo.",
+   "sources": [
+    "https://ofinno.com/our-team/javad-abdoli/"
+   ]
+  },
+  {
+   "id": "jae-nam-shim",
+   "name": "Jae-Nam Shim",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Staff Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "3GPP RAN1 delegate at Ofinno working on 5G/6G wireless communications. Formerly in the standards division at LG Electronics.",
+   "sources": [
+    "https://ofinno.com/our-team/"
+   ]
+  },
+  {
+   "id": "hyunsu-cha",
+   "name": "Hyunsu Cha",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Staff Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Research engineer at Ofinno working on 6G initial access, MIMO, positioning, ISAC, Ambient IoT and AI/ML for wireless. 3GPP RAN1 delegate since 2017. Formerly senior staff engineer for 5G/6G research at Nokia Standards. PhD, Yonsei University.",
+   "sources": [
+    "https://ofinno.com/our-team/hyunsu-cha/"
+   ]
+  },
+  {
+   "id": "govind-gopal",
+   "name": "Govind Ravikumar Gopal",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Works on AI/ML for 5G/6G channel state information (CSI) in 3GPP RAN1 at Ofinno. Formerly led 6G radio research in Nokia's Technology Standards group.",
+   "sources": [
+    "https://ofinno.com/our-team/"
+   ]
+  },
+  {
+   "id": "jaehoon-chung",
+   "name": "Jaehoon Chung",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "3GPP Standards Engineer (RAN1), Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "3GPP RAN1 standards engineer at Ofinno working on AI/ML-based CSI compression, beam management and MIMO.",
+   "sources": [
+    "https://ofinno.com/standards-readout/3gpp-starts-defining-what-day-1-6g-will-actually-mean/"
+   ]
+  },
+  {
+   "id": "bighnaraj-panigrahi",
+   "name": "Bighnaraj Panigrahi",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Staff Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "5G-Advanced and 6G research and standardisation at Ofinno (3GPP RAN2). Formerly at Nokia and TCS.",
+   "sources": [
+    "https://ofinno.com/our-team/"
+   ]
+  },
+  {
+   "id": "henry-chin",
+   "name": "Heng-Li (Henry) Chin",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Layer 2 protocol specialist and inventor at Ofinno (3GPP RAN2), with 90+ patents. Formerly at MediaTek.",
+   "sources": [
+    "https://ofinno.com/our-team/"
+   ]
+  },
+  {
+   "id": "joondoo-kim",
+   "name": "Joondoo Kim",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Staff Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "6G standards research engineer at Ofinno focused on 3GPP RAN2 user plane. Spent 14 years at Samsung Electronics as a network system architect on MAC scheduling for 4G/5G base stations. PhD, Yonsei University.",
+   "sources": [
+    "https://ofinno.com/our-team/joondoo-kim/"
+   ]
+  },
+  {
+   "id": "gyeongcheol-lee",
+   "name": "GyeongCheol Lee",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Staff Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Specialist in 3GPP RAN2 user plane protocols at Ofinno, with 10+ years on LTE, NR and 6G. Formerly RAN2 UP Manager at LG Electronics.",
+   "sources": [
+    "https://ofinno.com/our-team/gyeongcheol-lee/"
+   ]
+  },
+  {
+   "id": "marta-martinez-tarradell",
+   "name": "Marta Martinez Tarradell",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Principal Engineer, 3GPP Standards, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "3GPP RAN2 delegate at Ofinno working on 4G/5G/6G wireless standardisation.",
+   "sources": [
+    "https://ofinno.com/standards-readout/3gpp-starts-defining-what-day-1-6g-will-actually-mean/"
+   ]
+  },
+  {
+   "id": "jaewook-lee",
+   "name": "Jaewook Lee",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Staff Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "3GPP RAN2 contributor at Ofinno, in RAN2 since 2009. Previously worked on LTE and NR standards at LG Electronics and on network systemisation at Ericsson LG.",
+   "sources": [
+    "https://ofinno.com/our-team/jaewook-lee/"
+   ]
+  },
+  {
+   "id": "tiep-hoang",
+   "name": "Tiep Hoang",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Patent Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Patent engineer at Ofinno with a research background in physical layer security, reconfigurable intelligent surfaces (RIS) and AI/ML optimisation for wireless. Postdoc at RIT, CU Denver and Southampton. PhD, Queen's University Belfast.",
+   "sources": [
+    "https://ofinno.com/our-team/tiep-hoang/"
+   ]
   }
  ],
  "edges": [
@@ -9682,6 +9937,111 @@
    "type": "Role",
    "label": "Senior Manager",
    "source": "https://ofinno.com/our-technologies/6g-innovation-lab/"
+  },
+  {
+   "from": "sechang-myung",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Engineer (RAN1), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/"
+  },
+  {
+   "from": "joanne-tsai",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Staff Engineer (RAN1), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/chiou-wei-joanne-tsai/"
+  },
+  {
+   "from": "umut-ugurlu",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Engineer (RAN1), 6G Innovation Lab",
+   "source": "https://ofinno.com/standards-readout/initial-access-at-ran1-malta-designing-the-first-few-milliseconds-of-a-6g-connection/"
+  },
+  {
+   "from": "javad-abdoli",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Staff Engineer (RAN1), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/javad-abdoli/"
+  },
+  {
+   "from": "jae-nam-shim",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Staff Engineer (RAN1), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/"
+  },
+  {
+   "from": "hyunsu-cha",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Staff Engineer (RAN1), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/hyunsu-cha/"
+  },
+  {
+   "from": "govind-gopal",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Engineer (RAN1, AI/ML CSI), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/"
+  },
+  {
+   "from": "jaehoon-chung",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "3GPP Standards Engineer (RAN1) (RAN1, AI/ML CSI), 6G Innovation Lab",
+   "source": "https://ofinno.com/standards-readout/3gpp-starts-defining-what-day-1-6g-will-actually-mean/"
+  },
+  {
+   "from": "bighnaraj-panigrahi",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Staff Engineer (RAN2), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/"
+  },
+  {
+   "from": "henry-chin",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Engineer (RAN2), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/"
+  },
+  {
+   "from": "joondoo-kim",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Staff Engineer (RAN2), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/joondoo-kim/"
+  },
+  {
+   "from": "gyeongcheol-lee",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Staff Engineer (RAN2), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/gyeongcheol-lee/"
+  },
+  {
+   "from": "marta-martinez-tarradell",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Principal Engineer, 3GPP Standards (RAN2), 6G Innovation Lab",
+   "source": "https://ofinno.com/standards-readout/3gpp-starts-defining-what-day-1-6g-will-actually-mean/"
+  },
+  {
+   "from": "jaewook-lee",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Staff Engineer (RAN2), 6G Innovation Lab",
+   "source": "https://ofinno.com/our-team/jaewook-lee/"
+  },
+  {
+   "from": "tiep-hoang",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Patent Engineer",
+   "source": "https://ofinno.com/our-team/tiep-hoang/"
   }
  ]
 }
