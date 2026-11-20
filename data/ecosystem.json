@@ -6642,6 +6642,44 @@
     "https://www.fedinsider.com/the-search-for-open-source-hardware/",
     "https://innovate-defense.com/author/aaquiro/"
    ]
+  },
+  {
+   "id": "deutsche-telekom",
+   "name": "Deutsche Telekom",
+   "short": "DT",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Friedrich-Ebert-Allee 140, 53113 Bonn, Germany",
+   "lat": 50.7105,
+   "lng": 7.1305,
+   "precision": "Street address",
+   "website": "https://www.telekom.com/",
+   "description": "German telecoms group and majority owner of T-Mobile US. Its Group Technology unit runs network strategy, architecture, standardisation and patents, and is steering the group towards AI-native networks and 6G. Long-standing NGMN Alliance board member.",
+   "sources": [
+    "https://networkxevent.com/speakers/arash-ashouriha/",
+    "https://www.ngmn.org/board.html"
+   ]
+  },
+  {
+   "id": "arash-ashouriha",
+   "name": "Arash Ashouriha",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "SVP Group Technology, Deutsche Telekom",
+   "org": "deutsche-telekom",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Group Technology at Deutsche Telekom: technology strategy, network evolution, architecture, standardisation, patents and innovation, including the move to AI-native networks and 6G. Previously headed Group Technology Architecture & Innovation, steering DT's 5G work. Chaired the NGMN Alliance Board 2020 to 2025. Joined DT in 2016 after 15 years at Vodafone Group, latterly Chief Network Officer for Germany & Central Europe.",
+   "sources": [
+    "https://networkxevent.com/speakers/arash-ashouriha/",
+    "https://www.ngmn.org/highlight/new-chairman-of-the-ngmn-alliance-board-2025.html",
+    "https://ngmn.org/board_member_interviews.html"
+   ]
   }
  ],
  "edges": [
@@ -10886,6 +10924,34 @@
    "type": "Role",
    "label": "Program Manager, OCUDU",
    "source": "https://www.fedinsider.com/the-search-for-open-source-hardware/"
+  },
+  {
+   "from": "arash-ashouriha",
+   "to": "deutsche-telekom",
+   "type": "Role",
+   "label": "SVP Group Technology",
+   "source": "https://networkxevent.com/speakers/arash-ashouriha/"
+  },
+  {
+   "from": "arash-ashouriha",
+   "to": "ngmn",
+   "type": "Role",
+   "label": "Board member; Chairman of the NGMN Board 2020 to 2025",
+   "source": "https://www.ngmn.org/highlight/new-chairman-of-the-ngmn-alliance-board-2025.html"
+  },
+  {
+   "from": "deutsche-telekom",
+   "to": "ngmn",
+   "type": "Membership",
+   "label": "Board member operator",
+   "source": "https://ngmn.org/board_member_interviews.html"
+  },
+  {
+   "from": "deutsche-telekom",
+   "to": "tmobile",
+   "type": "Partnership / project",
+   "label": "Majority shareholder of T-Mobile US",
+   "source": "https://www.telekom.com/en/investor-relations"
   }
  ]
 }
