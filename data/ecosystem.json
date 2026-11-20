@@ -5778,10 +5778,11 @@
    "name": "Ofinno",
    "category": "Equipment & tech vendors",
    "website": "https://ofinno.com/",
-   "description": "Research and development lab that invents and patents wireless and video technologies for 5G/6G, next-gen Wi-Fi (IEEE 802.11) and video compression standards. Founded in 2011 by Esmael Dinan. Named a LexisNexis Top 100 Global Innovator for the fifth year running in 2026.",
+   "description": "Research and development lab that invents and patents wireless and video technologies for 5G/6G, next-gen Wi-Fi (IEEE 802.11) and video compression standards. Its 6G work sits in a dedicated 6G Innovation Lab in Reston, with 3GPP delegates mainly in RAN1 and RAN2. Founded in 2011 by Esmael Dinan. Named a LexisNexis Top 100 Global Innovator for the fifth year running in 2026.",
    "sources": [
     "https://en.wikipedia.org/wiki/Ofinno",
-    "https://ofinno.com/?p=7549"
+    "https://ofinno.com/?p=7549",
+    "https://ofinno.com/our-technologies/6g-innovation-lab/"
    ]
   },
   {
@@ -5799,6 +5800,77 @@
    "description": "CEO of Ofinno, the Reston R&D and patent lab working on 5G/6G, next-gen Wi-Fi and media compression standards.",
    "sources": [
     "https://ofinno.com/?p=7549"
+   ]
+  },
+  {
+   "id": "ali-cirik",
+   "name": "Ali Cagatay Cirik",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Technical Director, Senior Principal Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Technical Director for 5G and 6G at Ofinno's 6G Innovation Lab in Reston, at Ofinno since 2017. Works on 5G NR and MIMO signal processing. Previously at Sierra Wireless and a research fellow at the University of Oulu, Edinburgh and UBC. PhD, UC Riverside.",
+   "sources": [
+    "https://ofinno.com/our-technologies/6g-innovation-lab/",
+    "https://theorg.com/org/ofinno/org-chart/ali-cagatay-cirik"
+   ]
+  },
+  {
+   "id": "taehun-kim",
+   "name": "Taehun Kim",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Research Manager, Principal Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads research on 5G and 6G radio access network procedures at Ofinno. Formerly chief research engineer for standardisation at LG Electronics, a 3GPP CT1 and RAN2 delegate, and rapporteur for a V2X work item. PhD, KAIST; postdoc at UCLA.",
+   "sources": [
+    "https://ofinno.com/?p=6384",
+    "https://ofinno.com/?p=290264"
+   ]
+  },
+  {
+   "id": "yunjung-yi",
+   "name": "Yunjung Yi",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Manager, Senior Principal Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Researches radio access technologies for LTE, NR and 6G at Ofinno. 3GPP delegate since 2011, working on LTE MTC, NB-IoT, 5G control channel and initial access, URLLC, SBFD and power saving. PhD, UCLA.",
+   "sources": [
+    "https://ofinno.com/?p=6386"
+   ]
+  },
+  {
+   "id": "hyoungsuk-jeon",
+   "name": "HyoungSuk Jeon",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Senior Manager, Senior Principal Engineer, Ofinno",
+   "org": "ofinno",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Senior Manager and Senior Principal Engineer in Ofinno's 6G Innovation Lab, Reston.",
+   "sources": [
+    "https://ofinno.com/our-technologies/6g-innovation-lab/",
+    "https://ofinno.com/our-team/"
    ]
   }
  ],
@@ -9582,6 +9654,34 @@
    "type": "Contract or award",
    "label": "Sold 40 US wireless patents and 31 applications to Samsung (Nov 2020)",
    "source": "https://en.wikipedia.org/wiki/Ofinno"
+  },
+  {
+   "from": "ali-cirik",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Technical Director, 6G Innovation Lab",
+   "source": "https://ofinno.com/our-technologies/6g-innovation-lab/"
+  },
+  {
+   "from": "taehun-kim",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Research Manager",
+   "source": "https://ofinno.com/?p=6384"
+  },
+  {
+   "from": "yunjung-yi",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Manager",
+   "source": "https://ofinno.com/?p=6386"
+  },
+  {
+   "from": "hyoungsuk-jeon",
+   "to": "ofinno",
+   "type": "Role",
+   "label": "Senior Manager",
+   "source": "https://ofinno.com/our-technologies/6g-innovation-lab/"
   }
  ]
 }
