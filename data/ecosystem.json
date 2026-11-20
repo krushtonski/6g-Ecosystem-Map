@@ -5673,6 +5673,24 @@
    "sources": [
     "https://vadiodes.com/about-vdi/"
    ]
+  },
+  {
+   "id": "gerhard-schoenthal",
+   "name": "Gerhard Schoenthal",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Operating Officer, Virginia Diodes (VDI)",
+   "org": "vdi",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Chief Operating Officer of Virginia Diodes, with the company since 2004. Speaks on terahertz technology for 6G, including at the 2020 6G Symposium. Physics PhD from the University of Virginia; former US Navy officer and Intel process engineer.",
+   "sources": [
+    "https://6g.ucsd.edu/node/45",
+    "https://vadiodes.com/en/resources/videos"
+   ]
   }
  ],
  "edges": [
@@ -9392,6 +9410,20 @@
    "type": "Partnership / project",
    "label": "UVA spin-off (1996)",
    "source": "https://vadiodes.com/about-vdi/"
+  },
+  {
+   "from": "gerhard-schoenthal",
+   "to": "vdi",
+   "type": "Role",
+   "label": "Chief Operating Officer",
+   "source": "https://6g.ucsd.edu/node/45"
+  },
+  {
+   "from": "vdi",
+   "to": "spectrumx",
+   "type": "Partnership / project",
+   "label": "SpectrumX partner institution",
+   "source": "https://spectrumx.org/about/partner-institution-map"
   }
  ]
 }
