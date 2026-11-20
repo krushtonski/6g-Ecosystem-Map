@@ -5638,6 +5638,41 @@
    "sources": [
     "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
    ]
+  },
+  {
+   "id": "vdi",
+   "name": "Virginia Diodes (VDI)",
+   "short": "VDI",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "979 Second Street SE, Suite 309, Charlottesville, VA 22902",
+   "lat": 38.0277,
+   "lng": -78.48,
+   "precision": "Street address",
+   "website": "https://vadiodes.com/",
+   "description": "Makes millimetre-wave and terahertz test and measurement equipment and components (50 GHz to 2 THz), including network analyser, spectrum analyser and signal generator extension modules, built on in-house GaAs Schottky diodes. Relevant to sub-THz 6G research. Founded in 1996 as a University of Virginia spin-off; about 100 staff.",
+   "sources": [
+    "https://vadiodes.com/about-vdi/"
+   ]
+  },
+  {
+   "id": "thomas-crowe",
+   "name": "Thomas W. Crowe",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO and Founder, Virginia Diodes (VDI)",
+   "org": "vdi",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "CEO and founder of Virginia Diodes, the Charlottesville terahertz component and test equipment maker spun out of the University of Virginia in 1996.",
+   "sources": [
+    "https://vadiodes.com/about-vdi/"
+   ]
   }
  ],
  "edges": [
@@ -9343,6 +9378,20 @@
    "type": "Funding",
    "label": "NSF VINES funding for the Virginia Tech side of the Chalmers project (Swedish Research Council funds Chalmers)",
    "source": "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
+  },
+  {
+   "from": "thomas-crowe",
+   "to": "vdi",
+   "type": "Role",
+   "label": "CEO and Founder",
+   "source": "https://vadiodes.com/about-vdi/"
+  },
+  {
+   "from": "vdi",
+   "to": "uva",
+   "type": "Partnership / project",
+   "label": "UVA spin-off (1996)",
+   "source": "https://vadiodes.com/about-vdi/"
   }
  ]
 }
