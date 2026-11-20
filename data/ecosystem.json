@@ -6182,6 +6182,231 @@
     "https://cyberinitiative.org/research/researcher-directory/seth-sayanta.html",
     "https://ccixgtestbed.org/cci-xg-testbed-team.html"
    ]
+  },
+  {
+   "id": "wisig",
+   "name": "WiSig Networks",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Academic Block-C, IIT Hyderabad, Kandi, Sangareddy, Telangana 502285, India",
+   "lat": 17.5937,
+   "lng": 78.123,
+   "precision": "Campus",
+   "description": "Indian 5G and O-RAN equipment, software and services company (O-CU, O-DU, O-RU, SMO, massive MIMO radios), incubated at IIT Hyderabad and founded in 2016 by Prof Kiran Kuchi. Testing its O-RAN components at the CCI xG Testbed OTIC for global commercialisation.",
+   "sources": [
+    "https://cyberinitiative.org/cci-news/news-archive/cci-xg-testbed-wisig-networks.html",
+    "https://www.cbinsights.com/investor/wisig-networks"
+   ]
+  },
+  {
+   "id": "dish",
+   "name": "DISH Wireless (EchoStar)",
+   "short": "",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "9601 S Meridian Blvd, Englewood, CO 80112",
+   "lat": 39.5559,
+   "lng": -104.869,
+   "precision": "Street address",
+   "website": "https://www.echostar.com/",
+   "description": "EchoStar subsidiary that built the first US standalone Open RAN 5G network and co-hosted the North American O-RAN OTIC at CCI. After EchoStar sold spectrum to AT&T and SpaceX in 2025, Dish began decommissioning its Open RAN network; Dish Wireless filed for bankruptcy in 2026. Ran the NTIA-funded ORCID Open RAN test centre in Cheyenne, WY.",
+   "sources": [
+    "https://ccixgtestbed.org/cci-designated-as-otic.html",
+    "https://techblog.comsoc.org/2025/09/02/mulit-vendor-open-ran-stalls-as-echostar-dish-shuts-down-its-5g-network-leaving-mavenir-in-the-lurch/",
+    "https://www.sdxcentral.com/tags/dish/"
+   ]
+  },
+  {
+   "id": "jacek-kibilda",
+   "name": "Jacek Kibilda",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Research Associate Professor, CCI and Virginia Tech ECE",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Research associate professor at CCI and Virginia Tech's Bradley Department of ECE, and associate research faculty on the xG Testbed. Models and designs NextG mobile networks using stochastic geometry, AI and optimisation. Formerly a research fellow at CONNECT, Trinity College Dublin.",
+   "sources": [
+    "https://cyberinitiative.org/people/faculty/jacek-kibilda.html"
+   ]
+  },
+  {
+   "id": "madhura-adeppady",
+   "name": "Madhura Adeppady",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Postdoctoral Researcher, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Postdoctoral researcher on the CCI xG Testbed working on resource-efficient orchestration of microservices in edge computing, interference-aware placement and serverless systems.",
+   "sources": [
+    "https://ccixgtestbed.org/cci-xg-testbed-team.html"
+   ]
+  },
+  {
+   "id": "zeeshan-shah",
+   "name": "Zeeshan Shah",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Principal Engineer, Verizon 5G O-RAN Lab; resident engineer at CCI xG Testbed",
+   "org": "verizon",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Verizon principal engineer based at the CCI xG Testbed as a resident engineer, working on 5G O-RAN ACCoRD testing and integration.",
+   "sources": [
+    "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+   ]
+  },
+  {
+   "id": "habibur-rahman",
+   "name": "Md. Habibur Rahman",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "PhD student and graduate research assistant, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Virginia Tech electrical engineering PhD student and CCI graduate research assistant on the xG Testbed, working on machine learning for wireless networks and O-RAN.",
+   "sources": [
+    "https://ccixgtestbed.org/cci-xg-testbed-team.html"
+   ]
+  },
+  {
+   "id": "asheesh-tripathi",
+   "name": "Asheesh Tripathi",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "PhD student and graduate research assistant, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Virginia Tech PhD student and CCI graduate research assistant working on spectrum sharing, ML in wireless systems, O-RAN and the SDR-based CBRS testbed at Stroubles Creek. Co-author of the testbed's 2025 IEEE Communications Magazine paper.",
+   "sources": [
+    "https://ccixgtestbed.org/cci-xg-testbed-team.html"
+   ]
+  },
+  {
+   "id": "mahesha-vidurange",
+   "name": "Mahesha Vidurange",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "PhD student, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Doctoral student on the CCI xG Testbed working on O-RAN security and interoperability and AI/ML-based management.",
+   "sources": [
+    "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+   ]
+  },
+  {
+   "id": "ishtiaque-ahmed",
+   "name": "Ishtiaque Ahmed",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "PhD student, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Doctoral student on the CCI xG Testbed working on cloud solutions for O-RAN and ACCoRD interoperability testing.",
+   "sources": [
+    "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+   ]
+  },
+  {
+   "id": "manikantha-rayudu",
+   "name": "Manikantha Rayudu",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "PhD student, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Doctoral student on the CCI xG Testbed working on federated learning for IoT, extending to O-RAN.",
+   "sources": [
+    "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+   ]
+  },
+  {
+   "id": "atif-ahmed",
+   "name": "Atif Ahmed",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Research Intern, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Research intern on the CCI xG Testbed working on O-RAN Open Fronthaul testing for ACCoRD.",
+   "sources": [
+    "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+   ]
+  },
+  {
+   "id": "harshit-doddi",
+   "name": "Harshit Sai Teja Doddi",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Master's Researcher / Intern, CCI xG Testbed",
+   "org": "cci",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Master's researcher and intern on the CCI xG Testbed admin team, handling network administration and management.",
+   "sources": [
+    "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+   ]
+  },
+  {
+   "id": "kiran-kuchi",
+   "name": "Kiran Kuchi",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Founder, WiSig Networks; Professor, IIT Hyderabad",
+   "org": "wisig",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Founder of WiSig Networks and professor of electrical engineering at IIT Hyderabad. Contributor to 3GPP 5G/6G standards and works with the Indian government on its 6G roadmap. Leading WiSig's O-RAN testing with the CCI xG Testbed.",
+   "sources": [
+    "https://cyberinitiative.org/cci-news/news-archive/cci-xg-testbed-wisig-networks.html"
+   ]
   }
  ],
  "edges": [
@@ -10146,6 +10371,104 @@
    "type": "Partnership / project",
    "label": "xG Testbed partner",
    "source": "https://cyberinitiative.org/cci-xg-testbed.html"
+  },
+  {
+   "from": "jacek-kibilda",
+   "to": "cci",
+   "type": "Role",
+   "label": "Associate research faculty, xG Testbed",
+   "source": "https://cyberinitiative.org/people/faculty/jacek-kibilda.html"
+  },
+  {
+   "from": "madhura-adeppady",
+   "to": "cci",
+   "type": "Role",
+   "label": "Postdoctoral researcher, xG Testbed",
+   "source": "https://ccixgtestbed.org/cci-xg-testbed-team.html"
+  },
+  {
+   "from": "zeeshan-shah",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Principal Engineer, 5G O-RAN Lab",
+   "source": "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+  },
+  {
+   "from": "habibur-rahman",
+   "to": "cci",
+   "type": "Role",
+   "label": "PhD student, xG Testbed",
+   "source": "https://ccixgtestbed.org/cci-xg-testbed-team.html"
+  },
+  {
+   "from": "asheesh-tripathi",
+   "to": "cci",
+   "type": "Role",
+   "label": "PhD student, xG Testbed",
+   "source": "https://ccixgtestbed.org/cci-xg-testbed-team.html"
+  },
+  {
+   "from": "mahesha-vidurange",
+   "to": "cci",
+   "type": "Role",
+   "label": "PhD student, xG Testbed",
+   "source": "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+  },
+  {
+   "from": "ishtiaque-ahmed",
+   "to": "cci",
+   "type": "Role",
+   "label": "PhD student, xG Testbed",
+   "source": "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+  },
+  {
+   "from": "manikantha-rayudu",
+   "to": "cci",
+   "type": "Role",
+   "label": "PhD student, xG Testbed",
+   "source": "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+  },
+  {
+   "from": "atif-ahmed",
+   "to": "cci",
+   "type": "Role",
+   "label": "Research intern, xG Testbed",
+   "source": "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+  },
+  {
+   "from": "harshit-doddi",
+   "to": "cci",
+   "type": "Role",
+   "label": "Master's researcher, xG Testbed",
+   "source": "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+  },
+  {
+   "from": "kiran-kuchi",
+   "to": "wisig",
+   "type": "Role",
+   "label": "Founder",
+   "source": "https://cyberinitiative.org/cci-news/news-archive/cci-xg-testbed-wisig-networks.html"
+  },
+  {
+   "from": "zeeshan-shah",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "Resident engineer at the xG Testbed",
+   "source": "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
+  },
+  {
+   "from": "wisig",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "Testing WiSig O-CU, O-DU, O-RU and SMO at the xG Testbed OTIC (from Oct 2024)",
+   "source": "https://cyberinitiative.org/cci-news/news-archive/cci-xg-testbed-wisig-networks.html"
+  },
+  {
+   "from": "dish",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "OTIC co-host (Dish has since shut its Open RAN network)",
+   "source": "https://ccixgtestbed.org/cci-designated-as-otic.html"
   }
  ]
 }
