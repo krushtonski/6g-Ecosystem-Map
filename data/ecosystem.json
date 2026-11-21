@@ -10501,6 +10501,448 @@
    "sources": [
     "https://www.softbank.jp/en/sbnews/entry/20260731_01"
    ]
+  },
+  {
+   "id": "nokia-bengaluru",
+   "name": "Nokia 6G Lab (Global R&D Center, Bengaluru)",
+   "short": "Nokia 6G Lab India",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Nokia Global R&D Center, Bengaluru, Karnataka, India",
+   "lat": 13.045,
+   "lng": 77.62,
+   "precision": "City",
+   "description": "Nokia's first 6G lab in India, opened October 2023 at its Bengaluru R&D centre. Researches Network as a Sensor, network exposure and automation. Runs joint 6G radio, architecture and AI/ML air-interface research with IISc (from 2024).",
+   "sources": [
+    "https://www.nokia.com/about-us/news/releases/2023/10/05/nokia-opens-6g-lab-in-india/",
+    "https://www.nokia.com/newsroom/nokia-and-indian-institute-of-science-form-strategic-partnership-to-research-how-6g-can-meet-indias-needs/"
+   ]
+  },
+  {
+   "id": "iisc",
+   "name": "Indian Institute of Science (IISc)",
+   "short": "IISc",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "IISc, CV Raman Road, Bengaluru, Karnataka, India",
+   "lat": 13.0219,
+   "lng": 77.5671,
+   "precision": "Campus",
+   "description": "Bengaluru research university. Strategic 6G research partner of Nokia (radio, architecture, ML for the air interface; Network as Sensor use cases for India). Hosts a C-DOT Centre of Excellence on 6G, AI, quantum and cybersecurity.",
+   "sources": [
+    "https://www.nokia.com/newsroom/nokia-and-indian-institute-of-science-form-strategic-partnership-to-research-how-6g-can-meet-indias-needs/",
+    "https://indiantelevision.com/?p=232763"
+   ]
+  },
+  {
+   "id": "ericsson-chennai",
+   "name": "Ericsson India 6G Research Team (Chennai)",
+   "short": "Ericsson India 6G",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Ericsson R&D Center, Chennai, Tamil Nadu, India",
+   "lat": 12.95,
+   "lng": 80.24,
+   "precision": "City",
+   "description": "Ericsson's India 6G programme, launched October 2023 at its Chennai R&D centre. Researchers in radio, networks, AI and cloud work with Ericsson Research in Sweden and the US. Partners with IIT Madras (Responsible AI), IIT Kharagpur (AI and distributed compute) and ISI Kolkata (cyber-physical systems).",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/2/2023/10/ericsson-initiates-india-6g-program-in-india",
+    "https://techblog.comsoc.org/2024/02/02/ericsson-and-iit-kharagpur-partner-for-joint-research-in-ai-and-6g/",
+    "https://www.rcrwireless.com/20240213/featured/ericsson-indian-statistical-institute-sign-joint-research-agreement"
+   ]
+  },
+  {
+   "id": "ericsson-bengaluru",
+   "name": "Ericsson Bengaluru R&D (ASIC and RAN software)",
+   "short": "Ericsson Bengaluru",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Ericsson R&D Center, Bengaluru, Karnataka, India",
+   "lat": 12.93,
+   "lng": 77.625,
+   "precision": "City",
+   "description": "Ericsson's Bengaluru R&D site. Added an ASIC development unit (June 2025, 150+ roles, Ericsson Silicon) and India's first Ericsson RAN software unit for 5G and 5G Advanced baseband (November 2025). Working with Volvo and Airtel on XR and digital twins at Volvo's Bengaluru R&D centre.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/2/2025/6/ericsson-strengthens-rd-in-india--to-commence-asic-development-in-bengaluru",
+    "https://www.ericsson.com/en/press-releases/7/2025/new-bengaluru-ericsson-rd-unit-to-drive-5g-software-development-in-india",
+    "https://pipelinepub.com/news/24042"
+   ]
+  },
+  {
+   "id": "tcoe-vtu",
+   "name": "TCOE-VTU Centre of Excellence for Quantum and 5G/6G (Bengaluru)",
+   "short": "TCOE-VTU CoE",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "VTU-VRIF, Bengaluru, Karnataka, India",
+   "lat": 12.955,
+   "lng": 77.58,
+   "precision": "City",
+   "description": "Centre of Excellence set up by Telecom Centre of Excellence (TCOE) India and VTU's Visvesvaraya Research and Innovation Foundation (MoU September 2024). Hub-and-spoke model across VTU's 228 colleges for quantum and associated 5G/6G research.",
+   "sources": [
+    "https://www.telecomtv.com/content/digital-platforms-services/india-to-establish-new-research-hub-for-quantum-tech-6g-51324/",
+    "https://www.lokmattimes.com/business/india-to-get-centre-of-excellence-in-quantum-and-6g-technologies/amp/"
+   ]
+  },
+  {
+   "id": "samsung-sri-b",
+   "name": "Samsung R&D Institute India-Bangalore (SRI-B)",
+   "short": "Samsung SRI-B",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Bengaluru, Karnataka, India",
+   "lat": 12.979,
+   "lng": 77.696,
+   "precision": "City",
+   "description": "Samsung's Bengaluru R&D institute. Its principal architect Rajavelsamy Rajadurai was elected chair of 3GPP SA WG3 (security) in 2025.",
+   "sources": [
+    "https://news.samsung.com/my/samsung-electronics-secures-two-leadership-positions-in-3gpp"
+   ]
+  },
+  {
+   "id": "iitm",
+   "name": "IIT Madras",
+   "short": "IIT Madras",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "IIT Madras, Chennai, Tamil Nadu, India",
+   "lat": 12.9916,
+   "lng": 80.2336,
+   "precision": "Campus",
+   "description": "Chennai institute at the centre of India's indigenous 5G testbed. Consortium member of the Bharat 6G terahertz testbed with SAMEER, which reached 6.39 Gbps (2026). Hosts a DoT Centre of Excellence on Classical and Quantum Communications for 6G (2024) and works with Ericsson on Responsible AI for 6G.",
+   "sources": [
+    "https://www.electronicsforu.com/news/india-advances-terahertz-wireless-for-6g",
+    "https://pib.gov.in/PressReleasePage.aspx?PRID=2034481",
+    "https://www.ericsson.com/en/press-releases/2/2023/10/ericsson-initiates-india-6g-program-in-india"
+   ]
+  },
+  {
+   "id": "sameer-kolkata",
+   "name": "SAMEER Kolkata",
+   "short": "SAMEER",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "SAMEER, Salt Lake, Kolkata, West Bengal, India",
+   "lat": 22.573,
+   "lng": 88.433,
+   "precision": "City",
+   "description": "Society for Applied Microwave Electronics Engineering and Research, an R&D body under MeitY. Leads India's 6G terahertz testbed (with orbital angular momentum multiplexing) with IIT Madras, IIT Guwahati and IIT Patna, funded by DoT's Telecom Technology Development Fund.",
+   "sources": [
+    "https://indianinfrastructure.com/2026/07/23/bharat-6g-alliance-expands-to-become-a-90-member-organisation-says-mos-for-communications-and-rural-development/",
+    "https://indiaeducationdiary.in/?p=421494"
+   ]
+  },
+  {
+   "id": "iit-guwahati",
+   "name": "IIT Guwahati",
+   "short": "IIT Guwahati",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "IIT Guwahati, Assam, India",
+   "lat": 26.1878,
+   "lng": 91.6916,
+   "precision": "Campus",
+   "description": "Consortium member of India's 6G terahertz testbed led by SAMEER.",
+   "sources": [
+    "https://indiaeducationdiary.in/?p=421494"
+   ]
+  },
+  {
+   "id": "iit-patna",
+   "name": "IIT Patna",
+   "short": "IIT Patna",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "IIT Patna, Bihta, Bihar, India",
+   "lat": 25.5358,
+   "lng": 84.8512,
+   "precision": "Campus",
+   "description": "Consortium member of India's 6G terahertz testbed led by SAMEER.",
+   "sources": [
+    "https://indiaeducationdiary.in/?p=421494"
+   ]
+  },
+  {
+   "id": "iit-kharagpur",
+   "name": "IIT Kharagpur",
+   "short": "IIT Kharagpur",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "IIT Kharagpur, West Bengal, India",
+   "lat": 22.3149,
+   "lng": 87.3105,
+   "precision": "Campus",
+   "description": "Long-term research partner of Ericsson on radio, AI and distributed compute for 6G (agreements signed February 2024 at the GS Sanyal School of Telecommunications).",
+   "sources": [
+    "https://techblog.comsoc.org/2024/02/02/ericsson-and-iit-kharagpur-partner-for-joint-research-in-ai-and-6g/",
+    "https://theprint.in/india/iit-kgp-ericsson-announce-cooperation-for-joint-research-in-ai-computer-tech/1952368"
+   ]
+  },
+  {
+   "id": "isi-kolkata",
+   "name": "Indian Statistical Institute (ISI), Kolkata",
+   "short": "ISI Kolkata",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "ISI, Baranagar, Kolkata, West Bengal, India",
+   "lat": 22.648,
+   "lng": 88.377,
+   "precision": "Campus",
+   "description": "Signed a three-year research MoU with Ericsson (February 2024) for a joint centre on sustainable and trustworthy cyber-physical systems for the AI and 6G era.",
+   "sources": [
+    "https://www.rcrwireless.com/20240213/featured/ericsson-indian-statistical-institute-sign-joint-research-agreement"
+   ]
+  },
+  {
+   "id": "dot-india",
+   "name": "DoT (India Department of Telecommunications)",
+   "short": "DoT India",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Sanchar Bhawan, New Delhi, India",
+   "lat": 28.6219,
+   "lng": 77.2085,
+   "precision": "City",
+   "description": "India's telecoms department. Launched the Bharat 6G Alliance (July 2023), funds 6G testbeds through the Telecom Technology Development Fund (Digital Bharat Nidhi) and published India's Spectrum Roadmap for 6G.",
+   "sources": [
+    "https://indianinfrastructure.com/2026/07/23/bharat-6g-alliance-expands-to-become-a-90-member-organisation-says-mos-for-communications-and-rural-development/",
+    "https://www.rcrwireless.com/20230705/6g/india-announces-alliance-foster-6g-development"
+   ]
+  },
+  {
+   "id": "cdot",
+   "name": "C-DOT (Centre for Development of Telematics)",
+   "short": "C-DOT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "C-DOT Campus, Mehrauli, New Delhi, India",
+   "lat": 28.5245,
+   "lng": 77.1855,
+   "precision": "City",
+   "description": "India's government telecoms R&D centre. Built India's indigenous 4G core and is being pushed to lead national 6G, AI, quantum and cybersecurity work. Set up a Centre of Excellence at IISc (2026).",
+   "sources": [
+    "https://www.newkerala.com/news/a/scindia-calls-c-dot-lead-indias-6g-push-take-921.htm",
+    "https://indiantelevision.com/?p=232763"
+   ]
+  },
+  {
+   "id": "tsdsi",
+   "name": "TSDSI (Telecommunications Standards Development Society, India)",
+   "short": "TSDSI",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "New Delhi, India",
+   "lat": 28.6139,
+   "lng": 77.209,
+   "precision": "City",
+   "description": "India's telecoms standards body and 3GPP organisational partner. Contributed to the ITU-R IMT-2030 framework; the Indian delegation added the Ubiquitous Connectivity usage scenario and the Coverage capability.",
+   "sources": [
+    "https://tsdsi.in/wp-content/uploads/2026/07/TSDSI-overview-July26.pdf",
+    "https://www.tejasnetworks.com/?p=31355"
+   ]
+  },
+  {
+   "id": "capgemini-india",
+   "name": "Capgemini 6G Research Lab (Gurugram)",
+   "short": "Capgemini 6G Lab",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Gurugram, Haryana, India",
+   "lat": 28.4595,
+   "lng": 77.0266,
+   "precision": "City",
+   "description": "Capgemini's 6G research lab, launched May 2023. Builds test beds and simulators for 6G use cases, AI algorithms for 6G wireless challenges and energy-saving solutions. Builds on Capgemini's 6G research with King's College London.",
+   "sources": [
+    "https://www.capgemini.com/gb-en/news/press-releases/strongcapgemini-launches-6g-research-lab-in-indiastrong/",
+    "https://www.capgemini.com/au-en/news/press-releases/capgemini-launches-6g-research-lab-in-india/"
+   ]
+  },
+  {
+   "id": "airtel",
+   "name": "Bharti Airtel",
+   "short": "Airtel",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "New Delhi, India",
+   "lat": 28.55,
+   "lng": 77.12,
+   "precision": "City",
+   "description": "Indian mobile operator. Working with Ericsson and Volvo on XR and digital twins at Volvo's Bengaluru R&D centre.",
+   "sources": [
+    "https://pipelinepub.com/news/24042"
+   ]
+  },
+  {
+   "id": "jio",
+   "name": "Reliance Jio",
+   "short": "Jio",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Navi Mumbai, Maharashtra, India",
+   "lat": 19.033,
+   "lng": 73.0297,
+   "precision": "City",
+   "description": "Indian mobile operator. Took part in DoT's 2026 technical discussion on AI-native 6G and quantum-secure networks.",
+   "sources": [
+    "https://www.cxodigitalpulse.com/?p=64312"
+   ]
+  },
+  {
+   "id": "govindan-rangarajan",
+   "name": "Govindan Rangarajan",
+   "short": "Govindan Rangarajan",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Indian Institute of Science",
+   "org": "iisc",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "IISc Director who signed the 2024 6G research partnership with Nokia.",
+   "sources": [
+    "https://www.nokia.com/newsroom/nokia-and-indian-institute-of-science-form-strategic-partnership-to-research-how-6g-can-meet-indias-needs/"
+   ]
+  },
+  {
+   "id": "nitin-bansal",
+   "name": "Nitin Bansal",
+   "short": "Nitin Bansal",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Managing Director, Ericsson India",
+   "org": "ericsson-chennai",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Ericsson India, including its India 6G programme and Bengaluru ASIC expansion.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/2/2025/6/ericsson-strengthens-rd-in-india--to-commence-asic-development-in-bengaluru",
+    "https://mobileworldlive.com/?p=394255"
+   ]
+  },
+  {
+   "id": "radha-krishna-ganti",
+   "name": "Radha Krishna Ganti",
+   "short": "Radha Krishna Ganti",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Faculty, Department of Electrical Engineering, IIT Madras",
+   "org": "iitm",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Lead IIT Madras investigator on the indigenous 5G testbed base station; IIT Madras team now works on 6G.",
+   "sources": [
+    "https://shaastramag.iitm.ac.in/lead-story/indias-tryst-5g",
+    "https://ctu.ieee.org/bios/l/radha-ganti/"
+   ]
+  },
+  {
+   "id": "sanghamitra-bandyopadhyay",
+   "name": "Sanghamitra Bandyopadhyay",
+   "short": "Sanghamitra Bandyopadhyay",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Indian Statistical Institute",
+   "org": "isi-kolkata",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "ISI Director who backed the joint ISI-Ericsson research centre on cyber-physical systems for AI and 6G (2024).",
+   "sources": [
+    "https://www.rcrwireless.com/?p=399033"
+   ]
+  },
+  {
+   "id": "rajkumar-upadhyay",
+   "name": "Rajkumar Upadhyay",
+   "short": "Rajkumar Upadhyay",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, C-DOT",
+   "org": "cdot",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads C-DOT; signed its Centre of Excellence at IISc for 6G, AI, quantum and cybersecurity (2026).",
+   "sources": [
+    "https://indiantelevision.com/?p=232763"
+   ]
+  },
+  {
+   "id": "shamik-mishra",
+   "name": "Shamik Mishra",
+   "short": "Shamik Mishra",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Technology and Innovation Officer, Connected Futures, Capgemini",
+   "org": "capgemini-india",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Launched Capgemini's 6G research lab in Gurugram (2023).",
+   "sources": [
+    "https://www.capgemini.com/us-en/news/press-releases/capgemini-launches-6g-research-lab-in-india/"
+   ]
+  },
+  {
+   "id": "rajavelsamy-rajadurai",
+   "name": "Rajavelsamy Rajadurai",
+   "short": "Rajavelsamy Rajadurai",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Principal Architect, Samsung R&D Institute India-Bangalore; Chair, 3GPP SA WG3",
+   "org": "samsung-sri-b",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Elected chair of 3GPP's security working group (SA WG3) in 2025.",
+   "sources": [
+    "https://news.samsung.com/my/samsung-electronics-secures-two-leadership-positions-in-3gpp"
+   ]
   }
  ],
  "edges": [
@@ -16691,6 +17133,174 @@
    "type": "Research together",
    "label": "LEO satellite optical wireless link for satellite, HAPS and ground (2026)",
    "source": "https://www.softbank.jp/sbnews/entry/20260930_03"
+  },
+  {
+   "from": "govindan-rangarajan",
+   "to": "iisc",
+   "type": "Role",
+   "label": "Director, Indian Institute of Science",
+   "source": "https://www.nokia.com/newsroom/nokia-and-indian-institute-of-science-form-strategic-partnership-to-research-how-6g-can-meet-indias-needs/"
+  },
+  {
+   "from": "nitin-bansal",
+   "to": "ericsson-chennai",
+   "type": "Role",
+   "label": "Managing Director, Ericsson India",
+   "source": "https://www.ericsson.com/en/press-releases/2/2025/6/ericsson-strengthens-rd-in-india--to-commence-asic-development-in-bengaluru"
+  },
+  {
+   "from": "radha-krishna-ganti",
+   "to": "iitm",
+   "type": "Role",
+   "label": "Faculty, Department of Electrical Engineering, IIT Madras",
+   "source": "https://shaastramag.iitm.ac.in/lead-story/indias-tryst-5g"
+  },
+  {
+   "from": "sanghamitra-bandyopadhyay",
+   "to": "isi-kolkata",
+   "type": "Role",
+   "label": "Director, Indian Statistical Institute",
+   "source": "https://www.rcrwireless.com/?p=399033"
+  },
+  {
+   "from": "rajkumar-upadhyay",
+   "to": "cdot",
+   "type": "Role",
+   "label": "CEO, C-DOT",
+   "source": "https://indiantelevision.com/?p=232763"
+  },
+  {
+   "from": "shamik-mishra",
+   "to": "capgemini-india",
+   "type": "Role",
+   "label": "Chief Technology and Innovation Officer, Connected Futures, Capgemini",
+   "source": "https://www.capgemini.com/us-en/news/press-releases/capgemini-launches-6g-research-lab-in-india/"
+  },
+  {
+   "from": "rajavelsamy-rajadurai",
+   "to": "samsung-sri-b",
+   "type": "Role",
+   "label": "Principal Architect, Samsung R&D Institute India-Bangalore; Chair, 3GPP SA WG3",
+   "source": "https://news.samsung.com/my/samsung-electronics-secures-two-leadership-positions-in-3gpp"
+  },
+  {
+   "from": "nokia",
+   "to": "nokia-bengaluru",
+   "type": "Partnership / project",
+   "label": "Nokia 6G Lab at its Global R&D Center (Oct 2023)",
+   "source": "https://www.nokia.com/about-us/news/releases/2023/10/05/nokia-opens-6g-lab-in-india/"
+  },
+  {
+   "from": "nokia-bengaluru",
+   "to": "iisc",
+   "type": "Research together",
+   "label": "6G radio, architecture and ML air interface; Network as Sensor (2024)",
+   "source": "https://www.nokia.com/newsroom/nokia-and-indian-institute-of-science-form-strategic-partnership-to-research-how-6g-can-meet-indias-needs/"
+  },
+  {
+   "from": "ericsson",
+   "to": "ericsson-chennai",
+   "type": "Partnership / project",
+   "label": "India 6G programme (Oct 2023)",
+   "source": "https://www.ericsson.com/en/press-releases/2/2023/10/ericsson-initiates-india-6g-program-in-india"
+  },
+  {
+   "from": "ericsson",
+   "to": "ericsson-bengaluru",
+   "type": "Partnership / project",
+   "label": "ASIC (2025) and RAN software (2025) R&D units",
+   "source": "https://www.ericsson.com/en/press-releases/7/2025/new-bengaluru-ericsson-rd-unit-to-drive-5g-software-development-in-india"
+  },
+  {
+   "from": "ericsson-chennai",
+   "to": "iitm",
+   "type": "Research together",
+   "label": "Responsible AI for 6G (five-year partnership)",
+   "source": "https://www.ericsson.com/en/press-releases/2/2023/10/ericsson-initiates-india-6g-program-in-india"
+  },
+  {
+   "from": "ericsson-chennai",
+   "to": "iit-kharagpur",
+   "type": "Research together",
+   "label": "AI and distributed compute for 6G (Feb 2024)",
+   "source": "https://techblog.comsoc.org/2024/02/02/ericsson-and-iit-kharagpur-partner-for-joint-research-in-ai-and-6g/"
+  },
+  {
+   "from": "ericsson-chennai",
+   "to": "isi-kolkata",
+   "type": "Research together",
+   "label": "Cyber-physical systems research centre (MoU Feb 2024)",
+   "source": "https://www.rcrwireless.com/20240213/featured/ericsson-indian-statistical-institute-sign-joint-research-agreement"
+  },
+  {
+   "from": "ericsson-bengaluru",
+   "to": "airtel",
+   "type": "Partnership / project",
+   "label": "XR and digital twins at Volvo Bengaluru R&D centre",
+   "source": "https://pipelinepub.com/news/24042"
+  },
+  {
+   "from": "dot-india",
+   "to": "sameer-kolkata",
+   "type": "Funding",
+   "label": "6G terahertz testbed (TTDF, Digital Bharat Nidhi)",
+   "source": "https://indianinfrastructure.com/2026/07/23/bharat-6g-alliance-expands-to-become-a-90-member-organisation-says-mos-for-communications-and-rural-development/"
+  },
+  {
+   "from": "sameer-kolkata",
+   "to": "iitm",
+   "type": "Research together",
+   "label": "6G THz testbed consortium; 6.39 Gbps demo (2026)",
+   "source": "https://www.electronicsforu.com/news/india-advances-terahertz-wireless-for-6g"
+  },
+  {
+   "from": "sameer-kolkata",
+   "to": "iit-guwahati",
+   "type": "Research together",
+   "label": "6G THz testbed consortium",
+   "source": "https://indiaeducationdiary.in/?p=421494"
+  },
+  {
+   "from": "sameer-kolkata",
+   "to": "iit-patna",
+   "type": "Research together",
+   "label": "6G THz testbed consortium",
+   "source": "https://indiaeducationdiary.in/?p=421494"
+  },
+  {
+   "from": "dot-india",
+   "to": "bharat-6g",
+   "type": "Partnership / project",
+   "label": "Launched the Bharat 6G Alliance (July 2023)",
+   "source": "https://www.rcrwireless.com/20230705/6g/india-announces-alliance-foster-6g-development"
+  },
+  {
+   "from": "dot-india",
+   "to": "iitm",
+   "type": "Funding",
+   "label": "Centre of Excellence on Classical and Quantum Communications for 6G (2024)",
+   "source": "https://pib.gov.in/PressReleasePage.aspx?PRID=2034481"
+  },
+  {
+   "from": "cdot",
+   "to": "iisc",
+   "type": "Partnership / project",
+   "label": "C-DOT Centre of Excellence at IISc (6G, AI, quantum, cybersecurity)",
+   "source": "https://indiantelevision.com/?p=232763"
+  },
+  {
+   "from": "tsdsi",
+   "to": "itu-wp5d",
+   "type": "Partnership / project",
+   "label": "Contributed to the ITU-R IMT-2030 framework",
+   "source": "https://tsdsi.in/wp-content/uploads/2026/07/TSDSI-overview-July26.pdf"
+  },
+  {
+   "from": "samsung",
+   "to": "samsung-sri-b",
+   "type": "Partnership / project",
+   "label": "Samsung R&D Institute India-Bangalore",
+   "source": "https://news.samsung.com/my/samsung-electronics-secures-two-leadership-positions-in-3gpp"
   }
  ]
 }
