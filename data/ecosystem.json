@@ -5513,7 +5513,7 @@
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "Head, Advanced Communications Research Center, Samsung Electronics",
+   "role": "EVP and Head, Advanced Communications Research Center (ACRC), Samsung Research",
    "org": "samsung",
    "address": "",
    "lat": null,
@@ -5522,9 +5522,11 @@
    "id": "jinguk-jeong",
    "name": "JinGuk Jeong",
    "category": "Person",
-   "description": "Heads Samsung Electronics' Advanced Communications Research Center, leading research on AI-native networks and partnerships such as the Verizon 6G Innovation Forum.",
+   "description": "Heads Samsung Research's Advanced Communications Research Center, leading research on AI-native networks and ISAC. Signed 6G MOUs with SK Telecom (AI-RAN, 2025) and LG Uplus (ISAC, 2026), and leads partnerships such as the Verizon 6G Innovation Forum.",
    "sources": [
-    "https://news.samsung.com/global/next-generation-communications-leadership-interview-%E2%91%A3-ushering-in-the-6g-era-with-ai-innovation-and-global-partnerships"
+    "https://news.samsung.com/global/next-generation-communications-leadership-interview-%E2%91%A3-ushering-in-the-6g-era-with-ai-innovation-and-global-partnerships",
+    "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g",
+    "https://news.samsung.com/global/samsung-and-sk-telecom-join-forces-to-lead-6g-era-with-ai-ran-technology"
    ]
   },
   {
@@ -9787,6 +9789,394 @@
    "description": "Manitoba researcher on the Ericsson and NCC project on AI-based security for 5G and future 6G networks.",
    "sources": [
     "https://newswire.ca/fr/news-releases/ericsson-s-associe-a-des-universites-canadiennes-pour-mener-une-reponse-d-ia-aux-nouvelles-menaces-de-cybersecurite-804355429.html"
+   ]
+  },
+  {
+   "id": "samsung-research-seoul",
+   "name": "Samsung Research (Seoul R&D Campus)",
+   "short": "Samsung Research",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Samsung Seoul R&D Campus, Umyeon-dong, Seocho-gu, Seoul, South Korea",
+   "lat": 37.4658,
+   "lng": 127.0247,
+   "precision": "Campus",
+   "description": "Samsung Electronics' advanced R&D hub. Its Advanced Communications Research Center (ACRC), set up in 2019 and headed by EVP JinGuk Jeong, leads Samsung's 6G work on AI-native RAN, integrated sensing and communication (ISAC) and 3GPP standards. Signed 6G MOUs with SK Telecom (AI-RAN, 2025) and LG Uplus (ISAC, 2026).",
+   "sources": [
+    "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g",
+    "https://news.samsung.com/global/samsung-and-sk-telecom-join-forces-to-lead-6g-era-with-ai-ran-technology"
+   ]
+  },
+  {
+   "id": "lg-uplus",
+   "name": "LG Uplus",
+   "short": "LG Uplus",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "LG Science Park, Magok, Gangseo-gu, Seoul, South Korea",
+   "lat": 37.5617,
+   "lng": 126.8296,
+   "precision": "Campus",
+   "description": "South Korean mobile operator, R&D based at LG Science Park in Magok. Named ISAC a core 6G technology in its 2025 6G white paper. Validates Samsung Research's ISAC and AI-6G work on its live network (MOU May 2026), and researches semantic communications and post-quantum cryptography with LG Electronics. Tested AI-RAN handover with Yonsei University (2026).",
+   "sources": [
+    "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g",
+    "https://www.ddaily.co.kr/page/view/2026052911503964605",
+    "https://www.digitaltoday.co.kr/en/view/94222/lguplus-yonsei-university-verify-ai-ran-network-switching-technology"
+   ]
+  },
+  {
+   "id": "lg-electronics",
+   "name": "LG Electronics",
+   "short": "LG Electronics",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "LG Science Park, Magok, Gangseo-gu, Seoul, South Korea",
+   "lat": 37.5622,
+   "lng": 126.8305,
+   "precision": "Campus",
+   "description": "Korean electronics group. Set up the LG-KAIST 6G Research Center in 2019 (Korea's first industry-academic 6G centre) and works with KRISS and KAIST on terahertz technology. Researches AI-based communications, semantic communications and post-quantum cryptography with LG Uplus.",
+   "sources": [
+    "https://cm.asiae.co.kr/en/article/2021080313024316432",
+    "https://www.asiae.co.kr/en/article/2020081207320767152",
+    "https://www.ddaily.co.kr/page/view/2026052911503964605"
+   ]
+  },
+  {
+   "id": "yonsei",
+   "name": "Yonsei University (AI-RAN research)",
+   "short": "Yonsei",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Yonsei University, Sinchon, Seoul, South Korea",
+   "lat": 37.5658,
+   "lng": 126.9386,
+   "precision": "Campus",
+   "description": "Seoul university leading Korea's AI-RAN joint research: signed an AI-RAN MOU with NVIDIA, Samsung Electronics, SK Telecom, KT, LG Uplus and ETRI at APEC Summit Korea 2025. Runs an NVIDIA GPU-based AI-RAN test network and hosts the 6G Open Hub (with NI).",
+   "sources": [
+    "https://v.daum.net/v/20251103103647306",
+    "https://www.digitaltoday.co.kr/en/view/94222/lguplus-yonsei-university-verify-ai-ran-network-switching-technology",
+    "https://www.rcrwireless.com/20220914/architecture/ni-opens-6g-hub-yonsei-university-south-korea"
+   ]
+  },
+  {
+   "id": "korea-univ",
+   "name": "Korea University",
+   "short": "Korea University",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Korea University, Anam-dong, Seoul, South Korea",
+   "lat": 37.5894,
+   "lng": 127.0322,
+   "precision": "Campus",
+   "description": "Seoul university. Runs a Samsung-sponsored next-generation communications department (from 2023, 30 students a year) for 6G talent, and an MSIT-designated Radio Research Center on LEO small-satellite communications.",
+   "sources": [
+    "https://www.asiae.co.kr/en/article/2022011713375181626",
+    "https://graduate2.korea.ac.kr/community/news_view.html?no=88"
+   ]
+  },
+  {
+   "id": "skku",
+   "name": "Sungkyunkwan University (SKKU)",
+   "short": "SKKU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "SKKU Natural Sciences Campus, Suwon, South Korea",
+   "lat": 37.2939,
+   "lng": 126.975,
+   "precision": "Campus",
+   "description": "Suwon research university. Partner in ETRI's national AI-RAN project and in ETRI's AI wireless access research.",
+   "sources": [
+    "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies",
+    "https://www.eurekalert.org/news-releases/1111380"
+   ]
+  },
+  {
+   "id": "msit",
+   "name": "MSIT (Korea Ministry of Science and ICT)",
+   "short": "MSIT",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Government Complex Sejong, Sejong, South Korea",
+   "lat": 36.504,
+   "lng": 127.265,
+   "precision": "City",
+   "description": "Korean ministry that sets national 6G R&D strategy and funds university 6G and radio research centres.",
+   "sources": [
+    "https://www.asiae.co.kr/en/article/2021062222002252276",
+    "https://graduate2.korea.ac.kr/community/news_view.html?no=88"
+   ]
+  },
+  {
+   "id": "etri",
+   "name": "ETRI (Electronics and Telecommunications Research Institute)",
+   "short": "ETRI",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "218 Gajeong-ro, Yuseong-gu, Daejeon, South Korea",
+   "lat": 36.383,
+   "lng": 127.366,
+   "precision": "Campus",
+   "description": "Korea's national ICT research institute. Demonstrated the world's first 200 Gbps 6G wireless link (sub-THz, 10 GHz around 160 GHz, late 2024). Leads the national AI-RAN Global Leading Project with SK Telecom, KT, LG Uplus, HFR and universities, and works on LEO satellite and mobile core networks.",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1095486",
+    "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
+   ]
+  },
+  {
+   "id": "kaist",
+   "name": "KAIST (LG-KAIST 6G Research Center)",
+   "short": "KAIST",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "291 Daehak-ro, Yuseong-gu, Daejeon, South Korea",
+   "lat": 36.3721,
+   "lng": 127.3604,
+   "precision": "Campus",
+   "description": "Daejeon research university. Hosts the LG-KAIST 6G Research Center (2019), Korea's first industry-academic 6G centre, which developed a 27 GHz-bandwidth terahertz beamforming system (143 to 170 GHz) with KRISS and Keysight. Also works on wireless power transfer.",
+   "sources": [
+    "https://cm.asiae.co.kr/en/article/2021080313024316432",
+    "https://kmatrix.kaist.ac.kr/?p=1858"
+   ]
+  },
+  {
+   "id": "kriss",
+   "name": "KRISS (Korea Research Institute of Standards and Science)",
+   "short": "KRISS",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "267 Gajeong-ro, Yuseong-gu, Daejeon, South Korea",
+   "lat": 36.387,
+   "lng": 127.372,
+   "precision": "Campus",
+   "description": "Korea's national measurement institute. Partner with LG Electronics and KAIST on 6G terahertz technology development, verification and test infrastructure (MOU 2020).",
+   "sources": [
+    "https://www.asiae.co.kr/en/article/2020081207320767152"
+   ]
+  },
+  {
+   "id": "hfr",
+   "name": "HFR, Inc.",
+   "short": "HFR",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Seongnam, Gyeonggi-do, South Korea",
+   "lat": 37.401,
+   "lng": 127.108,
+   "precision": "City",
+   "description": "Korean telecoms equipment maker (vRAN, O-RAN radios). Co-chair of the Open RAN Industry Alliance (ORIA). Developing GPU-based AI-RAN software in ETRI's AI-RAN Global Leading Project (2026).",
+   "sources": [
+    "https://iconnect007.com/article/149960/hfr-accelerates-gpubased-airan-development-with-etri/149957/ein",
+    "https://www.telecomtv.com/content/open-ran/hfr-leads-6g-global-standardization-as-co-chair-of-the-open-ran-industry-alliance-48309/"
+   ]
+  },
+  {
+   "id": "oe-solutions",
+   "name": "OE Solutions",
+   "short": "OE Solutions",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "53 Cheomdanyeonsin-ro 30beon-gil, Buk-gu, Gwangju, South Korea",
+   "lat": 35.226,
+   "lng": 126.843,
+   "precision": "Street address",
+   "description": "Gwangju optical transceiver maker, vertically integrated at its Gwangju headquarters. Supplies fronthaul and backhaul optics for 5G and targets 5G-Advanced and 6G wireless and AI data-centre links (1.6 Tbps OSFP, 2026).",
+   "sources": [
+    "https://view.asiae.co.kr/en/article/2025121108425856023",
+    "https://www.cbinsights.com/company/oe-solutions"
+   ]
+  },
+  {
+   "id": "sangyeob-lee",
+   "name": "Sangyeob Lee",
+   "short": "Sangyeob Lee",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO and Senior Vice President, LG Uplus",
+   "org": "lg-uplus",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "LG Uplus CTO. Signed the May 2026 ISAC research MOU with Samsung Research to validate 6G sensing and AI technology on LG Uplus's network.",
+   "sources": [
+    "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g"
+   ]
+  },
+  {
+   "id": "seong-lyun-kim",
+   "name": "Seong-Lyun Kim",
+   "short": "Seong-Lyun Kim",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, School of Electrical and Electronic Engineering, Yonsei University",
+   "org": "yonsei",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Yonsei's NVIDIA GPU-based AI-RAN test network, used with LG Uplus to verify AI-RAN handover (2026).",
+   "sources": [
+    "https://www.digitaltoday.co.kr/en/view/94222/lguplus-yonsei-university-verify-ai-ran-network-switching-technology"
+   ]
+  },
+  {
+   "id": "chan-byoung-chae",
+   "name": "Chan-Byoung Chae",
+   "short": "Chan-Byoung Chae",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Yonsei University",
+   "org": "yonsei",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Yonsei AI and wireless researcher named in the university's 2025 AI-RAN MOU coverage.",
+   "sources": [
+    "https://v.daum.net/v/20251103103647306"
+   ]
+  },
+  {
+   "id": "yongsoon-baek",
+   "name": "Yongsoon Baek",
+   "short": "Yongsoon Baek",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Vice President, Terrestrial & Non-Terrestrial Integrated Telecommunications Research Laboratory, ETRI",
+   "org": "etri",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads ETRI's terrestrial and non-terrestrial 6G lab, which demonstrated the world's first 200 Gbps 6G wireless link.",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1095486"
+   ]
+  },
+  {
+   "id": "jungsook-bae",
+   "name": "Jungsook Bae",
+   "short": "Jungsook Bae",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Intelligent Wireless Access Research Section, ETRI",
+   "org": "etri",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads ETRI's AI-based wireless access research for 6G.",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1111380"
+   ]
+  },
+  {
+   "id": "namseok-ko",
+   "name": "Namseok Ko",
+   "short": "Namseok Ko",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Mobile Core Network Research Section, ETRI",
+   "org": "etri",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads ETRI's mobile core network research for 6G.",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1111380"
+   ]
+  },
+  {
+   "id": "seungchan-bang",
+   "name": "Seungchan Bang",
+   "short": "Seungchan Bang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President, ETRI",
+   "org": "etri",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "President of ETRI. ETRI signed the 2025 Yonsei AI-RAN MOU.",
+   "sources": [
+    "https://v.daum.net/v/20251103103647306"
+   ]
+  },
+  {
+   "id": "dong-ho-cho",
+   "name": "Dong-Ho Cho",
+   "short": "Dong-Ho Cho",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, KAIST; founding director, LG-KAIST 6G Research Center",
+   "org": "kaist",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Led the LG-KAIST 6G Research Center from its launch in 2019.",
+   "sources": [
+    "https://kmatrix.kaist.ac.kr/?p=1333"
+   ]
+  },
+  {
+   "id": "ju-yong-lee",
+   "name": "Ju Yong Lee",
+   "short": "Ju Yong Lee",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "KI Fellow, KAIST (LG-KAIST 6G Research Center)",
+   "org": "kaist",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Researcher at KAIST working with the LG-KAIST 6G Research Center.",
+   "sources": [
+    "https://kmatrix.kaist.ac.kr/?p=1333"
+   ]
+  },
+  {
+   "id": "young-chai-ko",
+   "name": "Young-Chai Ko",
+   "short": "Young-Chai Ko",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Korea University; Director, Radio Research Center",
+   "org": "korea-univ",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs Korea University's MSIT-designated Radio Research Center on LEO small-satellite communications.",
+   "sources": [
+    "https://graduate2.korea.ac.kr/community/news_view.html?no=88"
    ]
   }
  ],
@@ -15586,6 +15976,223 @@
    "type": "Partnership / project",
    "label": "UBC Rogers 5G research partnership since 2018; Canada's first 5G campus",
    "source": "https://icics.ubc.ca/industry/ubc-rogers-5g"
+  },
+  {
+   "from": "sangyeob-lee",
+   "to": "lg-uplus",
+   "type": "Role",
+   "label": "CTO and Senior Vice President, LG Uplus",
+   "source": "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g"
+  },
+  {
+   "from": "seong-lyun-kim",
+   "to": "yonsei",
+   "type": "Role",
+   "label": "Professor, School of Electrical and Electronic Engineering, Yonsei University",
+   "source": "https://www.digitaltoday.co.kr/en/view/94222/lguplus-yonsei-university-verify-ai-ran-network-switching-technology"
+  },
+  {
+   "from": "chan-byoung-chae",
+   "to": "yonsei",
+   "type": "Role",
+   "label": "Professor, Yonsei University",
+   "source": "https://v.daum.net/v/20251103103647306"
+  },
+  {
+   "from": "yongsoon-baek",
+   "to": "etri",
+   "type": "Role",
+   "label": "Assistant Vice President, Terrestrial & Non-Terrestrial Integrated Telecommunications Research Laboratory, ETRI",
+   "source": "https://www.eurekalert.org/news-releases/1095486"
+  },
+  {
+   "from": "jungsook-bae",
+   "to": "etri",
+   "type": "Role",
+   "label": "Director, Intelligent Wireless Access Research Section, ETRI",
+   "source": "https://www.eurekalert.org/news-releases/1111380"
+  },
+  {
+   "from": "namseok-ko",
+   "to": "etri",
+   "type": "Role",
+   "label": "Director, Mobile Core Network Research Section, ETRI",
+   "source": "https://www.eurekalert.org/news-releases/1111380"
+  },
+  {
+   "from": "seungchan-bang",
+   "to": "etri",
+   "type": "Role",
+   "label": "President, ETRI",
+   "source": "https://v.daum.net/v/20251103103647306"
+  },
+  {
+   "from": "dong-ho-cho",
+   "to": "kaist",
+   "type": "Role",
+   "label": "Professor, KAIST; founding director, LG-KAIST 6G Research Center",
+   "source": "https://kmatrix.kaist.ac.kr/?p=1333"
+  },
+  {
+   "from": "ju-yong-lee",
+   "to": "kaist",
+   "type": "Role",
+   "label": "KI Fellow, KAIST (LG-KAIST 6G Research Center)",
+   "source": "https://kmatrix.kaist.ac.kr/?p=1333"
+  },
+  {
+   "from": "young-chai-ko",
+   "to": "korea-univ",
+   "type": "Role",
+   "label": "Professor, Korea University; Director, Radio Research Center",
+   "source": "https://graduate2.korea.ac.kr/community/news_view.html?no=88"
+  },
+  {
+   "from": "samsung",
+   "to": "samsung-research-seoul",
+   "type": "Partnership / project",
+   "label": "Samsung Electronics' advanced R&D hub (Device eXperience division)",
+   "source": "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g"
+  },
+  {
+   "from": "samsung-research-seoul",
+   "to": "lg-uplus",
+   "type": "Research together",
+   "label": "ISAC and AI-6G joint research MOU (May 2026); validation on 5G and 7 GHz",
+   "source": "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g"
+  },
+  {
+   "from": "samsung-research-seoul",
+   "to": "skt",
+   "type": "Research together",
+   "label": "6G AI-RAN joint development MOU (Nov 2025)",
+   "source": "https://news.samsung.com/global/samsung-and-sk-telecom-join-forces-to-lead-6g-era-with-ai-ran-technology"
+  },
+  {
+   "from": "lg-electronics",
+   "to": "lg-uplus",
+   "type": "Research together",
+   "label": "AI-based communications, semantic communications and post-quantum cryptography; international standards",
+   "source": "https://www.ddaily.co.kr/page/view/2026052911503964605"
+  },
+  {
+   "from": "nvidia",
+   "to": "yonsei",
+   "type": "Partnership / project",
+   "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
+   "source": "https://v.daum.net/v/20251103103647306"
+  },
+  {
+   "from": "samsung",
+   "to": "yonsei",
+   "type": "Partnership / project",
+   "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
+   "source": "https://v.daum.net/v/20251103103647306"
+  },
+  {
+   "from": "skt",
+   "to": "yonsei",
+   "type": "Partnership / project",
+   "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
+   "source": "https://v.daum.net/v/20251103103647306"
+  },
+  {
+   "from": "kt",
+   "to": "yonsei",
+   "type": "Partnership / project",
+   "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
+   "source": "https://v.daum.net/v/20251103103647306"
+  },
+  {
+   "from": "lg-uplus",
+   "to": "yonsei",
+   "type": "Research together",
+   "label": "AI-RAN MOU (2025); AI-RAN to 5G handover verification (Aug 2026)",
+   "source": "https://www.digitaltoday.co.kr/en/view/94222/lguplus-yonsei-university-verify-ai-ran-network-switching-technology"
+  },
+  {
+   "from": "etri",
+   "to": "yonsei",
+   "type": "Partnership / project",
+   "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
+   "source": "https://v.daum.net/v/20251103103647306"
+  },
+  {
+   "from": "lg-electronics",
+   "to": "kaist",
+   "type": "Partnership / project",
+   "label": "LG-KAIST 6G Research Center (since 2019)",
+   "source": "https://cm.asiae.co.kr/en/article/2021080313024316432"
+  },
+  {
+   "from": "lg-electronics",
+   "to": "kriss",
+   "type": "Research together",
+   "label": "6G terahertz development and verification MOU (2020, with KAIST)",
+   "source": "https://www.asiae.co.kr/en/article/2020081207320767152"
+  },
+  {
+   "from": "kriss",
+   "to": "kaist",
+   "type": "Research together",
+   "label": "6G terahertz cooperation with LG Electronics",
+   "source": "https://www.asiae.co.kr/en/article/2020081207320767152"
+  },
+  {
+   "from": "samsung",
+   "to": "korea-univ",
+   "type": "Partnership / project",
+   "label": "Next-generation communications contract department for 6G talent (2022)",
+   "source": "https://www.asiae.co.kr/en/article/2022011713375181626"
+  },
+  {
+   "from": "msit",
+   "to": "korea-univ",
+   "type": "Funding",
+   "label": "Radio Research Center designation (2021)",
+   "source": "https://graduate2.korea.ac.kr/community/news_view.html?no=88"
+  },
+  {
+   "from": "hfr",
+   "to": "etri",
+   "type": "Partnership / project",
+   "label": "GPU-based AI-RAN software in ETRI AI-RAN Global Leading Project (2026)",
+   "source": "https://iconnect007.com/article/149960/hfr-accelerates-gpubased-airan-development-with-etri/149957/ein"
+  },
+  {
+   "from": "skku",
+   "to": "etri",
+   "type": "Research together",
+   "label": "Partner in ETRI AI-RAN project",
+   "source": "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
+  },
+  {
+   "from": "skt",
+   "to": "etri",
+   "type": "Research together",
+   "label": "Partner in ETRI AI-RAN project",
+   "source": "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
+  },
+  {
+   "from": "kt",
+   "to": "etri",
+   "type": "Research together",
+   "label": "Partner in ETRI AI-RAN project",
+   "source": "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
+  },
+  {
+   "from": "lg-uplus",
+   "to": "etri",
+   "type": "Research together",
+   "label": "Partner in ETRI AI-RAN project",
+   "source": "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
+  },
+  {
+   "from": "jinguk-jeong",
+   "to": "samsung-research-seoul",
+   "type": "Role",
+   "label": "EVP and Head, ACRC",
+   "source": "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g"
   }
  ]
 }
