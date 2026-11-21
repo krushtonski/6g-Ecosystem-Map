@@ -272,7 +272,7 @@ function buildGeo(){
   };
   fetch("data/basemap.json").then(r=>r.json()).then(bm=>{
     const o={pane:"base",interactive:false};
-    L.geoJSON(bm.coast,{...o,style:{color:"#c3cbd3",weight:.9}}).addTo(geo);
+    L.geoJSON(bm.coast,{...o,style:{color:"#5b9bd5",weight:1.1}}).addTo(geo);
     L.geoJSON(bm.borders,{...o,style:{color:"#aab4be",weight:1}}).addTo(geo);
     const st=L.geoJSON(bm.states,{...o,style:{color:"#cfd6dd",weight:.7,dashArray:"3 3",fill:false}});
     const upd=()=>{ geo.getZoom()>=3?st.addTo(geo):st.remove(); };
