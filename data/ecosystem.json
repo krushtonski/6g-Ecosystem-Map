@@ -8911,6 +8911,462 @@
    "sources": [
     "https://inl.gov/?p=149570"
    ]
+  },
+  {
+   "id": "inatel",
+   "name": "INATEL (National Institute of Telecommunications)",
+   "short": "INATEL",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Av. João de Camargo 510, Santa Rita do Sapucaí, MG 37540-000, Brazil",
+   "lat": -22.2565,
+   "lng": -45.6966,
+   "precision": "Campus",
+   "description": "Brazil's National Institute of Telecommunications in Santa Rita do Sapucaí, Minas Gerais ('Electronics Valley'). Executes the Brasil 6G project and hosts xGMobile, the Embrapii-Inatel Competence Center for 5G and 6G Networks, and the Radiocommunications Reference Center (CRR). Use cases include agribusiness, mining and environmental monitoring. Partner of the University of Oulu's 6G Flagship since 2017.",
+   "sources": [
+    "https://set.org.br/palestrantes/luciano-leonel-mendes/?lang=en",
+    "https://www.agenciaminas.mg.gov.br/noticia/pesquisas-em-6g-avancam-em-minas-gerais-com-apoio-da-fapemig-127563",
+    "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
+   ]
+  },
+  {
+   "id": "brasil-6g",
+   "name": "Brasil 6G Project",
+   "short": "Brasil 6G",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "National 6G research programme created by Brazil's Ministry of Science, Technology and Innovation (MCTI) as a Priority IT Programme (PPI). Coordinated by RNP and executed by INATEL with CPQD and universities including Unicamp, UFRJ, UFC, UFPA, UFSC, UFU, UFG and Unisinos. Entered its third phase (prototypes and remote-access testing) in the second half of 2024.",
+   "sources": [
+    "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks",
+    "https://www.rnp.br/en/node/8327",
+    "https://teletime.com.br/11/02/2022/6g-em-2030-desperta-debate-sobre-papel-do-brasil-na-padronizacao/"
+   ]
+  },
+  {
+   "id": "rnp",
+   "name": "RNP (National Education and Research Network)",
+   "short": "RNP",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Rio de Janeiro, RJ, Brazil",
+   "lat": -22.9068,
+   "lng": -43.1729,
+   "precision": "City",
+   "description": "Brazil's National Education and Research Network. Coordinates the Brasil 6G programme and the OpenRAN@Brasil and 5G-in-a-box Priority IT projects for MCTI.",
+   "sources": [
+    "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks",
+    "https://www.rnp.br/en/node/8327"
+   ]
+  },
+  {
+   "id": "mcti",
+   "name": "MCTI (Brazil Ministry of Science, Technology and Innovation)",
+   "short": "MCTI",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Brasília, DF, Brazil",
+   "lat": -15.7998,
+   "lng": -47.8645,
+   "precision": "City",
+   "description": "Brazilian federal ministry that created and funds the Brasil 6G programme and OpenRAN@Brasil through its Priority IT Programmes.",
+   "sources": [
+    "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
+   ]
+  },
+  {
+   "id": "cpqd",
+   "name": "CPQD (Telecommunications Research and Development Center)",
+   "short": "CPQD",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Rua Dr. Ricardo Benetton Martins 1000, Campinas, SP, Brazil",
+   "lat": -22.8146,
+   "lng": -47.0465,
+   "precision": "Campus",
+   "description": "Latin America's largest ICT R&D centre and an independent, government-affiliated body. Partner in Brasil 6G and OpenRAN@Brasil, and host of the Embrapii CPQD Open RAN Competence Center, Latin America's first accredited Open RAN test and integration centre (OTIC). Manages R$104M of Funttel funds for 6G and AI (2026 to 2028).",
+   "sources": [
+    "https://teletime.com.br/03/12/2024/centro-do-cpqd-de-testes-open-ran-esta-sendo-instalado-em-campinas/",
+    "https://www.itu.int/en/ITU-T/webinars/amd-iic/20240313/Documents/Gustavo%20Correa%20Lima.pdf",
+    "https://olhardigital.com.br/2026/03/28/pro/brasil-vai-investir-r-104-milhoes-para-acelerar-6g-e-inteligencia-artificial/"
+   ]
+  },
+  {
+   "id": "unicamp",
+   "name": "Unicamp (SMARTNESS Research Center)",
+   "short": "Unicamp",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "FEEC, Universidade Estadual de Campinas, Campinas, SP, Brazil",
+   "lat": -22.8213,
+   "lng": -47.0646,
+   "precision": "Campus",
+   "description": "State University of Campinas. Hosts SMARTNESS (Smart Networks and Services for 2030), a FAPESP Engineering Research Center with Ericsson (2023 to 2033) working on cognitive, autonomous 5G/6G networks and cloud-edge services. Also a Brasil 6G partner.",
+   "sources": [
+    "https://www.fapesp.br/cpe/smart_networks_and_services_for_2030_(smartness)/122",
+    "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
+   ]
+  },
+  {
+   "id": "fapesp",
+   "name": "FAPESP (São Paulo Research Foundation)",
+   "short": "FAPESP",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "São Paulo, SP, Brazil",
+   "lat": -23.5505,
+   "lng": -46.6333,
+   "precision": "City",
+   "description": "São Paulo State research funding agency. Co-funds the SMARTNESS 5G/6G Engineering Research Center at Unicamp with Ericsson.",
+   "sources": [
+    "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
+   ]
+  },
+  {
+   "id": "ericsson-brazil",
+   "name": "Ericsson Brazil R&D Center (Indaiatuba)",
+   "short": "Ericsson Brazil R&D",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Indaiatuba, SP, Brazil",
+   "lat": -23.0904,
+   "lng": -47.2181,
+   "precision": "City",
+   "description": "Ericsson's research, development and innovation centre in Indaiatuba near Campinas, home of Ericsson Research Brazil and the 5G Open Innovation Center (2025). Works closely with the SMARTNESS centre at Unicamp on autonomous networks and 6G.",
+   "sources": [
+    "https://www.ericsson.com/en/careers/global-locations/latin-america/brazil",
+    "https://teletime.com.br/17/03/2026/ericsson-aposta-no-brasil-como-polo-de-pesquisa-para-redes-autonomas/"
+   ]
+  },
+  {
+   "id": "ufpa",
+   "name": "Federal University of Pará (UFPA)",
+   "short": "UFPA",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Belém, PA, Brazil",
+   "lat": -1.4747,
+   "lng": -48.4556,
+   "precision": "Campus",
+   "description": "Federal university in Belém. Partner in Brasil 6G and OpenRAN@Brasil.",
+   "sources": [
+    "https://www.rnp.br/en/node/8327"
+   ]
+  },
+  {
+   "id": "ufc",
+   "name": "Federal University of Ceará (UFC)",
+   "short": "UFC",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Fortaleza, CE, Brazil",
+   "lat": -3.7444,
+   "lng": -38.5745,
+   "precision": "Campus",
+   "description": "Federal university in Fortaleza. Partner in the Brasil 6G project.",
+   "sources": [
+    "https://www.rnp.br/en/node/8327"
+   ]
+  },
+  {
+   "id": "ufrj",
+   "name": "Federal University of Rio de Janeiro (UFRJ)",
+   "short": "UFRJ",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Rio de Janeiro, RJ, Brazil",
+   "lat": -22.8597,
+   "lng": -43.2302,
+   "precision": "Campus",
+   "description": "Federal university in Rio de Janeiro. Partner in Brasil 6G and OpenRAN@Brasil.",
+   "sources": [
+    "https://www.rnp.br/en/node/8327"
+   ]
+  },
+  {
+   "id": "ufsc",
+   "name": "Federal University of Santa Catarina (UFSC)",
+   "short": "UFSC",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Florianópolis, SC, Brazil",
+   "lat": -27.6007,
+   "lng": -48.5196,
+   "precision": "Campus",
+   "description": "Federal university in Florianópolis. Partner in the Brasil 6G project.",
+   "sources": [
+    "https://teletime.com.br/11/02/2022/6g-em-2030-desperta-debate-sobre-papel-do-brasil-na-padronizacao/"
+   ]
+  },
+  {
+   "id": "ufu",
+   "name": "Federal University of Uberlândia (UFU)",
+   "short": "UFU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Uberlândia, MG, Brazil",
+   "lat": -18.9186,
+   "lng": -48.2588,
+   "precision": "Campus",
+   "description": "Federal university in Uberlândia. Partner in the Brasil 6G project.",
+   "sources": [
+    "https://www.rnp.br/en/node/8327"
+   ]
+  },
+  {
+   "id": "luciano-mendes",
+   "name": "Luciano Leonel Mendes",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, INATEL; Research Coordinator, Brasil 6G; General Coordinator, xGMobile",
+   "org": "inatel",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Brazil's national 6G research: research coordinator of the Brasil 6G project, general coordinator of xGMobile (the Embrapii-Inatel 5G/6G Competence Center) and research coordinator of INATEL's Radiocommunications Reference Center. Represents INATEL in the One6G Association. Works on MIMO and AI for communications, and 6G for remote and rural connectivity.",
+   "sources": [
+    "https://set.org.br/palestrantes/luciano-leonel-mendes/?lang=en",
+    "https://english.hi.is/events/guest-lecture-dr-luciano-leonel-mendes"
+   ]
+  },
+  {
+   "id": "arismar-cerqueira",
+   "name": "Arismar Cerqueira Sodré Junior",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, INATEL; Coordinator, Wireless and Optical Convergent Access Laboratory (WOCA)",
+   "org": "inatel",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Coordinates INATEL's WOCA lab on wireless and optical convergent access. Brasil 6G workshop speaker.",
+   "sources": [
+    "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil"
+   ]
+  },
+  {
+   "id": "jose-marcos-brito",
+   "name": "José Marcos Brito",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, INATEL",
+   "org": "inatel",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "INATEL professor and Brasil 6G workshop speaker on 6G networks.",
+   "sources": [
+    "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil"
+   ]
+  },
+  {
+   "id": "fernando-farias",
+   "name": "Fernando Nazareno Nascimento Farias",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research and Development Coordinator, RNP",
+   "org": "rnp",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "RNP researcher working on the Brasil 6G programme. Presented the Plataforma Brasil 6G at the RNP Workshop (WRNP) in May 2026.",
+   "sources": [
+    "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks",
+    "https://indico.rnp.br/event/155/contributions/1262/contribution.pdf"
+   ]
+  },
+  {
+   "id": "iara-machado",
+   "name": "Iara Machado",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Research, Development and Innovation, RNP",
+   "org": "rnp",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs RNP's R&D programmes, including Brasil 6G, OpenRAN@Brasil and 5G-in-a-box.",
+   "sources": [
+    "https://www.rnp.br/en/node/8327"
+   ]
+  },
+  {
+   "id": "christian-rothenberg",
+   "name": "Christian Esteve Rothenberg",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, FEEC, Unicamp; Director and Principal Investigator, SMARTNESS",
+   "org": "unicamp",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs SMARTNESS, the FAPESP and Ericsson Engineering Research Center at Unicamp on cognitive, autonomous 5G/6G networks and cloud-edge services (2023 to 2033). Presented Brazil's 6G perspective at EuCNC 2024.",
+   "sources": [
+    "https://www.fapesp.br/cpe/smart_networks_and_services_for_2030_(smartness)/122",
+    "https://zenodo.org/records/15119902"
+   ]
+  },
+  {
+   "id": "valeria-marquezini",
+   "name": "Maria Valéria Marquezini",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Master Researcher, Ericsson; Deputy Director, SMARTNESS",
+   "org": "ericsson-brazil",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Ericsson Master Researcher who coordinates the company's academic collaborations in Brazil and is deputy director of the SMARTNESS centre at Unicamp.",
+   "sources": [
+    "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
+   ]
+  },
+  {
+   "id": "mateus-santos",
+   "name": "Mateus Santos",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head, Ericsson Research Brazil",
+   "org": "ericsson-brazil",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Ericsson Research in Brazil, working on autonomous networks and the path to 6G with the SMARTNESS centre.",
+   "sources": [
+    "https://teletime.com.br/17/03/2026/ericsson-aposta-no-brasil-como-polo-de-pesquisa-para-redes-autonomas/",
+    "https://ods.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/8394"
+   ]
+  },
+  {
+   "id": "edvaldo-santos",
+   "name": "Edvaldo Santos",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President, RD&I, Ericsson LatAm South",
+   "org": "ericsson-brazil",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Heads Ericsson's research, development and innovation for the Southern Cone of Latin America, including the Indaiatuba centre and the SMARTNESS partnership.",
+   "sources": [
+    "https://bnamericas.com/en/news/ericsson-opens-new-center-of-excellence-for-5g-innovation"
+   ]
+  },
+  {
+   "id": "gustavo-correa-lima",
+   "name": "Gustavo Correa Lima",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Manager, Connectivity Solutions, CPQD",
+   "org": "cpqd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads CPQD's Open RAN work and its Embrapii Open RAN Competence Center and OTIC in Campinas, supporting 5G and 6G open networks.",
+   "sources": [
+    "https://teletime.com.br/03/12/2024/centro-do-cpqd-de-testes-open-ran-esta-sendo-instalado-em-campinas/"
+   ]
+  },
+  {
+   "id": "alberto-paradisi",
+   "name": "Alberto Paradisi",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Strategy and Business Mentoring, CPQD",
+   "org": "cpqd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "CPQD director leading its push for commercial Open RAN networks in small municipalities.",
+   "sources": [
+    "https://convergenciadigital.com.br/tag/openran/"
+   ]
+  },
+  {
+   "id": "aldebaro-klautau",
+   "name": "Aldebaro Klautau",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, UFPA",
+   "org": "ufpa",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "UFPA professor and Brasil 6G workshop speaker. UFPA also runs the SAMURAI 5G testbed project with RNP.",
+   "sources": [
+    "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil",
+    "https://sites.google.com/itec.ufpa.br/samurai"
+   ]
+  },
+  {
+   "id": "flavio-silva",
+   "name": "Flávio de Oliveira Silva",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, UFU",
+   "org": "ufu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "UFU professor and Brasil 6G workshop speaker.",
+   "sources": [
+    "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil"
+   ]
   }
  ],
  "edges": [
@@ -14317,6 +14773,237 @@
    "type": "Role",
    "label": "Former Senior Director, Technology (joined 2006)",
    "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/wanshi-chen/"
+  },
+  {
+   "from": "luciano-mendes",
+   "to": "inatel",
+   "type": "Role",
+   "label": "Research Coordinator, Brasil 6G; Coordinator, xGMobile",
+   "source": "https://set.org.br/palestrantes/luciano-leonel-mendes/?lang=en"
+  },
+  {
+   "from": "arismar-cerqueira",
+   "to": "inatel",
+   "type": "Role",
+   "label": "Coordinator, WOCA Lab",
+   "source": "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil"
+  },
+  {
+   "from": "jose-marcos-brito",
+   "to": "inatel",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil"
+  },
+  {
+   "from": "fernando-farias",
+   "to": "rnp",
+   "type": "Role",
+   "label": "R&D Coordinator",
+   "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
+  },
+  {
+   "from": "iara-machado",
+   "to": "rnp",
+   "type": "Role",
+   "label": "Director of RD&I",
+   "source": "https://www.rnp.br/en/node/8327"
+  },
+  {
+   "from": "christian-rothenberg",
+   "to": "unicamp",
+   "type": "Role",
+   "label": "Director, SMARTNESS",
+   "source": "https://www.fapesp.br/cpe/smart_networks_and_services_for_2030_(smartness)/122"
+  },
+  {
+   "from": "valeria-marquezini",
+   "to": "ericsson-brazil",
+   "type": "Role",
+   "label": "Master Researcher; SMARTNESS deputy",
+   "source": "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
+  },
+  {
+   "from": "mateus-santos",
+   "to": "ericsson-brazil",
+   "type": "Role",
+   "label": "Head, Ericsson Research Brazil",
+   "source": "https://teletime.com.br/17/03/2026/ericsson-aposta-no-brasil-como-polo-de-pesquisa-para-redes-autonomas/"
+  },
+  {
+   "from": "edvaldo-santos",
+   "to": "ericsson-brazil",
+   "type": "Role",
+   "label": "VP RD&I, LatAm South",
+   "source": "https://bnamericas.com/en/news/ericsson-opens-new-center-of-excellence-for-5g-innovation"
+  },
+  {
+   "from": "gustavo-correa-lima",
+   "to": "cpqd",
+   "type": "Role",
+   "label": "Manager, Connectivity Solutions",
+   "source": "https://teletime.com.br/03/12/2024/centro-do-cpqd-de-testes-open-ran-esta-sendo-instalado-em-campinas/"
+  },
+  {
+   "from": "alberto-paradisi",
+   "to": "cpqd",
+   "type": "Role",
+   "label": "Director, Strategy",
+   "source": "https://convergenciadigital.com.br/tag/openran/"
+  },
+  {
+   "from": "aldebaro-klautau",
+   "to": "ufpa",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil"
+  },
+  {
+   "from": "flavio-silva",
+   "to": "ufu",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil"
+  },
+  {
+   "from": "mcti",
+   "to": "brasil-6g",
+   "type": "Funding",
+   "label": "Created and funds Brasil 6G as a Priority IT Programme",
+   "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
+  },
+  {
+   "from": "rnp",
+   "to": "brasil-6g",
+   "type": "Partnership / project",
+   "label": "Coordinates Brasil 6G",
+   "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
+  },
+  {
+   "from": "inatel",
+   "to": "brasil-6g",
+   "type": "Partnership / project",
+   "label": "Executes Brasil 6G; leads research coordination",
+   "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
+  },
+  {
+   "from": "cpqd",
+   "to": "brasil-6g",
+   "type": "Research together",
+   "label": "Partner institution",
+   "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
+  },
+  {
+   "from": "unicamp",
+   "to": "brasil-6g",
+   "type": "Research together",
+   "label": "Partner institution",
+   "source": "https://www.rnp.br/en/node/8327"
+  },
+  {
+   "from": "ufrj",
+   "to": "brasil-6g",
+   "type": "Research together",
+   "label": "Partner institution",
+   "source": "https://www.rnp.br/en/node/8327"
+  },
+  {
+   "from": "ufc",
+   "to": "brasil-6g",
+   "type": "Research together",
+   "label": "Partner institution",
+   "source": "https://www.rnp.br/en/node/8327"
+  },
+  {
+   "from": "ufpa",
+   "to": "brasil-6g",
+   "type": "Research together",
+   "label": "Partner institution",
+   "source": "https://www.rnp.br/en/node/8327"
+  },
+  {
+   "from": "ufu",
+   "to": "brasil-6g",
+   "type": "Research together",
+   "label": "Partner institution",
+   "source": "https://www.rnp.br/en/node/8327"
+  },
+  {
+   "from": "ufsc",
+   "to": "brasil-6g",
+   "type": "Research together",
+   "label": "Partner institution",
+   "source": "https://teletime.com.br/11/02/2022/6g-em-2030-desperta-debate-sobre-papel-do-brasil-na-padronizacao/"
+  },
+  {
+   "from": "rnp",
+   "to": "cpqd",
+   "type": "Partnership / project",
+   "label": "OpenRAN@Brasil programme (with INATEL and Eldorado)",
+   "source": "https://www.itu.int/en/ITU-T/webinars/amd-iic/20240313/Documents/Gustavo%20Correa%20Lima.pdf"
+  },
+  {
+   "from": "fapesp",
+   "to": "unicamp",
+   "type": "Funding",
+   "label": "Co-funds SMARTNESS Engineering Research Center (2023 to 2033)",
+   "source": "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
+  },
+  {
+   "from": "ericsson",
+   "to": "unicamp",
+   "type": "Partnership / project",
+   "label": "Industry partner and co-funder of SMARTNESS",
+   "source": "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
+  },
+  {
+   "from": "ericsson",
+   "to": "ericsson-brazil",
+   "type": "Partnership / project",
+   "label": "Ericsson R&D site; home of Ericsson Research Brazil",
+   "source": "https://www.ericsson.com/en/careers/global-locations/latin-america/brazil"
+  },
+  {
+   "from": "ericsson-brazil",
+   "to": "unicamp",
+   "type": "Research together",
+   "label": "Works closely with SMARTNESS researchers",
+   "source": "https://www.mobiletime.com.br/?p=743880"
+  },
+  {
+   "from": "oulu",
+   "to": "inatel",
+   "type": "Research together",
+   "label": "6G Flagship partner since 2017 (5G-RANGE; joint 6G work since 2020)",
+   "source": "https://teletime.com.br/13/03/2023/inatel-e-universidade-finlandesa-assinam-nova-parceria-para-6g/"
+  },
+  {
+   "from": "nokia",
+   "to": "cpqd",
+   "type": "Partnership / project",
+   "label": "Joint 5G O-RAN development (2021)",
+   "source": "https://www.rcrwireless.com/20210215/5g/nokia-partners-brazil-cpqd-develop-5g-oran-solutions"
+  },
+  {
+   "from": "cpqd",
+   "to": "cci",
+   "type": "Partnership / project",
+   "label": "Open RAN OTIC agreement with the Virginia Tech-accredited OTIC",
+   "source": "https://teletime.com.br/28/03/2025/cpqd-firma-parceria-com-parque-tecnologico-do-japao-para-open-ran/"
+  },
+  {
+   "from": "luciano-mendes",
+   "to": "brasil-6g",
+   "type": "Role",
+   "label": "Research Coordinator",
+   "source": "https://set.org.br/palestrantes/luciano-leonel-mendes/?lang=en"
+  },
+  {
+   "from": "christian-rothenberg",
+   "to": "valeria-marquezini",
+   "type": "Research together",
+   "label": "Director and deputy director of SMARTNESS",
+   "source": "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
   }
  ]
 }
