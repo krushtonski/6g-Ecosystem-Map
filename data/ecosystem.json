@@ -1280,10 +1280,10 @@
    "description": "New York University, including the Tandon School of Engineering and the NYU WIRELESS research centre in Brooklyn.",
    "role": "",
    "org": null,
-   "address": "Brooklyn, NY",
-   "lat": 40.6942,
-   "lng": -73.9866,
-   "precision": "Campus",
+   "address": "NYU WIRELESS, 370 Jay Street, Brooklyn, NY 11201",
+   "lat": 40.6929,
+   "lng": -73.9874,
+   "precision": "Street address",
    "sources": [
     "https://b6gs.com/agenda"
    ]
@@ -7860,6 +7860,218 @@
    "sources": [
     "https://engineerscanada.ca/awards2025/georges-kaddoum"
    ]
+  },
+  {
+   "id": "pi-radio",
+   "name": "Pi-Radio",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "155 Water St, Brooklyn, NY 11201",
+   "lat": 40.7031,
+   "lng": -73.9888,
+   "precision": "Street address",
+   "description": "NYU WIRELESS spin-off, supported by NYU Tandon's Center for Advanced Technology in Telecommunications, making software-defined radios for frequencies above 6 GHz: 140 GHz arrays and wideband FR3 (6 to 24 GHz) kits for upper mid-band 6G research. Partner on NTIA Public Wireless Supply Chain Innovation Fund grants with NYU Tandon.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/the-pi-radio-fr3-sdr-is-operational/",
+    "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
+   ]
+  },
+  {
+   "id": "thomas-marzetta",
+   "name": "Thomas L. Marzetta",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Industry Professor, ECE, NYU Tandon; NYU WIRELESS",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Distinguished Industry Professor at NYU Tandon and originator of Massive MIMO. Previously Director of NYU WIRELESS. Works on mmWave and terahertz communications and super-directive wireless power transfer. NYU WIRELESS's January 2026 workshop marked twenty years of Massive MIMO.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/nyu-wireless-newsletter-the-pulse/",
+    "https://research.wireless.engineering.nyu.edu/wp-content/uploads/2025/04/Pulse-Spring-2025.pdf"
+   ]
+  },
+  {
+   "id": "marwa-chafii",
+   "name": "Marwa Chafii",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor, ECE, NYU; NYU WIRELESS",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Associate Professor leading NYU WIRELESS work on integrated sensing and communications (ISAC) for 6G: AI-based ISAC, channel modelling for sensing, multi-band ISAC in the upper mid-band, and waveform design. Honoured by Women in 6G.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/?p=10693",
+    "https://wireless.engineering.nyu.edu/?p=13738"
+   ]
+  },
+  {
+   "id": "hamed-rahmani",
+   "name": "Hamed Rahmani",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Professor, ECE, NYU Tandon; RAISE Lab",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads the Research in Advanced Integrated Systems and Electronics (RAISE) Lab, designing mmWave and sub-THz circuits, reconfigurable intelligent surfaces and near-field sub-THz networks. Co-leads the RFIC work on the $10M NTIA-funded SALSA upper mid-band project.",
+   "sources": [
+    "https://wp.nyu.edu/rahmani/research",
+    "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
+   ]
+  },
+  {
+   "id": "shivendra-panwar",
+   "name": "Shivendra Panwar",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, NYU Tandon; Director, Center for Advanced Technology in Telecommunications (CATT)",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Director of NYU Tandon's Center for Advanced Technology in Telecommunications (CATT) for 30 years and NYU WIRELESS faculty member. Works on network design, low-latency and ultra-reliable wireless, and the COSMOS city-scale testbed. IEEE ComSoc Distinguished Lecturer; Fellow of the National Academy of Inventors.",
+   "sources": [
+    "https://catt.nyu.edu/author/kkn216/",
+    "https://engineering.nyu.edu/news/nyu-tandons-shivendra-panwar-selected-prestigious-ieee-distinguished-lectureship"
+   ]
+  },
+  {
+   "id": "davood-shahrjerdi",
+   "name": "Davood Shahrjerdi",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, NYU Tandon; Faculty Director, NYU Nanofabrication Cleanroom",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs the NYU Nanofab cleanroom and is co-PI of the NSF-funded THz Measurement Facility at NYU WIRELESS, working on new electronic materials and devices for high-frequency wireless.",
+   "sources": [
+    "https://engineering.nyu.edu/research-innovation/centers/nyu-wireless/thz-measurement-facility/people",
+    "https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering/people"
+   ]
+  },
+  {
+   "id": "michael-knox",
+   "name": "Michael E. Knox",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Industry Professor, ECE, NYU Tandon",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Industry Professor and senior personnel on the NYU WIRELESS THz Measurement Facility. Leads the VIP-300X Wireless 6G undergraduate course using the THz lab.",
+   "sources": [
+    "https://engineering.nyu.edu/research-innovation/centers/nyu-wireless/thz-measurement-facility/people",
+    "https://engineering.nyu.edu/research/centers/nyu-wireless/thz-measurement-facility/research-activities"
+   ]
+  },
+  {
+   "id": "sundar-aditya",
+   "name": "Sundar Aditya",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Researcher, NYU WIRELESS",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "NYU WIRELESS researcher working on integrated sensing and communications, wideband localisation, radar and terahertz communications. Formerly a postdoc with Sundeep Rangan.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/?p=10693"
+   ]
+  },
+  {
+   "id": "dennis-shasha",
+   "name": "Dennis Shasha",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Director, NYU WIRELESS; Professor of Computer Science, NYU Courant",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Associate Director of NYU WIRELESS and Courant computer science professor, bringing data, pattern discovery and systems work into wireless research.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/people/"
+   ]
+  },
+  {
+   "id": "john-ross-rizzo",
+   "name": "John-Ross Rizzo",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Director, NYU WIRELESS",
+   "org": "nyu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Associate Director of NYU WIRELESS. Leads work on 5G-connected wearables and sensory augmentation for people with blindness and low vision.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/people/",
+    "https://wireless.engineering.nyu.edu/applications-topic-page"
+   ]
+  },
+  {
+   "id": "aditya-dhananjay",
+   "name": "Aditya Dhananjay",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Researcher, Pi-Radio",
+   "org": "pi-radio",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Pi-Radio researcher and former NYU WIRELESS postdoc. Built the wideband FR3 (6 to 24 GHz) software-defined radio used for upper mid-band 6G experiments under NTIA funding.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/the-pi-radio-fr3-sdr-is-operational/"
+   ]
+  },
+  {
+   "id": "mike-zappe",
+   "name": "Mike Zappe",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Engineer, Pi-Radio",
+   "org": "pi-radio",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Pi-Radio engineer on the NTIA-funded FR3 software-defined radio for upper mid-band 6G experiments.",
+   "sources": [
+    "https://wireless.engineering.nyu.edu/the-pi-radio-fr3-sdr-is-operational/"
+   ]
   }
  ],
  "edges": [
@@ -12608,6 +12820,111 @@
    "type": "Research together",
    "label": "Intelligent distributed security for NFV-based 5G networks",
    "source": "https://engineerscanada.ca/awards2025/georges-kaddoum"
+  },
+  {
+   "from": "thomas-marzetta",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Distinguished Industry Professor; former Director",
+   "source": "https://wireless.engineering.nyu.edu/nyu-wireless-newsletter-the-pulse/"
+  },
+  {
+   "from": "marwa-chafii",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Associate Professor; ISAC lead",
+   "source": "https://wireless.engineering.nyu.edu/?p=10693"
+  },
+  {
+   "from": "hamed-rahmani",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Assistant Professor; RAISE Lab",
+   "source": "https://wp.nyu.edu/rahmani/research"
+  },
+  {
+   "from": "shivendra-panwar",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Professor; Director, CATT",
+   "source": "https://catt.nyu.edu/author/kkn216/"
+  },
+  {
+   "from": "davood-shahrjerdi",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Professor; THz Lab co-PI",
+   "source": "https://engineering.nyu.edu/research-innovation/centers/nyu-wireless/thz-measurement-facility/people"
+  },
+  {
+   "from": "michael-knox",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Industry Professor; THz Lab",
+   "source": "https://engineering.nyu.edu/research-innovation/centers/nyu-wireless/thz-measurement-facility/people"
+  },
+  {
+   "from": "sundar-aditya",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Researcher",
+   "source": "https://wireless.engineering.nyu.edu/?p=10693"
+  },
+  {
+   "from": "dennis-shasha",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Associate Director",
+   "source": "https://wireless.engineering.nyu.edu/people/"
+  },
+  {
+   "from": "john-ross-rizzo",
+   "to": "nyu",
+   "type": "Role",
+   "label": "Associate Director",
+   "source": "https://wireless.engineering.nyu.edu/people/"
+  },
+  {
+   "from": "aditya-dhananjay",
+   "to": "pi-radio",
+   "type": "Role",
+   "label": "Pi-Radio researcher",
+   "source": "https://wireless.engineering.nyu.edu/the-pi-radio-fr3-sdr-is-operational/"
+  },
+  {
+   "from": "mike-zappe",
+   "to": "pi-radio",
+   "type": "Role",
+   "label": "Pi-Radio researcher",
+   "source": "https://wireless.engineering.nyu.edu/the-pi-radio-fr3-sdr-is-operational/"
+  },
+  {
+   "from": "pi-radio",
+   "to": "nyu",
+   "type": "Partnership / project",
+   "label": "NYU WIRELESS spin-off; builds upper mid-band and 140 GHz SDRs with NYU",
+   "source": "https://wireless.engineering.nyu.edu/the-pi-radio-fr3-sdr-is-operational/"
+  },
+  {
+   "from": "ntia",
+   "to": "nyu",
+   "type": "Funding",
+   "label": "$10M Public Wireless Supply Chain Innovation Fund grant: SALSA upper mid-band RFIC and O-RAN radios (with Pi-Radio, Rutgers, Princeton, Nokia, Analog Devices)",
+   "source": "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
+  },
+  {
+   "from": "nsf",
+   "to": "nyu",
+   "type": "Funding",
+   "label": "MRI grant 2216332: THz Measurement Facility (up to 330 GHz)",
+   "source": "https://engineering.nyu.edu/research/centers/nyu-wireless/thz-measurement-facility/research-activities"
+  },
+  {
+   "from": "nokia",
+   "to": "nyu",
+   "type": "Partnership / project",
+   "label": "Commercial partner on NTIA-funded SALSA upper mid-band project",
+   "source": "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
   }
  ]
 }
