@@ -7332,6 +7332,534 @@
     "https://www.fedinsider.com/nextgen-cellular-networks/",
     "https://www.fedinsider.com/laying-the-groundwork-for-6g/"
    ]
+  },
+  {
+   "id": "ericsson-ottawa",
+   "name": "Ericsson Ottawa R&D site",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "349 Terry Fox Drive, Kanata, Ottawa, ON K2K 2V6, Canada",
+   "lat": 45.3437,
+   "lng": -75.9311,
+   "precision": "Street address",
+   "website": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada",
+   "description": "Ericsson's largest R&D site in North America (about 1,700 staff), in the Kanata North tech park. End-to-end development and verification centre, home of the Ottawa Open Lab for Cloud RAN, and now focused on 6G and autonomous networks. Site lead: Tania Leppert (from 2026, succeeding Marcos Cavaletti).",
+   "sources": [
+    "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada",
+    "https://betakit.com/the-man-who-helped-build-five-generations-of-wireless-retires-from-ericssons-ottawa-lab/"
+   ]
+  },
+  {
+   "id": "ericsson-montreal",
+   "name": "Ericsson Montreal R&D centre and AI Hub",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "8275 route Transcanadienne, Saint-Laurent, QC H4S 0B6, Canada",
+   "lat": 45.4918,
+   "lng": -73.7262,
+   "precision": "Street address",
+   "website": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada",
+   "description": "Ericsson's Montreal R&D and services centre (1,000+ staff) and home of its Global AI Accelerator, now the Ericsson AI Hub Canada. Works on AI-powered network management, quantum communications, Cloud RAN, 5G Advanced and 6G.",
+   "sources": [
+    "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada",
+    "https://www.rcrwireless.com/20241111/featured/ericsson-invest-canada"
+   ]
+  },
+  {
+   "id": "ericsson-canada",
+   "name": "Ericsson Canada",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Mississauga, ON, Canada",
+   "lat": 43.589,
+   "lng": -79.6441,
+   "precision": "City",
+   "website": "https://www.ericsson.com/ca/en",
+   "description": "Ericsson's Canadian business: 3,100+ staff with R&D centres and offices in Ottawa, Montreal and the Toronto area (Mississauga). Investing over CAD 630M in Canadian R&D under a five-year Strategic Innovation Fund agreement (Nov 2024) covering 5G Advanced, 6G, AI, Cloud RAN and quantum. Multi-year 6G/AI partnership with the University of Toronto (Feb 2026) and the AWIN mission-critical wireless network with the Government of Canada (May 2026).",
+   "sources": [
+    "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada",
+    "https://ericsson.com/en/press-releases/6/2026/ericsson-and-the-university-of-toronto-join-forces-to-advance",
+    "https://www.ericsson.com/en/news/6/2026/ericsson-and-government-of-canada-join-forces"
+   ]
+  },
+  {
+   "id": "nokia-canada",
+   "name": "Nokia Canada Ottawa campus",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "600 March Road, Kanata North, Ottawa, ON, Canada",
+   "lat": 45.346,
+   "lng": -75.9213,
+   "precision": "Street address",
+   "website": "https://www.nokia.com/",
+   "description": "Nokia's main Canadian R&D site in the Kanata North tech park. Building a new 750,000 sq ft innovation campus (groundbreaking Nov 2025) for AI-powered networks, data centre networking, quantum-safe infrastructure, optics, IP routing and 6G. About 1,900 R&D staff in Ottawa, 2,500+ in Canada. Backed by the federal Strategic Innovation Fund.",
+   "sources": [
+    "https://www.nokia.com/newsroom/nokia-canada-breaks-ground-on-new-ottawa-innovation-campus-helping-to-shape-the-future-of-canadian-tech-leadership/",
+    "https://aimagazine.com/news/nokia-builds-canadian-r-d-hub-for-ai-quantum-and-6g"
+   ]
+  },
+  {
+   "id": "knba",
+   "name": "Kanata North Business Association (Kanata North Tech Park)",
+   "short": "",
+   "category": "Economic development & place",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Kanata North Tech Park, Ottawa, ON, Canada",
+   "lat": 45.3417,
+   "lng": -75.9156,
+   "precision": "City",
+   "website": "https://www.kanatanorthba.com/",
+   "description": "Business association for Kanata North, Canada's largest technology park (800+ companies), home to Nokia and Ericsson's Ottawa R&D sites. Designated a Special Economic District in 2021.",
+   "sources": [
+    "https://www.kanatanorthba.com/?p=8353",
+    "https://obj.ca/kelly-daize-has-high-hopes-for-tech-park/"
+   ]
+  },
+  {
+   "id": "nrc-canada",
+   "name": "National Research Council Canada (NRC)",
+   "short": "",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "1200 Montreal Road, Ottawa, ON, Canada",
+   "lat": 45.4455,
+   "lng": -75.6178,
+   "precision": "Campus",
+   "website": "https://nrc.canada.ca/",
+   "description": "Canada's national research organisation. Its High-throughput and Secure Networks (HTSN) Challenge program (2019 to 2026) developed next-generation network technology, including terahertz receivers for 6G, mmWave reconfigurable intelligent surfaces, photonics and optical satellite links.",
+   "sources": [
+    "https://nrc.canada.ca/en/stories/taking-leap-6g-technology",
+    "https://cnrc.canada.ca/index.php/en/research-development/research-collaboration/programs/high-throughput-secure-networks-challenge-program"
+   ]
+  },
+  {
+   "id": "ised",
+   "name": "Innovation, Science and Economic Development Canada (ISED)",
+   "short": "",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "235 Queen Street, Ottawa, ON, Canada",
+   "lat": 45.4205,
+   "lng": -75.7033,
+   "precision": "Street address",
+   "website": "https://ised-isde.canada.ca/",
+   "description": "Federal department for innovation, telecoms and spectrum. Funds Ericsson's and Nokia's Canadian R&D through the Strategic Innovation Fund and endorsed the international 6G principles in 2024.",
+   "sources": [
+    "https://www.canada.ca/en/innovation-science-economic-development/news/2024/02/government-of-canada-joins-international-partners-in-endorsing-shared-principles-for-6g.html",
+    "https://www.rcrwireless.com/20241111/featured/ericsson-invest-canada"
+   ]
+  },
+  {
+   "id": "carleton",
+   "name": "Carleton University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "1125 Colonel By Drive, Ottawa, ON, Canada",
+   "lat": 45.3876,
+   "lng": -75.696,
+   "precision": "Campus",
+   "website": "https://carleton.ca/",
+   "description": "Ottawa research university. Its Non-Terrestrial Networks Lab (Carleton-NTN), led by Halim Yanikomeroglu, works on 6G satellite, high-altitude platform and AI-enabled mega-constellation networks, and hosts industry partners including Ericsson.",
+   "sources": [
+    "https://carleton.ca/engineering-design/story/6g-networks-will-be-out-of-this-world/"
+   ]
+  },
+  {
+   "id": "uottawa",
+   "name": "University of Ottawa",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "75 Laurier Ave E, Ottawa, ON, Canada",
+   "lat": 45.4231,
+   "lng": -75.6831,
+   "precision": "Campus",
+   "website": "https://www.uottawa.ca/",
+   "description": "Ottawa research university. Home of the NETCORE lab (AI-enabled next-generation wireless) with partners including Ericsson, Nokia and Ciena, and NRC partner on terahertz receivers for 6G. Also runs a Kanata North campus.",
+   "sources": [
+    "https://www.uottawa.ca/research-innovation/connecting-masses",
+    "https://nrc.canada.ca/en/stories/taking-leap-6g-technology"
+   ]
+  },
+  {
+   "id": "uoft",
+   "name": "University of Toronto",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "10 King's College Road, Toronto, ON, Canada",
+   "lat": 43.66,
+   "lng": -79.3957,
+   "precision": "Campus",
+   "website": "https://www.utoronto.ca/",
+   "description": "Toronto research university. Its ECE Communications Group works on machine learning for wireless, joint sensing and communications, and massive random access. Signed a multi-year AI and next-generation mobile partnership with Ericsson in February 2026.",
+   "sources": [
+    "https://nextgalliance.org/6g_lab_surveys/university-of-toronto-wireless-communications-research/",
+    "https://www.ece.utoronto.ca/?p=47782"
+   ]
+  },
+  {
+   "id": "uwaterloo",
+   "name": "University of Waterloo",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "200 University Ave W, Waterloo, ON, Canada",
+   "lat": 43.4723,
+   "lng": -80.5449,
+   "precision": "Campus",
+   "website": "https://uwaterloo.ca/",
+   "description": "Research university in the Toronto–Waterloo corridor. Its Broadband Communications Research (BBCR) Lab works on 6G network architecture, intelligent network management, satellite networks and wireless security; the university is also a major quantum research centre.",
+   "sources": [
+    "https://uwaterloo.ca/broadband-communications-research-lab/blog",
+    "https://uwaterloo.ca/broadband-communications-research-lab/wzhuang/research"
+   ]
+  },
+  {
+   "id": "mcgill",
+   "name": "McGill University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "817 Sherbrooke St W, Montreal, QC, Canada",
+   "lat": 45.5048,
+   "lng": -73.5772,
+   "precision": "Campus",
+   "website": "https://www.mcgill.ca/",
+   "description": "Montreal research university with long-standing broadband wireless research, including dense and ultra-dense 5G-and-beyond access networks.",
+   "sources": [
+    "https://www.nserc-crsng.gc.ca/Chairholders-TitulairesDeChaire/Chairholder-Titulaire_eng.asp?pid=587"
+   ]
+  },
+  {
+   "id": "polymtl",
+   "name": "Polytechnique Montréal (Poly-Grames)",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "2500 Chemin de Polytechnique, Montreal, QC, Canada",
+   "lat": 45.5046,
+   "lng": -73.6131,
+   "precision": "Campus",
+   "website": "https://www.polymtl.ca/",
+   "description": "Engineering school whose Poly-Grames research centre (microwaves and space electronics) works on millimetre-wave and terahertz circuits, antennas and transceivers for 6G communication and sensing.",
+   "sources": [
+    "https://publications.polymtl.ca/80006/",
+    "https://www.polymtl.ca/carrefour-actualite/en/node/5655"
+   ]
+  },
+  {
+   "id": "ets",
+   "name": "École de technologie supérieure (ÉTS)",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "1100 Notre-Dame St W, Montreal, QC, Canada",
+   "lat": 45.4945,
+   "lng": -73.5622,
+   "precision": "Campus",
+   "website": "https://www.etsmtl.ca/",
+   "description": "Montreal engineering school. Home of Georges Kaddoum's research on 6G IoT networks and wireless security, and the Resilient Machine Learning Institute (ReMI) for tactical wireless networks.",
+   "sources": [
+    "https://engineerscanada.ca/awards2025/georges-kaddoum"
+   ]
+  },
+  {
+   "id": "nishant-grover",
+   "name": "Nishant Grover",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President, Ericsson Canada",
+   "org": "ericsson-canada",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "President of Ericsson Canada since July 2025, succeeding Jeanette Irekvist. Previously Head of Network Product Sales in Ericsson's AT&T customer unit.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/6/2025/nishant-grover-appointed-president-of-ericsson-canada"
+   ]
+  },
+  {
+   "id": "tania-leppert",
+   "name": "Tania Leppert",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Ericsson Ottawa Site; CTO, Ericsson Canada",
+   "org": "ericsson-ottawa",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Head of Ericsson's Ottawa R&D site, taking over from Marcos Cavaletti in 2026, and Chief Technology Officer of Ericsson Canada. 20+ years in R&D, sales, strategy and product management across North America, Asia and Europe. BEng and MEng, McGill; MBA, Maastricht.",
+   "sources": [
+    "https://betakit.com/the-man-who-helped-build-five-generations-of-wireless-retires-from-ericssons-ottawa-lab/",
+    "https://www.ivey.uwo.ca/lawrencecentre/2025-symposium-event-highlights/tania-leppert/"
+   ]
+  },
+  {
+   "id": "prasad-garigipati",
+   "name": "Prasad Garigipati",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Ericsson AI Hub Canada (Montreal)",
+   "org": "ericsson-montreal",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Heads Ericsson's AI Hub Canada in Montreal. Visited Carleton's Non-Terrestrial Networks Lab with the Ottawa leadership team in July 2026.",
+   "sources": [
+    "https://tr.linkedin.com/in/omertylmzz"
+   ]
+  },
+  {
+   "id": "jeffrey-maddox",
+   "name": "Jeffrey Maddox",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President, Nokia Canada",
+   "org": "nokia-canada",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "President of Nokia Canada, leading the new Ottawa innovation campus in Kanata North for AI-powered networks, quantum-safe infrastructure and 6G.",
+   "sources": [
+    "https://www.nokia.com/newsroom/nokia-canada-breaks-ground-on-new-ottawa-innovation-campus-helping-to-shape-the-future-of-canadian-tech-leadership/"
+   ]
+  },
+  {
+   "id": "david-heard",
+   "name": "David Heard",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President, Network Infrastructure, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "President of Nokia's Network Infrastructure business, which anchors the new Ottawa campus (optics, IP routing, data centre networks, quantum networking and AI-RAN/6G).",
+   "sources": [
+    "https://www.nokia.com/newsroom/nokia-canada-breaks-ground-on-new-ottawa-innovation-campus-helping-to-shape-the-future-of-canadian-tech-leadership/"
+   ]
+  },
+  {
+   "id": "kelly-daize",
+   "name": "Kelly Daize",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Director, Kanata North Business Association",
+   "org": "knba",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Executive Director of the Kanata North Business Association since June 2024. Former Invest Ottawa executive and co-founder of CENGN, Canada's centre of excellence in next-generation networks.",
+   "sources": [
+    "https://www.boyden.com/media/kanata-north-business-association-announces-new-executive-40602276/",
+    "https://obj.ca/kelly-daize-has-high-hopes-for-tech-park/"
+   ]
+  },
+  {
+   "id": "angela-gamouras",
+   "name": "Angela Gamouras",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Officer, NRC Quantum and Nanotechnologies Research Centre",
+   "org": "nrc-canada",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "NRC researcher leading terahertz receiver work for 6G under the High-throughput and Secure Networks Challenge program, with the University of Ottawa and OZ Optics.",
+   "sources": [
+    "https://cnrc.canada.ca/en/stories/taking-leap-6g-technology"
+   ]
+  },
+  {
+   "id": "halim-yanikomeroglu",
+   "name": "Halim Yanikomeroglu",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chancellor's Professor, Systems and Computer Engineering, Carleton University",
+   "org": "carleton",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Chancellor's Professor at Carleton and lead of the Carleton Non-Terrestrial Networks Lab, working on 6G satellite, high-altitude platform and AI-enabled mega-constellation networks. 2026 IEEE Canada R.A. Fessenden Award for pioneering 4G/5G/6G research. Prominent voice on Canada's 6G strategy.",
+   "sources": [
+    "https://carleton.ca/sce/2026/dr-halim-yanikomeroglu-a-leading-canadian-engineer-awarded-ieee-canadas-top-telecommunications-honour/",
+    "https://carleton.ca/engineering-design/story/6g-networks-will-be-out-of-this-world/"
+   ]
+  },
+  {
+   "id": "melike-erol-kantarci",
+   "name": "Melike Erol-Kantarci",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor and Canada Research Chair, University of Ottawa; Strategic Product Manager, AI RAN, Ericsson",
+   "org": "uottawa",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Full Professor and Canada Research Chair (Tier 2) in AI-Enabled Next-Generation Wireless Networks at the University of Ottawa, where she leads the NETCORE lab. Also Strategic Product Manager for AI in RAN at Ericsson. IEEE Fellow.",
+   "sources": [
+    "https://www.site.uottawa.ca/~merolka2",
+    "https://www.ericsson.com/en/blog/contributors/m-p/melike-erol-kantarci"
+   ]
+  },
+  {
+   "id": "wei-yu",
+   "name": "Wei Yu",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor and Canada Research Chair (Tier 1), ECE, University of Toronto",
+   "org": "uoft",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Professor and Tier 1 Canada Research Chair in Information Theory and Wireless Communications at the University of Toronto. Lab works on machine learning for wireless, joint sensing and communications, massive random access and 5G/6G cellular networks.",
+   "sources": [
+    "https://www.comm.utoronto.ca/~weiyu/",
+    "https://nextgalliance.org/6g_lab_surveys/university-of-toronto-wireless-communications-research/"
+   ]
+  },
+  {
+   "id": "weihua-zhuang",
+   "name": "Weihua Zhuang",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "University Professor and Canada Research Chair (Tier 1), ECE, University of Waterloo",
+   "org": "uwaterloo",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "University Professor and Tier 1 Canada Research Chair in wireless communication networks at Waterloo's BBCR Lab. Works on network architectures and intelligent network management for 6G.",
+   "sources": [
+    "https://uwaterloo.ca/broadband-communications-research-lab/wzhuang/research",
+    "https://uwaterloo.ca/broadband-communications-research-lab/blog"
+   ]
+  },
+  {
+   "id": "sherman-shen",
+   "name": "Xuemin (Sherman) Shen",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "University Professor Emeritus and Adjunct Professor, ECE, University of Waterloo",
+   "org": "uwaterloo",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Wireless networking pioneer at Waterloo's BBCR Lab, retired in 2026 and now University Professor Emeritus and Adjunct Professor. Past President of the IEEE Communications Society. 2026 IEEE Canada A.G.L. McNaughton Award.",
+   "sources": [
+    "https://uwaterloo.ca/electrical-computer-engineering/profile/sshen",
+    "https://uwaterloo.ca/broadband-communications-research-lab/blog"
+   ]
+  },
+  {
+   "id": "tho-le-ngoc",
+   "name": "Tho Le-Ngoc",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, McGill University",
+   "org": "mcgill",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "McGill professor working on broadband wireless access, transmission and resource allocation for dense 5G-and-beyond networks. Fellow of IEEE, the Royal Society of Canada and the Canadian Academy of Engineering.",
+   "sources": [
+    "https://rsc-src.ca/en/user/1839",
+    "https://www.nserc-crsng.gc.ca/Chairholders-TitulairesDeChaire/Chairholder-Titulaire_eng.asp?pid=587"
+   ]
+  },
+  {
+   "id": "ke-wu",
+   "name": "Ke Wu",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Electrical Engineering, Polytechnique Montréal (Poly-Grames)",
+   "org": "polymtl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Professor at Polytechnique Montréal's Poly-Grames centre, leading research on millimetre-wave and terahertz circuits, waveguides and large-array front-ends for 6G communication and sensing. IEEE Fellow.",
+   "sources": [
+    "https://publications.polymtl.ca/80006/",
+    "https://mtt.org/app/uploads/2025/04/05_GF_FR_JDeng.pdf"
+   ]
+  },
+  {
+   "id": "georges-kaddoum",
+   "name": "Georges Kaddoum",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor and Canada Research Chair, ÉTS Montréal",
+   "org": "ets",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Professor at ÉTS and Canada Research Chair in Unlocking the Power of IoT 6G-Networks. Co-founded the Resilient Machine Learning Institute (ReMI) for tactical wireless networks and worked with Ericsson Canada on security for NFV-based 5G networks.",
+   "sources": [
+    "https://engineerscanada.ca/awards2025/georges-kaddoum"
+   ]
   }
  ],
  "edges": [
@@ -11884,6 +12412,202 @@
    "type": "Event participation",
    "label": "Speaker (OCUDU), 25 Aug 2026",
    "source": "https://www.fedinsider.com/the-search-for-open-source-hardware/"
+  },
+  {
+   "from": "nishant-grover",
+   "to": "ericsson-canada",
+   "type": "Role",
+   "label": "President",
+   "source": "https://www.ericsson.com/en/press-releases/6/2025/nishant-grover-appointed-president-of-ericsson-canada"
+  },
+  {
+   "from": "tania-leppert",
+   "to": "ericsson-ottawa",
+   "type": "Role",
+   "label": "Head of Ottawa site",
+   "source": "https://betakit.com/the-man-who-helped-build-five-generations-of-wireless-retires-from-ericssons-ottawa-lab/"
+  },
+  {
+   "from": "prasad-garigipati",
+   "to": "ericsson-montreal",
+   "type": "Role",
+   "label": "Head of AI Hub Canada",
+   "source": "https://tr.linkedin.com/in/omertylmzz"
+  },
+  {
+   "from": "jeffrey-maddox",
+   "to": "nokia-canada",
+   "type": "Role",
+   "label": "President",
+   "source": "https://www.nokia.com/newsroom/nokia-canada-breaks-ground-on-new-ottawa-innovation-campus-helping-to-shape-the-future-of-canadian-tech-leadership/"
+  },
+  {
+   "from": "david-heard",
+   "to": "nokia",
+   "type": "Role",
+   "label": "President, Network Infrastructure",
+   "source": "https://www.nokia.com/newsroom/nokia-canada-breaks-ground-on-new-ottawa-innovation-campus-helping-to-shape-the-future-of-canadian-tech-leadership/"
+  },
+  {
+   "from": "kelly-daize",
+   "to": "knba",
+   "type": "Role",
+   "label": "Executive Director",
+   "source": "https://www.boyden.com/media/kanata-north-business-association-announces-new-executive-40602276/"
+  },
+  {
+   "from": "angela-gamouras",
+   "to": "nrc-canada",
+   "type": "Role",
+   "label": "Researcher, THz for 6G",
+   "source": "https://cnrc.canada.ca/en/stories/taking-leap-6g-technology"
+  },
+  {
+   "from": "halim-yanikomeroglu",
+   "to": "carleton",
+   "type": "Role",
+   "label": "Chancellor's Professor; lead, Carleton-NTN Lab",
+   "source": "https://carleton.ca/sce/2026/dr-halim-yanikomeroglu-a-leading-canadian-engineer-awarded-ieee-canadas-top-telecommunications-honour/"
+  },
+  {
+   "from": "melike-erol-kantarci",
+   "to": "uottawa",
+   "type": "Role",
+   "label": "Professor; Canada Research Chair; NETCORE lab",
+   "source": "https://www.site.uottawa.ca/~merolka2"
+  },
+  {
+   "from": "wei-yu",
+   "to": "uoft",
+   "type": "Role",
+   "label": "Professor; Canada Research Chair",
+   "source": "https://www.comm.utoronto.ca/~weiyu/"
+  },
+  {
+   "from": "weihua-zhuang",
+   "to": "uwaterloo",
+   "type": "Role",
+   "label": "University Professor; Canada Research Chair",
+   "source": "https://uwaterloo.ca/broadband-communications-research-lab/wzhuang/research"
+  },
+  {
+   "from": "sherman-shen",
+   "to": "uwaterloo",
+   "type": "Role",
+   "label": "Professor Emeritus; Adjunct Professor",
+   "source": "https://uwaterloo.ca/electrical-computer-engineering/profile/sshen"
+  },
+  {
+   "from": "tho-le-ngoc",
+   "to": "mcgill",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://rsc-src.ca/en/user/1839"
+  },
+  {
+   "from": "ke-wu",
+   "to": "polymtl",
+   "type": "Role",
+   "label": "Professor, Poly-Grames",
+   "source": "https://publications.polymtl.ca/80006/"
+  },
+  {
+   "from": "georges-kaddoum",
+   "to": "ets",
+   "type": "Role",
+   "label": "Professor; Canada Research Chair",
+   "source": "https://engineerscanada.ca/awards2025/georges-kaddoum"
+  },
+  {
+   "from": "ericsson-ottawa",
+   "to": "ericsson",
+   "type": "Partnership / project",
+   "label": "Ericsson R&D site (largest in North America)",
+   "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada"
+  },
+  {
+   "from": "ericsson-montreal",
+   "to": "ericsson",
+   "type": "Partnership / project",
+   "label": "Ericsson R&D centre and AI Hub Canada",
+   "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada"
+  },
+  {
+   "from": "ericsson-canada",
+   "to": "ericsson",
+   "type": "Partnership / project",
+   "label": "Canadian subsidiary",
+   "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada"
+  },
+  {
+   "from": "nokia-canada",
+   "to": "nokia",
+   "type": "Partnership / project",
+   "label": "Nokia Canada R&D campus",
+   "source": "https://www.nokia.com/newsroom/nokia-canada-breaks-ground-on-new-ottawa-innovation-campus-helping-to-shape-the-future-of-canadian-tech-leadership/"
+  },
+  {
+   "from": "ised",
+   "to": "ericsson-canada",
+   "type": "Funding",
+   "label": "Strategic Innovation Fund agreement: Ericsson investing CAD 630M+ in Canadian R&D (Nov 2024)",
+   "source": "https://www.rcrwireless.com/20241111/featured/ericsson-invest-canada"
+  },
+  {
+   "from": "ised",
+   "to": "nokia-canada",
+   "type": "Funding",
+   "label": "Strategic Innovation Fund support for the Ottawa campus",
+   "source": "https://builtin.com/articles/nokia-canada-breaks-ground-on-new-campus-in-ottawa-20251126"
+  },
+  {
+   "from": "ericsson-canada",
+   "to": "uoft",
+   "type": "Research together",
+   "label": "Multi-year partnership on AI-powered next-generation mobile R&D and talent (Feb 2026)",
+   "source": "https://ericsson.com/en/press-releases/6/2026/ericsson-and-the-university-of-toronto-join-forces-to-advance"
+  },
+  {
+   "from": "ericsson-ottawa",
+   "to": "carleton",
+   "type": "Research together",
+   "label": "Ottawa and Montreal leadership visited Carleton-NTN Lab (Jul 2026)",
+   "source": "https://tr.linkedin.com/in/omertylmzz"
+  },
+  {
+   "from": "nrc-canada",
+   "to": "uottawa",
+   "type": "Research together",
+   "label": "Compact terahertz receiver for 6G (HTSN program, with OZ Optics)",
+   "source": "https://cnrc.canada.ca/en/stories/taking-leap-6g-technology"
+  },
+  {
+   "from": "ericsson-ottawa",
+   "to": "knba",
+   "type": "Membership",
+   "label": "Kanata North Tech Park tenant",
+   "source": "https://obj.ca/kanata-north-business-association-searching-for-new-executive-director/"
+  },
+  {
+   "from": "nokia-canada",
+   "to": "knba",
+   "type": "Membership",
+   "label": "Kanata North Tech Park tenant; building new campus",
+   "source": "https://obj.ca/kanata-north-business-association-searching-for-new-executive-director/"
+  },
+  {
+   "from": "melike-erol-kantarci",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Strategic Product Manager, AI in RAN",
+   "source": "https://www.ericsson.com/en/blog/contributors/m-p/melike-erol-kantarci"
+  },
+  {
+   "from": "georges-kaddoum",
+   "to": "ericsson-canada",
+   "type": "Research together",
+   "label": "Intelligent distributed security for NFV-based 5G networks",
+   "source": "https://engineerscanada.ca/awards2025/georges-kaddoum"
   }
  ]
 }
