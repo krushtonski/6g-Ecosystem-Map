@@ -2779,14 +2779,16 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: University panel.",
-   "role": "Professor, UT Austin",
+   "description": "Joined UT Austin, 6G@UT and WNCG in autumn 2024 after 15 years as a professor at Northeastern. Directs the GENESYS Lab. Co-PI of NSF Colosseum and worked on the PAWR Project Office. Leads 6G@UT digital twin work with Keysight. Research on O-RAN, reconfigurable intelligent surfaces and machine learning for spectrum. Speaker at the Brooklyn 6G Summit 2026 (Nov 5: University panel).",
+   "role": "Chandra Family Endowed Distinguished Professor, ECE, UT Austin; Director, GENESYS Lab",
    "org": "ut-austin",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "sources": [
+    "https://wncg.org/news/kaushik-chowdhury-joins-ut-austin-and-6gut",
+    "https://wncg.org/people/faculty/kaushik-chowdhury",
     "https://b6gs.com/agenda"
    ]
   },
@@ -4831,7 +4833,7 @@
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "COE Distinguished Professor, ECE; Associate Dean of Research, College of Engineering, Northeastern University",
+   "role": "COE Distinguished Professor, ECE; Co-Director, Institute for Intelligent Networked Systems; Associate Dean of Research, College of Engineering, Northeastern University",
    "org": "northeastern",
    "address": "",
    "lat": null,
@@ -4840,7 +4842,7 @@
    "id": "josep-jornet",
    "name": "Josep Jornet",
    "category": "Person",
-   "description": "Terahertz communications researcher for 6G, at Northeastern's Institute for Intelligent Networked Systems (TeraNova testbed). Associate Dean of Research for the College of Engineering. Co-PI with Francesco Restuccia on the NSF DHARMA.AI AI-ready testbed planning grant.",
+   "description": "Terahertz communications researcher for 6G and co-director of Northeastern's Institute for Intelligent Networked Systems (TeraNova testbed). Associate Dean of Research for the College of Engineering. Co-PI with Francesco Restuccia on the NSF DHARMA.AI AI-ready testbed planning grant.",
    "sources": [
     "https://coe.northeastern.edu/?p=1113",
     "https://coe.northeastern.edu/news/building-the-future-of-ai-ready-wireless-testbeds/"
@@ -8188,6 +8190,60 @@
     "https://coe.northeastern.edu/people/basagni-stefano",
     "https://ece.northeastern.edu/wineslab/papers/villa2023dt.pdf"
    ]
+  },
+  {
+   "id": "northeastern-london",
+   "name": "Northeastern University London (INSI London hub)",
+   "short": "Northeastern London",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "One Portsoken, Portsoken Street, London E1 8BT, UK",
+   "lat": 51.5124,
+   "lng": -0.0734,
+   "precision": "Street address",
+   "description": "London hub of Northeastern's Institute for Intelligent Networked Systems, launched January 2026 and its first research office outside the US. Works on next-generation connectivity, AI for wireless and brain-inspired communications for 6G (NeuroComm), networked machine learning (FreeML) and reliable AI for wireless (CONTRACT). Funders include EPSRC, ERC, Horizon Europe, Innovate UK and ARIA.",
+   "sources": [
+    "https://www.nulondon.ac.uk/research/intelligent-networked-systems/",
+    "https://coe.northeastern.edu/news/innovation-across-the-sea-londons-new-ins-hub/"
+   ]
+  },
+  {
+   "id": "osvaldo-simeone",
+   "name": "Osvaldo Simeone",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Information Engineering; Co-Director, Intelligent Networked Systems Institute, Northeastern University London",
+   "org": "northeastern-london",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-directs INSI at Northeastern University London. Leads the FreeML and CONTRACT projects on networked and reliable machine learning for wireless, and co-leads NeuroComm on brain-inspired communications for 6G. Visiting Professor at Aalborg University.",
+   "sources": [
+    "https://coe.northeastern.edu/people/simeone-osvaldo/",
+    "https://www.nulondon.ac.uk/research/intelligent-networked-systems/"
+   ]
+  },
+  {
+   "id": "bipin-rajendran",
+   "name": "Bipin Rajendran",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Intelligent Computing Systems, Intelligent Networked Systems Institute, Northeastern University London",
+   "org": "northeastern-london",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Professor at the INSI London hub working on neuromorphic and brain-inspired computing hardware. Co-leads NeuroComm with Osvaldo Simeone on brain-inspired wireless communications for 6G and beyond.",
+   "sources": [
+    "https://coe.northeastern.edu/people/rajendran-bipin",
+    "https://www.nulondon.ac.uk/research/intelligent-networked-systems/"
+   ]
   }
  ],
  "edges": [
@@ -9840,8 +9896,8 @@
    "from": "kaushik-chowdhury",
    "to": "ut-austin",
    "type": "Role",
-   "label": "Professor",
-   "source": "https://b6gs.com/agenda"
+   "label": "Chandra Family Endowed Distinguished Professor; Director, GENESYS Lab",
+   "source": "https://wncg.org/people/faculty/kaushik-chowdhury"
   },
   {
    "from": "gerhard-fettweis",
@@ -11366,7 +11422,7 @@
    "from": "josep-jornet",
    "to": "northeastern",
    "type": "Role",
-   "label": "COE Distinguished Professor; Associate Dean of Research",
+   "label": "COE Distinguished Professor; Co-Director, INSI; Associate Dean of Research",
    "source": "https://ece.northeastern.edu/?p=5824"
   },
   {
@@ -13146,6 +13202,41 @@
    "type": "Role",
    "label": "Director (INSI); OTIC contact",
    "source": "https://www.o-ran.org/otics/north-american-otic-in-the-boston-area-northeastern-university"
+  },
+  {
+   "from": "osvaldo-simeone",
+   "to": "northeastern-london",
+   "type": "Role",
+   "label": "Co-Director, INSI London",
+   "source": "https://coe.northeastern.edu/people/simeone-osvaldo/"
+  },
+  {
+   "from": "bipin-rajendran",
+   "to": "northeastern-london",
+   "type": "Role",
+   "label": "Professor of Intelligent Computing Systems",
+   "source": "https://coe.northeastern.edu/people/rajendran-bipin"
+  },
+  {
+   "from": "northeastern",
+   "to": "northeastern-london",
+   "type": "Partnership / project",
+   "label": "INSI London hub, launched January 2026; first INSI research office outside the US",
+   "source": "https://coe.northeastern.edu/news/innovation-across-the-sea-londons-new-ins-hub/"
+  },
+  {
+   "from": "kaushik-chowdhury",
+   "to": "northeastern",
+   "type": "Research together",
+   "label": "Professor at Northeastern for 15 years until 2024; co-PI of NSF Colosseum; PAWR Project Office",
+   "source": "https://wncg.org/news/kaushik-chowdhury-joins-ut-austin-and-6gut"
+  },
+  {
+   "from": "osvaldo-simeone",
+   "to": "bipin-rajendran",
+   "type": "Research together",
+   "label": "Co-lead NeuroComm: brain-inspired wireless communications for 6G",
+   "source": "https://www.nulondon.ac.uk/research/intelligent-networked-systems/"
   }
  ]
 }
