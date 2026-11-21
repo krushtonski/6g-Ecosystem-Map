@@ -54,6 +54,10 @@ select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);ba
 #geo{position:absolute;inset:0}
 .leaflet-container{background:#fff;font:13px var(--body)}
 .plc{font:600 11px var(--body);color:#b3bcc5;white-space:nowrap;transform:translate(-50%,-50%);pointer-events:none;letter-spacing:.02em}
+.cty{font:500 10.5px var(--body);color:#8a949e;white-space:nowrap;pointer-events:none;transform:translate(-3px,-50%)}
+.cty::before{content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background:#a3adb7;margin-right:4px;vertical-align:middle}
+.cty.cap{font-weight:650;color:#6b7580}
+.cty.cap::before{width:5px;height:5px;background:#7d8791}
 .geobar{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:500;display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:4px}
 .geobar button,.zoombtns button,.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;font:600 12.5px var(--body);padding:5px 10px;cursor:pointer}
 .geobar .sep{width:1px;background:var(--line);margin:2px 4px}
@@ -247,22 +251,37 @@ function pinIcon(n,faded){
 }
 function buildGeo(){
   geo = L.map("geo",{zoomControl:true,worldCopyJump:true,minZoom:2});
-  // Very basic basemap: faint coastline, country and US state lines only. No streets, no tiles.
+  // Basic basemap: coastline, country borders, state and province lines, city names. No streets, no tiles.
   geo.setMaxZoom(12);
-  geo.attributionControl.addAttribution('Boundaries: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, US Census');
+  geo.attributionControl.addAttribution('Boundaries and cities: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, US Census');
   geo.createPane("base"); geo.getPane("base").style.zIndex=200;
+  geo.createPane("labels"); geo.getPane("labels").style.zIndex=250; geo.getPane("labels").style.pointerEvents="none";
+  const cityLayer=L.layerGroup().addTo(geo); let CITIES=[];
+  const drawCities=()=>{
+    cityLayer.clearLayers(); const z=geo.getZoom(); if(z>=9) return;
+    const b=geo.getBounds().pad(.05), taken=[];
+    // Capitals first, then by population; skip any label that would overlap one already drawn.
+    for(const [t,la,lo,mz,cap,pop] of CITIES){
+      if(!b.contains([la,lo])) continue;
+      if(!(mz<=z+1.5 || (cap&&z>=3) || (z>=6&&pop>=150000) || (z>=7&&pop>=50000))) continue;
+      const pt=geo.latLngToContainerPoint([la,lo]), w=t.length*6.2+14, box=[pt.x-4,pt.y-8,pt.x+w,pt.y+8];
+      if(taken.some(q=>box[0]<q[2]&&box[2]>q[0]&&box[1]<q[3]&&box[3]>q[1])) continue;
+      taken.push(box);
+      cityLayer.addLayer(L.marker([la,lo],{interactive:false,keyboard:false,pane:"labels",icon:L.divIcon({className:"cty"+(cap?" cap":""),iconSize:null,html:esc(t)})}));
+    }
+  };
   fetch("data/basemap.json").then(r=>r.json()).then(bm=>{
     const o={pane:"base",interactive:false};
-    L.geoJSON(bm.coast,{...o,style:{color:"#d3d9df",weight:.8}}).addTo(geo);
-    L.geoJSON(bm.borders,{...o,style:{color:"#e9edf0",weight:.6}}).addTo(geo);
-    const st=L.geoJSON(bm.states,{...o,style:{color:"#eef1f3",weight:.6,fill:false}});
-    const co=L.geoJSON(bm.counties,{...o,style:{color:"#e8ecef",weight:.6,fill:false}});
-    const upd=()=>{ const z=geo.getZoom(); z>=4?st.addTo(geo):st.remove(); co.remove(); };
+    L.geoJSON(bm.coast,{...o,style:{color:"#c3cbd3",weight:.9}}).addTo(geo);
+    L.geoJSON(bm.borders,{...o,style:{color:"#aab4be",weight:1}}).addTo(geo);
+    const st=L.geoJSON(bm.states,{...o,style:{color:"#cfd6dd",weight:.7,dashArray:"3 3",fill:false}});
+    const upd=()=>{ geo.getZoom()>=3?st.addTo(geo):st.remove(); };
     geo.on("zoomend",upd); upd();
+    CITIES=bm.cities||[]; drawCities(); geo.on("moveend",drawCities);
   }).catch(()=>{});
-  // A few place names, only when zoomed into the DC region
+  // Neighbourhood names, only when zoomed into the DC region
   const PLACES=[["Washington, DC",38.9072,-77.0369],["Alexandria",38.8048,-77.0469],["Arlington",38.8816,-77.0910],["McLean",38.9339,-77.1773],["Fairfax",38.8462,-77.3064],["Reston",38.9586,-77.3570],["Bethesda",38.9847,-77.0947]];
-  const plc=L.layerGroup(PLACES.map(([t,la,lo])=>L.marker([la,lo],{interactive:false,keyboard:false,pane:"base",icon:L.divIcon({className:"plc",iconSize:null,html:esc(t)})})));
+  const plc=L.layerGroup(PLACES.map(([t,la,lo])=>L.marker([la,lo],{interactive:false,keyboard:false,pane:"labels",icon:L.divIcon({className:"plc",iconSize:null,html:esc(t)})})));
   geo.on("zoomend",()=>{ geo.getZoom()>=9?plc.addTo(geo):plc.remove(); });
   geo.fitBounds(EXT.world);
   cluster = L.markerClusterGroup({disableClusteringAtZoom:10,maxClusterRadius:45,showCoverageOnHover:false,spiderfyOnMaxZoom:true,
