@@ -5494,7 +5494,7 @@
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "SVP, Samsung Research America; Head of Samsung Research 6G Team",
+   "role": "Executive Vice President, Samsung Research America; Head of Samsung Research 6G Team",
    "org": "samsung",
    "address": "",
    "lat": null,
@@ -5503,9 +5503,10 @@
    "id": "charlie-zhang",
    "name": "Charlie Zhang",
    "category": "Person",
-   "description": "SVP at Samsung Research America and head of Samsung Research's 6G team, which publishes Samsung's 6G white papers. Vice Chair of the Next G Alliance Full Member Group. Former 3GPP RAN WG1 vice chair. IEEE Fellow.",
+   "description": "SVP at Samsung Research America and head of Samsung Research's 6G team, which publishes Samsung's 6G white papers. Vice Chair of the Next G Alliance Full Member Group. Former 3GPP RAN WG1 vice chair. IEEE Fellow. Quoted as Samsung Executive Vice President on the July 2026 Verizon ISAC trial in Dallas.",
    "sources": [
-    "https://research.samsung.com/news/Samsung-s-Leadership-in-Next-Generation-Communications-and-AI"
+    "https://research.samsung.com/news/Samsung-s-Leadership-in-Next-Generation-Communications-and-AI",
+    "https://www.telecomtv.com/content/6g/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event-56243/"
    ]
   },
   {
@@ -8243,6 +8244,671 @@
    "sources": [
     "https://coe.northeastern.edu/people/rajendran-bipin",
     "https://www.nulondon.ac.uk/research/intelligent-networked-systems/"
+   ]
+  },
+  {
+   "id": "6g-ut",
+   "name": "6G@UT Research Center",
+   "short": "6G@UT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Engineering Education and Research Center, 2501 Speedway, Austin, TX 78712",
+   "lat": 30.2881,
+   "lng": -97.7354,
+   "precision": "Street address",
+   "description": "6G research centre within UT Austin's Wireless Networking and Communications Group (WNCG), launched in 2021 and directed by Jeff Andrews. Works on machine learning for wireless, sensing and localisation, and network intelligence. Founding affiliates: Samsung, AT&T, NVIDIA, Qualcomm and InterDigital; Ericsson joined in 2022.",
+   "sources": [
+    "https://wncg.org/about-6gut",
+    "https://wncg.org/news/wncg-launches-6gut-research-center",
+    "https://www.rcrwireless.com/20221011/6g/ericsson-expands-6g-collaboration-university-texas"
+   ]
+  },
+  {
+   "id": "ericsson-austin",
+   "name": "Ericsson Austin R&D Center",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Downtown Austin, TX",
+   "lat": 30.2672,
+   "lng": -97.7431,
+   "precision": "City",
+   "description": "Ericsson's Austin R&D Center, opened in 2017 with 250+ staff. Teams in semiconductor (ASIC), software and AI design the silicon and hardware for Ericsson radio networks, and are developing next-generation architectures for 6G.",
+   "sources": [
+    "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/united-states/austin-rd-center",
+    "https://www.ericsson.com/en/blog/north-america/2026/ericsson-research-and-development-in-the-us"
+   ]
+  },
+  {
+   "id": "samsung-sra-plano",
+   "name": "Samsung Research America (Plano, TX)",
+   "short": "SRA Plano",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "6105 Tennyson Pkwy, Suite 300, Plano, TX 75024",
+   "lat": 33.0768,
+   "lng": -96.8236,
+   "precision": "Street address",
+   "description": "Samsung Research America's Plano site, home of its Standards and Mobility Innovation (SMI) lab: 5G/6G research, prototyping and 3GPP standards work, including AI-native wireless and sensing.",
+   "sources": [
+    "https://aijobs.app/senior-research-engineer-ai-wireless-samsung-research-america-5316639",
+    "https://sra.samsung.com/?p=782"
+   ]
+  },
+  {
+   "id": "verizon-6g-forum",
+   "name": "Verizon 6G Innovation Forum",
+   "short": "",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Verizon-led consortium on 6G use cases and research. Samsung is a founding member. In July 2026 Verizon and Samsung ran an AI-powered ISAC (integrated sensing and communication) crowd-sensing field trial over virtualised RAN at a soccer fan event in Dallas.",
+   "sources": [
+    "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event",
+    "https://www.telecomtv.com/content/6g/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event-56243/"
+   ]
+  },
+  {
+   "id": "gatech",
+   "name": "Georgia Tech (Center for Wireless Intelligence)",
+   "short": "Georgia Tech",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Georgia Institute of Technology, Atlanta, GA 30332",
+   "lat": 33.7756,
+   "lng": -84.3963,
+   "precision": "Campus",
+   "description": "Georgia Tech's Center for Wireless Intelligence (CWI), launched in 2025, runs an outdoor urban wireless testbed for 6G research, including integrated sensing and communication (ISAC), and supports research through prototyping to domestic production.",
+   "sources": [
+    "https://wireless.research.gatech.edu",
+    "https://ece.gatech.edu/news/2025/11/momentum-builds-futureg-wireless-communications-launch-new-research-center"
+   ]
+  },
+  {
+   "id": "princeton",
+   "name": "Princeton University (NextG Initiative)",
+   "short": "Princeton NextG",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Princeton University, Princeton, NJ 08544",
+   "lat": 40.3431,
+   "lng": -74.6551,
+   "precision": "Campus",
+   "description": "Princeton's NextG Initiative, formed in 2023, links faculty and a corporate affiliates programme on wireless, terahertz integrated circuits, networking and cloud. Affiliates include Samsung Research America, Ericsson, Intel, MediaTek, Nokia Bell Labs, Qualcomm and Vodafone.",
+   "sources": [
+    "https://nextg.princeton.edu/corporate-program/meet-your-faculty-leaders/",
+    "https://news.samsung.com/us/samsung-princeton-university-partners-pave-way-6g-innovation/"
+   ]
+  },
+  {
+   "id": "purdue",
+   "name": "Purdue University (NextG Center)",
+   "short": "Purdue",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Purdue University, West Lafayette, IN 47907",
+   "lat": 40.4237,
+   "lng": -86.9212,
+   "precision": "Campus",
+   "description": "Purdue's NextG Center for Communications and Sensing (XGC) works on massive and cell-free MIMO, reconfigurable intelligent surfaces, machine learning for wireless, and rural access. Purdue Research Foundation's Lab to Life zone in the Discovery Park District is a 6G deployment testbed.",
+   "sources": [
+    "https://engineering.purdue.edu/XGC",
+    "https://nextgalliance.org/6g_lab_surveys/purdue-university-nextg-center-for-communications-and-sensing"
+   ]
+  },
+  {
+   "id": "northwestern",
+   "name": "Northwestern University",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Northwestern University, Evanston, IL 60208",
+   "lat": 42.0565,
+   "lng": -87.6753,
+   "precision": "Campus",
+   "description": "Northwestern's ECE department works on spectrum management and wireless networking for NextG. Its faculty take part in the NSF SpectrumX centre, with Michael Honig as SpectrumX research director.",
+   "sources": [
+    "https://mccormick.northwestern.edu/electrical-computer/news-events/news/articles/2021/changing-how-the-radio-spectrum-is-managed.html",
+    "https://nextgalliance.org/6g_lab_surveys/communications-and-networking-laboratory"
+   ]
+  },
+  {
+   "id": "cablelabs",
+   "name": "CableLabs",
+   "short": "",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "858 Coal Creek Circle, Louisville, CO 80027",
+   "lat": 39.9692,
+   "lng": -105.1386,
+   "precision": "Street address",
+   "description": "Cable industry R&D consortium. Its Advanced Wireless Lab works on 5G/6G architecture, mobile and cable convergence, and contributes to 3GPP 6G study work so broadband-centric deployment models are reflected in the 6G standard.",
+   "sources": [
+    "https://www.cablelabs.com/blog/why-the-6g-study-phase-matters-now",
+    "https://nextgalliance.org/6g_lab_surveys/advanced-wireless-lab"
+   ]
+  },
+  {
+   "id": "inl",
+   "name": "Idaho National Laboratory (INL)",
+   "short": "INL",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "1955 N Fremont Ave, Idaho Falls, ID 83415",
+   "lat": 43.5181,
+   "lng": -112.0471,
+   "precision": "Street address",
+   "description": "DOE national laboratory. Its Wireless Security Institute leads FutureG/6G security research, and it runs the first security-focused open-air 5G wireless test range, spread across the 890-square-mile INL Site. Industry partners include Nokia, Qualcomm, Cisco, Verizon and InterDigital.",
+   "sources": [
+    "https://inl.gov/wireless-security-institute/",
+    "https://inl.gov/article/nations-first-security-focused-5g-wireless-test-range-opens-in-idaho/"
+   ]
+  },
+  {
+   "id": "todd-humphreys",
+   "name": "Todd Humphreys",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Aerospace Engineering, UT Austin; 6G@UT faculty",
+   "org": "6g-ut",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "6G@UT faculty member working on localisation, GNSS and sensing for 6G.",
+   "sources": [
+    "https://cockrell.utexas.edu/?p=23696"
+   ]
+  },
+  {
+   "id": "sanjay-shakkottai",
+   "name": "Sanjay Shakkottai",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, UT Austin; 6G@UT faculty",
+   "org": "6g-ut",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "6G@UT faculty member working on machine learning and network algorithms for wireless.",
+   "sources": [
+    "https://cockrell.utexas.edu/?p=23696"
+   ]
+  },
+  {
+   "id": "gustavo-de-veciana",
+   "name": "Gustavo de Veciana",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, UT Austin; 6G@UT faculty",
+   "org": "6g-ut",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "6G@UT faculty member working on wireless network design and performance.",
+   "sources": [
+    "https://cockrell.utexas.edu/?p=23696"
+   ]
+  },
+  {
+   "id": "hyeji-kim",
+   "name": "Hyeji Kim",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor, ECE, UT Austin; 6G@UT faculty",
+   "org": "6g-ut",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "6G@UT faculty member working on deep learning for communications and coding.",
+   "sources": [
+    "https://cockrell.utexas.edu/?p=23696"
+   ]
+  },
+  {
+   "id": "jeongho-jeon",
+   "name": "Jeongho Jeon",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Engineering Manager, Standards and Mobility Innovation Lab, Samsung Research America; Vice Chair, Next G Alliance Technology Working Group",
+   "org": "samsung-sra-plano",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Samsung Research America 6G research on terahertz, non-terrestrial networks, AI-empowered air interface, shared spectrum and mesh networks. Vice Chair of the ATIS Next G Alliance Technology Working Group.",
+   "sources": [
+    "https://research.samsung.com/news/Jeongho-Jeon-JJ-of-Samsung-Research-America-elected-as-Vice-Chair-of-ATIS-Next-G-Alliance-Technology-Working-Group"
+   ]
+  },
+  {
+   "id": "aris-papasakellariou",
+   "name": "Aris Papasakellariou",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President, Standards and Mobility Innovation Team, Samsung Research America",
+   "org": "samsung-sra-plano",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Vice President leading Samsung Research America's 3GPP standards work, now focused on 6G.",
+   "sources": [
+    "https://research.samsung.com/srTalks/-SR-Talks-Interview-with-a-3GPP-Standardization-Expert-at-Samsung-Research-America"
+   ]
+  },
+  {
+   "id": "eko-onggosanusi",
+   "name": "Eko Onggosanusi",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Principal Engineer; Project Lead, Next-Generation Communication Standards, Samsung Research America",
+   "org": "samsung-sra-plano",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Samsung's next-generation communication standards project and coordinates Samsung's 3GPP MIMO standardisation worldwide. 3GPP MIMO rapporteur since 2015.",
+   "sources": [
+    "https://research.samsung.com/srTalks/-SR-Talks-Interview-with-a-Next-Gen-Communication-Standards-Expert-at-Samsung-Research-America"
+   ]
+  },
+  {
+   "id": "gary-xu",
+   "name": "Gary Xu",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President of Research, Standards and Mobility Innovation, Samsung Research America",
+   "org": "samsung-sra-plano",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Samsung Research America's beyond-5G and 6G technology development, focused on massive MIMO and mmWave systems.",
+   "sources": [
+    "https://research.samsung.com/news/Gary-Xu-of-Samsung-Research-America-Receives-the-IEEE-ISSCC-Outstanding-Forum-Speaker-Award",
+    "https://6g.ucsd.edu/node/261"
+   ]
+  },
+  {
+   "id": "ardavan-tehrani",
+   "name": "Ardavan Tehrani",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Engineering, Samsung Research America; Vice Chair, AI-RAN Alliance Board",
+   "org": "samsung",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Director of Engineering at Samsung Research America, re-elected Vice Chair of the AI-RAN Alliance Board of Directors.",
+   "sources": [
+    "https://research.samsung.com/news/Samsung-Researcher-Re-elected-as-Vice-Chair-of-the-AI-RAN-Alliance-Board-of-Directors"
+   ]
+  },
+  {
+   "id": "ozge-koymen",
+   "name": "Ozge Koymen",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President of Technology, Qualcomm",
+   "org": "qualcomm",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Qualcomm technology lead (with the company since 2006). Speaker on 6G at the 2026 Princeton NextG Symposium.",
+   "sources": [
+    "https://nextg.princeton.edu/2026-annual-princeton-nextg-symposium-program/"
+   ]
+  },
+  {
+   "id": "xinyu-zhang",
+   "name": "Xinyu Zhang",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Ericsson Endowed Chair Professor, ECE, UC San Diego; Director, Center for Wireless Communications",
+   "org": "ucsd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs UCSD's Center for Wireless Communications. His lab works on intelligent reflecting surfaces, mmWave and sub-THz communication and sensing, upper mid-band 6G networks, 6G testbeds and AI-native networks.",
+   "sources": [
+    "https://nextgalliance.org/6g_lab_surveys/university-of-california-san-diego-professor-xinyu-zhangs-lab",
+    "https://attend.ieee.org/sg6gws/?p=339"
+   ]
+  },
+  {
+   "id": "gabriel-rebeiz",
+   "name": "Gabriel Rebeiz",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Professor, ECE, UC San Diego",
+   "org": "ucsd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Pioneer of low-cost silicon phased arrays. His group built the first 2-D 8x8 transmit-receive phased array at 140 GHz (D-band) for 6G and works on FR3 phased arrays. Member of the National Academy of Engineering.",
+   "sources": [
+    "https://cwc.ucsd.edu/node/389",
+    "https://ims-ieee.org/technical-program-view/2397"
+   ]
+  },
+  {
+   "id": "dinesh-bharadia",
+   "name": "Dinesh Bharadia",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor, ECE, UC San Diego",
+   "org": "ucsd",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Wireless systems researcher at UCSD working on full-duplex, sensing and mmWave networks.",
+   "sources": [
+    "https://bioee.ucsd.edu/papers/Integrated%20Circuits%20for%20Wireless%20Communications-%20Research%20Activities%20at%20the%20University%20of%20California,%20San%20Diego%20-%20Rebeiz%20(Microwave%20Magazine,%202023).pdf"
+   ]
+  },
+  {
+   "id": "kuntal-chowdhury",
+   "name": "Kuntal Chowdhury",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "AI-RAN and 6G Developer Relations, NVIDIA",
+   "org": "nvidia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads NVIDIA developer relations for AI-RAN and 6G. Speaker at the 2026 Princeton NextG Symposium.",
+   "sources": [
+    "https://nextg.princeton.edu/2026-symposium-speakers"
+   ]
+  },
+  {
+   "id": "faramarz-fekri",
+   "name": "Faramarz Fekri",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, Georgia Tech; Co-Director, Center for Wireless Intelligence",
+   "org": "gatech",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-director and founding co-chair of Georgia Tech's Center for Wireless Intelligence, working on FutureG connected intelligence.",
+   "sources": [
+    "https://ece.gatech.edu/news/2025/11/momentum-builds-futureg-wireless-communications-launch-new-research-center"
+   ]
+  },
+  {
+   "id": "karthikeyan-sundaresan",
+   "name": "Karthikeyan Sundaresan",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, Georgia Tech; Co-Director, Center for Wireless Intelligence",
+   "org": "gatech",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-director and founding co-chair of Georgia Tech's Center for Wireless Intelligence, focused on wireless infrastructure and testbeds for low-latency, high-capacity 6G.",
+   "sources": [
+    "https://ece.gatech.edu/news/2025/11/momentum-builds-futureg-wireless-communications-launch-new-research-center"
+   ]
+  },
+  {
+   "id": "sriram-vishwanath",
+   "name": "Sriram Vishwanath",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "GRA Eminent Scholar and Ken Byers Chair, ECE, Georgia Tech; founding co-chair, Center for Wireless Intelligence",
+   "org": "gatech",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Joined Georgia Tech in 2025 (previously UT Austin). Founding co-chair of the Center for Wireless Intelligence, working on wireless systems, decentralised infrastructure and AI, and a mentor to 5G/6G deep-tech start-ups.",
+   "sources": [
+    "https://ece.gatech.edu/news/2025/12/sriram-vishwanath-joins-georgia-tech-ece-gra-eminent-scholar-and-ken-byers-chair"
+   ]
+  },
+  {
+   "id": "kaushik-sengupta",
+   "name": "Kaushik Sengupta",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, Princeton; Co-Director, Princeton NextG",
+   "org": "princeton",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-director of Princeton NextG. Works on RF-to-terahertz-to-photonics integrated circuits. Co-leads RFIC design on the NTIA-funded SALSA upper mid-band project with NYU.",
+   "sources": [
+    "https://nextg.princeton.edu/corporate-program/meet-your-faculty-leaders/",
+    "https://engineering.princeton.edu/news/2026/05/27/nextg-symposium-highlights-teamwork-needed-transformative-technology",
+    "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
+   ]
+  },
+  {
+   "id": "yasaman-ghasempour",
+   "name": "Yasaman Ghasempour",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Professor, ECE, Princeton; Co-Director, Princeton NextG",
+   "org": "princeton",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-director of Princeton NextG and its industry affiliates programme. Works on terahertz and mmWave wireless networking and sensing. 2026 Sloan Research Fellow.",
+   "sources": [
+    "https://nextg.princeton.edu/corporate-program/meet-your-faculty-leaders/"
+   ]
+  },
+  {
+   "id": "david-love",
+   "name": "David J. Love",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Nick Trbovich Professor of ECE, Purdue; Director, NextG Center for Communications and Sensing",
+   "org": "purdue",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs Purdue's NextG Center for Communications and Sensing (XGC). Named to the Next G Alliance Research Council in March 2026.",
+   "sources": [
+    "https://engineering.purdue.edu/ECE/News/2026/purdue-ece-prof-david-love-named-to-next-g-alliance-research-council-advancing-6g-strategy",
+    "https://engineering.purdue.edu/XGC"
+   ]
+  },
+  {
+   "id": "chih-chun-wang",
+   "name": "Chih-Chun Wang",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, Purdue; Associate Director, NextG Center",
+   "org": "purdue",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Associate Director of Purdue's NextG Center for Communications and Sensing.",
+   "sources": [
+    "https://engineering.purdue.edu/XGC"
+   ]
+  },
+  {
+   "id": "christopher-brinton",
+   "name": "Christopher Brinton",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, Purdue; NextG Center member",
+   "org": "purdue",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Member of Purdue's NextG Center working on machine learning for networks. Lead author of 'Key Focus Areas and Enabling Technologies for 6G' with Ericsson, Dell and others.",
+   "sources": [
+    "https://engineering.purdue.edu/XGC",
+    "https://arxiv.org/html/2412.07029v1"
+   ]
+  },
+  {
+   "id": "michael-honig",
+   "name": "Michael Honig",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE, Northwestern; Research Director, NSF SpectrumX",
+   "org": "northwestern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Research Director of SpectrumX, the NSF centre on radio spectrum management led by Notre Dame.",
+   "sources": [
+    "https://mccormick.northwestern.edu/electrical-computer/news-events/news/articles/2021/changing-how-the-radio-spectrum-is-managed.html"
+   ]
+  },
+  {
+   "id": "mark-poletti",
+   "name": "Mark Poletti",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director, CableLabs",
+   "org": "cablelabs",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Senior director at CableLabs who speaks on spectrum and 6G for the cable industry.",
+   "sources": [
+    "https://www.cablelabs.com/news/cablelabs-and-scte-to-address-spectrum-6g-and-network-security-at-cowa-con"
+   ]
+  },
+  {
+   "id": "omkar-dharmadhikari",
+   "name": "Omkar Dharmadhikari",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Manager & Principal Architect, Wireless, CableLabs",
+   "org": "cablelabs",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads CableLabs work on the 3GPP 6G study phase so cable and broadband deployment models are reflected in the 6G standard.",
+   "sources": [
+    "https://www-old.cablelabs.com/?p=39944"
+   ]
+  },
+  {
+   "id": "mohammed-zourob",
+   "name": "Mohammed Zourob",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Lead Wireless R&D Engineer, CableLabs",
+   "org": "cablelabs",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "CableLabs mobile networks lead engineer who speaks on 6G progress and test lab requirements.",
+   "sources": [
+    "https://www-old.cablelabs.com/?p=37942"
+   ]
+  },
+  {
+   "id": "arup-bhuyan",
+   "name": "Arupjyoti (Arup) Bhuyan",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Directorate Fellow; Director, Wireless Security Institute, Idaho National Laboratory",
+   "org": "inl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs INL's Wireless Security Institute and leads 5G/6G security research for mission-critical communications, Open RAN RIC security and spectrum sharing. On assignment from ARLIS (University of Maryland), where he is a Research Professor.",
+   "sources": [
+    "https://www.afcea.org/sites/default/files/2025-02/INL_Short_Bio_Bhuyan%202024.pdf",
+    "https://www.ndss-symposium.org/ndss-program/panel-on-6g-security-and-privacy/"
+   ]
+  },
+  {
+   "id": "nick-kaminski",
+   "name": "Nick Kaminski",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Wireless Communications Researcher, Idaho National Laboratory",
+   "org": "inl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "INL researcher developing adaptive wireless spectrum technologies, including work with NIST for NTIA.",
+   "sources": [
+    "https://inl.gov/?p=149570"
    ]
   }
  ],
@@ -11723,7 +12389,7 @@
    "from": "charlie-zhang",
    "to": "samsung",
    "type": "Role",
-   "label": "SVP, Samsung Research America; Head of Samsung Research 6G Team",
+   "label": "EVP, Samsung Research America; Head of Samsung Research 6G Team",
    "source": "https://research.samsung.com/news/Samsung-s-Leadership-in-Next-Generation-Communications-and-AI"
   },
   {
@@ -13237,6 +13903,412 @@
    "type": "Research together",
    "label": "Co-lead NeuroComm: brain-inspired wireless communications for 6G",
    "source": "https://www.nulondon.ac.uk/research/intelligent-networked-systems/"
+  },
+  {
+   "from": "todd-humphreys",
+   "to": "6g-ut",
+   "type": "Role",
+   "label": "Faculty member",
+   "source": "https://cockrell.utexas.edu/?p=23696"
+  },
+  {
+   "from": "sanjay-shakkottai",
+   "to": "6g-ut",
+   "type": "Role",
+   "label": "Faculty member",
+   "source": "https://cockrell.utexas.edu/?p=23696"
+  },
+  {
+   "from": "gustavo-de-veciana",
+   "to": "6g-ut",
+   "type": "Role",
+   "label": "Faculty member",
+   "source": "https://cockrell.utexas.edu/?p=23696"
+  },
+  {
+   "from": "hyeji-kim",
+   "to": "6g-ut",
+   "type": "Role",
+   "label": "Faculty member",
+   "source": "https://cockrell.utexas.edu/?p=23696"
+  },
+  {
+   "from": "jeongho-jeon",
+   "to": "samsung-sra-plano",
+   "type": "Role",
+   "label": "Engineering Manager, SMI Lab",
+   "source": "https://research.samsung.com/news/Jeongho-Jeon-JJ-of-Samsung-Research-America-elected-as-Vice-Chair-of-ATIS-Next-G-Alliance-Technology-Working-Group"
+  },
+  {
+   "from": "aris-papasakellariou",
+   "to": "samsung-sra-plano",
+   "type": "Role",
+   "label": "Vice President, SMI",
+   "source": "https://research.samsung.com/srTalks/-SR-Talks-Interview-with-a-3GPP-Standardization-Expert-at-Samsung-Research-America"
+  },
+  {
+   "from": "eko-onggosanusi",
+   "to": "samsung-sra-plano",
+   "type": "Role",
+   "label": "Senior Principal Engineer",
+   "source": "https://research.samsung.com/srTalks/-SR-Talks-Interview-with-a-Next-Gen-Communication-Standards-Expert-at-Samsung-Research-America"
+  },
+  {
+   "from": "gary-xu",
+   "to": "samsung-sra-plano",
+   "type": "Role",
+   "label": "VP of Research, SMI",
+   "source": "https://research.samsung.com/news/Gary-Xu-of-Samsung-Research-America-Receives-the-IEEE-ISSCC-Outstanding-Forum-Speaker-Award"
+  },
+  {
+   "from": "ardavan-tehrani",
+   "to": "samsung",
+   "type": "Role",
+   "label": "Director of Engineering, SRA",
+   "source": "https://research.samsung.com/news/Samsung-Researcher-Re-elected-as-Vice-Chair-of-the-AI-RAN-Alliance-Board-of-Directors"
+  },
+  {
+   "from": "ozge-koymen",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "Vice President of Technology",
+   "source": "https://nextg.princeton.edu/2026-annual-princeton-nextg-symposium-program/"
+  },
+  {
+   "from": "xinyu-zhang",
+   "to": "ucsd",
+   "type": "Role",
+   "label": "Ericsson Endowed Chair; Director, CWC",
+   "source": "https://nextgalliance.org/6g_lab_surveys/university-of-california-san-diego-professor-xinyu-zhangs-lab"
+  },
+  {
+   "from": "gabriel-rebeiz",
+   "to": "ucsd",
+   "type": "Role",
+   "label": "Professor; sub-THz phased arrays",
+   "source": "https://cwc.ucsd.edu/node/389"
+  },
+  {
+   "from": "dinesh-bharadia",
+   "to": "ucsd",
+   "type": "Role",
+   "label": "Faculty member",
+   "source": "https://bioee.ucsd.edu/papers/Integrated%20Circuits%20for%20Wireless%20Communications-%20Research%20Activities%20at%20the%20University%20of%20California,%20San%20Diego%20-%20Rebeiz%20(Microwave%20Magazine,%202023).pdf"
+  },
+  {
+   "from": "kuntal-chowdhury",
+   "to": "nvidia",
+   "type": "Role",
+   "label": "AI-RAN and 6G Developer Relations",
+   "source": "https://nextg.princeton.edu/2026-symposium-speakers"
+  },
+  {
+   "from": "faramarz-fekri",
+   "to": "gatech",
+   "type": "Role",
+   "label": "Co-Director, CWI",
+   "source": "https://ece.gatech.edu/news/2025/11/momentum-builds-futureg-wireless-communications-launch-new-research-center"
+  },
+  {
+   "from": "karthikeyan-sundaresan",
+   "to": "gatech",
+   "type": "Role",
+   "label": "Co-Director, CWI",
+   "source": "https://ece.gatech.edu/news/2025/11/momentum-builds-futureg-wireless-communications-launch-new-research-center"
+  },
+  {
+   "from": "sriram-vishwanath",
+   "to": "gatech",
+   "type": "Role",
+   "label": "Founding co-chair, CWI",
+   "source": "https://ece.gatech.edu/news/2025/12/sriram-vishwanath-joins-georgia-tech-ece-gra-eminent-scholar-and-ken-byers-chair"
+  },
+  {
+   "from": "kaushik-sengupta",
+   "to": "princeton",
+   "type": "Role",
+   "label": "Co-Director, NextG",
+   "source": "https://nextg.princeton.edu/corporate-program/meet-your-faculty-leaders/"
+  },
+  {
+   "from": "yasaman-ghasempour",
+   "to": "princeton",
+   "type": "Role",
+   "label": "Co-Director, NextG",
+   "source": "https://nextg.princeton.edu/corporate-program/meet-your-faculty-leaders/"
+  },
+  {
+   "from": "david-love",
+   "to": "purdue",
+   "type": "Role",
+   "label": "Director, XGC",
+   "source": "https://engineering.purdue.edu/ECE/News/2026/purdue-ece-prof-david-love-named-to-next-g-alliance-research-council-advancing-6g-strategy"
+  },
+  {
+   "from": "chih-chun-wang",
+   "to": "purdue",
+   "type": "Role",
+   "label": "Associate Director, XGC",
+   "source": "https://engineering.purdue.edu/XGC"
+  },
+  {
+   "from": "christopher-brinton",
+   "to": "purdue",
+   "type": "Role",
+   "label": "Faculty member",
+   "source": "https://engineering.purdue.edu/XGC"
+  },
+  {
+   "from": "michael-honig",
+   "to": "northwestern",
+   "type": "Role",
+   "label": "Professor",
+   "source": "https://mccormick.northwestern.edu/electrical-computer/news-events/news/articles/2021/changing-how-the-radio-spectrum-is-managed.html"
+  },
+  {
+   "from": "mark-poletti",
+   "to": "cablelabs",
+   "type": "Role",
+   "label": "Senior Director",
+   "source": "https://www.cablelabs.com/news/cablelabs-and-scte-to-address-spectrum-6g-and-network-security-at-cowa-con"
+  },
+  {
+   "from": "omkar-dharmadhikari",
+   "to": "cablelabs",
+   "type": "Role",
+   "label": "Manager & Principal Architect",
+   "source": "https://www-old.cablelabs.com/?p=39944"
+  },
+  {
+   "from": "mohammed-zourob",
+   "to": "cablelabs",
+   "type": "Role",
+   "label": "Lead Wireless R&D Engineer",
+   "source": "https://www-old.cablelabs.com/?p=37942"
+  },
+  {
+   "from": "arup-bhuyan",
+   "to": "inl",
+   "type": "Role",
+   "label": "Director, Wireless Security Institute",
+   "source": "https://www.afcea.org/sites/default/files/2025-02/INL_Short_Bio_Bhuyan%202024.pdf"
+  },
+  {
+   "from": "nick-kaminski",
+   "to": "inl",
+   "type": "Role",
+   "label": "Distinguished researcher",
+   "source": "https://inl.gov/?p=149570"
+  },
+  {
+   "from": "ut-austin",
+   "to": "6g-ut",
+   "type": "Partnership / project",
+   "label": "Hosts 6G@UT within WNCG",
+   "source": "https://wncg.org/about-6gut"
+  },
+  {
+   "from": "samsung",
+   "to": "6g-ut",
+   "type": "Membership",
+   "label": "Founding affiliate",
+   "source": "https://wncg.org/news/wncg-launches-6gut-research-center"
+  },
+  {
+   "from": "att",
+   "to": "6g-ut",
+   "type": "Membership",
+   "label": "Founding affiliate",
+   "source": "https://wncg.org/news/wncg-launches-6gut-research-center"
+  },
+  {
+   "from": "nvidia",
+   "to": "6g-ut",
+   "type": "Membership",
+   "label": "Founding affiliate",
+   "source": "https://wncg.org/news/wncg-launches-6gut-research-center"
+  },
+  {
+   "from": "qualcomm",
+   "to": "6g-ut",
+   "type": "Membership",
+   "label": "Founding affiliate",
+   "source": "https://wncg.org/news/wncg-launches-6gut-research-center"
+  },
+  {
+   "from": "interdigital",
+   "to": "6g-ut",
+   "type": "Membership",
+   "label": "Founding affiliate",
+   "source": "https://wncg.org/news/wncg-launches-6gut-research-center"
+  },
+  {
+   "from": "ericsson",
+   "to": "6g-ut",
+   "type": "Membership",
+   "label": "Level-1 member since 2022; XR research",
+   "source": "https://www.rcrwireless.com/20221011/6g/ericsson-expands-6g-collaboration-university-texas"
+  },
+  {
+   "from": "ericsson",
+   "to": "ericsson-austin",
+   "type": "Partnership / project",
+   "label": "Ericsson R&D site: ASIC, software and AI",
+   "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/united-states/austin-rd-center"
+  },
+  {
+   "from": "samsung",
+   "to": "samsung-sra-plano",
+   "type": "Partnership / project",
+   "label": "Samsung Research America site (SMI lab)",
+   "source": "https://sra.samsung.com/?p=782"
+  },
+  {
+   "from": "verizon",
+   "to": "verizon-6g-forum",
+   "type": "Partnership / project",
+   "label": "Leads the 6G Innovation Forum",
+   "source": "https://www.telecomtv.com/content/6g/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event-56243/"
+  },
+  {
+   "from": "samsung",
+   "to": "verizon-6g-forum",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.telecomtv.com/content/6g/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event-56243/"
+  },
+  {
+   "from": "samsung",
+   "to": "verizon",
+   "type": "Partnership / project",
+   "label": "AI-powered ISAC field trial over vRAN, Dallas (July 2026)",
+   "source": "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event"
+  },
+  {
+   "from": "samsung",
+   "to": "princeton",
+   "type": "Membership",
+   "label": "Founding member, NextG corporate affiliates (via Samsung Research America)",
+   "source": "https://news.samsung.com/us/samsung-princeton-university-partners-pave-way-6g-innovation/"
+  },
+  {
+   "from": "ericsson",
+   "to": "princeton",
+   "type": "Membership",
+   "label": "NextG corporate affiliate",
+   "source": "https://news.samsung.com/us/samsung-princeton-university-partners-pave-way-6g-innovation/"
+  },
+  {
+   "from": "intel",
+   "to": "princeton",
+   "type": "Membership",
+   "label": "NextG corporate affiliate",
+   "source": "https://news.samsung.com/us/samsung-princeton-university-partners-pave-way-6g-innovation/"
+  },
+  {
+   "from": "mediatek",
+   "to": "princeton",
+   "type": "Membership",
+   "label": "NextG corporate affiliate",
+   "source": "https://news.samsung.com/us/samsung-princeton-university-partners-pave-way-6g-innovation/"
+  },
+  {
+   "from": "nokia",
+   "to": "princeton",
+   "type": "Membership",
+   "label": "NextG corporate affiliate (Nokia Bell Labs)",
+   "source": "https://news.samsung.com/us/samsung-princeton-university-partners-pave-way-6g-innovation/"
+  },
+  {
+   "from": "qualcomm",
+   "to": "princeton",
+   "type": "Membership",
+   "label": "NextG corporate affiliate",
+   "source": "https://news.samsung.com/us/samsung-princeton-university-partners-pave-way-6g-innovation/"
+  },
+  {
+   "from": "northwestern",
+   "to": "spectrumx",
+   "type": "Research together",
+   "label": "Faculty in SpectrumX; Michael Honig is Center Research Director",
+   "source": "https://mccormick.northwestern.edu/electrical-computer/news-events/news/articles/2021/changing-how-the-radio-spectrum-is-managed.html"
+  },
+  {
+   "from": "nokia",
+   "to": "inl",
+   "type": "Partnership / project",
+   "label": "Wireless Security Institute industry partner",
+   "source": "https://inl.gov/wireless-security-institute/"
+  },
+  {
+   "from": "qualcomm",
+   "to": "inl",
+   "type": "Partnership / project",
+   "label": "Wireless Security Institute industry partner",
+   "source": "https://inl.gov/wireless-security-institute/"
+  },
+  {
+   "from": "verizon",
+   "to": "inl",
+   "type": "Partnership / project",
+   "label": "Wireless Security Institute industry partner",
+   "source": "https://inl.gov/wireless-security-institute/"
+  },
+  {
+   "from": "interdigital",
+   "to": "inl",
+   "type": "Partnership / project",
+   "label": "Wireless Security Institute industry partner",
+   "source": "https://inl.gov/wireless-security-institute/"
+  },
+  {
+   "from": "david-love",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Research Council member (2026)",
+   "source": "https://engineering.purdue.edu/ECE/News/2026/purdue-ece-prof-david-love-named-to-next-g-alliance-research-council-advancing-6g-strategy"
+  },
+  {
+   "from": "jeongho-jeon",
+   "to": "nga",
+   "type": "Membership",
+   "label": "Vice Chair, Technology Working Group",
+   "source": "https://research.samsung.com/news/Jeongho-Jeon-JJ-of-Samsung-Research-America-elected-as-Vice-Chair-of-ATIS-Next-G-Alliance-Technology-Working-Group"
+  },
+  {
+   "from": "kaushik-sengupta",
+   "to": "nyu",
+   "type": "Research together",
+   "label": "Co-leads RFIC design on NTIA-funded SALSA upper mid-band project",
+   "source": "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
+  },
+  {
+   "from": "jeff-andrews",
+   "to": "6g-ut",
+   "type": "Role",
+   "label": "Director",
+   "source": "https://wncg.org/about-6gut"
+  },
+  {
+   "from": "kaushik-chowdhury",
+   "to": "6g-ut",
+   "type": "Role",
+   "label": "Faculty; leads 6G@UT digital twin work with Keysight",
+   "source": "https://capacityglobal.com/?p=10005903"
+  },
+  {
+   "from": "charlie-zhang",
+   "to": "verizon-6g-forum",
+   "type": "Event participation",
+   "label": "Samsung lead on the Dallas ISAC trial with Verizon",
+   "source": "https://www.telecomtv.com/content/6g/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event-56243/"
+  },
+  {
+   "from": "younghan-nam",
+   "to": "samsung-sra-plano",
+   "type": "Role",
+   "label": "Senior Director, SMI team (6G system research)",
+   "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/younghan-nam/"
   }
  ]
 }
