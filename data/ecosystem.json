@@ -6680,6 +6680,326 @@
     "https://www.ngmn.org/highlight/new-chairman-of-the-ngmn-alliance-board-2025.html",
     "https://ngmn.org/board_member_interviews.html"
    ]
+  },
+  {
+   "id": "vt-nssl",
+   "name": "Networks and Systems Security Lab (NSSL), Virginia Tech",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Alexandria",
+   "role": "",
+   "org": null,
+   "address": "3625 Potomac Ave, Suite 3708, Alexandria, VA 22305",
+   "lat": 38.8321,
+   "lng": -77.0472,
+   "precision": "Street address",
+   "website": "https://nss.ece.vt.edu/",
+   "description": "Virginia Tech security lab led by Professors Angelos Stavrou and Haining Wang. Work spans NextG and 5G/6G security, cellular and wireless network security, Zero Trust and Named Data Networking for 6G, post-quantum cryptography for 5G, and AI security.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html",
+    "https://nss.ece.vt.edu/angelos/"
+   ]
+  },
+  {
+   "id": "quokka",
+   "name": "Quokka (formerly Kryptowire)",
+   "short": "",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "3031 Tisch Way, Suite 505, San Jose, CA 95128",
+   "lat": 37.3216,
+   "lng": -121.9476,
+   "precision": "Street address",
+   "website": "https://www.quokka.io/",
+   "description": "Mobile app and firmware security company founded in 2011 as Kryptowire by Angelos Stavrou, then at George Mason University, with DARPA and DHS funding. Products: Q-mast, Q-scout and Q-firm (Android firmware analysis for telcos and device makers, launched March 2026).",
+   "sources": [
+    "https://www.quokka.io/leadership",
+    "https://www.cbinsights.com/company/kryptowire",
+    "https://www.newswire.com/news/quokka-launches-q-firm-to-help-telcos-and-android-device-manufacturers-secure"
+   ]
+  },
+  {
+   "id": "wia",
+   "name": "Wireless Infrastructure Association (WIA)",
+   "short": "",
+   "category": "Associations & alliances",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "2111 Wilson Blvd, Suite 210, Arlington, VA 22201",
+   "lat": 38.8913,
+   "lng": -77.0864,
+   "precision": "Street address",
+   "website": "https://wia.org/",
+   "description": "Trade association for the businesses that build, develop, own and operate US wireless infrastructure. Advocates for widespread deployment of wireless infrastructure to enable connectivity everywhere.",
+   "sources": [
+    "https://wia.org/iain-gillott-joins-wia-as-vice-president-of-technology-innovation/"
+   ]
+  },
+  {
+   "id": "uta",
+   "name": "University of Texas at Arlington (UTA)",
+   "short": "",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "500 UTA Blvd, Arlington, TX 76019",
+   "lat": 32.7299,
+   "lng": -97.114,
+   "precision": "Campus",
+   "website": "https://twistlab.uta.edu/",
+   "description": "Public research university. Home of the Transformative Wireless Systems and Technology (TWiST) Lab in the Computer Science and Engineering department, working on ML for wireless, O-RAN, ISAC and wireless digital twins for 6G.",
+   "sources": [
+    "https://twistlab.uta.edu/about-pi",
+    "https://www.uta.edu/news/news-releases/2026/05/15/professor-wins-career-award-to-end-wireless-dead-zones"
+   ]
+  },
+  {
+   "id": "angelos-stavrou",
+   "name": "Angelos Stavrou",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Professor, ECE, Virginia Tech; Founding Professor, VT Institute for Advanced Computing",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Professor in Virginia Tech's Bradley Department of ECE and founding professor and entrepreneurship lead at the VT Institute for Advanced Computing in Alexandria. Co-leads the Networks and Systems Security Lab, working on security and localisation for NextG and mobile devices. Founder and Chief Science Officer of Quokka (formerly Kryptowire). Former George Mason University professor. PI on NSF, DARPA, IARPA, DHS and DoD research awards.",
+   "sources": [
+    "https://nss.ece.vt.edu/angelos/",
+    "https://www.quokka.io/leadership"
+   ]
+  },
+  {
+   "id": "haining-wang",
+   "name": "Haining Wang",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Professor, ECE, Virginia Tech; IEEE Fellow",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Professor in Virginia Tech's Bradley Department of ECE and co-lead of the Networks and Systems Security Lab. IEEE Fellow (2020) for contributions to network and cloud security. Works on cybersecurity, networking systems, cloud and cyber-physical systems. CCI researcher. Previously professor at the University of Delaware.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html",
+    "https://cyberinitiative.org/research/researcher-directory/wang-haining.html",
+    "https://ece.vt.edu/people/faculty/honors.html"
+   ]
+  },
+  {
+   "id": "pragya-sharma",
+   "name": "Pragya Sharma",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "PhD Candidate, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "PhD candidate advised by Angelos Stavrou and Haining Wang, working on cellular and wireless network security and machine learning in wireless environments.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "kene-nwodo",
+   "name": "Kene Nwodo",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "PhD Candidate, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "PhD candidate in the Networks and Systems Security Lab working on software and mobile security.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "amirreza-ghafoori",
+   "name": "Amirreza Ghafoori",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "PhD Student, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "PhD student advised by Angelos Stavrou, working on secure 5G/6G design using Named Data Networking and Zero Trust, and network measurement in high-mobility settings.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "tanvi-garg",
+   "name": "Tanvi Garg",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "PhD Student, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "PhD student in the Networks and Systems Security Lab working on data security and privacy, including differential privacy.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "yousef-akbar",
+   "name": "Yousef Akbar",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "PhD Student, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "PhD student in the Networks and Systems Security Lab working on cyber-physical systems security and post-quantum cryptography for 5G.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "dilek-gun-kaya",
+   "name": "Dilek Gün Kaya",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "PhD Student, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "PhD student in the Networks and Systems Security Lab working on network technologies, 5G and system security.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "chih-hsuan-lin",
+   "name": "Chih-Hsuan Lin",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Master's Student and Research Engineer, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Master's student and research engineer in the Networks and Systems Security Lab working on AI security and trustworthy AI.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "sneha-magadi",
+   "name": "Sneha Magadi",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Master's Student, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Master's student in the Networks and Systems Security Lab working on AI and cybersecurity for incident response, vulnerability scanning and patching.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "ayesha-mahajabin",
+   "name": "Ayesha Mahajabin",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Master's Student, NSSL, Virginia Tech",
+   "org": "vt-nssl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Master's student in the Networks and Systems Security Lab working on data, networks and machine learning applications.",
+   "sources": [
+    "https://nss.ece.vt.edu/people.html"
+   ]
+  },
+  {
+   "id": "iain-gillott",
+   "name": "Iain Gillott",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Vice President of Technology and Innovation, WIA",
+   "org": "wia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Joined the Wireless Infrastructure Association as VP of Technology and Innovation in November 2025, advising on technology and strategy. Founder and president of iGR, a wireless and broadband research consultancy, and a WIA consultant since 2012. 30+ years as a mobile industry analyst; formerly Group VP in IDC's telecoms practice and at EDS. BSc, Bangor University.",
+   "sources": [
+    "https://wia.org/iain-gillott-joins-wia-as-vice-president-of-technology-innovation/"
+   ]
+  },
+  {
+   "id": "patrick-halley",
+   "name": "Patrick Halley",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and CEO, WIA",
+   "org": "wia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "President and CEO of the Wireless Infrastructure Association since August 2022. Previously SVP Policy & Advocacy and General Counsel at USTelecom.",
+   "sources": [
+    "https://wia.org/iain-gillott-joins-wia-as-vice-president-of-technology-innovation/",
+    "https://wirelessestimator.com/articles/2022/telecom-advocate-patrick-halley-to-lead-wia-as-its-president-and-ceo/"
+   ]
+  },
+  {
+   "id": "debashri-roy",
+   "name": "Debashri Roy",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Professor, CSE, UT Arlington; Director, TWiST Lab",
+   "org": "uta",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Assistant professor of Computer Science and Engineering at UT Arlington since 2023 and director of the Transformative Wireless Systems and Technology (TWiST) Lab. Works on ML for wireless, O-RAN, mmWave beamforming, ISAC, networked robotics and wireless digital twins for 6G. NSF CAREER award (May 2026, $648,094) for proactive networks that predict user intent to avoid dead zones. Formerly research scientist in Kaushik Chowdhury's GENESYS lab at Northeastern.",
+   "sources": [
+    "https://www.uta.edu/news/news-releases/2026/05/15/professor-wins-career-award-to-end-wireless-dead-zones",
+    "https://twistlab.uta.edu/about-pi",
+    "https://debashriroy.github.io"
+   ]
   }
  ],
  "edges": [
@@ -10952,6 +11272,146 @@
    "type": "Partnership / project",
    "label": "Majority shareholder of T-Mobile US",
    "source": "https://www.telekom.com/en/investor-relations"
+  },
+  {
+   "from": "angelos-stavrou",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "Co-lead, NSSL",
+   "source": "https://nss.ece.vt.edu/angelos/"
+  },
+  {
+   "from": "haining-wang",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "Co-lead, NSSL",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "pragya-sharma",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "PhD candidate",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "kene-nwodo",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "PhD candidate",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "amirreza-ghafoori",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "PhD student",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "tanvi-garg",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "PhD student",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "yousef-akbar",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "PhD student",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "dilek-gun-kaya",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "PhD student",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "chih-hsuan-lin",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "Master's student; research engineer",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "sneha-magadi",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "Master's student",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "ayesha-mahajabin",
+   "to": "vt-nssl",
+   "type": "Role",
+   "label": "Master's student",
+   "source": "https://nss.ece.vt.edu/people.html"
+  },
+  {
+   "from": "iain-gillott",
+   "to": "wia",
+   "type": "Role",
+   "label": "VP Technology and Innovation (from Nov 2025)",
+   "source": "https://wia.org/iain-gillott-joins-wia-as-vice-president-of-technology-innovation/"
+  },
+  {
+   "from": "patrick-halley",
+   "to": "wia",
+   "type": "Role",
+   "label": "President and CEO",
+   "source": "https://wia.org/iain-gillott-joins-wia-as-vice-president-of-technology-innovation/"
+  },
+  {
+   "from": "debashri-roy",
+   "to": "uta",
+   "type": "Role",
+   "label": "Assistant Professor; Director, TWiST Lab",
+   "source": "https://www.uta.edu/news/news-releases/2026/05/15/professor-wins-career-award-to-end-wireless-dead-zones"
+  },
+  {
+   "from": "vt-nssl",
+   "to": "vt-iac",
+   "type": "Partnership / project",
+   "label": "Lab based at the VT Institute for Advanced Computing, Alexandria",
+   "source": "https://nss.ece.vt.edu/angelos/"
+  },
+  {
+   "from": "angelos-stavrou",
+   "to": "vt-iac",
+   "type": "Role",
+   "label": "Founding Professor; entrepreneurship lead",
+   "source": "https://nss.ece.vt.edu/angelos/"
+  },
+  {
+   "from": "angelos-stavrou",
+   "to": "quokka",
+   "type": "Role",
+   "label": "Founder and Chief Science Officer",
+   "source": "https://www.quokka.io/leadership"
+  },
+  {
+   "from": "haining-wang",
+   "to": "cci",
+   "type": "Research together",
+   "label": "CCI researcher",
+   "source": "https://cyberinitiative.org/research/researcher-directory/wang-haining.html"
+  },
+  {
+   "from": "nsf",
+   "to": "debashri-roy",
+   "type": "Funding",
+   "label": "NSF CAREER award: proactive wireless networks ($648,094, 2026)",
+   "source": "https://www.uta.edu/news/news-releases/2026/05/15/professor-wins-career-award-to-end-wireless-dead-zones"
+  },
+  {
+   "from": "debashri-roy",
+   "to": "kaushik-chowdhury",
+   "type": "Research together",
+   "label": "Former research scientist in his GENESYS lab, Northeastern (2020 to 2023); NSF SWIFT co-PI",
+   "source": "https://debashriroy.github.io"
   }
  ]
 }
