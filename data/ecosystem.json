@@ -7275,6 +7275,63 @@
    "sources": [
     "https://www.afcea.org/about-afcea/afcea-senior-leadership"
    ]
+  },
+  {
+   "id": "uscg-c5isc",
+   "name": "U.S. Coast Guard C5I Service Center (C5ISC)",
+   "short": "USCG C5ISC",
+   "category": "Government & funders",
+   "region": "Alexandria",
+   "role": "",
+   "org": null,
+   "address": "TISCOM campus, 7323 Telegraph Rd, Alexandria, VA 22315",
+   "lat": 38.7621,
+   "lng": -77.1135,
+   "precision": "Campus",
+   "website": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/",
+   "description": "The Coast Guard's Command, Control, Communication, Computer, Cyber and Intelligence Service Center. Provides depot-level support for all Coast Guard C5I capabilities, with a workforce of over 2,000 civilians, service members and contractors. Includes a deployable connectivity section working on WAN architecture and next-generation deployable networks.",
+   "sources": [
+    "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/",
+    "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/Leadership"
+   ]
+  },
+  {
+   "id": "carahsoft-5g-summit-2026",
+   "name": "Carahsoft 5G Summit 2026: NextGen Cellular Networks, 6G Coming into Focus",
+   "short": "",
+   "category": "Events",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "Carahsoft Conference & Collaboration Center, Reston, VA",
+   "lat": 38.9506,
+   "lng": -77.3399,
+   "precision": "City",
+   "website": "https://www.fedinsider.com/nextgen-cellular-networks/",
+   "description": "Carahsoft's fourth annual 5G Summit, co-hosted with FedInsider on 25 August 2026. Sessions covered open-source Open RAN, ISAC and planning government investments for 6G. Followed by FedInsider's October 2026 webinar series, Laying the Groundwork for 6G.",
+   "sources": [
+    "https://www.americangovernancetoday.com/article/936015343-fedinsider-and-carahsoft-co-host-carahsoft-s-fourth-annual-5g-summit-in-reston-va-on-aug-25-2026",
+    "https://www.fedinsider.com/nextgen-cellular-networks/",
+    "https://www.fedinsider.com/laying-the-groundwork-for-6g/"
+   ]
+  },
+  {
+   "id": "eric-woynaroski",
+   "name": "Eric Woynaroski",
+   "short": "",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Integration Deployable Connectivity Section Chief, USCG C5ISC",
+   "org": "uscg-c5isc",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Integration Deployable Connectivity Section Chief at the U.S. Coast Guard C5I Service Center in Alexandria since January 2023, leading WAN architecture and deployable next-generation connectivity systems. 25 years of combined active duty and civilian Coast Guard service, including as an Electronics Technician 1st Class, diver and tower climber. Spoke at the Carahsoft/FedInsider 5G Summit (Aug 2026) and FedInsider's Laying the Groundwork for 6G series (Oct 2026).",
+   "sources": [
+    "https://www.fedinsider.com/nextgen-cellular-networks/",
+    "https://www.fedinsider.com/laying-the-groundwork-for-6g/"
+   ]
   }
  ],
  "edges": [
@@ -11806,6 +11863,27 @@
    "type": "Event participation",
    "label": "AFCEA West 2026: private 5G and early 6G/ISAC discussion",
    "source": "https://federatedwireless.ai/2026/03/03/afcea-west-2026-private-5g-moves-from-pilots-to-proven-deployments/"
+  },
+  {
+   "from": "eric-woynaroski",
+   "to": "uscg-c5isc",
+   "type": "Role",
+   "label": "Integration Deployable Connectivity Section Chief (since Jan 2023)",
+   "source": "https://www.fedinsider.com/laying-the-groundwork-for-6g/"
+  },
+  {
+   "from": "eric-woynaroski",
+   "to": "carahsoft-5g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker, 25 Aug 2026",
+   "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
+  },
+  {
+   "from": "david-kirkwood",
+   "to": "carahsoft-5g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker (OCUDU), 25 Aug 2026",
+   "source": "https://www.fedinsider.com/the-search-for-open-source-hardware/"
   }
  ]
 }
