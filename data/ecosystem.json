@@ -578,7 +578,7 @@
    "short": "",
    "category": "Equipment & tech vendors",
    "region": "Rest of US & global",
-   "description": "ACCoRD O-RAN project partner.",
+   "description": "ACCoRD O-RAN project partner. Developed high-efficiency 100 GHz and 300 GHz amplifiers for the joint 100 Gbps sub-terahertz 6G device with DOCOMO, NTT and NEC (2024). Research centre at Yokosuka Research Park.",
    "role": "",
    "org": null,
    "address": "Tokyo, Japan",
@@ -586,7 +586,8 @@
    "lng": 139.6503,
    "precision": "City",
    "sources": [
-    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html",
+    "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html"
    ]
   },
   {
@@ -1345,7 +1346,7 @@
    "short": "",
    "category": "Network operators",
    "region": "Rest of US & global",
-   "description": "Japanese mobile operator.",
+   "description": "Japanese mobile operator. Its R&D Center at Yokosuka Research Park leads 6G research. Built 100 GHz transmission equipment for the joint 100 Gbps sub-terahertz 6G device with NTT, NEC and Fujitsu (2024), and runs 6G trials with Nokia, Fujitsu and NEC.",
    "role": "",
    "org": null,
    "address": "Tokyo, Japan",
@@ -1353,7 +1354,9 @@
    "lng": 139.7442,
    "precision": "City",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html",
+    "https://www.docomo.ne.jp/english/info/media_center/pr/2022/0606_00.html"
    ]
   },
   {
@@ -1447,7 +1450,7 @@
    "short": "",
    "category": "Network operators",
    "region": "Rest of US & global",
-   "description": "Japanese operator; its research institute chairs the AI-RAN Alliance.",
+   "description": "Japanese operator; its research institute chairs the AI-RAN Alliance. Ran Japan's first HAPS trial service with Sceye (Aug 2026), including stratospheric edge computing, and plans commercial HAPS from 2027.",
    "role": "",
    "org": null,
    "address": "Tokyo, Japan",
@@ -1455,7 +1458,8 @@
    "lng": 139.759,
    "precision": "City",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://www.softbank.jp/en/corp/news/press/sbkk/2026/20260902_01/"
    ]
   },
   {
@@ -1515,7 +1519,7 @@
    "short": "",
    "category": "Network operators",
    "region": "Rest of US & global",
-   "description": "Research arm of Japanese operator KDDI.",
+   "description": "Research arm of Japanese operator KDDI. With KDDI, NVIDIA, Keysight and Samsung Research America, building a 6G RAN Digital Twin (launched June 2026; prototype by March 2028).",
    "role": "",
    "org": null,
    "address": "Fujimino, Japan",
@@ -1523,7 +1527,8 @@
    "lng": 139.5196,
    "precision": "City",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://newsroom.kddi.com/english/news/detail/kddi_nr-1068_4588.html"
    ]
   },
   {
@@ -10178,6 +10183,324 @@
    "sources": [
     "https://graduate2.korea.ac.kr/community/news_view.html?no=88"
    ]
+  },
+  {
+   "id": "yrp",
+   "name": "Yokosuka Research Park (YRP)",
+   "short": "YRP",
+   "category": "Economic development & place",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Hikari-no-oka, Yokosuka, Kanagawa, Japan",
+   "lat": 35.2236,
+   "lng": 139.6744,
+   "precision": "Campus",
+   "description": "Wireless R&D park in Yokosuka, built in the 1990s next to NTT's Yokosuka R&D Center. Hosts R&D centres of NTT DOCOMO, NTT, Fujitsu and NEC, plus shared mobile testing facilities.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Yokosuka_Research_Park",
+    "https://yrp.co.jp/en/wp-content/uploads/Companies_Universities_E2025_0901-1.pdf"
+   ]
+  },
+  {
+   "id": "ntt",
+   "name": "NTT (Yokosuka R&D Center)",
+   "short": "NTT",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "NTT Yokosuka R&D Center, Hikari-no-oka, Yokosuka, Kanagawa, Japan",
+   "lat": 35.2222,
+   "lng": 139.6712,
+   "precision": "Campus",
+   "description": "Japanese telecoms group. Developed a 300 GHz device sending 100 Gbps per channel over 100 m, part of the joint DOCOMO, NTT, NEC and Fujitsu sub-terahertz 6G device (April 2024). Runs 6G trials with DOCOMO and vendors under its IOWN vision.",
+   "sources": [
+    "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html",
+    "https://www.docomo.ne.jp/english/info/media_center/pr/2022/0606_00.html"
+   ]
+  },
+  {
+   "id": "nec",
+   "name": "NEC (YRP Technical Center)",
+   "short": "NEC",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "NEC YRP Technical Center, Yokosuka, Kanagawa, Japan",
+   "lat": 35.225,
+   "lng": 139.676,
+   "precision": "Campus",
+   "description": "Japanese telecoms equipment maker. Built a 100 GHz active phased array antenna with more than 100 elements for the joint sub-terahertz 6G device (2024). Co-runs the NEC Beyond 5G Research Alliance Laboratories at the University of Osaka on digital twins.",
+   "sources": [
+    "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html",
+    "https://b5g-rd.nict.go.jp/en/special/r07-2.html"
+   ]
+  },
+  {
+   "id": "nict",
+   "name": "NICT (National Institute of Information and Communications Technology)",
+   "short": "NICT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "4-2-1 Nukui-Kitamachi, Koganei, Tokyo, Japan",
+   "lat": 35.7097,
+   "lng": 139.488,
+   "precision": "Campus",
+   "description": "Japan's national ICT research institute. Hosts the Beyond 5G (6G) R&D fund set up by MIC in March 2023 and funds companies and universities through it. Researches terahertz, quantum-secure networks and Beyond 5G architecture. Joint 6G workshops with the University of Oulu (MoU 2022).",
+   "sources": [
+    "https://b5g-rd.nict.go.jp/en/aboutfund/",
+    "https://www.nict.go.jp/en/research/",
+    "https://www.6gflagship.com/tag/japan/"
+   ]
+  },
+  {
+   "id": "mic-japan",
+   "name": "MIC (Japan Ministry of Internal Affairs and Communications)",
+   "short": "MIC Japan",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Kasumigaseki, Chiyoda, Tokyo, Japan",
+   "lat": 35.6745,
+   "lng": 139.7514,
+   "precision": "City",
+   "description": "Japanese ministry responsible for telecoms. Set up the Information and Communications R&D Fund within NICT in March 2023 to run the Beyond 5G (6G) Fund Project, including joint calls with the UK and Germany.",
+   "sources": [
+    "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/6/16_1.html",
+    "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/7/13_1.html"
+   ]
+  },
+  {
+   "id": "utokyo",
+   "name": "University of Tokyo",
+   "short": "UTokyo",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Hongo Campus, Bunkyo, Tokyo, Japan",
+   "lat": 35.7126,
+   "lng": 139.762,
+   "precision": "Campus",
+   "description": "Professor Akihiro Nakao's lab works on satellite and terrestrial integration for Beyond 5G. Demonstrated a drone-mounted local 5G base station with satellite backhaul with the University of Oulu (OuluZone, 2026).",
+   "sources": [
+    "https://www.t.u-tokyo.ac.jp/en/press/pr2026-05-26-001",
+    "https://www.u-tokyo.ac.jp/adm/fsi/en/projects/cyber/project_00004.html"
+   ]
+  },
+  {
+   "id": "science-tokyo",
+   "name": "Institute of Science Tokyo",
+   "short": "Science Tokyo",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Ookayama Campus, Meguro, Tokyo, Japan",
+   "lat": 35.605,
+   "lng": 139.684,
+   "precision": "Campus",
+   "description": "Formerly Tokyo Institute of Technology. Sakaguchi Lab runs a 5G/6G demonstration field at Ookayama (millimetre-wave repeaters, digital twins, V2X). Okada Lab built a 150 GHz phased-array transceiver reaching 144 Gbps (2026).",
+   "sources": [
+    "https://www.isct.ac.jp/en/news/5m14935v1e9b",
+    "https://educ.titech.ac.jp/ee/eng/news/2026_08/069987.html"
+   ]
+  },
+  {
+   "id": "kyoto-univ",
+   "name": "Kyoto University (Harada Lab)",
+   "short": "Kyoto University",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Graduate School of Informatics, Yoshida Campus, Kyoto, Japan",
+   "lat": 35.0262,
+   "lng": 135.7808,
+   "precision": "Campus",
+   "description": "Harada Lab (Digital Communications) builds software-defined radio testbeds for 6G. Sent 5G-standard signals at 300 GHz (14.6 Gbps) under 1,000 km/h emulation (Feb 2026) and 1.7 Gbps at 105 GHz to a moving vehicle over 300 m (2026).",
+   "sources": [
+    "https://www.kyoto-u.ac.jp/en/research-news/2026-02-17",
+    "https://www.kyoto-u.ac.jp/sites/default/files/2026-06/web-2606-Harada-f17752192b6cac5b0f473e79730411b2.pdf"
+   ]
+  },
+  {
+   "id": "osaka-univ",
+   "name": "University of Osaka",
+   "short": "Osaka",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Suita Campus, Suita, Osaka, Japan",
+   "lat": 34.8222,
+   "lng": 135.5244,
+   "precision": "Campus",
+   "description": "Suita campus hosts the NEC Beyond 5G Research Alliance Laboratories (2021), building digital twins as a distributed platform for Beyond 5G. The Mobile Computing Lab works on Beyond 5G/6G sensing, edge computing and cyber-physical systems.",
+   "sources": [
+    "https://b5g-rd.nict.go.jp/en/special/r07-2.html",
+    "https://mc.net.ist.osaka-u.ac.jp/en/research/"
+   ]
+  },
+  {
+   "id": "akihiro-nakao",
+   "name": "Akihiro Nakao",
+   "short": "Akihiro Nakao",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, University of Tokyo (Nakao Lab)",
+   "org": "utokyo",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads University of Tokyo work on satellite and terrestrial integration for Beyond 5G and the drone-mounted 5G base station trial with the University of Oulu (2026).",
+   "sources": [
+    "https://www.t.u-tokyo.ac.jp/en/press/pr2026-05-26-001",
+    "https://www.u-tokyo.ac.jp/adm/fsi/en/projects/cyber/project_00004.html"
+   ]
+  },
+  {
+   "id": "kei-sakaguchi",
+   "name": "Kei Sakaguchi",
+   "short": "Kei Sakaguchi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President, Institute of Science Tokyo; Dean, Academy of Super Smart Society; Professor, School of Engineering",
+   "org": "science-tokyo",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Works on 5G/6G, millimetre-wave and V2X. Contributed to 5G standardisation. Leads the Ookayama 5G/6G demonstration field.",
+   "sources": [
+    "https://mwcbarcelona.com/agenda/speakers/14079-dr-kei-sakaguchi",
+    "https://www.isct.ac.jp/en/news/5m14935v1e9b"
+   ]
+  },
+  {
+   "id": "kenichi-okada",
+   "name": "Kenichi Okada",
+   "short": "Kenichi Okada",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Department of Electrical and Electronic Engineering, Institute of Science Tokyo",
+   "org": "science-tokyo",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-led the 150 GHz dual-polarised phased-array transceiver reaching 144 Gbps for 6G devices (2026).",
+   "sources": [
+    "https://educ.titech.ac.jp/ee/eng/news/2026_08/069987.html"
+   ]
+  },
+  {
+   "id": "hiroshi-harada",
+   "name": "Hiroshi Harada",
+   "short": "Hiroshi Harada",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Graduate School of Informatics, Kyoto University",
+   "org": "kyoto-univ",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Kyoto University's sub-terahertz and terahertz 6G testbeds, including the 1,000 km/h emulation result (2026).",
+   "sources": [
+    "https://www.kyoto-u.ac.jp/en/research-news/2026-02-17"
+   ]
+  },
+  {
+   "id": "yusuke-koda",
+   "name": "Yusuke Koda",
+   "short": "Yusuke Koda",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor, Graduate School of Informatics, Kyoto University",
+   "org": "kyoto-univ",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-leads the Harada Lab terahertz 6G testbed work.",
+   "sources": [
+    "https://www.kyoto-u.ac.jp/en/research-news/2026-02-17"
+   ]
+  },
+  {
+   "id": "masayuki-murata",
+   "name": "Masayuki Murata",
+   "short": "Masayuki Murata",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Specially Appointed Professor (Emeritus), University of Osaka; Director, NEC Beyond 5G Research Alliance Laboratories",
+   "org": "osaka-univ",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs the NEC Beyond 5G Research Alliance Laboratories at the University of Osaka, working on digital twins for Beyond 5G.",
+   "sources": [
+    "https://b5g-rd.nict.go.jp/en/special/r07-2.html"
+   ]
+  },
+  {
+   "id": "hideyuki-shimonishi",
+   "name": "Hideyuki Shimonishi",
+   "short": "Hideyuki Shimonishi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Cybermedia Center, University of Osaka",
+   "org": "osaka-univ",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Works on Beyond 5G/6G wireless control and probabilistic digital twins. Previously senior principal researcher at NEC.",
+   "sources": [
+    "https://www.ist.osaka-u.ac.jp/english/researcher/detail.php?id=120"
+   ]
+  },
+  {
+   "id": "hideyuki-tokuda",
+   "name": "Hideyuki Tokuda",
+   "short": "Hideyuki Tokuda",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President, NICT",
+   "org": "nict",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "President of NICT, which runs Japan's Beyond 5G (6G) R&D fund.",
+   "sources": [
+    "https://www.nict.go.jp/en/data/nict-news/NICT_NEWS_2026-515_E.pdf"
+   ]
+  },
+  {
+   "id": "masayuki-kamimura",
+   "name": "Masayuki Kamimura",
+   "short": "Masayuki Kamimura",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director, Ubiquitous Network Planning Division, SoftBank Corp.",
+   "org": "softbank",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Presented SoftBank's HAPS programme ahead of its 2026 trial service (July 2026).",
+   "sources": [
+    "https://www.softbank.jp/en/sbnews/entry/20260731_01"
+   ]
   }
  ],
  "edges": [
@@ -16193,6 +16516,181 @@
    "type": "Role",
    "label": "EVP and Head, ACRC",
    "source": "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g"
+  },
+  {
+   "from": "akihiro-nakao",
+   "to": "utokyo",
+   "type": "Role",
+   "label": "Professor, University of Tokyo (Nakao Lab)",
+   "source": "https://www.t.u-tokyo.ac.jp/en/press/pr2026-05-26-001"
+  },
+  {
+   "from": "kei-sakaguchi",
+   "to": "science-tokyo",
+   "type": "Role",
+   "label": "Vice President, Institute of Science Tokyo; Dean, Academy of Super Smart Society; Professor, School of Engineering",
+   "source": "https://mwcbarcelona.com/agenda/speakers/14079-dr-kei-sakaguchi"
+  },
+  {
+   "from": "kenichi-okada",
+   "to": "science-tokyo",
+   "type": "Role",
+   "label": "Professor, Department of Electrical and Electronic Engineering, Institute of Science Tokyo",
+   "source": "https://educ.titech.ac.jp/ee/eng/news/2026_08/069987.html"
+  },
+  {
+   "from": "hiroshi-harada",
+   "to": "kyoto-univ",
+   "type": "Role",
+   "label": "Professor, Graduate School of Informatics, Kyoto University",
+   "source": "https://www.kyoto-u.ac.jp/en/research-news/2026-02-17"
+  },
+  {
+   "from": "yusuke-koda",
+   "to": "kyoto-univ",
+   "type": "Role",
+   "label": "Associate Professor, Graduate School of Informatics, Kyoto University",
+   "source": "https://www.kyoto-u.ac.jp/en/research-news/2026-02-17"
+  },
+  {
+   "from": "masayuki-murata",
+   "to": "osaka-univ",
+   "type": "Role",
+   "label": "Specially Appointed Professor (Emeritus), University of Osaka; Director, NEC Beyond 5G Research Alliance Laboratories",
+   "source": "https://b5g-rd.nict.go.jp/en/special/r07-2.html"
+  },
+  {
+   "from": "hideyuki-shimonishi",
+   "to": "osaka-univ",
+   "type": "Role",
+   "label": "Professor, Cybermedia Center, University of Osaka",
+   "source": "https://www.ist.osaka-u.ac.jp/english/researcher/detail.php?id=120"
+  },
+  {
+   "from": "hideyuki-tokuda",
+   "to": "nict",
+   "type": "Role",
+   "label": "President, NICT",
+   "source": "https://www.nict.go.jp/en/data/nict-news/NICT_NEWS_2026-515_E.pdf"
+  },
+  {
+   "from": "masayuki-kamimura",
+   "to": "softbank",
+   "type": "Role",
+   "label": "Senior Director, Ubiquitous Network Planning Division, SoftBank Corp.",
+   "source": "https://www.softbank.jp/en/sbnews/entry/20260731_01"
+  },
+  {
+   "from": "docomo",
+   "to": "yrp",
+   "type": "Partnership / project",
+   "label": "DOCOMO R&D Center at YRP (since 1998)",
+   "source": "https://www.docomo.ne.jp/english/corporate/technology/rd/rdcenter/index.html"
+  },
+  {
+   "from": "ntt",
+   "to": "yrp",
+   "type": "Partnership / project",
+   "label": "NTT Yokosuka R&D Center at YRP",
+   "source": "https://en.wikipedia.org/wiki/Yokosuka_Research_Park"
+  },
+  {
+   "from": "nec",
+   "to": "yrp",
+   "type": "Partnership / project",
+   "label": "NEC YRP Technical Center",
+   "source": "https://en.wikipedia.org/wiki/Yokosuka_Research_Park"
+  },
+  {
+   "from": "fujitsu",
+   "to": "yrp",
+   "type": "Partnership / project",
+   "label": "Fujitsu research centre at YRP",
+   "source": "https://yrp.co.jp/en/wp-content/uploads/Companies_Universities_E2025_0901-1.pdf"
+  },
+  {
+   "from": "docomo",
+   "to": "ntt",
+   "type": "Research together",
+   "label": "100 Gbps sub-terahertz 6G device (Apr 2024)",
+   "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html"
+  },
+  {
+   "from": "docomo",
+   "to": "nec",
+   "type": "Research together",
+   "label": "100 Gbps sub-terahertz 6G device (Apr 2024)",
+   "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html"
+  },
+  {
+   "from": "docomo",
+   "to": "fujitsu",
+   "type": "Research together",
+   "label": "100 Gbps sub-terahertz 6G device (Apr 2024)",
+   "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html"
+  },
+  {
+   "from": "docomo",
+   "to": "nokia",
+   "type": "Research together",
+   "label": "6G experimental trials with NTT, Fujitsu, NEC and Nokia (from 2022)",
+   "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2022/0606_00.html"
+  },
+  {
+   "from": "mic-japan",
+   "to": "nict",
+   "type": "Funding",
+   "label": "Beyond 5G (6G) Fund Project, R&D fund set up within NICT (Mar 2023)",
+   "source": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2026/6/16_1.html"
+  },
+  {
+   "from": "nict",
+   "to": "oulu",
+   "type": "Research together",
+   "label": "6G MoU (2022) and joint 6G workshops",
+   "source": "https://www.6gflagship.com/tag/japan/"
+  },
+  {
+   "from": "utokyo",
+   "to": "oulu",
+   "type": "Research together",
+   "label": "Drone-mounted 5G base station trial at OuluZone (2026)",
+   "source": "https://www.t.u-tokyo.ac.jp/en/press/pr2026-05-26-001"
+  },
+  {
+   "from": "kddi",
+   "to": "nvidia",
+   "type": "Partnership / project",
+   "label": "RAN Digital Twin for 6G (Jun 2026): Aerial Omniverse Digital Twin",
+   "source": "https://newsroom.kddi.com/english/news/detail/kddi_nr-1068_4588.html"
+  },
+  {
+   "from": "kddi",
+   "to": "keysight",
+   "type": "Partnership / project",
+   "label": "RAN Digital Twin for 6G (Jun 2026): UE emulation",
+   "source": "https://newsroom.kddi.com/english/news/detail/kddi_nr-1068_4588.html"
+  },
+  {
+   "from": "kddi",
+   "to": "samsung",
+   "type": "Partnership / project",
+   "label": "RAN Digital Twin for 6G (Jun 2026): Samsung Research America vRAN",
+   "source": "https://newsroom.kddi.com/english/news/detail/kddi_nr-1068_4588.html"
+  },
+  {
+   "from": "nec",
+   "to": "osaka-univ",
+   "type": "Partnership / project",
+   "label": "NEC Beyond 5G Research Alliance Laboratories (2021)",
+   "source": "https://b5g-rd.nict.go.jp/en/special/r07-2.html"
+  },
+  {
+   "from": "softbank",
+   "to": "nict",
+   "type": "Research together",
+   "label": "LEO satellite optical wireless link for satellite, HAPS and ground (2026)",
+   "source": "https://www.softbank.jp/sbnews/entry/20260930_03"
   }
  ]
 }
