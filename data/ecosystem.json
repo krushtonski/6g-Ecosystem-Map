@@ -9580,6 +9580,214 @@
    "sources": [
     "https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/418257:Colombia-aporta-evidencia-tecnica-a-la-UIT-R-sobre-la-gestion-del-espectro-satelital"
    ]
+  },
+  {
+   "id": "western",
+   "name": "Western University (Autonomous and Intelligent Systems Hub)",
+   "short": "Western University",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "1151 Richmond St, London, ON N6A 3K7, Canada",
+   "lat": 43.0096,
+   "lng": -81.2737,
+   "precision": "Campus",
+   "description": "London, Ontario research university. Its Western Autonomous and Intelligent Systems Hub, launched in November 2026, links AI, software, secure communications, sensing and autonomous platforms, with an Autonomous Systems Core Facility opening in 2027.",
+   "sources": [
+    "https://educationnewscanada.com/article/education/level/university/1/1227234/western-autonomous-and-intelligent-systems-hub-builds-on-cutting-edge-research.html"
+   ]
+  },
+  {
+   "id": "concordia",
+   "name": "Concordia University (Security Research Centre)",
+   "short": "Concordia",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "1455 De Maisonneuve Blvd W, Montreal, QC H3G 1M8, Canada",
+   "lat": 45.4972,
+   "lng": -73.579,
+   "precision": "Campus",
+   "description": "Montreal university. Its Security Research Centre works with Ericsson on AI-based cyber resilience for 5G and future 6G networks under the National Cybersecurity Consortium.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+   ]
+  },
+  {
+   "id": "umanitoba",
+   "name": "University of Manitoba",
+   "short": "U Manitoba",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "66 Chancellors Circle, Winnipeg, MB R3T 2N2, Canada",
+   "lat": 49.809,
+   "lng": -97.134,
+   "precision": "Campus",
+   "description": "Winnipeg university. Partner with Ericsson, Concordia and Waterloo on AI-based security for 5G and future 6G networks under the National Cybersecurity Consortium.",
+   "sources": [
+    "https://newswire.ca/news-releases/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats-822612217.html"
+   ]
+  },
+  {
+   "id": "ubc",
+   "name": "University of British Columbia (UBC)",
+   "short": "UBC",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "2329 West Mall, Vancouver, BC V6T 1Z4, Canada",
+   "lat": 49.2606,
+   "lng": -123.246,
+   "precision": "Campus",
+   "description": "Vancouver university. Canada's first 5G smart campus (with Rogers) and a living lab for next-generation wireless. Its ICICS institute and Arctic research programme work on secure 5G/6G communications, sensing and AI for harsh Arctic conditions and defence applications.",
+   "sources": [
+    "https://apsc.ubc.ca/research-partnerships/arctic/data-security-defence-technology-predictive-systems",
+    "https://icics.ubc.ca/industry/ubc-rogers-5g"
+   ]
+  },
+  {
+   "id": "ncc-canada",
+   "name": "National Cybersecurity Consortium (NCC)",
+   "short": "NCC",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads the Government of Canada's Cyber Security Innovation Network (up to CAD 80M). Funds the Ericsson, Concordia, Manitoba and Waterloo project on AI-based security for 5G and future 6G networks.",
+   "sources": [
+    "https://www.mobileworldlive.com/ericsson/ericsson-canadian-universities-to-tackle-5g-security-with-ai/",
+    "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+   ]
+  },
+  {
+   "id": "rogers",
+   "name": "Rogers Communications",
+   "short": "Rogers",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "333 Bloor St E, Toronto, ON M4W 1G9, Canada",
+   "lat": 43.6719,
+   "lng": -79.379,
+   "precision": "Street address",
+   "description": "Canadian network operator. Research partner of UBC since 2018, creating North America's first 5G campus network as a living lab for next-generation wireless.",
+   "sources": [
+    "https://icics.ubc.ca/industry/ubc-rogers-5g"
+   ]
+  },
+  {
+   "id": "gunes-karabulut-kurt",
+   "name": "Gunes Karabulut Kurt",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor and Canada Research Chair (Tier 1) in New Frontiers in Space Communications; Director, Poly-Grames Research Centre, Polytechnique Montréal",
+   "org": "polymtl",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Tier 1 Canada Research Chair in space communications and Director of Poly-Grames (since late 2024, succeeding Ke Wu). Works on wireless, satellite and non-terrestrial networks, security and 5G/6G. Co-founder of ASTROLITH. IEEE ComSoc Distinguished Lecturer.",
+   "sources": [
+    "https://www.comsoc.org/engagement-community/distinguished-lecturers/gunes-karabulut-kurt-0",
+    "https://educationnewscanada.com/article/education/level/university/1/1123146/professor-gunes-karabulut-kurt-appointed-director-of-the-poly-grames-research-centre-.html"
+   ]
+  },
+  {
+   "id": "miriam-capretz",
+   "name": "Miriam Capretz",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Software Engineering; Director, Western Autonomous and Intelligent Systems Hub",
+   "org": "western",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs Western's Autonomous and Intelligent Systems Hub, which combines AI, software and secure communications for autonomous systems.",
+   "sources": [
+    "https://educationnewscanada.com/article/education/level/university/1/1227234/western-autonomous-and-intelligent-systems-hub-builds-on-cutting-edge-research.html"
+   ]
+  },
+  {
+   "id": "zubair-fadlullah",
+   "name": "Zubair Fadlullah",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Computer Science; Associate Director, Western Autonomous and Intelligent Systems Hub",
+   "org": "western",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Associate director of Western's Autonomous and Intelligent Systems Hub, which stresses secure communications for trustworthy autonomous systems.",
+   "sources": [
+    "https://educationnewscanada.com/article/education/level/university/1/1227234/western-autonomous-and-intelligent-systems-hub-builds-on-cutting-edge-research.html"
+   ]
+  },
+  {
+   "id": "soodeh-nikan",
+   "name": "Soodeh Nikan",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Electrical and Computer Engineering faculty; Associate Director, Western Autonomous and Intelligent Systems Hub",
+   "org": "western",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Associate director of Western's Autonomous and Intelligent Systems Hub. Works on explainable AI for autonomous vehicles and sensing.",
+   "sources": [
+    "https://educationnewscanada.com/article/education/level/university/1/1227234/western-autonomous-and-intelligent-systems-hub-builds-on-cutting-edge-research.html",
+    "https://www.eng.uwo.ca/research/the-engineers-impact/soodeh-nikan.html"
+   ]
+  },
+  {
+   "id": "mourad-debbabi",
+   "name": "Mourad Debbabi",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor; Director, Security Research Centre, Concordia University",
+   "org": "concordia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Directs Concordia's Security Research Centre and leads academic work with Ericsson on AI-based cyber resilience for 5G and 6G networks.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+   ]
+  },
+  {
+   "id": "azadeh-tabiban",
+   "name": "Azadeh Tabiban",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Professor of Computer Science, University of Manitoba",
+   "org": "umanitoba",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Manitoba researcher on the Ericsson and NCC project on AI-based security for 5G and future 6G networks.",
+   "sources": [
+    "https://newswire.ca/fr/news-releases/ericsson-s-associe-a-des-universites-canadiennes-pour-mener-une-reponse-d-ia-aux-nouvelles-menaces-de-cybersecurite-804355429.html"
+   ]
   }
  ],
  "edges": [
@@ -15287,6 +15495,97 @@
    "type": "Research together",
    "label": "Low-cost spectrum monitoring network prototype (Manizales campus)",
    "source": "https://dplnews.com/colombia-la-ane-suscribe-convenio-con-la-universidad-nacional-sede-manizales-para-optimizar-el-prototipo-de-la-red-de-monitoreo-de-bajo-costo-del-espectro-radioelectrico/"
+  },
+  {
+   "from": "gunes-karabulut-kurt",
+   "to": "polymtl",
+   "type": "Role",
+   "label": "Director, Poly-Grames; CRC Tier 1",
+   "source": "https://www.comsoc.org/engagement-community/distinguished-lecturers/gunes-karabulut-kurt-0"
+  },
+  {
+   "from": "miriam-capretz",
+   "to": "western",
+   "type": "Role",
+   "label": "Director",
+   "source": "https://educationnewscanada.com/article/education/level/university/1/1227234/western-autonomous-and-intelligent-systems-hub-builds-on-cutting-edge-research.html"
+  },
+  {
+   "from": "zubair-fadlullah",
+   "to": "western",
+   "type": "Role",
+   "label": "Associate Director",
+   "source": "https://educationnewscanada.com/article/education/level/university/1/1227234/western-autonomous-and-intelligent-systems-hub-builds-on-cutting-edge-research.html"
+  },
+  {
+   "from": "soodeh-nikan",
+   "to": "western",
+   "type": "Role",
+   "label": "Associate Director",
+   "source": "https://educationnewscanada.com/article/education/level/university/1/1227234/western-autonomous-and-intelligent-systems-hub-builds-on-cutting-edge-research.html"
+  },
+  {
+   "from": "mourad-debbabi",
+   "to": "concordia",
+   "type": "Role",
+   "label": "Director, Security Research Centre",
+   "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+  },
+  {
+   "from": "azadeh-tabiban",
+   "to": "umanitoba",
+   "type": "Role",
+   "label": "Assistant Professor",
+   "source": "https://newswire.ca/fr/news-releases/ericsson-s-associe-a-des-universites-canadiennes-pour-mener-une-reponse-d-ia-aux-nouvelles-menaces-de-cybersecurite-804355429.html"
+  },
+  {
+   "from": "ncc-canada",
+   "to": "concordia",
+   "type": "Funding",
+   "label": "Cyber Security Innovation Network project: AI-based 5G/6G security (with Ericsson)",
+   "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+  },
+  {
+   "from": "ncc-canada",
+   "to": "umanitoba",
+   "type": "Funding",
+   "label": "Cyber Security Innovation Network project: AI-based 5G/6G security (with Ericsson)",
+   "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+  },
+  {
+   "from": "ncc-canada",
+   "to": "uwaterloo",
+   "type": "Funding",
+   "label": "Cyber Security Innovation Network project: AI-based 5G/6G security (with Ericsson)",
+   "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+  },
+  {
+   "from": "ericsson-canada",
+   "to": "concordia",
+   "type": "Research together",
+   "label": "AI-based cyber resilience for 5G and future 6G (2023)",
+   "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+  },
+  {
+   "from": "ericsson-canada",
+   "to": "umanitoba",
+   "type": "Research together",
+   "label": "AI-based cyber resilience for 5G and future 6G (2023)",
+   "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+  },
+  {
+   "from": "ericsson-canada",
+   "to": "uwaterloo",
+   "type": "Research together",
+   "label": "AI-based cyber resilience for 5G and future 6G (2023)",
+   "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
+  },
+  {
+   "from": "rogers",
+   "to": "ubc",
+   "type": "Partnership / project",
+   "label": "UBC Rogers 5G research partnership since 2018; Canada's first 5G campus",
+   "source": "https://icics.ubc.ca/industry/ubc-rogers-5g"
   }
  ]
 }
