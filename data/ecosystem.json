@@ -5149,9 +5149,11 @@
    "id": "oulu",
    "name": "University of Oulu / 6G Flagship",
    "category": "Academic & research",
-   "description": "Finnish university running 6G Flagship, the world's first large-scale 6G research programme (from 2018). Also runs NATO DIANA's 6G test centre.",
+   "description": "Finnish university running 6G Flagship, the world's first large-scale 6G research programme (from 2018), directed by Ari Pouttu since 2025. Runs the 6G Test Centre, a NATO DIANA test centre, and leads the 6G Rocket AI-RAN project. Member of the AI-RAN Alliance.",
    "sources": [
-    "https://www.6gflagship.com/?p=14218"
+    "https://www.6gflagship.com/?p=14218",
+    "https://www.eurekalert.org/news-releases/1086083",
+    "https://www.oulu.fi/en/news/university-oulu-joins-linux-foundation-initiative-open-source-ran"
    ],
    "website": "https://www.6gflagship.com/"
   },
@@ -11310,6 +11312,488 @@
    "description": "6G channel measurement and modelling researcher; built the Southeast University-Purple Mountain Laboratories 6G pervasive channel simulator.",
    "sources": [
     "https://ncrl.seu.edu.cn/2020/0807/c34871a341660/page.htm"
+   ]
+  },
+  {
+   "id": "nokia-oulu",
+   "name": "Nokia Oulu campus",
+   "short": "Nokia Oulu",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Nokia campus, Oulu, Finland",
+   "lat": 65.058,
+   "lng": 25.443,
+   "precision": "City",
+   "description": "Nokia's research and manufacturing campus in Oulu, opened in 2025 to build 5G and 6G radio networks for the AI era.",
+   "sources": [
+    "https://rcrwireless.com/20250908/internet-of-things/nokia-factory-europe-5g-6g-ai"
+   ]
+  },
+  {
+   "id": "nokia-bell-labs-finland",
+   "name": "Nokia Bell Labs Finland (Espoo)",
+   "short": "Bell Labs Finland",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Karaportti, Espoo, Finland",
+   "lat": 60.2235,
+   "lng": 24.757,
+   "precision": "City",
+   "description": "Nokia Bell Labs' Finnish site, home of Radio Systems Research Finland. Led the EU 6G flagship projects Hexa-X and Hexa-X-II (Nokia overall lead, Ericsson technical manager). Founding member of 6G Finland.",
+   "sources": [
+    "https://www.etsi.org/speakers/hexa-x-ii-project/",
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/09/uusitalo-mikko_nokia-bell-labs_hexa-x-ii-sns-webinar-on-resilience_4.9.2025.pdf",
+    "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+   ]
+  },
+  {
+   "id": "business-finland",
+   "name": "Business Finland",
+   "short": "Business Finland",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Porkkalankatu, Helsinki, Finland",
+   "lat": 60.163,
+   "lng": 24.907,
+   "precision": "City",
+   "description": "Finland's innovation funding agency. Ran the 6G Bridge programme (2022 to 2026, EUR 130 million) for 5G-Advanced and 6G, and awarded Nokia EUR 40 million for AI-driven 6G and defence network R&D (June 2026). Runs joint 6G calls with South Korea and Sweden.",
+   "sources": [
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/09/rantala-pekka_business-finland-resilience-in-6g-the-finnish-6g-bridge-program-perspectives_4.9.2025.pdf",
+    "https://www.businessfinland.fi/en/services/Programs-and-ecosystems/Programs/6G-Bridge/",
+    "https://www.nokia.com/nokia-expands-6g-and-defense-network-rd-in-finland-with-support-from-business-finland/"
+   ]
+  },
+  {
+   "id": "6g-finland",
+   "name": "6G Finland",
+   "short": "6G Finland",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Helsinki, Finland",
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "precision": "City",
+   "description": "National coalition of Finnish 6G R&D organisations, founded 2022 by universities (Oulu, Aalto, Helsinki, Tampere, LUT, Oulu UAS), Nokia Bell Labs, VTT, the Finnish Defence Research Agency and BusinessOulu. Published Finland's 6G roadmap for 2025 to 2028.",
+   "sources": [
+    "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university",
+    "https://www.6gflagship.com/?p=13551",
+    "https://www.6gfinland.fi/"
+   ]
+  },
+  {
+   "id": "aalto",
+   "name": "Aalto University",
+   "short": "Aalto",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Otaniemi Campus, Espoo, Finland",
+   "lat": 60.1867,
+   "lng": 24.8277,
+   "precision": "Campus",
+   "description": "Espoo university. Long-standing Nokia partner: Nokia is donating EUR 1.5 million and funding about EUR 1.3 million a year of joint R&D in AI, 6G, resilient networks and semiconductors (November 2026). Partner in 6G-FUWIRI sub-THz research infrastructure and in Hexa-X-II.",
+   "sources": [
+    "https://www.nokia.com/newsroom/nokia-strengthens-partnership-with-aalto-university-with-15-million-donation-and-expanded-rd-collaboration-for-future-technology-research-and-talent/",
+    "https://research.tuni.fi/wireless/6g/5611/",
+    "https://www.aalto.fi/en/department-of-electronics-and-nanoengineering/antennas-and-propagation"
+   ]
+  },
+  {
+   "id": "vtt",
+   "name": "VTT Technical Research Centre of Finland",
+   "short": "VTT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Vuorimiehentie 3, Espoo, Finland",
+   "lat": 60.184,
+   "lng": 24.823,
+   "precision": "Campus",
+   "description": "Finland's state-owned applied research centre (Espoo and Oulu). Develops 6G hardware (antennas, RF front-ends to 300 GHz, photonics) and satellite-terrestrial networks. Coordinated the 6G-SatMTC satellite project with the University of Oulu, Nokia, Keysight and others.",
+   "sources": [
+    "https://vttresearch.com/en/ourservices/6g-hardware-technologies",
+    "https://www.vttresearch.com/en/news-and-ideas/satellite-communications-could-revolutionise-critical-authority-communications-vtt",
+    "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_05_H%C3%B6yhty%C3%A4.pdf"
+   ]
+  },
+  {
+   "id": "tampere-univ",
+   "name": "Tampere University (Wireless Communications)",
+   "short": "Tampere University",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Hervanta Campus, Tampere, Finland",
+   "lat": 61.4497,
+   "lng": 23.857,
+   "precision": "Campus",
+   "description": "Founding member of 6G Finland. Wireless research on physical-layer algorithms, integrated sensing and communications, positioning and sub-THz radio. Partner in 6G-FUWIRI and in the Oulu-led RF ECO3 project.",
+   "sources": [
+    "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university",
+    "https://research.tuni.fi/wireless/6g/5611/",
+    "https://www.tuni.fi/en/news/tampere-university-contributing-more-sustainable-6g-future-rf-eco3-project"
+   ]
+  },
+  {
+   "id": "univ-helsinki",
+   "name": "University of Helsinki",
+   "short": "University of Helsinki",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Kumpula Campus, Helsinki, Finland",
+   "lat": 60.2047,
+   "lng": 24.9616,
+   "precision": "Campus",
+   "description": "Founding member of 6G Finland; computer science research on edge intelligence and networks.",
+   "sources": [
+    "https://www.helsinki.fi/en/news/mathematics-and-science/university-helsinki-joined-coalition-advance-finlands-6g-competitiveness"
+   ]
+  },
+  {
+   "id": "cinet",
+   "name": "CINET Flagship (Connected Intelligence and Networks for Resilient Society)",
+   "short": "CINET",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Oulu, Finland",
+   "lat": 65.061,
+   "lng": 25.47,
+   "precision": "City",
+   "description": "New Research Council of Finland flagship on connected intelligence and networks for a resilient society, from 2027. Aalto University is a partner.",
+   "sources": [
+    "https://www.aalto.fi/en/news/aalto-coordinates-the-ai-research-flagship-and-is-involved-in-four-others"
+   ]
+  },
+  {
+   "id": "6g-rocket",
+   "name": "6G Rocket (AI-RAN project)",
+   "short": "6G Rocket",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "University of Oulu, Oulu, Finland",
+   "lat": 65.057,
+   "lng": 25.472,
+   "precision": "City",
+   "description": "Two-year AI-RAN development project under the 6G Flagship, led by the University of Oulu from early 2026. DNA is the only operator taking part; the City of Oulu is also involved.",
+   "sources": [
+    "https://www.kaleva.fi/dnan-teknologiajohtaja-6g-tulee-matkapuhelinverkoi/12518918",
+    "https://cities-today.com/?p=74162"
+   ]
+  },
+  {
+   "id": "dna",
+   "name": "DNA",
+   "short": "DNA",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Helsinki, Finland",
+   "lat": 60.223,
+   "lng": 24.863,
+   "precision": "City",
+   "description": "Finnish mobile operator owned by Telenor. The only operator in the University of Oulu's 6G Rocket AI-RAN project (2026).",
+   "sources": [
+    "https://www.kaleva.fi/dnan-teknologiajohtaja-6g-tulee-matkapuhelinverkoi/12518918"
+   ]
+  },
+  {
+   "id": "ericsson-finland",
+   "name": "Ericsson Finland (Jorvas)",
+   "short": "Ericsson Finland",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Hirsalantie 11, Jorvas, Kirkkonummi, Finland",
+   "lat": 60.118,
+   "lng": 24.511,
+   "precision": "Street address",
+   "description": "Ericsson's Finnish R&D site, with around 700 staff, working on network security, cloud, 5G and 6G research and standardisation.",
+   "sources": [
+    "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/finland",
+    "https://www.ericsson.com/fi"
+   ]
+  },
+  {
+   "id": "traficom",
+   "name": "Traficom (Finnish Transport and Communications Agency)",
+   "short": "Traficom",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Kumpula, Helsinki, Finland",
+   "lat": 60.209,
+   "lng": 24.969,
+   "precision": "City",
+   "description": "Finland's telecoms regulator. Co-chairs the 6G subgroup of the EU Radio Spectrum Policy Group, which prepares Europe's 6G spectrum roadmaps.",
+   "sources": [
+    "https://www.traficom.fi/en/news/finland-strongly-involved-european-6g-spectrum-work"
+   ]
+  },
+  {
+   "id": "mikko-uusitalo",
+   "name": "Mikko Uusitalo",
+   "short": "Mikko Uusitalo",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Research Department, Radio Systems Research Finland, and Bell Labs Finland Site Lead, Nokia Bell Labs",
+   "org": "nokia-bell-labs-finland",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Led the EU 6G flagship projects Hexa-X and Hexa-X-II. Industry co-chair of 6G Finland. Chair of the Nokia Foundation board.",
+   "sources": [
+    "https://www.nokia.com/blog/ai-native-6g-is-now-the-industry-direction/",
+    "https://www.etsi.org/speakers/hexa-x-ii-project/",
+    "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+   ]
+  },
+  {
+   "id": "mikko-hautala",
+   "name": "Mikko Hautala",
+   "short": "Mikko Hautala",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Geopolitical and Government Relations and Country Senior Officer for Finland, Nokia",
+   "org": "nokia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Nokia's senior figure in Finland; commented on Business Finland's EUR 40 million 6G and defence R&D award (2026).",
+   "sources": [
+    "https://www.nokia.com/nokia-expands-6g-and-defense-network-rd-in-finland-with-support-from-business-finland/"
+   ]
+  },
+  {
+   "id": "jaakko-sauvola",
+   "name": "Jaakko Sauvola",
+   "short": "Jaakko Sauvola",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Ecosystem Director, 6G Flagship, University of Oulu; Co-Chair, 6G Finland",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads the 6G Flagship's ecosystem and co-creation work and co-chairs the national 6G Finland coalition.",
+   "sources": [
+    "https://www.6gflagship.com/?p=14218",
+    "https://www.6gflagship.com/?p=13551"
+   ]
+  },
+  {
+   "id": "markku-juntti",
+   "name": "Markku Juntti",
+   "short": "Markku Juntti",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Centre for Wireless Communications, University of Oulu",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads the 6G Flagship's Wireless Connectivity research area. IEEE Fellow.",
+   "sources": [
+    "https://www.6gflagship.com/news/building-the-foundations-of-resilient-6g-connectivity/",
+    "https://www.6gflagship.com/tag/ieee/"
+   ]
+  },
+  {
+   "id": "mehdi-bennis",
+   "name": "Mehdi Bennis",
+   "short": "Mehdi Bennis",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, University of Oulu",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "6G Flagship researcher on AI-native wireless and edge intelligence. IEEE Fellow (2020).",
+   "sources": [
+    "https://www.6gflagship.com/tag/ieee/"
+   ]
+  },
+  {
+   "id": "dileepa-marasinghe",
+   "name": "Dileepa Marasinghe",
+   "short": "Dileepa Marasinghe",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "AI-RAN Research Manager, 6G Flagship, University of Oulu",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads the 6G Flagship's AI-RAN team, working with NVIDIA on sensor-driven digital twins for AI-RAN.",
+   "sources": [
+    "https://www.oulu.fi/en/news/university-oulu-joins-linux-foundation-initiative-open-source-ran",
+    "https://www.6gflagship.com/?p=13626"
+   ]
+  },
+  {
+   "id": "hannu-nikurautio",
+   "name": "Hannu Nikurautio",
+   "short": "Hannu Nikurautio",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Director, 6G Test Centre, University of Oulu",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Runs the University of Oulu's 6G Test Centre, a NATO DIANA test centre.",
+   "sources": [
+    "https://www.oulu.fi/en/news/university-oulu-joins-linux-foundation-initiative-open-source-ran"
+   ]
+  },
+  {
+   "id": "hirley-alves",
+   "name": "Hirley Alves",
+   "short": "Hirley Alves",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, University of Oulu",
+   "org": "oulu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-leads 6G-FISRE, the joint Finnish-Swedish 6G resilience programme with KTH.",
+   "sources": [
+    "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
+   ]
+  },
+  {
+   "id": "pekka-rantala",
+   "name": "Pekka Rantala",
+   "short": "Pekka Rantala",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of 6G Bridge Program, Business Finland",
+   "org": "business-finland",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Led Business Finland's EUR 130 million 6G Bridge programme (2022 to 2026) and its international 6G calls.",
+   "sources": [
+    "https://www.businessfinland.fi/en/whats-new/Events/2026/6G-summit-2026/",
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/09/rantala-pekka_business-finland-resilience-in-6g-the-finnish-6g-bridge-program-perspectives_4.9.2025.pdf"
+   ]
+  },
+  {
+   "id": "janne-jarvinen",
+   "name": "Janne Järvinen",
+   "short": "Janne Järvinen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Mission Lead, Digital Native Finland, Business Finland; Co-Chair, 6G Finland",
+   "org": "business-finland",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-chairs 6G Finland and leads Business Finland's Digital Native Finland mission.",
+   "sources": [
+    "https://www.6gflagship.com/?p=13551",
+    "https://www.businessfinland.fi/en/News/Events/2025/vertical-industry-day-2.0"
+   ]
+  },
+  {
+   "id": "katsuyuki-haneda",
+   "name": "Katsuyuki Haneda",
+   "short": "Katsuyuki Haneda",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Department of Electronics and Nanoengineering, Aalto University",
+   "org": "aalto",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Aalto's antennas and propagation research on millimetre-wave and sub-THz radio, including Hexa-X-II sub-THz work.",
+   "sources": [
+    "https://www.aalto.fi/sv/personer/katsuyuki-haneda",
+    "https://www.aalto.fi/en/department-of-electronics-and-nanoengineering/antennas-and-propagation"
+   ]
+  },
+  {
+   "id": "marko-hoyhtya",
+   "name": "Marko Höyhtyä",
+   "short": "Marko Höyhtyä",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Professor, Satellite Communications, VTT",
+   "org": "vtt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads VTT's satellite-terrestrial 6G research; coordinated the 6G-SatMTC project.",
+   "sources": [
+    "https://www.vttresearch.com/en/news-and-ideas/reliable-connections-space-vtt-strengthens-satellite-communications-excellence",
+    "https://news.cision.com/vtt-info/r/satellite-communications-could-revolutionise-critical-authority-communications---vtt-investigates-ne,c3909325"
+   ]
+  },
+  {
+   "id": "mikko-valkama",
+   "name": "Mikko Valkama",
+   "short": "Mikko Valkama",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Tampere University",
+   "org": "tampere-univ",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Tampere University's contact for 6G Finland; leads wireless research on physical layer and sensing.",
+   "sources": [
+    "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+   ]
+  },
+  {
+   "id": "heidi-himmanen",
+   "name": "Heidi Himmanen",
+   "short": "Heidi Himmanen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Advisor, Traficom; Co-Chair, RSPG 6G subgroup",
+   "org": "traficom",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Co-chairs the EU Radio Spectrum Policy Group's 6G subgroup.",
+   "sources": [
+    "https://www.traficom.fi/en/news/finland-strongly-involved-european-6g-spectrum-work"
    ]
   }
  ],
@@ -17844,6 +18328,286 @@
    "type": "Membership",
    "label": "Participant in China 6G technical trials",
    "source": "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+  },
+  {
+   "from": "mikko-uusitalo",
+   "to": "nokia-bell-labs-finland",
+   "type": "Role",
+   "label": "Head of Research Department, Radio Systems Research Finland, and Bell Labs Finland Site Lead, Nokia Bell Labs",
+   "source": "https://www.nokia.com/blog/ai-native-6g-is-now-the-industry-direction/"
+  },
+  {
+   "from": "mikko-hautala",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Head of Geopolitical and Government Relations and Country Senior Officer for Finland, Nokia",
+   "source": "https://www.nokia.com/nokia-expands-6g-and-defense-network-rd-in-finland-with-support-from-business-finland/"
+  },
+  {
+   "from": "jaakko-sauvola",
+   "to": "oulu",
+   "type": "Role",
+   "label": "Ecosystem Director, 6G Flagship, University of Oulu; Co-Chair, 6G Finland",
+   "source": "https://www.6gflagship.com/?p=14218"
+  },
+  {
+   "from": "markku-juntti",
+   "to": "oulu",
+   "type": "Role",
+   "label": "Professor, Centre for Wireless Communications, University of Oulu",
+   "source": "https://www.6gflagship.com/news/building-the-foundations-of-resilient-6g-connectivity/"
+  },
+  {
+   "from": "mehdi-bennis",
+   "to": "oulu",
+   "type": "Role",
+   "label": "Professor, University of Oulu",
+   "source": "https://www.6gflagship.com/tag/ieee/"
+  },
+  {
+   "from": "dileepa-marasinghe",
+   "to": "oulu",
+   "type": "Role",
+   "label": "AI-RAN Research Manager, 6G Flagship, University of Oulu",
+   "source": "https://www.oulu.fi/en/news/university-oulu-joins-linux-foundation-initiative-open-source-ran"
+  },
+  {
+   "from": "hannu-nikurautio",
+   "to": "oulu",
+   "type": "Role",
+   "label": "Research Director, 6G Test Centre, University of Oulu",
+   "source": "https://www.oulu.fi/en/news/university-oulu-joins-linux-foundation-initiative-open-source-ran"
+  },
+  {
+   "from": "hirley-alves",
+   "to": "oulu",
+   "type": "Role",
+   "label": "Professor, University of Oulu",
+   "source": "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
+  },
+  {
+   "from": "pekka-rantala",
+   "to": "business-finland",
+   "type": "Role",
+   "label": "Head of 6G Bridge Program, Business Finland",
+   "source": "https://www.businessfinland.fi/en/whats-new/Events/2026/6G-summit-2026/"
+  },
+  {
+   "from": "janne-jarvinen",
+   "to": "business-finland",
+   "type": "Role",
+   "label": "Mission Lead, Digital Native Finland, Business Finland; Co-Chair, 6G Finland",
+   "source": "https://www.6gflagship.com/?p=13551"
+  },
+  {
+   "from": "katsuyuki-haneda",
+   "to": "aalto",
+   "type": "Role",
+   "label": "Professor, Department of Electronics and Nanoengineering, Aalto University",
+   "source": "https://www.aalto.fi/sv/personer/katsuyuki-haneda"
+  },
+  {
+   "from": "marko-hoyhtya",
+   "to": "vtt",
+   "type": "Role",
+   "label": "Research Professor, Satellite Communications, VTT",
+   "source": "https://www.vttresearch.com/en/news-and-ideas/reliable-connections-space-vtt-strengthens-satellite-communications-excellence"
+  },
+  {
+   "from": "mikko-valkama",
+   "to": "tampere-univ",
+   "type": "Role",
+   "label": "Professor, Tampere University",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "heidi-himmanen",
+   "to": "traficom",
+   "type": "Role",
+   "label": "Chief Advisor, Traficom; Co-Chair, RSPG 6G subgroup",
+   "source": "https://www.traficom.fi/en/news/finland-strongly-involved-european-6g-spectrum-work"
+  },
+  {
+   "from": "mikko-uusitalo",
+   "to": "6g-finland",
+   "type": "Role",
+   "label": "Industry co-chair",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "jaakko-sauvola",
+   "to": "6g-finland",
+   "type": "Role",
+   "label": "Co-chair",
+   "source": "https://www.6gflagship.com/?p=13551"
+  },
+  {
+   "from": "janne-jarvinen",
+   "to": "6g-finland",
+   "type": "Role",
+   "label": "Co-chair",
+   "source": "https://www.6gflagship.com/?p=13551"
+  },
+  {
+   "from": "nokia",
+   "to": "nokia-oulu",
+   "type": "Partnership / project",
+   "label": "Nokia 5G/6G radio research and manufacturing campus (2025)",
+   "source": "https://rcrwireless.com/20250908/internet-of-things/nokia-factory-europe-5g-6g-ai"
+  },
+  {
+   "from": "nokia",
+   "to": "nokia-bell-labs-finland",
+   "type": "Partnership / project",
+   "label": "Nokia Bell Labs Finnish site",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "business-finland",
+   "to": "nokia",
+   "type": "Funding",
+   "label": "EUR 40 million for AI-driven 6G and defence network R&D (June 2026)",
+   "source": "https://www.nokia.com/nokia-expands-6g-and-defense-network-rd-in-finland-with-support-from-business-finland/"
+  },
+  {
+   "from": "business-finland",
+   "to": "oulu",
+   "type": "Funding",
+   "label": "6G Bridge projects incl. RF ECO3 and AURORA-6G; co-organises 6G Summit",
+   "source": "https://www.6gflagship.com/?p=14829"
+  },
+  {
+   "from": "business-finland",
+   "to": "vtt",
+   "type": "Funding",
+   "label": "6G-SatMTC satellite project (6G Bridge)",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_05_H%C3%B6yhty%C3%A4.pdf"
+  },
+  {
+   "from": "vtt",
+   "to": "oulu",
+   "type": "Research together",
+   "label": "6G-SatMTC satellite project; 6G-FUWIRI infrastructure",
+   "source": "https://www.vttresearch.com/en/news-and-ideas/satellite-communications-could-revolutionise-critical-authority-communications-vtt"
+  },
+  {
+   "from": "oulu",
+   "to": "aalto",
+   "type": "Research together",
+   "label": "6G-FUWIRI sub-THz research infrastructure; AURORA-6G",
+   "source": "https://research.tuni.fi/wireless/6g/5611/"
+  },
+  {
+   "from": "oulu",
+   "to": "tampere-univ",
+   "type": "Research together",
+   "label": "6G-FUWIRI sub-THz research infrastructure; RF ECO3",
+   "source": "https://research.tuni.fi/wireless/6g/5611/"
+  },
+  {
+   "from": "nokia",
+   "to": "aalto",
+   "type": "Partnership / project",
+   "label": "EUR 1.5 million donation and about EUR 1.3 million a year of joint R&D (Nov 2026)",
+   "source": "https://www.nokia.com/newsroom/nokia-strengthens-partnership-with-aalto-university-with-15-million-donation-and-expanded-rd-collaboration-for-future-technology-research-and-talent/"
+  },
+  {
+   "from": "oulu",
+   "to": "6g-finland",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "aalto",
+   "to": "6g-finland",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "tampere-univ",
+   "to": "6g-finland",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "univ-helsinki",
+   "to": "6g-finland",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "vtt",
+   "to": "6g-finland",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "nokia-bell-labs-finland",
+   "to": "6g-finland",
+   "type": "Membership",
+   "label": "Founding member; industry co-chair",
+   "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
+  },
+  {
+   "from": "business-finland",
+   "to": "6g-finland",
+   "type": "Partnership / project",
+   "label": "Co-chair (Janne Järvinen)",
+   "source": "https://www.6gflagship.com/?p=13551"
+  },
+  {
+   "from": "oulu",
+   "to": "6g-rocket",
+   "type": "Partnership / project",
+   "label": "Leads the 6G Rocket AI-RAN project (2026)",
+   "source": "https://www.kaleva.fi/dnan-teknologiajohtaja-6g-tulee-matkapuhelinverkoi/12518918"
+  },
+  {
+   "from": "dna",
+   "to": "6g-rocket",
+   "type": "Membership",
+   "label": "Only operator partner",
+   "source": "https://www.kaleva.fi/dnan-teknologiajohtaja-6g-tulee-matkapuhelinverkoi/12518918"
+  },
+  {
+   "from": "aalto",
+   "to": "cinet",
+   "type": "Membership",
+   "label": "Partner in the CINET flagship (from 2027)",
+   "source": "https://www.aalto.fi/en/news/aalto-coordinates-the-ai-research-flagship-and-is-involved-in-four-others"
+  },
+  {
+   "from": "ericsson",
+   "to": "ericsson-finland",
+   "type": "Partnership / project",
+   "label": "Ericsson Finland R&D site",
+   "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/finland"
+  },
+  {
+   "from": "oulu",
+   "to": "etri",
+   "type": "Research together",
+   "label": "Joint 6G system architecture project (2021 to 2024)",
+   "source": "https://www.rcrwireless.com/20230131/featured/finland-south-korea-boost-cooperation-develop-6g-architecture"
+  },
+  {
+   "from": "oulu",
+   "to": "yonsei",
+   "type": "Research together",
+   "label": "AURORA-6G with Aalto, Elisa and Nokia; Finnish-Korean 6G programme (2026)",
+   "source": "https://www.6gflagship.com/?p=14829"
+  },
+  {
+   "from": "oulu",
+   "to": "nvidia",
+   "type": "Research together",
+   "label": "AI-RAN sensor-driven digital twins (AI-RAN Alliance)",
+   "source": "https://www.6gflagship.com/?p=13626"
   }
  ]
 }
