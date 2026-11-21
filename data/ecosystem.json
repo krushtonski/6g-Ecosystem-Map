@@ -1770,13 +1770,13 @@
    "short": "",
    "category": "Academic & research",
    "region": "Rest of US & global",
-   "description": "University; home of the Institute for the Wireless Internet of Things.",
+   "description": "University; home of the Institute for Intelligent Networked Systems (INSI, formerly the Institute for the Wireless Internet of Things), which runs Open6G, the Colosseum emulator and the PAWR Project Office. Main campus in Boston; Open6G and Colosseum at the Innovation Campus in Burlington, MA.",
    "role": "",
    "org": null,
-   "address": "Boston, MA",
-   "lat": 42.3398,
-   "lng": -71.0892,
-   "precision": "Campus",
+   "address": "Interdisciplinary Science and Engineering Complex, 805 Columbus Ave, Boston, MA 02120",
+   "lat": 42.3376,
+   "lng": -71.087,
+   "precision": "Street address",
    "sources": [
     "https://b6gs.com/agenda"
    ]
@@ -2830,15 +2830,16 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Senior Director, Institute for the Wireless Internet of Things, Northeastern University. Co-chaired the FCC Technological Advisory Council's 6G Working Group with Brian Daly (AT&T). Speaker at the Brooklyn 6G Summit 2026 (Nov 5: University panel).",
-   "role": "Senior Director / Co-Chair 6G Working Group, Northeastern University",
+   "description": "Senior Director of Technical Programs at Northeastern (PAWR and the wireless institute) and Executive Director of Open6G. Co-chaired the FCC Technological Advisory Council's 6G Working Group with Brian Daly (AT&T). Senior adviser to NTIA and OUSD(R&E). Speaker at the Brooklyn 6G Summit 2026 (Nov 5: University panel).",
+   "role": "Senior Director of Technical Programs (PAWR & INSI); Executive Director, Open6G, Northeastern University",
    "org": "northeastern",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://research.redhat.com/blog/project_member/abhimanyu-gosain"
    ]
   },
   {
@@ -4486,9 +4487,10 @@
    "id": "pedram-johari",
    "name": "Pedram Johari",
    "category": "Person",
-   "description": "Northeastern University, Open6G. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "description": "Northeastern University, Open6G. Works on wireless digital twins and Open RAN on Colosseum, including the O-RAN Alliance-funded O-RAN digital twin platform. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
    ]
   },
   {
@@ -4811,7 +4813,7 @@
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "William Lincoln Smith Chair Professor; Founding Director, Institute for the Wireless Internet of Things",
+   "role": "William Lincoln Smith Chair Professor, ECE; Founding Director, Institute for Intelligent Networked Systems (formerly WIoT), Northeastern",
    "org": "northeastern",
    "address": "",
    "lat": null,
@@ -4820,16 +4822,16 @@
    "id": "tommaso-melodia",
    "name": "Tommaso Melodia",
    "category": "Person",
-   "description": "Founding director of Northeastern's Institute for the Wireless Internet of Things, home of the OUSD(R&E)-funded Open6G centre for open, programmable 6G. Industry partners include AT&T, Dell, AMD and Intel.",
+   "description": "Founding director of Northeastern's Institute for Intelligent Networked Systems (formerly the Institute for the Wireless Internet of Things), home of the OUSD(R&E)-funded Open6G hub and Colosseum. Director of research for the PAWR Project Office. Named contact for the O-RAN Alliance North American OTIC in the Boston Area. Industry partners include AT&T, Dell, AMD and Intel.",
    "sources": [
-    "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/",
-    "https://coe.northeastern.edu/?p=32846"
+    "https://research.northeastern.edu/people/tommaso-melodia-2",
+    "https://www.o-ran.org/otics/north-american-otic-in-the-boston-area-northeastern-university"
    ]
   },
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "Professor, ECE, Northeastern University",
+   "role": "COE Distinguished Professor, ECE; Associate Dean of Research, College of Engineering, Northeastern University",
    "org": "northeastern",
    "address": "",
    "lat": null,
@@ -4838,9 +4840,10 @@
    "id": "josep-jornet",
    "name": "Josep Jornet",
    "category": "Person",
-   "description": "Terahertz communications researcher since 2009, at Northeastern's Institute for the Wireless Internet of Things (TeraNova testbed).",
+   "description": "Terahertz communications researcher for 6G, at Northeastern's Institute for Intelligent Networked Systems (TeraNova testbed). Associate Dean of Research for the College of Engineering. Co-PI with Francesco Restuccia on the NSF DHARMA.AI AI-ready testbed planning grant.",
    "sources": [
-    "https://ece.northeastern.edu/?p=5824"
+    "https://coe.northeastern.edu/?p=1113",
+    "https://coe.northeastern.edu/news/building-the-future-of-ai-ready-wireless-testbeds/"
    ]
   },
   {
@@ -8074,6 +8077,117 @@
    "sources": [
     "https://wireless.engineering.nyu.edu/the-pi-radio-fr3-sdr-is-operational/"
    ]
+  },
+  {
+   "id": "open6g",
+   "name": "Open6G (Northeastern University)",
+   "short": "Open6G",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Northeastern Innovation Campus, 141 South Bedford St, Burlington, MA 01803",
+   "lat": 42.4866,
+   "lng": -71.2212,
+   "precision": "Street address",
+   "description": "Northeastern's federal-industry-university 6G hub, run by the Institute for Intelligent Networked Systems (INSI, formerly the Institute for the Wireless Internet of Things). Works on Open RAN, AI/ML network control, spectrum sharing and digital twins. Hosts the Colosseum emulator, the O-RAN Alliance-approved North American OTIC in the Boston Area, and an AI-RAN Alliance-endorsed lab. Funded by an OUSD(R&E) FutureG anchor award. Launched Open6G+AI in February 2026.",
+   "sources": [
+    "https://www.open6g.us/",
+    "https://www.o-ran.org/otics/north-american-otic-in-the-boston-area-northeastern-university",
+    "https://insi.northeastern.edu/news/northeastern-university-launches-open6gai-toward-an-open-source-ecosystem-to-accelerate-ai-powered-end-to-end-6g-wireless-networks/"
+   ],
+   "website": "https://www.open6g.us/"
+  },
+  {
+   "id": "michele-polese",
+   "name": "Michele Polese",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Associate Professor, ECE; Technical Director, Institute for Intelligent Networked Systems, Northeastern",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Technical Director of Northeastern's Institute for Intelligent Networked Systems and principal investigator of Open6G+AI, the open-source AI-RAN ecosystem launched in 2026. Leads the O-RAN digital twin work on Colosseum and a $2M Wireless Innovation Fund project (AutoRAN). Elected to an AI-RAN Alliance working group role.",
+   "sources": [
+    "https://ocudueds26.sched.com/speaker/m.polese",
+    "https://insi.northeastern.edu/news/northeastern-university-launches-open6gai-toward-an-open-source-ecosystem-to-accelerate-ai-powered-end-to-end-6g-wireless-networks/",
+    "https://coe.northeastern.edu/news-events/news/faculty-related-news/?facid=1217"
+   ]
+  },
+  {
+   "id": "salvatore-doro",
+   "name": "Salvatore D'Oro",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Research Professor, ECE, Northeastern University",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Open RAN and AI-for-RAN researcher at INSI. Co-inventor on patents for Open RAN adapters, intelligence in the RAN and software-defined cellular networks. Works on the Colosseum digital twin and AI-automated private 5G.",
+   "sources": [
+    "https://coe.northeastern.edu/people/doro-salvatore",
+    "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
+   ]
+  },
+  {
+   "id": "leonardo-bonati",
+   "name": "Leonardo Bonati",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Research Scientist, ECE, Northeastern University",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "INSI researcher building Open6G's Open RAN testbeds, OpenRAN Gym and the Colosseum O-RAN digital twin. Co-inventor on Open RAN and private 5G patents.",
+   "sources": [
+    "https://coe.northeastern.edu/people/bonati-leonardo",
+    "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
+   ]
+  },
+  {
+   "id": "francesco-restuccia",
+   "name": "Francesco Restuccia",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Professor, ECE, Northeastern University",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Works on AI-driven wireless systems for 5G and 6G, including spectrum and multi-band MIMO. Holds an ONR Young Investigator award on 6G spectrum dominance and a 2025 DARPA Young Faculty Award. 2026 IEEE INFOCOM Best Paper Award.",
+   "sources": [
+    "https://coe.northeastern.edu/people/restuccia-francesco",
+    "https://coe.northeastern.edu/news/restuccia-receives-onr-yip-for-6g-spectrum-dominance"
+   ]
+  },
+  {
+   "id": "stefano-basagni",
+   "name": "Stefano Basagni",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, ECE; Associate Dean of the Global Engineering Campus, Northeastern University",
+   "org": "northeastern",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Core faculty of Northeastern's wireless institute and part of the Colosseum leadership team. Co-author of the work turning Colosseum into a digital twin for 6G research.",
+   "sources": [
+    "https://coe.northeastern.edu/people/basagni-stefano",
+    "https://ece.northeastern.edu/wineslab/papers/villa2023dt.pdf"
+   ]
   }
  ],
  "edges": [
@@ -11245,14 +11359,14 @@
    "from": "tommaso-melodia",
    "to": "northeastern",
    "type": "Role",
-   "label": "William Lincoln Smith Chair Professor; Founding Director, Institute for the Wireless Internet of Things",
+   "label": "William Lincoln Smith Chair Professor; Founding Director, Institute for Intelligent Networked Systems",
    "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
   },
   {
    "from": "josep-jornet",
    "to": "northeastern",
    "type": "Role",
-   "label": "Professor, ECE, Northeastern University",
+   "label": "COE Distinguished Professor; Associate Dean of Research",
    "source": "https://ece.northeastern.edu/?p=5824"
   },
   {
@@ -12927,6 +13041,111 @@
    "type": "Partnership / project",
    "label": "Commercial partner on NTIA-funded SALSA upper mid-band project",
    "source": "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
+  },
+  {
+   "from": "michele-polese",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "Technical Director, INSI; PI, Open6G+AI",
+   "source": "https://ocudueds26.sched.com/speaker/m.polese"
+  },
+  {
+   "from": "salvatore-doro",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "Associate Research Professor",
+   "source": "https://coe.northeastern.edu/people/doro-salvatore"
+  },
+  {
+   "from": "leonardo-bonati",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "Associate Research Scientist",
+   "source": "https://coe.northeastern.edu/people/bonati-leonardo"
+  },
+  {
+   "from": "francesco-restuccia",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "Assistant Professor",
+   "source": "https://coe.northeastern.edu/people/restuccia-francesco"
+  },
+  {
+   "from": "stefano-basagni",
+   "to": "northeastern",
+   "type": "Role",
+   "label": "Professor; Colosseum leadership",
+   "source": "https://coe.northeastern.edu/people/basagni-stefano"
+  },
+  {
+   "from": "northeastern",
+   "to": "open6g",
+   "type": "Partnership / project",
+   "label": "Hosts and runs Open6G through the Institute for Intelligent Networked Systems",
+   "source": "https://www.open6g.us/"
+  },
+  {
+   "from": "futureg",
+   "to": "open6g",
+   "type": "Funding",
+   "label": "OUSD(R&E) anchor award via Army Research Laboratory cooperative agreement",
+   "source": "https://insi.northeastern.edu/news/northeastern-university-launches-o-ran-otic-for-next-generation-cellular-networks-in-the-open6g-hub/"
+  },
+  {
+   "from": "oran",
+   "to": "open6g",
+   "type": "Partnership / project",
+   "label": "Approved as North American OTIC in the Boston Area (2023); seed funding for O-RAN digital twin",
+   "source": "https://www.o-ran.org/otics/north-american-otic-in-the-boston-area-northeastern-university"
+  },
+  {
+   "from": "keysight",
+   "to": "open6g",
+   "type": "Partnership / project",
+   "label": "OTIC end-to-end test suite built on Keysight Open RAN emulation and RF test",
+   "source": "https://www.microwavejournal.com/articles/41986-the-open-6g-otic-at-northeastern-university-announces-general-availability-of-open-ran-testing-and-integration-solutions"
+  },
+  {
+   "from": "abhimanyu-gosain",
+   "to": "open6g",
+   "type": "Role",
+   "label": "Executive Director",
+   "source": "https://research.redhat.com/blog/project_member/abhimanyu-gosain"
+  },
+  {
+   "from": "michele-polese",
+   "to": "open6g",
+   "type": "Role",
+   "label": "PI, Open6G+AI",
+   "source": "https://insi.northeastern.edu/news/northeastern-university-launches-open6gai-toward-an-open-source-ecosystem-to-accelerate-ai-powered-end-to-end-6g-wireless-networks/"
+  },
+  {
+   "from": "pedram-johari",
+   "to": "open6g",
+   "type": "Role",
+   "label": "Researcher, Open RAN digital twin",
+   "source": "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
+  },
+  {
+   "from": "leonardo-bonati",
+   "to": "open6g",
+   "type": "Role",
+   "label": "Researcher, Open RAN testbeds and digital twin",
+   "source": "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
+  },
+  {
+   "from": "salvatore-doro",
+   "to": "open6g",
+   "type": "Role",
+   "label": "Researcher, Open RAN digital twin",
+   "source": "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
+  },
+  {
+   "from": "tommaso-melodia",
+   "to": "open6g",
+   "type": "Role",
+   "label": "Director (INSI); OTIC contact",
+   "source": "https://www.o-ran.org/otics/north-american-otic-in-the-boston-area-northeastern-university"
   }
  ]
 }
