@@ -2446,7 +2446,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://wireless.engineering.nyu.edu/?p=14693"
    ]
   },
   {
@@ -4783,9 +4784,10 @@
    "id": "elza-erkip",
    "name": "Elza Erkip",
    "category": "Person",
-   "description": "NYU WIRELESS faculty working on upper mid-band and sub-THz wireless systems. NYU WIRELESS runs the Brooklyn 6G Summit.",
+   "description": "Institute Professor, ECE, NYU Tandon, and NYU WIRELESS faculty working on upper mid-band and sub-THz wireless systems and information theory. Received the 2026 Aaron D. Wyner Distinguished Service Award. Honoured by Women in 6G. NYU WIRELESS runs the Brooklyn 6G Summit.",
    "sources": [
-    "https://wireless.engineering.nyu.edu/"
+    "https://wireless.engineering.nyu.edu/",
+    "https://wireless.engineering.nyu.edu/?p=14693"
    ]
   },
   {
