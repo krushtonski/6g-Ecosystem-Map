@@ -5238,8 +5238,12 @@
    "id": "imt2030-pg",
    "name": "IMT-2030 (6G) Promotion Group (China)",
    "category": "Associations & alliances",
-   "description": "China's government-backed 6G promotion group coordinating research, standards and international cooperation on IMT-2030 (6G).",
-   "sources": []
+   "description": "China's government-backed 6G promotion group, set up by MIIT in June 2019 and led by CAICT. Coordinates research, standards, international cooperation and national 6G technical trials. Granted 6 GHz (6,425 to 7,125 MHz) trial spectrum by MIIT in May 2026.",
+   "sources": [
+    "https://global.chinadaily.com.cn/a/202605/10/WS6a009dcca310d6866eb47c94.html",
+    "https://www.abiresearch.com/market-research/insight/7787874-6-ghz-6g-and-the-battle-for-global-spectru",
+    "https://www.ehangzhou.gov.cn/2026-06/08/c_297840.htm"
+   ]
   },
   {
    "short": "XGMF",
@@ -5286,9 +5290,11 @@
    "id": "huawei",
    "name": "Huawei",
    "category": "Equipment & tech vendors",
-   "description": "Chinese telecoms vendor and a major player in 6G research and standards.",
+   "description": "Chinese telecoms vendor headquartered in Shenzhen and a major player in 6G research and standards. Participant in China's national 6G technical trials. Accounted for about 12% of China's 6G patent applications in a 2021 Nikkei survey.",
    "sources": [
-    "https://www.huawei.com/"
+    "https://www.huawei.com/",
+    "https://databoks.katadata.co.id/en/utilities/statistics/f917ddb01182d8e/china-dominates-6g-patent-applications",
+    "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
    ],
    "website": "https://www.huawei.com/"
   },
@@ -10942,6 +10948,368 @@
    "description": "Elected chair of 3GPP's security working group (SA WG3) in 2025.",
    "sources": [
     "https://news.samsung.com/my/samsung-electronics-secures-two-leadership-positions-in-3gpp"
+   ]
+  },
+  {
+   "id": "caict",
+   "name": "CAICT (China Academy of Information and Communications Technology)",
+   "short": "CAICT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Haidian, Beijing, China",
+   "lat": 39.983,
+   "lng": 116.362,
+   "precision": "City",
+   "description": "MIIT's research institute for telecoms policy and standards. Leads China's IMT-2030 (6G) Promotion Group and co-hosts the annual 6G Development Conference in Beijing.",
+   "sources": [
+    "https://global.chinadaily.com.cn/a/202605/10/WS6a009dcca310d6866eb47c94.html",
+    "https://english.beijing.gov.cn/beijinginfo/sci/event/202511/t20251106_4264210.html"
+   ]
+  },
+  {
+   "id": "miit",
+   "name": "MIIT (China Ministry of Industry and Information Technology)",
+   "short": "MIIT",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Xicheng, Beijing, China",
+   "lat": 39.907,
+   "lng": 116.388,
+   "precision": "City",
+   "description": "China's industry and telecoms ministry. Set up the IMT-2030 (6G) Promotion Group in 2019, granted it 6 GHz (6,425 to 7,125 MHz) 6G trial spectrum in May 2026, and launched a ministry-provincial 6G pilot programme (June 2026). In November 2026 approved eight pilot regions: Beijing, Hebei, Shanghai, Jiangsu, Zhejiang, Anhui, Hubei and Guangdong. In November 2026 approved eight pilot regions: Beijing, Hebei, Shanghai, Jiangsu, Zhejiang, Anhui, Hubei and Guangdong.",
+   "sources": [
+    "https://www.thestar.com.my/business/business-news/2026/05/08/china-approves-6g-trials-to-accelerate-next-gen-connectivity",
+    "https://www.abiresearch.com/market-research/insight/7787874-6-ghz-6g-and-the-battle-for-global-spectru",
+    "https://www.rcrwireless.com/20260610/6g/china-6g-pilot",
+    "https://www.globaltimes.cn/page/202611/1374499.shtml",
+    "https://www.globaltimes.cn/page/202611/1374499.shtml"
+   ]
+  },
+  {
+   "id": "china-mobile-ri",
+   "name": "China Mobile Research Institute (Beijing)",
+   "short": "China Mobile RI",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Xicheng, Beijing, China",
+   "lat": 39.899,
+   "lng": 116.373,
+   "precision": "City",
+   "description": "China Mobile's R&D arm. Runs a 6G open laboratory in Beijing and an open, interoperable Sub-7 GHz 6G baseband prototype that partners can test against. Validated a U6G (upper 6 GHz) prototype base station and terminal with Qualcomm (2026). Leads the Beijing 6G Application Innovation Laboratory in Changping (2026).",
+   "sources": [
+    "https://govt.chinadaily.com.cn/s/202605/11/WS6a015b98498e23165e06f520/nation-oks-real-world-6g-trials.html",
+    "https://www.techradar.com/pro/China-Mobile-unveils-its-6G-baseband-prototype-system",
+    "https://www.sdxcentral.com/news/qualcomm-powers-6g-chinese-dreams-with-china-mobile/",
+    "https://tech.ifeng.com/c/8wWHfNIhxNs"
+   ]
+  },
+  {
+   "id": "zgc-uxi",
+   "name": "ZGC Institute of Ubiquitous-X Innovation and Applications",
+   "short": "ZGC Ubiquitous-X",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Zhongguancun, Haidian, Beijing, China",
+   "lat": 39.984,
+   "lng": 116.307,
+   "precision": "City",
+   "description": "Beijing research institute (Zhongguancun Pan-Institute). Built a cloud-native 6G prototype with China Mobile, exceeding 8 Gbps per user, and co-developed China Mobile's Sub-7 GHz 6G baseband prototype.",
+   "sources": [
+    "https://en.people.cn/n3/2025/0709/c98649-20338101.html",
+    "https://www.techradar.com/pro/China-Mobile-unveils-its-6G-baseband-prototype-system"
+   ]
+  },
+  {
+   "id": "tsinghua",
+   "name": "Tsinghua University",
+   "short": "Tsinghua",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Tsinghua University, Haidian, Beijing, China",
+   "lat": 40.0,
+   "lng": 116.3264,
+   "precision": "Campus",
+   "description": "Beijing university. Department of Electronic Engineering researches semantic communications, AI-assisted wireless and 6G space-air-ground-sea coverage.",
+   "sources": [
+    "https://arxiv.org/pdf/2301.04552",
+    "https://www.tsinghua.edu.cn/info/1662/126628.htm"
+   ]
+  },
+  {
+   "id": "bupt",
+   "name": "Beijing University of Posts and Telecommunications (BUPT)",
+   "short": "BUPT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "BUPT, Haidian, Beijing, China",
+   "lat": 39.9619,
+   "lng": 116.356,
+   "precision": "Campus",
+   "description": "Beijing telecoms university. Professor Zhang Ping's team built what it calls the world's first field test network for 6G communication and AI integration (2024), showing semantic communication on 4G infrastructure. Researches AI-native air interfaces and semantic communication for non-terrestrial networks.",
+   "sources": [
+    "https://en.people.cn/n3/2024/0711/c90000-20192590.html",
+    "https://arxiv.org/html/2508.15277v1"
+   ]
+  },
+  {
+   "id": "pml",
+   "name": "Purple Mountain Laboratories (PMLabs)",
+   "short": "Purple Mountain Labs",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Purple Mountain Science City, Jiangning, Nanjing, China",
+   "lat": 31.937,
+   "lng": 118.816,
+   "precision": "City",
+   "description": "Nanjing 6G research institution, founded 2018. Pioneered cell-free radio access networks. Unveiled a field test network for 6G communication, intelligence and sensing (2025, drone sensing) and launched China's first Pre-6G test network in Nanjing (April 2026).",
+   "sources": [
+    "https://news.cgtn.com/news/2026-04-22/China-launches-first-Pre-6G-test-network-1My1BTnQHf2/index.html",
+    "https://en.people.cn/n3/2025/0417/c90000-20303517.html",
+    "https://news.cgtn.com/news/2025-04-14/China-unveils-world-s-first-field-test-network-for-6G-communication-1Czr9yo5XqM/share_amp.html"
+   ]
+  },
+  {
+   "id": "seu",
+   "name": "Southeast University (National Mobile Communications Research Laboratory)",
+   "short": "Southeast University",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Jiulonghu Campus, Nanjing, China",
+   "lat": 31.888,
+   "lng": 118.818,
+   "precision": "Campus",
+   "description": "Nanjing university whose National Mobile Communications Research Laboratory, directed by You Xiaohu, works closely with Purple Mountain Laboratories on 6G channel modelling, cell-free networks and terahertz.",
+   "sources": [
+    "https://vtsociety.org/contact/xiaohu-you",
+    "https://ncrl.seu.edu.cn/2020/0807/c34871a341660/page.htm"
+   ]
+  },
+  {
+   "id": "zte",
+   "name": "ZTE Corporation",
+   "short": "ZTE",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "ZTE Headquarters, Nanshan, Shenzhen, China",
+   "lat": 22.54,
+   "lng": 113.945,
+   "precision": "City",
+   "description": "Shenzhen telecoms equipment maker. Showed GigaMIMO, a U6G (6,425 to 7,125 MHz) 6G prototype with 2,000+ antenna elements, at MWC 2026, and field-trialled it with China Mobile. First to verify dynamic reconfigurable intelligent surfaces (RIS) with China Mobile Research Institute (2022). Participant in China's 6G technical trials.",
+   "sources": [
+    "https://www.zte.com.cn/global/about/news/ZTE-Launches-GigaMIMO-AI-Native-Wireless-Empowers-Human-Agent-Synergy.html",
+    "https://www.zte.com.cn/global/about/news/20220909e3.html",
+    "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+   ]
+  },
+  {
+   "id": "nokia-shanghai-bell",
+   "name": "Nokia Shanghai Bell",
+   "short": "Nokia Shanghai Bell",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": "",
+   "address": "Shanghai, China",
+   "lat": 31.2304,
+   "lng": 121.4737,
+   "precision": "City",
+   "description": "Nokia's joint venture in China, based in Shanghai. Participant in China's national 6G technical trials.",
+   "sources": [
+    "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+   ]
+  },
+  {
+   "id": "wang-zhiqin",
+   "name": "Wang Zhiqin",
+   "short": "Wang Zhiqin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head, IMT-2030 (6G) Promotion Group; Vice President, CAICT",
+   "org": "caict",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads China's 6G promotion group. Has said Nokia Shanghai Bell, Ericsson, China Mobile, China Telecom, China Unicom, Huawei, ZTE, vivo and Inspur took part in China's 6G technical trials.",
+   "sources": [
+    "https://rcrwireless.com/20231213/featured/china-aims-6g-commercialization-2030-report",
+    "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+   ]
+  },
+  {
+   "id": "du-ying",
+   "name": "Du Ying",
+   "short": "Du Ying",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Deputy Director, Wireless and Mobile Communications Research Institute, CAICT",
+   "org": "caict",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "CAICT wireless lead; projects a 1-trillion-yuan Chinese 6G industry by 2035.",
+   "sources": [
+    "https://govt.chinadaily.com.cn/s/202605/11/WS6a015b98498e23165e06f520/nation-oks-real-world-6g-trials.html"
+   ]
+  },
+  {
+   "id": "huang-yuhong",
+   "name": "Huang Yuhong",
+   "short": "Huang Yuhong",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President, China Mobile Research Institute",
+   "org": "china-mobile-ri",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Heads China Mobile Research Institute; spoke on the 2026 U6G 6G validation with Qualcomm.",
+   "sources": [
+    "https://www.sdxcentral.com/news/qualcomm-powers-6g-chinese-dreams-with-china-mobile/"
+   ]
+  },
+  {
+   "id": "liu-guangyi",
+   "name": "Liu Guangyi",
+   "short": "Liu Guangyi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Expert, China Mobile; Chief Scientist, ZGC Institute of Ubiquitous-X Innovation and Applications",
+   "org": "china-mobile-ri",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Has led China Mobile's 6G R&D since 2018. NGMN board member and co-chair of the 6G Alliance of Network AI (6GANA).",
+   "sources": [
+    "https://en.people.cn/n3/2025/0709/c98649-20338101.html",
+    "https://www.ngmn.org/partner-and-members/guangyi-liu.html",
+    "https://www.mwcshanghai.com/agenda/speakers/15511-dr-guangyi-liu"
+   ]
+  },
+  {
+   "id": "chih-lin-i",
+   "name": "Chih-Lin I",
+   "short": "Chih-Lin I",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Scientist, Wireless Technologies, China Mobile",
+   "org": "china-mobile-ri",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "China Mobile's chief wireless scientist; argues AI is the most transformative part of 6G.",
+   "sources": [
+    "https://news.cgtn.com/news/2026-04-24/Telecom-veteran-on-6G-Rethinking-infrastructure-for-the-AI-era-1MAiBWig2zu/share_amp.html"
+   ]
+  },
+  {
+   "id": "zhang-ping",
+   "name": "Zhang Ping",
+   "short": "Zhang Ping",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Beijing University of Posts and Telecommunications",
+   "org": "bupt",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads BUPT's semantic communication and 6G intellicise network research, including the 2024 6G field test network.",
+   "sources": [
+    "https://techblog.comsoc.org/2024/07/15/chinese-engineers-field-test-a-6g-network-with-semantic-communications-on-4g-infrastructure/",
+    "https://arxiv.org/html/2508.15277v1"
+   ]
+  },
+  {
+   "id": "zhijin-qin",
+   "name": "Zhijin Qin",
+   "short": "Zhijin Qin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Department of Electronic Engineering, Tsinghua University",
+   "org": "tsinghua",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Researches semantic communications for 6G.",
+   "sources": [
+    "https://arxiv.org/pdf/2301.04552"
+   ]
+  },
+  {
+   "id": "you-xiaohu",
+   "name": "You Xiaohu",
+   "short": "You Xiaohu",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, National Mobile Communications Research Laboratory, Southeast University; Academician, Chinese Academy of Sciences",
+   "org": "seu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Led China's national 5G research project. Since 2018 has led Purple Mountain Laboratories' cell-free radio access network work for 6G.",
+   "sources": [
+    "https://vtsociety.org/contact/xiaohu-you",
+    "https://en.people.cn/n3/2025/0417/c90000-20303517.html"
+   ]
+  },
+  {
+   "id": "huang-yongming",
+   "name": "Huang Yongming",
+   "short": "Huang Yongming",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Pervasive Communication Research Center, Purple Mountain Laboratories",
+   "org": "pml",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Purple Mountain Laboratories' 6G field test work on integrated sensing and cell-free networks.",
+   "sources": [
+    "https://news.cgtn.com/news/2025-04-14/China-unveils-world-s-first-field-test-network-for-6G-communication-1Czr9yo5XqM/share_amp.html",
+    "https://en.people.cn/n3/2025/0417/c90000-20303517.html"
+   ]
+  },
+  {
+   "id": "cheng-xiang-wang",
+   "name": "Cheng-Xiang Wang",
+   "short": "Cheng-Xiang Wang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Dean, School of Information Science and Engineering, Southeast University; Professor, Purple Mountain Laboratories",
+   "org": "seu",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "6G channel measurement and modelling researcher; built the Southeast University-Purple Mountain Laboratories 6G pervasive channel simulator.",
+   "sources": [
+    "https://ncrl.seu.edu.cn/2020/0807/c34871a341660/page.htm"
    ]
   }
  ],
@@ -17301,6 +17669,181 @@
    "type": "Partnership / project",
    "label": "Samsung R&D Institute India-Bangalore",
    "source": "https://news.samsung.com/my/samsung-electronics-secures-two-leadership-positions-in-3gpp"
+  },
+  {
+   "from": "wang-zhiqin",
+   "to": "caict",
+   "type": "Role",
+   "label": "Head, IMT-2030 (6G) Promotion Group; Vice President, CAICT",
+   "source": "https://rcrwireless.com/20231213/featured/china-aims-6g-commercialization-2030-report"
+  },
+  {
+   "from": "du-ying",
+   "to": "caict",
+   "type": "Role",
+   "label": "Deputy Director, Wireless and Mobile Communications Research Institute, CAICT",
+   "source": "https://govt.chinadaily.com.cn/s/202605/11/WS6a015b98498e23165e06f520/nation-oks-real-world-6g-trials.html"
+  },
+  {
+   "from": "huang-yuhong",
+   "to": "china-mobile-ri",
+   "type": "Role",
+   "label": "President, China Mobile Research Institute",
+   "source": "https://www.sdxcentral.com/news/qualcomm-powers-6g-chinese-dreams-with-china-mobile/"
+  },
+  {
+   "from": "liu-guangyi",
+   "to": "china-mobile-ri",
+   "type": "Role",
+   "label": "Chief Expert, China Mobile; Chief Scientist, ZGC Institute of Ubiquitous-X Innovation and Applications",
+   "source": "https://en.people.cn/n3/2025/0709/c98649-20338101.html"
+  },
+  {
+   "from": "chih-lin-i",
+   "to": "china-mobile-ri",
+   "type": "Role",
+   "label": "Chief Scientist, Wireless Technologies, China Mobile",
+   "source": "https://news.cgtn.com/news/2026-04-24/Telecom-veteran-on-6G-Rethinking-infrastructure-for-the-AI-era-1MAiBWig2zu/share_amp.html"
+  },
+  {
+   "from": "zhang-ping",
+   "to": "bupt",
+   "type": "Role",
+   "label": "Professor, Beijing University of Posts and Telecommunications",
+   "source": "https://techblog.comsoc.org/2024/07/15/chinese-engineers-field-test-a-6g-network-with-semantic-communications-on-4g-infrastructure/"
+  },
+  {
+   "from": "zhijin-qin",
+   "to": "tsinghua",
+   "type": "Role",
+   "label": "Department of Electronic Engineering, Tsinghua University",
+   "source": "https://arxiv.org/pdf/2301.04552"
+  },
+  {
+   "from": "you-xiaohu",
+   "to": "seu",
+   "type": "Role",
+   "label": "Director, National Mobile Communications Research Laboratory, Southeast University; Academician, Chinese Academy of Sciences",
+   "source": "https://vtsociety.org/contact/xiaohu-you"
+  },
+  {
+   "from": "huang-yongming",
+   "to": "pml",
+   "type": "Role",
+   "label": "Director, Pervasive Communication Research Center, Purple Mountain Laboratories",
+   "source": "https://news.cgtn.com/news/2025-04-14/China-unveils-world-s-first-field-test-network-for-6G-communication-1Czr9yo5XqM/share_amp.html"
+  },
+  {
+   "from": "cheng-xiang-wang",
+   "to": "seu",
+   "type": "Role",
+   "label": "Dean, School of Information Science and Engineering, Southeast University; Professor, Purple Mountain Laboratories",
+   "source": "https://ncrl.seu.edu.cn/2020/0807/c34871a341660/page.htm"
+  },
+  {
+   "from": "you-xiaohu",
+   "to": "pml",
+   "type": "Role",
+   "label": "Leads cell-free radio access network research",
+   "source": "https://en.people.cn/n3/2025/0417/c90000-20303517.html"
+  },
+  {
+   "from": "liu-guangyi",
+   "to": "zgc-uxi",
+   "type": "Role",
+   "label": "Chief Scientist",
+   "source": "https://en.people.cn/n3/2025/0709/c98649-20338101.html"
+  },
+  {
+   "from": "wang-zhiqin",
+   "to": "imt2030-pg",
+   "type": "Role",
+   "label": "Head",
+   "source": "https://rcrwireless.com/20231213/featured/china-aims-6g-commercialization-2030-report"
+  },
+  {
+   "from": "caict",
+   "to": "imt2030-pg",
+   "type": "Partnership / project",
+   "label": "Leads the IMT-2030 (6G) Promotion Group",
+   "source": "https://global.chinadaily.com.cn/a/202605/10/WS6a009dcca310d6866eb47c94.html"
+  },
+  {
+   "from": "miit",
+   "to": "imt2030-pg",
+   "type": "Partnership / project",
+   "label": "Set up the group (2019); 6 GHz 6G trial spectrum permit (May 2026)",
+   "source": "https://www.ehangzhou.gov.cn/2026-06/08/c_297840.htm"
+  },
+  {
+   "from": "china-mobile-ri",
+   "to": "imt2030-pg",
+   "type": "Membership",
+   "label": "Participant in China 6G technical trials",
+   "source": "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+  },
+  {
+   "from": "huawei",
+   "to": "imt2030-pg",
+   "type": "Membership",
+   "label": "Participant in China 6G technical trials",
+   "source": "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+  },
+  {
+   "from": "ericsson",
+   "to": "imt2030-pg",
+   "type": "Membership",
+   "label": "Participant in China 6G technical trials",
+   "source": "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+  },
+  {
+   "from": "china-mobile-ri",
+   "to": "qualcomm",
+   "type": "Research together",
+   "label": "U6G (6,425 to 7,125 MHz) 6G prototype base station and terminal validation (2026)",
+   "source": "https://www.sdxcentral.com/news/qualcomm-powers-6g-chinese-dreams-with-china-mobile/"
+  },
+  {
+   "from": "china-mobile-ri",
+   "to": "zgc-uxi",
+   "type": "Research together",
+   "label": "Cloud-native 6G prototype; Sub-7 GHz 6G baseband prototype",
+   "source": "https://en.people.cn/n3/2025/0709/c98649-20338101.html"
+  },
+  {
+   "from": "seu",
+   "to": "pml",
+   "type": "Research together",
+   "label": "6G pervasive channel simulator; cell-free networks; shared researchers",
+   "source": "https://ncrl.seu.edu.cn/2020/0807/c34871a341660/page.htm"
+  },
+  {
+   "from": "china-mobile-ri",
+   "to": "zte",
+   "type": "Research together",
+   "label": "Dynamic RIS prototype verification (2022); GigaMIMO U6G field trials",
+   "source": "https://www.zte.com.cn/global/about/news/20220909e3.html"
+  },
+  {
+   "from": "zte",
+   "to": "imt2030-pg",
+   "type": "Membership",
+   "label": "Participant in China 6G technical trials",
+   "source": "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+  },
+  {
+   "from": "nokia",
+   "to": "nokia-shanghai-bell",
+   "type": "Partnership / project",
+   "label": "Nokia's China joint venture",
+   "source": "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
+  },
+  {
+   "from": "nokia-shanghai-bell",
+   "to": "imt2030-pg",
+   "type": "Membership",
+   "label": "Participant in China 6G technical trials",
+   "source": "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
   }
  ]
 }
