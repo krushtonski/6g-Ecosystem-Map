@@ -9367,6 +9367,219 @@
    "sources": [
     "https://www.rnp.br/en/news/inatel-promotes-event-6g-mobile-networks-brazil"
    ]
+  },
+  {
+   "id": "subtel",
+   "name": "Subtel (Chile Undersecretariat of Telecommunications)",
+   "short": "Subtel",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Santiago, Chile",
+   "lat": -33.4489,
+   "lng": -70.6693,
+   "precision": "City",
+   "description": "Chile's telecoms regulator. Published the National Digital Plan 2026 to 2036 in October 2026, which prepares the path from 5G and 5G-Advanced to 6G, plans the 3G switch-off and widens spectrum for industrial networks. Signed a two-year agreement with OnLab, backed by Corfo, to pilot 5G, 5.5G and future 6G in mining, forestry, agriculture, logistics, health and smart cities.",
+   "sources": [
+    "https://dplnews.com/?p=332928",
+    "https://www.emol.com/noticias/Economia/2026/10/06/1213367/subtel-onlab-acuerdo-corfo-6g.html",
+    "https://www.intelligentcio.com/latam/?p=20093"
+   ]
+  },
+  {
+   "id": "corfo",
+   "name": "Corfo (Chile Production Development Corporation)",
+   "short": "Corfo",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Santiago, Chile",
+   "lat": -33.443,
+   "lng": -70.654,
+   "precision": "City",
+   "description": "Chile's state economic development agency. Its Technological Capabilities division backs the Subtel and OnLab industrial 5G/6G pilot programme.",
+   "sources": [
+    "https://www.emol.com/noticias/Economia/2026/10/06/1213367/subtel-onlab-acuerdo-corfo-6g.html",
+    "https://www.intelligentcio.com/latam/?p=20093"
+   ]
+  },
+  {
+   "id": "onlab",
+   "name": "OnLab",
+   "short": "",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Santiago, Chile",
+   "lat": -33.4372,
+   "lng": -70.6506,
+   "precision": "City",
+   "description": "Chilean technology centre for 5G, robotics and sensing. Under a two-year agreement with Subtel (October 2026), supported by Corfo, it runs controlled test environments to pilot 5G, 5.5G and future 6G with AI, cybersecurity and robotics in productive sectors.",
+   "sources": [
+    "https://www.intelligentcio.com/latam/?p=20093",
+    "https://chocale.cl/2026/10/subtel-anuncia-acuerdo-con-laboratorio-para-impulsar-uso-de-5g-y-6g-en-sectores-productivos/"
+   ]
+  },
+  {
+   "id": "mintic",
+   "name": "MinTIC (Colombia Ministry of ICT)",
+   "short": "MinTIC",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Bogotá, Colombia",
+   "lat": 4.6097,
+   "lng": -74.0817,
+   "precision": "City",
+   "description": "Colombia's ICT ministry. With the ANE, issued the Spectrum Management Policy 2026 to 2029, which includes preparation for 6G standards, new bands and more flexible spectrum access (dynamic sharing, local licences).",
+   "sources": [
+    "https://impactotic.co/noticias-tic/como-cambiara-el-internet-en-colombia-con-la-nueva-politica-de-espectro/",
+    "https://dplnews.com/?p=297905"
+   ]
+  },
+  {
+   "id": "ane-colombia",
+   "name": "ANE (Colombia National Spectrum Agency)",
+   "short": "ANE",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Calle 93 # 17-45, Piso 4, Bogotá, Colombia",
+   "lat": 4.6766,
+   "lng": -74.0487,
+   "precision": "Street address",
+   "description": "Colombia's spectrum agency. Its Spectrum Master Plan 2026 to 2030 and policy work cover 5G-Advanced and 6G, satellite and AI-based demand modelling. Represents Colombia at ITU-R Working Party 5D on IMT, including 6G, and funds university studies for WRC-27.",
+   "sources": [
+    "https://dplnews.com/colombia-se-prepara-para-el-futuro-de-la-conectividad-la-ane-presenta-su-hoja-de-ruta-para-el-espectro/",
+    "https://dplnews.com/colombia-la-ane-fortalece-su-liderazgo-en-el-desarrollo-de-tecnologias-moviles-en-reunion-del-grupo-de-trabajo-5d-de-la-uit-en-ginebra/"
+   ]
+  },
+  {
+   "id": "uniandes",
+   "name": "Universidad de los Andes",
+   "short": "Uniandes",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Universidad de los Andes, Bogotá, Colombia",
+   "lat": 4.6015,
+   "lng": -74.0661,
+   "precision": "Campus",
+   "description": "Leading Colombian research university. Its Department of Electrical and Electronics Engineering is recruiting faculty in RF circuit design and 5G/6G.",
+   "sources": [
+    "https://electricayelectronica.uniandes.edu.co/es/communications-or-microelectronic-assistant-professor-position"
+   ]
+  },
+  {
+   "id": "unal-colombia",
+   "name": "Universidad Nacional de Colombia",
+   "short": "UNAL",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Universidad Nacional de Colombia, Bogotá, Colombia",
+   "lat": 4.6381,
+   "lng": -74.084,
+   "precision": "Campus",
+   "description": "Colombia's national public university. Its Manizales campus works with the ANE on a low-cost spectrum monitoring network prototype.",
+   "sources": [
+    "https://dplnews.com/colombia-la-ane-suscribe-convenio-con-la-universidad-nacional-sede-manizales-para-optimizar-el-prototipo-de-la-red-de-monitoreo-de-bajo-costo-del-espectro-radioelectrico/"
+   ]
+  },
+  {
+   "id": "romina-garrido",
+   "name": "Romina Garrido",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Undersecretary of Telecommunications, Chile (Subtel)",
+   "org": "subtel",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Head of Subtel since 11 March 2026. Leads Chile's National Digital Plan 2026 to 2036 and the Subtel and OnLab industrial 5G/6G pilot agreement, with the aim of making Chile Latin America's digital hub. A lawyer specialising in data protection.",
+   "sources": [
+    "https://www.diariooficial.interior.gob.cl/publicaciones/2026/05/22/44455/01/2812145.pdf",
+    "https://www.emol.com/noticias/Economia/2026/10/06/1213367/subtel-onlab-acuerdo-corfo-6g.html"
+   ]
+  },
+  {
+   "id": "rolando-martinez",
+   "name": "Rolando Martínez",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Director (CEO), OnLab",
+   "org": "onlab",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads OnLab, which runs Chile's industrial 5G, robotics and future 6G pilots under the 2026 agreement with Subtel and Corfo.",
+   "sources": [
+    "https://www.intelligentcio.com/latam/?p=20093",
+    "https://www.emol.com/noticias/Economia/2026/10/06/1213367/subtel-onlab-acuerdo-corfo-6g.html"
+   ]
+  },
+  {
+   "id": "fernando-hentzschel",
+   "name": "Fernando Hentzschel",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Manager of Technological Capabilities, Corfo",
+   "org": "corfo",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Heads Corfo's Technological Capabilities division, which backs the Subtel and OnLab 5G/6G pilots. Also leads Corfo programmes on AI adoption and green hydrogen.",
+   "sources": [
+    "https://www.mch.cl/suscriben-acuerdo-para-impulsar-el-5g-y-6g-en-sectores-productivos-como-la-mineria/",
+    "https://fch.cl/en/noticias/corfo-refocuses-green-hydrogen-promotion-with-emphasis-on-domestic-demand-and-job-creation/"
+   ]
+  },
+  {
+   "id": "sergio-sotomayor",
+   "name": "Sergio Sotomayor",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director General, ANE (Colombia National Spectrum Agency)",
+   "org": "ane-colombia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads Colombia's spectrum agency and its Spectrum Master Plan 2026 to 2030, which includes preparation for 5G-Advanced and 6G.",
+   "sources": [
+    "https://dplnews.com/colombia-se-prepara-para-el-futuro-de-la-conectividad-la-ane-presenta-su-hoja-de-ruta-para-el-espectro/"
+   ]
+  },
+  {
+   "id": "johanna-cruz",
+   "name": "Johanna Cruz",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Coordinator, Spectrum Engineering Group, ANE",
+   "org": "ane-colombia",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Represents Colombia at ITU-R study groups on spectrum, including satellite spectrum studies.",
+   "sources": [
+    "https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/418257:Colombia-aporta-evidencia-tecnica-a-la-UIT-R-sobre-la-gestion-del-espectro-satelital"
+   ]
   }
  ],
  "edges": [
@@ -15004,6 +15217,76 @@
    "type": "Research together",
    "label": "Director and deputy director of SMARTNESS",
    "source": "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
+  },
+  {
+   "from": "romina-garrido",
+   "to": "subtel",
+   "type": "Role",
+   "label": "Undersecretary",
+   "source": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/05/22/44455/01/2812145.pdf"
+  },
+  {
+   "from": "rolando-martinez",
+   "to": "onlab",
+   "type": "Role",
+   "label": "Executive Director",
+   "source": "https://www.intelligentcio.com/latam/?p=20093"
+  },
+  {
+   "from": "fernando-hentzschel",
+   "to": "corfo",
+   "type": "Role",
+   "label": "Manager, Technological Capabilities",
+   "source": "https://www.mch.cl/suscriben-acuerdo-para-impulsar-el-5g-y-6g-en-sectores-productivos-como-la-mineria/"
+  },
+  {
+   "from": "sergio-sotomayor",
+   "to": "ane-colombia",
+   "type": "Role",
+   "label": "Director General",
+   "source": "https://dplnews.com/colombia-se-prepara-para-el-futuro-de-la-conectividad-la-ane-presenta-su-hoja-de-ruta-para-el-espectro/"
+  },
+  {
+   "from": "johanna-cruz",
+   "to": "ane-colombia",
+   "type": "Role",
+   "label": "Coordinator, Spectrum Engineering",
+   "source": "https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/418257:Colombia-aporta-evidencia-tecnica-a-la-UIT-R-sobre-la-gestion-del-espectro-satelital"
+  },
+  {
+   "from": "subtel",
+   "to": "onlab",
+   "type": "Partnership / project",
+   "label": "Two-year agreement (Oct 2026) to pilot 5G, 5.5G and future 6G in productive sectors",
+   "source": "https://www.emol.com/noticias/Economia/2026/10/06/1213367/subtel-onlab-acuerdo-corfo-6g.html"
+  },
+  {
+   "from": "corfo",
+   "to": "onlab",
+   "type": "Funding",
+   "label": "Backs the Subtel and OnLab industrial 5G/6G pilots",
+   "source": "https://www.emol.com/noticias/Economia/2026/10/06/1213367/subtel-onlab-acuerdo-corfo-6g.html"
+  },
+  {
+   "from": "corfo",
+   "to": "subtel",
+   "type": "Partnership / project",
+   "label": "Partner in the industrial 5G/6G pilot agreement",
+   "source": "https://www.intelligentcio.com/latam/?p=20093"
+  },
+  {
+   "from": "mintic",
+   "to": "ane-colombia",
+   "type": "Partnership / project",
+   "label": "Joint Spectrum Management Policy 2026 to 2029, including 6G preparation",
+   "source": "https://impactotic.co/noticias-tic/como-cambiara-el-internet-en-colombia-con-la-nueva-politica-de-espectro/"
+  },
+  {
+   "from": "ane-colombia",
+   "to": "unal-colombia",
+   "type": "Research together",
+   "label": "Low-cost spectrum monitoring network prototype (Manizales campus)",
+   "source": "https://dplnews.com/colombia-la-ane-suscribe-convenio-con-la-universidad-nacional-sede-manizales-para-optimizar-el-prototipo-de-la-red-de-monitoreo-de-bajo-costo-del-espectro-radioelectrico/"
   }
  ]
 }
