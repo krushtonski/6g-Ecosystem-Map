@@ -5290,7 +5290,7 @@
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "Head of Cellular Standards, HWT, Apple; 3GPP RAN Plenary Chair 2021–2025",
+   "role": "Head of Cellular Standard, HWT Department, Apple",
    "org": "apple",
    "address": "",
    "lat": null,
@@ -5299,9 +5299,10 @@
    "id": "wanshi-chen",
    "name": "Wanshi Chen",
    "category": "Person",
-   "description": "Apple's Head of Cellular Standards. Chaired the 3GPP RAN Plenary from April 2021 to January 2025 (the most senior radio role in 3GPP) and RAN WG1 from 2017 to 2021, while at Qualcomm.",
+   "description": "Leads cellular standards at Apple. Formerly at Qualcomm (from 2006), where he was 3GPP TSG RAN Plenary Chair (April 2021 to January 2025, the most senior radio role in 3GPP), RAN1 Chair (2017 to 2021) and RAN1 Vice Chair (2013 to 2017), leading delivery of the first 5G NR releases. Lead Editor of IEEE Communications Magazine's Mobile Communications and Network Series.",
    "sources": [
-    "https://gsacom.com/?p=18982"
+    "https://gsacom.com/?p=18982",
+    "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/wanshi-chen/"
    ]
   },
   {
@@ -12305,7 +12306,7 @@
    "from": "wanshi-chen",
    "to": "apple",
    "type": "Role",
-   "label": "Head of Cellular Standards, HWT, Apple; 3GPP RAN Plenary Chair 2021–2025",
+   "label": "Head of Cellular Standard, HWT Department",
    "source": "https://gsacom.com/?p=18982"
   },
   {
@@ -12410,7 +12411,7 @@
    "from": "wanshi-chen",
    "to": "3gpp",
    "type": "Role",
-   "label": "Former TSG RAN Plenary Chair (2021–2025)",
+   "label": "Former TSG RAN Plenary Chair (2021 to 2025) and RAN1 Chair (2017 to 2021)",
    "source": "https://gsacom.com/?p=18982"
   },
   {
@@ -14309,6 +14310,13 @@
    "type": "Role",
    "label": "Senior Director, SMI team (6G system research)",
    "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/younghan-nam/"
+  },
+  {
+   "from": "wanshi-chen",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "Former Senior Director, Technology (joined 2006)",
+   "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/wanshi-chen/"
   }
  ]
 }
