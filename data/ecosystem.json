@@ -7000,6 +7000,281 @@
     "https://twistlab.uta.edu/about-pi",
     "https://debashriroy.github.io"
    ]
+  },
+  {
+   "id": "afcea",
+   "name": "AFCEA International",
+   "short": "AFCEA",
+   "category": "Associations & alliances",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "4114 Legato Rd, Suite 1000, Fairfax, VA 22033",
+   "lat": 38.8572,
+   "lng": -77.3631,
+   "precision": "Street address",
+   "website": "https://www.afcea.org/",
+   "description": "Membership association for defence, homeland security, intelligence and technology: about 30,000 individual members, 1,700 corporate members and 140 chapters. Runs the TechNet conference series (including TechNet Cyber and AFCEA West), SIGNAL magazine, committees (Cyber, Technology, Intelligence and others) and the AFCEA Educational Foundation. Its events regularly cover military 5G, spectrum operations and early DoW 6G/ISAC planning. European office in Brussels.",
+   "sources": [
+    "https://www.afcea.org/",
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership",
+    "https://federatedwireless.ai/2026/03/03/afcea-west-2026-private-5g-moves-from-pilots-to-proven-deployments/"
+   ]
+  },
+  {
+   "id": "tamara-greenspan",
+   "name": "Tamara Greenspan",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Chair of the Board, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Chair of the Board at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "amy-fadida",
+   "name": "Amy Fadida",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Vice Chair of the Board, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Vice Chair of the Board at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "bruce-crawford",
+   "name": "Lt. Gen. Bruce T. Crawford, USA (Ret.)",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and CEO, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "President and CEO of AFCEA International. Retired US Army lieutenant general.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "pat-miorin",
+   "name": "Pat Miorin",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "EVP, COO and International Treasurer, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "EVP, COO and International Treasurer at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "paul-fredenburgh",
+   "name": "Brig. Gen. Paul Fredenburgh, USA (Ret.)",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "EVP for National Security and Defense, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Leads AFCEA's national security and defence portfolio, including its TechNet events and industry programmes. Retired US Army brigadier general.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "mike-black",
+   "name": "Col. Mike Black, USAF (Ret.)",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "SVP for Defense, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "SVP for Defense at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "ray-cross",
+   "name": "Capt. Ray Cross, USN (Ret.)",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "SVP for Intelligence, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "SVP for Intelligence at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "massimo-esposito",
+   "name": "Rear Adm. Massimo Esposito (Ret.), Italian Navy",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "General Manager, AFCEA Europe",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Runs AFCEA Europe from Brussels, including TechNet International. Retired Italian Navy rear admiral.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "tammy-goehring",
+   "name": "Tammy Goehring",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "SVP HR/Support, AFCEA Educational Foundation and International Secretary",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "SVP HR/Support, AFCEA Educational Foundation and International Secretary at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "jason-henham",
+   "name": "Jason Henham",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "SVP and CFO, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "SVP and CFO at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "sandra-jontz",
+   "name": "Sandra Jontz",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "VP Marketing and Communications, Chief Knowledge Officer and Associate Publisher (SIGNAL), AFCEA",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Runs AFCEA marketing and communications and is associate publisher of SIGNAL magazine, which covers military 5G and spectrum.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "melissa-macdonald",
+   "name": "Melissa MacDonald",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "VP Events, National Security and Defense, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "VP Events, National Security and Defense at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "gina-mcgovern",
+   "name": "Gina McGovern",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "VP Industry Programs, National Security and Defense, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "VP Industry Programs, National Security and Defense at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "tim-reyna",
+   "name": "CW4 Eutimio \"Tim\" Reyna III, USA (Ret.)",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "VP, CIO/CTO, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "VP, CIO/CTO at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
+  },
+  {
+   "id": "shaunte-russell",
+   "name": "Shaunté Russell",
+   "short": "",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "VP Membership, AFCEA International",
+   "org": "afcea",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "VP Membership at AFCEA International, the Fairfax-based defence and technology association.",
+   "sources": [
+    "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+   ]
   }
  ],
  "edges": [
@@ -11412,6 +11687,125 @@
    "type": "Research together",
    "label": "Former research scientist in his GENESYS lab, Northeastern (2020 to 2023); NSF SWIFT co-PI",
    "source": "https://debashriroy.github.io"
+  },
+  {
+   "from": "tamara-greenspan",
+   "to": "afcea",
+   "type": "Role",
+   "label": "Chair of the Board",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "amy-fadida",
+   "to": "afcea",
+   "type": "Role",
+   "label": "Vice Chair of the Board",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "bruce-crawford",
+   "to": "afcea",
+   "type": "Role",
+   "label": "President and CEO",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "pat-miorin",
+   "to": "afcea",
+   "type": "Role",
+   "label": "EVP, COO and International Treasurer",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "paul-fredenburgh",
+   "to": "afcea",
+   "type": "Role",
+   "label": "EVP for National Security and Defense",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "mike-black",
+   "to": "afcea",
+   "type": "Role",
+   "label": "SVP for Defense",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "ray-cross",
+   "to": "afcea",
+   "type": "Role",
+   "label": "SVP for Intelligence",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "massimo-esposito",
+   "to": "afcea",
+   "type": "Role",
+   "label": "General Manager, AFCEA Europe (Brussels)",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "tammy-goehring",
+   "to": "afcea",
+   "type": "Role",
+   "label": "SVP HR/Support; International Secretary",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "jason-henham",
+   "to": "afcea",
+   "type": "Role",
+   "label": "SVP and CFO",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "sandra-jontz",
+   "to": "afcea",
+   "type": "Role",
+   "label": "VP Marketing and Communications; Associate Publisher",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "melissa-macdonald",
+   "to": "afcea",
+   "type": "Role",
+   "label": "VP Events, National Security and Defense",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "gina-mcgovern",
+   "to": "afcea",
+   "type": "Role",
+   "label": "VP Industry Programs",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "tim-reyna",
+   "to": "afcea",
+   "type": "Role",
+   "label": "VP, CIO/CTO",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "shaunte-russell",
+   "to": "afcea",
+   "type": "Role",
+   "label": "VP Membership",
+   "source": "https://www.afcea.org/about-afcea/afcea-senior-leadership"
+  },
+  {
+   "from": "kirsten-davies",
+   "to": "afcea",
+   "type": "Event participation",
+   "label": "Spoke at TechNet Cyber 2026, Baltimore (2 June 2026)",
+   "source": "https://www.afcea.org/node?page=3"
+  },
+  {
+   "from": "federated-wireless",
+   "to": "afcea",
+   "type": "Event participation",
+   "label": "AFCEA West 2026: private 5G and early 6G/ISAC discussion",
+   "source": "https://federatedwireless.ai/2026/03/03/afcea-west-2026-private-5g-moves-from-pilots-to-proven-deployments/"
   }
  ]
 }
