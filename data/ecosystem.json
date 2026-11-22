@@ -12491,6 +12491,453 @@
    "sources": [
     "https://eng.ox.ac.uk/news/new-hub-receives-2-million-to-develop-the-communications-technologies-of-tomorrow"
    ]
+  },
+  {
+   "id": "csiro-data61",
+   "name": "CSIRO Data61",
+   "short": "CSIRO Data61",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Australian Technology Park, Eveleigh, Sydney",
+   "lat": -33.8962,
+   "lng": 151.193,
+   "precision": "Campus",
+   "description": "Digital research arm of CSIRO, Australia's national science agency. Ran Australia's 6G security research programme for the Department of Home Affairs (2022 to mid-2025), covering privacy, secure protocols, network software and spectrum, and built a radio frequency test and collaboration platform. Published 'Security and privacy in 6G mobile' (October 2025).",
+   "sources": [
+    "https://research.csiro.au/6gsecurity",
+    "https://www.csiro.au/en/research/technology-space/data/Security-and-privacy-in-6G-mobile",
+    "https://www.csiro.au/en/news/All/Articles/2026/June/Expert-commentary-6G"
+   ]
+  },
+  {
+   "id": "home-affairs",
+   "name": "Department of Home Affairs (Australia)",
+   "short": "Home Affairs",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Canberra",
+   "lat": -35.3075,
+   "lng": 149.134,
+   "precision": "City",
+   "description": "Australian government department. Funded CSIRO's three-year 6G and next-generation telecoms security research programme.",
+   "sources": [
+    "https://research.csiro.au/6gsecurity"
+   ]
+  },
+  {
+   "id": "uts",
+   "name": "University of Technology Sydney (UTS)",
+   "short": "UTS",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Broadway, Ultimo, Sydney",
+   "lat": -33.8832,
+   "lng": 151.2005,
+   "precision": "Campus",
+   "description": "Home of the Global Big Data Technologies Centre (GBDTC) and its 5G/6G Wireless Communications and IoT Networking Lab, led by Distinguished Professor Jay Guo. Signed a beyond-6G, quantum and robotics MoU with the University of Oulu (November 2025) to set up a joint institute, and opened a wireless lab with Keysight (2026). Co-leads the NSW Connectivity Innovation Network.",
+   "sources": [
+    "https://www.uts.edu.au/research/centres/global-big-data-technologies-centre/our-research/iot-communications-and-networking/5g6g-wireless-communications-and-iot-networking-lab",
+    "https://www.uts.edu.au/news/2025/11/international-alliance-for-quantum-telecommunications-and-robotics",
+    "https://www.uts.edu.au/news/2026/11/new-lab-opens-a-door-to-the-future-of-intelligent-wireless-technology"
+   ]
+  },
+  {
+   "id": "usyd",
+   "name": "University of Sydney",
+   "short": "Sydney",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Camperdown, Sydney",
+   "lat": -33.8888,
+   "lng": 151.1873,
+   "precision": "Campus",
+   "description": "Its Centre for IoT and Telecommunications, led by ARC Laureate Fellow Professor Branka Vucetic, researches 5G and 6G wireless, low-latency communications, wireless control and edge computing. Co-leads the NSW Connectivity Innovation Network.",
+   "sources": [
+    "https://sydney.edu.au/engineering/our-research/internet-of-things/centre-for-iot-and-telecommunications/our-research-internet-of-things.html",
+    "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/university-of-technology-sydney-and-university-of-sydney-appointed-to-lead-connectivity-innovation-network"
+   ]
+  },
+  {
+   "id": "cin",
+   "name": "Connectivity Innovation Network (CIN)",
+   "short": "CIN",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Tech Central, Sydney",
+   "lat": -33.884,
+   "lng": 151.199,
+   "precision": "City",
+   "description": "NSW Government connectivity research network, launched 2021 by the NSW Telco Authority and the Office of the NSW Chief Scientist & Engineer. Jointly led by UTS and the University of Sydney. Runs the annual Australian Beyond 5G Connectivity Summit (2026 theme: AI-native networks for Australia's 6G future).",
+   "sources": [
+    "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/university-of-technology-sydney-and-university-of-sydney-appointed-to-lead-connectivity-innovation-network",
+    "https://www.connectivityinnovationnetwork.com/?p=10375"
+   ]
+  },
+  {
+   "id": "swinburne",
+   "name": "Swinburne University of Technology",
+   "short": "Swinburne",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hawthorn, Melbourne",
+   "lat": -37.8221,
+   "lng": 145.0389,
+   "precision": "Campus",
+   "description": "Hosts the 6G Research and Innovation Laboratory, funded by Telstra, ARPANSA, the NHMRC-funded Australian Centre for Electromagnetic Bioeffects Research and Swinburne. Works on millimetre-wave devices, electromagnetic simulation and radiofrequency exposure safety.",
+   "sources": [
+    "https://www.swinburne.edu.au/research/facilities-equipment/6g-research-innovation-laboratory/",
+    "https://static.swinburne.edu.au/research/facilities-equipment/6g-research-innovation-laboratory"
+   ]
+  },
+  {
+   "id": "arpansa",
+   "name": "ARPANSA (Australian Radiation Protection and Nuclear Safety Agency)",
+   "short": "ARPANSA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "619 Lower Plenty Road, Yallambie, Melbourne",
+   "lat": -37.73,
+   "lng": 145.103,
+   "precision": "Street address",
+   "description": "Australia's radiation safety regulator. Co-funds and shares staff and facilities with Swinburne's 6G Research and Innovation Laboratory for research on high-frequency radio exposure.",
+   "sources": [
+    "https://www.swinburne.edu.au/research/facilities-equipment/6g-research-innovation-laboratory/",
+    "https://www.arpansa.gov.au/improving-5g-research"
+   ]
+  },
+  {
+   "id": "monash",
+   "name": "Monash University",
+   "short": "Monash",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Clayton, Melbourne",
+   "lat": -37.9105,
+   "lng": 145.1362,
+   "precision": "Campus",
+   "description": "Its Department of Electrical and Computer Systems Engineering (Professor Malin Premaratne) developed quantum-inspired optical wireless technology for 6G with the University of Melbourne (2026).",
+   "sources": [
+    "https://www.monash.edu/engineering/about/news/articles/2026/6g-gets-a-boost-from-quantum-inspired-wireless"
+   ]
+  },
+  {
+   "id": "unimelb",
+   "name": "University of Melbourne",
+   "short": "Melbourne",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Parkville, Melbourne",
+   "lat": -37.7963,
+   "lng": 144.9614,
+   "precision": "Campus",
+   "description": "Professor Thas Nirmalathas's optical wireless research contributed to quantum-inspired optical phased arrays for 6G with Monash (2026).",
+   "sources": [
+    "https://www.monash.edu/engineering/about/news/articles/2026/6g-gets-a-boost-from-quantum-inspired-wireless",
+    "https://www.miragenews.com/quantum-tech-to-tackle-6gs-biggest-challenges-1611751/"
+   ]
+  },
+  {
+   "id": "telstra",
+   "name": "Telstra",
+   "short": "Telstra",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "242 Exhibition Street, Melbourne",
+   "lat": -37.811,
+   "lng": 144.97,
+   "precision": "Street address",
+   "description": "Australia's largest operator. Signed a 6G letter of intent with Ericsson (May 2026) covering 3GPP standards, research and trials at Ericsson's Swedish testbed and Telstra's Gold Coast Innovation Centre. Has run upper 6 GHz trials at Anglesea, Victoria, and funds Swinburne's 6G lab.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/7/2026/telstra-and-ericsson-sign-agreement-to-advance-6g-research-and-innovation",
+    "https://www.computerweekly.com/news/366643457/Ericsson-Telstra-team-for-Australian-6G-development",
+    "https://www.swinburne.edu.au/research/facilities-equipment/6g-research-innovation-laboratory/"
+   ]
+  },
+  {
+   "id": "optus",
+   "name": "Optus",
+   "short": "Optus",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Optus Sydney campus, Macquarie Park, Sydney",
+   "lat": -33.779,
+   "lng": 151.124,
+   "precision": "Campus",
+   "description": "Australian operator. With Nokia and a MediaTek test device, reached 3.5 Gbps on a smartphone using 200 MHz of upper 6 GHz spectrum at its Sydney campus (August 2026), with coverage similar to its 5G 3.5 GHz layer.",
+   "sources": [
+    "https://www.optus.com.au/about/media-centre/media-releases/2026/08/optus-advances-australias-6g-future",
+    "https://itbrief.com.au/story/optus-nokia-hit-3-5gbps-in-6g-trial-in-australia"
+   ]
+  },
+  {
+   "id": "acma",
+   "name": "ACMA (Australian Communications and Media Authority)",
+   "short": "ACMA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Canberra",
+   "lat": -35.24,
+   "lng": 149.065,
+   "precision": "City",
+   "description": "Australia's spectrum regulator. Deciding the future of the upper 6 GHz band and other 6G candidate bands through its Five-year Spectrum Outlook.",
+   "sources": [
+    "https://www.acma.gov.au/sites/default/files/2026-11/Response%20to%20submissions-draft%20FYSO%202026-31.pdf",
+    "https://www.techtimes.com/articles/323105/20260805/australias-6g-trial-clears-35gbps-upper-6ghz-using-existing-tower-sites.htm"
+   ]
+  },
+  {
+   "id": "amta",
+   "name": "AMTA (Australian Mobile Telecommunications Association)",
+   "short": "AMTA",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Canberra",
+   "lat": -35.2809,
+   "lng": 149.13,
+   "precision": "City",
+   "description": "Industry body for Australia's mobile operators, vendors and retailers. Lobbies ACMA on spectrum for 6G, including upper 6 GHz, 600 MHz and licence renewal pricing.",
+   "sources": [
+    "https://amta.org.au/wp-content/uploads/2026/05/AMTA-submission-FYSO-2026.pdf",
+    "https://amta.org.au/?p=4108"
+   ]
+  },
+  {
+   "id": "jay-guo",
+   "name": "Jay Guo",
+   "short": "Jay Guo",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Professor; Director, Global Big Data Technologies Centre, UTS",
+   "org": "uts",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Antenna and 6G wireless researcher leading UTS's partnership with Finland's 6G Flagship (MoU signed November 2025).",
+   "sources": [
+    "https://www.uts.edu.au/news/2025/11/international-alliance-for-quantum-telecommunications-and-robotics",
+    "https://www.oulu.fi/en/news/university-oulu-and-uts-advance-6g-collaboration"
+   ]
+  },
+  {
+   "id": "hajime-suzuki",
+   "name": "Hajime Suzuki",
+   "short": "Hajime Suzuki",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Principal Research Scientist, CSIRO",
+   "org": "csiro-data61",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Lead author of CSIRO's 'Security and privacy in 6G mobile' report (2025).",
+   "sources": [
+    "https://www.csiro.au/en/news/All/Articles/2026/June/Expert-commentary-6G",
+    "https://www.csiro.au/en/research/technology-space/data/Security-and-privacy-in-6G-mobile"
+   ]
+  },
+  {
+   "id": "chandra-thapa",
+   "name": "Chandra Thapa",
+   "short": "Chandra Thapa",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Research Scientist, CSIRO",
+   "org": "csiro-data61",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Works on CSIRO's 6G security research, combining physical testbeds with simulation to close security, virtualisation and standards gaps.",
+   "sources": [
+    "https://www.csiro.au/en/news/All/Articles/2026/June/Expert-commentary-6G"
+   ]
+  },
+  {
+   "id": "ming-ding",
+   "name": "Ming Ding",
+   "short": "Ming Ding",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Group Leader, Privacy Technology Group, CSIRO",
+   "org": "csiro-data61",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Researches privacy and safety risks in 6G, including radio sensing.",
+   "sources": [
+    "https://www.csiro.au/en/news/All/Articles/2026/June/Expert-commentary-6G"
+   ]
+  },
+  {
+   "id": "ali-yavari",
+   "name": "Ali Yavari",
+   "short": "Ali Yavari",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor; Director, 6G Research and Innovation Laboratory, Swinburne University of Technology",
+   "org": "swinburne",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Swinburne's 6G lab. Previously researched at CSIRO's Data61 and KTH; has worked with Ericsson, Telstra, Optus and CSIRO.",
+   "sources": [
+    "https://www.scimex.org/experts?a=1251106",
+    "https://www.swinburne.edu.au/research/facilities-equipment/6g-research-innovation-laboratory/"
+   ]
+  },
+  {
+   "id": "andrew-wood",
+   "name": "Andrew Wood",
+   "short": "Andrew Wood",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Swinburne University of Technology",
+   "org": "swinburne",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Lead scientist on Swinburne and ARPANSA research into the safety of high-frequency radio waves for 5G and 6G.",
+   "sources": [
+    "https://www.arpansa.gov.au/improving-5g-research",
+    "https://www.arpansa.gov.au/node/1451"
+   ]
+  },
+  {
+   "id": "yonghui-li",
+   "name": "Yonghui Li",
+   "short": "Yonghui Li",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor; Director, Wireless Engineering Laboratory, University of Sydney",
+   "org": "usyd",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Researches 6G low-latency communications, IoT and wireless networks. Technical co-director of the NSW Connectivity Innovation Network.",
+   "sources": [
+    "https://sydney.edu.au/engineering/our-research/internet-of-things/centre-for-iot-and-telecommunications/our-research-internet-of-things.html",
+    "https://sydney.edu.au/news-opinion/news/2021/11/24/university-to-co-lead-connectivity-innovation-network-.html"
+   ]
+  },
+  {
+   "id": "branka-vucetic",
+   "name": "Branka Vucetic",
+   "short": "Branka Vucetic",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "ARC Laureate Fellow; Professor; Lead, Centre for IoT and Telecommunications, University of Sydney",
+   "org": "usyd",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Sydney's Centre for IoT and Telecommunications, working on AI for 6G, channel coding and wireless control.",
+   "sources": [
+    "https://sydney.edu.au/engineering/our-research/internet-of-things/centre-for-iot-and-telecommunications/our-research-internet-of-things.html",
+    "https://sites.google.com/view/usydiotproject/home/about-us"
+   ]
+  },
+  {
+   "id": "thas-nirmalathas",
+   "name": "Thas Nirmalathas",
+   "short": "Thas Nirmalathas",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, University of Melbourne",
+   "org": "unimelb",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Optical wireless communications researcher. Co-developed quantum-inspired optical phased arrays for 6G with Monash (2026).",
+   "sources": [
+    "https://www.miragenews.com/quantum-tech-to-tackle-6gs-biggest-challenges-1611751/"
+   ]
+  },
+  {
+   "id": "malin-premaratne",
+   "name": "Malin Premaratne",
+   "short": "Malin Premaratne",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Department of Electrical and Computer Systems Engineering, Monash University",
+   "org": "monash",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Quantum device researcher. Co-developed quantum-inspired optical wireless technology for fibre-like indoor 6G links (2026).",
+   "sources": [
+    "https://www.monash.edu/engineering/about/news/articles/2026/6g-gets-a-boost-from-quantum-inspired-wireless"
+   ]
+  },
+  {
+   "id": "channa-seneviratne",
+   "name": "Channa Seneviratne",
+   "short": "Channa Seneviratne",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive, Technology Engagement and Advancement, Global Networks and Technology, Telstra",
+   "org": "telstra",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Telstra's network technology innovation, strategy and architecture teams, and its 'network as a product' approach. Led Telstra's 5G launch.",
+   "sources": [
+    "https://research.adapt.com.au/channa-seneviratne",
+    "https://www.telstrawholesale.com.au/wholesaleconnect/category/technology/the-next-chapter-of-mobile-growth.html"
+   ]
+  },
+  {
+   "id": "sri-amirthalingam",
+   "name": "Sri Amirthalingam",
+   "short": "Sri Amirthalingam",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Technology Officer, Optus",
+   "org": "optus",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Optus's 6G research programme, including the 2026 upper 6 GHz trial with Nokia.",
+   "sources": [
+    "https://www.whistleout.com.au/MobilePhones/News/Optus-6G-testing",
+    "https://optus.com.au/about/media-centre/speeches-and-reports/2026/06/commsday-summit-sri-amirthalingam"
+   ]
   }
  ],
  "edges": [
@@ -19675,6 +20122,181 @@
    "type": "Partnership / project",
    "label": "Operates UKTL for DSIT",
    "source": "https://npl.co.uk/uk-telecoms-lab"
+  },
+  {
+   "from": "jay-guo",
+   "to": "uts",
+   "type": "Role",
+   "label": "Distinguished Professor; Director, Global Big Data Technologies Centre, UTS",
+   "source": "https://www.uts.edu.au/news/2025/11/international-alliance-for-quantum-telecommunications-and-robotics"
+  },
+  {
+   "from": "hajime-suzuki",
+   "to": "csiro-data61",
+   "type": "Role",
+   "label": "Principal Research Scientist, CSIRO",
+   "source": "https://www.csiro.au/en/news/All/Articles/2026/June/Expert-commentary-6G"
+  },
+  {
+   "from": "chandra-thapa",
+   "to": "csiro-data61",
+   "type": "Role",
+   "label": "Senior Research Scientist, CSIRO",
+   "source": "https://www.csiro.au/en/news/All/Articles/2026/June/Expert-commentary-6G"
+  },
+  {
+   "from": "ming-ding",
+   "to": "csiro-data61",
+   "type": "Role",
+   "label": "Group Leader, Privacy Technology Group, CSIRO",
+   "source": "https://www.csiro.au/en/news/All/Articles/2026/June/Expert-commentary-6G"
+  },
+  {
+   "from": "ali-yavari",
+   "to": "swinburne",
+   "type": "Role",
+   "label": "Associate Professor; Director, 6G Research and Innovation Laboratory, Swinburne University of Technology",
+   "source": "https://www.scimex.org/experts?a=1251106"
+  },
+  {
+   "from": "andrew-wood",
+   "to": "swinburne",
+   "type": "Role",
+   "label": "Professor, Swinburne University of Technology",
+   "source": "https://www.arpansa.gov.au/improving-5g-research"
+  },
+  {
+   "from": "yonghui-li",
+   "to": "usyd",
+   "type": "Role",
+   "label": "Professor; Director, Wireless Engineering Laboratory, University of Sydney",
+   "source": "https://sydney.edu.au/engineering/our-research/internet-of-things/centre-for-iot-and-telecommunications/our-research-internet-of-things.html"
+  },
+  {
+   "from": "branka-vucetic",
+   "to": "usyd",
+   "type": "Role",
+   "label": "ARC Laureate Fellow; Professor; Lead, Centre for IoT and Telecommunications, University of Sydney",
+   "source": "https://sydney.edu.au/engineering/our-research/internet-of-things/centre-for-iot-and-telecommunications/our-research-internet-of-things.html"
+  },
+  {
+   "from": "thas-nirmalathas",
+   "to": "unimelb",
+   "type": "Role",
+   "label": "Professor, University of Melbourne",
+   "source": "https://www.miragenews.com/quantum-tech-to-tackle-6gs-biggest-challenges-1611751/"
+  },
+  {
+   "from": "malin-premaratne",
+   "to": "monash",
+   "type": "Role",
+   "label": "Professor, Department of Electrical and Computer Systems Engineering, Monash University",
+   "source": "https://www.monash.edu/engineering/about/news/articles/2026/6g-gets-a-boost-from-quantum-inspired-wireless"
+  },
+  {
+   "from": "channa-seneviratne",
+   "to": "telstra",
+   "type": "Role",
+   "label": "Executive, Technology Engagement and Advancement, Global Networks and Technology, Telstra",
+   "source": "https://research.adapt.com.au/channa-seneviratne"
+  },
+  {
+   "from": "sri-amirthalingam",
+   "to": "optus",
+   "type": "Role",
+   "label": "Chief Technology Officer, Optus",
+   "source": "https://www.whistleout.com.au/MobilePhones/News/Optus-6G-testing"
+  },
+  {
+   "from": "home-affairs",
+   "to": "csiro-data61",
+   "type": "Funding",
+   "label": "6G security research programme (2022 to mid-2025)",
+   "source": "https://research.csiro.au/6gsecurity"
+  },
+  {
+   "from": "uts",
+   "to": "oulu",
+   "type": "Research together",
+   "label": "Beyond-6G, quantum and robotics MoU; joint institute (2025)",
+   "source": "https://www.uts.edu.au/news/2025/11/international-alliance-for-quantum-telecommunications-and-robotics"
+  },
+  {
+   "from": "keysight",
+   "to": "uts",
+   "type": "Partnership / project",
+   "label": "Joint wireless technology lab (2026)",
+   "source": "https://www.uts.edu.au/news/2026/11/new-lab-opens-a-door-to-the-future-of-intelligent-wireless-technology"
+  },
+  {
+   "from": "telstra",
+   "to": "uts",
+   "type": "Funding",
+   "label": "Telstra R&D contract on intelligent surfaces (2023 to 2025)",
+   "source": "https://profiles.uts.edu.au/Jay.Guo/grants"
+  },
+  {
+   "from": "uts",
+   "to": "cin",
+   "type": "Partnership / project",
+   "label": "Joint lead",
+   "source": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/university-of-technology-sydney-and-university-of-sydney-appointed-to-lead-connectivity-innovation-network"
+  },
+  {
+   "from": "usyd",
+   "to": "cin",
+   "type": "Partnership / project",
+   "label": "Joint lead",
+   "source": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/university-of-technology-sydney-and-university-of-sydney-appointed-to-lead-connectivity-innovation-network"
+  },
+  {
+   "from": "telstra",
+   "to": "swinburne",
+   "type": "Funding",
+   "label": "Supports the 6G Research and Innovation Laboratory",
+   "source": "https://static.swinburne.edu.au/research/facilities-equipment/6g-research-innovation-laboratory"
+  },
+  {
+   "from": "arpansa",
+   "to": "swinburne",
+   "type": "Research together",
+   "label": "RF exposure research; co-funds the 6G lab",
+   "source": "https://www.swinburne.edu.au/research/facilities-equipment/6g-research-innovation-laboratory/"
+  },
+  {
+   "from": "ericsson",
+   "to": "telstra",
+   "type": "Partnership / project",
+   "label": "6G letter of intent (May 2026)",
+   "source": "https://www.ericsson.com/en/press-releases/7/2026/telstra-and-ericsson-sign-agreement-to-advance-6g-research-and-innovation"
+  },
+  {
+   "from": "nokia",
+   "to": "optus",
+   "type": "Partnership / project",
+   "label": "Upper 6 GHz 6G trial (2026)",
+   "source": "https://www.optus.com.au/about/media-centre/media-releases/2026/08/optus-advances-australias-6g-future"
+  },
+  {
+   "from": "mediatek",
+   "to": "optus",
+   "type": "Partnership / project",
+   "label": "Test device for upper 6 GHz trial (2026)",
+   "source": "https://www.optus.com.au/about/media-centre/media-releases/2026/08/optus-advances-australias-6g-future"
+  },
+  {
+   "from": "monash",
+   "to": "unimelb",
+   "type": "Research together",
+   "label": "Quantum-inspired optical wireless for 6G (2026)",
+   "source": "https://www.monash.edu/engineering/about/news/articles/2026/6g-gets-a-boost-from-quantum-inspired-wireless"
+  },
+  {
+   "from": "amta",
+   "to": "acma",
+   "type": "Partnership / project",
+   "label": "Spectrum advocacy for 6G (upper 6 GHz, 600 MHz)",
+   "source": "https://amta.org.au/wp-content/uploads/2026/05/AMTA-submission-FYSO-2026.pdf"
   }
  ]
 }
