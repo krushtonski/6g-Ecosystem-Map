@@ -16383,6 +16383,43 @@
     "https://conference.wireshark.org/sf26us/talk/CPNTMA/",
     "https://www.fedinsider.com/nextgen-cellular-networks/"
    ]
+  },
+  {
+   "id": "gsa",
+   "name": "General Services Administration (GSA)",
+   "short": "GSA",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "role": null,
+   "org": null,
+   "address": "1800 F Street NW, Washington, DC",
+   "lat": 38.8968,
+   "lng": -77.0423,
+   "precision": "Street address",
+   "description": "US federal procurement agency. Its Information Technology Category runs the Enterprise Infrastructure Solutions (EIS) contract and the Wireless Mobility Solutions schedule, through which agencies buy 5G services. Published federal guidance on buying secure 5G (2023) under the National Strategy to Secure 5G, and hosts the 200+ member Federal Mobility Group.",
+   "sources": [
+    "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-publishes-guidance-for-federal-agencies-to-buy-secure-5g-03302023",
+    "https://gsablogs.gsa.gov/technology/tag/5g/",
+    "https://gsablogs.gsa.gov/technology/tag/wireless-mobility-2/"
+   ]
+  },
+  {
+   "id": "brian-vu",
+   "name": "Brian Vu",
+   "short": "Brian Vu",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "role": "Technical Program Manager, General Services Administration",
+   "org": "gsa",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Works in GSA's Information Technology Category (Federal Acquisition Service), providing solutions engineering for federal agencies on the Enterprise Infrastructure Solutions (EIS) programme, managed networking and cybersecurity. Speaker at FedInsider's NextGen Cellular Networks event.",
+   "sources": [
+    "https://www.fedinsider.com/nextgen-cellular-networks/",
+    "https://tmt.knect365.com/network-x-americas/speakers/brian-vu"
+   ]
   }
  ],
  "edges": [
@@ -25303,6 +25340,13 @@
    "type": "Role",
    "label": "Co-Founder and CEO, Solutional",
    "source": "https://nokia.com/people/scott-robohn-0/"
+  },
+  {
+   "from": "brian-vu",
+   "to": "gsa",
+   "type": "Role",
+   "label": "Technical Program Manager, General Services Administration",
+   "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
   }
  ]
 }
