@@ -11795,6 +11795,305 @@
    "sources": [
     "https://www.traficom.fi/en/news/finland-strongly-involved-european-6g-spectrum-work"
    ]
+  },
+  {
+   "id": "imda",
+   "name": "IMDA (Infocomm Media Development Authority)",
+   "short": "IMDA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Pasir Panjang, Singapore",
+   "lat": 1.2756,
+   "lng": 103.799,
+   "precision": "City",
+   "description": "Singapore's digital and telecoms regulator and development agency. With the National Research Foundation, is investing close to S$70 million in the Future Communications Research and Development Programme (FCP), Singapore's national 6G programme. Sets Singapore's telecoms standards.",
+   "sources": [
+    "https://www.imda.gov.sg/futurecommsprogramme",
+    "https://imda.gov.sg/how-we-can-help/future-communications-research-and-development-programme"
+   ]
+  },
+  {
+   "id": "nrf-sg",
+   "name": "National Research Foundation, Singapore (NRF)",
+   "short": "NRF Singapore",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Singapore",
+   "lat": 1.28,
+   "lng": 103.85,
+   "precision": "City",
+   "description": "Singapore's national research funder. Co-funds the Future Communications Research and Development Programme with IMDA.",
+   "sources": [
+    "https://www.imda.gov.sg/futurecommsprogramme"
+   ]
+  },
+  {
+   "id": "fcp",
+   "name": "Future Communications Research and Development Programme (FCP)",
+   "short": "FCP",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "SUTD, 8 Somapah Road, Singapore",
+   "lat": 1.3418,
+   "lng": 103.9645,
+   "precision": "Campus",
+   "description": "Singapore's first national future communications and 6G programme, launched 2021 with close to S$70 million from IMDA and NRF. Hosted by SUTD and directed by Professor Tony Quek. Runs the Future Communications Connectivity Lab at SUTD and the Future Communications Translation Lab at SIT, awards research and translation grants, and has a 6G MoU with Finland's 6G Flagship.",
+   "sources": [
+    "https://www.imda.gov.sg/futurecommsprogramme",
+    "https://imda.gov.sg/how-we-can-help/future-communications-research-and-development-programme",
+    "https://sutd.edu.sg/media-releases-listing/finnish-led-international-6g-technology-cooperation-expands-to-singapore"
+   ]
+  },
+  {
+   "id": "sutd",
+   "name": "Singapore University of Technology and Design (SUTD)",
+   "short": "SUTD",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "8 Somapah Road, Singapore",
+   "lat": 1.3413,
+   "lng": 103.9638,
+   "precision": "Campus",
+   "description": "Hosts the FCP and its Future Communications Connectivity Lab, launched in 2022 as Southeast Asia's first physical 6G lab. Hosts the MediaTek-SUTD Joint Laboratory (S$34 million, from April 2026) on non-terrestrial networks, AI-native radio access and energy-efficient networks.",
+   "sources": [
+    "https://www.sutd.edu.sg/media-releases-listing/advancing-singapores-6g-future-and-talent-imda-partners-sutd-to-launch-the-first-6g-rd-lab-in-southeast-asia",
+    "https://www.edb.gov.sg/en/about-edb/media-releases-publications/mediatek-launches-sgd34million-sutd-research-lab.html"
+   ]
+  },
+  {
+   "id": "sit",
+   "name": "Singapore Institute of Technology (SIT)",
+   "short": "SIT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "SIT Punggol Campus, Punggol Digital District, Singapore",
+   "lat": 1.4133,
+   "lng": 103.9105,
+   "precision": "Campus",
+   "description": "Hosts the FCP's Future Communications Translation Lab (since 2021), which runs 5G testbeds (including Open RAN) at Punggol for translation of 5G and future communications technologies.",
+   "sources": [
+    "https://www.singaporetech.edu.sg/research/FCTLab",
+    "https://fcp.sutd.edu.sg/fctlab/"
+   ]
+  },
+  {
+   "id": "ntu",
+   "name": "Nanyang Technological University (NTU Singapore)",
+   "short": "NTU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "50 Nanyang Avenue, Singapore",
+   "lat": 1.3483,
+   "lng": 103.6831,
+   "precision": "Campus",
+   "description": "FCP partner university. Its Centre for Advanced Robotics Technology Innovation (CARTIN) works with Ericsson and KTH on AI-powered 6G positioning for autonomous systems (from 2026).",
+   "sources": [
+    "https://www.ntu.edu.sg/news/detail/ntu--ericsson-and-kth-team-up-to-develop-ai-powered-6g-positioning-technologies",
+    "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+   ]
+  },
+  {
+   "id": "nus",
+   "name": "National University of Singapore (NUS)",
+   "short": "NUS",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kent Ridge, Singapore",
+   "lat": 1.2966,
+   "lng": 103.7764,
+   "precision": "Campus",
+   "description": "FCP partner university; Professor Biplab Sikdar is an FCP co-PI.",
+   "sources": [
+    "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+   ]
+  },
+  {
+   "id": "kth",
+   "name": "KTH Royal Institute of Technology",
+   "short": "KTH",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Stockholm, Sweden",
+   "lat": 59.3498,
+   "lng": 18.0707,
+   "precision": "Campus",
+   "description": "Stockholm university. Leads AI and algorithm research in Ericsson's Trustworthy 6G Positioning project with NTU (2026). Co-leads the Finnish-Swedish 6G-FISRE resilience programme with the University of Oulu.",
+   "sources": [
+    "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g",
+    "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
+   ]
+  },
+  {
+   "id": "tony-quek",
+   "name": "Tony Quek",
+   "short": "Tony Quek",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Future Communications Research and Development Programme (FCP); Associate Provost (AI and Digital Innovation), SUTD",
+   "org": "sutd",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Singapore's national 6G programme and SUTD's O-RAN and AI-RAN work. Also heads SIT's Future Communications Translation Lab. IEEE Fellow.",
+   "sources": [
+    "https://www.sutd.edu.sg/profile/professor-tony-quek/",
+    "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+   ]
+  },
+  {
+   "id": "park-jihong",
+   "name": "Park Jihong",
+   "short": "Park Jihong",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor, SUTD; Lead, MediaTek-SUTD Joint Laboratory",
+   "org": "sutd",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads the MediaTek-SUTD 6G joint lab, researching how 6G networks can help robots and autonomous systems cooperate.",
+   "sources": [
+    "https://www.sutd.edu.sg/news-listing/local-scientists-research-6g-communication-networks-to-enable-robots-to-help-one-another/"
+   ]
+  },
+  {
+   "id": "chin-woon-hau",
+   "name": "Chin Woon Hau",
+   "short": "Chin Woon Hau",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Technology and Standards, IMDA",
+   "org": "imda",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Oversees Singapore's telecoms standards and chairs IMDA's Telecommunications Standards Advisory Committee. Speaker at the IEEE 6G Summit 2026.",
+   "sources": [
+    "https://events.vtools.ieee.org/m/490389",
+    "https://www.imda.gov.sg/regulations-and-licensing-listing/ict-standards-and-quality-of-service/industry-committees-and-working-groups/Telecommunications-Standards-Advisory-Committee"
+   ]
+  },
+  {
+   "id": "ong-chen-hui",
+   "name": "Ong Chen Hui",
+   "short": "Ong Chen Hui",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Chief Executive, Business and Technology Group, IMDA",
+   "org": "imda",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads IMDA's work on 5G, 6G, AI and quantum-safe communications.",
+   "sources": [
+    "https://www.sutd.edu.sg/profile/dr-ong-chen-hui/"
+   ]
+  },
+  {
+   "id": "lew-chuen-hong",
+   "name": "Lew Chuen Hong",
+   "short": "Lew Chuen Hong",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Executive, IMDA",
+   "org": "imda",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-chairs the FCP Steering Committee.",
+   "sources": [
+    "https://imda.gov.sg/how-we-can-help/future-communications-research-and-development-programme"
+   ]
+  },
+  {
+   "id": "xie-lihua",
+   "name": "Xie Lihua",
+   "short": "Xie Lihua",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Centre for Advanced Robotics Technology Innovation (CARTIN); President’s Chair in Control Engineering, NTU",
+   "org": "ntu",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads NTU's robotics centre, which contributes sensor fusion and localisation to the Ericsson-NTU-KTH 6G positioning project.",
+   "sources": [
+    "https://ntu.edu.sg/cartin/our-people",
+    "https://www.ntu.edu.sg/news/detail/ntu--ericsson-and-kth-team-up-to-develop-ai-powered-6g-positioning-technologies"
+   ]
+  },
+  {
+   "id": "biplab-sikdar",
+   "name": "Biplab Sikdar",
+   "short": "Biplab Sikdar",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head, Department of Electrical and Computer Engineering, NUS; FCP Co-PI",
+   "org": "nus",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "FCP co-principal investigator for NUS.",
+   "sources": [
+    "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+   ]
+  },
+  {
+   "id": "guan-yong-liang",
+   "name": "Guan Yong Liang",
+   "short": "Guan Yong Liang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Vice President (Infrastructure and Programmes), NTU; FCP Co-PI",
+   "org": "ntu",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "FCP co-principal investigator for NTU.",
+   "sources": [
+    "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+   ]
+  },
+  {
+   "id": "karl-johansson",
+   "name": "Karl H. Johansson",
+   "short": "Karl H. Johansson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Digital Futures, KTH",
+   "org": "kth",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "KTH lead in the Ericsson-NTU-KTH Trustworthy 6G Positioning project.",
+   "sources": [
+    "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g"
+   ]
   }
  ],
  "edges": [
@@ -18608,6 +18907,153 @@
    "type": "Research together",
    "label": "AI-RAN sensor-driven digital twins (AI-RAN Alliance)",
    "source": "https://www.6gflagship.com/?p=13626"
+  },
+  {
+   "from": "tony-quek",
+   "to": "sutd",
+   "type": "Role",
+   "label": "Director, Future Communications Research and Development Programme (FCP); Associate Provost (AI and Digital Innovation), SUTD",
+   "source": "https://www.sutd.edu.sg/profile/professor-tony-quek/"
+  },
+  {
+   "from": "park-jihong",
+   "to": "sutd",
+   "type": "Role",
+   "label": "Associate Professor, SUTD; Lead, MediaTek-SUTD Joint Laboratory",
+   "source": "https://www.sutd.edu.sg/news-listing/local-scientists-research-6g-communication-networks-to-enable-robots-to-help-one-another/"
+  },
+  {
+   "from": "chin-woon-hau",
+   "to": "imda",
+   "type": "Role",
+   "label": "Director, Technology and Standards, IMDA",
+   "source": "https://events.vtools.ieee.org/m/490389"
+  },
+  {
+   "from": "ong-chen-hui",
+   "to": "imda",
+   "type": "Role",
+   "label": "Assistant Chief Executive, Business and Technology Group, IMDA",
+   "source": "https://www.sutd.edu.sg/profile/dr-ong-chen-hui/"
+  },
+  {
+   "from": "lew-chuen-hong",
+   "to": "imda",
+   "type": "Role",
+   "label": "Chief Executive, IMDA",
+   "source": "https://imda.gov.sg/how-we-can-help/future-communications-research-and-development-programme"
+  },
+  {
+   "from": "xie-lihua",
+   "to": "ntu",
+   "type": "Role",
+   "label": "Director, Centre for Advanced Robotics Technology Innovation (CARTIN); President’s Chair in Control Engineering, NTU",
+   "source": "https://ntu.edu.sg/cartin/our-people"
+  },
+  {
+   "from": "biplab-sikdar",
+   "to": "nus",
+   "type": "Role",
+   "label": "Head, Department of Electrical and Computer Engineering, NUS; FCP Co-PI",
+   "source": "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+  },
+  {
+   "from": "guan-yong-liang",
+   "to": "ntu",
+   "type": "Role",
+   "label": "Associate Vice President (Infrastructure and Programmes), NTU; FCP Co-PI",
+   "source": "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+  },
+  {
+   "from": "karl-johansson",
+   "to": "kth",
+   "type": "Role",
+   "label": "Director, Digital Futures, KTH",
+   "source": "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g"
+  },
+  {
+   "from": "imda",
+   "to": "fcp",
+   "type": "Funding",
+   "label": "Co-funds the FCP (close to S$70 million with NRF)",
+   "source": "https://www.imda.gov.sg/futurecommsprogramme"
+  },
+  {
+   "from": "nrf-sg",
+   "to": "fcp",
+   "type": "Funding",
+   "label": "Co-funds the FCP with IMDA",
+   "source": "https://www.imda.gov.sg/futurecommsprogramme"
+  },
+  {
+   "from": "sutd",
+   "to": "fcp",
+   "type": "Partnership / project",
+   "label": "Hosts the FCP and its Future Communications Connectivity Lab",
+   "source": "https://imda.gov.sg/how-we-can-help/future-communications-research-and-development-programme"
+  },
+  {
+   "from": "sit",
+   "to": "fcp",
+   "type": "Partnership / project",
+   "label": "Hosts the FCP Future Communications Translation Lab",
+   "source": "https://fcp.sutd.edu.sg/fctlab/"
+  },
+  {
+   "from": "nus",
+   "to": "fcp",
+   "type": "Membership",
+   "label": "FCP partner (co-PI)",
+   "source": "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+  },
+  {
+   "from": "ntu",
+   "to": "fcp",
+   "type": "Membership",
+   "label": "FCP partner (co-PI)",
+   "source": "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
+  },
+  {
+   "from": "mediatek",
+   "to": "sutd",
+   "type": "Research together",
+   "label": "MediaTek-SUTD Joint Laboratory, S$34 million (2026; MoU 2024)",
+   "source": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/mediatek-launches-sgd34million-sutd-research-lab.html"
+  },
+  {
+   "from": "ericsson",
+   "to": "ntu",
+   "type": "Research together",
+   "label": "Trustworthy 6G Positioning (Ericsson-coordinated, 2026)",
+   "source": "https://www.ntu.edu.sg/news/detail/ntu--ericsson-and-kth-team-up-to-develop-ai-powered-6g-positioning-technologies"
+  },
+  {
+   "from": "ericsson",
+   "to": "kth",
+   "type": "Research together",
+   "label": "Trustworthy 6G Positioning (Vinnova-funded)",
+   "source": "https://www.vinnova.se/en/p/trustworthy-6g-positioning-in-complex-environments-a-data-driven-approach"
+  },
+  {
+   "from": "ntu",
+   "to": "kth",
+   "type": "Research together",
+   "label": "Trustworthy 6G Positioning",
+   "source": "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g"
+  },
+  {
+   "from": "fcp",
+   "to": "oulu",
+   "type": "Partnership / project",
+   "label": "6G MoU with 6G Flagship (2021)",
+   "source": "https://sutd.edu.sg/media-releases-listing/finnish-led-international-6g-technology-cooperation-expands-to-singapore"
+  },
+  {
+   "from": "kth",
+   "to": "oulu",
+   "type": "Research together",
+   "label": "6G-FISRE Finnish-Swedish 6G resilience programme",
+   "source": "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
   }
  ]
 }
