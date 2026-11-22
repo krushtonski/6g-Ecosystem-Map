@@ -11565,7 +11565,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Led the EU 6G flagship projects Hexa-X and Hexa-X-II. Industry co-chair of 6G Finland. Chair of the Nokia Foundation board.",
+   "description": "Led the EU 6G flagship projects Hexa-X and Hexa-X-II (2023 to 2025). Industry co-chair of 6G Finland. Chair of the Nokia Foundation board.",
    "sources": [
     "https://www.nokia.com/blog/ai-native-6g-is-now-the-industry-direction/",
     "https://www.etsi.org/speakers/hexa-x-ii-project/",
@@ -13864,6 +13864,702 @@
    "sources": [
     "https://www.telkomsel.com/about-us/news/upaya-hadirkan-konektivitas-digital-yang-lebih-cerdas-dan-inklusif-bagi-indonesia",
     "https://www.mobileworldlive.com/?p=500471"
+   ]
+  },
+  {
+   "id": "hexa-x-ii",
+   "name": "Hexa-X-II (European 6G Flagship)",
+   "short": "Hexa-X-II",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Europe (SNS JU flagship project)",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "EU 6G flagship project (January 2023 to June 2025) under the Smart Networks and Services Joint Undertaking. Led by Nokia, with Ericsson as technical manager, and 43 partners including Aalto, Chalmers, Oulu, Orange, Siemens, imec and CTTC. Produced the European 6G system blueprint and was the top SNS JU project for 3GPP contributions.",
+   "sources": [
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/09/uusitalo-mikko_nokia-bell-labs_hexa-x-ii-sns-webinar-on-resilience_4.9.2025.pdf",
+    "https://www.ltu.se/en/research/centres-of-excellence-and-collaborations/center-for-distance-spanning-technologies/our-projects/project-archive/2024-02-16-hexa-x-ii",
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/03/hexa-x-ii-at-sns-ju-std-impact-webinar-march-2025.pdf"
+   ]
+  },
+  {
+   "id": "sns-ju",
+   "name": "Smart Networks and Services Joint Undertaking (SNS JU)",
+   "short": "SNS JU",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Brussels, Belgium",
+   "lat": 50.8466,
+   "lng": 4.3528,
+   "precision": "City",
+   "description": "EU public-private partnership that funds Europe's 6G research and trials under Horizon Europe, including Hexa-X-II, 6G-SANDBOX and 6G-NTN. The 6G Industry Association (6G-IA) represents the private side.",
+   "sources": [
+    "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/smart-networks-and-services-joint-undertaking_en",
+    "https://smart-networks.europa.eu/"
+   ]
+  },
+  {
+   "id": "bmftr",
+   "name": "Federal Ministry of Research, Technology and Space (BMFTR, Germany)",
+   "short": "BMFTR",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Berlin, Germany",
+   "lat": 52.52,
+   "lng": 13.405,
+   "precision": "City",
+   "description": "German research ministry (formerly BMBF). Funded four 6G research hubs from 2021 with up to €250 million, within a 6G programme of up to €700 million. Since 2026 funds their successors as 6G transfer hubs (6G-life², xG-RIC, Open6GHub+, 6GEM+) and the 6G Platform Germany.",
+   "sources": [
+    "https://www.telecompaper.com/news/german-ministry-funds-6g-research-at-four-hubs-with-eur-250-mln--1388549",
+    "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html"
+   ]
+  },
+  {
+   "id": "6g-life",
+   "name": "6G-life² (TU Dresden and TU Munich)",
+   "short": "6G-life",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "TU Dresden, Dresden, Germany",
+   "lat": 51.0285,
+   "lng": 13.7259,
+   "precision": "Campus",
+   "description": "German 6G transfer hub run by TU Dresden and TU Munich, focused on human-machine collaboration, collaborative robotics and computing. First phase from 2021 (€70 million); second phase 6G-life² (2026 to 2029) has €25 million from BMFTR. Supports spin-offs through the launchhub42 incubator in Dresden.",
+   "sources": [
+    "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase",
+    "https://tu-dresden.de/tu-dresden/newsportal/news/transferhub-6g-life2-startet-in-die-naechste-foerderphase?set_language=en",
+    "https://www.tum.de/en/about-tum/news/press-releases/details/36772"
+   ]
+  },
+  {
+   "id": "xg-ric",
+   "name": "xG-RIC (formerly 6G-RIC), Berlin",
+   "short": "xG-RIC",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Fraunhofer HHI, Einsteinufer 37, Berlin",
+   "lat": 52.5163,
+   "lng": 13.323,
+   "precision": "Street address",
+   "description": "German 6G transfer hub for connected medicine and future mobility, successor to 6G-RIC (2021 to 2025). Coordinated by Fraunhofer HHI with TU Berlin; partners include DLR, Charité, FAU Erlangen-Nürnberg and IHP. Covers integrated sensing and communication, collaborative robotics and resilient networks. With sister project xG-NOVA, around €40 million to 2029.",
+   "sources": [
+    "https://www.hhi.fraunhofer.de/en/press/news/6g-for-medicine-and-mobility-fraunhofer-hhi-coordinates-new-transfer-projects-xg-ric-and-xg-nova.html",
+    "https://www.invest-in.berlin/n/berlin-leads-6g-tech-transfer-for-health-and-mobility/",
+    "https://www.tkn.tu-berlin.de/projects/xg-ric/"
+   ]
+  },
+  {
+   "id": "open6ghub",
+   "name": "Open6GHub+",
+   "short": "Open6GHub+",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "DFKI, Kaiserslautern, Germany",
+   "lat": 49.4247,
+   "lng": 7.752,
+   "precision": "Campus",
+   "description": "German 6G transfer hub (2026 to 2029), successor to Open6GHub. Coordinated by Hans D. Schotten (DFKI and RPTU) with FAU, Fraunhofer FOKUS, KIT, TU Darmstadt, RPTU, Bremen and Stuttgart. Focuses on AI across the 6G ecosystem, digital twins and 3D networks linking terrestrial, drone and non-terrestrial platforms.",
+   "sources": [
+    "https://dfki.de/en/web/news/open6ghub-deutschlands-6g-forschung-wird-industriemotor",
+    "https://www.itiv.kit.edu/english/201_11276.php",
+    "https://www.etit.tu-darmstadt.de/fachbereich/etit_newsdetails_290688.en.jsp"
+   ]
+  },
+  {
+   "id": "6gem",
+   "name": "6GEM+ (RWTH Aachen and partners)",
+   "short": "6GEM+",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "RWTH Aachen University, Aachen, Germany",
+   "lat": 50.778,
+   "lng": 6.077,
+   "precision": "Campus",
+   "description": "German 6G transfer hub, successor to 6GEM (coordinated by RWTH Aachen from 2021), developing a holistic 6G system from hardware to software. Fraunhofer FHR and IMS took part in the first phase.",
+   "sources": [
+    "https://www.telecompaper.com/news/german-ministry-funds-6g-research-at-four-hubs-with-eur-250-mln--1388549",
+    "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html",
+    "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+   ]
+  },
+  {
+   "id": "fraunhofer-hhi",
+   "name": "Fraunhofer Heinrich Hertz Institute (HHI)",
+   "short": "Fraunhofer HHI",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Einsteinufer 37, Berlin",
+   "lat": 52.516,
+   "lng": 13.3236,
+   "precision": "Street address",
+   "description": "Fraunhofer institute for telecommunications. Coordinates the xG-RIC and xG-NOVA 6G transfer projects and joined the 6G Platform Germany consortium (2026).",
+   "sources": [
+    "https://www.hhi.fraunhofer.de/en/press/news/6g-for-medicine-and-mobility-fraunhofer-hhi-coordinates-new-transfer-projects-xg-ric-and-xg-nova.html",
+    "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html"
+   ]
+  },
+  {
+   "id": "tu-berlin",
+   "name": "Technische Universität Berlin",
+   "short": "TU Berlin",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Berlin, Germany",
+   "lat": 52.5125,
+   "lng": 13.3269,
+   "precision": "Campus",
+   "description": "Partner in the xG-RIC 6G transfer hub and the 6G Platform Germany.",
+   "sources": [
+    "https://www.tkn.tu-berlin.de/projects/xg-ric/",
+    "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html"
+   ]
+  },
+  {
+   "id": "tum",
+   "name": "Technical University of Munich (TUM)",
+   "short": "TUM",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Munich, Germany",
+   "lat": 48.1497,
+   "lng": 11.5679,
+   "precision": "Campus",
+   "description": "Runs the 6G-life² transfer hub with TU Dresden and leads the 6G Future Lab Bavaria.",
+   "sources": [
+    "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase"
+   ]
+  },
+  {
+   "id": "dfki",
+   "name": "German Research Center for Artificial Intelligence (DFKI)",
+   "short": "DFKI",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Trippstadter Strasse 122, Kaiserslautern",
+   "lat": 49.4247,
+   "lng": 7.752,
+   "precision": "Campus",
+   "description": "Coordinates the Open6GHub+ 6G transfer hub, focusing on integrating AI across the 6G ecosystem.",
+   "sources": [
+    "https://dfki.de/en/web/news/open6ghub-deutschlands-6g-forschung-wird-industriemotor"
+   ]
+  },
+  {
+   "id": "rptu",
+   "name": "RPTU Kaiserslautern-Landau",
+   "short": "RPTU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kaiserslautern, Germany",
+   "lat": 49.4246,
+   "lng": 7.7525,
+   "precision": "Campus",
+   "description": "Technical university of Rhineland-Palatinate. Partner in Open6GHub+ and Hexa-X-II; its Professor Hans D. Schotten coordinates the second phase of the 6G Platform Germany.",
+   "sources": [
+    "https://rptu.de/en/newsroom/news/detail/news/deutschland-staerkt-seine-6g-strategie-6g-plattform-startet-in-zweite-transferorientierte-foerderphase",
+    "https://eit.rptu.de/en/fgs/wicon/projects/current-projects/hexa-x-ii"
+   ]
+  },
+  {
+   "id": "rwth",
+   "name": "RWTH Aachen University",
+   "short": "RWTH Aachen",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Aachen, Germany",
+   "lat": 50.7779,
+   "lng": 6.0777,
+   "precision": "Campus",
+   "description": "Coordinated the 6GEM 6G research hub from 2021.",
+   "sources": [
+    "https://www.telecompaper.com/news/german-ministry-funds-6g-research-at-four-hubs-with-eur-250-mln--1388549"
+   ]
+  },
+  {
+   "id": "siemens",
+   "name": "Siemens",
+   "short": "Siemens",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Munich, Germany",
+   "lat": 48.144,
+   "lng": 11.565,
+   "precision": "City",
+   "description": "German industrial technology group. Partner in the Hexa-X-II 6G flagship.",
+   "sources": [
+    "https://www.ltu.se/en/research/centres-of-excellence-and-collaborations/center-for-distance-spanning-technologies/our-projects/project-archive/2024-02-16-hexa-x-ii"
+   ]
+  },
+  {
+   "id": "dlr",
+   "name": "German Aerospace Center (DLR)",
+   "short": "DLR",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Cologne, Germany",
+   "lat": 50.851,
+   "lng": 7.124,
+   "precision": "Campus",
+   "description": "Germany's aerospace research centre. Partner in the xG-RIC 6G transfer hub.",
+   "sources": [
+    "https://www.tkn.tu-berlin.de/projects/xg-ric/"
+   ]
+  },
+  {
+   "id": "pepr-reseaux",
+   "name": "PEPR Networks of the Future (Réseaux du Futur), France 2030",
+   "short": "PEPR Réseaux du Futur",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "France",
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "precision": "City",
+   "description": "French national research programme on 5G and 6G (launched July 2023, €65 million over six years from France 2030), co-led by CEA, CNRS and Institut Mines-Télécom. Covers end-to-end systems, technology building blocks and platforms, including environmental impact. Tasked with proposing a 'France 6G' platform.",
+   "sources": [
+    "https://www.imt.fr/en/?p=93075",
+    "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/",
+    "https://www.info.gouv.fr/actualite/france-2030-lancement-du-programme-de-recherche-reseaux-du-futur-et-de-la-plateforme-france-6g"
+   ]
+  },
+  {
+   "id": "cea",
+   "name": "CEA (including CEA-Leti)",
+   "short": "CEA",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "CEA-Leti, Grenoble, France",
+   "lat": 45.1964,
+   "lng": 5.709,
+   "precision": "Campus",
+   "description": "French Alternative Energies and Atomic Energy Commission. Co-leads the PEPR Networks of the Future programme.",
+   "sources": [
+    "https://www.imt.fr/en/?p=93075",
+    "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+   ]
+  },
+  {
+   "id": "cnrs",
+   "name": "CNRS (French National Centre for Scientific Research)",
+   "short": "CNRS",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Paris, France",
+   "lat": 48.8471,
+   "lng": 2.2646,
+   "precision": "City",
+   "description": "Co-leads the PEPR Networks of the Future programme.",
+   "sources": [
+    "https://www.imt.fr/en/?p=93075",
+    "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+   ]
+  },
+  {
+   "id": "imt-france",
+   "name": "Institut Mines-Télécom (IMT)",
+   "short": "IMT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Palaiseau, France",
+   "lat": 48.713,
+   "lng": 2.2,
+   "precision": "City",
+   "description": "French group of engineering schools including Télécom Paris. Co-leads the PEPR Networks of the Future programme.",
+   "sources": [
+    "https://www.imt.fr/en/?p=93075",
+    "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+   ]
+  },
+  {
+   "id": "orange",
+   "name": "Orange",
+   "short": "Orange",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Issy-les-Moulineaux, France",
+   "lat": 48.827,
+   "lng": 2.264,
+   "precision": "City",
+   "description": "French operator. Partner in the Hexa-X-II 6G flagship.",
+   "sources": [
+    "https://www.ltu.se/en/research/centres-of-excellence-and-collaborations/center-for-distance-spanning-technologies/our-projects/project-archive/2024-02-16-hexa-x-ii",
+    "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii"
+   ]
+  },
+  {
+   "id": "thales-alenia",
+   "name": "Thales Alenia Space",
+   "short": "Thales Alenia Space",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Toulouse, France",
+   "lat": 43.545,
+   "lng": 1.497,
+   "precision": "City",
+   "description": "Satellite manufacturer. Thales Alenia Space France leads technical coordination of the EU 6G-NTN project.",
+   "sources": [
+    "https://6g-ntn.eu/consortium/"
+   ]
+  },
+  {
+   "id": "6g-ntn",
+   "name": "6G-NTN (6G Non-Terrestrial Networks)",
+   "short": "6G-NTN",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bologna, Italy (coordinator)",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "SNS JU project (2023 to 2025) to integrate satellite and other non-terrestrial networks into 6G and drive 3GPP standards. Coordinated by the University of Bologna; technical coordination by Thales Alenia Space France; partners across eight countries including CTTC. Succeeded by 6G-NTN2 NEXUS.",
+   "sources": [
+    "https://6g-ntn.eu/consortium/",
+    "https://smart-networks.europa.eu/stream-b-research-for-revolutionary-technology-advancement-towards-6g/",
+    "https://cordis.europa.eu/project/id/101287281"
+   ]
+  },
+  {
+   "id": "unibo",
+   "name": "University of Bologna",
+   "short": "UNIBO",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bologna, Italy",
+   "lat": 44.4949,
+   "lng": 11.3426,
+   "precision": "Campus",
+   "description": "Coordinates the EU 6G-NTN project (Professor Alessandro Vanelli-Coralli).",
+   "sources": [
+    "https://smart-networks.europa.eu/stream-b-research-for-revolutionary-technology-advancement-towards-6g/",
+    "https://6g-ntn.eu/consortium/"
+   ]
+  },
+  {
+   "id": "cttc",
+   "name": "CTTC (Centre Tecnològic de Telecomunicacions de Catalunya)",
+   "short": "CTTC",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Castelldefels, Barcelona, Spain",
+   "lat": 41.275,
+   "lng": 1.987,
+   "precision": "Campus",
+   "description": "Catalan telecoms research centre. Partner in Hexa-X-II and 6G-NTN (space and resilient communications).",
+   "sources": [
+    "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii",
+    "https://www.cttc.cat/?p=28577"
+   ]
+  },
+  {
+   "id": "ltu",
+   "name": "Luleå University of Technology",
+   "short": "LTU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Luleå, Sweden",
+   "lat": 65.6176,
+   "lng": 22.139,
+   "precision": "Campus",
+   "description": "Swedish university. Partner in the Hexa-X-II 6G flagship.",
+   "sources": [
+    "https://www.ltu.se/en/research/centres-of-excellence-and-collaborations/center-for-distance-spanning-technologies/our-projects/project-archive/2024-02-16-hexa-x-ii"
+   ]
+  },
+  {
+   "id": "imec",
+   "name": "imec",
+   "short": "imec",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kapeldreef 75, Leuven, Belgium",
+   "lat": 50.864,
+   "lng": 4.681,
+   "precision": "Street address",
+   "description": "Belgian nanoelectronics research centre. Partner in the Hexa-X-II 6G flagship.",
+   "sources": [
+    "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii"
+   ]
+  },
+  {
+   "id": "tno",
+   "name": "TNO",
+   "short": "TNO",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "The Hague, Netherlands",
+   "lat": 52.0705,
+   "lng": 4.3007,
+   "precision": "City",
+   "description": "Dutch applied research organisation. Leads the Future Network Services 6G consortium.",
+   "sources": [
+    "https://www.tno.nl/en/newsroom/2026/03/netherlands-6g-position/",
+    "https://hollandhightech.nl/en/news-calendar/news/development-of-the-national-growth-fund-project-6g-netherlands-has-started"
+   ]
+  },
+  {
+   "id": "fns-nl",
+   "name": "Future Network Services (6G NL)",
+   "short": "FNS",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Netherlands",
+   "lat": 52.0705,
+   "lng": 4.32,
+   "precision": "City",
+   "description": "Dutch national 6G programme led by TNO with around 60 partners in antennas, semiconductors, network software and mobile networks. Backed by up to €203 million from the National Growth Fund (€61 million phase 1 from 2024; €142 million phase 2 from 2026). Aims include the first fully wireless factory in the Netherlands.",
+   "sources": [
+    "https://www.tno.nl/en/newsroom/2026/03/netherlands-6g-position/",
+    "https://hollandhightech.nl/en/news-calendar/news/development-of-the-national-growth-fund-project-6g-netherlands-has-started",
+    "https://www.researchprofessionalnews.com/?p=459575"
+   ]
+  },
+  {
+   "id": "tu-delft",
+   "name": "Delft University of Technology",
+   "short": "TU Delft",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Delft, Netherlands",
+   "lat": 52.002,
+   "lng": 4.373,
+   "precision": "Campus",
+   "description": "Partner in the Dutch Future Network Services 6G programme.",
+   "sources": [
+    "https://rvo.nl/sites/default/files/2024-06/Maatwerkbeschikking%2013062024%20NGF6G2301%20Besluit%20tot%20verlening%20subsidie.pdf"
+   ]
+  },
+  {
+   "id": "patrik-rugeland",
+   "name": "Patrik Rugeland",
+   "short": "Patrik Rugeland",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Ericsson Research; Technical Manager, Hexa-X-II",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Ericsson's technical manager role in the Hexa-X-II 6G flagship.",
+   "sources": [
+    "https://hexa-x-ii.eu/"
+   ]
+  },
+  {
+   "id": "frank-fitzek",
+   "name": "Frank Fitzek",
+   "short": "Frank Fitzek",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Deutsche Telekom Chair of Communication Networks, TU Dresden",
+   "org": "tud",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Coordinated the 6G-life research hub from 2021 and leads TU Dresden's part of 6G-life².",
+   "sources": [
+    "https://tu-dresden.de/tu-dresden/newsportal/news/6g-life-bmbf-foerdert-6g-forschungs-hub-in-dresden-und-muenchen-mit-70-millionen-euro",
+    "https://tu-dresden.de/tu-dresden/newsportal/news/transferhub-6g-life2-startet-in-die-naechste-foerderphase?set_language=en"
+   ]
+  },
+  {
+   "id": "holger-boche",
+   "name": "Holger Boche",
+   "short": "Holger Boche",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Theoretical Information Technology, TUM; Head of 6G-life",
+   "org": "tum",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads the 6G-life initiative and its TUM part.",
+   "sources": [
+    "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase",
+    "https://www.ce.cit.tum.de/en/lkn/research/6g-life/"
+   ]
+  },
+  {
+   "id": "wolfgang-kellerer",
+   "name": "Wolfgang Kellerer",
+   "short": "Wolfgang Kellerer",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Communication Networks, TUM; Head of 6G Future Lab Bavaria",
+   "org": "tum",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-coordinates TUM's part of 6G-life.",
+   "sources": [
+    "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase",
+    "https://www.ce.cit.tum.de/en/lkn/research/6g-life/"
+   ]
+  },
+  {
+   "id": "slawomir-stanczak",
+   "name": "Slawomir Stanczak",
+   "short": "Slawomir Stanczak",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Wireless Communications and Networks Department, Fraunhofer HHI; Professor, TU Berlin",
+   "org": "fraunhofer-hhi",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Coordinates the xG-RIC and xG-NOVA 6G transfer projects.",
+   "sources": [
+    "https://www.invest-in.berlin/n/berlin-leads-6g-tech-transfer-for-health-and-mobility/",
+    "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html"
+   ]
+  },
+  {
+   "id": "hans-schotten",
+   "name": "Hans D. Schotten",
+   "short": "Hans D. Schotten",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Intelligent Networks Research, DFKI; Professor, RPTU",
+   "org": "dfki",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Coordinates Open6GHub+ and the second phase of the 6G Platform Germany.",
+   "sources": [
+    "https://dfki.de/en/web/news/open6ghub-deutschlands-6g-forschung-wird-industriemotor",
+    "https://rptu.de/en/newsroom/news/detail/news/deutschland-staerkt-seine-6g-strategie-6g-plattform-startet-in-zweite-transferorientierte-foerderphase"
+   ]
+  },
+  {
+   "id": "dimitri-ktenas",
+   "name": "Dimitri Ktenas",
+   "short": "Dimitri Ktenas",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Co-director, PEPR Networks of the Future (CEA)",
+   "org": "cea",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-directs France's 5G and 6G research programme for CEA.",
+   "sources": [
+    "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+   ]
+  },
+  {
+   "id": "serge-verdeyme",
+   "name": "Serge Verdeyme",
+   "short": "Serge Verdeyme",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Co-director, PEPR Networks of the Future (CNRS)",
+   "org": "cnrs",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-directs France's 5G and 6G research programme for CNRS.",
+   "sources": [
+    "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+   ]
+  },
+  {
+   "id": "daniel-kofman",
+   "name": "Daniel Kofman",
+   "short": "Daniel Kofman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Co-director, PEPR Networks of the Future (IMT)",
+   "org": "imt-france",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-directs France's 5G and 6G research programme for Institut Mines-Télécom.",
+   "sources": [
+    "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+   ]
+  },
+  {
+   "id": "alessandro-vanelli-coralli",
+   "name": "Alessandro Vanelli-Coralli",
+   "short": "Alessandro Vanelli-Coralli",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, University of Bologna; Coordinator, 6G-NTN",
+   "org": "unibo",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Coordinates the EU 6G-NTN project.",
+   "sources": [
+    "https://smart-networks.europa.eu/stream-b-research-for-revolutionary-technology-advancement-towards-6g/"
    ]
   }
  ],
@@ -21630,6 +22326,349 @@
    "type": "Partnership / project",
    "label": "MoU (2021); BlueWalker 3 test (2022)",
    "source": "https://mb.com.ph/2022/05/19/smart-conducting-ph-1st-space-based-cellular-broadband-test/"
+  },
+  {
+   "from": "patrik-rugeland",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Ericsson Research; Technical Manager, Hexa-X-II",
+   "source": "https://hexa-x-ii.eu/"
+  },
+  {
+   "from": "frank-fitzek",
+   "to": "tud",
+   "type": "Role",
+   "label": "Professor, Deutsche Telekom Chair of Communication Networks, TU Dresden",
+   "source": "https://tu-dresden.de/tu-dresden/newsportal/news/6g-life-bmbf-foerdert-6g-forschungs-hub-in-dresden-und-muenchen-mit-70-millionen-euro"
+  },
+  {
+   "from": "holger-boche",
+   "to": "tum",
+   "type": "Role",
+   "label": "Professor of Theoretical Information Technology, TUM; Head of 6G-life",
+   "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase"
+  },
+  {
+   "from": "wolfgang-kellerer",
+   "to": "tum",
+   "type": "Role",
+   "label": "Professor of Communication Networks, TUM; Head of 6G Future Lab Bavaria",
+   "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase"
+  },
+  {
+   "from": "slawomir-stanczak",
+   "to": "fraunhofer-hhi",
+   "type": "Role",
+   "label": "Head of Wireless Communications and Networks Department, Fraunhofer HHI; Professor, TU Berlin",
+   "source": "https://www.invest-in.berlin/n/berlin-leads-6g-tech-transfer-for-health-and-mobility/"
+  },
+  {
+   "from": "hans-schotten",
+   "to": "dfki",
+   "type": "Role",
+   "label": "Head of Intelligent Networks Research, DFKI; Professor, RPTU",
+   "source": "https://dfki.de/en/web/news/open6ghub-deutschlands-6g-forschung-wird-industriemotor"
+  },
+  {
+   "from": "dimitri-ktenas",
+   "to": "cea",
+   "type": "Role",
+   "label": "Co-director, PEPR Networks of the Future (CEA)",
+   "source": "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+  },
+  {
+   "from": "serge-verdeyme",
+   "to": "cnrs",
+   "type": "Role",
+   "label": "Co-director, PEPR Networks of the Future (CNRS)",
+   "source": "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+  },
+  {
+   "from": "daniel-kofman",
+   "to": "imt-france",
+   "type": "Role",
+   "label": "Co-director, PEPR Networks of the Future (IMT)",
+   "source": "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
+  },
+  {
+   "from": "alessandro-vanelli-coralli",
+   "to": "unibo",
+   "type": "Role",
+   "label": "Professor, University of Bologna; Coordinator, 6G-NTN",
+   "source": "https://smart-networks.europa.eu/stream-b-research-for-revolutionary-technology-advancement-towards-6g/"
+  },
+  {
+   "from": "nokia",
+   "to": "hexa-x-ii",
+   "type": "Partnership / project",
+   "label": "Overall lead",
+   "source": "https://smart-networks.europa.eu/wp-content/uploads/2025/09/uusitalo-mikko_nokia-bell-labs_hexa-x-ii-sns-webinar-on-resilience_4.9.2025.pdf"
+  },
+  {
+   "from": "ericsson",
+   "to": "hexa-x-ii",
+   "type": "Partnership / project",
+   "label": "Technical manager",
+   "source": "https://smart-networks.europa.eu/wp-content/uploads/2025/09/uusitalo-mikko_nokia-bell-labs_hexa-x-ii-sns-webinar-on-resilience_4.9.2025.pdf"
+  },
+  {
+   "from": "mikko-uusitalo",
+   "to": "hexa-x-ii",
+   "type": "Role",
+   "label": "Project lead",
+   "source": "https://www.etsi.org/speakers/hexa-x-ii-project/"
+  },
+  {
+   "from": "patrik-rugeland",
+   "to": "hexa-x-ii",
+   "type": "Role",
+   "label": "Technical manager",
+   "source": "https://hexa-x-ii.eu/"
+  },
+  {
+   "from": "sns-ju",
+   "to": "hexa-x-ii",
+   "type": "Funding",
+   "label": "SNS JU flagship project",
+   "source": "https://smart-networks.europa.eu/wp-content/uploads/2025/09/uusitalo-mikko_nokia-bell-labs_hexa-x-ii-sns-webinar-on-resilience_4.9.2025.pdf"
+  },
+  {
+   "from": "sns-ju",
+   "to": "6g-sandbox",
+   "type": "Funding",
+   "label": "SNS JU project",
+   "source": "https://resilience.esa.int/?p=25216"
+  },
+  {
+   "from": "sns-ju",
+   "to": "6g-ntn",
+   "type": "Funding",
+   "label": "SNS JU project",
+   "source": "https://smart-networks.europa.eu/stream-b-research-for-revolutionary-technology-advancement-towards-6g/"
+  },
+  {
+   "from": "6g-ia",
+   "to": "sns-ju",
+   "type": "Membership",
+   "label": "Private-side partner of the SNS JU",
+   "source": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/smart-networks-and-services-joint-undertaking_en"
+  },
+  {
+   "from": "aalto",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii"
+  },
+  {
+   "from": "chalmers",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii"
+  },
+  {
+   "from": "oulu",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii"
+  },
+  {
+   "from": "orange",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii"
+  },
+  {
+   "from": "imec",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii"
+  },
+  {
+   "from": "cttc",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.ltu.se/en/research/research-subjects/signal-processing/research-projects/projektarkiv/2024-11-27-hexa-x-ii"
+  },
+  {
+   "from": "siemens",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.ltu.se/en/research/centres-of-excellence-and-collaborations/center-for-distance-spanning-technologies/our-projects/project-archive/2024-02-16-hexa-x-ii"
+  },
+  {
+   "from": "ltu",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.ltu.se/en/research/centres-of-excellence-and-collaborations/center-for-distance-spanning-technologies/our-projects/project-archive/2024-02-16-hexa-x-ii"
+  },
+  {
+   "from": "rptu",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://eit.rptu.de/en/fgs/wicon/projects/current-projects/hexa-x-ii"
+  },
+  {
+   "from": "vtt",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://cris.vtt.fi/en/projects/a-holistic-flagship-towards-the-6g-network-platform-and-system-to/"
+  },
+  {
+   "from": "bmftr",
+   "to": "6g-life",
+   "type": "Funding",
+   "label": "€70m (2021); €25m for 6G-life² (2026 to 2029)",
+   "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase"
+  },
+  {
+   "from": "bmftr",
+   "to": "xg-ric",
+   "type": "Funding",
+   "label": "About €40m with xG-NOVA to 2029",
+   "source": "https://www.invest-in.berlin/n/berlin-leads-6g-tech-transfer-for-health-and-mobility/"
+  },
+  {
+   "from": "bmftr",
+   "to": "open6ghub",
+   "type": "Funding",
+   "label": "6G transfer hub (2026 to 2029)",
+   "source": "https://dfki.de/en/web/news/open6ghub-deutschlands-6g-forschung-wird-industriemotor"
+  },
+  {
+   "from": "bmftr",
+   "to": "6gem",
+   "type": "Funding",
+   "label": "6G transfer hub",
+   "source": "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html"
+  },
+  {
+   "from": "tud",
+   "to": "6g-life",
+   "type": "Partnership / project",
+   "label": "Co-runs 6G-life",
+   "source": "https://tu-dresden.de/tu-dresden/newsportal/news/transferhub-6g-life2-startet-in-die-naechste-foerderphase?set_language=en"
+  },
+  {
+   "from": "tum",
+   "to": "6g-life",
+   "type": "Partnership / project",
+   "label": "Co-runs 6G-life",
+   "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase"
+  },
+  {
+   "from": "fraunhofer-hhi",
+   "to": "xg-ric",
+   "type": "Partnership / project",
+   "label": "Coordinates xG-RIC",
+   "source": "https://www.hhi.fraunhofer.de/en/press/news/6g-for-medicine-and-mobility-fraunhofer-hhi-coordinates-new-transfer-projects-xg-ric-and-xg-nova.html"
+  },
+  {
+   "from": "tu-berlin",
+   "to": "xg-ric",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.tkn.tu-berlin.de/projects/xg-ric/"
+  },
+  {
+   "from": "dlr",
+   "to": "xg-ric",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.tkn.tu-berlin.de/projects/xg-ric/"
+  },
+  {
+   "from": "dfki",
+   "to": "open6ghub",
+   "type": "Partnership / project",
+   "label": "Coordinates Open6GHub+",
+   "source": "https://dfki.de/en/web/news/open6ghub-deutschlands-6g-forschung-wird-industriemotor"
+  },
+  {
+   "from": "rptu",
+   "to": "open6ghub",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.itiv.kit.edu/english/201_11276.php"
+  },
+  {
+   "from": "rwth",
+   "to": "6gem",
+   "type": "Partnership / project",
+   "label": "Coordinated 6GEM",
+   "source": "https://www.telecompaper.com/news/german-ministry-funds-6g-research-at-four-hubs-with-eur-250-mln--1388549"
+  },
+  {
+   "from": "gerhard-fettweis",
+   "to": "6g-life",
+   "type": "Membership",
+   "label": "6G-life researcher (TU Dresden)",
+   "source": "https://mediatum.ub.tum.de/doc/1656942/1656942.pdf"
+  },
+  {
+   "from": "cea",
+   "to": "pepr-reseaux",
+   "type": "Partnership / project",
+   "label": "Co-leads",
+   "source": "https://www.imt.fr/en/?p=93075"
+  },
+  {
+   "from": "cnrs",
+   "to": "pepr-reseaux",
+   "type": "Partnership / project",
+   "label": "Co-leads",
+   "source": "https://www.imt.fr/en/?p=93075"
+  },
+  {
+   "from": "imt-france",
+   "to": "pepr-reseaux",
+   "type": "Partnership / project",
+   "label": "Co-leads",
+   "source": "https://www.imt.fr/en/?p=93075"
+  },
+  {
+   "from": "unibo",
+   "to": "6g-ntn",
+   "type": "Partnership / project",
+   "label": "Coordinator",
+   "source": "https://6g-ntn.eu/consortium/"
+  },
+  {
+   "from": "thales-alenia",
+   "to": "6g-ntn",
+   "type": "Partnership / project",
+   "label": "Technical coordination",
+   "source": "https://6g-ntn.eu/consortium/"
+  },
+  {
+   "from": "cttc",
+   "to": "6g-ntn",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.cttc.cat/?p=28577"
+  },
+  {
+   "from": "tno",
+   "to": "fns-nl",
+   "type": "Partnership / project",
+   "label": "Leads the consortium",
+   "source": "https://www.tno.nl/en/newsroom/2026/03/netherlands-6g-position/"
+  },
+  {
+   "from": "tu-delft",
+   "to": "fns-nl",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://rvo.nl/sites/default/files/2024-06/Maatwerkbeschikking%2013062024%20NGF6G2301%20Besluit%20tot%20verlening%20subsidie.pdf"
   }
  ]
 }
