@@ -13432,6 +13432,439 @@
     "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/new-zealand-telcos-announce-new-collaboration-that-will-enable-real-time-fraud-and-scam-protections-for-customers/",
     "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/?p=47817"
    ]
+  },
+  {
+   "id": "mst-vn",
+   "name": "Ministry of Science and Technology (Vietnam)",
+   "short": "MST Vietnam",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hanoi, Vietnam",
+   "lat": 21.0285,
+   "lng": 105.8542,
+   "precision": "City",
+   "description": "Vietnam's ministry responsible for telecoms and spectrum, including the Vietnam Telecommunications Authority. Set up a 6G Steering Committee of regulators, spectrum managers, operators and universities to give Vietnamese firms early access to 6G and a role in global standards, ahead of a planned national rollout from 2030.",
+   "sources": [
+    "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-ranks-among-world-s-fastest-countries-in-5g-rollout-5104558.html",
+    "https://vietnamnews.vn/economy/1798507/viet-nam-ready-to-join-the-6g-race.html",
+    "https://developingtelecoms.com/telecom-technology/wireless-networks/20688-vietnam-accelerates-6g-plans-as-5g-reaches-90-population-coverage.html"
+   ]
+  },
+  {
+   "id": "viettel",
+   "name": "Viettel (Viettel High Tech)",
+   "short": "Viettel",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hanoi, Vietnam",
+   "lat": 21.03,
+   "lng": 105.79,
+   "precision": "City",
+   "description": "Military-owned operator and equipment maker. Its Viettel High Tech arm became the first partner in Qualcomm's 6G Platform Early Access Program (July 2026) to research, design and manufacture 6G base stations, targeting Vietnam's first pre-commercial 6G call in early 2029. Also signed 6G deals with Intel, AMD and ID Quantique at MWC 2026.",
+   "sources": [
+    "https://technode.global/2026/07/20/vietnams-viettel-targets-first-pre-commercial-6g-call-by-early-2029-as-qualcomms-first-early-access-partner/",
+    "https://en.qdnd.vn/economy/military-businesses/viettel-begins-research-on-6g-technology-593237",
+    "https://developingtelecoms.com/telecom-technology/wireless-networks/20688-vietnam-accelerates-6g-plans-as-5g-reaches-90-population-coverage.html"
+   ]
+  },
+  {
+   "id": "vnpt",
+   "name": "VNPT (Vietnam Posts and Telecommunications Group)",
+   "short": "VNPT",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hanoi, Vietnam",
+   "lat": 21.025,
+   "lng": 105.81,
+   "precision": "City",
+   "description": "State-owned Vietnamese operator. Its 2030 strategy positions it to pioneer 6G research, focusing on the 6G ecosystem, international partnerships and standards participation.",
+   "sources": [
+    "https://en.baoquocte.vn/apicenter@/print_article&i=287753",
+    "https://en.nhandan.vn/laying-the-foundation-for-a-new-era-of-connectivity-post162588.html",
+    "https://vietnamnet.vn/en/vietnam-needs-to-begin-developing-6g-now-to-gain-success-in-10-years-2179194.html"
+   ]
+  },
+  {
+   "id": "6g-sandbox",
+   "name": "6G-SANDBOX",
+   "short": "6G-SANDBOX",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Europe (pan-European testbed)",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Horizon Europe (SNS JU) project, coordinated by Keysight and launched in January 2023 with 16 partners, building pan-European 6G experimentation testbeds. Signed MoUs with ITRI (Taiwan), Universiti Malaya (2024) and the European Space Agency.",
+   "sources": [
+    "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research",
+    "https://microwavejournal.com/keywords/15359-6g-sandbox"
+   ]
+  },
+  {
+   "id": "um-malaya",
+   "name": "Universiti Malaya (UM)",
+   "short": "UM",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kuala Lumpur, Malaysia",
+   "lat": 3.1209,
+   "lng": 101.6538,
+   "precision": "Campus",
+   "description": "Malaysia's oldest university. Signed an MoU with the Keysight-led 6G-SANDBOX project (July 2024) to connect its experimental networks to the European testbeds, and runs a two-year 5G/6G millimetre-wave research project with Keysight.",
+   "sources": [
+    "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research",
+    "https://www.um.edu.my/news/driving-5g-6g-innovation-universiti-malaya-and-keysight-technologies-launch-cutting-edge-research-project"
+   ]
+  },
+  {
+   "id": "utm-wcc",
+   "name": "Universiti Teknologi Malaysia (Wireless Communication Centre)",
+   "short": "UTM WCC",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "UTM, Johor Bahru, Malaysia",
+   "lat": 1.559,
+   "lng": 103.638,
+   "precision": "Campus",
+   "description": "Malaysia's Higher Institution Centre of Excellence (HICoE) for wireless communications since 2014. Researches 6G topics including vehicle-to-everything with Hanyang University (Korea) and intelligent reflecting surfaces.",
+   "sources": [
+    "https://research.utm.my/wcc/background-vision-mission-objective/",
+    "https://research.utm.my/wcc/?p=679",
+    "https://research.utm.my/wcc/mou-moa"
+   ]
+  },
+  {
+   "id": "mcmc",
+   "name": "MCMC (Malaysian Communications and Multimedia Commission)",
+   "short": "MCMC",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Cyberjaya, Malaysia",
+   "lat": 2.9213,
+   "lng": 101.6559,
+   "precision": "City",
+   "description": "Malaysia's communications regulator and spectrum manager.",
+   "sources": [
+    "https://eleoscompliance.com/en/article/malaisie-malaisiemcmcfixedwirelesssrsp6ghz7ghz"
+   ]
+  },
+  {
+   "id": "telkomsel",
+   "name": "Telkomsel",
+   "short": "Telkomsel",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Jakarta, Indonesia",
+   "lat": -6.2297,
+   "lng": 106.8225,
+   "precision": "City",
+   "description": "Indonesia's largest operator. Building 5G-Advanced as its bridge to 6G and exploring satellite integration. Signed a strategic partnership with ZTE at MWC 2026 that includes evaluating AI-native RAN.",
+   "sources": [
+    "https://www.telkomsel.com/about-us/news/upaya-hadirkan-konektivitas-digital-yang-lebih-cerdas-dan-inklusif-bagi-indonesia",
+    "https://teknologi.bisnis.com/read/20260313/101/1960072/telkomsel-mulai-siapkan-teknologi-6g-begini-nasib-5g-advanced"
+   ]
+  },
+  {
+   "id": "komdigi",
+   "name": "Komdigi (Ministry of Communication and Digital Affairs, Indonesia)",
+   "short": "Komdigi",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Jakarta, Indonesia",
+   "lat": -6.1766,
+   "lng": 106.8227,
+   "precision": "City",
+   "description": "Indonesia's communications ministry and spectrum regulator. Says Indonesia needs new spectrum for 6G but is taking a 'wait and see' approach to choosing 6G bands, following international harmonisation. Hosted the 2026 ASEAN digital senior officials and spectrum working group meetings.",
+   "sources": [
+    "https://inet.detik.com/law-and-policy/d-8575552/komdigi-masih-wait-and-see-tentukan-penggunaan-spektrum-6g",
+    "https://en.antaranews.com/news/422079/homepage-v2.html",
+    "https://asean.org/asean-digital-senior-officials-commit-to-advancing-regional-digital-cooperation/"
+   ]
+  },
+  {
+   "id": "telkom-university",
+   "name": "Telkom University",
+   "short": "Telkom University",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bandung, Indonesia",
+   "lat": -6.9733,
+   "lng": 107.6303,
+   "precision": "Campus",
+   "description": "Its Advanced Communications Research Centre (AICOMS) runs wireless research, including a study with Komdigi.",
+   "sources": [
+    "https://dynamicspectrumalliance.org/summit2025/khoirul-anwar-dsa.pdf"
+   ]
+  },
+  {
+   "id": "ais",
+   "name": "AIS (Advanced Info Service)",
+   "short": "AIS",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bangkok, Thailand",
+   "lat": 13.78,
+   "lng": 100.545,
+   "precision": "City",
+   "description": "Thailand's largest operator. Launched what it calls Southeast Asia's first 5G-Advanced network (2026) and works with Huawei and ZTE on AI-driven network operations and AI-enabled RAN. Runs a 5G innovation lab with Chulalongkorn University.",
+   "sources": [
+    "https://www.khaosodenglish.com/sponsored/2026/05/07/ais-launches-southeast-asias-first-5g-advanced-network/",
+    "https://carrier.huawei.com/en/news/network-ai-award",
+    "https://www.theregister.com/2026/01/20/zte-ais-commercialize-air-ran/"
+   ]
+  },
+  {
+   "id": "true-corp",
+   "name": "True Corporation",
+   "short": "True",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bangkok, Thailand",
+   "lat": 13.765,
+   "lng": 100.568,
+   "precision": "City",
+   "description": "Thai operator (merged with dtac). Runs TrueLab@ChulaEngineering, a 5G innovation centre at Chulalongkorn University, and a quantum AI research partnership (2026).",
+   "sources": [
+    "https://www.inkl.com/news/ais-and-true-set-up-5g-development-labs-at-chula",
+    "https://www.true.th/blog/en/mou_truexqtric_e/"
+   ]
+  },
+  {
+   "id": "chula",
+   "name": "Chulalongkorn University",
+   "short": "Chula",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Faculty of Engineering, Bangkok",
+   "lat": 13.7367,
+   "lng": 100.5331,
+   "precision": "Campus",
+   "description": "Ran Thailand's first upper 6 GHz (6425 to 7125 MHz) mobile field test with test spectrum from the regulator NBTC (2023) and the country's first 5.5G field test (2025). Hosts 5G labs with AIS and True.",
+   "sources": [
+    "https://bangkokpost.com/thailand/pr/2519740/6ghz-imt-is-gaining-great-industry-momentum",
+    "https://www.inkl.com/news/ais-and-true-set-up-5g-development-labs-at-chula"
+   ]
+  },
+  {
+   "id": "globe",
+   "name": "Globe Telecom",
+   "short": "Globe",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "The Globe Tower, Bonifacio Global City, Taguig, Philippines",
+   "lat": 14.553,
+   "lng": 121.05,
+   "precision": "City",
+   "description": "Leading Philippine operator. Launched Starlink Mobile direct-to-cell in 2026, Southeast Asia's first commercial service of its kind, after regulator NTC approval. Has an MoU with AST SpaceMobile (2022) and has trialled Lynk.",
+   "sources": [
+    "https://www.lightreading.com/satellite/globe-launches-d2c-satellite-service-with-starlink",
+    "https://www.globe.com.ph/about-us/newsroom/corporate/globe-starlink-partnership-launch-universal-connectivity",
+    "https://developingtelecoms.com/telecom-technology/satellite-communications-networks/19628-globe-strikes-deal-to-resell-starlink-d2c-service-in-the-philippines.html"
+   ]
+  },
+  {
+   "id": "smart-ph",
+   "name": "Smart Communications (PLDT)",
+   "short": "Smart",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Makati, Philippines",
+   "lat": 14.5547,
+   "lng": 121.0244,
+   "precision": "City",
+   "description": "PLDT's mobile arm. Partnered with AST SpaceMobile (MoU 2021; BlueWalker 3 test 2022) and has run direct-to-device field tests with Lynk Global in 2026.",
+   "sources": [
+    "https://mb.com.ph/2022/05/19/smart-conducting-ph-1st-space-based-cellular-broadband-test/",
+    "https://cms.pldt.com/drupal/node/6882"
+   ]
+  },
+  {
+   "id": "dict-ph",
+   "name": "DICT (Department of Information and Communications Technology, Philippines)",
+   "short": "DICT",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Quezon City, Philippines",
+   "lat": 14.6507,
+   "lng": 121.049,
+   "precision": "City",
+   "description": "Philippine ICT department. Supports satellite direct-to-cell services to reach remote islands; direct-to-cell licences go through the National Telecommunications Commission (NTC).",
+   "sources": [
+    "https://www.bworldonline.com/corporate/2026/05/18/750210/pldt-sees-limited-near-term-impact-from-satellite-entrants/",
+    "https://mb.com.ph/2022/05/19/smart-conducting-ph-1st-space-based-cellular-broadband-test/"
+   ]
+  },
+  {
+   "id": "tao-duc-thang",
+   "name": "Tao Duc Thang",
+   "short": "Tao Duc Thang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chairman and CEO, Viettel",
+   "org": "viettel",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Lieutenant General. Leads Viettel, which signed Qualcomm's first 6G Platform Early Access Program agreement (2026).",
+   "sources": [
+    "https://en.qdnd.vn/economy/military-businesses/viettel-begins-research-on-6g-technology-593237",
+    "https://baolangson.vn/en/viettel-begins-research-on-6g-technology-5099964.html"
+   ]
+  },
+  {
+   "id": "nguyen-minh-quang",
+   "name": "Nguyen Minh Quang",
+   "short": "Nguyen Minh Quang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Viettel High Tech",
+   "org": "viettel",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Signed the 6G Platform Early Access Program agreement with Qualcomm (July 2026).",
+   "sources": [
+    "https://news.tuoitre.vn/viettel-qualcomm-target-vietnams-first-pre-commercial-6g-call-in-2029-103260720172134482.htm"
+   ]
+  },
+  {
+   "id": "nguyen-anh-cuong",
+   "name": "Nguyen Anh Cuong",
+   "short": "Nguyen Anh Cuong",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Deputy Director, Vietnam Telecommunications Authority (MST)",
+   "org": "mst-vn",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Public voice of Vietnam's 6G plans and the MST 6G Steering Committee.",
+   "sources": [
+    "https://en.qdnd.vn/social-affairs/news/vietnam-expected-to-fast-track-mastery-rollout-of-6g-technology-593613",
+    "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-ranks-among-world-s-fastest-countries-in-5g-rollout-5104558.html"
+   ]
+  },
+  {
+   "id": "durga-malladi",
+   "name": "Durga Malladi",
+   "short": "Durga Malladi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "EVP and General Manager, Qualcomm Technologies",
+   "org": "qualcomm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Signed Qualcomm's 6G Platform Early Access Program agreement with Viettel High Tech (July 2026).",
+   "sources": [
+    "https://news.tuoitre.vn/viettel-qualcomm-target-vietnams-first-pre-commercial-6g-call-in-2029-103260720172134482.htm"
+   ]
+  },
+  {
+   "id": "michael-dieudonne",
+   "name": "Michael Dieudonné",
+   "short": "Michael Dieudonné",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "6G-SANDBOX Coordinator, Keysight Technologies",
+   "org": "keysight",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Coordinates the Horizon Europe 6G-SANDBOX testbed project and its MoUs with Asian partners.",
+   "sources": [
+    "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research"
+   ]
+  },
+  {
+   "id": "norhudah-seman",
+   "name": "Norhudah Seman",
+   "short": "Norhudah Seman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor; Director, Wireless Communication Centre, UTM",
+   "org": "utm-wcc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads UTM's wireless centre of excellence.",
+   "sources": [
+    "https://news.utm.my/?p=715616"
+   ]
+  },
+  {
+   "id": "adis-alifiawan",
+   "name": "Adis Alifiawan",
+   "short": "Adis Alifiawan",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Radio Frequency Spectrum, Satellite Orbits and Digital Infrastructure Standardisation, Komdigi",
+   "org": "komdigi",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Indonesia's 6G spectrum planning.",
+   "sources": [
+    "https://inet.detik.com/law-and-policy/d-8575552/komdigi-masih-wait-and-see-tentukan-penggunaan-spektrum-6g",
+    "https://opengovasia.com/indonesia-new-spectrum-allocations-to-support-future-6g-networks/"
+   ]
+  },
+  {
+   "id": "wong-soon-nam",
+   "name": "Wong Soon Nam",
+   "short": "Wong Soon Nam",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Planning and Transformation, Telkomsel",
+   "org": "telkomsel",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Signed Telkomsel's strategic partnership with ZTE at MWC 2026.",
+   "sources": [
+    "https://www.telkomsel.com/about-us/news/upaya-hadirkan-konektivitas-digital-yang-lebih-cerdas-dan-inklusif-bagi-indonesia",
+    "https://www.mobileworldlive.com/?p=500471"
+   ]
   }
  ],
  "edges": [
@@ -21036,6 +21469,167 @@
    "type": "Partnership / project",
    "label": "Starlink direct-to-cell (launched April 2026)",
    "source": "https://www.scoop.co.nz/stories/SC2604/S00021.htm"
+  },
+  {
+   "from": "tao-duc-thang",
+   "to": "viettel",
+   "type": "Role",
+   "label": "Chairman and CEO, Viettel",
+   "source": "https://en.qdnd.vn/economy/military-businesses/viettel-begins-research-on-6g-technology-593237"
+  },
+  {
+   "from": "nguyen-minh-quang",
+   "to": "viettel",
+   "type": "Role",
+   "label": "CEO, Viettel High Tech",
+   "source": "https://news.tuoitre.vn/viettel-qualcomm-target-vietnams-first-pre-commercial-6g-call-in-2029-103260720172134482.htm"
+  },
+  {
+   "from": "nguyen-anh-cuong",
+   "to": "mst-vn",
+   "type": "Role",
+   "label": "Deputy Director, Vietnam Telecommunications Authority (MST)",
+   "source": "https://en.qdnd.vn/social-affairs/news/vietnam-expected-to-fast-track-mastery-rollout-of-6g-technology-593613"
+  },
+  {
+   "from": "durga-malladi",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "EVP and General Manager, Qualcomm Technologies",
+   "source": "https://news.tuoitre.vn/viettel-qualcomm-target-vietnams-first-pre-commercial-6g-call-in-2029-103260720172134482.htm"
+  },
+  {
+   "from": "michael-dieudonne",
+   "to": "keysight",
+   "type": "Role",
+   "label": "6G-SANDBOX Coordinator, Keysight Technologies",
+   "source": "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research"
+  },
+  {
+   "from": "norhudah-seman",
+   "to": "utm-wcc",
+   "type": "Role",
+   "label": "Associate Professor; Director, Wireless Communication Centre, UTM",
+   "source": "https://news.utm.my/?p=715616"
+  },
+  {
+   "from": "adis-alifiawan",
+   "to": "komdigi",
+   "type": "Role",
+   "label": "Director of Radio Frequency Spectrum, Satellite Orbits and Digital Infrastructure Standardisation, Komdigi",
+   "source": "https://inet.detik.com/law-and-policy/d-8575552/komdigi-masih-wait-and-see-tentukan-penggunaan-spektrum-6g"
+  },
+  {
+   "from": "wong-soon-nam",
+   "to": "telkomsel",
+   "type": "Role",
+   "label": "Director of Planning and Transformation, Telkomsel",
+   "source": "https://www.telkomsel.com/about-us/news/upaya-hadirkan-konektivitas-digital-yang-lebih-cerdas-dan-inklusif-bagi-indonesia"
+  },
+  {
+   "from": "viettel",
+   "to": "qualcomm",
+   "type": "Partnership / project",
+   "label": "6G Platform Early Access Program: 6G base stations, pre-commercial call target early 2029",
+   "source": "https://technode.global/2026/07/20/vietnams-viettel-targets-first-pre-commercial-6g-call-by-early-2029-as-qualcomms-first-early-access-partner/"
+  },
+  {
+   "from": "viettel",
+   "to": "mst-vn",
+   "type": "Membership",
+   "label": "6G equipment development team (set up by MIC, now MST)",
+   "source": "https://www.itnews.asia/news/vietnam-establishes-team-to-develop-6g-equipment-599801"
+  },
+  {
+   "from": "vnpt",
+   "to": "mst-vn",
+   "type": "Membership",
+   "label": "6G equipment development team (set up by MIC, now MST)",
+   "source": "https://www.itnews.asia/news/vietnam-establishes-team-to-develop-6g-equipment-599801"
+  },
+  {
+   "from": "keysight",
+   "to": "6g-sandbox",
+   "type": "Partnership / project",
+   "label": "Coordinates 6G-SANDBOX",
+   "source": "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research"
+  },
+  {
+   "from": "um-malaya",
+   "to": "6g-sandbox",
+   "type": "Partnership / project",
+   "label": "MoU to join 6G-SANDBOX testbeds (2024)",
+   "source": "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research"
+  },
+  {
+   "from": "keysight",
+   "to": "um-malaya",
+   "type": "Research together",
+   "label": "5G/6G millimetre-wave research project",
+   "source": "https://www.um.edu.my/news/driving-5g-6g-innovation-universiti-malaya-and-keysight-technologies-launch-cutting-edge-research-project"
+  },
+  {
+   "from": "zte",
+   "to": "telkomsel",
+   "type": "Partnership / project",
+   "label": "Strategic partnership including AI-native RAN (MWC 2026)",
+   "source": "https://www.telkomsel.com/about-us/news/upaya-hadirkan-konektivitas-digital-yang-lebih-cerdas-dan-inklusif-bagi-indonesia"
+  },
+  {
+   "from": "telkom-university",
+   "to": "komdigi",
+   "type": "Research together",
+   "label": "AICOMS study with Komdigi",
+   "source": "https://dynamicspectrumalliance.org/summit2025/khoirul-anwar-dsa.pdf"
+  },
+  {
+   "from": "huawei",
+   "to": "ais",
+   "type": "Partnership / project",
+   "label": "5G-Advanced and AI network agents",
+   "source": "https://carrier.huawei.com/en/news/network-ai-award"
+  },
+  {
+   "from": "zte",
+   "to": "ais",
+   "type": "Partnership / project",
+   "label": "AIR RAN commercial deployment (2026)",
+   "source": "https://www.theregister.com/2026/01/20/zte-ais-commercialize-air-ran/"
+  },
+  {
+   "from": "ais",
+   "to": "chula",
+   "type": "Research together",
+   "label": "5G Garage Innovation Lab",
+   "source": "https://www.inkl.com/news/ais-and-true-set-up-5g-development-labs-at-chula"
+  },
+  {
+   "from": "true-corp",
+   "to": "chula",
+   "type": "Research together",
+   "label": "TrueLab@ChulaEngineering 5G centre",
+   "source": "https://www.inkl.com/news/ais-and-true-set-up-5g-development-labs-at-chula"
+  },
+  {
+   "from": "globe",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink Mobile direct-to-cell (launched 2026)",
+   "source": "https://www.lightreading.com/satellite/globe-launches-d2c-satellite-service-with-starlink"
+  },
+  {
+   "from": "globe",
+   "to": "ast",
+   "type": "Partnership / project",
+   "label": "MoU on space-based cellular broadband (2022)",
+   "source": "https://yugatech.com/news/globe-signs-mou-w-ast-spacemobile-for-space-based-cellular-broadband-service"
+  },
+  {
+   "from": "smart-ph",
+   "to": "ast",
+   "type": "Partnership / project",
+   "label": "MoU (2021); BlueWalker 3 test (2022)",
+   "source": "https://mb.com.ph/2022/05/19/smart-conducting-ph-1st-space-based-cellular-broadband-test/"
   }
  ]
 }
