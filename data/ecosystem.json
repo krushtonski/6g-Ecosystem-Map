@@ -16439,6 +16439,42 @@
     "https://www.fedinsider.com/nextgen-cellular-networks/",
     "https://nrfbigshow.nrf.com/speaker/anthony-lawson"
    ]
+  },
+  {
+   "id": "army-cpe-aviation",
+   "name": "Capability Program Executive Aviation, U.S. Army (CPE Aviation)",
+   "short": "CPE Aviation",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Redstone Arsenal, Huntsville, AL",
+   "lat": 34.684,
+   "lng": -86.654,
+   "precision": "City",
+   "description": "US Army acquisition organisation for aviation programmes (formerly PEO Aviation), within ASA(ALT). Has a Chief Digital Transformation Officer under the Army acquisition CDTO programme, which drives data-centric changes to processes, technology and culture.",
+   "sources": [
+    "https://www.potomacofficersclub.com/speakers/reginald-oliver/",
+    "https://www.army.mil/CDTO"
+   ]
+  },
+  {
+   "id": "reginald-oliver",
+   "name": "CW4 Reginald Oliver",
+   "short": "Reginald Oliver",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Digital Transformation Officer, Capability Program Executive Aviation, U.S. Army",
+   "org": "army-cpe-aviation",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Army aviation maintenance officer and AH-64 Maintenance Test Pilot (Warrant Officer since 2008), with tours in Afghanistan and service in the 82nd and 12th Combat Aviation Brigades. Now leads digital transformation for Army aviation acquisition. Speaker at FedInsider's NextGen Cellular Networks event.",
+   "sources": [
+    "https://www.potomacofficersclub.com/speakers/reginald-oliver/",
+    "https://www.fedinsider.com/nextgen-cellular-networks/"
+   ]
   }
  ],
  "edges": [
@@ -25373,6 +25409,13 @@
    "type": "Role",
    "label": "Field Chief Technology Officer, Ericsson",
    "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
+  },
+  {
+   "from": "reginald-oliver",
+   "to": "army-cpe-aviation",
+   "type": "Role",
+   "label": "Chief Digital Transformation Officer, Capability Program Executive Aviation, U.S. Army",
+   "source": "https://www.potomacofficersclub.com/speakers/reginald-oliver/"
   }
  ]
 }
