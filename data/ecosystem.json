@@ -16324,6 +16324,25 @@
    "sources": [
     "https://www.hpcwire.com/off-the-wire/cyber-bytes-foundation-holds-grand-opening/"
    ]
+  },
+  {
+   "id": "tyrell-junius",
+   "name": "Tyrell Junius",
+   "short": "Tyrell Junius",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Co-Founder and Chief Operating Officer, Tiami Networks",
+   "org": "tiami",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-founded Tiami Networks in 2022, which builds secure 5G systems for dual-use applications. Former US Peace Corps Volunteer in Zambia, with international business experience across Africa, Japan, the US and Europe. Speaker at FedInsider's NextGen Cellular Networks event.",
+   "sources": [
+    "https://theorg.com/org/tiami-networks/org-chart/tyrell-j",
+    "https://6gworld.com/?p=28215",
+    "https://www.fedinsider.com/nextgen-cellular-networks/"
+   ]
   }
  ],
  "edges": [
@@ -25230,6 +25249,13 @@
    "type": "Role",
    "label": "Founder and Executive Director, Cyber Bytes Foundation",
    "source": "https://www.hpcwire.com/off-the-wire/cyber-bytes-foundation-holds-grand-opening/"
+  },
+  {
+   "from": "tyrell-junius",
+   "to": "tiami",
+   "type": "Role",
+   "label": "Co-Founder and Chief Operating Officer, Tiami Networks",
+   "source": "https://theorg.com/org/tiami-networks/org-chart/tyrell-j"
   }
  ]
 }
