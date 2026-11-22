@@ -15285,6 +15285,25 @@
     "https://naicslist.com/company-profile/fairwinds-technologies-llc-annapolis-md-21403",
     "https://www.fairwinds-tech.com"
    ]
+  },
+  {
+   "id": "jacobs",
+   "name": "Jacobs",
+   "short": "Jacobs",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "1999 Bryan Street, Suite 3500, Dallas, TX",
+   "lat": 32.7876,
+   "lng": -96.7985,
+   "precision": "Street address",
+   "description": "Engineering, consulting and project delivery firm (NYSE: J). Designs wireless telecommunications systems, including public safety and commercial DAS, neutral host and land mobile radio. Serves national security and defence clients with mission-ready infrastructure and digital systems. Holds a role on the US Missile Defense Agency's SHIELD contract (February 2026).",
+   "sources": [
+    "https://www.jacobs.com/node/711",
+    "https://www.jacobs.com/node/4234",
+    "https://www.mediabistro.com/jobs/1913038835-wireless-telecommunications-design-lead"
+   ]
   }
  ],
  "edges": [
