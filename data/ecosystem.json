@@ -12957,6 +12957,42 @@
     "https://www.lightreading.com/regulatory-politics/house-democrats-demand-bipartisan-fcc-gomez-renomination",
     "https://siliconflatirons.org/?p=65278"
    ]
+  },
+  {
+   "id": "csis",
+   "name": "Center for Strategic and International Studies (CSIS)",
+   "short": "CSIS",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "1616 Rhode Island Avenue NW, Washington, DC",
+   "lat": 38.9097,
+   "lng": -77.0396,
+   "precision": "Street address",
+   "description": "Washington DC policy think tank. Publishes analysis on technology, telecoms and trusted digital infrastructure policy.",
+   "sources": [
+    "https://www.csis.org/people/stephan-lang"
+   ]
+  },
+  {
+   "id": "steve-lang",
+   "name": "Steve Lang",
+   "short": "Steve Lang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Non-resident Senior Associate, CSIS; Senior Advisor, Crest Hill Advisors; former US Coordinator for International Communications and Information Policy (Ambassador), State Department",
+   "org": "csis",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Retired US diplomat (Ambassador Stephan A. Lang). Led State Department diplomacy on international telecoms standards and trusted ICT infrastructure as US Coordinator for International Communications and Information Policy (May 2024 to July 2025), after serving as Deputy Assistant Secretary from November 2022. Member of SpectrumX working groups.",
+   "sources": [
+    "https://www.csis.org/people/stephan-lang",
+    "https://www.iicom.org/?p=34118",
+    "https://www.spectrumx.org/person/stephan-a-lang/"
+   ]
   }
  ],
  "edges": [
@@ -20323,6 +20359,20 @@
    "type": "Role",
    "label": "Commissioner, Federal Communications Commission (holdover since July 2026)",
    "source": "https://www.fcc.gov/about/leadership/anna-gomez"
+  },
+  {
+   "from": "steve-lang",
+   "to": "csis",
+   "type": "Role",
+   "label": "Non-resident Senior Associate, CSIS; Senior Advisor, Crest Hill Advisors; former US Coordinator for International Communications and Information Policy (Ambassador), State Department",
+   "source": "https://www.csis.org/people/stephan-lang"
+  },
+  {
+   "from": "steve-lang",
+   "to": "spectrumx",
+   "type": "Membership",
+   "label": "Working group member",
+   "source": "https://www.spectrumx.org/person/stephan-a-lang/"
   }
  ]
 }
