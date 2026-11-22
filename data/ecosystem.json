@@ -12938,6 +12938,25 @@
     "https://www.whistleout.com.au/MobilePhones/News/Optus-6G-testing",
     "https://optus.com.au/about/media-centre/speeches-and-reports/2026/06/commsday-summit-sri-amirthalingam"
    ]
+  },
+  {
+   "id": "anna-gomez",
+   "name": "Anna Gomez",
+   "short": "Anna Gomez",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Commissioner, Federal Communications Commission (holdover since July 2026)",
+   "org": "fcc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "FCC Commissioner since September 2023 and the Commission's only Democratic member. Her five-year term expired in June 2026 and she continues to serve in a holdover capacity. Previously Deputy Administrator of NTIA, Deputy Chief of the FCC International Bureau and a telecoms lawyer in private practice.",
+   "sources": [
+    "https://www.fcc.gov/about/leadership/anna-gomez",
+    "https://www.lightreading.com/regulatory-politics/house-democrats-demand-bipartisan-fcc-gomez-renomination",
+    "https://siliconflatirons.org/?p=65278"
+   ]
   }
  ],
  "edges": [
@@ -20297,6 +20316,13 @@
    "type": "Partnership / project",
    "label": "Spectrum advocacy for 6G (upper 6 GHz, 600 MHz)",
    "source": "https://amta.org.au/wp-content/uploads/2026/05/AMTA-submission-FYSO-2026.pdf"
+  },
+  {
+   "from": "anna-gomez",
+   "to": "fcc",
+   "type": "Role",
+   "label": "Commissioner, Federal Communications Commission (holdover since July 2026)",
+   "source": "https://www.fcc.gov/about/leadership/anna-gomez"
   }
  ]
 }
