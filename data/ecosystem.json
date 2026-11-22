@@ -1605,7 +1605,7 @@
    "short": "",
    "category": "Equipment & tech vendors",
    "region": "Rest of US & global",
-   "description": "AI company.",
+   "description": "AI business of SpaceX. SpaceX acquired Elon Musk's AI company xAI in February 2026, with plans including space-based data centres.",
    "role": "",
    "org": null,
    "address": "",
@@ -1613,7 +1613,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://techcrunch.com/?p=3088937"
    ]
   },
   {
@@ -12993,6 +12994,202 @@
     "https://www.iicom.org/?p=34118",
     "https://www.spectrumx.org/person/stephan-a-lang/"
    ]
+  },
+  {
+   "id": "spacex",
+   "name": "SpaceX (Starlink)",
+   "short": "SpaceX",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "1 Rocket Road, Hawthorne, CA",
+   "lat": 33.9207,
+   "lng": -118.328,
+   "precision": "Street address",
+   "description": "Launch and satellite company that runs Starlink. Its direct-to-cell service, renamed Starlink Mobile in 2026, works with operator partners worldwide. Bought EchoStar's AWS-4 and H-block spectrum (about $17bn, 2025) for a next-generation direct-to-cell constellation due to start launching in 2027, targeting up to 150 Mbps. Engaging in 3GPP standards work on 6G non-terrestrial networks. Acquired xAI in February 2026.",
+   "sources": [
+    "https://ir.echostar.com/node/32686",
+    "https://www.fierce-network.com/wireless/mwc-starlink-mobile-unveils-plans-v2-satellites-and-more",
+    "https://broadbandbreakfast.com/spacex-scheduled-2027-launch-of-1-200-satellite-mobile-constellation/",
+    "https://nextgalliance.org/technology-roadmap-working-group-ntn-panel/",
+    "https://techcrunch.com/?p=3088937"
+   ]
+  },
+  {
+   "id": "one-nz",
+   "name": "One NZ",
+   "short": "One NZ",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Auckland, New Zealand",
+   "lat": -36.8485,
+   "lng": 174.7633,
+   "precision": "City",
+   "description": "New Zealand operator and Starlink direct-to-cell partner.",
+   "sources": [
+    "https://www.starlink.com/direct-to-cell"
+   ]
+  },
+  {
+   "id": "salt",
+   "name": "Salt Mobile",
+   "short": "Salt",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Switzerland",
+   "lat": 46.539,
+   "lng": 6.588,
+   "precision": "City",
+   "description": "Swiss operator and Starlink direct-to-cell partner.",
+   "sources": [
+    "https://www.starlink.com/direct-to-cell"
+   ]
+  },
+  {
+   "id": "entel",
+   "name": "Entel",
+   "short": "Entel",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Santiago, Chile",
+   "lat": -33.4489,
+   "lng": -70.6693,
+   "precision": "City",
+   "description": "Operator in Chile and Peru and Starlink direct-to-cell partner in both countries.",
+   "sources": [
+    "https://www.starlink.com/direct-to-cell"
+   ]
+  },
+  {
+   "id": "kyivstar",
+   "name": "Kyivstar (VEON)",
+   "short": "Kyivstar",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kyiv, Ukraine",
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "precision": "City",
+   "description": "Ukrainian operator, part of VEON. Launched Europe's first Starlink direct-to-cell service in November 2025.",
+   "sources": [
+    "https://www.starlink.com/direct-to-cell",
+    "https://www.theregister.com/2025/11/25/ukraine_starlink_direct_to_cell/"
+   ]
+  },
+  {
+   "id": "vmo2",
+   "name": "Virgin Media O2",
+   "short": "VMO2",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Slough, UK",
+   "lat": 51.5105,
+   "lng": -0.595,
+   "precision": "City",
+   "description": "UK operator and Starlink direct-to-cell partner, with a satellite service planned for 2026.",
+   "sources": [
+    "https://www.starlink.com/direct-to-cell",
+    "https://www.theregister.com/2025/11/25/ukraine_starlink_direct_to_cell/"
+   ]
+  },
+  {
+   "id": "airtel-africa",
+   "name": "Airtel Africa",
+   "short": "Airtel Africa",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Lagos, Nigeria",
+   "lat": 6.5244,
+   "lng": 3.3792,
+   "precision": "City",
+   "description": "Pan-African operator. Starlink direct-to-cell partner, with service planned across 14 African countries.",
+   "sources": [
+    "https://www.starlink.com/direct-to-cell",
+    "https://www.advanced-television.com/?p=279945"
+   ]
+  },
+  {
+   "id": "elon-musk",
+   "name": "Elon Musk",
+   "short": "Elon Musk",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, SpaceX",
+   "org": "spacex",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads SpaceX, including Starlink and, since February 2026, xAI.",
+   "sources": [
+    "https://techcrunch.com/?p=3088937"
+   ]
+  },
+  {
+   "id": "gwynne-shotwell",
+   "name": "Gwynne Shotwell",
+   "short": "Gwynne Shotwell",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and COO, SpaceX",
+   "org": "spacex",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads SpaceX's commercial strategy, including Starlink Mobile direct-to-cell and the EchoStar spectrum deal.",
+   "sources": [
+    "https://www.fierce-network.com/wireless/mwc-starlink-mobile-unveils-plans-v2-satellites-and-more",
+    "https://satnews.com/2026/08/05/spacex-reports-strong-q2-results-and-details-direct-mobile-telco-strategy/"
+   ]
+  },
+  {
+   "id": "michael-nicolls",
+   "name": "Michael Nicolls",
+   "short": "Michael Nicolls",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "SVP, Starlink, SpaceX",
+   "org": "spacex",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Starlink. Launched the Starlink Mobile brand and its second-generation direct-to-cell plans at MWC 2026.",
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/starlink-targets-25m-users-by-year-end-as-gen2-satellite-plan-promises-100x-data-density/",
+    "https://www.fierce-network.com/wireless/mwc-starlink-mobile-unveils-plans-v2-satellites-and-more"
+   ]
+  },
+  {
+   "id": "hamid-akhavan",
+   "name": "Hamid Akhavan",
+   "short": "Hamid Akhavan",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and CEO, EchoStar",
+   "org": "dish",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Led EchoStar's sale of AWS-4 and H-block spectrum to SpaceX (2025).",
+   "sources": [
+    "https://www.fierce-network.com/wireless/spacex-scoops-echostar-spectrum-17b"
+   ]
   }
  ],
  "edges": [
@@ -20373,6 +20570,139 @@
    "type": "Membership",
    "label": "Working group member",
    "source": "https://www.spectrumx.org/person/stephan-a-lang/"
+  },
+  {
+   "from": "elon-musk",
+   "to": "spacex",
+   "type": "Role",
+   "label": "CEO, SpaceX",
+   "source": "https://techcrunch.com/?p=3088937"
+  },
+  {
+   "from": "gwynne-shotwell",
+   "to": "spacex",
+   "type": "Role",
+   "label": "President and COO, SpaceX",
+   "source": "https://www.fierce-network.com/wireless/mwc-starlink-mobile-unveils-plans-v2-satellites-and-more"
+  },
+  {
+   "from": "michael-nicolls",
+   "to": "spacex",
+   "type": "Role",
+   "label": "SVP, Starlink, SpaceX",
+   "source": "https://www.datacenterdynamics.com/en/news/starlink-targets-25m-users-by-year-end-as-gen2-satellite-plan-promises-100x-data-density/"
+  },
+  {
+   "from": "hamid-akhavan",
+   "to": "dish",
+   "type": "Role",
+   "label": "President and CEO, EchoStar",
+   "source": "https://www.fierce-network.com/wireless/spacex-scoops-echostar-spectrum-17b"
+  },
+  {
+   "from": "dish",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Sold AWS-4 and H-block spectrum (about $17bn, 2025); Boost Mobile access to Starlink direct-to-cell",
+   "source": "https://ir.echostar.com/node/32686"
+  },
+  {
+   "from": "fcc",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Approved 7,500 more Gen2 Starlink satellites (January 2026)",
+   "source": "https://www.gadgetreview.com/?p=417911"
+  },
+  {
+   "from": "spacexai",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Part of SpaceX after the xAI merger (February 2026)",
+   "source": "https://techcrunch.com/?p=3088937"
+  },
+  {
+   "from": "spacex",
+   "to": "3gpp",
+   "type": "Membership",
+   "label": "Engaging in 3GPP 6G NTN standards work",
+   "source": "https://nextgalliance.org/technology-roadmap-working-group-ntn-panel/"
+  },
+  {
+   "from": "tmobile",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner (T-Satellite)",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "optus",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "telstra",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "rogers",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "kddi",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "KDDI is a Starlink direct-to-cell partner",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "one-nz",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "salt",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "entel",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner (Chile, Peru)",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "kyivstar",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner (live since November 2025)",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "vmo2",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner",
+   "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "airtel-africa",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell partner",
+   "source": "https://www.starlink.com/direct-to-cell"
   }
  ]
 }
