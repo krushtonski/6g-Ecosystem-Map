@@ -5097,9 +5097,10 @@
    "id": "ericsson-uk",
    "name": "Ericsson UK 6G research programme",
    "category": "Equipment & tech vendors",
-   "description": "Ericsson's UK-based 6G research programme, launched in 2022 with a ten-year, tens-of-millions-of-pounds commitment and renewed in June 2025. Worked on the UK government-backed REASON and TUDOR projects.",
+   "description": "Ericsson's UK-based 6G research programme, launched in 2022 with a ten-year, tens-of-millions-of-pounds commitment and renewed in June 2025. Focus areas include multi-point transmission, integrated sensing and communication, cognitive networks, energy efficiency, resilience and security, feeding into 3GPP standards. Worked on the UK government-backed REASON and TUDOR projects.",
    "sources": [
-    "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
+    "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks",
+    "https://pipelinepub.com/news/ericsson-recommits-to-uk-research-program"
    ]
   },
   {
@@ -5125,15 +5126,17 @@
    "region": "Rest of US & global",
    "role": "",
    "org": null,
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "precision": "",
+   "address": "Smart Internet Lab, University of Bristol",
+   "lat": 51.4563,
+   "lng": -2.604,
+   "precision": "Campus",
    "id": "reason",
    "name": "REASON",
    "category": "Programmes & testbeds",
-   "description": "Realising Enabling Architectures and Solutions for Open Networks: UK government-backed project developing a roadmap for open 6G networks. Includes Ericsson, Samsung and Nokia.",
+   "description": "Realising Enabling Architectures and Solutions for Open Networks: UK 6G flagship project led by the University of Bristol (Professor Dimitra Simeonidou), with about £12m from DSIT (December 2022 to December 2025). Developed open 6G architectures and multi-technology access networks. Partners included Ericsson, Nokia Bell Labs, Samsung, BT, Digital Catapult, Thales UK, King's College London, Southampton and Strathclyde. Won the 2024 National AI Award for High Tech and Telecom.",
    "sources": [
+    "https://reason-open-networks.ac.uk/?p=140",
+    "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners",
     "https://www.engineersireland.ie/Engineers-Journal/News/consortium-nets-close-to-16312m-in-bid-to-tap-into-6g-tech-potential"
    ]
   },
@@ -12093,6 +12096,400 @@
    "description": "KTH lead in the Ericsson-NTU-KTH Trustworthy 6G Positioning project.",
    "sources": [
     "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g"
+   ]
+  },
+  {
+   "id": "epsrc",
+   "name": "EPSRC (Engineering and Physical Sciences Research Council, UKRI)",
+   "short": "EPSRC",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Polaris House, North Star Avenue, Swindon",
+   "lat": 51.5658,
+   "lng": -1.7853,
+   "precision": "Street address",
+   "description": "UK Research and Innovation's engineering and physical sciences council. Funds the UK's future telecoms hubs (TITAN, CHEDDAR, HASC, JOINER and the Federated Telecoms Hubs) through the Future Connectivity Hubs Evolution Programme with DSIT, and funds the National 6G Radio Systems Facility at Sheffield.",
+   "sources": [
+    "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/",
+    "https://www.ukri.org/news/major-future-telecoms-research-boost-announced/"
+   ]
+  },
+  {
+   "id": "dsit",
+   "name": "Department for Science, Innovation and Technology (DSIT)",
+   "short": "DSIT",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Whitehall, London",
+   "lat": 51.5045,
+   "lng": -0.1265,
+   "precision": "City",
+   "description": "UK government department for telecoms and digital infrastructure. Co-funds the future connectivity hubs with EPSRC, funded the REASON and TUDOR 6G projects (about £12m each) and funds the £80m UK Telecoms Lab.",
+   "sources": [
+    "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/",
+    "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners",
+    "https://npl.co.uk/uk-telecoms-lab"
+   ]
+  },
+  {
+   "id": "fth",
+   "name": "Federated Telecoms Hubs (FTH)",
+   "short": "FTH",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Cambridge, UK",
+   "lat": 52.2053,
+   "lng": 0.1218,
+   "precision": "City",
+   "description": "Umbrella that links the UK's EPSRC telecoms research hubs (TITAN, CHEDDAR, HASC) and the JOINER experimentation platform, handling commercialisation, standards and industry engagement. Part of the Future Connectivity Hubs Evolution Programme, which allows up to about £97.6m full economic cost across the five hubs (EPSRC funds 80%).",
+   "sources": [
+    "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/",
+    "https://www.telecomtv.com/content/access-evolution/how-harald-haas-is-matching-industry-problems-with-academic-solutions-55978/"
+   ]
+  },
+  {
+   "id": "titan",
+   "name": "TITAN (Platform Driving the Ultimate Connectivity)",
+   "short": "TITAN",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Electrical Engineering Division, 9 JJ Thomson Avenue, Cambridge",
+   "lat": 52.2097,
+   "lng": 0.0876,
+   "precision": "Campus",
+   "description": "EPSRC telecoms hub on the 'network of networks', led by the University of Cambridge and directed by Professor Harald Haas. Covers AI for networks, radio, optical wireless, fibre, non-terrestrial and quantum networks across around 20 partner universities.",
+   "sources": [
+    "https://uktin.net/whats-happening/news/telecoms-trailblazers-day-life-harald-haas",
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/01/20250124_fth_titan_v3.pdf"
+   ]
+  },
+  {
+   "id": "cheddar",
+   "name": "CHEDDAR (Communications Hub for Empowering Distributed clouD computing Applications and Research)",
+   "short": "CHEDDAR",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Department of Computing, Imperial College London, South Kensington",
+   "lat": 51.4989,
+   "lng": -0.179,
+   "precision": "Campus",
+   "description": "EPSRC telecoms hub led by Imperial College London (Professor Julie McCann) with Cranfield, Durham, Glasgow, Leeds and York. Researches telco cloud, distributed computing, network programmability, sensing and security for 6G.",
+   "sources": [
+    "https://www.gla.ac.uk/news/archiveofnews/2025/april/headline_1174853_en.html",
+    "https://www.imperial.ac.uk/news/251839/extra-funding-imperial-6g-communications/"
+   ]
+  },
+  {
+   "id": "hasc",
+   "name": "HASC (Hub in All-Spectrum Connectivity)",
+   "short": "HASC",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Department of Engineering Science, Parks Road, Oxford",
+   "lat": 51.7603,
+   "lng": -1.259,
+   "precision": "Campus",
+   "description": "EPSRC telecoms hub led by the University of Oxford (Professor Dominic O'Brien), with Belfast, Bristol, Cambridge, Imperial, Southampton, Strathclyde and UCL. Researches how to combine wired and wireless spectrum, from radio to optical, into end-to-end connectivity.",
+   "sources": [
+    "https://eng.ox.ac.uk/news/new-hub-receives-2-million-to-develop-the-communications-technologies-of-tomorrow",
+    "https://allspectrumhub.org"
+   ]
+  },
+  {
+   "id": "joiner",
+   "name": "JOINER (Joint Open Infrastructure for Networks Research)",
+   "short": "JOINER",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Smart Internet Lab, University of Bristol",
+   "lat": 51.4569,
+   "lng": -2.6036,
+   "precision": "Campus",
+   "description": "UK-wide 6G experimentation platform led by the University of Bristol's Smart Internet Lab. A dedicated network links labs and testbeds at partner universities and research organisations, including Digital Catapult (from 2025); Trinity College Dublin was its first international connection.",
+   "sources": [
+    "https://bristol.ac.uk/engineering/research/smart/projects/joiner",
+    "https://www.digicatapult.org.uk/about/press-releases/post/digital-catapult-becomes-one-of-the-first-sites-to-join-national-6g-research-platform/",
+    "https://www.telecomtv.com/content/access-evolution/the-importance-of-r-d-networks-54337/"
+   ]
+  },
+  {
+   "id": "cambridge",
+   "name": "University of Cambridge",
+   "short": "Cambridge",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Department of Engineering, Cambridge",
+   "lat": 52.2093,
+   "lng": 0.087,
+   "precision": "Campus",
+   "description": "Leads the TITAN telecoms hub. Home of Professor Harald Haas's LiFi and optical wireless research.",
+   "sources": [
+    "https://www.eng.cam.ac.uk/harald-haas",
+    "https://www.telecomtv.com/content/access-evolution/how-harald-haas-is-matching-industry-problems-with-academic-solutions-55978/"
+   ]
+  },
+  {
+   "id": "imperial",
+   "name": "Imperial College London",
+   "short": "Imperial",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "South Kensington Campus, London",
+   "lat": 51.4988,
+   "lng": -0.1749,
+   "precision": "Campus",
+   "description": "Leads the CHEDDAR telecoms hub on cloud and distributed computing for 6G.",
+   "sources": [
+    "https://www.imperial.ac.uk/news/251839/extra-funding-imperial-6g-communications/"
+   ]
+  },
+  {
+   "id": "oxford",
+   "name": "University of Oxford",
+   "short": "Oxford",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Department of Engineering Science, Parks Road, Oxford",
+   "lat": 51.76,
+   "lng": -1.2586,
+   "precision": "Campus",
+   "description": "Leads the HASC telecoms hub on all-spectrum (wired and wireless) connectivity.",
+   "sources": [
+    "https://eng.ox.ac.uk/news/new-hub-receives-2-million-to-develop-the-communications-technologies-of-tomorrow"
+   ]
+  },
+  {
+   "id": "bristol",
+   "name": "University of Bristol (Smart Internet Lab)",
+   "short": "Bristol",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Merchant Venturers Building, Woodland Road, Bristol",
+   "lat": 51.4566,
+   "lng": -2.6033,
+   "precision": "Campus",
+   "description": "Its Smart Internet Lab, directed by Professor Dimitra Simeonidou, leads the JOINER national 6G experimentation platform and the DSIT-funded REASON open 6G networks project.",
+   "sources": [
+    "https://bristol.ac.uk/smart",
+    "https://reason-open-networks.ac.uk/?p=140"
+   ]
+  },
+  {
+   "id": "sheffield",
+   "name": "University of Sheffield (National 6G Radio Systems Facility)",
+   "short": "Sheffield",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Department of Electronic and Electrical Engineering, Sheffield",
+   "lat": 53.3812,
+   "lng": -1.48,
+   "precision": "Campus",
+   "description": "Hosts the UKRI National 6G Radio Systems Facility, the UK's first national 6G research facility (launched July 2024, EPSRC-funded, directed by Professor Timothy O'Farrell). Supports research on waveforms, RF and signal processing up to sub-THz, built on Keysight equipment.",
+   "sources": [
+    "https://www.sheffield.ac.uk/eee/news/sheffield-launches-uks-first-national-6g-research-facility-0",
+    "https://madesmarter.uk/media/ajmehvt4/2024-07-01-n6grsf-tim-final-public.pdf"
+   ]
+  },
+  {
+   "id": "npl",
+   "name": "National Physical Laboratory (NPL)",
+   "short": "NPL",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hampton Road, Teddington",
+   "lat": 51.4253,
+   "lng": -0.342,
+   "precision": "Campus",
+   "description": "The UK's national measurement institute. Operates the UK Telecoms Lab in Solihull on behalf of DSIT.",
+   "sources": [
+    "https://npl.co.uk/uk-telecoms-lab"
+   ]
+  },
+  {
+   "id": "uktl",
+   "name": "UK Telecoms Lab (UKTL)",
+   "short": "UKTL",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Solihull, West Midlands",
+   "lat": 52.4128,
+   "lng": -1.778,
+   "precision": "City",
+   "description": "National telecoms security lab established by DSIT (£80m) and operated by NPL. Operators and vendors test the security, resilience and interoperability of telecoms equipment before UK deployment.",
+   "sources": [
+    "https://npl.co.uk/uk-telecoms-lab",
+    "https://npl.co.uk/news/uk-telecoms-lab"
+   ]
+  },
+  {
+   "id": "digital-catapult",
+   "name": "Digital Catapult",
+   "short": "Digital Catapult",
+   "category": "Economic development & place",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "101 Euston Road, London",
+   "lat": 51.5267,
+   "lng": -0.1323,
+   "precision": "Street address",
+   "description": "UK deep tech innovation agency with vendor-neutral 5G and Open RAN testbeds. One of the first sites connected to JOINER (2025), adding its network orchestration system. REASON partner working on 6G architecture.",
+   "sources": [
+    "https://www.digicatapult.org.uk/about/press-releases/post/digital-catapult-becomes-one-of-the-first-sites-to-join-national-6g-research-platform/",
+    "https://www.digicatapult.org.uk/expertise/programmes/programme/reason/"
+   ]
+  },
+  {
+   "id": "bt",
+   "name": "BT Group",
+   "short": "BT",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Adastral Park, Martlesham Heath, Ipswich",
+   "lat": 52.0603,
+   "lng": 1.2825,
+   "precision": "Campus",
+   "description": "UK operator. Its Adastral Park research campus hosts 6G, upper 6 GHz spectrum and quantum-secure communications work. Partner in the REASON and TUDOR 6G projects; joined Nokia, NVIDIA and Qualcomm 6G initiatives at MWC 2026.",
+   "sources": [
+    "https://www.bt.com/content/dam/bt-plc/assets/documents/about-bt/tech-fellowship/use-of-u6-ghz-band-for-mobile.pdf",
+    "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners",
+    "https://www.telcotitans.com/btwatch/bt-gets-in-on-6g-action-with-vendor-triumvirate/10234.article"
+   ]
+  },
+  {
+   "id": "harald-haas",
+   "name": "Harald Haas",
+   "short": "Harald Haas",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Van Eck Professor of Engineering, University of Cambridge; Director, TITAN Hub",
+   "org": "cambridge",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Pioneer of LiFi (optical wireless communications). Leads the TITAN 'network of networks' hub and the Federated Telecoms Hubs' push to connect academic research with industry.",
+   "sources": [
+    "https://www.weforum.org/stories/authors/harald-haas/",
+    "https://www.telecomtv.com/content/access-evolution/how-harald-haas-is-matching-industry-problems-with-academic-solutions-55978/"
+   ]
+  },
+  {
+   "id": "dimitra-simeonidou",
+   "name": "Dimitra Simeonidou",
+   "short": "Dimitra Simeonidou",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Smart Internet Lab and Founding Director, Bristol Digital Futures Institute, University of Bristol",
+   "org": "bristol",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads the JOINER national 6G experimentation platform and the DSIT REASON open 6G networks project. Specialist in optical and programmable networks. FREng.",
+   "sources": [
+    "https://www.bristol.ac.uk/people/person/Dimitra-Simeonidou-07b8a105-17ca-485c-b146-66b681606a3d/",
+    "https://openuk.uk/profiles/dimitra-simeonidou/"
+   ]
+  },
+  {
+   "id": "timothy-ofarrell",
+   "name": "Timothy O’Farrell",
+   "short": "Timothy O’Farrell",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Wireless Communication, University of Sheffield; Director, National 6G Radio Systems Facility",
+   "org": "sheffield",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Royal Academy of Engineering Research Chair developing waveforms for 6G's wide frequency range. FREng.",
+   "sources": [
+    "https://www.sheffield.ac.uk/eee/news/sheffield-launches-uks-first-national-6g-research-facility-0",
+    "https://sheffield.ac.uk/news/university-sheffield-engineering-professor-set-drive-development-6g-networks"
+   ]
+  },
+  {
+   "id": "yue-wang",
+   "name": "Yue Wang",
+   "short": "Yue Wang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of 6G and Advanced Network Research, Samsung R&D Institute UK",
+   "org": "samsung-uk",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Samsung UK's research on 5G and 6G system architecture, AI-native networks and O-RAN. Chairs UKTIN's AI expert working group.",
+   "sources": [
+    "https://www.mwcbarcelona.com/agenda/speakers/10250-yue-wang",
+    "https://datacentreworld.com/speakers/yue-wang"
+   ]
+  },
+  {
+   "id": "julie-mccann",
+   "name": "Julie McCann",
+   "short": "Julie McCann",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Department of Computing, Imperial College London; Lead, CHEDDAR Hub",
+   "org": "imperial",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads the CHEDDAR telecoms hub on cloud and distributed computing for 6G.",
+   "sources": [
+    "https://www.imperial.ac.uk/news/251839/extra-funding-imperial-6g-communications/"
+   ]
+  },
+  {
+   "id": "dominic-obrien",
+   "name": "Dominic O’Brien",
+   "short": "Dominic O’Brien",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Engineering Science, University of Oxford; Lead, HASC Hub",
+   "org": "oxford",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads the HASC hub on combining wired and wireless spectrum.",
+   "sources": [
+    "https://eng.ox.ac.uk/news/new-hub-receives-2-million-to-develop-the-communications-technologies-of-tomorrow"
    ]
   }
  ],
@@ -19054,6 +19451,230 @@
    "type": "Research together",
    "label": "6G-FISRE Finnish-Swedish 6G resilience programme",
    "source": "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
+  },
+  {
+   "from": "harald-haas",
+   "to": "cambridge",
+   "type": "Role",
+   "label": "Van Eck Professor of Engineering, University of Cambridge; Director, TITAN Hub",
+   "source": "https://www.weforum.org/stories/authors/harald-haas/"
+  },
+  {
+   "from": "dimitra-simeonidou",
+   "to": "bristol",
+   "type": "Role",
+   "label": "Director, Smart Internet Lab and Founding Director, Bristol Digital Futures Institute, University of Bristol",
+   "source": "https://www.bristol.ac.uk/people/person/Dimitra-Simeonidou-07b8a105-17ca-485c-b146-66b681606a3d/"
+  },
+  {
+   "from": "timothy-ofarrell",
+   "to": "sheffield",
+   "type": "Role",
+   "label": "Professor of Wireless Communication, University of Sheffield; Director, National 6G Radio Systems Facility",
+   "source": "https://www.sheffield.ac.uk/eee/news/sheffield-launches-uks-first-national-6g-research-facility-0"
+  },
+  {
+   "from": "yue-wang",
+   "to": "samsung-uk",
+   "type": "Role",
+   "label": "Head of 6G and Advanced Network Research, Samsung R&D Institute UK",
+   "source": "https://www.mwcbarcelona.com/agenda/speakers/10250-yue-wang"
+  },
+  {
+   "from": "julie-mccann",
+   "to": "imperial",
+   "type": "Role",
+   "label": "Professor, Department of Computing, Imperial College London; Lead, CHEDDAR Hub",
+   "source": "https://www.imperial.ac.uk/news/251839/extra-funding-imperial-6g-communications/"
+  },
+  {
+   "from": "dominic-obrien",
+   "to": "oxford",
+   "type": "Role",
+   "label": "Professor of Engineering Science, University of Oxford; Lead, HASC Hub",
+   "source": "https://eng.ox.ac.uk/news/new-hub-receives-2-million-to-develop-the-communications-technologies-of-tomorrow"
+  },
+  {
+   "from": "epsrc",
+   "to": "fth",
+   "type": "Funding",
+   "label": "Future Connectivity Hubs Evolution Programme (with DSIT)",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "dsit",
+   "to": "fth",
+   "type": "Funding",
+   "label": "Partner funder, Future Connectivity Hubs Evolution Programme",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "titan",
+   "to": "fth",
+   "type": "Membership",
+   "label": "Federated Telecoms Hubs member",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "cheddar",
+   "to": "fth",
+   "type": "Membership",
+   "label": "Federated Telecoms Hubs member",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "hasc",
+   "to": "fth",
+   "type": "Membership",
+   "label": "Federated Telecoms Hubs member",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "joiner",
+   "to": "fth",
+   "type": "Membership",
+   "label": "Federated Telecoms Hubs member",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "epsrc",
+   "to": "titan",
+   "type": "Funding",
+   "label": "EPSRC telecoms hub funding",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "epsrc",
+   "to": "cheddar",
+   "type": "Funding",
+   "label": "EPSRC telecoms hub funding",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "epsrc",
+   "to": "hasc",
+   "type": "Funding",
+   "label": "EPSRC telecoms hub funding",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "epsrc",
+   "to": "joiner",
+   "type": "Funding",
+   "label": "EPSRC telecoms hub funding",
+   "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
+  },
+  {
+   "from": "cambridge",
+   "to": "titan",
+   "type": "Partnership / project",
+   "label": "Leads TITAN",
+   "source": "https://www.telecomtv.com/content/access-evolution/how-harald-haas-is-matching-industry-problems-with-academic-solutions-55978/"
+  },
+  {
+   "from": "imperial",
+   "to": "cheddar",
+   "type": "Partnership / project",
+   "label": "Leads CHEDDAR",
+   "source": "https://www.imperial.ac.uk/news/251839/extra-funding-imperial-6g-communications/"
+  },
+  {
+   "from": "oxford",
+   "to": "hasc",
+   "type": "Partnership / project",
+   "label": "Leads HASC",
+   "source": "https://eng.ox.ac.uk/news/new-hub-receives-2-million-to-develop-the-communications-technologies-of-tomorrow"
+  },
+  {
+   "from": "bristol",
+   "to": "joiner",
+   "type": "Partnership / project",
+   "label": "Leads JOINER",
+   "source": "https://bristol.ac.uk/engineering/research/smart/projects/joiner"
+  },
+  {
+   "from": "bristol",
+   "to": "reason",
+   "type": "Partnership / project",
+   "label": "Leads REASON",
+   "source": "https://reason-open-networks.ac.uk/?p=140"
+  },
+  {
+   "from": "dsit",
+   "to": "reason",
+   "type": "Funding",
+   "label": "About £12m, Future Open Networks Research Challenge",
+   "source": "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners"
+  },
+  {
+   "from": "dsit",
+   "to": "tudor",
+   "type": "Funding",
+   "label": "About £12m, Future Open Networks Research Challenge",
+   "source": "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners"
+  },
+  {
+   "from": "bt",
+   "to": "reason",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://reason-open-networks.ac.uk/?p=140"
+  },
+  {
+   "from": "digital-catapult",
+   "to": "reason",
+   "type": "Partnership / project",
+   "label": "Consortium member (architecture)",
+   "source": "https://reason-open-networks.ac.uk/?p=140"
+  },
+  {
+   "from": "bt",
+   "to": "tudor",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners"
+  },
+  {
+   "from": "bae",
+   "to": "tudor",
+   "type": "Partnership / project",
+   "label": "Consortium member",
+   "source": "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners"
+  },
+  {
+   "from": "digital-catapult",
+   "to": "joiner",
+   "type": "Membership",
+   "label": "Connected site (2025)",
+   "source": "https://www.digicatapult.org.uk/about/press-releases/post/digital-catapult-becomes-one-of-the-first-sites-to-join-national-6g-research-platform/"
+  },
+  {
+   "from": "epsrc",
+   "to": "sheffield",
+   "type": "Funding",
+   "label": "Funds the National 6G Radio Systems Facility",
+   "source": "https://www.sheffield.ac.uk/eee/news/sheffield-launches-uks-first-national-6g-research-facility-0"
+  },
+  {
+   "from": "keysight",
+   "to": "sheffield",
+   "type": "Partnership / project",
+   "label": "Keysight equipment underpins the National 6G Radio Systems Facility",
+   "source": "https://www.sheffield.ac.uk/eee/news/sheffield-launches-uks-first-national-6g-research-facility-0"
+  },
+  {
+   "from": "dsit",
+   "to": "uktl",
+   "type": "Funding",
+   "label": "£80m",
+   "source": "https://npl.co.uk/uk-telecoms-lab"
+  },
+  {
+   "from": "npl",
+   "to": "uktl",
+   "type": "Partnership / project",
+   "label": "Operates UKTL for DSIT",
+   "source": "https://npl.co.uk/uk-telecoms-lab"
   }
  ]
 }
