@@ -15304,6 +15304,525 @@
     "https://www.jacobs.com/node/4234",
     "https://www.mediabistro.com/jobs/1913038835-wireless-telecommunications-design-lead"
    ]
+  },
+  {
+   "id": "nstc",
+   "name": "National Science and Technology Council (NSTC, Taiwan)",
+   "short": "NSTC",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taipei, Taiwan",
+   "lat": 25.0237,
+   "lng": 121.5353,
+   "precision": "City",
+   "description": "Taiwan's cabinet-level science council. Leads the six-year Next-Generation Communications Technology Development Program (2025 to 2030).",
+   "sources": [
+    "https://focustaiwan.tw:443/sci-tech/202507100016",
+    "https://www.communicationstoday.co.in/?p=361364"
+   ]
+  },
+  {
+   "id": "tw-nextgen-program",
+   "name": "Next-Generation Communications Technology Development Program (Taiwan)",
+   "short": "Taiwan NextGen Comms Program",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taipei, Taiwan",
+   "lat": 25.033,
+   "lng": 121.5654,
+   "precision": "City",
+   "description": "Taiwan's national 6G and satellite programme, approved by the Cabinet in July 2025: NT$27 billion over six years (2025 to 2030), led by NSTC. Aims for commercial 6G by 2030, satellite ground equipment, experimental and 6G simulation networks, and at least three satellite service providers in Taiwan by 2030.",
+   "sources": [
+    "https://focustaiwan.tw:443/sci-tech/202507100016",
+    "https://digi.pdis.tw/news/nt27-billion-six-year-plan-to-boost-next-gen-communications/",
+    "https://ocacnews.net/article/402866",
+    "https://ngco.nstc.gov.tw/en/7D7D377973670C0B"
+   ]
+  },
+  {
+   "id": "itri",
+   "name": "Industrial Technology Research Institute (ITRI)",
+   "short": "ITRI",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Chutung, Hsinchu, Taiwan",
+   "lat": 24.7766,
+   "lng": 121.045,
+   "precision": "Campus",
+   "description": "Taiwan's main applied research institute. Its Information and Communications Research Laboratories (ICL) run the 6G-FORMOSA initiative. Signed a 6G MoU with the EU's 6G-SANDBOX (2023) and MoUs with 6G-SENSES and TNO (2025) on sensing and RIS. Co-hosted a UK-Taiwan 6G workshop with the UK telecoms hubs (2025).",
+   "sources": [
+    "https://everythingrf.com/news/details/17495-industrial-technology-research-institute-and-6g-sandbox-join-forces-to-advance-6g-innovations",
+    "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein",
+    "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
+   ]
+  },
+  {
+   "id": "6g-formosa",
+   "name": "6G-FORMOSA (ITRI)",
+   "short": "6G-FORMOSA",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "ITRI Hsinchu campus, Taiwan",
+   "lat": 24.777,
+   "lng": 121.044,
+   "precision": "Campus",
+   "description": "ITRI's 6G initiative covering AI-RAN, chip development and end-to-end testbeds, with a 6G trial network at its Hsinchu campus as a hub for international collaboration. Work spans non-terrestrial networks, integrated sensing and communication, and RIS.",
+   "sources": [
+    "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein",
+    "https://www.eucnc.eu/?p=1135",
+    "https://6g-formosa.tw/About/itri"
+   ]
+  },
+  {
+   "id": "chunghwa",
+   "name": "Chunghwa Telecom",
+   "short": "Chunghwa Telecom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "21-3 Xinyi Road Section 1, Taipei",
+   "lat": 25.0376,
+   "lng": 121.5198,
+   "precision": "Street address",
+   "description": "Taiwan's largest operator. Runs a multi-orbit satellite strategy (ST-2 GEO, OneWeb LEO, SES MEO and a dedicated Astranis MicroGEO satellite) and was first in Taiwan licensed for commercial OneWeb LEO services. Its chairman heads the national 6G and satellite alliance.",
+   "sources": [
+    "https://www.astranis.com/blog/chunghwa-telecom-and-astranis-sign-strategic-agreement-to-launch-taiwans-first-dedicated-satellite",
+    "https://www.taiwannews.com.tw/en/news/6126813",
+    "https://focustaiwan.tw/sci-tech/202512020016"
+   ]
+  },
+  {
+   "id": "tw-nextgen-alliance",
+   "name": "Taiwan 6G and satellite communications alliance",
+   "short": "TW 6G alliance",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taipei, Taiwan",
+   "lat": 25.0478,
+   "lng": 121.5319,
+   "precision": "City",
+   "description": "Alliance of more than 50 Taiwanese companies formed in December 2025 under the national NT$27 billion plan, announced by the Taipei Computer Association. Headed by Chunghwa Telecom's chairman. Prioritises locally developed satellite equipment and user terminals.",
+   "sources": [
+    "https://focustaiwan.tw/sci-tech/202512020016"
+   ]
+  },
+  {
+   "id": "nycu",
+   "name": "National Yang Ming Chiao Tung University (NYCU)",
+   "short": "NYCU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hsinchu, Taiwan",
+   "lat": 24.7869,
+   "lng": 120.9968,
+   "precision": "Campus",
+   "description": "Hsinchu university. Vice President Ta-Sung Lee's team works on wide-area 3D networking for B5G and 6G. Home of free5GC, an open-source 5G core extended to 6G.",
+   "sources": [
+    "https://apps.digitimes.com/news/a20241014PD207.html",
+    "https://digitimes.com/news/a20240920PD220.html"
+   ]
+  },
+  {
+   "id": "ntu-taiwan",
+   "name": "National Taiwan University (NTU)",
+   "short": "NTU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taipei, Taiwan",
+   "lat": 25.0174,
+   "lng": 121.5405,
+   "precision": "Campus",
+   "description": "Leading Taiwanese university. Runs national 6G projects including key technologies for next-generation communications and sub-THz beamforming. Executive Vice President Wanjiun Liao's team works on user-experience-driven 6G for immersive XR.",
+   "sources": [
+    "https://apps.digitimes.com/news/a20241014PD207.html"
+   ]
+  },
+  {
+   "id": "ntust",
+   "name": "National Taiwan University of Science and Technology (Taiwan Tech)",
+   "short": "NTUST",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taipei, Taiwan",
+   "lat": 25.0136,
+   "lng": 121.5415,
+   "precision": "Campus",
+   "description": "Its Wireless Communication and Electromagnetic Compatibility Research Center works with industry on 6G testing, and with Chunghwa Telecom Laboratories on antenna validation. Part of ITRI's 6G delegation to Europe (2025).",
+   "sources": [
+    "https://www.ntust.edu.tw/p/16-1000-149703.php?Lang=en",
+    "https://www.gloria-e.ntust.edu.tw/news_detail/216.htm",
+    "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+   ]
+  },
+  {
+   "id": "nthu",
+   "name": "National Tsing Hua University (NTHU)",
+   "short": "NTHU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hsinchu, Taiwan",
+   "lat": 24.7962,
+   "lng": 120.9967,
+   "precision": "Campus",
+   "description": "Hsinchu university. Part of ITRI's 6G delegation to Europe (2025).",
+   "sources": [
+    "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+   ]
+  },
+  {
+   "id": "ccu",
+   "name": "National Chung Cheng University (CCU)",
+   "short": "CCU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Chiayi, Taiwan",
+   "lat": 23.5626,
+   "lng": 120.4751,
+   "precision": "Campus",
+   "description": "Chiayi university. Part of ITRI's 6G delegation to Europe (2025).",
+   "sources": [
+    "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+   ]
+  },
+  {
+   "id": "moda",
+   "name": "Ministry of Digital Affairs (MODA, Taiwan)",
+   "short": "MODA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taipei, Taiwan",
+   "lat": 25.0392,
+   "lng": 121.565,
+   "precision": "City",
+   "description": "Taiwan's spectrum planner. Preparing a 6G spectrum plan by the end of 2026. The 700, 900 and 1800 MHz licences expire at the end of December 2030 and will be re-auctioned for 6G.",
+   "sources": [
+    "https://www.taipeitimes.com/News/front/archives/2026/05/17/2003857468",
+    "https://ec.ltn.com.tw/article/breakingnews/5437669",
+    "https://www.taiwannews.com.tw/en/news/6362055"
+   ]
+  },
+  {
+   "id": "tsmc",
+   "name": "TSMC",
+   "short": "TSMC",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hsinchu Science Park, Taiwan",
+   "lat": 24.774,
+   "lng": 121.0103,
+   "precision": "Campus",
+   "description": "World's largest contract chipmaker and anchor of Taiwan's semiconductor supply chain.",
+   "sources": [
+    "https://www.roc-taiwan.org/uploads/sites/86/2023/08/20230824-TAIWAN-AND-THE-GLOBAL-SEMICONDUCTOR-SUPPLY-CHAIN.pdf"
+   ]
+  },
+  {
+   "id": "compal",
+   "name": "Compal Electronics",
+   "short": "Compal",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taipei, Taiwan",
+   "lat": 25.08,
+   "lng": 121.575,
+   "precision": "City",
+   "description": "Taiwanese electronics maker in the Open RAN and private 5G market. Supplied white-box O-RAN base stations to NYCU's open-source core team. Part of ITRI's 6G delegation to Europe (2025).",
+   "sources": [
+    "https://www.lightreading.com/asia/taiwan-tech-firms-chase-5g-private-network-sales/d/d-id/772639",
+    "https://digitimes.com/news/a20240920PD220.html",
+    "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
+   ]
+  },
+  {
+   "id": "pegatron",
+   "name": "Pegatron",
+   "short": "Pegatron",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Beitou, Taipei, Taiwan",
+   "lat": 25.1323,
+   "lng": 121.4996,
+   "precision": "City",
+   "description": "Taiwanese contract manufacturer moving into 5G and Open RAN base stations through its Pegatron 5G unit.",
+   "sources": [
+    "https://www.lightreading.com/asia/taiwan-tech-firms-chase-5g-private-network-sales/d/d-id/772639",
+    "https://apps.digitimes.com/tag/o-ran/00111449.html"
+   ]
+  },
+  {
+   "id": "qct",
+   "name": "Quanta Cloud Technology (QCT)",
+   "short": "QCT",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taoyuan, Taiwan",
+   "lat": 25.059,
+   "lng": 121.3653,
+   "precision": "City",
+   "description": "Quanta Computer's cloud unit. Supplies 5G RAN and Taiwan's domestic 5G standalone core. Verified multi-vendor O-RAN with Chunghwa Telecom in a national project (2022).",
+   "sources": [
+    "https://www.qct.io/Press-Releases/index/news/Solution-news/qct-verifies-5g-ran-and-core-networks-with-key-government-and-industry-partners/2/0"
+   ]
+  },
+  {
+   "id": "alpha-networks",
+   "name": "Alpha Networks",
+   "short": "Alpha Networks",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hsinchu, Taiwan",
+   "lat": 24.78,
+   "lng": 121.015,
+   "precision": "City",
+   "description": "Taiwanese networking equipment maker targeting private 5G and Open RAN through its Transnet subsidiary.",
+   "sources": [
+    "https://www.digitimes.com/news/a20200810VL200.html?mod=0"
+   ]
+  },
+  {
+   "id": "tmytek",
+   "name": "TMYTEK (TMY Technology)",
+   "short": "TMYTEK",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "No. 3 Yuandong Road, Banqiao, New Taipei City",
+   "lat": 25.017,
+   "lng": 121.467,
+   "precision": "Street address",
+   "description": "Taiwanese mmWave company making beamformers, antenna-in-package modules, OTA test systems and RIS for 5G and 6G research. Partnered with Metanoia on FR2 base stations (2026).",
+   "sources": [
+    "https://cnrood.com/brand/tmytek/",
+    "https://en.prnasia.com/releases/global/tmytek-and-metanoia-announce-strategic-collaboration-on-5g-fr2-gnb-solutions-at-mwc-barcelona-523147.shtml",
+    "https://www.eucnc.eu/?p=1135"
+   ]
+  },
+  {
+   "id": "auden",
+   "name": "Auden Techno",
+   "short": "Auden",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taiwan",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Taiwanese RF and antenna company (TWSE 3138). Makes satellite user terminals, O-RAN high-power radio units and a small RIS for FR2 and FR3.",
+   "sources": [
+    "https://technode.global/prnasia/auden-techno-corp-unveils-6g-ntn-o-ran-innovations-at-mwc-2025/",
+    "https://cens.com/cens/html/en/news/news_inner_59118.html"
+   ]
+  },
+  {
+   "id": "metanoia",
+   "name": "Metanoia Communications",
+   "short": "Metanoia",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taiwan",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Taiwanese chip company making software-defined radio chipsets for base stations, including the ALBIZIA FR2 platform.",
+   "sources": [
+    "https://en.prnasia.com/releases/global/tmytek-and-metanoia-announce-strategic-collaboration-on-5g-fr2-gnb-solutions-at-mwc-barcelona-523147.shtml"
+   ]
+  },
+  {
+   "id": "yttek",
+   "name": "YTTEK Technology",
+   "short": "YTTEK",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Taiwan",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Taiwanese company developing liquid-crystal reconfigurable intelligent surfaces (LC-RIS) for low-power 6G.",
+   "sources": [
+    "https://cens.com/cens/html/en/news/news_inner_59118.html"
+   ]
+  },
+  {
+   "id": "pang-an-ting",
+   "name": "Pang-An Ting",
+   "short": "Pang-An Ting",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President, ITRI; General Director, Information and Communications Research Laboratories",
+   "org": "itri",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads ITRI's communications research, including 6G-FORMOSA and its links with Europe's 6G-SANDBOX.",
+   "sources": [
+    "https://apps.digitimes.com/news/a20250905PD207.html",
+    "https://www.microwavejournal.com/articles/41109-keysight-unites-europe-and-asia-for-6g-research"
+   ]
+  },
+  {
+   "id": "chien-chih-cheng",
+   "name": "Chien Chih-cheng (Alex Chien)",
+   "short": "Chien Chih-cheng (Alex Chien)",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chairman, Chunghwa Telecom",
+   "org": "chunghwa",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Heads Taiwan's 50-plus-company 6G and satellite alliance.",
+   "sources": [
+    "https://focustaiwan.tw/sci-tech/202512020016",
+    "https://www.astranis.com/blog/chunghwa-telecom-and-astranis-sign-strategic-agreement-to-launch-taiwans-first-dedicated-satellite"
+   ]
+  },
+  {
+   "id": "lin-faa-jeng",
+   "name": "Lin Faa-jeng",
+   "short": "Lin Faa-jeng",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Deputy Minister, NSTC",
+   "org": "nstc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Speaks for the national 6G and satellite programme.",
+   "sources": [
+    "https://ocacnews.net/article/402866"
+   ]
+  },
+  {
+   "id": "ta-sung-lee",
+   "name": "Ta-Sung Lee",
+   "short": "Ta-Sung Lee",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President, NYCU",
+   "org": "nycu",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads work on high-speed, wide-area 3D networking for B5G and 6G.",
+   "sources": [
+    "https://apps.digitimes.com/news/a20241014PD207.html",
+    "https://sites.google.com/g.ntu.edu.tw/2025-6g-workshop/workshop-program/demonstration"
+   ]
+  },
+  {
+   "id": "wanjiun-liao",
+   "name": "Wanjiun Liao",
+   "short": "Wanjiun Liao",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Vice President and Chair Professor, NTU",
+   "org": "ntu-taiwan",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads user-experience-driven 6G network research for immersive XR.",
+   "sources": [
+    "https://apps.digitimes.com/news/a20241014PD207.html",
+    "https://www.ee.ntu.edu.tw/bio2.php?id=66"
+   ]
+  },
+  {
+   "id": "hung-yu-wei",
+   "name": "Hung-Yu Wei",
+   "short": "Hung-Yu Wei",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Department of Electrical Engineering, NTU",
+   "org": "ntu-taiwan",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Researches edge computing, fog computing and machine learning for networks.",
+   "sources": [
+    "https://homepage.ntu.edu.tw/~ntuilo/News_Content_n_73284_s_98942.html"
+   ]
+  },
+  {
+   "id": "chang-fa-yang",
+   "name": "Chang-Fa Yang",
+   "short": "Chang-Fa Yang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Professor and Vice President for Industry-Academia Collaboration, Taiwan Tech; Director, Wireless Communication and EMC Research Center",
+   "org": "ntust",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Taiwan Tech's 6G testing work with industry.",
+   "sources": [
+    "https://www.ntust.edu.tw/p/16-1000-149703.php?Lang=en"
+   ]
+  },
+  {
+   "id": "tseng-wen-fang",
+   "name": "Tseng Wen-fang",
+   "short": "Tseng Wen-fang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Department of Resource Management, MODA",
+   "org": "moda",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Taiwan's 6G spectrum planning.",
+   "sources": [
+    "https://www.taiwannews.com.tw/en/news/6362055",
+    "https://ec.ltn.com.tw/article/breakingnews/5437669"
+   ]
   }
  ],
  "edges": [
@@ -23832,6 +24351,216 @@
    "type": "Partnership / project",
    "label": "Start-up incubator",
    "source": "https://www.munich-startup.de/en/116070/tum-and-tu-dresden-are-developing-6g-mobile-network-generation/"
+  },
+  {
+   "from": "pang-an-ting",
+   "to": "itri",
+   "type": "Role",
+   "label": "Vice President, ITRI; General Director, Information and Communications Research Laboratories",
+   "source": "https://apps.digitimes.com/news/a20250905PD207.html"
+  },
+  {
+   "from": "chien-chih-cheng",
+   "to": "chunghwa",
+   "type": "Role",
+   "label": "Chairman, Chunghwa Telecom",
+   "source": "https://focustaiwan.tw/sci-tech/202512020016"
+  },
+  {
+   "from": "lin-faa-jeng",
+   "to": "nstc",
+   "type": "Role",
+   "label": "Deputy Minister, NSTC",
+   "source": "https://ocacnews.net/article/402866"
+  },
+  {
+   "from": "ta-sung-lee",
+   "to": "nycu",
+   "type": "Role",
+   "label": "Vice President, NYCU",
+   "source": "https://apps.digitimes.com/news/a20241014PD207.html"
+  },
+  {
+   "from": "wanjiun-liao",
+   "to": "ntu-taiwan",
+   "type": "Role",
+   "label": "Executive Vice President and Chair Professor, NTU",
+   "source": "https://apps.digitimes.com/news/a20241014PD207.html"
+  },
+  {
+   "from": "hung-yu-wei",
+   "to": "ntu-taiwan",
+   "type": "Role",
+   "label": "Professor, Department of Electrical Engineering, NTU",
+   "source": "https://homepage.ntu.edu.tw/~ntuilo/News_Content_n_73284_s_98942.html"
+  },
+  {
+   "from": "chang-fa-yang",
+   "to": "ntust",
+   "type": "Role",
+   "label": "Distinguished Professor and Vice President for Industry-Academia Collaboration, Taiwan Tech; Director, Wireless Communication and EMC Research Center",
+   "source": "https://www.ntust.edu.tw/p/16-1000-149703.php?Lang=en"
+  },
+  {
+   "from": "tseng-wen-fang",
+   "to": "moda",
+   "type": "Role",
+   "label": "Director, Department of Resource Management, MODA",
+   "source": "https://www.taiwannews.com.tw/en/news/6362055"
+  },
+  {
+   "from": "nstc",
+   "to": "tw-nextgen-program",
+   "type": "Partnership / project",
+   "label": "Leads",
+   "source": "https://focustaiwan.tw:443/sci-tech/202507100016"
+  },
+  {
+   "from": "tw-nextgen-program",
+   "to": "tw-nextgen-alliance",
+   "type": "Partnership / project",
+   "label": "Alliance formed under the plan",
+   "source": "https://focustaiwan.tw/sci-tech/202512020016"
+  },
+  {
+   "from": "chunghwa",
+   "to": "tw-nextgen-alliance",
+   "type": "Partnership / project",
+   "label": "Chairman heads the alliance",
+   "source": "https://focustaiwan.tw/sci-tech/202512020016"
+  },
+  {
+   "from": "chien-chih-cheng",
+   "to": "tw-nextgen-alliance",
+   "type": "Role",
+   "label": "Head",
+   "source": "https://focustaiwan.tw/sci-tech/202512020016"
+  },
+  {
+   "from": "itri",
+   "to": "6g-formosa",
+   "type": "Partnership / project",
+   "label": "Runs 6G-FORMOSA",
+   "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+  },
+  {
+   "from": "itri",
+   "to": "6g-sandbox",
+   "type": "Partnership / project",
+   "label": "6G MoU (2023)",
+   "source": "https://everythingrf.com/news/details/17495-industrial-technology-research-institute-and-6g-sandbox-join-forces-to-advance-6g-innovations"
+  },
+  {
+   "from": "itri",
+   "to": "tno",
+   "type": "Partnership / project",
+   "label": "MoU on ISAC and RIS verification (2025)",
+   "source": "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
+  },
+  {
+   "from": "itri",
+   "to": "joiner",
+   "type": "Partnership / project",
+   "label": "UK-Taiwan 6G workshop (Cambridge, 2025)",
+   "source": "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
+  },
+  {
+   "from": "mediatek",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
+  },
+  {
+   "from": "compal",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
+  },
+  {
+   "from": "tmytek",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+  },
+  {
+   "from": "auden",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+  },
+  {
+   "from": "metanoia",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+  },
+  {
+   "from": "yttek",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+  },
+  {
+   "from": "ntust",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+  },
+  {
+   "from": "nthu",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+  },
+  {
+   "from": "ccu",
+   "to": "itri",
+   "type": "Partnership / project",
+   "label": "ITRI-led 6G delegation (2025)",
+   "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
+  },
+  {
+   "from": "tmytek",
+   "to": "metanoia",
+   "type": "Partnership / project",
+   "label": "FR2 base station collaboration (2026)",
+   "source": "https://en.prnasia.com/releases/global/tmytek-and-metanoia-announce-strategic-collaboration-on-5g-fr2-gnb-solutions-at-mwc-barcelona-523147.shtml"
+  },
+  {
+   "from": "chunghwa",
+   "to": "ntust",
+   "type": "Research together",
+   "label": "Near-field OTA antenna validation",
+   "source": "https://www.gloria-e.ntust.edu.tw/news_detail/216.htm"
+  },
+  {
+   "from": "compal",
+   "to": "nycu",
+   "type": "Partnership / project",
+   "label": "White-box O-RAN base stations for open-source core work",
+   "source": "https://digitimes.com/news/a20240920PD220.html"
+  },
+  {
+   "from": "qct",
+   "to": "chunghwa",
+   "type": "Partnership / project",
+   "label": "5G Open Network verification project (2022)",
+   "source": "https://www.qct.io/Press-Releases/index/news/Solution-news/qct-verifies-5g-ran-and-core-networks-with-key-government-and-industry-partners/2/0"
+  },
+  {
+   "from": "pegatron",
+   "to": "keysight",
+   "type": "Partnership / project",
+   "label": "O-RAN 5G base station",
+   "source": "https://www.lightreading.com/asia/taiwan-tech-firms-chase-5g-private-network-sales/d/d-id/772639"
   }
  ]
 }
