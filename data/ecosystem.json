@@ -13190,6 +13190,61 @@
    "sources": [
     "https://www.fierce-network.com/wireless/spacex-scoops-echostar-spectrum-17b"
    ]
+  },
+  {
+   "id": "olemiss-law",
+   "name": "University of Mississippi School of Law (Center for Air and Space Law)",
+   "short": "Ole Miss Law",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "University of Mississippi, Oxford, MS",
+   "lat": 34.3655,
+   "lng": -89.5378,
+   "precision": "Campus",
+   "description": "Ole Miss law school. Its Center for Air and Space Law runs an LL.M. in Air and Space Law and publishes on international space treaties and commercial space activity.",
+   "sources": [
+    "https://olemiss.edu/departments/law/center-air-space-law",
+    "https://law.olemiss.edu/academics-programs/llm/llm-faculty"
+   ]
+  },
+  {
+   "id": "unl-law",
+   "name": "University of Nebraska College of Law (Space, Cyber and Telecommunications Law)",
+   "short": "Nebraska Law",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "College of Law, Lincoln, NE",
+   "lat": 40.8296,
+   "lng": -96.683,
+   "precision": "Campus",
+   "description": "Nebraska Law runs one of the main US space, cyber and telecommunications law programmes, with an advisory board including satellite industry figures.",
+   "sources": [
+    "https://law.unl.edu/taxonomy/term/785",
+    "https://law.unl.edu/node/818/"
+   ]
+  },
+  {
+   "id": "ruth-pritchard-kelly",
+   "name": "Ruth Pritchard-Kelly",
+   "short": "Ruth Pritchard-Kelly",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Adjunct Professor, Center for Air and Space Law, University of Mississippi; Principal, RPK Advisors",
+   "org": "olemiss-law",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Satellite regulatory policy expert with over 30 years' experience. Former Senior Advisor for Regulatory and Space Policy at OneWeb (now part of Eutelsat). Earlier worked at O3b (now SES) and American Mobile Satellite Corporation. Teaches space and telecoms law at Ole Miss and is linked to Nebraska's Space, Cyber and Telecommunications Law programme.",
+   "sources": [
+    "https://law.olemiss.edu/faculty-directory/ruth-pritchard-kelly",
+    "https://swfound.org/about-us/our-advisory-committee/ms-ruth-pritchard-kelly",
+    "https://law.unl.edu/node/818/"
+   ]
   }
  ],
  "edges": [
@@ -20703,6 +20758,20 @@
    "type": "Partnership / project",
    "label": "Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
+  },
+  {
+   "from": "ruth-pritchard-kelly",
+   "to": "olemiss-law",
+   "type": "Role",
+   "label": "Adjunct Professor, Center for Air and Space Law",
+   "source": "https://law.olemiss.edu/faculty-directory/ruth-pritchard-kelly"
+  },
+  {
+   "from": "ruth-pritchard-kelly",
+   "to": "unl-law",
+   "type": "Role",
+   "label": "Space, Cyber and Telecommunications Law programme (advisory board; teaching)",
+   "source": "https://law.unl.edu/node/818/"
   }
  ]
 }
