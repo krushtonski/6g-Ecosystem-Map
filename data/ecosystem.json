@@ -16343,6 +16343,45 @@
     "https://6gworld.com/?p=28215",
     "https://www.fedinsider.com/nextgen-cellular-networks/"
    ]
+  },
+  {
+   "id": "solutional",
+   "name": "Solutional",
+   "short": "Solutional",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "United States",
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Consulting firm providing fractional CTO, technology consulting, training and go-to-market services in next-generation networking, network automation and AI. Has worked with Nokia and The Futurum Group on AI and data centre networking.",
+   "sources": [
+    "https://nokia.com/people/scott-robohn-0/",
+    "https://conference.wireshark.org/sf26us/speaker/FJWTLQ/",
+    "https://techfieldday.com/?p=92692"
+   ]
+  },
+  {
+   "id": "scott-robohn",
+   "name": "Scott Robohn",
+   "short": "Scott Robohn",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Co-Founder and CEO, Solutional",
+   "org": "solutional",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Network operations veteran (Juniper, Cisco, Nokia, DriveNets). Co-founder of the Network Automation Forum (AutoCon), creator and host of the Total Network Operations (TNOps) podcast, and leader of the Virginia Network User Group. Speaker at FedInsider's NextGen Cellular Networks event.",
+   "sources": [
+    "https://nokia.com/people/scott-robohn-0/",
+    "https://hedgehog.cloud/blog/podcast-scott-robohn",
+    "https://conference.wireshark.org/sf26us/talk/CPNTMA/",
+    "https://www.fedinsider.com/nextgen-cellular-networks/"
+   ]
   }
  ],
  "edges": [
@@ -25256,6 +25295,13 @@
    "type": "Role",
    "label": "Co-Founder and Chief Operating Officer, Tiami Networks",
    "source": "https://theorg.com/org/tiami-networks/org-chart/tyrell-j"
+  },
+  {
+   "from": "scott-robohn",
+   "to": "solutional",
+   "type": "Role",
+   "label": "Co-Founder and CEO, Solutional",
+   "source": "https://nokia.com/people/scott-robohn-0/"
   }
  ]
 }
