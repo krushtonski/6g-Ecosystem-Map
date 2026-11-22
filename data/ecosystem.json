@@ -13990,11 +13990,11 @@
    "lat": 50.778,
    "lng": 6.077,
    "precision": "Campus",
-   "description": "German 6G transfer hub, successor to 6GEM (coordinated by RWTH Aachen from 2021), developing a holistic 6G system from hardware to software. Fraunhofer FHR and IMS took part in the first phase.",
+   "description": "German 6G transfer hub 6GEM+ ('Value-Oriented 6G Communication Systems for the Networked Digital Industry', 2026 onwards), successor to 6GEM (2021 to 2025). Coordinated by RWTH Aachen with Ruhr University Bochum, TU Dortmund and Fraunhofer IPT and IML. Focus on industrial automation, logistics, mobility and rescue robotics. Funded by BMFTR with up to €25 million. Runs the 6GEMcubator start-up incubator.",
    "sources": [
-    "https://www.telecompaper.com/news/german-ministry-funds-6g-research-at-four-hubs-with-eur-250-mln--1388549",
-    "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html",
-    "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+    "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html",
+    "https://comnets.etit.tu-dortmund.de/newsdetail/6g-research-continued-as-part-6gem-transfer-hub-59711/",
+    "https://hgi.rub.de/en/news/newsarchiv/hginews/von-5g-zu-6g"
    ]
   },
   {
@@ -14097,9 +14097,10 @@
    "lat": 50.7779,
    "lng": 6.0777,
    "precision": "Campus",
-   "description": "Coordinated the 6GEM 6G research hub from 2021.",
+   "description": "Coordinates the 6GEM+ 6G transfer hub (Professor Haris Gačanin), as it did the 6GEM research hub from 2021.",
    "sources": [
-    "https://www.telecompaper.com/news/german-ministry-funds-6g-research-at-four-hubs-with-eur-250-mln--1388549"
+    "https://blog.rwth-aachen.de/elektrotechnik/en/tag/6g/",
+    "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
    ]
   },
   {
@@ -14560,6 +14561,710 @@
    "description": "Coordinates the EU 6G-NTN project.",
    "sources": [
     "https://smart-networks.europa.eu/stream-b-research-for-revolutionary-technology-advancement-towards-6g/"
+   ]
+  },
+  {
+   "id": "bittium",
+   "name": "Bittium",
+   "short": "Bittium",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Ritaharjuntie 1, Oulu, Finland",
+   "lat": 65.0596,
+   "lng": 25.4433,
+   "precision": "City",
+   "description": "Finnish secure and tactical communications company (Nasdaq Helsinki). Donated a tactical communications system to the University of Oulu's 6G Test Centre to support dual-use testing. Partner in the RF ECO3 6G radio project.",
+   "sources": [
+    "https://www.oulu.fi/en/news/bittiums-tactical-communications-system-strengthens-6g-test-centre-and-supports-finlands-innovation",
+    "https://www.tuni.fi/en/news/tampere-university-contributing-more-sustainable-6g-future-rf-eco3-project"
+   ]
+  },
+  {
+   "id": "6g-test-centre",
+   "name": "6G Test Centre (University of Oulu)",
+   "short": "6G Test Centre",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "University of Oulu, Oulu, Finland",
+   "lat": 65.0593,
+   "lng": 25.4663,
+   "precision": "Campus",
+   "description": "Test facility within Finland's 6G Flagship and a designated NATO DIANA test centre. Focuses on civilian, dual-use and defence testing, including hybrid tactical and 6G networks. Industry contributors include Bittium, Keysight and Nokia.",
+   "sources": [
+    "https://www.oulu.fi/en/news/bittiums-tactical-communications-system-strengthens-6g-test-centre-and-supports-finlands-innovation",
+    "https://www.6gflagship.com/news/6g-waves-11-published-with-insights-on-leadership-in-next-generation-connectivity/",
+    "https://www.sttinfo.fi/tiedote/71180292/6g-test-centres-strategic-role-pioneering-dual-use-innovation-within-nato-diana?publisherId=69352634"
+   ]
+  },
+  {
+   "id": "rf-eco3",
+   "name": "RF ECO3 (Finland)",
+   "short": "RF ECO3",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Finland",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Business Finland Veturi ecosystem project on sustainable 6G radio systems, running to the end of 2027. Partners: Nokia, Bittium, CoreHW, SAAB, Optenni, Verkotan, Senfit, University of Oulu, Aalto University, Tampere University and VTT.",
+   "sources": [
+    "https://www.tuni.fi/en/news/tampere-university-contributing-more-sustainable-6g-future-rf-eco3-project",
+    "https://www.microwavejournal.com/articles/43872-consortium-of-leading-finnish-businesses-launches-initiative-to-advance-6g"
+   ]
+  },
+  {
+   "id": "cumucore",
+   "name": "Cumucore",
+   "short": "Cumucore",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Gustav Paulinginkatu 10, Helsinki",
+   "lat": 60.2041,
+   "lng": 24.9654,
+   "precision": "Street address",
+   "description": "Finnish SME making 4G, 5G and 6G core network software for non-public industrial networks. Holds local spectrum licences in Finland and runs Aalto University's test network.",
+   "sources": [
+    "https://www.mwcbarcelona.com/exhibitors/28687-cumucore-oy",
+    "https://innovation-radar.ec.europa.eu/innovator/923625077"
+   ]
+  },
+  {
+   "id": "elisa",
+   "name": "Elisa",
+   "short": "Elisa",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Helsinki, Finland",
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "precision": "City",
+   "description": "Finnish operator. Deployed Europe's first commercial 5G Cloud RAN with Nokia (December 2024), which it describes as groundwork for 6G-era cloud-native networks.",
+   "sources": [
+    "https://www.nokia.com/newsroom/nokia-and-elisa-deploy-europes-first-commercial-5g-cloud-ran-deployment-with-red-hat-openshift/"
+   ]
+  },
+  {
+   "id": "eurecom",
+   "name": "EURECOM",
+   "short": "EURECOM",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Campus SophiaTech, Sophia Antipolis, France",
+   "lat": 43.6147,
+   "lng": 7.0717,
+   "precision": "Campus",
+   "description": "French graduate school and research centre. Founded OpenAirInterface (OAI), the open-source 3GPP and O-RAN software stack used for 6G research.",
+   "sources": [
+    "https://arxiv.org/abs/2412.13295",
+    "https://www.eurecom.fr/en/news/join-eurecom-mwc-2025-march-3-6"
+   ]
+  },
+  {
+   "id": "oai-alliance",
+   "name": "OpenAirInterface Software Alliance",
+   "short": "OSA",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Sophia Antipolis, France",
+   "lat": 43.615,
+   "lng": 7.072,
+   "precision": "City",
+   "description": "Non-profit that runs OpenAirInterface, the open-source RAN, core and UE software for 5G and 6G research. Grew out of EURECOM.",
+   "sources": [
+    "https://arxiv.org/abs/2412.13295",
+    "https://www.eurecom.fr/en/news/join-eurecom-mwc-2025-march-3-6"
+   ]
+  },
+  {
+   "id": "sequans",
+   "name": "Sequans Communications",
+   "short": "Sequans",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Paris La Défense, France",
+   "lat": 48.8925,
+   "lng": 2.2393,
+   "precision": "City",
+   "description": "French maker of low-power 5G IoT modems. Partner in the Hexa-X-II 6G flagship, contributing on massive IoT for 6G.",
+   "sources": [
+    "https://sequans.com/category/blog/"
+   ]
+  },
+  {
+   "id": "telefonica",
+   "name": "Telefónica",
+   "short": "Telefónica",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Distrito Telefónica, Madrid, Spain",
+   "lat": 40.5145,
+   "lng": -3.6637,
+   "precision": "Campus",
+   "description": "Spanish operator with the largest operator share of SNS JU projects (more than 35 6G projects). Co-organised EuCNC & 6G Summit 2026 and leads the EURO-3C sovereign infrastructure initiative.",
+   "sources": [
+    "https://www.telecomtv.com/content/6g/telef-nica-is-at-the-forefront-of-european-innovation-in-communication-networks-and-smart-connectivity-55617/amp/",
+    "https://www.telefonica.com/en/communication-room/press-room/telefonica-forefront-european-innovation-communication-networks-smart-connectivity/"
+   ]
+  },
+  {
+   "id": "i2cat",
+   "name": "i2CAT Foundation",
+   "short": "i2CAT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Barcelona, Spain",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "precision": "City",
+   "description": "Catalan internet research foundation. Partner in the MultiX 6G sensing project.",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1076394"
+   ]
+  },
+  {
+   "id": "uc3m",
+   "name": "Universidad Carlos III de Madrid (UC3M)",
+   "short": "UC3M",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Leganés, Madrid, Spain",
+   "lat": 40.3326,
+   "lng": -3.7652,
+   "precision": "Campus",
+   "description": "Coordinates the EU 6G projects MultiX (6G sensing, 2025 to 2027) and PAISES-6G, and the MiFuture network on ultra-massive MIMO.",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1076354",
+    "https://www.uc3m.es/uc3m/media/uc3m/doc/archivo/doc_paises-6g_fr/paises-6g_uc3m_fr.pdf"
+   ]
+  },
+  {
+   "id": "multix",
+   "name": "MultiX (EU 6G sensing project)",
+   "short": "MultiX",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Leganés, Madrid, Spain (coordinator)",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "SNS JU project (January 2025 to June 2027) on 6G networks that sense their surroundings, using integrated sensing and communication. Coordinated by UC3M with 17 partners from 7 countries, including Telefónica, Siemens, Intel, Apple, InterDigital, CNIT, IHP, i2CAT and IMDEA Networks.",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1076354",
+    "https://www.eurekalert.org/news-releases/1076394"
+   ]
+  },
+  {
+   "id": "imdea-networks",
+   "name": "IMDEA Networks Institute",
+   "short": "IMDEA Networks",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Leganés, Madrid, Spain",
+   "lat": 40.3324,
+   "lng": -3.766,
+   "precision": "Campus",
+   "description": "Madrid research institute. Won four SNS JU 6G projects in 2026 (PROSPERO, PAISES-6G, IoT-ZERO, PRIME-6G). Builds a multi-band sensing platform for MultiX.",
+   "sources": [
+    "https://networks.imdea.org/imdea-networks-secures-four-sns-ju-projects-to-advance-europes-6g-future/",
+    "https://www.eurekalert.org/news-releases/1076394"
+   ]
+  },
+  {
+   "id": "tim",
+   "name": "TIM (Telecom Italia)",
+   "short": "TIM",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Rome, Italy",
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "precision": "City",
+   "description": "Italian operator. Partner in RESTART, Italy's national 6G and telecoms research programme.",
+   "sources": [
+    "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf"
+   ]
+  },
+  {
+   "id": "cnit",
+   "name": "CNIT (National Inter-University Consortium for Telecommunications)",
+   "short": "CNIT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Parma, Italy",
+   "lat": 44.8015,
+   "lng": 10.3279,
+   "precision": "City",
+   "description": "Italian university telecoms consortium. Partner in RESTART and the EU MultiX and PAISES-6G projects.",
+   "sources": [
+    "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf",
+    "https://www.eurekalert.org/news-releases/1076394"
+   ]
+  },
+  {
+   "id": "polimi",
+   "name": "Politecnico di Milano",
+   "short": "PoliMi",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Piazza Leonardo da Vinci 32, Milan",
+   "lat": 45.4781,
+   "lng": 9.2272,
+   "precision": "Campus",
+   "description": "Hosts RESTART's scientific direction. Runs open-air 6G experiments (FR1 to 251 GHz) and ran Europe's first upper 6 GHz trial (2023). Built an upper mid-band 6G prototyping platform with NYU and Pi-Radio.",
+   "sources": [
+    "https://www.deib.polimi.it/eng/news/details/1166",
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/06/webinar-6g-experimental-platforms-at-polimi-restart.pdf"
+   ]
+  },
+  {
+   "id": "restart",
+   "name": "RESTART (Italy national telecoms and 6G programme)",
+   "short": "RESTART",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Rome, Italy",
+   "lat": 41.8536,
+   "lng": 12.6046,
+   "precision": "City",
+   "description": "Italy's largest public telecoms R&D programme (€116 million, national recovery plan, 25 partners). Led by the University of Rome Tor Vergata with scientific direction at PoliMi. Partners include CNIT, TIM, Vodafone, Wind Tre, Ericsson, Leonardo and the University of Bologna.",
+   "sources": [
+    "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf",
+    "https://alumni.polimi.it/en/?p=33495",
+    "https://smart-networks.europa.eu/the-italian-national-initiative-on-6g-the-achievements-in-the-restart-program"
+   ]
+  },
+  {
+   "id": "tor-vergata",
+   "name": "University of Rome Tor Vergata",
+   "short": "Tor Vergata",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Rome, Italy",
+   "lat": 41.8536,
+   "lng": 12.6046,
+   "precision": "Campus",
+   "description": "Lead proponent of the RESTART programme.",
+   "sources": [
+    "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf",
+    "https://alumni.polimi.it/en/?p=33495"
+   ]
+  },
+  {
+   "id": "rohde-schwarz",
+   "name": "Rohde & Schwarz",
+   "short": "R&S",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Mühldorfstrasse 15, Munich",
+   "lat": 48.1265,
+   "lng": 11.6006,
+   "precision": "Street address",
+   "description": "German test and measurement company. Partner in German 6G projects including 6G-ANNA. Researches THz 6G (D-band and H-band) with Fraunhofer HHI and IAF, and AI-native air interfaces.",
+   "sources": [
+    "https://www.rohde-schwarz.com/6g",
+    "https://www.hhi.fraunhofer.de/en/news/nachrichten/https-testhhifraunhoferde-presse-medien-nachrichten-archiv-2019html/rohde-schwarz-together-with-fraunhofer-institutes-hhi-and-iaf-join-forces-in-researching-6g-at-thz-frequencies.html"
+   ]
+  },
+  {
+   "id": "fraunhofer-fokus",
+   "name": "Fraunhofer FOKUS",
+   "short": "Fraunhofer FOKUS",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kaiserin-Augusta-Allee 31, Berlin",
+   "lat": 52.5255,
+   "lng": 13.3149,
+   "precision": "Street address",
+   "description": "Fraunhofer institute for open communication systems. Partner in Open6GHub+ and took part in 6G-RIC and Open6GHub in the first phase.",
+   "sources": [
+    "https://www.itiv.kit.edu/english/201_11276.php",
+    "https://www.fokus.fraunhofer.de/en/fokus/news/6ghub-webnews_2021_08"
+   ]
+  },
+  {
+   "id": "fraunhofer-iaf",
+   "name": "Fraunhofer IAF",
+   "short": "Fraunhofer IAF",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Freiburg, Germany",
+   "lat": 48.0099,
+   "lng": 7.8344,
+   "precision": "Campus",
+   "description": "Fraunhofer institute for applied solid state physics. Took part in 6G-RIC; THz 6G research with Rohde & Schwarz and HHI.",
+   "sources": [
+    "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html",
+    "https://www.hhi.fraunhofer.de/en/news/nachrichten/https-testhhifraunhoferde-presse-medien-nachrichten-archiv-2019html/rohde-schwarz-together-with-fraunhofer-institutes-hhi-and-iaf-join-forces-in-researching-6g-at-thz-frequencies.html"
+   ]
+  },
+  {
+   "id": "fraunhofer-iis",
+   "name": "Fraunhofer IIS",
+   "short": "Fraunhofer IIS",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Erlangen, Germany",
+   "lat": 49.5763,
+   "lng": 11.0277,
+   "precision": "Campus",
+   "description": "Fraunhofer institute for integrated circuits. Took part in the 6G-RIC hub.",
+   "sources": [
+    "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+   ]
+  },
+  {
+   "id": "fraunhofer-izm",
+   "name": "Fraunhofer IZM",
+   "short": "Fraunhofer IZM",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Berlin, Germany",
+   "lat": 52.5418,
+   "lng": 13.348,
+   "precision": "Campus",
+   "description": "Fraunhofer institute for reliability and microintegration. Took part in the 6G-RIC hub.",
+   "sources": [
+    "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+   ]
+  },
+  {
+   "id": "ihp",
+   "name": "IHP (Leibniz Institute for High Performance Microelectronics)",
+   "short": "IHP",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Frankfurt (Oder), Germany",
+   "lat": 52.3313,
+   "lng": 14.5249,
+   "precision": "Campus",
+   "description": "Leibniz microelectronics institute. Partner in the xG-RIC transfer hub and the EU MultiX project.",
+   "sources": [
+    "https://www.tkn.tu-berlin.de/projects/xg-ric/",
+    "https://www.eurekalert.org/news-releases/1076394"
+   ]
+  },
+  {
+   "id": "fbh",
+   "name": "Ferdinand-Braun-Institut (FBH)",
+   "short": "FBH",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Berlin-Adlershof, Germany",
+   "lat": 52.4318,
+   "lng": 13.532,
+   "precision": "Campus",
+   "description": "Leibniz institute for high-frequency technology. Took part in the 6G-RIC hub.",
+   "sources": [
+    "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+   ]
+  },
+  {
+   "id": "tu-dortmund",
+   "name": "TU Dortmund University",
+   "short": "TU Dortmund",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Dortmund, Germany",
+   "lat": 51.4924,
+   "lng": 7.412,
+   "precision": "Campus",
+   "description": "Partner in 6GEM+ (Christian Wietfeld is site speaker). Its Centre for Entrepreneurship & Transfer is involved.",
+   "sources": [
+    "https://comnets.etit.tu-dortmund.de/newsdetail/6g-research-continued-as-part-6gem-transfer-hub-59711/"
+   ]
+  },
+  {
+   "id": "rub",
+   "name": "Ruhr University Bochum",
+   "short": "RUB",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bochum, Germany",
+   "lat": 51.4447,
+   "lng": 7.2612,
+   "precision": "Campus",
+   "description": "Partner in 6GEM+ (site speaker Aydin Sezgin), focused on human-robot collaboration, XR and energy-efficient communication.",
+   "sources": [
+    "https://hgi.rub.de/en/news/newsarchiv/hginews/von-5g-zu-6g"
+   ]
+  },
+  {
+   "id": "uni-due",
+   "name": "University of Duisburg-Essen",
+   "short": "UDE",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Duisburg, Germany",
+   "lat": 51.428,
+   "lng": 6.8,
+   "precision": "Campus",
+   "description": "Partner in the first 6GEM research hub (2021 to 2025).",
+   "sources": [
+    "https://www.iml.fraunhofer.de/en/projects/2026/6gem-6g-research-intralogistics-industrial-metaverse.html"
+   ]
+  },
+  {
+   "id": "fraunhofer-iml",
+   "name": "Fraunhofer IML",
+   "short": "Fraunhofer IML",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Dortmund, Germany",
+   "lat": 51.4927,
+   "lng": 7.4135,
+   "precision": "Campus",
+   "description": "Fraunhofer institute for material flow and logistics. Partner in 6GEM and 6GEM+, leading logistics use cases.",
+   "sources": [
+    "https://www.iml.fraunhofer.de/en/projects/2026/6gem-6g-research-intralogistics-industrial-metaverse.html",
+    "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
+   ]
+  },
+  {
+   "id": "fraunhofer-ipt",
+   "name": "Fraunhofer IPT",
+   "short": "Fraunhofer IPT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Aachen, Germany",
+   "lat": 50.788,
+   "lng": 6.0475,
+   "precision": "Campus",
+   "description": "Fraunhofer institute for production technology. Partner in the 6GEM+ transfer hub.",
+   "sources": [
+    "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html",
+    "https://www.iml.fraunhofer.de/en/projects/2026/6gem-6g-research-intralogistics-industrial-metaverse.html"
+   ]
+  },
+  {
+   "id": "6gemcubator",
+   "name": "6GEMcubator",
+   "short": "6GEMcubator",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Aachen and Ruhr region, Germany",
+   "lat": 50.7753,
+   "lng": 6.0839,
+   "precision": "City",
+   "description": "6G start-up incubator spun off from the 6GEM hub, with RWTH Innovation, Cube 5 (Bochum) and TU concept (Dortmund). Regional contact point for the national StartUpConnect programme.",
+   "sources": [
+    "https://comnets.etit.tu-dortmund.de/newsdetail/6g-start-up-initiative-start-upconnect-launched-in-berlin-40950/"
+   ]
+  },
+  {
+   "id": "launchhub42",
+   "name": "launchhub42",
+   "short": "launchhub42",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Dresden, Germany",
+   "lat": 51.0504,
+   "lng": 13.7373,
+   "precision": "City",
+   "description": "Start-up incubator in Dresden set up in 2024 to support 6G and robotics spin-offs from 6G-life.",
+   "sources": [
+    "https://www.munich-startup.de/en/116070/tum-and-tu-dresden-are-developing-6g-mobile-network-generation/",
+    "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase"
+   ]
+  },
+  {
+   "id": "antonio-de-la-oliva",
+   "name": "Antonio de la Oliva",
+   "short": "Antonio de la Oliva",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Telematics Engineering, UC3M; Principal Investigator, MultiX",
+   "org": "uc3m",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads the EU MultiX 6G sensing project.",
+   "sources": [
+    "https://www.eurekalert.org/news-releases/1076354"
+   ]
+  },
+  {
+   "id": "antonio-guzman",
+   "name": "Antonio Guzmán",
+   "short": "Antonio Guzmán",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Innovation, CDO unit, Telefónica",
+   "org": "telefonica",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Speaks for Telefónica on 6G architecture at EuCNC & 6G Summit 2026.",
+   "sources": [
+    "https://www.telefonica.com/en/communication-room/press-room/telefonica-forefront-european-innovation-communication-networks-smart-connectivity/"
+   ]
+  },
+  {
+   "id": "antonio-capone",
+   "name": "Antonio Capone",
+   "short": "Antonio Capone",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Politecnico di Milano; Scientific Coordinator, RESTART",
+   "org": "polimi",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Scientific coordinator of Italy's RESTART programme.",
+   "sources": [
+    "https://www.deib.polimi.it/eng/news/details/1166"
+   ]
+  },
+  {
+   "id": "umberto-spagnolini",
+   "name": "Umberto Spagnolini",
+   "short": "Umberto Spagnolini",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Politecnico di Milano; PI, RESTART 6G Wireless Networks",
+   "org": "polimi",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads RESTART's 6G wireless experimental platforms.",
+   "sources": [
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/06/webinar-6g-experimental-platforms-at-polimi-restart.pdf"
+   ]
+  },
+  {
+   "id": "thomas-magedanz",
+   "name": "Thomas Magedanz",
+   "short": "Thomas Magedanz",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Fraunhofer FOKUS",
+   "org": "fraunhofer-fokus",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-author of the German 6G hubs' joint work.",
+   "sources": [
+    "https://www.tkn.tu-berlin.de/bib/franchi2024german/franchi2024german.pdf"
+   ]
+  },
+  {
+   "id": "haris-gacanin",
+   "name": "Haris Gačanin",
+   "short": "Haris Gačanin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Chair of Distributed Signal Processing, RWTH Aachen; Coordinator, 6GEM",
+   "org": "rwth",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Coordinates the 6GEM hub and its 6GEM+ successor.",
+   "sources": [
+    "https://blog.rwth-aachen.de/elektrotechnik/en/tag/6g/",
+    "https://comnets.etit.tu-dortmund.de/newsdetail/6gem-presents-at-kick-off-event-of-transfer-hubs-in-berlin-61951/"
+   ]
+  },
+  {
+   "id": "christian-wietfeld",
+   "name": "Christian Wietfeld",
+   "short": "Christian Wietfeld",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Chair of Communication Networks, TU Dortmund; 6GEM+ site speaker",
+   "org": "tu-dortmund",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads TU Dortmund's 6GEM+ team.",
+   "sources": [
+    "https://comnets.etit.tu-dortmund.de/newsdetail/6g-research-continued-as-part-6gem-transfer-hub-59711/"
+   ]
+  },
+  {
+   "id": "aydin-sezgin",
+   "name": "Aydin Sezgin",
+   "short": "Aydin Sezgin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor of Digital Communication, Ruhr University Bochum; 6GEM+ site speaker",
+   "org": "rub",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Bochum's 6GEM+ work.",
+   "sources": [
+    "https://hgi.rub.de/en/news/newsarchiv/hginews/von-5g-zu-6g"
    ]
   }
  ],
@@ -22548,7 +23253,7 @@
    "from": "bmftr",
    "to": "6gem",
    "type": "Funding",
-   "label": "6G transfer hub",
+   "label": "Up to €25m for 6GEM+",
    "source": "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html"
   },
   {
@@ -22669,6 +23374,426 @@
    "type": "Membership",
    "label": "Partner",
    "source": "https://rvo.nl/sites/default/files/2024-06/Maatwerkbeschikking%2013062024%20NGF6G2301%20Besluit%20tot%20verlening%20subsidie.pdf"
+  },
+  {
+   "from": "antonio-de-la-oliva",
+   "to": "uc3m",
+   "type": "Role",
+   "label": "Professor of Telematics Engineering, UC3M; Principal Investigator, MultiX",
+   "source": "https://www.eurekalert.org/news-releases/1076354"
+  },
+  {
+   "from": "antonio-guzman",
+   "to": "telefonica",
+   "type": "Role",
+   "label": "Director of Innovation, CDO unit, Telefónica",
+   "source": "https://www.telefonica.com/en/communication-room/press-room/telefonica-forefront-european-innovation-communication-networks-smart-connectivity/"
+  },
+  {
+   "from": "antonio-capone",
+   "to": "polimi",
+   "type": "Role",
+   "label": "Professor, Politecnico di Milano; Scientific Coordinator, RESTART",
+   "source": "https://www.deib.polimi.it/eng/news/details/1166"
+  },
+  {
+   "from": "umberto-spagnolini",
+   "to": "polimi",
+   "type": "Role",
+   "label": "Professor, Politecnico di Milano; PI, RESTART 6G Wireless Networks",
+   "source": "https://smart-networks.europa.eu/wp-content/uploads/2025/06/webinar-6g-experimental-platforms-at-polimi-restart.pdf"
+  },
+  {
+   "from": "thomas-magedanz",
+   "to": "fraunhofer-fokus",
+   "type": "Role",
+   "label": "Fraunhofer FOKUS",
+   "source": "https://www.tkn.tu-berlin.de/bib/franchi2024german/franchi2024german.pdf"
+  },
+  {
+   "from": "haris-gacanin",
+   "to": "rwth",
+   "type": "Role",
+   "label": "Professor, Chair of Distributed Signal Processing, RWTH Aachen; Coordinator, 6GEM",
+   "source": "https://blog.rwth-aachen.de/elektrotechnik/en/tag/6g/"
+  },
+  {
+   "from": "christian-wietfeld",
+   "to": "tu-dortmund",
+   "type": "Role",
+   "label": "Professor, Chair of Communication Networks, TU Dortmund; 6GEM+ site speaker",
+   "source": "https://comnets.etit.tu-dortmund.de/newsdetail/6g-research-continued-as-part-6gem-transfer-hub-59711/"
+  },
+  {
+   "from": "aydin-sezgin",
+   "to": "rub",
+   "type": "Role",
+   "label": "Professor of Digital Communication, Ruhr University Bochum; 6GEM+ site speaker",
+   "source": "https://hgi.rub.de/en/news/newsarchiv/hginews/von-5g-zu-6g"
+  },
+  {
+   "from": "oulu",
+   "to": "6g-test-centre",
+   "type": "Partnership / project",
+   "label": "Hosts",
+   "source": "https://www.oulu.fi/en/news/bittiums-tactical-communications-system-strengthens-6g-test-centre-and-supports-finlands-innovation"
+  },
+  {
+   "from": "bittium",
+   "to": "6g-test-centre",
+   "type": "Partnership / project",
+   "label": "Donated tactical communications system",
+   "source": "https://www.oulu.fi/en/news/bittiums-tactical-communications-system-strengthens-6g-test-centre-and-supports-finlands-innovation"
+  },
+  {
+   "from": "keysight",
+   "to": "6g-test-centre",
+   "type": "Partnership / project",
+   "label": "RF measurement hardware",
+   "source": "https://www.6gflagship.com/news/6g-waves-11-published-with-insights-on-leadership-in-next-generation-connectivity/"
+  },
+  {
+   "from": "nokia",
+   "to": "6g-test-centre",
+   "type": "Partnership / project",
+   "label": "Partner-customer",
+   "source": "https://www.sttinfo.fi/tiedote/71180292/6g-test-centres-strategic-role-pioneering-dual-use-innovation-within-nato-diana?publisherId=69352634"
+  },
+  {
+   "from": "hannu-nikurautio",
+   "to": "6g-test-centre",
+   "type": "Role",
+   "label": "Research Director",
+   "source": "https://www.oulu.fi/en/news/bittiums-tactical-communications-system-strengthens-6g-test-centre-and-supports-finlands-innovation"
+  },
+  {
+   "from": "nokia",
+   "to": "rf-eco3",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.tuni.fi/en/news/tampere-university-contributing-more-sustainable-6g-future-rf-eco3-project"
+  },
+  {
+   "from": "bittium",
+   "to": "rf-eco3",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.tuni.fi/en/news/tampere-university-contributing-more-sustainable-6g-future-rf-eco3-project"
+  },
+  {
+   "from": "oulu",
+   "to": "rf-eco3",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.tuni.fi/en/news/tampere-university-contributing-more-sustainable-6g-future-rf-eco3-project"
+  },
+  {
+   "from": "aalto",
+   "to": "rf-eco3",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.tuni.fi/en/news/tampere-university-contributing-more-sustainable-6g-future-rf-eco3-project"
+  },
+  {
+   "from": "vtt",
+   "to": "rf-eco3",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.tuni.fi/en/news/tampere-university-contributing-more-sustainable-6g-future-rf-eco3-project"
+  },
+  {
+   "from": "cumucore",
+   "to": "aalto",
+   "type": "Partnership / project",
+   "label": "Runs Aalto's test network",
+   "source": "https://www.mwcbarcelona.com/exhibitors/28687-cumucore-oy"
+  },
+  {
+   "from": "nokia",
+   "to": "elisa",
+   "type": "Partnership / project",
+   "label": "Commercial 5G Cloud RAN (2024)",
+   "source": "https://www.nokia.com/newsroom/nokia-and-elisa-deploy-europes-first-commercial-5g-cloud-ran-deployment-with-red-hat-openshift/"
+  },
+  {
+   "from": "eurecom",
+   "to": "oai-alliance",
+   "type": "Partnership / project",
+   "label": "Founded OpenAirInterface",
+   "source": "https://arxiv.org/abs/2412.13295"
+  },
+  {
+   "from": "sequans",
+   "to": "hexa-x-ii",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://sequans.com/category/blog/"
+  },
+  {
+   "from": "telefonica",
+   "to": "sns-ju",
+   "type": "Membership",
+   "label": "35+ SNS JU 6G projects",
+   "source": "https://www.telecomtv.com/content/6g/telef-nica-is-at-the-forefront-of-european-innovation-in-communication-networks-and-smart-connectivity-55617/amp/"
+  },
+  {
+   "from": "uc3m",
+   "to": "multix",
+   "type": "Partnership / project",
+   "label": "Coordinator",
+   "source": "https://www.eurekalert.org/news-releases/1076354"
+  },
+  {
+   "from": "antonio-de-la-oliva",
+   "to": "multix",
+   "type": "Role",
+   "label": "Principal Investigator",
+   "source": "https://www.eurekalert.org/news-releases/1076354"
+  },
+  {
+   "from": "telefonica",
+   "to": "multix",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.eurekalert.org/news-releases/1076354"
+  },
+  {
+   "from": "siemens",
+   "to": "multix",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.eurekalert.org/news-releases/1076354"
+  },
+  {
+   "from": "interdigital",
+   "to": "multix",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.eurekalert.org/news-releases/1076394"
+  },
+  {
+   "from": "cnit",
+   "to": "multix",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.eurekalert.org/news-releases/1076394"
+  },
+  {
+   "from": "ihp",
+   "to": "multix",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.eurekalert.org/news-releases/1076394"
+  },
+  {
+   "from": "i2cat",
+   "to": "multix",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.eurekalert.org/news-releases/1076394"
+  },
+  {
+   "from": "imdea-networks",
+   "to": "multix",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.eurekalert.org/news-releases/1076394"
+  },
+  {
+   "from": "sns-ju",
+   "to": "multix",
+   "type": "Funding",
+   "label": "Horizon Europe project",
+   "source": "https://www.eurekalert.org/news-releases/1076354"
+  },
+  {
+   "from": "tor-vergata",
+   "to": "restart",
+   "type": "Partnership / project",
+   "label": "Lead proponent",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf"
+  },
+  {
+   "from": "polimi",
+   "to": "restart",
+   "type": "Partnership / project",
+   "label": "Scientific direction",
+   "source": "https://alumni.polimi.it/en/?p=33495"
+  },
+  {
+   "from": "antonio-capone",
+   "to": "restart",
+   "type": "Role",
+   "label": "Scientific Coordinator",
+   "source": "https://www.deib.polimi.it/eng/news/details/1166"
+  },
+  {
+   "from": "umberto-spagnolini",
+   "to": "restart",
+   "type": "Role",
+   "label": "PI, 6G Wireless Networks",
+   "source": "https://smart-networks.europa.eu/wp-content/uploads/2025/06/webinar-6g-experimental-platforms-at-polimi-restart.pdf"
+  },
+  {
+   "from": "tim",
+   "to": "restart",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf"
+  },
+  {
+   "from": "cnit",
+   "to": "restart",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf"
+  },
+  {
+   "from": "ericsson",
+   "to": "restart",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf"
+  },
+  {
+   "from": "unibo",
+   "to": "restart",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf"
+  },
+  {
+   "from": "rohde-schwarz",
+   "to": "fraunhofer-hhi",
+   "type": "Research together",
+   "label": "THz 6G research (D-band, H-band)",
+   "source": "https://www.hhi.fraunhofer.de/en/news/nachrichten/https-testhhifraunhoferde-presse-medien-nachrichten-archiv-2019html/rohde-schwarz-together-with-fraunhofer-institutes-hhi-and-iaf-join-forces-in-researching-6g-at-thz-frequencies.html"
+  },
+  {
+   "from": "rohde-schwarz",
+   "to": "fraunhofer-iaf",
+   "type": "Research together",
+   "label": "THz 6G research",
+   "source": "https://www.hhi.fraunhofer.de/en/news/nachrichten/https-testhhifraunhoferde-presse-medien-nachrichten-archiv-2019html/rohde-schwarz-together-with-fraunhofer-institutes-hhi-and-iaf-join-forces-in-researching-6g-at-thz-frequencies.html"
+  },
+  {
+   "from": "fraunhofer-fokus",
+   "to": "open6ghub",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.itiv.kit.edu/english/201_11276.php"
+  },
+  {
+   "from": "fraunhofer-fokus",
+   "to": "xg-ric",
+   "type": "Membership",
+   "label": "Partner in 6G-RIC (first phase)",
+   "source": "https://www.fokus.fraunhofer.de/en/fokus/news/6ghub-webnews_2021_08"
+  },
+  {
+   "from": "fraunhofer-iaf",
+   "to": "xg-ric",
+   "type": "Membership",
+   "label": "Partner in 6G-RIC (first phase)",
+   "source": "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+  },
+  {
+   "from": "fraunhofer-iis",
+   "to": "xg-ric",
+   "type": "Membership",
+   "label": "Partner in 6G-RIC (first phase)",
+   "source": "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+  },
+  {
+   "from": "fraunhofer-izm",
+   "to": "xg-ric",
+   "type": "Membership",
+   "label": "Partner in 6G-RIC (first phase)",
+   "source": "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+  },
+  {
+   "from": "fbh",
+   "to": "xg-ric",
+   "type": "Membership",
+   "label": "Partner in 6G-RIC (first phase)",
+   "source": "https://www.forschungsfabrik-mikroelektronik.de/en/focus-topics/communication/6G-hubs-fmd.html"
+  },
+  {
+   "from": "ihp",
+   "to": "xg-ric",
+   "type": "Membership",
+   "label": "Partner",
+   "source": "https://www.tkn.tu-berlin.de/projects/xg-ric/"
+  },
+  {
+   "from": "tu-dortmund",
+   "to": "6gem",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
+  },
+  {
+   "from": "rub",
+   "to": "6gem",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
+  },
+  {
+   "from": "fraunhofer-iml",
+   "to": "6gem",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
+  },
+  {
+   "from": "fraunhofer-ipt",
+   "to": "6gem",
+   "type": "Partnership / project",
+   "label": "Partner",
+   "source": "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
+  },
+  {
+   "from": "uni-due",
+   "to": "6gem",
+   "type": "Membership",
+   "label": "Partner in 6GEM (first phase)",
+   "source": "https://www.iml.fraunhofer.de/en/projects/2026/6gem-6g-research-intralogistics-industrial-metaverse.html"
+  },
+  {
+   "from": "haris-gacanin",
+   "to": "6gem",
+   "type": "Role",
+   "label": "Coordinator",
+   "source": "https://blog.rwth-aachen.de/elektrotechnik/en/tag/6g/"
+  },
+  {
+   "from": "christian-wietfeld",
+   "to": "6gem",
+   "type": "Role",
+   "label": "TU Dortmund site speaker",
+   "source": "https://comnets.etit.tu-dortmund.de/newsdetail/6g-research-continued-as-part-6gem-transfer-hub-59711/"
+  },
+  {
+   "from": "aydin-sezgin",
+   "to": "6gem",
+   "type": "Role",
+   "label": "Bochum site speaker",
+   "source": "https://hgi.rub.de/en/news/newsarchiv/hginews/von-5g-zu-6g"
+  },
+  {
+   "from": "6gem",
+   "to": "6gemcubator",
+   "type": "Partnership / project",
+   "label": "Spin-off start-up incubator",
+   "source": "https://comnets.etit.tu-dortmund.de/newsdetail/6g-start-up-initiative-start-upconnect-launched-in-berlin-40950/"
+  },
+  {
+   "from": "6g-life",
+   "to": "launchhub42",
+   "type": "Partnership / project",
+   "label": "Start-up incubator",
+   "source": "https://www.munich-startup.de/en/116070/tum-and-tu-dresden-are-developing-6g-mobile-network-generation/"
   }
  ]
 }
