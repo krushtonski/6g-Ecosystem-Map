@@ -15823,6 +15823,507 @@
     "https://www.taiwannews.com.tw/en/news/6362055",
     "https://ec.ltn.com.tw/article/breakingnews/5437669"
    ]
+  },
+  {
+   "id": "in-q-tel",
+   "name": "In-Q-Tel (IQT)",
+   "short": "IQT",
+   "category": "Government & funders",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "Arlington, VA",
+   "lat": 38.8816,
+   "lng": -77.091,
+   "precision": "City",
+   "description": "Not-for-profit strategic investor funded mainly by the CIA. Invests in early-stage dual-use technology for the US intelligence and national security community, including satellite communications (an early OneWeb investor), GPS signal processing and space systems.",
+   "sources": [
+    "https://www.dakota.com/resources/blog/top-10-iqt-portfolio-companies-2025",
+    "https://newspacetracker.com/company/in-q-tel/"
+   ]
+  },
+  {
+   "id": "telcom-ventures",
+   "name": "Telcom Ventures",
+   "short": "Telcom Ventures",
+   "category": "Government & funders",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "Alexandria, VA",
+   "lat": 38.8048,
+   "lng": -77.0469,
+   "precision": "City",
+   "description": "Private equity and venture firm founded by Rajendra and Neera Singh that invests in telecoms and wireless. Linked holdings include NextNav and Omnispace.",
+   "sources": [
+    "https://aventure.vc/investors/firms/telcom-ventures-alexandria-va-us",
+    "https://uk.marketscreener.com/insider/RAJENDRA-SINGH-A02IPV/network"
+   ]
+  },
+  {
+   "id": "booz-allen-ventures",
+   "name": "Booz Allen Ventures",
+   "short": "Booz Allen Ventures",
+   "category": "Government & funders",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "McLean, VA",
+   "lat": 38.9242,
+   "lng": -77.2154,
+   "precision": "City",
+   "description": "Booz Allen Hamilton's corporate venture arm, launched in 2022 with $100 million and tripled to $300 million in 2025. Invests in early-stage companies with federal applications.",
+   "sources": [
+    "https://www.washingtontechnology.com/companies/2025/07/booz-allen-gives-big-boost-its-venture-arm/406862",
+    "https://globalventuring.com/corporate/fundraising/booz-allen-ventures-300m/?format=md"
+   ]
+  },
+  {
+   "id": "rtx-ventures",
+   "name": "RTX Ventures",
+   "short": "RTX Ventures",
+   "category": "Government & funders",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "Arlington, VA",
+   "lat": 38.8816,
+   "lng": -77.091,
+   "precision": "City",
+   "description": "RTX's corporate venture arm, active in early-stage defence technology rounds.",
+   "sources": [
+    "https://washingtontechnology.com/companies/2025/06/andurils-series-g-round-and-more-venture-moves-highlight/405983"
+   ]
+  },
+  {
+   "id": "lm-ventures",
+   "name": "Lockheed Martin Ventures",
+   "short": "LM Ventures",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "role": null,
+   "org": null,
+   "address": "6801 Rockledge Drive, Bethesda, MD",
+   "lat": 39.0251,
+   "lng": -77.1458,
+   "precision": "Street address",
+   "description": "Lockheed Martin's venture fund (from 2007), raised from $400 million to $1 billion in April 2026. Next-generation communications is one of its focus areas. Early investor in DeepSig.",
+   "sources": [
+    "https://news.lockheedmartin.com/2026-04-14-Lockheed-Martin-Authorizes-Increase-to-Venture-Capital-Fund-up-to-1-Billion",
+    "https://www.lockheedmartin.com/en-us/who-we-are/lockheed-martin-ventures.html/contact",
+    "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl"
+   ]
+  },
+  {
+   "id": "washington-harbour",
+   "name": "Washington Harbour Partners",
+   "short": "Washington Harbour",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "role": null,
+   "org": null,
+   "address": "Washington, DC",
+   "lat": 38.9026,
+   "lng": -77.0598,
+   "precision": "City",
+   "description": "Investor in mission-critical dual-use and national security businesses, focused on cybersecurity, government and enterprise technology, with growing defence tech activity (Raft, Striveworks, Trusted Space).",
+   "sources": [
+    "https://f4.fund/firms/washington-harbour-partners",
+    "https://www.wilmerhale.com/en/insights/news/20260327-striveworks-secures-growth-capital-to-expand-ai-operations-work-in-us-and-allied-defense-communities"
+   ]
+  },
+  {
+   "id": "vipc",
+   "name": "VIPC and Virginia Venture Partners",
+   "short": "VIPC / VVP",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Richmond, VA",
+   "lat": 37.5407,
+   "lng": -77.436,
+   "precision": "City",
+   "description": "Virginia Innovation Partnership Corporation and its venture programme, Virginia Venture Partners (formerly CIT GAP Funds), which invests in early-stage Virginia tech companies. A founding partner of National IQ. The Commonwealth of Virginia is listed among DeepSig's investors.",
+   "sources": [
+    "https://www.caplight.com/investor/vipc-org",
+    "https://www.vabio.org/virginia-innovation-partnership-corporation-introduces-new-name-of-cit-gap-funds-virginia-venture-partners",
+    "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology",
+    "https://vipc.org/deepsig/"
+   ]
+  },
+  {
+   "id": "national-iq",
+   "name": "National Innovation Quarter (National IQ)",
+   "short": "National IQ",
+   "category": "Economic development & place",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "1550 Crystal Drive, Arlington, VA",
+   "lat": 38.859,
+   "lng": -77.0505,
+   "precision": "Street address",
+   "description": "Innovation district in National Landing (Crystal City, Pentagon City, Potomac Yard), launched in February 2026. Founding partners include Amazon, Northrop Grumman, SAIC, VIPC, Virginia Tech, and Arlington and Alexandria economic development. Its hub at 1550 Crystal Drive hosts VC in DC, Silicon Valley Defense Group and the Virtus Innovation Center.",
+   "sources": [
+    "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology",
+    "https://luma.com/y5ire5a5",
+    "https://www.arlingtoneconomicdevelopment.com/News-Resources/Events/Missions-Markets-07-Pre-Summer-Open-House"
+   ]
+  },
+  {
+   "id": "vc-in-dc",
+   "name": "VC in DC",
+   "short": "VC in DC",
+   "category": "Associations & alliances",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "1550 Crystal Drive, Arlington, VA",
+   "lat": 38.8591,
+   "lng": -77.0506,
+   "precision": "Street address",
+   "description": "Network uniting venture capital across the Mid-Atlantic. Runs vcIQ founder sessions on dual-use and defence tech with National IQ.",
+   "sources": [
+    "https://luma.com/y5ire5a5",
+    "https://luma.com/vcIQ-FORGE"
+   ]
+  },
+  {
+   "id": "svdg",
+   "name": "Silicon Valley Defense Group",
+   "short": "SVDG",
+   "category": "Associations & alliances",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "1550 Crystal Drive, Arlington, VA",
+   "lat": 38.8589,
+   "lng": -77.0504,
+   "precision": "Street address",
+   "description": "Defence innovation network with a presence at National IQ's Crystal Drive hub; a National IQ sponsor.",
+   "sources": [
+    "https://luma.com/y5ire5a5",
+    "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+   ]
+  },
+  {
+   "id": "scout-ventures",
+   "name": "Scout Ventures",
+   "short": "Scout Ventures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "United States",
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Early-stage frontier and dual-use technology venture firm. Investor in DeepSig's Series A (2020).",
+   "sources": [
+    "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl",
+    "https://www.zoominfo.com/financial/deepsig-inc/444043417"
+   ]
+  },
+  {
+   "id": "leawood-vc",
+   "name": "Leawood Venture Capital",
+   "short": "Leawood VC",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "United States",
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Venture firm that led DeepSig's $5 million Series A (2020).",
+   "sources": [
+    "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl"
+   ]
+  },
+  {
+   "id": "blu-venture",
+   "name": "Blu Venture Investors",
+   "short": "Blu Venture Investors",
+   "category": "Government & funders",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "Northern Virginia",
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Mid-Atlantic early-stage investor. Investor in DeepSig's Series A (2020).",
+   "sources": [
+    "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl"
+   ]
+  },
+  {
+   "id": "stonemill-ventures",
+   "name": "Stonemill Ventures",
+   "short": "Stonemill Ventures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "United States",
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Venture firm listed as a participant in DeepSig's Series A (2020).",
+   "sources": [
+    "https://seedtable.com/companies/deepsig/funding-rounds/series-a-2020/changelog"
+   ]
+  },
+  {
+   "id": "american-tower",
+   "name": "American Tower",
+   "short": "American Tower",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Boston, MA",
+   "lat": 42.3601,
+   "lng": -71.0589,
+   "precision": "City",
+   "description": "Tower company. Co-led Federated Wireless's Series B (2017) and joined its Series C (2019).",
+   "sources": [
+    "https://www.lightreading.com/mobile/spectrum/federated-wireless-raises-$51m-in-series-c-from-sba-american-tower-others/d/d-id/753859",
+    "https://globalventuring.com/blog/2019/09/05/federated-wireless-51m-series-c/"
+   ]
+  },
+  {
+   "id": "sba-communications",
+   "name": "SBA Communications",
+   "short": "SBA Communications",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Boca Raton, FL",
+   "lat": 26.3683,
+   "lng": -80.1289,
+   "precision": "City",
+   "description": "Tower company. New investor in Federated Wireless's $51 million Series C (2019).",
+   "sources": [
+    "https://www.lightreading.com/mobile/spectrum/federated-wireless-raises-$51m-in-series-c-from-sba-american-tower-others/d/d-id/753859"
+   ]
+  },
+  {
+   "id": "charter",
+   "name": "Charter Communications",
+   "short": "Charter",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Stamford, CT",
+   "lat": 41.0534,
+   "lng": -73.5387,
+   "precision": "City",
+   "description": "US cable operator. Co-led Federated Wireless's $42 million Series B (2017).",
+   "sources": [
+    "https://globalventuring.com/blog/2019/09/05/federated-wireless-51m-series-c/"
+   ]
+  },
+  {
+   "id": "allied-minds",
+   "name": "Allied Minds",
+   "short": "Allied Minds",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "United States",
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Commercialisation firm that founded Federated Wireless in 2012 to exploit Virginia Tech research, and invested in its Series A to C.",
+   "sources": [
+    "https://globalventuring.com/university/federated-wireless-51m-series-c/?format=md",
+    "https://globalventuring.com/blog/2019/09/05/federated-wireless-51m-series-c/"
+   ]
+  },
+  {
+   "id": "gic",
+   "name": "GIC (Singapore sovereign wealth fund)",
+   "short": "GIC",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Singapore",
+   "lat": 1.2789,
+   "lng": 103.8536,
+   "precision": "City",
+   "description": "Singapore's sovereign wealth fund. Investor in Federated Wireless's Series B and C.",
+   "sources": [
+    "https://www.lightreading.com/mobile/spectrum/federated-wireless-raises-$51m-in-series-c-from-sba-american-tower-others/d/d-id/753859",
+    "https://globalventuring.com/blog/2019/09/05/federated-wireless-51m-series-c/"
+   ]
+  },
+  {
+   "id": "ntia-wif",
+   "name": "Public Wireless Supply Chain Innovation Fund (NTIA)",
+   "short": "Wireless Innovation Fund",
+   "category": "Programmes & testbeds",
+   "region": "Washington DC & Maryland",
+   "role": null,
+   "org": null,
+   "address": "Washington, DC",
+   "lat": 38.8939,
+   "lng": -77.0283,
+   "precision": "City",
+   "description": "$1.5 billion NTIA grant fund from the CHIPS and Science Act for open and interoperable wireless networks (Open RAN). Awarded DeepSig grants in 2023 and 2025.",
+   "sources": [
+    "https://www.businesswire.com/news/home/20230809139693/en/DeepSig-Awarded-Grant-from-NTIAs-Public-Wireless-Innovation-Fund-to-Improve-Performance-and-Competitiveness-of-5G-Open-RAN-Air-Interface",
+    "https://businesswire.com/news/home/20250113108539/en/DeepSig-Secures-NTIA-Grant-to-Advance-Telecom-AI-Driven-Spectrum-Sensing",
+    "https://www.commerce.gov/node/5444"
+   ]
+  },
+  {
+   "id": "darpa",
+   "name": "DARPA",
+   "short": "DARPA",
+   "category": "Government & funders",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "675 North Randolph Street, Arlington, VA",
+   "lat": 38.8813,
+   "lng": -77.1162,
+   "precision": "Street address",
+   "description": "US Defense Advanced Research Projects Agency. Funds early-stage defence research, including wireless and spectrum programmes, from Arlington.",
+   "sources": [
+    "https://www.darpa.mil/"
+   ]
+  },
+  {
+   "id": "afventures",
+   "name": "AFWERX AFVentures",
+   "short": "AFVentures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "US Department of the Air Force",
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Commercial investment arm of AFWERX and the Department of the Air Force. Uses SBIR/STTR and STRATFI/TACFI funding ($3 million to $15 million per STRATFI project) to move dual-use startups from prototype to production.",
+   "sources": [
+    "https://v3.afwerx.com/?p=1392",
+    "https://www.afrl.af.mil/News/Article/4119368/afwerx-spacewerx-helping-small-business-innovators-transition-their-technology"
+   ]
+  },
+  {
+   "id": "rajendra-singh",
+   "name": "Rajendra Singh",
+   "short": "Rajendra Singh",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Founder and CEO, Telcom Ventures",
+   "org": "telcom-ventures",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wireless pioneer who founded LCC International. Director at NextNav and Omnispace.",
+   "sources": [
+    "https://uk.marketscreener.com/insider/RAJENDRA-SINGH-A02IPV/network",
+    "https://in.marketscreener.com/insider/RAJENDRA-SINGH-A02IPV"
+   ]
+  },
+  {
+   "id": "chris-moran",
+   "name": "Chris Moran",
+   "short": "Chris Moran",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "role": "Vice President and General Manager, Lockheed Martin Ventures",
+   "org": "lm-ventures",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Lockheed Martin's venture fund.",
+   "sources": [
+    "https://news.lockheedmartin.com/2026-07-16-Lockheed-Martin-Earmarks-100-Million-for-Venture-Capital-Investments-in-U-K-,-Europe"
+   ]
+  },
+  {
+   "id": "mina-faltas",
+   "name": "Mina Faltas",
+   "short": "Mina Faltas",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "role": "Founder and Chief Investment Officer, Washington Harbour Partners",
+   "org": "washington-harbour",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Sits on boards including Raft and Epirus.",
+   "sources": [
+    "https://f4.fund/firms/washington-harbour-partners",
+    "https://www.commerce.virginia.edu/mina-faltas"
+   ]
+  },
+  {
+   "id": "tom-weithman",
+   "name": "Tom Weithman",
+   "short": "Tom Weithman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Investment Officer, VIPC; Managing Director, Virginia Venture Partners",
+   "org": "vipc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads VIPC's investment programmes.",
+   "sources": [
+    "https://www.vabio.org/?p=1650",
+    "https://siliconvalleyinvestclub.com/investors/virginia-venture-partners/"
+   ]
+  },
+  {
+   "id": "cyber-bytes",
+   "name": "Cyber Bytes Foundation",
+   "short": "Cyber Bytes",
+   "category": "Programmes & testbeds",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "Quantico Corporate Center, Stafford, VA",
+   "lat": 38.4887,
+   "lng": -77.376,
+   "precision": "City",
+   "description": "Non-profit running the Quantico Cyber Hub and the American Cyber League Innovation & Technology Cyber Labs in Stafford County's Quantico HUBZone (opened 2021). The hub hosts Insight Public Sector's vendor-agnostic 5G lab for federal and DoD clients to build and stress-test private LTE, 5G and CBRS. Has hosted Marine Corps research agreements with local firms.",
+   "sources": [
+    "https://mytechdecisions.com/?p=34315",
+    "https://www.insight.com/en_US/content-and-resources/blog/test-and-play-with-military-5g-communications-in-the-quantico-cyber-hub.html",
+    "https://s3.amazonaws.com/ss-usa/companies/MzawMLEwNrYwAwA/uploads/CBF_CRADA.pdf"
+   ]
+  },
+  {
+   "id": "cesar-nader",
+   "name": "Cesar Nader",
+   "short": "Cesar Nader",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Founder and Executive Director, Cyber Bytes Foundation",
+   "org": "cyber-bytes",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founded the Cyber Bytes Foundation and its Quantico technology labs.",
+   "sources": [
+    "https://www.hpcwire.com/off-the-wire/cyber-bytes-foundation-holds-grand-opening/"
+   ]
   }
  ],
  "edges": [
@@ -24561,6 +25062,174 @@
    "type": "Partnership / project",
    "label": "O-RAN 5G base station",
    "source": "https://www.lightreading.com/asia/taiwan-tech-firms-chase-5g-private-network-sales/d/d-id/772639"
+  },
+  {
+   "from": "rajendra-singh",
+   "to": "telcom-ventures",
+   "type": "Role",
+   "label": "Founder and CEO, Telcom Ventures",
+   "source": "https://uk.marketscreener.com/insider/RAJENDRA-SINGH-A02IPV/network"
+  },
+  {
+   "from": "chris-moran",
+   "to": "lm-ventures",
+   "type": "Role",
+   "label": "Vice President and General Manager, Lockheed Martin Ventures",
+   "source": "https://news.lockheedmartin.com/2026-07-16-Lockheed-Martin-Earmarks-100-Million-for-Venture-Capital-Investments-in-U-K-,-Europe"
+  },
+  {
+   "from": "mina-faltas",
+   "to": "washington-harbour",
+   "type": "Role",
+   "label": "Founder and Chief Investment Officer, Washington Harbour Partners",
+   "source": "https://f4.fund/firms/washington-harbour-partners"
+  },
+  {
+   "from": "tom-weithman",
+   "to": "vipc",
+   "type": "Role",
+   "label": "Chief Investment Officer, VIPC; Managing Director, Virginia Venture Partners",
+   "source": "https://www.vabio.org/?p=1650"
+  },
+  {
+   "from": "lm-ventures",
+   "to": "lockheed",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://news.lockheedmartin.com/2026-04-14-Lockheed-Martin-Authorizes-Increase-to-Venture-Capital-Fund-up-to-1-Billion"
+  },
+  {
+   "from": "booz-allen-ventures",
+   "to": "booz",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://www.washingtontechnology.com/companies/2025/07/booz-allen-gives-big-boost-its-venture-arm/406862"
+  },
+  {
+   "from": "rtx-ventures",
+   "to": "rtx",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://washingtontechnology.com/companies/2025/06/andurils-series-g-round-and-more-venture-moves-highlight/405983"
+  },
+  {
+   "from": "leawood-vc",
+   "to": "deepsig",
+   "type": "Funding",
+   "label": "Led $5m Series A (2020)",
+   "source": "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl"
+  },
+  {
+   "from": "lm-ventures",
+   "to": "deepsig",
+   "type": "Funding",
+   "label": "Series A (2020)",
+   "source": "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl"
+  },
+  {
+   "from": "scout-ventures",
+   "to": "deepsig",
+   "type": "Funding",
+   "label": "Series A (2020)",
+   "source": "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl"
+  },
+  {
+   "from": "blu-venture",
+   "to": "deepsig",
+   "type": "Funding",
+   "label": "Series A (2020)",
+   "source": "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl"
+  },
+  {
+   "from": "stonemill-ventures",
+   "to": "deepsig",
+   "type": "Funding",
+   "label": "Series A (2020)",
+   "source": "https://seedtable.com/companies/deepsig/funding-rounds/series-a-2020/changelog"
+  },
+  {
+   "from": "vipc",
+   "to": "deepsig",
+   "type": "Funding",
+   "label": "Commonwealth of Virginia investment",
+   "source": "https://www.vcbacked.co/company/deepsig"
+  },
+  {
+   "from": "ntia",
+   "to": "ntia-wif",
+   "type": "Partnership / project",
+   "label": "Administers the fund",
+   "source": "https://www.businesswire.com/news/home/20230809139693/en/DeepSig-Awarded-Grant-from-NTIAs-Public-Wireless-Innovation-Fund-to-Improve-Performance-and-Competitiveness-of-5G-Open-RAN-Air-Interface"
+  },
+  {
+   "from": "ntia-wif",
+   "to": "deepsig",
+   "type": "Funding",
+   "label": "Grants for Open RAN AI (2023) and spectrum sensing (2025)",
+   "source": "https://businesswire.com/news/home/20250113108539/en/DeepSig-Secures-NTIA-Grant-to-Advance-Telecom-AI-Driven-Spectrum-Sensing"
+  },
+  {
+   "from": "allied-minds",
+   "to": "federated-wireless",
+   "type": "Funding",
+   "label": "Founded the company (2012); Series A to C",
+   "source": "https://globalventuring.com/university/federated-wireless-51m-series-c/?format=md"
+  },
+  {
+   "from": "american-tower",
+   "to": "federated-wireless",
+   "type": "Funding",
+   "label": "Co-led Series B (2017); Series C (2019)",
+   "source": "https://globalventuring.com/blog/2019/09/05/federated-wireless-51m-series-c/"
+  },
+  {
+   "from": "charter",
+   "to": "federated-wireless",
+   "type": "Funding",
+   "label": "Co-led Series B (2017)",
+   "source": "https://globalventuring.com/blog/2019/09/05/federated-wireless-51m-series-c/"
+  },
+  {
+   "from": "gic",
+   "to": "federated-wireless",
+   "type": "Funding",
+   "label": "Series B and C",
+   "source": "https://www.lightreading.com/mobile/spectrum/federated-wireless-raises-$51m-in-series-c-from-sba-american-tower-others/d/d-id/753859"
+  },
+  {
+   "from": "sba-communications",
+   "to": "federated-wireless",
+   "type": "Funding",
+   "label": "Series C (2019)",
+   "source": "https://www.lightreading.com/mobile/spectrum/federated-wireless-raises-$51m-in-series-c-from-sba-american-tower-others/d/d-id/753859"
+  },
+  {
+   "from": "vipc",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "vc-in-dc",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Based at the Crystal Drive hub",
+   "source": "https://luma.com/y5ire5a5"
+  },
+  {
+   "from": "svdg",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Based at the Crystal Drive hub; sponsor",
+   "source": "https://luma.com/y5ire5a5"
+  },
+  {
+   "from": "cesar-nader",
+   "to": "cyber-bytes",
+   "type": "Role",
+   "label": "Founder and Executive Director, Cyber Bytes Foundation",
+   "source": "https://www.hpcwire.com/off-the-wire/cyber-bytes-foundation-holds-grand-opening/"
   }
  ]
 }
