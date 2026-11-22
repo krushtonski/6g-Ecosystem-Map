@@ -15266,6 +15266,25 @@
    "sources": [
     "https://hgi.rub.de/en/news/newsarchiv/hginews/von-5g-zu-6g"
    ]
+  },
+  {
+   "id": "fairwinds",
+   "name": "Fairwinds Technologies",
+   "short": "Fairwinds",
+   "category": "Defence & integrators",
+   "region": "Washington DC & Maryland",
+   "role": null,
+   "org": null,
+   "address": "Annapolis, MD",
+   "lat": 38.9784,
+   "lng": -76.4922,
+   "precision": "City",
+   "description": "Private company founded in 2016 that designs communications, networking and IT products for military, defence and civilian agencies. Classed as a wireless communications equipment manufacturer. Sites include Aberdeen Proving Ground (MD) and Melbourne (FL). Runs mixed-signal R&D and IR&D spanning RF systems, FPGA and firmware, software control, and integration and test.",
+   "sources": [
+    "https://craft.co/fairwinds-technologies",
+    "https://naicslist.com/company-profile/fairwinds-technologies-llc-annapolis-md-21403",
+    "https://www.fairwinds-tech.com"
+   ]
   }
  ],
  "edges": [
