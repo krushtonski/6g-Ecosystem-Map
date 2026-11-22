@@ -13245,6 +13245,193 @@
     "https://swfound.org/about-us/our-advisory-committee/ms-ruth-pritchard-kelly",
     "https://law.unl.edu/node/818/"
    ]
+  },
+  {
+   "id": "spark-nz",
+   "name": "Spark New Zealand",
+   "short": "Spark",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Spark City, 167 Victoria Street West, Auckland",
+   "lat": -36.8475,
+   "lng": 174.757,
+   "precision": "Street address",
+   "description": "New Zealand's largest operator by mobile share. Launched satellite-to-mobile on SpaceX's Starlink direct-to-cell network in April 2026. Signed the GSMA Open Gateway MoU with One NZ and 2degrees (March 2026) to build shared network APIs. Co-owns the Rural Connectivity Group.",
+   "sources": [
+    "https://www.scoop.co.nz/stories/SC2604/S00021.htm",
+    "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/new-zealand-telcos-announce-new-collaboration-that-will-enable-real-time-fraud-and-scam-protections-for-customers/",
+    "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf"
+   ]
+  },
+  {
+   "id": "2degrees",
+   "name": "2degrees",
+   "short": "2degrees",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Auckland, New Zealand",
+   "lat": -36.8485,
+   "lng": 174.7633,
+   "precision": "City",
+   "description": "New Zealand mobile operator. Proposed in August 2026 to combine its radio access network with One NZ's in a jointly owned wholesale company (RANCo), citing faster access to technologies such as 6G. Co-owns the Rural Connectivity Group and signed the GSMA Open Gateway MoU.",
+   "sources": [
+    "https://www.2degrees.nz/media-release/improving-aotearoas-mobile-networks",
+    "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/new-zealand-telcos-announce-new-collaboration-that-will-enable-real-time-fraud-and-scam-protections-for-customers/",
+    "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf"
+   ]
+  },
+  {
+   "id": "ranco",
+   "name": "RANCo (One NZ and 2degrees RAN joint venture)",
+   "short": "RANCo",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "New Zealand (proposed)",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "description": "Proposed 50/50 joint venture combining One NZ's and 2degrees' radio access network equipment into a wholesale company that sells capacity back to both. Each operator keeps its own spectrum, core network, fibre backhaul and satellite assets. Needs Commerce Commission and Overseas Investment Office approval; completion targeted for the first half of 2027.",
+   "sources": [
+    "https://media.one.nz/one-nz-and-2degrees-propose-new-mobile-network-infrastructure-sharing-platform",
+    "https://www.2degrees.nz/media-release/improving-aotearoas-mobile-networks",
+    "https://www.mlex.com/mlex/articles/2532464"
+   ]
+  },
+  {
+   "id": "rcg-nz",
+   "name": "Rural Connectivity Group (RCG)",
+   "short": "RCG",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Lumley Centre, 88 Shortland Street, Auckland",
+   "lat": -36.846,
+   "lng": 174.769,
+   "precision": "Street address",
+   "description": "Joint venture of Spark, One NZ and 2degrees that builds and runs a shared rural mobile network (600 sites by 2026), contracted by the government's Crown Infrastructure Partners (now National Infrastructure Funding and Financing).",
+   "sources": [
+    "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf",
+    "https://thercg.co.nz/"
+   ]
+  },
+  {
+   "id": "tait",
+   "name": "Tait Communications",
+   "short": "Tait",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "245 Wooldridge Road, Christchurch",
+   "lat": -43.4805,
+   "lng": 172.55,
+   "precision": "Street address",
+   "description": "Christchurch-headquartered critical communications company. Its TAIT AXIOM range converges land mobile radio with LTE, satellite and Wi-Fi. Building New Zealand's 500-site digital LMR network for the Public Safety Network. Works closely with the University of Canterbury's Wireless Research Centre.",
+   "sources": [
+    "https://www.taitcommunications.com/about-us",
+    "https://taitcommunications.com",
+    "https://www.taitcommunications.com/en/about-us/news/tait-talks-why-first-responders-need-an-encrypted-radio-network",
+    "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/wireless-research-centre/collaborate-with-wrc"
+   ]
+  },
+  {
+   "id": "mimomax",
+   "name": "MiMOMax Wireless",
+   "short": "MiMOMax",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "540 Wairakei Road, Christchurch",
+   "lat": -43.49,
+   "lng": 172.564,
+   "precision": "Street address",
+   "description": "Christchurch company that applies MIMO to narrowband licensed radio channels, making highly spectrum-efficient, low-latency links for utility SCADA and mission-critical networks. Works closely with the University of Canterbury's Wireless Research Centre.",
+   "sources": [
+    "https://www.criticalcommunicationsreview.com/ccr/company/54250/mimomax-wireless",
+    "https://www.rsm.govt.nz/assets/Uploads/documents/consultations/2016-174-230-mhz-band-III/8dd44677c3/mimomax-submission-band-III-allocation-.pdf",
+    "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/wireless-research-centre/collaborate-with-wrc"
+   ]
+  },
+  {
+   "id": "canterbury",
+   "name": "University of Canterbury (Wireless Research Centre)",
+   "short": "UC",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "NZi3, University of Canterbury, Christchurch",
+   "lat": -43.5225,
+   "lng": 172.583,
+   "precision": "Campus",
+   "description": "Home of the Wireless Research Centre, New Zealand's only research centre focused on wireless, which works with Tait, MiMOMax and avionics and defence partners on MIMO, software-defined radio and IoT. Its Communications Research Group (UCCRG) researches coding, space-time processing, smart antennas and cognitive radio.",
+   "sources": [
+    "https://www.canterbury.ac.nz/study/academic-study/engineering/research-engineering-forestry-product-design/wireless-research-centre",
+    "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/wireless-research-centre/collaborate-with-wrc",
+    "https://canterbury.ac.nz/engineering/schools/ece/research/communications/"
+   ]
+  },
+  {
+   "id": "auckland-uni",
+   "name": "University of Auckland",
+   "short": "Auckland",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Faculty of Engineering, 20 Symonds Street, Auckland",
+   "lat": -36.8523,
+   "lng": 174.7691,
+   "precision": "Campus",
+   "description": "Its telecommunications and electromagnetics group researches radio wave propagation in New Zealand environments, indoor wireless design, interference and microwave engineering.",
+   "sources": [
+    "https://www.auckland.ac.nz/en/engineering/our-research/engineering-research/research-areas-and-facilities/telecommunications-and-electromagnetics.html"
+   ]
+  },
+  {
+   "id": "rsm-nz",
+   "name": "Radio Spectrum Management (RSM), MBIE",
+   "short": "RSM",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Wellington, New Zealand",
+   "lat": -41.281,
+   "lng": 174.777,
+   "precision": "City",
+   "description": "Business unit of the Ministry of Business, Innovation and Employment that manages New Zealand's radio spectrum. Opened the lower 6 GHz band (5925 to 6425 MHz) to Wi-Fi and is monitoring international decisions on the upper 6 GHz band for mobile (IMT). Implements the 2022 Crown and Māori spectrum agreement with the Māori Spectrum Working Group.",
+   "sources": [
+    "https://www.mbie.govt.nz/science-and-technology/it-communications-and-broadband/radio-spectrum",
+    "https://www.rsm.govt.nz/projects-and-auctions/consultations/planning-for-wlan-use-in-the-6-ghz-band/",
+    "https://rsm.govt.nz/about/publications/spectrum-outlook-and-annual-reports/new-zealand-spectrum-outlook-2023-management/upcoming-projects-2023-to-2027"
+   ]
+  },
+  {
+   "id": "gsma",
+   "name": "GSMA",
+   "short": "GSMA",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "London, UK",
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "precision": "City",
+   "description": "Global mobile operator association. Runs Open Gateway, a framework of standardised network APIs built on the CAMARA open-source project.",
+   "sources": [
+    "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/new-zealand-telcos-announce-new-collaboration-that-will-enable-real-time-fraud-and-scam-protections-for-customers/",
+    "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/?p=47817"
+   ]
   }
  ],
  "edges": [
@@ -20772,6 +20959,83 @@
    "type": "Role",
    "label": "Space, Cyber and Telecommunications Law programme (advisory board; teaching)",
    "source": "https://law.unl.edu/node/818/"
+  },
+  {
+   "from": "one-nz",
+   "to": "ranco",
+   "type": "Partnership / project",
+   "label": "50% owner (proposed, 2026)",
+   "source": "https://media.one.nz/one-nz-and-2degrees-propose-new-mobile-network-infrastructure-sharing-platform"
+  },
+  {
+   "from": "2degrees",
+   "to": "ranco",
+   "type": "Partnership / project",
+   "label": "50% owner (proposed, 2026)",
+   "source": "https://www.2degrees.nz/media-release/improving-aotearoas-mobile-networks"
+  },
+  {
+   "from": "spark-nz",
+   "to": "rcg-nz",
+   "type": "Partnership / project",
+   "label": "Joint venture owner",
+   "source": "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf"
+  },
+  {
+   "from": "one-nz",
+   "to": "rcg-nz",
+   "type": "Partnership / project",
+   "label": "Joint venture owner",
+   "source": "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf"
+  },
+  {
+   "from": "2degrees",
+   "to": "rcg-nz",
+   "type": "Partnership / project",
+   "label": "Joint venture owner",
+   "source": "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf"
+  },
+  {
+   "from": "spark-nz",
+   "to": "gsma",
+   "type": "Membership",
+   "label": "GSMA Open Gateway MoU (March 2026)",
+   "source": "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/new-zealand-telcos-announce-new-collaboration-that-will-enable-real-time-fraud-and-scam-protections-for-customers/"
+  },
+  {
+   "from": "one-nz",
+   "to": "gsma",
+   "type": "Membership",
+   "label": "GSMA Open Gateway MoU (March 2026)",
+   "source": "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/new-zealand-telcos-announce-new-collaboration-that-will-enable-real-time-fraud-and-scam-protections-for-customers/"
+  },
+  {
+   "from": "2degrees",
+   "to": "gsma",
+   "type": "Membership",
+   "label": "GSMA Open Gateway MoU (March 2026)",
+   "source": "https://www.gsma.com/solutions-and-impact/gsma-open-gateway/new-zealand-telcos-announce-new-collaboration-that-will-enable-real-time-fraud-and-scam-protections-for-customers/"
+  },
+  {
+   "from": "tait",
+   "to": "canterbury",
+   "type": "Research together",
+   "label": "Works closely with the Wireless Research Centre",
+   "source": "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/wireless-research-centre/collaborate-with-wrc"
+  },
+  {
+   "from": "mimomax",
+   "to": "canterbury",
+   "type": "Research together",
+   "label": "Works closely with the Wireless Research Centre",
+   "source": "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/wireless-research-centre/collaborate-with-wrc"
+  },
+  {
+   "from": "spark-nz",
+   "to": "spacex",
+   "type": "Partnership / project",
+   "label": "Starlink direct-to-cell (launched April 2026)",
+   "source": "https://www.scoop.co.nz/stories/SC2604/S00021.htm"
   }
  ]
 }
