@@ -6641,16 +6641,17 @@
    "short": "",
    "category": "Person",
    "region": "Northern Virginia",
-   "role": "Chair, National Spectrum Consortium",
+   "role": "Chairman, National Spectrum Consortium; Co-Founder, Federal AI Accelerator",
    "org": "nsc",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Chair of the National Spectrum Consortium, which oversees a 350+ member ecosystem and the OTA contracting vehicle for DoW next-generation wireless prototypes. Long-time Federated Wireless executive (VP Federal) and former Wireless Innovation Forum board member. Previously chaired NSC 2019 to 2021.",
+   "description": "Chair of the National Spectrum Consortium, which oversees a 350+ member ecosystem and the OTA contracting vehicle for DoW next-generation wireless prototypes. Co-founder of the Federal AI Accelerator, a Carahsoft event series. Long-time Federated Wireless executive (VP Federal) and former Wireless Innovation Forum board member. Previously chaired NSC 2019 to 2021. Speaker at FedInsider's NextGen Cellular Networks event.",
    "sources": [
     "https://fierce-network.com/tech/new-head-national-spectrum-consortium-sizes-sharing-open-ran",
-    "https://intelligencecommunitynews.com/lizy-paul-named-national-spectrum-consortium-chair/"
+    "https://intelligencecommunitynews.com/lizy-paul-named-national-spectrum-consortium-chair/",
+    "https://www.fedinsider.com/nextgen-cellular-networks/"
    ]
   },
   {
@@ -20617,7 +20618,7 @@
    "from": "salvador-ditri",
    "to": "nsc",
    "type": "Role",
-   "label": "Chair",
+   "label": "Chairman, National Spectrum Consortium",
    "source": "https://fierce-network.com/tech/new-head-national-spectrum-consortium-sizes-sharing-open-ran"
   },
   {
