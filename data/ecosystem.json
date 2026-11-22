@@ -16420,6 +16420,24 @@
     "https://www.fedinsider.com/nextgen-cellular-networks/",
     "https://tmt.knect365.com/network-x-americas/speakers/brian-vu"
    ]
+  },
+  {
+   "id": "anthony-lawson",
+   "name": "Anthony Lawson",
+   "short": "Anthony Lawson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Field Chief Technology Officer, Ericsson",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Enterprise networking leader with over 25 years across wired and Wi-Fi infrastructure, 5G cellular, Secure Access Service Edge (SASE) and AI-driven network management. Speaker at FedInsider's NextGen Cellular Networks event.",
+   "sources": [
+    "https://www.fedinsider.com/nextgen-cellular-networks/",
+    "https://nrfbigshow.nrf.com/speaker/anthony-lawson"
+   ]
   }
  ],
  "edges": [
@@ -25346,6 +25364,13 @@
    "to": "gsa",
    "type": "Role",
    "label": "Technical Program Manager, General Services Administration",
+   "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
+  },
+  {
+   "from": "anthony-lawson",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Field Chief Technology Officer, Ericsson",
    "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
   }
  ]
