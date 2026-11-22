@@ -7318,10 +7318,11 @@
    "lng": -77.1135,
    "precision": "Campus",
    "website": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/",
-   "description": "The Coast Guard's Command, Control, Communication, Computer, Cyber and Intelligence Service Center. Provides depot-level support for all Coast Guard C5I capabilities, with a workforce of over 2,000 civilians, service members and contractors. Includes a deployable connectivity section working on WAN architecture and next-generation deployable networks.",
+   "description": "The Coast Guard's Command, Control, Communication, Computer, Cyber and Intelligence Service Center. Provides depot-level support for all Coast Guard C5I capabilities, with a workforce of over 2,000 civilians, service members and contractors. Includes a deployable connectivity section working on WAN architecture and next-generation deployable networks, which led the cutter connectivity upgrade completed in 2025.",
    "sources": [
     "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/",
-    "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/Leadership"
+    "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/Leadership",
+    "https://www.mycg.uscg.mil/News/Article/4200463/cutter-connectivity-is-faster-than-ever-before/"
    ]
   },
   {
