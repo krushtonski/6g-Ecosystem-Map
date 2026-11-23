@@ -19523,6 +19523,530 @@
    "sources": [
     "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
    ]
+  },
+  {
+   "id": "hse-tri",
+   "name": "HSE University Telecommunications Research Institute (MIEM)",
+   "short": "HSE Telecom Research Institute",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.754,
+   "lng": 37.648,
+   "precision": "City",
+   "description": "Telecoms institute at HSE University's Tikhonov Moscow Institute of Electronics and Mathematics (MIEM). Demonstrated a sub-THz 6G link (141 to 164 GHz, 12 Gbps, automatic switching when blocked). Runs the Priority 2030 project \"Trusted 6G Communication Systems Technology Suite\", a 5G/6G research testbed and terahertz neuromorphic circuit research. Partners with Moscow DIT on 5G and 6G.",
+   "sources": [
+    "https://hse.ru/en/news/1021176001.html",
+    "https://www.hse.ru/en/news/priority/1093023536.html",
+    "https://www.hse.ru/en/news/priority/1198407152.html",
+    "https://www.hse.ru/en/news/priority/1194248481.html",
+    "https://apiks.hse.ru/en/news/priority/1093023536.html"
+   ]
+  },
+  {
+   "id": "skoltech-wireless",
+   "name": "Skoltech Project Center for Next Generation Wireless and IoT",
+   "short": "Skoltech Wireless",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.6984,
+   "lng": 37.3592,
+   "precision": "City",
+   "description": "Skoltech centre developing 5G solutions, Open RAN, private 5G and hybrid non-terrestrial networks, plus a 6G Technologies Laboratory. In August 2025 it won a Ministry of Digital Development subsidy for critical 5G-Advanced and 6G equipment technologies (three years).",
+   "sources": [
+    "https://skoltech.ru/en/news/skoltech-wins-support-from-the-ministry-of-digital-development-for-5G-advanced-and-6G-communication-networks-project",
+    "https://skoltech.ru/en/center/project-wireless",
+    "https://skoltech.ru/en/news/code-future-skoltech-develops-faster-and-more-reliable-solution-6g-networks"
+   ]
+  },
+  {
+   "id": "nic-telecom",
+   "name": "NIC Telecom (National Research Centre for Telecommunications, formerly NIIR)",
+   "short": "NIC Telecom",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.7616,
+   "lng": 37.61,
+   "precision": "City",
+   "description": "Russia's state telecoms research centre under the Ministry of Digital Development. Formed from the Radio Research and Development Institute (NIIR) and absorbed ZNIIS; renamed in January 2025. Leads Russian 6G spectrum analysis ahead of WRC-27 and, with Skoltech, the state 6G foundation work.",
+   "sources": [
+    "https://habr.com/en/news/875872",
+    "https://www.comnews.ru/content/237312/2025-01-22/2025-w04/1010/niir-smenil-nazvanie-nic-telekom",
+    "https://habr.com/en/news/960152",
+    "https://www1.ru/en/news/2026/04/05/6g-v-rossii-fundament-dlia-sviazi-sleduiushhego-pokoleniia-poiavitsia-k-2032-godu-pilotnye-zony-k-2028.html"
+   ]
+  },
+  {
+   "id": "mintsifry",
+   "name": "Ministry of Digital Development, Communications and Mass Media (Russia)",
+   "short": "Mintsifry",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.752,
+   "lng": 37.6,
+   "precision": "City",
+   "description": "Russian federal ministry for telecoms. Allocated a 750m rouble subsidy for 6G foundation work by Skoltech and NIC Telecom, with first pilot zones planned by 2028. Says a 6G standard may be approved by 2028 to 2030.",
+   "sources": [
+    "https://www1.ru/en/news/2026/04/05/6g-v-rossii-fundament-dlia-sviazi-sleduiushhego-pokoleniia-poiavitsia-k-2032-godu-pilotnye-zony-k-2028.html",
+    "https://anhor.uz/world/6g/",
+    "https://www1.ru/en/news/2025/07/22/pervye-otecestvennye-bazovye-stancii-dlia-setei-4g-i-5g-nacnut-ustanavlivat-v-rossii-v-2026-godu.html"
+   ]
+  },
+  {
+   "id": "moscow-dit",
+   "name": "Moscow Department of Information Technology (DIT)",
+   "short": "Moscow DIT",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.76,
+   "lng": 37.62,
+   "precision": "City",
+   "description": "Moscow city IT department. Signed a partnership with HSE University to advance 5G and 6G networks.",
+   "sources": [
+    "https://apiks.hse.ru/en/news/priority/1093023536.html"
+   ]
+  },
+  {
+   "id": "ics-holding",
+   "name": "ICS Holding",
+   "short": "ICS Holding",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.765,
+   "lng": 37.59,
+   "precision": "City",
+   "description": "Russian technology holding that owns Yadro and Bureau 1440.",
+   "sources": [
+    "https://habr.com/ru/articles/1020532",
+    "https://www.themoscowtimes.com/2026/03/24/russian-aerospace-company-launches-first-batch-of-starlink-rival-satellites-a92318/pdf"
+   ]
+  },
+  {
+   "id": "yadro",
+   "name": "Yadro",
+   "short": "Yadro",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.77,
+   "lng": 37.63,
+   "precision": "City",
+   "description": "ICS Holding's server and telecoms hardware maker. Builds domestic base stations (BTS8100). Invested 30bn roubles in base stations from 2022 to 2025 and plans another 30bn in 2026. Supplies MegaFon, Beeline (VimpelCom) and Rostelecom.",
+   "sources": [
+    "https://habr.com/ru/articles/1020532",
+    "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona",
+    "https://mintrans.gov.ru/eye/press-center/branch-news/8741"
+   ]
+  },
+  {
+   "id": "irteya",
+   "name": "Irteya",
+   "short": "Irteya",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.745,
+   "lng": 37.6,
+   "precision": "City",
+   "description": "Russian base station maker. Has a forward contract to supply MTS with about 20,000 base stations by 2030 and also supplies VimpelCom. Expects to ship about 3,000 base stations in 2026. Russian components make up under 5% of its 5G-capable stations, with a 30% target by 2028.",
+   "sources": [
+    "https://www.akm.ru/eng/news/mts-will-install-a-batch-of-domestic-base-stations-on-its-network-by-2027/",
+    "https://www1.ru/en/news/2026/09/12/435295-dolia-rossiiskix-komponentov-v-5g-bazovyx-stanciiax-irteia-poka-ne-prevysaet-5.html",
+    "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona"
+   ]
+  },
+  {
+   "id": "bulat",
+   "name": "Bulat",
+   "short": "Bulat",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.75,
+   "lng": 37.58,
+   "precision": "City",
+   "description": "Rostelecom subsidiary developing Russian 2G/4G base stations. Rostelecom is folding it into a new equipment holding based on its subsidiary Technowave. Supplies Rostelecom and MegaFon.",
+   "sources": [
+    "https://interfax.com/newsroom/top-stories/117624/",
+    "https://mintrans.gov.ru/eye/press-center/branch-news/8741"
+   ]
+  },
+  {
+   "id": "rostelecom",
+   "name": "Rostelecom",
+   "short": "Rostelecom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.758,
+   "lng": 37.642,
+   "precision": "City",
+   "description": "Russia's state-backed national telecoms operator. Owns base station developer Bulat and buys Yadro equipment. Says Russia must free 5G spectrum and settle its domestic-equipment network architecture before 6G work begins.",
+   "sources": [
+    "https://interfax.com/newsroom/top-stories/117624/",
+    "https://mintrans.gov.ru/eye/press-center/branch-news/8741",
+    "https://anhor.uz/world/6g/"
+   ]
+  },
+  {
+   "id": "mts",
+   "name": "MTS (Mobile TeleSystems)",
+   "short": "MTS",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.733,
+   "lng": 37.588,
+   "precision": "City",
+   "description": "Major Russian mobile operator and Irteya's anchor customer, rolling out thousands of domestic base stations. Says 5G spectrum and network architecture must come before 6G.",
+   "sources": [
+    "https://www.akm.ru/eng/news/mts-will-install-a-batch-of-domestic-base-stations-on-its-network-by-2027/",
+    "https://zoom.cnews.ru/news/item/682972",
+    "https://anhor.uz/world/6g/"
+   ]
+  },
+  {
+   "id": "megafon",
+   "name": "MegaFon",
+   "short": "MegaFon",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.781,
+   "lng": 37.59,
+   "precision": "City",
+   "description": "Major Russian mobile operator. Taking 1,500 Yadro base stations in 2026 and also buys from Bulat.",
+   "sources": [
+    "https://zoom.cnews.ru/news/item/682972",
+    "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona",
+    "https://mintrans.gov.ru/eye/press-center/branch-news/8741"
+   ]
+  },
+  {
+   "id": "vimpelcom",
+   "name": "VimpelCom (Beeline)",
+   "short": "VimpelCom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.793,
+   "lng": 37.55,
+   "precision": "City",
+   "description": "Major Russian mobile operator (Beeline brand). Installing Yadro and Irteya base stations. Says 5G spectrum and the move off 2G/3G must come before 6G.",
+   "sources": [
+    "https://zoom.cnews.ru/news/item/682972",
+    "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona",
+    "https://anhor.uz/world/6g/"
+   ]
+  },
+  {
+   "id": "protey",
+   "name": "STC PROTEY",
+   "short": "PROTEY",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "St Petersburg, Russia",
+   "lat": 59.9311,
+   "lng": 30.3609,
+   "precision": "City",
+   "description": "St Petersburg developer of mobile core network software. Signed its first export deal in 2025, supplying a network core for base stations in Afghanistan.",
+   "sources": [
+    "https://www1.ru/news/2025/06/05/afganistanskie-partnery-rossiiskii-telekom-razrabotcik-protei-vyxodit-na-rynok-regiona.html"
+   ]
+  },
+  {
+   "id": "bureau-1440",
+   "name": "Bureau 1440",
+   "short": "Bureau 1440",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.77,
+   "lng": 37.57,
+   "precision": "City",
+   "description": "ICS Holding company building Rassvet, a Russian LEO broadband constellation using 5G NTN and laser inter-satellite links. Launched its first 16 production satellites on 23 March 2026 and a second batch in July 2026. Plans commercial service in 2027 and up to 900 satellites by 2035.",
+   "sources": [
+    "https://www.janes.com/defence-intelligence-insights/defence-news/air/russia-conducts-yars-drills-launches-rassvet-communications-satellites",
+    "https://www.themoscowtimes.com/2026/03/24/russian-aerospace-company-launches-first-batch-of-starlink-rival-satellites-a92318/pdf",
+    "https://russianspaceweb.com/buro1440-2026-0719.html",
+    "https://www.kyivpost.com/amp/post/77616"
+   ]
+  },
+  {
+   "id": "mobile-research-group",
+   "name": "Mobile Research Group",
+   "short": "Mobile Research Group",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.74,
+   "lng": 37.63,
+   "precision": "City",
+   "description": "Russian mobile industry analysis group.",
+   "sources": [
+    "https://hi-tech.mail.ru/experts/738-eldar-murtazin/"
+   ]
+  },
+  {
+   "id": "evgeny-koucheryavy",
+   "name": "Evgeny Koucheryavy",
+   "short": "Evgeny Koucheryavy",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, HSE Telecommunications Research Institute",
+   "org": "hse-tri",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Directs HSE's Telecommunications Research Institute and leads its sub-THz 6G work.",
+   "sources": [
+    "https://hse.ru/en/news/1021176001.html",
+    "https://www.hse.ru/en/news/priority/1093023536.html"
+   ]
+  },
+  {
+   "id": "alexey-frolov",
+   "name": "Alexey Frolov",
+   "short": "Alexey Frolov",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Skoltech Project Center for Next Generation Wireless and IoT",
+   "org": "skoltech-wireless",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Full professor and director of Skoltech's wireless centre. Head of its 6G Technologies Laboratory.",
+   "sources": [
+    "https://skoltech.ru/en/news/skoltech-wins-support-from-the-ministry-of-digital-development-for-5G-advanced-and-6G-communication-networks-project",
+    "https://skoltech.ru/en/news/code-future-skoltech-develops-faster-and-more-reliable-solution-6g-networks"
+   ]
+  },
+  {
+   "id": "evgeny-devyatkin",
+   "name": "Evgeny Devyatkin",
+   "short": "Evgeny Devyatkin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Centre for Advanced Wireless Communications Research, NIC Telecom",
+   "org": "nic-telecom",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads NIC Telecom's advanced wireless research, including Russia's 6G spectrum analysis for WRC-27.",
+   "sources": [
+    "https://habr.com/en/news/960152"
+   ]
+  },
+  {
+   "id": "maksut-shadayev",
+   "name": "Maksut Shadayev",
+   "short": "Maksut Shadayev",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Minister of Digital Development",
+   "org": "mintsifry",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Russian Minister of Digital Development, Communications and Mass Media.",
+   "sources": [
+    "https://www1.ru/en/news/2025/07/22/pervye-otecestvennye-bazovye-stancii-dlia-setei-4g-i-5g-nacnut-ustanavlivat-v-rossii-v-2026-godu.html"
+   ]
+  },
+  {
+   "id": "alexei-shelobkov",
+   "name": "Alexei Shelobkov",
+   "short": "Alexei Shelobkov",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, ICS Holding",
+   "org": "ics-holding",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of ICS Holding, parent of Yadro and Bureau 1440.",
+   "sources": [
+    "https://habr.com/ru/articles/1020532",
+    "https://www.themoscowtimes.com/2026/03/24/russian-aerospace-company-launches-first-batch-of-starlink-rival-satellites-a92318/pdf"
+   ]
+  },
+  {
+   "id": "dmitry-lakontsev",
+   "name": "Dmitry Lakontsev",
+   "short": "Dmitry Lakontsev",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Irteya",
+   "org": "irteya",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of base station maker Irteya.",
+   "sources": [
+    "https://www1.ru/en/news/2026/09/12/435295-dolia-rossiiskix-komponentov-v-5g-bazovyx-stanciiax-irteia-poka-ne-prevysaet-5.html"
+   ]
+  },
+  {
+   "id": "alexander-loginov",
+   "name": "Alexander Loginov",
+   "short": "Alexander Loginov",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Bulat and Rostelecom equipment holding",
+   "org": "bulat",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Bulat and of Rostelecom's new equipment holding. Also a Rostelecom deputy CEO.",
+   "sources": [
+    "https://interfax.com/newsroom/top-stories/117624/"
+   ]
+  },
+  {
+   "id": "mikhail-oseyevsky",
+   "name": "Mikhail Oseyevsky",
+   "short": "Mikhail Oseyevsky",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Rostelecom",
+   "org": "rostelecom",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Rostelecom.",
+   "sources": [
+    "https://interfax.com/newsroom/top-stories/117624/"
+   ]
+  },
+  {
+   "id": "inessa-galaktionova",
+   "name": "Inessa Galaktionova",
+   "short": "Inessa Galaktionova",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, MTS",
+   "org": "mts",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of MTS.",
+   "sources": [
+    "https://zoom.cnews.ru/news/item/682972"
+   ]
+  },
+  {
+   "id": "khachatur-pombukhchan",
+   "name": "Khachatur Pombukhchan",
+   "short": "Khachatur Pombukhchan",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, MegaFon",
+   "org": "megafon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of MegaFon.",
+   "sources": [
+    "https://zoom.cnews.ru/news/item/682972"
+   ]
+  },
+  {
+   "id": "sergey-anokhin",
+   "name": "Sergey Anokhin",
+   "short": "Sergey Anokhin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, VimpelCom",
+   "org": "vimpelcom",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of VimpelCom (Beeline).",
+   "sources": [
+    "https://zoom.cnews.ru/news/item/682972"
+   ]
+  },
+  {
+   "id": "vladimir-freinkman",
+   "name": "Vladimir Freinkman",
+   "short": "Vladimir Freinkman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President, STC PROTEY",
+   "org": "protey",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Vice president of STC PROTEY.",
+   "sources": [
+    "https://www1.ru/news/2025/06/05/afganistanskie-partnery-rossiiskii-telekom-razrabotcik-protei-vyxodit-na-rynok-regiona.html"
+   ]
+  },
+  {
+   "id": "eldar-murtazin",
+   "name": "Eldar Murtazin",
+   "short": "Eldar Murtazin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Lead Analyst, Mobile Research Group",
+   "org": "mobile-research-group",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Russian mobile industry analyst, frequently quoted on 5G and spectrum.",
+   "sources": [
+    "https://hi-tech.mail.ru/experts/738-eldar-murtazin/"
+   ]
   }
  ],
  "edges": [
@@ -30011,6 +30535,195 @@
    "type": "Partnership / project",
    "label": "5G broadcast via GEO satellite trial",
    "source": "https://itwire.com/it-industry-news/telecoms-and-nbn/astrum-mobile,-qualcomm-claim-world-s-first-5g-broadcast-trial-via-geo-satellite.html"
+  },
+  {
+   "from": "evgeny-koucheryavy",
+   "to": "hse-tri",
+   "type": "Role",
+   "label": "Director, HSE Telecommunications Research Institute",
+   "source": "https://hse.ru/en/news/1021176001.html"
+  },
+  {
+   "from": "alexey-frolov",
+   "to": "skoltech-wireless",
+   "type": "Role",
+   "label": "Director, Skoltech Project Center for Next Generation Wireless and IoT",
+   "source": "https://skoltech.ru/en/news/skoltech-wins-support-from-the-ministry-of-digital-development-for-5G-advanced-and-6G-communication-networks-project"
+  },
+  {
+   "from": "evgeny-devyatkin",
+   "to": "nic-telecom",
+   "type": "Role",
+   "label": "Director, Centre for Advanced Wireless Communications Research, NIC Telecom",
+   "source": "https://habr.com/en/news/960152"
+  },
+  {
+   "from": "maksut-shadayev",
+   "to": "mintsifry",
+   "type": "Role",
+   "label": "Minister of Digital Development",
+   "source": "https://www1.ru/en/news/2025/07/22/pervye-otecestvennye-bazovye-stancii-dlia-setei-4g-i-5g-nacnut-ustanavlivat-v-rossii-v-2026-godu.html"
+  },
+  {
+   "from": "alexei-shelobkov",
+   "to": "ics-holding",
+   "type": "Role",
+   "label": "CEO, ICS Holding",
+   "source": "https://habr.com/ru/articles/1020532"
+  },
+  {
+   "from": "dmitry-lakontsev",
+   "to": "irteya",
+   "type": "Role",
+   "label": "CEO, Irteya",
+   "source": "https://www1.ru/en/news/2026/09/12/435295-dolia-rossiiskix-komponentov-v-5g-bazovyx-stanciiax-irteia-poka-ne-prevysaet-5.html"
+  },
+  {
+   "from": "alexander-loginov",
+   "to": "bulat",
+   "type": "Role",
+   "label": "CEO, Bulat and Rostelecom equipment holding",
+   "source": "https://interfax.com/newsroom/top-stories/117624/"
+  },
+  {
+   "from": "mikhail-oseyevsky",
+   "to": "rostelecom",
+   "type": "Role",
+   "label": "CEO, Rostelecom",
+   "source": "https://interfax.com/newsroom/top-stories/117624/"
+  },
+  {
+   "from": "inessa-galaktionova",
+   "to": "mts",
+   "type": "Role",
+   "label": "CEO, MTS",
+   "source": "https://zoom.cnews.ru/news/item/682972"
+  },
+  {
+   "from": "khachatur-pombukhchan",
+   "to": "megafon",
+   "type": "Role",
+   "label": "CEO, MegaFon",
+   "source": "https://zoom.cnews.ru/news/item/682972"
+  },
+  {
+   "from": "sergey-anokhin",
+   "to": "vimpelcom",
+   "type": "Role",
+   "label": "CEO, VimpelCom",
+   "source": "https://zoom.cnews.ru/news/item/682972"
+  },
+  {
+   "from": "vladimir-freinkman",
+   "to": "protey",
+   "type": "Role",
+   "label": "Vice President, STC PROTEY",
+   "source": "https://www1.ru/news/2025/06/05/afganistanskie-partnery-rossiiskii-telekom-razrabotcik-protei-vyxodit-na-rynok-regiona.html"
+  },
+  {
+   "from": "eldar-murtazin",
+   "to": "mobile-research-group",
+   "type": "Role",
+   "label": "Lead Analyst, Mobile Research Group",
+   "source": "https://hi-tech.mail.ru/experts/738-eldar-murtazin/"
+  },
+  {
+   "from": "moscow-dit",
+   "to": "hse-tri",
+   "type": "Partnership / project",
+   "label": "5G and 6G partnership",
+   "source": "https://apiks.hse.ru/en/news/priority/1093023536.html"
+  },
+  {
+   "from": "mintsifry",
+   "to": "skoltech-wireless",
+   "type": "Funding",
+   "label": "5G-Advanced and 6G subsidy (Aug 2025)",
+   "source": "https://skoltech.ru/en/news/skoltech-wins-support-from-the-ministry-of-digital-development-for-5G-advanced-and-6G-communication-networks-project"
+  },
+  {
+   "from": "mintsifry",
+   "to": "nic-telecom",
+   "type": "Funding",
+   "label": "6G foundation work",
+   "source": "https://www1.ru/en/news/2026/04/05/6g-v-rossii-fundament-dlia-sviazi-sleduiushhego-pokoleniia-poiavitsia-k-2032-godu-pilotnye-zony-k-2028.html"
+  },
+  {
+   "from": "nic-telecom",
+   "to": "mintsifry",
+   "type": "Partnership / project",
+   "label": "State research centre under the ministry",
+   "source": "https://habr.com/en/news/875872"
+  },
+  {
+   "from": "skoltech-wireless",
+   "to": "nic-telecom",
+   "type": "Research together",
+   "label": "State 6G foundation work",
+   "source": "https://www1.ru/en/news/2026/04/05/6g-v-rossii-fundament-dlia-sviazi-sleduiushhego-pokoleniia-poiavitsia-k-2032-godu-pilotnye-zony-k-2028.html"
+  },
+  {
+   "from": "ics-holding",
+   "to": "yadro",
+   "type": "Partnership / project",
+   "label": "Subsidiary",
+   "source": "https://habr.com/ru/articles/1020532"
+  },
+  {
+   "from": "ics-holding",
+   "to": "bureau-1440",
+   "type": "Partnership / project",
+   "label": "Subsidiary",
+   "source": "https://www.themoscowtimes.com/2026/03/24/russian-aerospace-company-launches-first-batch-of-starlink-rival-satellites-a92318/pdf"
+  },
+  {
+   "from": "yadro",
+   "to": "megafon",
+   "type": "Partnership / project",
+   "label": "Base station supply",
+   "source": "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona"
+  },
+  {
+   "from": "yadro",
+   "to": "vimpelcom",
+   "type": "Partnership / project",
+   "label": "Base station supply",
+   "source": "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona"
+  },
+  {
+   "from": "yadro",
+   "to": "rostelecom",
+   "type": "Partnership / project",
+   "label": "Base station supply",
+   "source": "https://mintrans.gov.ru/eye/press-center/branch-news/8741"
+  },
+  {
+   "from": "irteya",
+   "to": "mts",
+   "type": "Partnership / project",
+   "label": "Base station supply (about 20,000 by 2030)",
+   "source": "https://www.akm.ru/eng/news/mts-will-install-a-batch-of-domestic-base-stations-on-its-network-by-2027/"
+  },
+  {
+   "from": "irteya",
+   "to": "vimpelcom",
+   "type": "Partnership / project",
+   "label": "Base station supply",
+   "source": "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona"
+  },
+  {
+   "from": "rostelecom",
+   "to": "bulat",
+   "type": "Partnership / project",
+   "label": "Subsidiary",
+   "source": "https://interfax.com/newsroom/top-stories/117624/"
+  },
+  {
+   "from": "bulat",
+   "to": "megafon",
+   "type": "Partnership / project",
+   "label": "Base station supply",
+   "source": "https://mintrans.gov.ru/eye/press-center/branch-news/8741"
   }
  ]
 }
