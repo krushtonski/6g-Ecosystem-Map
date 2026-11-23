@@ -21534,6 +21534,59 @@
     "https://www.executivebiz.com/?p=476372",
     "https://samsearch.co/government-contracting-news/nokia-federal-wins-dow-rapid-contract-for-5g-and-6g-threat-detection-249449"
    ]
+  },
+  {
+   "id": "matthew-desch",
+   "name": "Matthew Desch",
+   "short": "Matthew Desch",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "CEO",
+   "org": "iridium",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Iridium Communications since 2006; took the company public in 2009.",
+   "sources": [
+    "https://virginiabusiness.com/telecommunications-2026-matthew-desch/",
+    "https://investor.iridium.com/2026-04-23-Iridium-Announces-First-Quarter-2026-Results"
+   ]
+  },
+  {
+   "id": "js-gamble",
+   "name": "J.S. Gamble",
+   "short": "J.S. Gamble",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Founding and Managing Partner",
+   "org": "blu-venture",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founding and Managing Partner of Blu Ventures (Blu Venture Investors), an early-stage investor focused on cybersecurity.",
+   "sources": [
+    "https://f4.fund/firms/blu-venture-investors",
+    "https://formds.com/issuers/blu-venture-investors-cyber-fund-2026-a-lp"
+   ]
+  },
+  {
+   "id": "marian-marquez",
+   "name": "Marian Marquez",
+   "short": "Marian Marquez",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Senior Vice President",
+   "org": "aedp",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Vice President at the Alexandria Economic Development Partnership. Spoke for AEDP on the GO Virginia award for National IQ and its Alexandria innovation lab.",
+   "sources": [
+    "https://www.alxnow.com/?p=84062"
+   ]
   }
  ],
  "edges": [
@@ -32729,6 +32782,27 @@
    "type": "Testbed / Trial / Consortium project",
    "label": "Prototyping at Building Momentum (VEDP profile)",
    "source": "https://vedp.org/news/alexandrias-light-bulb-moment"
+  },
+  {
+   "from": "matthew-desch",
+   "to": "iridium",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://virginiabusiness.com/telecommunications-2026-matthew-desch/"
+  },
+  {
+   "from": "js-gamble",
+   "to": "blu-venture",
+   "type": "Role",
+   "label": "Founding and Managing Partner",
+   "source": "https://f4.fund/firms/blu-venture-investors"
+  },
+  {
+   "from": "marian-marquez",
+   "to": "aedp",
+   "type": "Role",
+   "label": "Senior Vice President",
+   "source": "https://www.alxnow.com/?p=84062"
   }
  ]
 }
