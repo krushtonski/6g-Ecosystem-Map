@@ -21587,6 +21587,111 @@
    "sources": [
     "https://www.alxnow.com/?p=84062"
    ]
+  },
+  {
+   "id": "gsma-foundry",
+   "name": "GSMA Foundry (NTN Community)",
+   "short": "GSMA Foundry",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "GSMA's innovation accelerator. Runs the NTN Community and, with ESA, joint industry challenges on direct-to-device, AI for NTN, 5G/6G hubs and 6G innovation, backed by up to €100M of ESA funding announced at MWC26.",
+   "sources": [
+    "https://www.gsma.com/newsroom/?p=25581",
+    "https://www.gsma.com/get-involved/gsma-foundry/esa-and-gsma-foundry-innovation-challenges-2026/"
+   ]
+  },
+  {
+   "id": "hughes",
+   "name": "Hughes Network Systems (EchoStar)",
+   "short": "Hughes",
+   "category": "Equipment & tech vendors",
+   "region": "Washington DC & Maryland",
+   "role": null,
+   "org": null,
+   "address": "Germantown, MD",
+   "lat": 39.1732,
+   "lng": -77.2717,
+   "precision": "City",
+   "description": "EchoStar company in Germantown, Maryland building satellite ground systems, multi-orbit modems and electronically steerable antennas, with defence work for the US Air Force and Space Systems Command.",
+   "sources": [
+    "https://www.hughes.com/?p=41969",
+    "https://www.hughes.com/resources/press-releases/hughes-awarded-advanced-research-contract-from-air-force-research-laboratory-for-resilient-hybrid-networks-with-intelligent-automation"
+   ]
+  },
+  {
+   "id": "altair-semi",
+   "name": "Altair Semiconductor (formerly Sony Semiconductor Israel)",
+   "short": "Altair Semiconductor",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hod Hasharon, Israel",
+   "lat": 32.1593,
+   "lng": 34.8932,
+   "precision": "City",
+   "description": "Cellular IoT chipmaker (LTE-M, NB-IoT and NB-NTN). Spun out of Sony in 2026 and raised $50M as an independent company.",
+   "sources": [
+    "https://siliconangle.com/2026/04/27/altair-semiconductor-raises-50-million-completing-spinoff-sony/",
+    "https://www.abiresearch.com/market-research/insight/7787298-sony-semiconductor-israel-to-return-to-ind"
+   ]
+  },
+  {
+   "id": "nandan-das",
+   "name": "Nandan Das",
+   "short": "Nandan Das",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Global Head of Wireless Standards, Viasat; MSSA 3GPP Working Group Lead",
+   "org": "viasat",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads MSSA's 3GPP working group and is Viasat's Global Head of Wireless Standards. Spoke for MSSA when it became a 3GPP Market Representation Partner in October 2026.",
+   "sources": [
+    "https://www.3gpp.org/news-events/3gpp-news/mssa-mrp"
+   ]
+  },
+  {
+   "id": "richard-cockle",
+   "name": "Richard Cockle",
+   "short": "Richard Cockle",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of GSMA Foundry",
+   "org": "gsma",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of GSMA Foundry. Announced the up to €100M ESA and GSMA Foundry NTN, D2D and 6G funding at MWC26.",
+   "sources": [
+    "https://www.gsma.com/get-involved/gsma-foundry/general/gsma-foundry-and-esa-announce-access-to-new-funding-worth-up-to-e100m-for-ai-ntn-d2d-and-6g-at-mwc26-barcelona/"
+   ]
+  },
+  {
+   "id": "laurent-jaffart",
+   "name": "Laurent Jaffart",
+   "short": "Laurent Jaffart",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Resilience, Navigation and Connectivity",
+   "org": "esa",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "ESA Director of Resilience, Navigation and Connectivity. Announced ESA's up to €100M funding with GSMA Foundry for AI, NTN, D2D and 6G at MWC26.",
+   "sources": [
+    "https://www.gsma.com/newsroom/?p=25581"
+   ]
   }
  ],
  "edges": [
@@ -32803,6 +32908,69 @@
    "type": "Role",
    "label": "Senior Vice President",
    "source": "https://www.alxnow.com/?p=84062"
+  },
+  {
+   "from": "esa",
+   "to": "gsma-foundry",
+   "type": "Funding",
+   "label": "Up to €100M for AI, NTN, D2D and 6G challenges (MWC26)",
+   "source": "https://www.gsma.com/newsroom/?p=25581"
+  },
+  {
+   "from": "gsma",
+   "to": "gsma-foundry",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Runs the Foundry and its NTN Community",
+   "source": "https://www.gsma.com/get-involved/gsma-foundry/esa-and-gsma-foundry-innovation-challenges-2026/"
+  },
+  {
+   "from": "gsma-foundry",
+   "to": "oq-technology",
+   "type": "Grant / Contract / Award",
+   "label": "ESA × GSMA Foundry direct-to-device challenge winner (CREST-5G)",
+   "source": "https://www.gsma.com/get-involved/gsma-foundry/?p=14429"
+  },
+  {
+   "from": "hughes",
+   "to": "dish",
+   "type": "Membership",
+   "label": "Both EchoStar companies",
+   "source": "https://www.hughes.com/?p=41969"
+  },
+  {
+   "from": "nandan-das",
+   "to": "viasat",
+   "type": "Role",
+   "label": "Global Head of Wireless Standards",
+   "source": "https://www.3gpp.org/news-events/3gpp-news/mssa-mrp"
+  },
+  {
+   "from": "nandan-das",
+   "to": "mssa",
+   "type": "Role",
+   "label": "3GPP Working Group Lead",
+   "source": "https://www.3gpp.org/news-events/3gpp-news/mssa-mrp"
+  },
+  {
+   "from": "richard-cockle",
+   "to": "gsma",
+   "type": "Role",
+   "label": "Head of GSMA Foundry",
+   "source": "https://www.gsma.com/newsroom/?p=25581"
+  },
+  {
+   "from": "richard-cockle",
+   "to": "gsma-foundry",
+   "type": "Role",
+   "label": "Head",
+   "source": "https://www.gsma.com/newsroom/?p=25581"
+  },
+  {
+   "from": "laurent-jaffart",
+   "to": "esa",
+   "type": "Role",
+   "label": "Director of Resilience, Navigation and Connectivity",
+   "source": "https://www.gsma.com/newsroom/?p=25581"
   }
  ]
 }
