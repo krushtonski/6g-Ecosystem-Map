@@ -86,6 +86,7 @@ ul.conn li.on{border-left:3px solid var(--accent);padding-left:6px}
 .plbl-go:hover{text-decoration:underline}
 .plbl-more{font-size:11px;color:var(--muted)}
 #corrBox h3{margin-top:18px}
+.nnx{float:right;border:0;background:none;font-size:16px;line-height:1;cursor:pointer;color:var(--muted);margin:-4px -4px 0 6px}
 .qres{list-style:none;margin:4px 0 0;padding:0;border:1px solid var(--line);border-radius:6px;background:var(--bg);max-height:260px;overflow:auto}
 .qres li{padding:6px 8px;font-size:13px;cursor:pointer;border-bottom:1px solid var(--line)}
 .qres li:last-child{border-bottom:0}
@@ -124,6 +125,9 @@ ul.conn li.on{border-left:3px solid var(--accent);padding-left:6px}
 .crumb{font-size:12px;color:var(--muted);padding:0 6px;align-self:center}
 #svg{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab}
 .ringlbl{font:600 11px var(--display);fill:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.node text{display:none}
+.node.lbl text,.node.hov text,svg.zoomed .node text{display:block}
+.node.hov circle,.node.hov rect,.node.hov path{stroke:var(--ink);stroke-width:2.5}
 .node text{font:500 10.5px var(--body);fill:var(--ink);paint-order:stroke;stroke:var(--bg);stroke-width:3px;stroke-linejoin:round;pointer-events:none}
 .node.alx text{font-weight:600}
 .node.person text{font-style:italic}
@@ -239,7 +243,7 @@ footer a{color:var(--accent)}
     <section class="view" id="v-net" role="tabpanel" aria-labelledby="t-net">
       <svg id="svg" role="img" aria-label="Network diagram with rings for the Alexandria-Arlington corridor, the rest of the US and international"></svg>
       <div class="zoombtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button></div>
-      <div class="netnote">Rings show where each player is based: the Alexandria-Arlington corridor (Northern Virginia) at the centre, then the rest of the US including DC and Maryland, then international. Node size = number of connections. ■ associations ◆ programmes ▲ events.</div>
+      <div class="netnote" id="netnote"><button type="button" class="nnx" aria-label="Hide this note" onclick="this.parentNode.hidden=true">×</button>Rings show where each player is based: the Alexandria-Arlington corridor (Northern Virginia) at the centre, then the rest of the US including DC and Maryland, then international. Node size = number of connections. ■ associations ◆ programmes ▲ events.<br><b>Hover</b> over a dot to preview its links, <b>click</b> to select it, <b>scroll</b> to zoom. Names of smaller players appear as you zoom in.</div>
     </section>
     <section class="view" id="v-mx" role="tabpanel" aria-labelledby="t-mx">
       <div class="scroll">
@@ -621,6 +625,7 @@ function applyGeo(){
 }
 
 /* ---------- Network ---------- */
+let IMPORTANT=new Set(), hovT;
 let svg, root, ringG, linkG, hitG, nodeG, sim, linkSel, hitSel, nodeSel, zoom, etip, R=[0,0,0,0];
 function netBox(){ const el=document.getElementById("v-net"); const b=el.getBoundingClientRect(); return {w:b.width||900,h:b.height||640}; }
 function targetR(n){ const r=ring(n); return r===0? R[1]*0.55 : r===1? (R[1]+R[2])/2+R[1]*0.15 : R[3]*1.04; }
@@ -630,7 +635,7 @@ function buildNet(){
     Object.entries(ETYPES).filter(([,t])=>t.dir).forEach(([k,t])=>defs.append("marker").attr("id","arr-"+k.replace(/\W+/g,"")).attr("viewBox","0 0 10 10").attr("refX",5).attr("refY",5).attr("markerWidth",k==="Role"?6:5).attr("markerHeight",k==="Role"?6:5).attr("markerUnits","strokeWidth").attr("orient","auto").append("path").attr("d","M1,1L9,5L1,9Z").attr("fill",t.c));
     root=svg.append("g"); ringG=root.append("g"); linkG=root.append("g"); hitG=root.append("g"); nodeG=root.append("g");
     etip=document.createElement("div"); etip.id="etip"; document.getElementById("v-net").appendChild(etip);
-    zoom=d3.zoom().scaleExtent([.35,4]).on("zoom",e=>root.attr("transform",e.transform)); svg.call(zoom);
+    zoom=d3.zoom().scaleExtent([.35,4]).on("zoom",e=>{ root.attr("transform",e.transform); svg.classed("zoomed",e.transform.k>=1.7); }); svg.call(zoom);
     document.getElementById("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.3);
     document.getElementById("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.3);
     document.getElementById("zreset").onclick=resetZoom;
@@ -642,6 +647,8 @@ function buildNet(){
     ringG.append("circle").attr("r",r).attr("fill",i?"none":"var(--accent-soft)").attr("stroke",i?"var(--line)":"var(--accent)").attr("stroke-dasharray",i?"4 5":null).attr("opacity",i?1:.6);
     ringG.append("text").attr("class","ringlbl").attr("y",-r+15).attr("text-anchor","middle").style("fill",i?null:"var(--accent)").text(REGIONS[i]);
   });
+  { const orgs=NODES.filter(n=>n.category!=="Person").sort((a,b)=>(b.deg||0)-(a.deg||0));
+    IMPORTANT=new Set([...orgs.slice(0,45).map(n=>n.id), ...orgs.filter(n=>ring(n)===0&&(n.deg||0)>=4).map(n=>n.id)]); }
   const cats=Object.keys(CATS);
   NODES.forEach((n,i)=>{ if(n.x==null){ const a=cats.indexOf(n.category)/cats.length*Math.PI*2+(i%7)*.12; n.x=Math.cos(a)*targetR(n); n.y=Math.sin(a)*targetR(n);} });
   const links = allLinks().map(l=>({...l, source:l.source.id||l.source, target:l.target.id||l.target}));
@@ -669,7 +676,9 @@ function buildNet(){
       else if(isGroup(d)||isProg(d)) s.append("rect").attr("x",-r).attr("y",-r).attr("width",2*r).attr("height",2*r).attr("rx",isProg(d)?r*.25:3).attr("transform",isProg(d)?"rotate(45)":null).attr("fill",col).attr("stroke","var(--panel)").attr("stroke-width",1.5);
       else s.append("circle").attr("r",r).attr("fill",col).attr("stroke","var(--panel)").attr("stroke-width",1.5);
       s.append("text").attr("dy",r+12).attr("text-anchor","middle").text(nm(d)); });
-    g.on("click",(e,d)=>{ e.stopPropagation(); select(d.id); }).on("keydown",(e,d)=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); select(d.id);} })
+    g.on("mouseenter",(e,d)=>{ clearTimeout(hovT); hovT=setTimeout(()=>{ state.hover=d.id; applyNet(); },120); })
+     .on("mouseleave",()=>{ clearTimeout(hovT); if(state.hover){ state.hover=null; applyNet(); } })
+     .on("click",(e,d)=>{ e.stopPropagation(); clearTimeout(hovT); state.hover=null; select(d.id); }).on("keydown",(e,d)=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); select(d.id);} })
      .call(d3.drag().on("start",(e,d)=>{ if(!e.active) sim.alphaTarget(.2).restart(); d.fx=d.x; d.fy=d.y; }).on("drag",(e,d)=>{ d.fx=e.x; d.fy=e.y; }).on("end",(e,d)=>{ if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
     return g; });
   const arc=l=>{ const x1=l.source.x,y1=l.source.y,x2=l.target.x,y2=l.target.y, dx=x2-x1, dy=y2-y1, L2=Math.hypot(dx,dy)||1e-6, dr=L2*1.6;
@@ -682,13 +691,16 @@ function buildNet(){
 function resetZoom(){ const {w,h}=netBox(); const k=Math.max(.45,Math.min(1.2,Math.min(w,h)/(R[3]*2.5))); svg.call(zoom.transform,d3.zoomIdentity.translate(w/2,h/2).scale(k)); }
 function applyNet(){
   if(!nodeSel) return;
-  const fs=focusSet();
-  nodeSel.style("display",d=>visible(d)||d.id===state.sel?null:"none").classed("dim",d=>(fs&&!fs.has(d.id))||(state.q&&!matches(d)));
-  const G=GRP();
-  const shown=l=>(state.sel&&touches(l,G)&&selType(l.type)) || (state.types.has(l.type) && visible(l.source) && visible(l.target));
+  const fs=focusSet(), G=GRP(), H=state.hover? new Set([state.hover]) : null, HN=new Set();
+  if(H) allLinks().forEach(l=>{ if(touches(l,H)){ HN.add(lid(l.source)); HN.add(lid(l.target)); } });
+  nodeSel.style("display",d=>visible(d)||d.id===state.sel||HN.has(d.id)?null:"none")
+    .classed("dim",d=>H? !HN.has(d.id)&&!(fs&&fs.has(d.id)) : (fs&&!fs.has(d.id))||(state.q&&!matches(d)))
+    .classed("lbl",d=>IMPORTANT.has(d.id)||(fs&&fs.has(d.id))||HN.has(d.id)||(state.q&&matches(d)))
+    .classed("hov",d=>d.id===state.hover);
+  const shown=l=>(H&&touches(l,H)) || (state.sel&&touches(l,G)&&selType(l.type)) || (state.types.has(l.type) && visible(l.source) && visible(l.target));
   hitSel.style("display",l=>shown(l)?null:"none");
   linkSel.style("display",l=>shown(l)?null:"none")
-    .classed("dim",l=>state.sel? !(l.source.id===state.sel||l.target.id===state.sel) : fs? !(fs.has(l.source.id)&&fs.has(l.target.id)) : (state.q&&!(matches(l.source)||matches(l.target))));
+    .classed("dim",l=>H? !touches(l,H) : state.sel? !touches(l,G) : fs? !(fs.has(l.source.id)&&fs.has(l.target.id)) : (state.q&&!(matches(l.source)||matches(l.target))));
 }
 
 /* ---------- Selection & details ---------- */
