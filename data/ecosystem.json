@@ -19378,6 +19378,151 @@
     "https://smart-networks.europa.eu/wp-content/uploads/2025/02/20250214_call3_webinar_2_cullellmarch.pdf",
     "https://www.computerweekly.com/news/366623324/Digital-Catapult-joins-EU-6G-innovation-consortia"
    ]
+  },
+  {
+   "id": "greenerwave",
+   "name": "Greenerwave",
+   "short": "Greenerwave",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Paris, France",
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "precision": "City",
+   "description": "Paris startup (founded 2015) that shapes electromagnetic waves with reconfigurable intelligent surfaces (RIS) and metasurface antennas, for 5G/6G connectivity, ISAC, radar and satellite terminals. Supplies RIS to the SNS JU project SUNRISE-6G. Has a strategic partnership with Telespazio France.",
+   "sources": [
+    "https://www.greenerwave.com/greenerwave-and-sunrise-6g/",
+    "https://smart-networks.europa.eu/wp-content/uploads/2024/01/b14-greenerwave-brokerageeventproposal-20240124-v1.1-2.pdf"
+   ]
+  },
+  {
+   "id": "noema",
+   "name": "Noema Signal Labs",
+   "short": "Noema",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Guildford, UK",
+   "lat": 51.2362,
+   "lng": -0.5704,
+   "precision": "City",
+   "description": "2026 spin-out from the University of Surrey's 6G Innovation Centre. Its signal processing lets existing masts carry more data and connect more devices. Won the Best Startup Award at the 2026 EuCNC & 6G Summit, joined Deutsche Telekom's Tangible Tomorrow programme (hubraum with T-Labs) and has raised around £1.2m.",
+   "sources": [
+    "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more",
+    "https://www.eucnc.eu/authors/awards/"
+   ]
+  },
+  {
+   "id": "aerolifi",
+   "name": "aeroLiFi",
+   "short": "aeroLiFi",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Wessling, Germany",
+   "lat": 48.0747,
+   "lng": 11.2497,
+   "precision": "City",
+   "description": "Wessling (near Munich) company developing LiFi and visible light communication. Works on hybrid LiFi/Wi-Fi/5G/6G links and end-to-end optical networks. Presented to the 6G-IA at the 2024 SNS JU brokerage event.",
+   "sources": [
+    "https://smart-networks.europa.eu/wp-content/uploads/2024/01/a7_20240124_aerolifi_6gia.pdf"
+   ]
+  },
+  {
+   "id": "astrome",
+   "name": "Astrome",
+   "short": "Astrome",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bengaluru, India",
+   "lat": 12.9716,
+   "lng": 77.5946,
+   "precision": "City",
+   "description": "Bengaluru deep-tech company (founded 2015) making E-band millimetre-wave backhaul (GigaMesh), phased-array antennas and satellite communications products. GigaMesh delivers fibre-like wireless backhaul for rural and 5G sites. Previously raised $10m in a round led by Apollo.",
+   "sources": [
+    "https://www.cbinsights.com/company/astrome-technologies",
+    "https://www.everythingrf.com/News/details/22580-astrome-develops-next-generation-robust-wireless-solutions-for-terrestrial-and-satellite-communications",
+    "https://dcis.dot.gov.in/page/template2/2?template=2"
+   ]
+  },
+  {
+   "id": "hjwave",
+   "name": "HJWAVE",
+   "short": "HJWAVE",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Seongnam, South Korea",
+   "lat": 37.42,
+   "lng": 127.1265,
+   "precision": "City",
+   "description": "Korean mmWave RF company making 3D waveguide antennas for 24 to 140 GHz. Released Korea's first D-band (140 GHz) antenna for autonomous driving radar and 6G mobile communication.",
+   "sources": [
+    "https://www.mwcbarcelona.com/exhibitors/35687-hjwave-co-ltd",
+    "https://hjwave.blogspot.com/2023/12/hjwave-releases-d-band-140ghz-antennas.html",
+    "https://cm.asiae.co.kr/en/article/2024092708254738460"
+   ]
+  },
+  {
+   "id": "kreemo",
+   "name": "KREEMO",
+   "short": "KREEMO",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Seoul, South Korea",
+   "lat": 37.4837,
+   "lng": 127.0324,
+   "precision": "City",
+   "description": "Seoul antenna company with mmWave antennas, phased-array beamforming and transparent antenna technology, including a 360-degree 5G mmWave stacked patch antenna. Expanding into satellite and defence antennas.",
+   "sources": [
+    "https://www.einpresswire.com/article/861802152/kreemo-boosts-entry-into-satellite-communication-and-defense-markets-with-high-frequency-satellite-antenna-development",
+    "https://www.digikey.hk/zh/supplier-centers/kreemo"
+   ]
+  },
+  {
+   "id": "astrum-mobile",
+   "name": "Astrum Mobile",
+   "short": "Astrum Mobile",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Singapore",
+   "lat": 1.3521,
+   "lng": 103.8198,
+   "precision": "City",
+   "description": "Singapore satellite-to-device (S2D) company building a 3GPP 5G NTN service for ordinary phones across Asia-Pacific from a geostationary satellite, NEASTAR-1, built by SWISSto12. Ran a 5G broadcast trial over a GEO satellite to a retail smartphone with Qualcomm.",
+   "sources": [
+    "https://itwire.com/it-industry-news/telecoms-and-nbn/astrum-mobile,-qualcomm-claim-world-s-first-5g-broadcast-trial-via-geo-satellite.html",
+    "https://www.everythingrf.com/News/details/19846-astrum-mobile-partners-with-swissto12-to-launch-asia-pacific-s-first-satellite-to-device-5g-service",
+    "https://www.computerweekly.com/news/366631213/SWISSto12-Astrum-Mobile-hit-satellite-preliminary-design-milestone"
+   ]
+  },
+  {
+   "id": "konstantinos-nikitopoulos",
+   "name": "Konstantinos Nikitopoulos",
+   "short": "Konstantinos Nikitopoulos",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Founder, Noema Signal Labs; Professor, University of Surrey 6GIC",
+   "org": "noema",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Professor of Wireless Communications and Signal Processing at Surrey's 6G Innovation Centre and founder of Noema Signal Labs.",
+   "sources": [
+    "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
+   ]
   }
  ],
  "edges": [
@@ -29824,6 +29969,48 @@
    "type": "Partnership / project",
    "label": "Consortium partner",
    "source": "https://www.computerweekly.com/news/366623324/Digital-Catapult-joins-EU-6G-innovation-consortia"
+  },
+  {
+   "from": "konstantinos-nikitopoulos",
+   "to": "noema",
+   "type": "Role",
+   "label": "Founder, Noema Signal Labs; Professor, University of Surrey 6GIC",
+   "source": "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
+  },
+  {
+   "from": "konstantinos-nikitopoulos",
+   "to": "surrey-6gic",
+   "type": "Role",
+   "label": "Professor of Wireless Communications and Signal Processing",
+   "source": "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
+  },
+  {
+   "from": "noema",
+   "to": "surrey-6gic",
+   "type": "Partnership / project",
+   "label": "Surrey 6GIC spin-out",
+   "source": "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
+  },
+  {
+   "from": "deutsche-telekom",
+   "to": "noema",
+   "type": "Partnership / project",
+   "label": "Tangible Tomorrow programme (hubraum and T-Labs)",
+   "source": "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
+  },
+  {
+   "from": "greenerwave",
+   "to": "sns-ju",
+   "type": "Partnership / project",
+   "label": "SUNRISE-6G partner (RIS)",
+   "source": "https://www.greenerwave.com/greenerwave-and-sunrise-6g/"
+  },
+  {
+   "from": "astrum-mobile",
+   "to": "qualcomm",
+   "type": "Partnership / project",
+   "label": "5G broadcast via GEO satellite trial",
+   "source": "https://itwire.com/it-industry-news/telecoms-and-nbn/astrum-mobile,-qualcomm-claim-world-s-first-5g-broadcast-trial-via-geo-satellite.html"
   }
  ]
 }
