@@ -19228,6 +19228,156 @@
     "https://www.bristol.ac.uk/research/groups/smart/case-studies/uktin/",
     "https://uktin.net/whats-happening/news/uk-telecoms-innovation-network-future"
    ]
+  },
+  {
+   "id": "pawr",
+   "name": "Platforms for Advanced Wireless Research (PAWR)",
+   "short": "PAWR",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Boston, MA, USA",
+   "lat": 42.3398,
+   "lng": -71.0892,
+   "precision": "City",
+   "description": "NSF programme that runs city-scale wireless testbeds for 5G, 6G and beyond: POWDER (Salt Lake City), COSMOS (New York City), AERPAW (Research Triangle, NC) and the rural ARA testbed, plus the Colosseum emulator. Its Project Office is co-led by US Ignite and Northeastern University. All the platforms are O-RAN Alliance Open Testing and Integration Centres (OTICs).",
+   "sources": [
+    "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g",
+    "https://www.nsf.gov/tip/updates/nsf-invests-7-million-expand-advanced-wireless",
+    "https://www.us-ignite.org/program/platforms-for-advanced-wireless-research/",
+    "https://www.benton.org/headlines/new-investments-pawr-program-strengthen-us-commitment-wireless-research-5g-6g-and-beyond"
+   ]
+  },
+  {
+   "id": "powder",
+   "name": "POWDER",
+   "short": "POWDER",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Salt Lake City, UT, USA",
+   "lat": 40.7608,
+   "lng": -111.891,
+   "precision": "City",
+   "description": "PAWR city-scale wireless testbed in Salt Lake City, used for Open RAN testing and validation.",
+   "sources": [
+    "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g",
+    "https://www.nsf.gov/tip/updates/nsf-invests-7-million-expand-advanced-wireless"
+   ]
+  },
+  {
+   "id": "cosmos",
+   "name": "COSMOS",
+   "short": "COSMOS",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "New York, NY, USA",
+   "lat": 40.8075,
+   "lng": -73.9626,
+   "precision": "City",
+   "description": "PAWR city-scale wireless testbed in New York City. In 2026 NSF backed an AI-ready testbed project built on it.",
+   "sources": [
+    "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g",
+    "https://www.nsf.gov/news/nsf-invests-ai-ready-test-beds-accelerate-us-leadership"
+   ]
+  },
+  {
+   "id": "aerpaw",
+   "name": "AERPAW",
+   "short": "AERPAW",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Raleigh, NC, USA",
+   "lat": 35.7796,
+   "lng": -78.6382,
+   "precision": "City",
+   "description": "PAWR testbed for drone-based wireless systems in the Research Triangle area of North Carolina. It was the last PAWR platform to become an O-RAN OTIC.",
+   "sources": [
+    "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g",
+    "https://www.nsf.gov/tip/updates/nsf-invests-7-million-expand-advanced-wireless"
+   ]
+  },
+  {
+   "id": "colosseum",
+   "name": "Colosseum",
+   "short": "Colosseum",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Burlington, MA, USA",
+   "lat": 42.5048,
+   "lng": -71.1956,
+   "precision": "City",
+   "description": "The world's largest wireless network emulator, with 256 programmable software radios. Run by Northeastern University at its Burlington innovation campus and used as an Open RAN digital twin. Part of PAWR.",
+   "sources": [
+    "https://northeastern.edu/colosseum/master-class2021",
+    "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/",
+    "https://www.benton.org/headlines/new-investments-pawr-program-strengthen-us-commitment-wireless-research-5g-6g-and-beyond"
+   ]
+  },
+  {
+   "id": "kcl",
+   "name": "King's College London (Centre for Telecommunications Research)",
+   "short": "King's College London",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "London, UK",
+   "lat": 51.5115,
+   "lng": -0.116,
+   "precision": "City",
+   "description": "King's Centre for Telecommunications Research (founded 1994) works on 6G, from mission-critical to AI-native networks. Founding partner in the £12m REASON project and co-founder of 6G Futures with the University of Bristol. Hosted London 6G Week in September 2026.",
+   "sources": [
+    "https://www.kcl.ac.uk/research/ctr",
+    "https://www.kcl.ac.uk/news/kings-joins-12-million-project-investing-in-future-of-6g-communication-systems",
+    "https://www.kcl.ac.uk/news/kings-co-launches-centre-for-6g-research",
+    "https://www.kcl.ac.uk/events/london-6g-week"
+   ]
+  },
+  {
+   "id": "snu",
+   "name": "Seoul National University",
+   "short": "Seoul National University",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Seoul, South Korea",
+   "lat": 37.4599,
+   "lng": 126.9519,
+   "precision": "City",
+   "description": "Leading Korean university. One of the universities Samsung partnered with in 2021 on next-generation communications talent and research.",
+   "sources": [
+    "https://www.asiae.co.kr/en/article/2022051309180566753"
+   ]
+  },
+  {
+   "id": "6g-leader",
+   "name": "6G-LEADER (Learning-driven and Evolved Radio for 6G)",
+   "short": "6G-LEADER",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Nicosia, Cyprus",
+   "lat": 35.1856,
+   "lng": 33.3823,
+   "precision": "City",
+   "description": "SNS JU Call 3 project (about €8m EU contribution, 36 months) advancing 6G physical layer and RAN: ML-driven PHY, full-duplex transceivers and open, disaggregated RAN. Has 18 partners, with the University of Cyprus as technical coordinator. Digital Catapult is a partner.",
+   "sources": [
+    "https://www.telecomtv.com/content/6g/eu-body-awards-127m-to-6g-projects-51643/",
+    "https://eoc.org.cy/?p=8854",
+    "https://smart-networks.europa.eu/wp-content/uploads/2025/02/20250214_call3_webinar_2_cullellmarch.pdf",
+    "https://www.computerweekly.com/news/366623324/Digital-Catapult-joins-EU-6G-innovation-consortia"
+   ]
   }
  ],
  "edges": [
@@ -29576,6 +29726,104 @@
    "type": "Partnership / project",
    "label": "Academic lead",
    "source": "https://www.bristol.ac.uk/research/groups/smart/case-studies/uktin/"
+  },
+  {
+   "from": "nsf",
+   "to": "pawr",
+   "type": "Funding",
+   "label": "Funder",
+   "source": "https://www.nsf.gov/tip/updates/nsf-invests-7-million-expand-advanced-wireless"
+  },
+  {
+   "from": "northeastern",
+   "to": "pawr",
+   "type": "Partnership / project",
+   "label": "Co-leads the PAWR Project Office",
+   "source": "https://www.us-ignite.org/program/platforms-for-advanced-wireless-research/"
+  },
+  {
+   "from": "pawr",
+   "to": "powder",
+   "type": "Partnership / project",
+   "label": "PAWR platform",
+   "source": "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g"
+  },
+  {
+   "from": "pawr",
+   "to": "cosmos",
+   "type": "Partnership / project",
+   "label": "PAWR platform",
+   "source": "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g"
+  },
+  {
+   "from": "pawr",
+   "to": "aerpaw",
+   "type": "Partnership / project",
+   "label": "PAWR platform",
+   "source": "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g"
+  },
+  {
+   "from": "pawr",
+   "to": "colosseum",
+   "type": "Partnership / project",
+   "label": "PAWR programme asset",
+   "source": "https://www.benton.org/headlines/new-investments-pawr-program-strengthen-us-commitment-wireless-research-5g-6g-and-beyond"
+  },
+  {
+   "from": "northeastern",
+   "to": "colosseum",
+   "type": "Partnership / project",
+   "label": "Operates (Burlington campus)",
+   "source": "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
+  },
+  {
+   "from": "powder",
+   "to": "oran",
+   "type": "Membership",
+   "label": "O-RAN OTIC",
+   "source": "https://www.nsf.gov/tip/updates/nsf-invests-7-million-expand-advanced-wireless"
+  },
+  {
+   "from": "aerpaw",
+   "to": "oran",
+   "type": "Membership",
+   "label": "O-RAN OTIC",
+   "source": "https://www.nsf.gov/tip/updates/nsf-invests-7-million-expand-advanced-wireless"
+  },
+  {
+   "from": "kcl",
+   "to": "reason",
+   "type": "Partnership / project",
+   "label": "Founding partner",
+   "source": "https://www.kcl.ac.uk/news/kings-joins-12-million-project-investing-in-future-of-6g-communication-systems"
+  },
+  {
+   "from": "kcl",
+   "to": "bristol",
+   "type": "Research together",
+   "label": "6G Futures co-founders",
+   "source": "https://www.kcl.ac.uk/news/kings-co-launches-centre-for-6g-research"
+  },
+  {
+   "from": "samsung",
+   "to": "snu",
+   "type": "Partnership / project",
+   "label": "Next-generation communications partnership (2021)",
+   "source": "https://www.asiae.co.kr/en/article/2022051309180566753"
+  },
+  {
+   "from": "sns-ju",
+   "to": "6g-leader",
+   "type": "Funding",
+   "label": "SNS JU Call 3 project",
+   "source": "https://www.telecomtv.com/content/6g/eu-body-awards-127m-to-6g-projects-51643/"
+  },
+  {
+   "from": "digital-catapult",
+   "to": "6g-leader",
+   "type": "Partnership / project",
+   "label": "Consortium partner",
+   "source": "https://www.computerweekly.com/news/366623324/Digital-Catapult-joins-EU-6G-innovation-consortia"
   }
  ]
 }
