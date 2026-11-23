@@ -17171,6 +17171,901 @@
    "sources": [
     "https://en.amwalalghad.com/?p=230280"
    ]
+  },
+  {
+   "id": "turkcell",
+   "name": "Turkcell",
+   "short": "Turkcell",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Istanbul, Türkiye",
+   "lat": 41.0082,
+   "lng": 28.9784,
+   "precision": "City",
+   "description": "Turkish operator. Runs Turkcell 6GEN.LAB, an AI and 6G lab and the country's main 6G research hub. Tested Türkiye's first home-grown reconfigurable intelligent surface prototypes with TÜBİTAK in October 2026, and field-tested 6G sensing (ISAC) in Istanbul. Signed 6G MoUs with Ericsson in 2024 and 2026. Partner in six European R&D projects including MAGIC-6G.",
+   "sources": [
+    "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp",
+    "https://tubitak.gov.tr/sites/default/files/2026-07/6GEN_LAB_Eng.pdf",
+    "https://www.capital.com.tr/haberler/tum-haberler/turkcell-6gnin-algilama-teknolojisini-sahada-test-etti",
+    "https://www.ericsson.com/en/press-releases/5/2026/turkcell-and-ericsson-partner-on-6g-research-in-turkiye",
+    "https://www.dailysabah.com/business/tech/turkiyes-turkcell-takes-part-in-6-leading-european-rd-projects/amp"
+   ]
+  },
+  {
+   "id": "turk-telekom",
+   "name": "Türk Telekom",
+   "short": "Türk Telekom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Ankara, Türkiye",
+   "lat": 39.9334,
+   "lng": 32.8597,
+   "precision": "City",
+   "description": "Turkish incumbent operator. Runs 6G R&D and Innovation Laboratories in Ankara, with outdoor pilots planned around ODTÜ Teknokent in summer 2026. Works with Ericsson Research Türkiye on SafeRoute-6G and 6G standards. Set up an R&D and Innovation Science Board in September 2026.",
+   "sources": [
+    "https://yeniasir.com.tr/yasam/2026/03/17/turk-telekomun-kuresel-is-birlikleriyle-6g-vizyonu",
+    "https://www.ericsson.com/en/press-releases/5/2026/turk-telekom-partners-with-ericsson-to-shape-6g-standards",
+    "https://www.ericsson.com/en/press-releases/5/2025/ericsson-and-turk-telekom-forge-strategic-6g-collaboration",
+    "https://www.dunya.com/sirketler/turk-telekomdan-6g-yapay-zeka-ve-kuantum-hamlesi-bilim-kurulu-kuruldu-haberi-840631"
+   ]
+  },
+  {
+   "id": "tubitak",
+   "name": "TÜBİTAK (Scientific and Technological Research Council of Türkiye)",
+   "short": "TÜBİTAK",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Ankara, Türkiye",
+   "lat": 39.9334,
+   "lng": 32.8597,
+   "precision": "City",
+   "description": "Türkiye's national research council and main research funder. Its MAM and BİLGEM institutes built the first domestic intelligent-surface prototypes for 6G with Turkcell in 2026.",
+   "sources": [
+    "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp",
+    "https://globalresearchcouncil.org/about/governing-board/orhan-aydin"
+   ]
+  },
+  {
+   "id": "tubitak-bilgem",
+   "name": "TÜBİTAK BİLGEM",
+   "short": "BİLGEM",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Gebze, Kocaeli, Türkiye",
+   "lat": 40.787,
+   "lng": 29.449,
+   "precision": "City",
+   "description": "TÜBİTAK's informatics and information security research centre. Its HİSAR Lab co-developed Türkiye's first domestic SRS, STS and RIS designs for 6G with Turkcell 6GEN.LAB.",
+   "sources": [
+    "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp",
+    "https://www.capital.com.tr/haberler/tum-haberler/yerli-ve-milli-6g-sebeke-cozumleri-ilk-kez-sahada-denendi"
+   ]
+  },
+  {
+   "id": "tubitak-mam",
+   "name": "TÜBİTAK Marmara Research Center",
+   "short": "TÜBİTAK MAM",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Gebze, Kocaeli, Türkiye",
+   "lat": 40.787,
+   "lng": 29.449,
+   "precision": "City",
+   "description": "TÜBİTAK research centre at Gebze. Its MİLTAL / Functional Materials team co-developed the 2026 intelligent-surface prototypes for 6G with Turkcell. Hosted part of the field tests.",
+   "sources": [
+    "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp",
+    "https://www.capital.com.tr/haberler/tum-haberler/yerli-ve-milli-6g-sebeke-cozumleri-ilk-kez-sahada-denendi"
+   ]
+  },
+  {
+   "id": "ulak",
+   "name": "ULAK Communications (ULAK Haberleşme)",
+   "short": "ULAK",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Ankara, Türkiye",
+   "lat": 39.9334,
+   "lng": 32.8597,
+   "precision": "City",
+   "description": "Turkish base station maker, majority owned by ASELSAN (51%) with HAVELSAN (25%). Has filed 208 6G patent applications, covering non-terrestrial networks, AI/ML, ISAC, beamforming and cell-free systems. Runs a TÜBİTAK-backed 6G research lab.",
+   "sources": [
+    "https://www.dha.com.tr/teknoloji/ulak-haberlesmenin-6g-teknolojisinde-patent-sayisi-208e-ulasti-2749662",
+    "https://6gworld.com/?p=28015",
+    "https://www.b2match.com/e/cl4-digital-2025/participations/525012"
+   ]
+  },
+  {
+   "id": "aselsan",
+   "name": "ASELSAN",
+   "short": "ASELSAN",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Ankara, Türkiye",
+   "lat": 39.9334,
+   "lng": 32.8597,
+   "precision": "City",
+   "description": "Turkish defence electronics group. Majority shareholder in ULAK and a board member of the HABTEK 6G cluster.",
+   "sources": [
+    "https://www.b2match.com/e/cl4-digital-2025/participations/525012",
+    "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
+   ]
+  },
+  {
+   "id": "btk",
+   "name": "Information and Communication Technologies Authority (BTK)",
+   "short": "BTK",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Ankara, Türkiye",
+   "lat": 39.9334,
+   "lng": 32.8597,
+   "precision": "City",
+   "description": "Turkish telecoms regulator. Published a 6G mobile communication technologies report in March 2025. Runs a 5G and Beyond Joint Graduate Support Program with METU, Bilkent and Hacettepe, and the 5G Valley open test field.",
+   "sources": [
+    "https://digitalpolicyalert.org/change/13530-sixth-generation-6g-mobile-communication-technologies-report-2025",
+    "https://www.btk.gov.tr/en/announcements/5g-ve-otesi-ortak-lisansustu-destekleme-programi",
+    "https://btk.gov.tr/en/news/bilgi-teknolojilerinin-onemi-her-gecen-gun-artiyor"
+   ]
+  },
+  {
+   "id": "habtek",
+   "name": "HABTEK (6G and Beyond Communication Technologies Cluster)",
+   "short": "HABTEK",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Istanbul, Türkiye",
+   "lat": 41.0931,
+   "lng": 29.0926,
+   "precision": "City",
+   "description": "Turkish 6G cluster launched in February 2026 at Istanbul Medipol University, backed by the Ministry of Industry and Technology. Members include ASELSAN, Turkcell, TÜBİTAK BİLGEM, ULAK, Vestel and Netaş.",
+   "sources": [
+    "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001",
+    "https://www.medipol.edu.tr/en/node/16666"
+   ]
+  },
+  {
+   "id": "medipol",
+   "name": "Istanbul Medipol University",
+   "short": "Medipol",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kavacık, Istanbul, Türkiye",
+   "lat": 41.0931,
+   "lng": 29.0926,
+   "precision": "Campus",
+   "description": "Istanbul university. Hosts the HABTEK 6G cluster. Its CoSiNC group, led by Hüseyin Arslan, is a full member of the 6G-IA.",
+   "sources": [
+    "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001",
+    "https://www.medipol.edu.tr/en/node/12805"
+   ]
+  },
+  {
+   "id": "bilkent",
+   "name": "Bilkent University",
+   "short": "Bilkent",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Ankara, Türkiye",
+   "lat": 39.8687,
+   "lng": 32.7483,
+   "precision": "Campus",
+   "description": "Ankara university. Partner in BTK's 5G and Beyond Joint Graduate Support Program and the 5G Valley open test field.",
+   "sources": [
+    "https://www.btk.gov.tr/en/announcements/5g-ve-otesi-ortak-lisansustu-destekleme-programi",
+    "https://btk.gov.tr/en/news/bilgi-teknolojilerinin-onemi-her-gecen-gun-artiyor"
+   ]
+  },
+  {
+   "id": "metu",
+   "name": "Middle East Technical University (ODTÜ)",
+   "short": "METU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Ankara, Türkiye",
+   "lat": 39.8914,
+   "lng": 32.776,
+   "precision": "Campus",
+   "description": "Ankara university. Partner in BTK's 5G and Beyond graduate programme and 5G Valley. Türk Telekom planned its first outdoor 6G pilots around ODTÜ Teknokent in summer 2026.",
+   "sources": [
+    "https://www.btk.gov.tr/en/announcements/5g-ve-otesi-ortak-lisansustu-destekleme-programi",
+    "https://yeniasir.com.tr/yasam/2026/03/17/turk-telekomun-kuresel-is-birlikleriyle-6g-vizyonu"
+   ]
+  },
+  {
+   "id": "israel-innovation-authority",
+   "name": "Israel Innovation Authority",
+   "short": "IIA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Jerusalem, Israel",
+   "lat": 31.7683,
+   "lng": 35.2137,
+   "precision": "City",
+   "description": "Israel's innovation funding agency. Launched the IISAC consortium in February 2025 as part of a NIS 100m (about $28m) package, to develop sensing, 4D positioning and network efficiency for Beyond 5G/6G.",
+   "sources": [
+    "https://innovationisrael.org.il/en/press_release/new-consortia-sustainable-jet-fuel-and-smart-comms/",
+    "https://jewishpress.com/news/science-and-tech/israel-invests-28-million-in-researching-next-gen-sustainable-aviation-fuel/2025/02/12"
+   ]
+  },
+  {
+   "id": "iisac",
+   "name": "IISAC Consortium (Intelligent Integrated Sensing and Communication)",
+   "short": "IISAC",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Israel",
+   "lat": 31.7683,
+   "lng": 35.2137,
+   "precision": "City",
+   "description": "Israel Innovation Authority consortium announced in February 2025. Brings Israeli companies and universities together on integrated sensing and communication for Beyond 5G/6G.",
+   "sources": [
+    "https://innovationisrael.org.il/en/press_release/new-consortia-sustainable-jet-fuel-and-smart-comms/",
+    "https://jewishpress.com/news/science-and-tech/israel-invests-28-million-in-researching-next-gen-sustainable-aviation-fuel/2025/02/12"
+   ]
+  },
+  {
+   "id": "technion",
+   "name": "Technion – Israel Institute of Technology",
+   "short": "Technion",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Haifa, Israel",
+   "lat": 32.7767,
+   "lng": 35.0231,
+   "precision": "Campus",
+   "description": "Israel's leading engineering university. Home to Shlomo Shamai, a leading information theorist working on cloud radio networks and NOMA.",
+   "sources": [
+    "https://shamai.net.technion.ac.il/"
+   ]
+  },
+  {
+   "id": "weizmann",
+   "name": "Weizmann Institute of Science",
+   "short": "Weizmann",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Rehovot, Israel",
+   "lat": 31.907,
+   "lng": 34.8095,
+   "precision": "Campus",
+   "description": "Israeli research institute. Yonina Eldar's group works on 6G ISAC, near-field communications and dynamic metasurface antennas.",
+   "sources": [
+    "https://weizmann.ac.il/math/yonina/communication-and-radar"
+   ]
+  },
+  {
+   "id": "tau",
+   "name": "Tel Aviv University",
+   "short": "TAU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Tel Aviv, Israel",
+   "lat": 32.1133,
+   "lng": 34.8044,
+   "precision": "Campus",
+   "description": "Israeli university. Its engineering faculty works on 5G/6G, mmWave and terahertz links, and satellite communications. Setting up an Institute for Electromagnetic Technologies around the national NEW-ARC wireless research centre.",
+   "sources": [
+    "https://engineeringindustry.sites.tau.ac.il/about-1-3",
+    "https://en-engineering.tau.ac.il/Electromagnetic_Technologies_Institute_EN"
+   ]
+  },
+  {
+   "id": "gilat",
+   "name": "Gilat Satellite Networks",
+   "short": "Gilat",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Petah Tikva, Israel",
+   "lat": 32.0871,
+   "lng": 34.8875,
+   "precision": "City",
+   "description": "Israeli satellite ground-segment company. Demonstrated 3GPP-compliant 5G NTN over GEO in February 2026, a step towards satellite-integrated 6G.",
+   "sources": [
+    "https://finviz.com/news/323051/gilat-demonstrates-5g-ntn-end-to-end-connectivity-over-geo-satellite",
+    "https://satnews.com/2026/05/13/gilat-wins-big-military-contracts-expands-india-footprint/"
+   ]
+  },
+  {
+   "id": "ceragon",
+   "name": "Ceragon Networks",
+   "short": "Ceragon",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Rosh HaAyin, Israel",
+   "lat": 32.0956,
+   "lng": 34.9568,
+   "precision": "City",
+   "description": "Israeli wireless backhaul company. Publishes work on transport planning for 5G-Advanced and early 6G, including E-band.",
+   "sources": [
+    "https://www.ceragon.com/resources/white-papers/wireless-transport-for-the-beyond-5g-era",
+    "https://finviz.com/news/399004/ceragon-brings-new-e-band-innovation-and-a-portfolio-built-to-scale-to-india-mobile-congress-2026"
+   ]
+  },
+  {
+   "id": "runel",
+   "name": "RunEL NGMT",
+   "short": "RunEL",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Rishon LeZion, Israel",
+   "lat": 31.973,
+   "lng": 34.7925,
+   "precision": "City",
+   "description": "Israeli 5G RAN start-up specialising in PHY/MAC and O-RAN radio units. Took part in the EU 6G BRAINS project. Now focused on centimetre-level positioning with Amarisoft.",
+   "sources": [
+    "https://celticnext.eu/offering_expertise/5g-and-beyond-physical-and-mac-layers-including-du-and-ru-in-sub-6ghz-and-mmwaves-01-03-2021",
+    "https://amarisoft.com/news/amarisoft-RunEL",
+    "https://startupim.com/company/runel-ngmt"
+   ]
+  },
+  {
+   "id": "ucom",
+   "name": "Ucom",
+   "short": "Ucom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Yerevan, Armenia",
+   "lat": 40.1792,
+   "lng": 44.4991,
+   "precision": "City",
+   "description": "Armenian operator. Signed an MoU with Nokia in October 2025 on autonomous networks and AI for 6G, including lab or field trials and 3GPP input.",
+   "sources": [
+    "https://en.b24.am/business/16128.html",
+    "https://armenpress.am/en/article/1232694/amp"
+   ]
+  },
+  {
+   "id": "telecom-armenia",
+   "name": "Telecom Armenia (Team Telecom Armenia)",
+   "short": "Team Telecom Armenia",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Yerevan, Armenia",
+   "lat": 40.1792,
+   "lng": 44.4991,
+   "precision": "City",
+   "description": "Armenian incumbent operator. Signed a reciprocal internet transit deal with AzerTelecom in June 2026, a first between Armenia and Azerbaijan.",
+   "sources": [
+    "https://www.intellinews.com/azertelecom-and-telecom-armenia-sign-internet-transit-deal-450110/",
+    "https://armenpress.am/en/article/1253662"
+   ]
+  },
+  {
+   "id": "azertelecom",
+   "name": "AzerTelecom",
+   "short": "AzerTelecom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Baku, Azerbaijan",
+   "lat": 40.4093,
+   "lng": 49.8671,
+   "precision": "City",
+   "description": "Azerbaijani wholesale operator, part of NEQSOL Holding. Runs the Digital Silk Way project. Signed a reciprocal internet transit deal with Telecom Armenia in June 2026.",
+   "sources": [
+    "https://eufordigital.eu/?p=30702",
+    "https://www.intellinews.com/azertelecom-and-telecom-armenia-sign-internet-transit-deal-450110/",
+    "https://en.trend.az/azerbaijan/business/3810131.html"
+   ]
+  },
+  {
+   "id": "digital-silk-way",
+   "name": "Digital Silk Way",
+   "short": "Digital Silk Way",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Baku, Azerbaijan",
+   "lat": 40.4093,
+   "lng": 49.8671,
+   "precision": "City",
+   "description": "AzerTelecom-led fibre corridor linking Europe to Central and South Asia through Georgia, Azerbaijan and the Caspian. Includes the Trans-Caspian cable with Kazakhtelecom. Backbone, not 6G radio.",
+   "sources": [
+    "https://eufordigital.eu/?p=30702",
+    "https://azertag.az/en/xeber/__digital_silk_way_project_presented_at_gccm_2023_event_in_almaty-2748140",
+    "https://www.trend.az/business/it/4118555.html"
+   ]
+  },
+  {
+   "id": "rcc",
+   "name": "Regional Commonwealth in the Field of Communications (RCC)",
+   "short": "RCC",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Moscow, Russia",
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "precision": "City",
+   "description": "Regional telecoms body for Russia and Central Asian administrations. Coordinates a common position for WRC-27, including the IMT bands under agenda item 1.7.",
+   "sources": [
+    "https://www.itu.int/wrc-27/?p=11",
+    "https://cept.org/documents/cpg/86553/cpg-24-info24_rcc-draft-preliminary-position-on-agenda-items-for-wrc-27"
+   ]
+  },
+  {
+   "id": "kazakhtelecom",
+   "name": "Kazakhtelecom",
+   "short": "Kazakhtelecom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Astana, Kazakhstan",
+   "lat": 51.1694,
+   "lng": 71.4491,
+   "precision": "City",
+   "description": "Kazakhstan's incumbent operator. Owns 51% of Kcell and sold Tele2/Altel to Qatar's PIH in January 2025. Partner in the Trans-Caspian fibre link of the Digital Silk Way.",
+   "sources": [
+    "https://daryo.uz/2025/01/15/kazakhtelecom-finalizes-1-1bn-sale-of-mobile-telecom-service-to-qatari-investor-1207846/",
+    "https://azertag.az/en/xeber/__digital_silk_way_project_presented_at_gccm_2023_event_in_almaty-2748140"
+   ]
+  },
+  {
+   "id": "kcell",
+   "name": "Kcell",
+   "short": "Kcell",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Almaty, Kazakhstan",
+   "lat": 43.2389,
+   "lng": 76.8897,
+   "precision": "City",
+   "description": "Kazakh mobile operator, 51% owned by Kazakhtelecom. Rated fastest network in Kazakhstan, including on 5G, in 2026. No published 6G programme found.",
+   "sources": [
+    "https://www.inform.kz/ru/bolee-32mlrd-tenge-vset-investiroval-kcell-vpervom-polugodii-2026-goda-f26dff1e",
+    "https://insights.opensignal.com/reports/2026/11/kazakhstan/mobile-network-experience",
+    "https://daryo.uz/2025/01/15/kazakhtelecom-finalizes-1-1bn-sale-of-mobile-telecom-service-to-qatari-investor-1207846/"
+   ]
+  },
+  {
+   "id": "beeline-kz",
+   "name": "Beeline Kazakhstan (KaR-Tel)",
+   "short": "Beeline KZ",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Almaty, Kazakhstan",
+   "lat": 43.2389,
+   "lng": 76.8897,
+   "precision": "City",
+   "description": "Kazakh mobile operator. Shares rural network infrastructure with Kcell and Tele2. Leads on coverage. No published 6G programme found.",
+   "sources": [
+    "https://telecomlead.com/telecom-services/beeline-kcell-and-tele2-sign-network-sharing-deal-in-kazakhstan-97065",
+    "https://insights.opensignal.com/reports/2026/11/kazakhstan/mobile-network-experience"
+   ]
+  },
+  {
+   "id": "uztelecom",
+   "name": "Uztelecom",
+   "short": "Uztelecom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Tashkent, Uzbekistan",
+   "lat": 41.2995,
+   "lng": 69.2401,
+   "precision": "City",
+   "description": "Uzbekistan's national operator. Demonstrated upper 6 GHz 5G-Advanced at 10.16 Gbit/s at ICT Week 2025, pitched as 6G-ready infrastructure.",
+   "sources": [
+    "https://kun.uz/news/2025/09/23/mdhda-birinchi-marta-ictweekda-uztelecom-1016-gbits-tezlikdagi-u6g-5g-advanced-texnologiyasini-taqdim-etdi",
+    "https://www.spot.uz/ru/2025/09/23/uztelecom/"
+   ]
+  },
+  {
+   "id": "ucell",
+   "name": "Ucell",
+   "short": "Ucell",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Tashkent, Uzbekistan",
+   "lat": 41.2995,
+   "lng": 69.2401,
+   "precision": "City",
+   "description": "Uzbek mobile operator. Rated fastest mobile network in Uzbekistan for the third year in 2026. Launched 5G FWA with Huawei. No published 6G programme found.",
+   "sources": [
+    "https://ucell.uz/en/news/ucell_speed_ookla",
+    "https://www.huawei.com/uz/news/2026/huawei-ucell-5g-fwa-ictweek-2026"
+   ]
+  },
+  {
+   "id": "mindigital-uz",
+   "name": "Ministry of Digital Technologies (Uzbekistan)",
+   "short": "MinDigital UZ",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Tashkent, Uzbekistan",
+   "lat": 41.2995,
+   "lng": 69.2401,
+   "precision": "City",
+   "description": "Uzbek ministry. Signed an MoU with ZTE in April 2026 covering data centres, broadband and next-generation technologies including 6G.",
+   "sources": [
+    "https://www.mobileworldlive.com/?p=514000"
+   ]
+  },
+  {
+   "id": "nazarbayev-university",
+   "name": "Nazarbayev University",
+   "short": "NU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Astana, Kazakhstan",
+   "lat": 51.0906,
+   "lng": 71.398,
+   "precision": "Campus",
+   "description": "Kazakhstan's research university. Its ECE department runs 6G work on reconfigurable intelligent surfaces and fluid antennas. Plans a 6G research centre.",
+   "sources": [
+    "https://seds.nu.edu.kz/news/tpost/oyxbu7xol1-nu-seds-professor-leads-kazakhstans-6g-r?amp=true",
+    "https://nu.edu.kz/?p=52746"
+   ]
+  },
+  {
+   "id": "tuit",
+   "name": "Tashkent University of Information Technologies",
+   "short": "TUIT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Tashkent, Uzbekistan",
+   "lat": 41.3409,
+   "lng": 69.2865,
+   "precision": "Campus",
+   "description": "Uzbekistan's main ICT university. Partners with ZTE on hackathons, internships and training.",
+   "sources": [
+    "https://www.mobileworldlive.com/tang-luhao-president-of-cis-region-at-zte-we-are-building-a-smarter-more-connected-future-for-central-asia/"
+   ]
+  },
+  {
+   "id": "orhan-aydin",
+   "name": "Orhan Aydın",
+   "short": "Orhan Aydın",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President, TÜBİTAK",
+   "org": "tubitak",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President of TÜBİTAK since 14 September 2024. Champions its 6G work with Turkcell.",
+   "sources": [
+    "https://globalresearchcouncil.org/about/governing-board/orhan-aydin",
+    "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp"
+   ]
+  },
+  {
+   "id": "gunes-fatma-kesik",
+   "name": "Güneş Fatma Kesik",
+   "short": "Güneş Fatma Kesik",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Manager, Turkcell 6GEN.LAB; Associate Director, Next Generation R&D",
+   "org": "turkcell",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Turkcell 6GEN.LAB. Joined Turkcell in 2025 from Ericsson, where she managed research and innovation engagements. Co-author on 6G and AI-native networking.",
+   "sources": [
+    "https://tubitak.gov.tr/sites/default/files/2026-07/6GEN_LAB_Eng.pdf"
+   ]
+  },
+  {
+   "id": "vehbi-cagri-gungor",
+   "name": "Vehbi Çağrı Güngör",
+   "short": "Vehbi Çağrı Güngör",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Vice President, Network Technologies, Turkcell",
+   "org": "turkcell",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Turkcell executive responsible for network technologies. Previously CTO. Signed the 2024 Ericsson 6G MoU.",
+   "sources": [
+    "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp",
+    "https://www.ericsson.com/en/press-releases/5/2024/ericsson-research-and-turkcell-sign-mou-at-mwc-2024-for-6g-research-and-development"
+   ]
+  },
+  {
+   "id": "ebubekir-sahin",
+   "name": "Ebubekir Şahin",
+   "short": "Ebubekir Şahin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Türk Telekom",
+   "org": "turk-telekom",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Türk Telekom. Signed the 2026 Ericsson 6G standards collaboration.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/5/2026/turk-telekom-partners-with-ericsson-to-shape-6g-standards"
+   ]
+  },
+  {
+   "id": "rusen-komurcu",
+   "name": "Ruşen Kömürcü",
+   "short": "Ruşen Kömürcü",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "General Manager, ULAK Communications",
+   "org": "ulak",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of ULAK. Has driven its 6G patent push to 208 applications.",
+   "sources": [
+    "https://www.dha.com.tr/teknoloji/ulak-haberlesmenin-6g-teknolojisinde-patent-sayisi-208e-ulasti-2749662",
+    "https://6gworld.com/?p=28015"
+   ]
+  },
+  {
+   "id": "ali-gorcin",
+   "name": "Ali Görçin",
+   "short": "Ali Görçin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President, TÜBİTAK BİLGEM",
+   "org": "tubitak-bilgem",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of TÜBİTAK BİLGEM and a HABTEK board member.",
+   "sources": [
+    "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
+   ]
+  },
+  {
+   "id": "huseyin-arslan",
+   "name": "Hüseyin Arslan",
+   "short": "Hüseyin Arslan",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Dean, School of Engineering and Natural Sciences, Istanbul Medipol University",
+   "org": "medipol",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Dean at Medipol and leader of the CoSiNC research group, a 6G-IA member. Driving force behind HABTEK.",
+   "sources": [
+    "https://www.medipol.edu.tr/en/node/12805",
+    "https://www.medipol.edu.tr/en/node/16666"
+   ]
+  },
+  {
+   "id": "mehmet-ogul",
+   "name": "Mehmet Oğul",
+   "short": "Mehmet Oğul",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "General Manager, Ericsson Türkiye",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "General Manager of Ericsson Türkiye. Spokesperson for the 2026 Türk Telekom 6G collaboration.",
+   "sources": [
+    "https://www.ericsson.com/en/press-releases/5/2026/turk-telekom-partners-with-ericsson-to-shape-6g-standards"
+   ]
+  },
+  {
+   "id": "shlomo-shamai",
+   "name": "Shlomo Shamai",
+   "short": "Shlomo Shamai",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Technion Distinguished Professor; William Fondiller Chair of Telecommunications",
+   "org": "technion",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Technion Distinguished Professor. Shannon Award winner. Works on cloud and fog radio networks, NOMA and modern coding.",
+   "sources": [
+    "https://shamai.net.technion.ac.il/"
+   ]
+  },
+  {
+   "id": "yonina-eldar",
+   "name": "Yonina Eldar",
+   "short": "Yonina Eldar",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, Mathematics and Computer Science, Weizmann Institute",
+   "org": "weizmann",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Weizmann professor whose group leads work on 6G ISAC, near-field beam focusing and metasurface antennas.",
+   "sources": [
+    "https://weizmann.ac.il/math/yonina/communication-and-radar"
+   ]
+  },
+  {
+   "id": "zion-hadad",
+   "name": "Zion Hadad",
+   "short": "Zion Hadad",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Founder and CEO, RunEL",
+   "org": "runel",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founder and CEO of RunEL, an Israeli 5G RAN company.",
+   "sources": [
+    "https://startupim.com/company/runel-ngmt"
+   ]
+  },
+  {
+   "id": "adi-sfadia",
+   "name": "Adi Sfadia",
+   "short": "Adi Sfadia",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Gilat Satellite Networks",
+   "org": "gilat",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Gilat. Leading its push into multi-orbit and 5G NTN ground segment.",
+   "sources": [
+    "https://satnews.com/2026/05/13/gilat-wins-big-military-contracts-expands-india-footprint/"
+   ]
+  },
+  {
+   "id": "ralph-yirikian",
+   "name": "Ralph Yirikian",
+   "short": "Ralph Yirikian",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "General Director, Ucom",
+   "org": "ucom",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of Ucom. Signed the 2025 6G MoU with Nokia.",
+   "sources": [
+    "https://en.b24.am/business/16128.html"
+   ]
+  },
+  {
+   "id": "alexander-yesayan",
+   "name": "Alexander Yesayan",
+   "short": "Alexander Yesayan",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Co-founder and Chairman of the Board, Team Telecom Armenia",
+   "org": "telecom-armenia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-founder and chair of Team Telecom Armenia. Public face of the 2026 AzerTelecom transit deal.",
+   "sources": [
+    "https://panarmenian.net/m/eng/news/334472/"
+   ]
+  },
+  {
+   "id": "galymzhan-nauryzbayev",
+   "name": "Galymzhan Nauryzbayev",
+   "short": "Galymzhan Nauryzbayev",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor, ECE, Nazarbayev University",
+   "org": "nazarbayev-university",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Kazakhstan's main 6G research on RIS and fluid antennas. Plans a 6G research centre.",
+   "sources": [
+    "https://seds.nu.edu.kz/news/tpost/oyxbu7xol1-nu-seds-professor-leads-kazakhstans-6g-r?amp=true",
+    "https://nu.edu.kz/?p=52746"
+   ]
+  },
+  {
+   "id": "askar-zhambakin",
+   "name": "Askar Zhambakin",
+   "short": "Askar Zhambakin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chairman of the Management Board, Kcell",
+   "org": "kcell",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of Kcell.",
+   "sources": [
+    "https://www.inform.kz/ru/bolee-32mlrd-tenge-vset-investiroval-kcell-vpervom-polugodii-2026-goda-f26dff1e"
+   ]
+  },
+  {
+   "id": "andrey-shishkovsky",
+   "name": "Andrey Shishkovsky",
+   "short": "Andrey Shishkovsky",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Ucell",
+   "org": "ucell",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Ucell.",
+   "sources": [
+    "https://ucell.uz/en/news/ucell_speed_ookla"
+   ]
   }
  ],
  "edges": [
@@ -26406,6 +27301,356 @@
    "type": "Role",
    "label": "Honorary Professor (since Jan 2026)",
    "source": "https://ebe.uct.ac.za/department-electrical-engineering/contacts/thomas-magedanz"
+  },
+  {
+   "from": "orhan-aydin",
+   "to": "tubitak",
+   "type": "Role",
+   "label": "President, TÜBİTAK",
+   "source": "https://globalresearchcouncil.org/about/governing-board/orhan-aydin"
+  },
+  {
+   "from": "gunes-fatma-kesik",
+   "to": "turkcell",
+   "type": "Role",
+   "label": "Manager, Turkcell 6GEN.LAB; Associate Director, Next Generation R&D",
+   "source": "https://tubitak.gov.tr/sites/default/files/2026-07/6GEN_LAB_Eng.pdf"
+  },
+  {
+   "from": "vehbi-cagri-gungor",
+   "to": "turkcell",
+   "type": "Role",
+   "label": "Executive Vice President, Network Technologies, Turkcell",
+   "source": "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp"
+  },
+  {
+   "from": "ebubekir-sahin",
+   "to": "turk-telekom",
+   "type": "Role",
+   "label": "CEO, Türk Telekom",
+   "source": "https://www.ericsson.com/en/press-releases/5/2026/turk-telekom-partners-with-ericsson-to-shape-6g-standards"
+  },
+  {
+   "from": "rusen-komurcu",
+   "to": "ulak",
+   "type": "Role",
+   "label": "General Manager, ULAK Communications",
+   "source": "https://www.dha.com.tr/teknoloji/ulak-haberlesmenin-6g-teknolojisinde-patent-sayisi-208e-ulasti-2749662"
+  },
+  {
+   "from": "ali-gorcin",
+   "to": "tubitak-bilgem",
+   "type": "Role",
+   "label": "President, TÜBİTAK BİLGEM",
+   "source": "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
+  },
+  {
+   "from": "huseyin-arslan",
+   "to": "medipol",
+   "type": "Role",
+   "label": "Dean, School of Engineering and Natural Sciences, Istanbul Medipol University",
+   "source": "https://www.medipol.edu.tr/en/node/12805"
+  },
+  {
+   "from": "mehmet-ogul",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "General Manager, Ericsson Türkiye",
+   "source": "https://www.ericsson.com/en/press-releases/5/2026/turk-telekom-partners-with-ericsson-to-shape-6g-standards"
+  },
+  {
+   "from": "shlomo-shamai",
+   "to": "technion",
+   "type": "Role",
+   "label": "Technion Distinguished Professor; William Fondiller Chair of Telecommunications",
+   "source": "https://shamai.net.technion.ac.il/"
+  },
+  {
+   "from": "yonina-eldar",
+   "to": "weizmann",
+   "type": "Role",
+   "label": "Professor, Mathematics and Computer Science, Weizmann Institute",
+   "source": "https://weizmann.ac.il/math/yonina/communication-and-radar"
+  },
+  {
+   "from": "zion-hadad",
+   "to": "runel",
+   "type": "Role",
+   "label": "Founder and CEO, RunEL",
+   "source": "https://startupim.com/company/runel-ngmt"
+  },
+  {
+   "from": "adi-sfadia",
+   "to": "gilat",
+   "type": "Role",
+   "label": "CEO, Gilat Satellite Networks",
+   "source": "https://satnews.com/2026/05/13/gilat-wins-big-military-contracts-expands-india-footprint/"
+  },
+  {
+   "from": "ralph-yirikian",
+   "to": "ucom",
+   "type": "Role",
+   "label": "General Director, Ucom",
+   "source": "https://en.b24.am/business/16128.html"
+  },
+  {
+   "from": "alexander-yesayan",
+   "to": "telecom-armenia",
+   "type": "Role",
+   "label": "Co-founder and Chairman of the Board, Team Telecom Armenia",
+   "source": "https://panarmenian.net/m/eng/news/334472/"
+  },
+  {
+   "from": "galymzhan-nauryzbayev",
+   "to": "nazarbayev-university",
+   "type": "Role",
+   "label": "Associate Professor, ECE, Nazarbayev University",
+   "source": "https://seds.nu.edu.kz/news/tpost/oyxbu7xol1-nu-seds-professor-leads-kazakhstans-6g-r?amp=true"
+  },
+  {
+   "from": "askar-zhambakin",
+   "to": "kcell",
+   "type": "Role",
+   "label": "Chairman of the Management Board, Kcell",
+   "source": "https://www.inform.kz/ru/bolee-32mlrd-tenge-vset-investiroval-kcell-vpervom-polugodii-2026-goda-f26dff1e"
+  },
+  {
+   "from": "andrey-shishkovsky",
+   "to": "ucell",
+   "type": "Role",
+   "label": "CEO, Ucell",
+   "source": "https://ucell.uz/en/news/ucell_speed_ookla"
+  },
+  {
+   "from": "turkcell",
+   "to": "tubitak",
+   "type": "Research together",
+   "label": "Domestic 6G intelligent-surface prototypes (Oct 2026)",
+   "source": "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp"
+  },
+  {
+   "from": "turkcell",
+   "to": "tubitak-bilgem",
+   "type": "Research together",
+   "label": "SRS, STS and RIS designs, HİSAR Lab",
+   "source": "https://www.capital.com.tr/haberler/tum-haberler/yerli-ve-milli-6g-sebeke-cozumleri-ilk-kez-sahada-denendi"
+  },
+  {
+   "from": "turkcell",
+   "to": "tubitak-mam",
+   "type": "Research together",
+   "label": "Intelligent-surface prototypes and field tests",
+   "source": "https://www.capital.com.tr/haberler/tum-haberler/yerli-ve-milli-6g-sebeke-cozumleri-ilk-kez-sahada-denendi"
+  },
+  {
+   "from": "tubitak",
+   "to": "tubitak-bilgem",
+   "type": "Membership",
+   "label": "TÜBİTAK research centre",
+   "source": "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp"
+  },
+  {
+   "from": "tubitak",
+   "to": "tubitak-mam",
+   "type": "Membership",
+   "label": "TÜBİTAK research centre",
+   "source": "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp"
+  },
+  {
+   "from": "turkcell",
+   "to": "ericsson",
+   "type": "Partnership / project",
+   "label": "6G R&D MoU, MWC 2024 and 2026",
+   "source": "https://www.ericsson.com/en/press-releases/5/2026/turkcell-and-ericsson-partner-on-6g-research-in-turkiye"
+  },
+  {
+   "from": "turk-telekom",
+   "to": "ericsson",
+   "type": "Partnership / project",
+   "label": "6G standards collaboration; SafeRoute-6G",
+   "source": "https://www.ericsson.com/en/press-releases/5/2026/turk-telekom-partners-with-ericsson-to-shape-6g-standards"
+  },
+  {
+   "from": "turk-telekom",
+   "to": "metu",
+   "type": "Partnership / project",
+   "label": "Outdoor 6G pilots at ODTÜ Teknokent",
+   "source": "https://yeniasir.com.tr/yasam/2026/03/17/turk-telekomun-kuresel-is-birlikleriyle-6g-vizyonu"
+  },
+  {
+   "from": "halim-yanikomeroglu",
+   "to": "turk-telekom",
+   "type": "Role",
+   "label": "Member, R&D and Innovation Science Board (Sept 2026)",
+   "source": "https://www.dunya.com/sirketler/turk-telekomdan-6g-yapay-zeka-ve-kuantum-hamlesi-bilim-kurulu-kuruldu-haberi-840631"
+  },
+  {
+   "from": "aselsan",
+   "to": "ulak",
+   "type": "Funding",
+   "label": "Majority shareholder (51%)",
+   "source": "https://www.b2match.com/e/cl4-digital-2025/participations/525012"
+  },
+  {
+   "from": "tubitak",
+   "to": "ulak",
+   "type": "Funding",
+   "label": "Backs ULAK 6G research lab",
+   "source": "https://www.dailysabah.com/turkiye/ulak-inc-to-set-up-6g-research-lab-with-tubitaks-backing/news"
+  },
+  {
+   "from": "medipol",
+   "to": "habtek",
+   "type": "Partnership / project",
+   "label": "Hosts HABTEK",
+   "source": "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
+  },
+  {
+   "from": "aselsan",
+   "to": "habtek",
+   "type": "Membership",
+   "label": "Board member",
+   "source": "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
+  },
+  {
+   "from": "turkcell",
+   "to": "habtek",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
+  },
+  {
+   "from": "tubitak-bilgem",
+   "to": "habtek",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
+  },
+  {
+   "from": "ulak",
+   "to": "habtek",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
+  },
+  {
+   "from": "medipol",
+   "to": "6g-ia",
+   "type": "Membership",
+   "label": "CoSiNC group, full member",
+   "source": "https://www.medipol.edu.tr/en/node/12805"
+  },
+  {
+   "from": "btk",
+   "to": "bilkent",
+   "type": "Partnership / project",
+   "label": "5G and Beyond Joint Graduate Support Program; 5G Valley",
+   "source": "https://www.btk.gov.tr/en/announcements/5g-ve-otesi-ortak-lisansustu-destekleme-programi"
+  },
+  {
+   "from": "btk",
+   "to": "metu",
+   "type": "Partnership / project",
+   "label": "5G and Beyond Joint Graduate Support Program; 5G Valley",
+   "source": "https://www.btk.gov.tr/en/announcements/5g-ve-otesi-ortak-lisansustu-destekleme-programi"
+  },
+  {
+   "from": "btk",
+   "to": "turkcell",
+   "type": "Partnership / project",
+   "label": "5G Valley open test field",
+   "source": "https://btk.gov.tr/en/news/bilgi-teknolojilerinin-onemi-her-gecen-gun-artiyor"
+  },
+  {
+   "from": "btk",
+   "to": "turk-telekom",
+   "type": "Partnership / project",
+   "label": "5G Valley open test field",
+   "source": "https://btk.gov.tr/en/news/bilgi-teknolojilerinin-onemi-her-gecen-gun-artiyor"
+  },
+  {
+   "from": "turkcell",
+   "to": "sns-ju",
+   "type": "Funding",
+   "label": "MAGIC-6G and other Horizon Europe projects",
+   "source": "https://www.dailysabah.com/business/tech/turkiyes-turkcell-takes-part-in-6-leading-european-rd-projects/amp"
+  },
+  {
+   "from": "israel-innovation-authority",
+   "to": "iisac",
+   "type": "Funding",
+   "label": "Funds the IISAC consortium",
+   "source": "https://innovationisrael.org.il/en/press_release/new-consortia-sustainable-jet-fuel-and-smart-comms/"
+  },
+  {
+   "from": "runel",
+   "to": "sns-ju",
+   "type": "Research together",
+   "label": "6G BRAINS and other EU projects",
+   "source": "https://celticnext.eu/offering_expertise/5g-and-beyond-physical-and-mac-layers-including-du-and-ru-in-sub-6ghz-and-mmwaves-01-03-2021"
+  },
+  {
+   "from": "ucom",
+   "to": "nokia",
+   "type": "Partnership / project",
+   "label": "6G MoU: autonomous networks and AI (Oct 2025)",
+   "source": "https://en.b24.am/business/16128.html"
+  },
+  {
+   "from": "telecom-armenia",
+   "to": "azertelecom",
+   "type": "Partnership / project",
+   "label": "Reciprocal internet transit (June 2026)",
+   "source": "https://www.intellinews.com/azertelecom-and-telecom-armenia-sign-internet-transit-deal-450110/"
+  },
+  {
+   "from": "azertelecom",
+   "to": "digital-silk-way",
+   "type": "Partnership / project",
+   "label": "Leads the project",
+   "source": "https://eufordigital.eu/?p=30702"
+  },
+  {
+   "from": "kazakhtelecom",
+   "to": "digital-silk-way",
+   "type": "Partnership / project",
+   "label": "Trans-Caspian fibre link",
+   "source": "https://azertag.az/en/xeber/__digital_silk_way_project_presented_at_gccm_2023_event_in_almaty-2748140"
+  },
+  {
+   "from": "kazakhtelecom",
+   "to": "kcell",
+   "type": "Funding",
+   "label": "Owns 51%",
+   "source": "https://daryo.uz/2025/01/15/kazakhtelecom-finalizes-1-1bn-sale-of-mobile-telecom-service-to-qatari-investor-1207846/"
+  },
+  {
+   "from": "beeline-kz",
+   "to": "kcell",
+   "type": "Partnership / project",
+   "label": "Rural network sharing",
+   "source": "https://telecomlead.com/telecom-services/beeline-kcell-and-tele2-sign-network-sharing-deal-in-kazakhstan-97065"
+  },
+  {
+   "from": "ucell",
+   "to": "huawei",
+   "type": "Partnership / project",
+   "label": "5G FWA launch, ICT Week 2026",
+   "source": "https://www.huawei.com/uz/news/2026/huawei-ucell-5g-fwa-ictweek-2026"
+  },
+  {
+   "from": "zte",
+   "to": "mindigital-uz",
+   "type": "Partnership / project",
+   "label": "MoU incl. 6G (Apr 2026)",
+   "source": "https://www.mobileworldlive.com/?p=514000"
+  },
+  {
+   "from": "zte",
+   "to": "tuit",
+   "type": "Partnership / project",
+   "label": "Hackathons, internships and training",
+   "source": "https://www.mobileworldlive.com/tang-luhao-president-of-cis-region-at-zte-we-are-building-a-smarter-more-connected-future-for-central-asia/"
   }
  ]
 }
