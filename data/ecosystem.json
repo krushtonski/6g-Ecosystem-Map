@@ -21735,6 +21735,128 @@
     "https://yespress.io/kaptivate"
    ],
    "noscore": true
+  },
+  {
+   "id": "ntia-its",
+   "name": "Institute for Telecommunication Sciences (ITS), NTIA",
+   "short": "NTIA ITS",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "325 Broadway, Boulder, CO 80305-3337",
+   "lat": 39.9946,
+   "lng": -105.2624,
+   "precision": "Street address",
+   "description": "NTIA's research and engineering laboratory in Boulder, Colorado, part of the US Department of Commerce. Hosts the International RAN Innovation Symposium (IRIS) meetings.",
+   "sources": [
+    "https://its.ntia.gov/research/5g/iris/202612-iris/"
+   ]
+  },
+  {
+   "id": "iris-2026-12",
+   "name": "IRIS Virtual Meeting: Network Digital Twins for Testing (December 2026)",
+   "short": "IRIS: Network Digital Twins (Dec 2026)",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Virtual, hosted by NTIA's Institute for Telecommunication Sciences, Boulder, CO",
+   "lat": 39.995,
+   "lng": -105.2626,
+   "precision": "City",
+   "description": "Virtual technical meeting of the International RAN Innovation Symposium (IRIS) on network digital twins for testing, December 17, 2026. Hosted by NTIA's Institute for Telecommunication Sciences (ITS), led by Julie Kub of NTIA.",
+   "sources": [
+    "https://its.ntia.gov/research/5g/iris/202612-iris/"
+   ]
+  },
+  {
+   "id": "eantc",
+   "name": "EANTC (European Advanced Networking Test Center)",
+   "short": "EANTC",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Berlin, Germany",
+   "lat": 52.52,
+   "lng": 13.405,
+   "precision": "City",
+   "description": "Berlin-based, vendor-neutral test lab for telecom technologies, founded in 1999. Runs interoperability and performance testing for vendors and operators. Presented with the i14y Lab at the December 2026 IRIS meeting on network digital twins.",
+   "sources": [
+    "https://www.uppersideconferences.com/mpls-sdn-nfv/2023/speakers/Rossenhoevel.html",
+    "https://its.ntia.gov/research/5g/iris/202612-iris/"
+   ]
+  },
+  {
+   "id": "jeff-liu-itri",
+   "name": "Jeff Liu",
+   "short": "Jeff Liu",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Leads ITRI Lab (OCUDU Lab partner, APAC)",
+   "org": "itri",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads ITRI Lab, an OCUDU Lab partner in the Asia-Pacific region. Speaker at the December 2026 IRIS meeting on network digital twins for testing.",
+   "sources": [
+    "https://ocudueds26.sched.com/speaker/jeff.liu2",
+    "https://its.ntia.gov/research/5g/iris/202612-iris/"
+   ]
+  },
+  {
+   "id": "carsten-rossenhovel",
+   "name": "Carsten Rossenhövel",
+   "short": "Carsten Rossenhövel",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Managing Director and Co-Founder, EANTC",
+   "org": "eantc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Managing Director and co-founder of EANTC. Represented EANTC and the i14y Lab at the December 2026 IRIS meeting on network digital twins for testing.",
+   "sources": [
+    "https://www.uppersideconferences.com/sd-wan/2022/speakers/Rossenhoevel.html",
+    "https://its.ntia.gov/research/5g/iris/202612-iris/"
+   ]
+  },
+  {
+   "id": "ian-wong-viavi",
+   "name": "Ian Wong",
+   "short": "Ian Wong",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VIAVI Solutions",
+   "org": "viavi",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VIAVI Solutions. Speaker at the December 2026 IRIS meeting on network digital twins for testing.",
+   "sources": [
+    "https://its.ntia.gov/research/5g/iris/202612-iris/"
+   ]
+  },
+  {
+   "id": "charles-turyagyenda",
+   "name": "Charles Turyagyenda",
+   "short": "Charles Turyagyenda",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Digital Catapult",
+   "org": "digital-catapult",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Digital Catapult. Speaker at the December 2026 IRIS meeting on network digital twins for testing.",
+   "sources": [
+    "https://its.ntia.gov/research/5g/iris/202612-iris/"
+   ]
   }
  ],
  "edges": [
@@ -33021,6 +33143,83 @@
    "type": "Role",
    "label": "Co-founder and CEO",
    "source": "https://yespress.io/ron-vassallo"
+  },
+  {
+   "from": "ntia-its",
+   "to": "iris-2026-12",
+   "type": "Event participation",
+   "label": "Host",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "ntia-its",
+   "to": "ntia",
+   "type": "Membership",
+   "label": "NTIA's research laboratory",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "jeff-liu-itri",
+   "to": "itri",
+   "type": "Role",
+   "label": "Leads ITRI Lab",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "carsten-rossenhovel",
+   "to": "eantc",
+   "type": "Role",
+   "label": "Managing Director and Co-Founder",
+   "source": "https://www.uppersideconferences.com/sd-wan/2022/speakers/Rossenhoevel.html"
+  },
+  {
+   "from": "ian-wong-viavi",
+   "to": "viavi",
+   "type": "Role",
+   "label": "VIAVI Solutions",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "charles-turyagyenda",
+   "to": "digital-catapult",
+   "type": "Role",
+   "label": "Digital Catapult",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "jeff-liu-itri",
+   "to": "iris-2026-12",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "carsten-rossenhovel",
+   "to": "iris-2026-12",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "ian-wong-viavi",
+   "to": "iris-2026-12",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "michele-polese",
+   "to": "iris-2026-12",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "charles-turyagyenda",
+   "to": "iris-2026-12",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
   }
  ]
 }
