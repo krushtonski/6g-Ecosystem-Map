@@ -355,7 +355,7 @@
    "short": "",
    "category": "Equipment & tech vendors",
    "region": "Rest of US & global",
-   "description": "Next G Alliance founding member, RINGS partner, WISPER industry member, ACCoRD partner and Open Generation Consortium member.",
+   "description": "Swedish telecoms vendor headquartered in Stockholm. Next G Alliance founding member, RINGS partner, WISPER industry member, ACCoRD partner and Open Generation Consortium member. Runs 5G ISAC drone-detection demos as a precursor to 6G sensing, including with AT&T (July 2026) and Telia, with whom it launched the #6GSweden collaboration in November 2026.",
    "role": "",
    "org": null,
    "address": "Stockholm, Sweden",
@@ -367,7 +367,9 @@
     "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581",
     "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
     "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html",
-    "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html"
+    "https://news.vt.edu/articles/2020/11/research-open-gen-consortium-5g.html",
+    "https://www.ericsson.com/en/press-releases/6/2026/ericsson-att-drone-detection",
+    "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
    ]
   },
   {
@@ -18066,6 +18068,92 @@
    "sources": [
     "https://ucell.uz/en/news/ucell_speed_ookla"
    ]
+  },
+  {
+   "id": "telia",
+   "name": "Telia",
+   "short": "Telia",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Stockholm, Sweden",
+   "lat": 59.3293,
+   "lng": 18.0686,
+   "precision": "City",
+   "description": "Nordic and Baltic operator group headquartered in Sweden. Signed the 'Ericsson and Telia Collaborate on 6G in Sweden' MoU on 2 November 2026 (#6GSweden). At the Stockholm launch the partners showed pre-standard 6G over the air in the upper 6 GHz band, and an ISAC demo in which modified 5G radios detected and tracked multiple drones, giving live location, velocity and elevation. Plans 6G trials and may use Digital Arena Sweden as a test environment.",
+   "sources": [
+    "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g",
+    "https://www.eenewseurope.com/en/ericsson-and-telia-team-up-to-put-sweden-at-forefront-of-6g/"
+   ]
+  },
+  {
+   "id": "patrik-hofbauer",
+   "name": "Patrik Hofbauer",
+   "short": "Patrik Hofbauer",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and CEO, Telia",
+   "org": "telia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and CEO of Telia. Launched the #6GSweden collaboration with Ericsson in November 2026.",
+   "sources": [
+    "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+   ]
+  },
+  {
+   "id": "anders-olsson",
+   "name": "Anders Olsson",
+   "short": "Anders Olsson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Telia Sweden",
+   "org": "telia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of Telia Sweden. Attended the November 2026 launch of the Ericsson-Telia 6G collaboration.",
+   "sources": [
+    "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+   ]
+  },
+  {
+   "id": "per-narvinger",
+   "name": "Per Narvinger",
+   "short": "Per Narvinger",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and CEO, Ericsson",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and CEO of Ericsson. Launched the #6GSweden collaboration with Telia in November 2026.",
+   "sources": [
+    "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+   ]
+  },
+  {
+   "id": "patrick-johansson",
+   "name": "Patrick Johansson",
+   "short": "Patrick Johansson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Europe, Middle East and Africa, Ericsson",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of Europe, Middle East and Africa at Ericsson. Attended the November 2026 launch of the Ericsson-Telia 6G collaboration.",
+   "sources": [
+    "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+   ]
   }
  ],
  "edges": [
@@ -27651,6 +27739,41 @@
    "type": "Partnership / project",
    "label": "Hackathons, internships and training",
    "source": "https://www.mobileworldlive.com/tang-luhao-president-of-cis-region-at-zte-we-are-building-a-smarter-more-connected-future-for-central-asia/"
+  },
+  {
+   "from": "patrik-hofbauer",
+   "to": "telia",
+   "type": "Role",
+   "label": "President and CEO, Telia",
+   "source": "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+  },
+  {
+   "from": "anders-olsson",
+   "to": "telia",
+   "type": "Role",
+   "label": "Head of Telia Sweden",
+   "source": "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+  },
+  {
+   "from": "per-narvinger",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "President and CEO, Ericsson",
+   "source": "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+  },
+  {
+   "from": "patrick-johansson",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Head of Europe, Middle East and Africa, Ericsson",
+   "source": "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+  },
+  {
+   "from": "telia",
+   "to": "ericsson",
+   "type": "Partnership / project",
+   "label": "#6GSweden MoU (Nov 2026): upper 6 GHz and ISAC drone-sensing demos",
+   "source": "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
   }
  ]
 }
