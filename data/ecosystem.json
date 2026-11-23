@@ -454,7 +454,7 @@
    "short": "Keysight",
    "category": "Equipment & tech vendors",
    "region": "Rest of US & global",
-   "description": "Next G Alliance founding member and WISPER industry member.",
+   "description": "Next G Alliance founding member and WISPER industry member. Acquired Spirent Communications in October 2025, adding satellite emulation and positioning test for NTN.",
    "role": "",
    "org": null,
    "address": "Santa Rosa, CA",
@@ -463,7 +463,8 @@
    "precision": "City",
    "sources": [
     "https://convergedigest.com/atis-builds-its-6g-alliance/",
-    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
+    "https://www.nasdaq.com/press-release/keysight-technologies-completes-acquisition-spirent-communications-plc-2025-10-15"
    ]
   },
   {
@@ -14281,11 +14282,12 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "SNS JU project (2023 to 2025) to integrate satellite and other non-terrestrial networks into 6G and drive 3GPP standards. Coordinated by the University of Bologna; technical coordination by Thales Alenia Space France; partners across eight countries including CTTC. Succeeded by 6G-NTN2 NEXUS.",
+   "description": "SNS JU project (2023 to 2025) to integrate satellite and other non-terrestrial networks into 6G and drive 3GPP standards. Coordinated by the University of Bologna; technical coordination by Thales Alenia Space France; partners across eight countries including CTTC. Succeeded by 6G-NTN2 NEXUS. Partners included Thales Alenia Space, Thales SIX and Thales DIS, Ericsson, Qualcomm, SES Techcom, Orange, Telit Cinterion, Greenerwave, Martel Innovate, Digital for Planet, DLR and CTTC.",
    "sources": [
     "https://6g-ntn.eu/consortium/",
     "https://smart-networks.europa.eu/stream-b-research-for-revolutionary-technology-advancement-towards-6g/",
-    "https://cordis.europa.eu/project/id/101287281"
+    "https://cordis.europa.eu/project/id/101287281",
+    "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
    ]
   },
   {
@@ -20334,6 +20336,274 @@
    "sources": [
     "https://washingtonian.com/2026/09/08/meet-dcs-2026-tech-titans/",
     "https://jhh.vc/"
+   ]
+  },
+  {
+   "id": "mssa",
+   "name": "Mobile Satellite Services Association (MSSA)",
+   "short": "MSSA",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Non-profit association founded in February 2024 by Viasat, Terrestar Solutions, Ligado Networks, Omnispace and Yahsat to integrate satellite and terrestrial networks on 3GPP NTN standards. Released Reference Architecture 2.0 (regenerative payloads; NR and NB-IoT on one constellation) in September 2026. Became a 3GPP Market Representation Partner on 22 October 2026.",
+   "sources": [
+    "https://www.3gpp.org/news-events/3gpp-news/mssa-mrp",
+    "https://satnews.com/2026/09/02/mobile-satellite-services-association-releases-reference-architecture-2-0-for-regenerative-ntn-payloads/",
+    "https://www.businesswire.com/news/home/20240206302925/en"
+   ]
+  },
+  {
+   "id": "esa",
+   "name": "European Space Agency (ESA)",
+   "short": "ESA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "address": "Paris, France",
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "precision": "City",
+   "description": "Its Space for 5G/6G & Sustainable Connectivity programme runs the 5G/6G Telecom Lab at ESTEC and co-runs NTN and direct-to-device innovation challenges with GSMA Foundry, with access to up to €100M announced at MWC26.",
+   "sources": [
+    "https://www.gsma.com/get-involved/gsma-foundry/general/gsma-foundry-and-esa-announce-access-to-new-funding-worth-up-to-e100m-for-ai-ntn-d2d-and-6g-at-mwc26-barcelona/",
+    "https://connectivity.esa.int/?p=25249"
+   ]
+  },
+  {
+   "id": "gcf",
+   "name": "Global Certification Forum (GCF)",
+   "short": "GCF",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Device certification body with 300+ members. Has certified 3GPP NTN NB-IoT devices for GEO since 2024, with NGSO NB-IoT and NR-NTN expected in 2026. Signed an NTN certification MoU with MSSA on 24 September 2026.",
+   "sources": [
+    "https://www.globalcertificationforum.org/news/blog/3gpp-non-terrestrial-networks-the-role-of-gcf-certification.html",
+    "https://www.autonomyglobal.co/gcf-and-mssa-sign-memorandum-of-understanding-to-advance-global-ntn-certification-and-interoperability/"
+   ]
+  },
+  {
+   "id": "5gaa",
+   "name": "5G Automotive Association (5GAA)",
+   "short": "5GAA",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Connected-vehicle association. Signed an MoU with MSSA in February 2025 on terrestrial and non-terrestrial network integration for vehicles, and runs an NTN work item on 3GPP-based automotive satellite connectivity.",
+   "sources": [
+    "https://5gaa.org/5gaa-and-mssa-sign-mou-to-advance-integration-of-terrestrial-and-non-terrestrial-networks/"
+   ]
+  },
+  {
+   "id": "ses",
+   "name": "SES",
+   "short": "SES",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "address": "Betzdorf, Luxembourg",
+   "lat": 49.6866,
+   "lng": 6.3507,
+   "precision": "City",
+   "description": "Multi-orbit GEO and MEO satellite operator. SES Techcom was a partner in the 6G-NTN project. In August 2026 SES expanded its investment and collaboration with Elveo Mobile for global direct-to-device services.",
+   "sources": [
+    "https://www.6g-ntn.eu/?p=1851",
+    "https://www.cbinsights.com/investor/elveo"
+   ]
+  },
+  {
+   "id": "telit-cinterion",
+   "name": "Telit Cinterion",
+   "short": "Telit Cinterion",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "IoT module and connectivity company. Telit Cinterion Deutschland was a partner in the SNS JU 6G-NTN project.",
+   "sources": [
+    "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+   ]
+  },
+  {
+   "id": "martel-innovate",
+   "name": "Martel Innovate",
+   "short": "Martel Innovate",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Swiss digital innovation agency. Communication and dissemination manager for the 6G-NTN project.",
+   "sources": [
+    "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+   ]
+  },
+  {
+   "id": "magister",
+   "name": "Magister Solutions",
+   "short": "Magister Solutions",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Finnish simulation and R&D company modelling 3GPP NTN systems. Built the Alix NR-NTN control-plane simulator for ESA (final review March 2026), demonstrated through Magister SimLab.",
+   "sources": [
+    "https://resilience.esa.int/?p=19288"
+   ]
+  },
+  {
+   "id": "eutelsat-oneweb",
+   "name": "Eutelsat OneWeb",
+   "short": "Eutelsat OneWeb",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "address": "Paris area, France",
+   "lat": 48.8245,
+   "lng": 2.2737,
+   "precision": "City",
+   "description": "Operates the OneWeb LEO constellation. With ESA, Airbus, MediaTek, Sharp, ITRI and Rohde & Schwarz it made the first 3GPP Rel-19 5G-Advanced NR-NTN connection with conditional handover over OneWeb satellites at ESTEC (late 2025).",
+   "sources": [
+    "https://www.mediatek.com/press-room/esa-mediatek-eutelsat-airbus-sharp-itri-and-rs-announce-worlds-first-rel-19-5g-advanced-nr-ntn-connection-over-oneweb-leo-satellites",
+    "https://connectivity.esa.int/?p=25249"
+   ]
+  },
+  {
+   "id": "viasat",
+   "name": "Viasat",
+   "short": "Viasat",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "address": "Carlsbad, CA, USA",
+   "lat": 33.1581,
+   "lng": -117.3506,
+   "precision": "City",
+   "description": "Satellite operator that bought Inmarsat in 2023. Founding member of MSSA; its chairman Mark Dankberg chairs MSSA. A Viasat representative co-leads 5GAA's NTN work item.",
+   "sources": [
+    "https://www.businesswire.com/news/home/20240206302925/en",
+    "https://5gaa.org/search/-lgL/page/2/"
+   ]
+  },
+  {
+   "id": "iridium",
+   "name": "Iridium Communications",
+   "short": "Iridium",
+   "category": "Network operators",
+   "region": "Northern Virginia",
+   "address": "McLean, VA",
+   "lat": 38.9339,
+   "lng": -77.1773,
+   "precision": "City",
+   "description": "McLean-based operator of 66 cross-linked LEO satellites. Activated Iridium NTN Direct, a 3GPP standards-based NB-IoT and direct-to-device service, in November 2026, after 3GPP accepted its NB-IoT NTN enhancement as a Release 19 work item. Nordic Semiconductor's nRF9151 was the first certified module.",
+   "sources": [
+    "https://finviz.com/news/423847/iridium-activates-iridium-ntn-direct-worlds-first-standards-based-nb-iot-and-d2d-service-with-truly-global-coverage",
+    "https://www.prnewswire.com/in/news-releases/iridium-accelerates-direct-to-device-service-with-acceptance-into-3gpp-standards-announces-iridium-ntn-direct-302257878.html"
+   ]
+  },
+  {
+   "id": "globalstar",
+   "name": "Globalstar",
+   "short": "Globalstar",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "address": "Covington, LA, USA",
+   "lat": 30.4755,
+   "lng": -90.1009,
+   "precision": "City",
+   "description": "Mobile satellite operator. The FCC authorized its third-generation C-3 direct-to-device system in October 2026, with launches expected from 2027. 3GPP approved its Band 53 as 5G band n53 in 2020.",
+   "sources": [
+    "https://finviz.com/news/404057/fcc-authorizes-globalstars-third-generation-c-3-system-for-operations-in-the-united-states",
+    "https://www.businesswire.com/news/home/20200323005668/en"
+   ]
+  },
+  {
+   "id": "sateliot",
+   "name": "Sateliot",
+   "short": "Sateliot",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "address": "Barcelona, Spain",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "precision": "City",
+   "description": "Barcelona LEO operator running a 3GPP Rel-17 NB-IoT NTN constellation that works with unmodified IoT devices. Launched five more satellites in autumn 2026. Partners include Telefónica, Telenor IoT and Turkcell.",
+   "sources": [
+    "https://www.gsma.com/get-involved/gsma-membership/gsma_resources/sateliot-launches-five-satellites-5g-ntn-iot/",
+    "https://iot.telenor.com/press-release/telenor-iot-and-sateliot-announce-partnership-to-enable-seamless-terrestrial-satellite-iot"
+   ]
+  },
+  {
+   "id": "oq-technology",
+   "name": "OQ Technology",
+   "short": "OQ Technology",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "address": "Luxembourg",
+   "lat": 49.6116,
+   "lng": 6.1319,
+   "precision": "City",
+   "description": "Luxembourg 5G NTN operator with its own 3GPP NB-IoT NTN RAN stack. Won the ESA x GSMA Foundry direct-to-device challenge (CREST-5G) and demonstrated LEO NB-IoT links with Nordic's nRF9151.",
+   "sources": [
+    "https://www.gsma.com/get-involved/gsma-foundry/non-terrestrial-networks-theme/celebrating-the-esa-x-gsma-foundry-challenge-winners/",
+    "https://www.nordicsemi.com/Nordic-news/2025/12/Nordic-and-OQ-Technology-demonstrate-direct-NTN-LEO-satellite-connectivity?lang=ja-JP"
+   ]
+  },
+  {
+   "id": "nordic-semi",
+   "name": "Nordic Semiconductor",
+   "short": "Nordic Semiconductor",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "address": "Trondheim, Norway",
+   "lat": 63.4305,
+   "lng": 10.3951,
+   "precision": "City",
+   "description": "Makes the nRF9151, a low-power cellular IoT module with 3GPP Rel-17 NB-NTN support. Certified for Skylo and Iridium NTN Direct, and tested over Sateliot and OQ Technology LEO networks.",
+   "sources": [
+    "https://www.nordicsemi.com/Nordic-news/2026/08/Nordics-nRF9151-opens-satellite-and-cellular-IoT-to-a-new-class-of-connected-devices?lang=en",
+    "https://www.nordicsemi.com/Nordic-news/2025/10/Successful-transmission-using-Nordics-nRF9151-module-and-Sateliots-LEO-satellite"
+   ]
+  },
+  {
+   "id": "gatehouse-satcom",
+   "name": "Gatehouse Satcom",
+   "short": "Gatehouse Satcom",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "address": "Aalborg, Denmark",
+   "lat": 57.0488,
+   "lng": 9.9217,
+   "precision": "City",
+   "description": "Danish satellite software company building 3GPP 5G NTN protocol stacks for IoT-NTN and NR-NTN. Formalized a 5G NTN validation collaboration with Rohde & Schwarz in April 2026.",
+   "sources": [
+    "https://satnews.com/2026/04/27/gatehouse-satcom-and-rohde-schwarz-formalize-collaboration-to-strengthen-5g-ntn-testing/"
+   ]
+  },
+  {
+   "id": "viavi",
+   "name": "VIAVI Solutions",
+   "short": "VIAVI",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "address": "Chandler, AZ, USA",
+   "lat": 33.3062,
+   "lng": -111.8413,
+   "precision": "City",
+   "description": "Test and measurement company with a 3GPP NTN test suite (TM500, TeraVM). Partnered with Square Peg Communications on 5G NTN channel emulation in June 2026.",
+   "sources": [
+    "https://www.viavisolutions.com/node/118215",
+    "https://finviz.com/news/360568/square-peg-communications-and-viavi-solutions-join-forces-to-advance-5g-ntn-testing"
    ]
   }
  ],
@@ -31124,6 +31394,265 @@
    "type": "Role",
    "label": "Co-Lead",
    "source": "https://washingtonian.com/2026/09/08/meet-dcs-2026-tech-titans/"
+  },
+  {
+   "from": "mssa",
+   "to": "3gpp",
+   "type": "Standardisation / Working Group",
+   "label": "Market Representation Partner (Oct 2026)",
+   "source": "https://www.3gpp.org/news-events/3gpp-news/mssa-mrp"
+  },
+  {
+   "from": "iridium",
+   "to": "3gpp",
+   "type": "Standardisation / Working Group",
+   "label": "NB-IoT NTN enhancement accepted as Rel-19 work item (2024)",
+   "source": "https://www.prnewswire.com/in/news-releases/iridium-accelerates-direct-to-device-service-with-acceptance-into-3gpp-standards-announces-iridium-ntn-direct-302257878.html"
+  },
+  {
+   "from": "globalstar",
+   "to": "3gpp",
+   "type": "Standardisation / Working Group",
+   "label": "Band n53 approved as a 5G band (2020)",
+   "source": "https://www.businesswire.com/news/home/20200323005668/en"
+  },
+  {
+   "from": "gcf",
+   "to": "mssa",
+   "type": "Standardisation / Working Group",
+   "label": "NTN certification MoU (Sep 2026)",
+   "source": "https://www.autonomyglobal.co/gcf-and-mssa-sign-memorandum-of-understanding-to-advance-global-ntn-certification-and-interoperability/"
+  },
+  {
+   "from": "ericsson",
+   "to": "mssa",
+   "type": "Standardisation / Working Group",
+   "label": "Contributed to the MSSA Reference Architecture",
+   "source": "https://www.kratosspace.com/constellations/articles/ntn-reference-architecture-designed-to-accelerate-interoperability"
+  },
+  {
+   "from": "5gaa",
+   "to": "mssa",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "MoU on terrestrial and NTN integration for vehicles (Feb 2025)",
+   "source": "https://5gaa.org/5gaa-and-mssa-sign-mou-to-advance-integration-of-terrestrial-and-non-terrestrial-networks/"
+  },
+  {
+   "from": "viasat",
+   "to": "mssa",
+   "type": "Membership",
+   "label": "Founding member; Viasat chairman Mark Dankberg chairs MSSA",
+   "source": "https://www.businesswire.com/news/home/20240206302925/en"
+  },
+  {
+   "from": "elveo-mobile",
+   "to": "mssa",
+   "type": "Membership",
+   "label": "Founding member (as Omnispace)",
+   "source": "https://www.businesswire.com/news/home/20240206302925/en"
+  },
+  {
+   "from": "viasat",
+   "to": "5gaa",
+   "type": "Standardisation / Working Group",
+   "label": "Co-leads 5GAA NTN work item",
+   "source": "https://5gaa.org/search/-lgL/page/2/"
+  },
+  {
+   "from": "sateliot",
+   "to": "gsma",
+   "type": "Membership",
+   "label": "Full GSMA member",
+   "source": "https://sateliot.space/"
+  },
+  {
+   "from": "esa",
+   "to": "gsma",
+   "type": "Funding",
+   "label": "Funds ESA x GSMA Foundry NTN, D2D and 6G challenges (up to €100M, MWC26)",
+   "source": "https://www.gsma.com/get-involved/gsma-foundry/general/gsma-foundry-and-esa-announce-access-to-new-funding-worth-up-to-e100m-for-ai-ntn-d2d-and-6g-at-mwc26-barcelona/"
+  },
+  {
+   "from": "esa",
+   "to": "oq-technology",
+   "type": "Grant / Contract / Award",
+   "label": "ESA x GSMA Foundry D2D challenge winner (CREST-5G)",
+   "source": "https://www.gsma.com/get-involved/gsma-foundry/non-terrestrial-networks-theme/celebrating-the-esa-x-gsma-foundry-challenge-winners/"
+  },
+  {
+   "from": "esa",
+   "to": "magister",
+   "type": "Grant / Contract / Award",
+   "label": "ESA contract: Alix NR-NTN control-plane simulator",
+   "source": "https://resilience.esa.int/?p=19288"
+  },
+  {
+   "from": "ses",
+   "to": "elveo-mobile",
+   "type": "Funding",
+   "label": "Expanded strategic investment and D2D collaboration (Aug 2026)",
+   "source": "https://www.cbinsights.com/investor/elveo"
+  },
+  {
+   "from": "ses",
+   "to": "6g-ntn",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "SES Techcom partner",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+  },
+  {
+   "from": "telit-cinterion",
+   "to": "6g-ntn",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+  },
+  {
+   "from": "martel-innovate",
+   "to": "6g-ntn",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Communication and dissemination manager",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+  },
+  {
+   "from": "ericsson",
+   "to": "6g-ntn",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner (Sweden and France)",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+  },
+  {
+   "from": "qualcomm",
+   "to": "6g-ntn",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner (Qualcomm France)",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+  },
+  {
+   "from": "orange",
+   "to": "6g-ntn",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+  },
+  {
+   "from": "greenerwave",
+   "to": "6g-ntn",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+  },
+  {
+   "from": "dlr",
+   "to": "6g-ntn",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner; innovation manager",
+   "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2005/S5_02_VanelliCoralli.pdf"
+  },
+  {
+   "from": "eutelsat-oneweb",
+   "to": "esa",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Rel-19 NR-NTN conditional handover trial at ESTEC over OneWeb (2025)",
+   "source": "https://www.mediatek.com/press-room/esa-mediatek-eutelsat-airbus-sharp-itri-and-rs-announce-worlds-first-rel-19-5g-advanced-nr-ntn-connection-over-oneweb-leo-satellites"
+  },
+  {
+   "from": "airbus-ds",
+   "to": "esa",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Rel-19 NR-NTN conditional handover trial at ESTEC over OneWeb (2025)",
+   "source": "https://www.mediatek.com/press-room/esa-mediatek-eutelsat-airbus-sharp-itri-and-rs-announce-worlds-first-rel-19-5g-advanced-nr-ntn-connection-over-oneweb-leo-satellites"
+  },
+  {
+   "from": "mediatek",
+   "to": "esa",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Rel-19 NR-NTN conditional handover trial at ESTEC over OneWeb (2025)",
+   "source": "https://www.mediatek.com/press-room/esa-mediatek-eutelsat-airbus-sharp-itri-and-rs-announce-worlds-first-rel-19-5g-advanced-nr-ntn-connection-over-oneweb-leo-satellites"
+  },
+  {
+   "from": "itri",
+   "to": "esa",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Rel-19 NR-NTN conditional handover trial at ESTEC over OneWeb (2025)",
+   "source": "https://www.mediatek.com/press-room/esa-mediatek-eutelsat-airbus-sharp-itri-and-rs-announce-worlds-first-rel-19-5g-advanced-nr-ntn-connection-over-oneweb-leo-satellites"
+  },
+  {
+   "from": "rohde-schwarz",
+   "to": "esa",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Rel-19 NR-NTN conditional handover trial at ESTEC over OneWeb (2025)",
+   "source": "https://www.mediatek.com/press-room/esa-mediatek-eutelsat-airbus-sharp-itri-and-rs-announce-worlds-first-rel-19-5g-advanced-nr-ntn-connection-over-oneweb-leo-satellites"
+  },
+  {
+   "from": "nordic-semi",
+   "to": "iridium",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "nRF9151 first module certified for Iridium NTN Direct",
+   "source": "https://finviz.com/news/423847/iridium-activates-iridium-ntn-direct-worlds-first-standards-based-nb-iot-and-d2d-service-with-truly-global-coverage"
+  },
+  {
+   "from": "nordic-semi",
+   "to": "skylo",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "nRF9151 Skylo NTN certified",
+   "source": "https://www.nordicsemi.com/Nordic-news/2026/08/Nordics-nRF9151-opens-satellite-and-cellular-IoT-to-a-new-class-of-connected-devices?lang=en"
+  },
+  {
+   "from": "nordic-semi",
+   "to": "sateliot",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "LEO NB-IoT chip-to-cloud transmission with Gatehouse Satcom (Oct 2025)",
+   "source": "https://www.nordicsemi.com/Nordic-news/2025/10/Successful-transmission-using-Nordics-nRF9151-module-and-Sateliots-LEO-satellite"
+  },
+  {
+   "from": "gatehouse-satcom",
+   "to": "sateliot",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "NTN NB-IoT software in Sateliot LEO transmission with Nordic (Oct 2025)",
+   "source": "https://www.nordicsemi.com/Nordic-news/2025/10/Successful-transmission-using-Nordics-nRF9151-module-and-Sateliots-LEO-satellite"
+  },
+  {
+   "from": "nordic-semi",
+   "to": "oq-technology",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Direct NB-IoT link to OQ LEO satellites (Dec 2025)",
+   "source": "https://www.nordicsemi.com/Nordic-news/2025/12/Nordic-and-OQ-Technology-demonstrate-direct-NTN-LEO-satellite-connectivity?lang=ja-JP"
+  },
+  {
+   "from": "gatehouse-satcom",
+   "to": "rohde-schwarz",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "5G NTN validation and testing collaboration (Apr 2026)",
+   "source": "https://satnews.com/2026/04/27/gatehouse-satcom-and-rohde-schwarz-formalize-collaboration-to-strengthen-5g-ntn-testing/"
+  },
+  {
+   "from": "viavi",
+   "to": "rohde-schwarz",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Joint NTN testbed for SKY Perfect JSAT (2024)",
+   "source": "https://rohde-schwarz.com/sa/_229356-1534223.html"
+  },
+  {
+   "from": "turkcell",
+   "to": "sateliot",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "5G NB-IoT NTN demo (May 2026)",
+   "source": "https://www.advanced-television.com/2026/05/22/turkcell-sateliot-test-5g-iot/"
+  },
+  {
+   "from": "telefonica",
+   "to": "sateliot",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "5G NR-NTN solutions partnership (Apr 2026)",
+   "source": "https://www.telecomtv.com/content/access-evolution/telef-nica-and-sateliot-team-up-on-5g-satellite-solutions-for-enterprises-55399/amp/"
+  },
+  {
+   "from": "deutsche-telekom",
+   "to": "iridium",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Integrating Iridium NTN Direct roaming for IoT (2025)",
+   "source": "https://www.telecomtv.com/content/access-evolution/iridium-begins-integration-of-ntn-direct-with-deutsche-telekom-53850/"
   }
  ]
 }
