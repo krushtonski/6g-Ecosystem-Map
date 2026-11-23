@@ -21692,6 +21692,48 @@
    "sources": [
     "https://www.gsma.com/newsroom/?p=25581"
    ]
+  },
+  {
+   "id": "kaptivate",
+   "name": "Kaptivate",
+   "short": "Kaptivate",
+   "category": "Economic development & place",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "516 N Washington St, Alexandria, VA 22314",
+   "lat": 38.8087,
+   "lng": -77.045,
+   "precision": "Street address",
+   "description": "Alexandria communications and management consultancy founded in 2009. Designs and runs prize competitions and crowdsourced innovation programs, recruits problem solvers, and works on community activation and workforce pathways for federal and regional clients.",
+   "sources": [
+    "https://yespress.io/kaptivate",
+    "https://www.highergov.com/awardee/kaptivate-llc-10017849/"
+   ],
+   "hub": [
+    "Convener"
+   ],
+   "chal": [
+    "Promoter"
+   ]
+  },
+  {
+   "id": "ron-vassallo",
+   "name": "Ron Vassallo",
+   "short": "Ron Vassallo",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Co-founder and CEO",
+   "org": "kaptivate",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-founder and CEO of Kaptivate. In 2026 has argued that AI-driven job disruption is a career-pathway and regional-coordination problem, linked to the ForwardDMV workforce effort.",
+   "sources": [
+    "https://yespress.io/ron-vassallo",
+    "https://yespress.io/kaptivate"
+   ]
   }
  ],
  "edges": [
@@ -32971,6 +33013,13 @@
    "type": "Role",
    "label": "Director of Resilience, Navigation and Connectivity",
    "source": "https://www.gsma.com/newsroom/?p=25581"
+  },
+  {
+   "from": "ron-vassallo",
+   "to": "kaptivate",
+   "type": "Role",
+   "label": "Co-founder and CEO",
+   "source": "https://yespress.io/ron-vassallo"
   }
  ]
 }
