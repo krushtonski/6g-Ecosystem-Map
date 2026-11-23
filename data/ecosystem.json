@@ -194,12 +194,13 @@
    "description": "Federally funded research centre at 4850 Mark Center Drive, Alexandria. Has published analysis for the DoD on the implications of 5G and next-generation mobile networks.",
    "role": "",
    "org": null,
-   "address": "4850 Mark Center Dr, Alexandria, VA 22311",
-   "lat": 38.8404,
-   "lng": -77.1103,
+   "address": "730 East Glebe Road, Alexandria, VA 22305",
+   "lat": 38.833,
+   "lng": -77.0495,
    "precision": "Street address",
    "sources": [
-    "https://ida.org/research-and-publications/publications/all/i/im/implications-and-considerations-of-5th-generation"
+    "https://ida.org/research-and-publications/publications/all/i/im/implications-and-considerations-of-5th-generation",
+    "https://ida.org/-/media/corporate/leadership/bios/chas-richard-bio"
    ]
   },
   {
@@ -787,12 +788,13 @@
    "description": "WISPER industry member.",
    "role": "",
    "org": null,
-   "address": "Fairfax, VA",
-   "lat": 38.8462,
-   "lng": -77.3064,
+   "address": "Chantilly, VA",
+   "lat": 38.8943,
+   "lng": -77.4311,
    "precision": "City",
    "sources": [
-    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+    "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
+    "https://virginiabusiness.com/government-contractors-technology-2026-chris-brady/"
    ]
   },
   {
@@ -5748,15 +5750,16 @@
    "region": "Northern Virginia",
    "role": "",
    "org": null,
-   "address": "Alexandria, VA",
-   "lat": 38.8048,
-   "lng": -77.0469,
-   "precision": "City",
+   "address": "4040 Wilson Blvd Ste 500, Arlington, VA 22203",
+   "lat": 38.8809,
+   "lng": -77.1155,
+   "precision": "Street address",
    "website": "https://www.anser.org/",
    "description": "Not-for-profit public-service research institute supporting national and homeland security through independent analysis and practical solutions. Founded in 1958 as an Air Force federal contract research centre. Has a wireless communications policy practice covering 5G, ISAC, Open RAN, AI-RAN, spectrum management and satellite networking.",
    "sources": [
     "https://job-boards.greenhouse.io/analyticservicesinc/jobs/4954814008",
-    "https://littlesis.org/org/335665-Anser_Institute_for_Homeland_Security"
+    "https://littlesis.org/org/335665-Anser_Institute_for_Homeland_Security",
+    "https://www.anser.org/about/leadership/"
    ]
   },
   {
@@ -20047,6 +20050,291 @@
    "sources": [
     "https://hi-tech.mail.ru/experts/738-eldar-murtazin/"
    ]
+  },
+  {
+   "id": "john-forte",
+   "name": "John Forte",
+   "short": "John Forte",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and CEO",
+   "org": "vt-arc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and CEO of Virginia Tech Applied Research Corporation (VT-ARC).",
+   "sources": [
+    "https://news.vt.edu/articles/2020/12/research-vt-applied-research-corp-names-ceo-john-forte.html",
+    "https://mcleansoccer.org/board_members/john-forte/"
+   ]
+  },
+  {
+   "id": "chas-richard",
+   "name": "Charles \"Chas\" Richard",
+   "short": "Charles \"Chas\" Richard",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "President",
+   "org": "ida",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President of the Institute for Defense Analyses since 14 March 2026.",
+   "sources": [
+    "https://www.ida.org/research-and-publications/publications/all/a/ad/adm-charles-a-richard-joins-ida-as-new-president",
+    "https://www.alxnow.com/2025/10/16/retired-admiral-to-lead-alexandria-based-institute-for-defense-analyses/"
+   ]
+  },
+  {
+   "id": "chris-brady",
+   "name": "Chris Brady",
+   "short": "Chris Brady",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President",
+   "org": "gdms",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President of General Dynamics Mission Systems.",
+   "sources": [
+    "https://virginiabusiness.com/government-contractors-technology-2026-chris-brady/",
+    "https://www.wash100.com/blog/chris-brady-gdms-accepts-2026-wash100/"
+   ]
+  },
+  {
+   "id": "steve-bowsher",
+   "name": "Steve Bowsher",
+   "short": "Steve Bowsher",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and CEO",
+   "org": "in-q-tel",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of In-Q-Tel, the US intelligence community strategic investor.",
+   "sources": [
+    "https://www.axios.com/2026/05/05/inqtel-cia-venture-investing-autonomy",
+    "https://www.iqt.org/library/iqt-announces-ceo-transition"
+   ]
+  },
+  {
+   "id": "brian-maccarthy",
+   "name": "Brian MacCarthy",
+   "short": "Brian MacCarthy",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Managing Partner",
+   "org": "booz-allen-ventures",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founder and Managing Partner of Booz Allen Ventures.",
+   "sources": [
+    "https://globalventuring.com/people/powerlist-2026-brian-maccarthy-booz-allen-ventures/",
+    "https://www.boozallen.com/our-people/leadership/brian-maccarthy.html"
+   ]
+  },
+  {
+   "id": "steve-hopkins",
+   "name": "Steve Hopkins",
+   "short": "Steve Hopkins",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and CEO",
+   "org": "anser",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and CEO of ANSER since December 2019.",
+   "sources": [
+    "https://www.anser.org/about/leadership/",
+    "https://www.anser.org/?p=1657"
+   ]
+  },
+  {
+   "id": "evan-regan-levine",
+   "name": "Evan Regan-Levine",
+   "short": "Evan Regan-Levine",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Chief Strategy Officer",
+   "org": "jbg",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Strategy Officer of JBG SMITH. Manages its venture investments and led the National Landing CBRS spectrum and 5G smart city work.",
+   "sources": [
+    "https://www.secform4.com/filings/1689796/0001104659-26-001490.htm",
+    "https://cre.mit.edu/events/thought-leaders-evan-regan-levine",
+    "https://commercialobserver.com/2020/09/jbg-smith-bringing-5g-to-northern-virginias-national-landing"
+   ]
+  },
+  {
+   "id": "greg-simer",
+   "name": "Greg Simer",
+   "short": "Greg Simer",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Chief Technology Officer",
+   "org": "northrop",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Technology Officer of Northrop Grumman. Spoke for Northrop as a founding member of National IQ in February 2026.",
+   "sources": [
+    "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+   ]
+  },
+  {
+   "id": "chris-calio",
+   "name": "Christopher T. Calio",
+   "short": "Christopher T. Calio",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Chairman and CEO",
+   "org": "rtx",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chairman and CEO of RTX. Vice Chair of the AIA Board of Governors for 2026.",
+   "sources": [
+    "https://www.aia-aerospace.org/?p=26508"
+   ]
+  },
+  {
+   "id": "tom-bell",
+   "name": "Thomas A. Bell",
+   "short": "Thomas A. Bell",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "CEO",
+   "org": "leidos",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Leidos since May 2023.",
+   "sources": [
+    "https://virginiabusiness.com/government-contractors-technology-2026-thomas-a-bell/",
+    "https://leidos.gcs-web.com/corporate-governance/governance-overview"
+   ]
+  },
+  {
+   "id": "dan-ateya",
+   "name": "Daniel Ateya",
+   "short": "Daniel Ateya",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and Managing Director",
+   "org": "rtx-ventures",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of RTX Ventures since its founding in 2022.",
+   "sources": [
+    "https://rtx.com/our-company/ventures",
+    "https://globalventuring.com/people/powerlist-2026-daniel-ateya-rtx-ventures"
+   ]
+  },
+  {
+   "id": "michael-manuccia",
+   "name": "Michael Manuccia",
+   "short": "Michael Manuccia",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "CEO",
+   "org": "national-iq",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Inaugural CEO of National IQ, named September 2026.",
+   "sources": [
+    "https://virginiabusiness.com/national-iq-michael-manuccia-ceo/",
+    "https://technical.ly/civics/michael-manuccia-targets-startup-growth-in-va/"
+   ]
+  },
+  {
+   "id": "mike-keating",
+   "name": "Mike Keating",
+   "short": "Mike Keating",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Executive Director",
+   "org": "svdg",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Executive Director of the Silicon Valley Defense Group.",
+   "sources": [
+    "https://svdg.squarespace.com/initiatives/mike-keating-joins-as-ed"
+   ]
+  },
+  {
+   "id": "stephen-winchell",
+   "name": "Stephen Winchell",
+   "short": "Stephen Winchell",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Director",
+   "org": "darpa",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "24th Director of DARPA since May 2025.",
+   "sources": [
+    "https://www.darpa.mil/about-us/darpa-perspective-on-ai",
+    "https://www.dvidshub.net/news/563286/darpa-director-addresses-us-naval-war-college-naval-postgraduate-school-alumni-and-faculty-capital-area-event"
+   ]
+  },
+  {
+   "id": "bill-collier",
+   "name": "Bill Collier",
+   "short": "Bill Collier",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Co-Lead",
+   "org": "vc-in-dc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-lead of VC in DC. Also with Noblis Ventures.",
+   "sources": [
+    "https://washingtonian.com/2026/09/08/meet-dcs-2026-tech-titans/"
+   ]
+  },
+  {
+   "id": "matt-gittleman",
+   "name": "Matt Gittleman",
+   "short": "Matt Gittleman",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Co-Lead",
+   "org": "vc-in-dc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-founder and co-lead of VC in DC. Investment Director at JHH vc.",
+   "sources": [
+    "https://washingtonian.com/2026/09/08/meet-dcs-2026-tech-titans/",
+    "https://jhh.vc/"
+   ]
   }
  ],
  "edges": [
@@ -30724,6 +31012,118 @@
    "type": "Partnership / project",
    "label": "Base station supply",
    "source": "https://mintrans.gov.ru/eye/press-center/branch-news/8741"
+  },
+  {
+   "from": "john-forte",
+   "to": "vt-arc",
+   "type": "Role",
+   "label": "President and CEO",
+   "source": "https://news.vt.edu/articles/2020/12/research-vt-applied-research-corp-names-ceo-john-forte.html"
+  },
+  {
+   "from": "chas-richard",
+   "to": "ida",
+   "type": "Role",
+   "label": "President",
+   "source": "https://www.ida.org/research-and-publications/publications/all/a/ad/adm-charles-a-richard-joins-ida-as-new-president"
+  },
+  {
+   "from": "chris-brady",
+   "to": "gdms",
+   "type": "Role",
+   "label": "President",
+   "source": "https://virginiabusiness.com/government-contractors-technology-2026-chris-brady/"
+  },
+  {
+   "from": "steve-bowsher",
+   "to": "in-q-tel",
+   "type": "Role",
+   "label": "President and CEO",
+   "source": "https://www.axios.com/2026/05/05/inqtel-cia-venture-investing-autonomy"
+  },
+  {
+   "from": "brian-maccarthy",
+   "to": "booz-allen-ventures",
+   "type": "Role",
+   "label": "Managing Partner",
+   "source": "https://globalventuring.com/people/powerlist-2026-brian-maccarthy-booz-allen-ventures/"
+  },
+  {
+   "from": "steve-hopkins",
+   "to": "anser",
+   "type": "Role",
+   "label": "President and CEO",
+   "source": "https://www.anser.org/about/leadership/"
+  },
+  {
+   "from": "evan-regan-levine",
+   "to": "jbg",
+   "type": "Role",
+   "label": "Chief Strategy Officer",
+   "source": "https://www.secform4.com/filings/1689796/0001104659-26-001490.htm"
+  },
+  {
+   "from": "greg-simer",
+   "to": "northrop",
+   "type": "Role",
+   "label": "Chief Technology Officer",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "chris-calio",
+   "to": "rtx",
+   "type": "Role",
+   "label": "Chairman and CEO",
+   "source": "https://www.aia-aerospace.org/?p=26508"
+  },
+  {
+   "from": "tom-bell",
+   "to": "leidos",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://virginiabusiness.com/government-contractors-technology-2026-thomas-a-bell/"
+  },
+  {
+   "from": "dan-ateya",
+   "to": "rtx-ventures",
+   "type": "Role",
+   "label": "President and Managing Director",
+   "source": "https://rtx.com/our-company/ventures"
+  },
+  {
+   "from": "michael-manuccia",
+   "to": "national-iq",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://virginiabusiness.com/national-iq-michael-manuccia-ceo/"
+  },
+  {
+   "from": "mike-keating",
+   "to": "svdg",
+   "type": "Role",
+   "label": "Executive Director",
+   "source": "https://svdg.squarespace.com/initiatives/mike-keating-joins-as-ed"
+  },
+  {
+   "from": "stephen-winchell",
+   "to": "darpa",
+   "type": "Role",
+   "label": "Director",
+   "source": "https://www.darpa.mil/about-us/darpa-perspective-on-ai"
+  },
+  {
+   "from": "bill-collier",
+   "to": "vc-in-dc",
+   "type": "Role",
+   "label": "Co-Lead",
+   "source": "https://washingtonian.com/2026/09/08/meet-dcs-2026-tech-titans/"
+  },
+  {
+   "from": "matt-gittleman",
+   "to": "vc-in-dc",
+   "type": "Role",
+   "label": "Co-Lead",
+   "source": "https://washingtonian.com/2026/09/08/meet-dcs-2026-tech-titans/"
   }
  ]
 }
