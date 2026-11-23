@@ -18154,6 +18154,24 @@
    "sources": [
     "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
    ]
+  },
+  {
+   "id": "natasha-sayce-zelem",
+   "name": "Natasha Sayce-Zelem",
+   "short": "Natasha Sayce-Zelem",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Group Director of AI Product, BT Group",
+   "org": "bt",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Group Director of AI Product at BT Group since November 2026, working across BT, EE and Plusnet. Her remit runs from critical national infrastructure and sovereign AI to customer experience. Previously Director of Digital and Business Platforms at Lloyds Banking Group, and before that at Amazon Prime and Sky.",
+   "sources": [
+    "https://www.telecomtv.com/content/access-evolution/what-s-up-with-optical-growth-scaleway-du-56731/",
+    "https://telcomagazine.com/news/telco-executive-appointments-in-november-2026"
+   ]
   }
  ],
  "edges": [
@@ -27774,6 +27792,13 @@
    "type": "Partnership / project",
    "label": "#6GSweden MoU (Nov 2026): upper 6 GHz and ISAC drone-sensing demos",
    "source": "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+  },
+  {
+   "from": "natasha-sayce-zelem",
+   "to": "bt",
+   "type": "Role",
+   "label": "Group Director of AI Product, BT Group",
+   "source": "https://www.telecomtv.com/content/access-evolution/what-s-up-with-optical-growth-scaleway-du-56731/"
   }
  ]
 }
