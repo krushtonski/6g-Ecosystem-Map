@@ -76,6 +76,15 @@ details.adv summary{cursor:pointer;font-size:12px;font-weight:600;text-transform
 .ctchip b{font-weight:700;color:var(--muted)}
 .ctchip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
 ul.conn li.on{border-left:3px solid var(--accent);padding-left:6px}
+.msel{border:1px solid var(--line);border-radius:6px;background:var(--bg)}
+.msel summary{cursor:pointer;padding:6px 8px;font-size:13px;list-style:none}
+.msel summary::after{content:"▾";float:right;color:var(--muted)}
+.msel[open] summary{border-bottom:1px solid var(--line)}
+.msel #catList{padding:6px 8px}
+.plbl div{display:flex;flex-direction:column;gap:2px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:3px 6px;box-shadow:0 1px 3px rgba(0,0,0,.15);white-space:nowrap;width:max-content}
+.plbl-go{all:unset;cursor:pointer;font:600 11.5px var(--body);color:var(--accent)}
+.plbl-go:hover{text-decoration:underline}
+.plbl-more{font-size:11px;color:var(--muted)}
 .qres{list-style:none;margin:4px 0 0;padding:0;border:1px solid var(--line);border-radius:6px;background:var(--bg);max-height:260px;overflow:auto}
 .qres li{padding:6px 8px;font-size:13px;cursor:pointer;border-bottom:1px solid var(--line)}
 .qres li:last-child{border-bottom:0}
@@ -174,7 +183,7 @@ footer a{color:var(--accent)}
     <input type="search" id="q" placeholder="Organisation or person" aria-label="Search" autocomplete="off" aria-controls="qres">
     <ul id="qres" class="qres" role="listbox" hidden></ul>
     <h3>Category</h3>
-    <select id="catSel" aria-label="Category"></select>
+    <details class="msel" id="catBox"><summary id="catSum">All categories</summary><div id="catList"></div></details>
     <div id="corrBox" hidden>
     <h3>Corridor roles</h3>
     <label class="hint" for="hubSel" style="display:block;margin:0 0 3px">Innovation hub role</label>
@@ -348,9 +357,15 @@ function renderStats(){
   document.getElementById("stats").innerHTML = items.map(([v,l])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
 }
 function renderFilters(){
-  const cs=document.getElementById("catSel"), orgN=NODES.filter(n=>n.category!=="Person").length;
-  cs.innerHTML = `<option value="">All categories (${orgN})</option>`+Object.keys(CATS).filter(k=>k!=="Person").map(k=>`<option value="${esc(k)}">${esc(k)} (${NODES.filter(n=>n.category===k).length})</option>`).join("");
-  cs.onchange=()=>{ state.cats = cs.value? new Set([cs.value,"Person"]) : new Set(Object.keys(CATS)); applyAll(); };
+  const CK=Object.keys(CATS).filter(k=>k!=="Person"), cl=document.getElementById("catList");
+  cl.innerHTML = `<label class="chk"><input type="checkbox" data-cat="__all" checked><b>All categories</b></label>`+CK.map(k=>`<label class="chk"><input type="checkbox" data-cat="${esc(k)}" checked><span class="sw ${CATS[k].sq?"sq":""}" style="background:${CATS[k].c}"></span>${esc(k)}<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category===k).length}</span></label>`).join("");
+  cl.onchange=e=>{ const k=e.target.dataset.cat, boxes=[...cl.querySelectorAll("input:not([data-cat='__all'])")];
+    if(k==="__all") boxes.forEach(b=>b.checked=e.target.checked);
+    const on=boxes.filter(b=>b.checked).map(b=>b.dataset.cat);
+    cl.querySelector("[data-cat='__all']").checked = on.length===CK.length;
+    state.cats=new Set([...on,"Person"]);
+    document.getElementById("catSum").textContent = on.length===CK.length? "All categories" : on.length===0? "No categories" : on.length<=2? on.join(", ") : `${on.length} categories`;
+    applyAll(); };
   const setMode=m=>{ state.mode=m; document.querySelectorAll("#modeSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===m));
     document.getElementById("corrBox").hidden = m!=="corridor";
     if(m!=="corridor"){ state.hub=state.chal=""; document.getElementById("hubSel").value=document.getElementById("chalSel").value=""; }
@@ -562,6 +577,7 @@ function applyGeo(){
   });
   geoLines.clearLayers();
   if(state.sel){
+    const LBL={};
     const G=GRP(), loc = x => { let p=byId[x]; if(p&&p.lat==null&&p.org) p=byId[p.org]; if((!p||p.lat==null)&&x!==state.sel) return loc(state.sel); return p&&p.lat!=null?p:null; };
     allLinks().forEach(l=>{
       if(!selType(l.type)) return;
@@ -571,9 +587,13 @@ function applyGeo(){
       if(!anchor || !o) return;
       const P1=me===a?[anchor.lat,anchor.lng]:[o.lat,o.lng], P2=me===a?[o.lat,o.lng]:[anchor.lat,anchor.lng];
       L.polyline([P1,P2],{color:ETYPES[l.type].c,weight:l.type==="Role"?1.6:2.2,opacity:.85,dashArray:ETYPES[l.type].dash}).addTo(geoLines).bindTooltip(edgeText(l),{sticky:true});
+      const key=o.lat.toFixed(4)+","+o.lng.toFixed(4); (LBL[key]=LBL[key]||{ll:[o.lat,o.lng],ids:new Set()}).ids.add(other);
       if(ETYPES[l.type].dir && (P1[0]!==P2[0]||P1[1]!==P2[1])){ const p1=geo.latLngToLayerPoint(P1), p2=geo.latLngToLayerPoint(P2), ang=Math.atan2(p2.y-p1.y,p2.x-p1.x)*180/Math.PI;
         L.marker([(P1[0]+P2[0])/2,(P1[1]+P2[1])/2],{interactive:false,keyboard:false,icon:L.divIcon({className:"earr",iconSize:[0,0],html:`<span style="color:${ETYPES[l.type].c};transform:rotate(${ang}deg)">➤</span>`})}).addTo(geoLines); }
     });
+    Object.values(LBL).forEach(g=>{ const ids=[...g.ids]; const names=ids.slice(0,6).map(x=>`<button type="button" class="plbl-go" data-go="${esc(x)}">${esc(nm(byId[x]))}</button>`).join("")+(ids.length>6?`<span class="plbl-more">+${ids.length-6} more</span>`:"");
+      const mk=L.marker(g.ll,{keyboard:false,zIndexOffset:1000,icon:L.divIcon({className:"plbl",iconSize:null,iconAnchor:[-8,10],html:`<div>${names}</div>`})}).addTo(geoLines);
+      const el=mk.getElement(); if(el){ L.DomEvent.disableClickPropagation(el); el.querySelectorAll("[data-go]").forEach(x=>x.onclick=()=>select(x.dataset.go)); } });
   }
 }
 
@@ -675,22 +695,22 @@ function renderDetail(){
   const n=byId[state.sel], G=GRP();
   const rel = allLinks().filter(l=>touches(l,G) && !(G.has(lid(l.source))&&G.has(lid(l.target))))
     .map(l=>{ const a=lid(l.source),b=lid(l.target); const me=G.has(a)?a:b; return {o:byId[me===a?b:a], l, via: me!==n.id? byId[me] : null}; })
-    .sort((x,y)=>Object.keys(ETYPES).indexOf(x.l.type)-Object.keys(ETYPES).indexOf(y.l.type));
+    .sort((x,y)=>(state.selTypes.has(y.l.type)-state.selTypes.has(x.l.type))||Object.keys(ETYPES).indexOf(x.l.type)-Object.keys(ETYPES).indexOf(y.l.type));
   const people = NODES.filter(p=>p.category==="Person" && p.org===n.id).sort((a,b)=>b.score-a.score||a.name.localeCompare(b.name));
   const srcs=[...new Set([...(n.sources||[]), ...rel.map(r=>r.l.src).filter(Boolean)])];
   el.innerHTML=`<h2>${esc(n.name)}</h2>
    <div><span class="pill"><span class="sw ${CATS[n.category].sq?"sq":""}" style="background:${CATS[n.category].c}"></span>${esc(n.category==="Person"?"Person":n.category)}</span><span class="pill">${esc(REGIONS[ring(n)])}</span></div>${(n.hub||[]).length||(n.chal||[]).length?`<div class="roles">${(n.hub||[]).map(r=>`<span class="pill hubp" title="Innovation hub role">Hub: ${esc(r)}</span>`).join("")}${(n.chal||[]).map(r=>`<span class="pill chalp" title="Innovation challenge role">Challenge: ${esc(r)}</span>`).join("")}</div>`:""}
    ${n.role?`<p style="margin:8px 0 0;font-weight:600">${esc(n.role)}</p>`:""}
    ${n.category==="Person"?`<h3>Why they are key</h3><p style="margin:0;font-size:13px">Influence score <span class="score">${n.score}</span></p><div class="badges">${(n.tags||[]).map(t=>`<span class="badge tag">${esc(t)}</span>`).join("")}${(n.evidence||[]).filter(e=>!e.startsWith("Leadership role")).map(e=>`<span class="badge">${esc(e)}</span>`).join("")}</div>${n.score<state.minScore||state.minScore===Infinity?`<p class="hint">Hidden at the current Key people setting.</p>`:""}`:""}
+   <h3>Connections (${rel.length})</h3>
+   ${rel.length?`<p class="hint" style="margin:0 0 6px">Choose connection types to add those bodies to the map.</p><div class="ctchips">${(()=>{ const cnt={}; rel.forEach(r=>cnt[r.l.type]=(cnt[r.l.type]||0)+1); const ks=Object.keys(ETYPES).filter(k=>cnt[k]); const all=ks.every(k=>state.selTypes.has(k));
+     return `<button type="button" class="ctchip" data-ct="__all" aria-pressed="${all}">All <b>${rel.length}</b></button>`+ks.map(k=>`<button type="button" class="ctchip" data-ct="${esc(k)}" aria-pressed="${state.selTypes.has(k)}">${ekSwatch(k)}${esc(k)} <b>${cnt[k]}</b></button>`).join(""); })()}</div>`:""}
+   <ul class="conn">${rel.map(r=>`<li class="${state.selTypes.has(r.l.type)?"on":""}"><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${ETYPES[r.l.type].dir?(G.has(lid(r.l.source))?"→ ":"← "):""}${esc(r.l.type)}: ${esc(r.l.label)}${r.via?` (via ${esc(nm(r.via))})`:""}</small></li>`).join("")}</ul>
    <p style="font-size:13.5px">${esc(n.description)}</p>
    ${n.website?`<p class="hint">🌐 <a href="${esc(n.website)}" target="_blank" rel="noopener">${esc(n.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a></p>`:""}
    ${n.address?`<p class="hint">📍 ${esc(n.address)}${n.precision&&n.precision!=="Street address"?` (${esc(n.precision.toLowerCase())}-level)`:""}</p>`:""}
    ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button> <span class="score" title="Influence score">${p.score}</span><small>${esc(p.role)}${(p.tags||[]).length?" · "+esc(p.tags.join(", ")):""}</small></li>`).join("")}</ul>`:""}
    ${(n.units||[]).length?`<h3>Includes</h3><ul class="conn">${n.units.map(u=>`<li><button class="go" data-go="${u}">${esc(nm(byId[u]))}</button></li>`).join("")}</ul>`:""}
-   <h3>Connections (${rel.length})</h3>
-   ${rel.length?`<p class="hint" style="margin:0 0 6px">Choose connection types to add those bodies to the map.</p><div class="ctchips">${(()=>{ const cnt={}; rel.forEach(r=>cnt[r.l.type]=(cnt[r.l.type]||0)+1); const ks=Object.keys(ETYPES).filter(k=>cnt[k]); const all=ks.every(k=>state.selTypes.has(k));
-     return `<button type="button" class="ctchip" data-ct="__all" aria-pressed="${all}">All <b>${rel.length}</b></button>`+ks.map(k=>`<button type="button" class="ctchip" data-ct="${esc(k)}" aria-pressed="${state.selTypes.has(k)}">${ekSwatch(k)}${esc(k)} <b>${cnt[k]}</b></button>`).join(""); })()}</div>`:""}
-   <ul class="conn">${rel.map(r=>`<li class="${state.selTypes.has(r.l.type)?"on":""}"><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${ETYPES[r.l.type].dir?(G.has(lid(r.l.source))?"→ ":"← "):""}${esc(r.l.type)}: ${esc(r.l.label)}${r.via?` (via ${esc(nm(r.via))})`:""}</small></li>`).join("")}</ul>
    <h3>Sources</h3><ol class="srcs">${srcs.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,"").slice(0,70))}</a></li>`).join("")}</ol>
    <p><button class="btn" id="clr">Clear selection</button></p>`;
   el.querySelectorAll(".ctchip").forEach(b=>b.onclick=()=>{ const k=b.dataset.ct, ks=[...el.querySelectorAll(".ctchip:not([data-ct='__all'])")].map(x=>x.dataset.ct);
