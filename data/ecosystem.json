@@ -2603,15 +2603,16 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: AI-RAN Platform.",
-   "role": "VP for AI and Telecoms, NVIDIA",
+   "description": "Leads NVIDIA's AI and telecoms work, taking AI into wireless networks. Secretary of the AI-RAN Alliance. Speaker at the Brooklyn 6G Summit 2026.",
+   "role": "VP, AI & Telecoms, NVIDIA; Secretary, AI-RAN Alliance",
    "org": "nvidia",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://ai-ran.org/board-of-directors"
    ]
   },
   {
@@ -2929,15 +2930,16 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Speaker at the Brooklyn 6G Summit 2026. Nov 5: Panel: Wireless research in the age of AI.",
-   "role": "VP & Head of Wireless Research, InterDigital",
+   "description": "Heads wireless research at InterDigital and co-chairs the Next G Alliance Steering Group. Speaker at the Brooklyn 6G Summit 2026.",
+   "role": "VP & Head of Wireless Research, InterDigital; Co-Chair, Next G Alliance Steering Group",
    "org": "interdigital",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://nextgalliance.org/leadership/"
    ]
   },
   {
@@ -5518,7 +5520,7 @@
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "Executive Vice President, Samsung Research America; Head of Samsung Research 6G Team",
+   "role": "Senior Vice President, 6G Research Team, Samsung; Vice Chair, Next G Alliance Full Member Group",
    "org": "samsung",
    "address": "",
    "lat": null,
@@ -5530,7 +5532,8 @@
    "description": "SVP at Samsung Research America and head of Samsung Research's 6G team, which publishes Samsung's 6G white papers. Vice Chair of the Next G Alliance Full Member Group. Former 3GPP RAN WG1 vice chair. IEEE Fellow. Quoted as Samsung Executive Vice President on the July 2026 Verizon ISAC trial in Dallas.",
    "sources": [
     "https://research.samsung.com/news/Samsung-s-Leadership-in-Next-Generation-Communications-and-AI",
-    "https://www.telecomtv.com/content/6g/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event-56243/"
+    "https://www.telecomtv.com/content/6g/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event-56243/",
+    "https://nextgalliance.org/leadership/"
    ]
   },
   {
@@ -13816,9 +13819,10 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Coordinates the Horizon Europe 6G-SANDBOX testbed project and its MoUs with Asian partners.",
+   "description": "Coordinates the Horizon Europe 6G-SANDBOX testbed project and its MoUs with Asian partners. Keysight's representative on the 6G-IA Governing Board (2026 to 2029).",
    "sources": [
-    "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research"
+    "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research",
+    "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
    ]
   },
   {
@@ -18133,9 +18137,10 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "President and CEO of Ericsson. Launched the #6GSweden collaboration with Telia in November 2026.",
+   "description": "President and CEO of Ericsson since 1 October 2026, succeeding Börje Ekholm. Joined Ericsson in 1997 and previously led Business Area Networks and Cloud Software and Services. Launched the #6GSweden collaboration with Telia in November 2026.",
    "sources": [
-    "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
+    "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g",
+    "https://www.ericsson.com/en/press-releases/2026/6/per-narvinger-appointed-new-president-and-ceo-of-ericsson-as-borje-ekholm-steps-down"
    ]
   },
   {
@@ -18171,6 +18176,493 @@
    "sources": [
     "https://www.telecomtv.com/content/access-evolution/what-s-up-with-optical-growth-scaleway-du-56731/",
     "https://telcomagazine.com/news/telco-executive-appointments-in-november-2026"
+   ]
+  },
+  {
+   "id": "ai-ran-alliance",
+   "name": "AI-RAN Alliance",
+   "short": "AI-RAN Alliance",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Wakefield, MA, USA",
+   "lat": 42.5065,
+   "lng": -71.0729,
+   "precision": "City",
+   "description": "Global alliance founded at MWC 2024 by Ericsson, Nokia, Samsung, Microsoft, T-Mobile and others to build AI into the radio access network. Reached 132 members in February 2026 and added Qualcomm, SK Telecom and Vodafone to its board. Chaired by Alex Jinsung Choi (SoftBank).",
+   "sources": [
+    "https://www.mobileworldlive.com/ai-cloud/industry-veteran-choi-to-head-up-ai-ran-alliance/",
+    "https://www.businesswire.com/news/home/20260226771236/en",
+    "https://ai-ran.org/board-of-directors"
+   ]
+  },
+  {
+   "id": "arm",
+   "name": "Arm",
+   "short": "Arm",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Cambridge, UK",
+   "lat": 52.2053,
+   "lng": 0.1218,
+   "precision": "City",
+   "description": "UK chip architecture company. Sits on the AI-RAN Alliance board.",
+   "sources": [
+    "https://ai-ran.org/board-of-directors"
+   ]
+  },
+  {
+   "id": "justin-hotard",
+   "name": "Justin Hotard",
+   "short": "Justin Hotard",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and CEO, Nokia",
+   "org": "nokia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and CEO of Nokia since 1 April 2025, after leading Intel's Data Center and AI Group. Has refocused Nokia on AI-native networks and agreed a strategic partnership with NVIDIA, including a $1bn NVIDIA investment, to speed AI-RAN and the move to 6G.",
+   "sources": [
+    "https://nokia.com/we-are-nokia/leadership-and-governance/group-leadership-team/justin-hotard",
+    "https://cn.weforum.org/stories/authors/justin-hotard/"
+   ]
+  },
+  {
+   "id": "mathias-riback",
+   "name": "Mathias Riback",
+   "short": "Mathias Riback",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP & Head of Advanced Technology U.S., Ericsson; Treasurer, AI-RAN Alliance",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Heads Ericsson's Advanced Technology U.S. team, representing the global CTO office in Silicon Valley. Treasurer of the AI-RAN Alliance.",
+   "sources": [
+    "https://ai-ran.org/board-of-directors",
+    "https://www.businesswire.com/news/home/20240815774457/en/AI-RAN-Alliance-Announces-Appointment-of-Dr.-Alex-Jinsung-Choi-as-Chair"
+   ]
+  },
+  {
+   "id": "tm-roh",
+   "name": "Tae Moon (TM) Roh",
+   "short": "Tae Moon (TM) Roh",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Co-CEO and Head of Device eXperience (DX), Samsung Electronics",
+   "org": "samsung",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-CEO of Samsung Electronics since November 2025 and head of its Device eXperience division, including the mobile business.",
+   "sources": [
+    "https://www.koreaherald.com/article/10621169",
+    "https://www.rttnews.com/3597479/samsung-appoints-tm-roh-as-co-ceo.aspx"
+   ]
+  },
+  {
+   "id": "jun-young-hyun",
+   "name": "Young Hyun Jun",
+   "short": "Young Hyun Jun",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice Chairman, Co-CEO and Head of Device Solutions (DS), Samsung Electronics",
+   "org": "samsung",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Vice Chairman and co-CEO of Samsung Electronics. Leads the Device Solutions (semiconductor) division and the memory business.",
+   "sources": [
+    "https://www.koreaherald.com/article/10621169",
+    "https://www.rttnews.com/3597479/samsung-appoints-tm-roh-as-co-ceo.aspx"
+   ]
+  },
+  {
+   "id": "cristiano-amon",
+   "name": "Cristiano Amon",
+   "short": "Cristiano Amon",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and CEO, Qualcomm",
+   "org": "qualcomm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Qualcomm. Used his MWC 2026 keynote to argue that 6G will be critical for AI workloads and agents, and will lift performance in existing spectrum by 50 to 70%.",
+   "sources": [
+    "https://www.constellationr.com/insights/news/mwc-2026-6g-gets-ai-makeover"
+   ]
+  },
+  {
+   "id": "john-kuzin",
+   "name": "John Kuzin",
+   "short": "John Kuzin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "SVP, Spectrum Policy & Regulatory Counsel, Qualcomm",
+   "org": "qualcomm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Qualcomm's worldwide spectrum policy, including its 6G spectrum advocacy before the FCC and other regulators.",
+   "sources": [
+    "https://www.qualcomm.com/news/onq/2025/12/obbb-act-us-6g-leadership",
+    "https://wia.org/?p=18756"
+   ]
+  },
+  {
+   "id": "jensen-huang",
+   "name": "Jensen Huang",
+   "short": "Jensen Huang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Founder, President and CEO, NVIDIA",
+   "org": "nvidia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founder and CEO of NVIDIA. Has positioned NVIDIA as a compute platform for AI-RAN and AI-native 6G, including its October 2025 $1bn investment in Nokia.",
+   "sources": [
+    "https://www.theregister.com/2025/10/28/nvidia_nokia_partnership_6g/"
+   ]
+  },
+  {
+   "id": "ren-zhengfei",
+   "name": "Ren Zhengfei",
+   "short": "Ren Zhengfei",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Founder and CEO, Huawei",
+   "org": "huawei",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founder of Huawei (1987) and its CEO since 1988.",
+   "sources": [
+    "https://fortune.com/ranking/most-powerful-people/2025/ren-zhengfei",
+    "https://cn.weforum.org/people/ren-zhengfei"
+   ]
+  },
+  {
+   "id": "yoshiaki-maeda",
+   "name": "Yoshiaki Maeda",
+   "short": "Yoshiaki Maeda",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and CEO, NTT DOCOMO",
+   "org": "docomo",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and CEO of NTT DOCOMO.",
+   "sources": [
+    "https://www.docomo.ne.jp/english/corporate/about/outline/management/"
+   ]
+  },
+  {
+   "id": "yongguang-zhang",
+   "name": "Yongguang Zhang",
+   "short": "Yongguang Zhang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Partner Research Manager, Microsoft Research",
+   "org": "microsoft",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Microsoft researcher who led Open RAN R&D in Azure for Operators (2020 to 2024) and now leads Microsoft's AI-RAN thinking. IEEE Fellow for software radio.",
+   "sources": [
+    "https://www.microsoft.com/en-us/research/people/ygz/",
+    "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/ai-powered-ran-and-the-intelligent-edge-microsoft-s-vision-for/ba-p/4495554"
+   ]
+  },
+  {
+   "id": "mo-jabbari",
+   "name": "Mo Jabbari",
+   "short": "Mo Jabbari",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Telco and Networking Solutions, Arm; Director, AI-RAN Alliance",
+   "org": "arm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Arm's director of telco and networking solutions. Sits on the AI-RAN Alliance board.",
+   "sources": [
+    "https://ai-ran.org/board-of-directors"
+   ]
+  },
+  {
+   "id": "rob-soni",
+   "name": "Rob Soni",
+   "short": "Rob Soni",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, RAN Technology, AT&T; Chair, Next G Alliance Full Member Group",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads AT&T's RAN architecture and technology roadmaps. Chairs the Next G Alliance Full Member Group and the Telecom Infra Project.",
+   "sources": [
+    "https://nextgalliance.org/leadership/",
+    "https://tmt.knect365.com/network-x-americas/speakers/rob-soni"
+   ]
+  },
+  {
+   "id": "havish-koorapaty",
+   "name": "Havish Koorapaty",
+   "short": "Havish Koorapaty",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Ericsson; Co-Chair, Next G Alliance Steering Group",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Ericsson representative and co-chair of the Next G Alliance Steering Group.",
+   "sources": [
+    "https://nextgalliance.org/leadership/"
+   ]
+  },
+  {
+   "id": "mark-cudak",
+   "name": "Mark Cudak",
+   "short": "Mark Cudak",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Nokia; Chair, Next G Alliance Spectrum Working Group",
+   "org": "nokia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Nokia researcher who chairs the Next G Alliance Spectrum Working Group.",
+   "sources": [
+    "https://nextgalliance.org/leadership/"
+   ]
+  },
+  {
+   "id": "alexander-sayenko",
+   "name": "Alexander Sayenko",
+   "short": "Alexander Sayenko",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Apple; Vice Chair, Next G Alliance Spectrum Working Group",
+   "org": "apple",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Apple representative and vice chair of the Next G Alliance Spectrum Working Group.",
+   "sources": [
+    "https://nextgalliance.org/leadership/"
+   ]
+  },
+  {
+   "id": "lola-awoniyi-oteri",
+   "name": "Lola Awoniyi-Oteri",
+   "short": "Lola Awoniyi-Oteri",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Qualcomm; Vice Chair, Next G Alliance Market & Applications Working Group",
+   "org": "qualcomm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Qualcomm representative and vice chair of the Next G Alliance Market & Applications Working Group.",
+   "sources": [
+    "https://nextgalliance.org/leadership/"
+   ]
+  },
+  {
+   "id": "colin-willcock",
+   "name": "Colin Willcock",
+   "short": "Colin Willcock",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Nokia; Chairperson, 6G-IA; Chair, SNS JU Governing Board",
+   "org": "nokia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Re-elected Chairperson of the 6G-IA in 2026 for a three-year term. Also chairs the SNS JU Governing Board.",
+   "sources": [
+    "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+   ]
+  },
+  {
+   "id": "raffaele-de-peppe",
+   "name": "Raffaele de Peppe",
+   "short": "Raffaele de Peppe",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "TIM; Vice-Chairperson, 6G-IA",
+   "org": "tim",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "TIM representative, re-elected Vice-Chairperson of the 6G-IA in 2026.",
+   "sources": [
+    "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+   ]
+  },
+  {
+   "id": "afif-osseiran",
+   "name": "Afif Osseiran",
+   "short": "Afif Osseiran",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Ericsson; Treasurer, 6G-IA",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Ericsson representative, re-elected Treasurer of the 6G-IA in 2026. Also a 6G-IA representative on the SNS JU Governing Board.",
+   "sources": [
+    "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+   ]
+  },
+  {
+   "id": "alexandros-kaloxylos",
+   "name": "Alexandros Kaloxylos",
+   "short": "Alexandros Kaloxylos",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Director, 6G-IA",
+   "org": "6g-ia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Executive Director of the 6G Smart Networks and Services Industry Association.",
+   "sources": [
+    "https://6g-ia.eu/about"
+   ]
+  },
+  {
+   "id": "kostas-trichias",
+   "name": "Kostas Trichias",
+   "short": "Kostas Trichias",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of 6G Research & Innovation Coordination, 6G-IA",
+   "org": "6g-ia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Coordinates 6G research and innovation for the 6G-IA office.",
+   "sources": [
+    "https://6g-ia.eu/about"
+   ]
+  },
+  {
+   "id": "milos-tesanovic",
+   "name": "Milos Tesanovic",
+   "short": "Milos Tesanovic",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Communication Standards, Samsung R&D Institute UK; 6G-IA Governing Board",
+   "org": "samsung-uk",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads communication standards at Samsung R&D Institute UK. Elected to the 6G-IA Governing Board in March 2026 for three years.",
+   "sources": [
+    "https://research.samsung.com/news/Samsung-R-D-Institute-United-Kingdom-s-Head-of-Communication-Standards-elected-to-6G-IA-Governing-Board-for-a-3-year-term",
+    "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+   ]
+  },
+  {
+   "id": "marie-helene-hamon",
+   "name": "Marie-Hélène Hamon",
+   "short": "Marie-Hélène Hamon",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Orange; 6G-IA Governing Board",
+   "org": "orange",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Orange representative on the 6G-IA Governing Board (2026 to 2029).",
+   "sources": [
+    "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+   ]
+  },
+  {
+   "id": "petr-ledl",
+   "name": "Petr Ledl",
+   "short": "Petr Ledl",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Deutsche Telekom; 6G-IA Governing Board",
+   "org": "deutsche-telekom",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Deutsche Telekom representative on the 6G-IA Governing Board (2026 to 2029).",
+   "sources": [
+    "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+   ]
+  },
+  {
+   "id": "javier-garcia-rodrigo",
+   "name": "Javier Garcia Rodrigo",
+   "short": "Javier Garcia Rodrigo",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Telefónica Innovación Digital; 6G-IA Governing Board",
+   "org": "telefonica",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telefónica representative on the 6G-IA Governing Board (2026 to 2029) and on the SNS JU Governing Board.",
+   "sources": [
+    "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+   ]
+  },
+  {
+   "id": "atle-monrad",
+   "name": "Atle Monrad",
+   "short": "Atle Monrad",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "InterDigital; Chair, 3GPP TSG SA WG6",
+   "org": "interdigital",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "InterDigital standards lead. Re-elected chair of 3GPP SA6 (application enablement) for a second term in February 2026.",
+   "sources": [
+    "https://www.3gpp.org/ftp/Specs/html-info/TSG-WG--S6--officials.htm"
    ]
   }
  ],
@@ -27799,6 +28291,447 @@
    "type": "Role",
    "label": "Group Director of AI Product, BT Group",
    "source": "https://www.telecomtv.com/content/access-evolution/what-s-up-with-optical-growth-scaleway-du-56731/"
+  },
+  {
+   "from": "justin-hotard",
+   "to": "nokia",
+   "type": "Role",
+   "label": "President and CEO, Nokia",
+   "source": "https://nokia.com/we-are-nokia/leadership-and-governance/group-leadership-team/justin-hotard"
+  },
+  {
+   "from": "mathias-riback",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "VP & Head of Advanced Technology U.S., Ericsson; Treasurer, AI-RAN Alliance",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "tm-roh",
+   "to": "samsung",
+   "type": "Role",
+   "label": "Co-CEO and Head of Device eXperience (DX), Samsung Electronics",
+   "source": "https://www.koreaherald.com/article/10621169"
+  },
+  {
+   "from": "jun-young-hyun",
+   "to": "samsung",
+   "type": "Role",
+   "label": "Vice Chairman, Co-CEO and Head of Device Solutions (DS), Samsung Electronics",
+   "source": "https://www.koreaherald.com/article/10621169"
+  },
+  {
+   "from": "cristiano-amon",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "President and CEO, Qualcomm",
+   "source": "https://www.constellationr.com/insights/news/mwc-2026-6g-gets-ai-makeover"
+  },
+  {
+   "from": "john-kuzin",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "SVP, Spectrum Policy & Regulatory Counsel, Qualcomm",
+   "source": "https://www.qualcomm.com/news/onq/2025/12/obbb-act-us-6g-leadership"
+  },
+  {
+   "from": "jensen-huang",
+   "to": "nvidia",
+   "type": "Role",
+   "label": "Founder, President and CEO, NVIDIA",
+   "source": "https://www.theregister.com/2025/10/28/nvidia_nokia_partnership_6g/"
+  },
+  {
+   "from": "ren-zhengfei",
+   "to": "huawei",
+   "type": "Role",
+   "label": "Founder and CEO, Huawei",
+   "source": "https://fortune.com/ranking/most-powerful-people/2025/ren-zhengfei"
+  },
+  {
+   "from": "yoshiaki-maeda",
+   "to": "docomo",
+   "type": "Role",
+   "label": "President and CEO, NTT DOCOMO",
+   "source": "https://www.docomo.ne.jp/english/corporate/about/outline/management/"
+  },
+  {
+   "from": "yongguang-zhang",
+   "to": "microsoft",
+   "type": "Role",
+   "label": "Partner Research Manager, Microsoft Research",
+   "source": "https://www.microsoft.com/en-us/research/people/ygz/"
+  },
+  {
+   "from": "mo-jabbari",
+   "to": "arm",
+   "type": "Role",
+   "label": "Director of Telco and Networking Solutions, Arm; Director, AI-RAN Alliance",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "rob-soni",
+   "to": "att",
+   "type": "Role",
+   "label": "VP, RAN Technology, AT&T; Chair, Next G Alliance Full Member Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "havish-koorapaty",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Ericsson; Co-Chair, Next G Alliance Steering Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "mark-cudak",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Nokia; Chair, Next G Alliance Spectrum Working Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "alexander-sayenko",
+   "to": "apple",
+   "type": "Role",
+   "label": "Apple; Vice Chair, Next G Alliance Spectrum Working Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "lola-awoniyi-oteri",
+   "to": "qualcomm",
+   "type": "Role",
+   "label": "Qualcomm; Vice Chair, Next G Alliance Market & Applications Working Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "colin-willcock",
+   "to": "nokia",
+   "type": "Role",
+   "label": "Nokia; Chairperson, 6G-IA; Chair, SNS JU Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "raffaele-de-peppe",
+   "to": "tim",
+   "type": "Role",
+   "label": "TIM; Vice-Chairperson, 6G-IA",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "afif-osseiran",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Ericsson; Treasurer, 6G-IA",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "alexandros-kaloxylos",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Executive Director, 6G-IA",
+   "source": "https://6g-ia.eu/about"
+  },
+  {
+   "from": "kostas-trichias",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Head of 6G Research & Innovation Coordination, 6G-IA",
+   "source": "https://6g-ia.eu/about"
+  },
+  {
+   "from": "milos-tesanovic",
+   "to": "samsung-uk",
+   "type": "Role",
+   "label": "Head of Communication Standards, Samsung R&D Institute UK; 6G-IA Governing Board",
+   "source": "https://research.samsung.com/news/Samsung-R-D-Institute-United-Kingdom-s-Head-of-Communication-Standards-elected-to-6G-IA-Governing-Board-for-a-3-year-term"
+  },
+  {
+   "from": "marie-helene-hamon",
+   "to": "orange",
+   "type": "Role",
+   "label": "Orange; 6G-IA Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "petr-ledl",
+   "to": "deutsche-telekom",
+   "type": "Role",
+   "label": "Deutsche Telekom; 6G-IA Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "javier-garcia-rodrigo",
+   "to": "telefonica",
+   "type": "Role",
+   "label": "Telefónica Innovación Digital; 6G-IA Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "atle-monrad",
+   "to": "interdigital",
+   "type": "Role",
+   "label": "InterDigital; Chair, 3GPP TSG SA WG6",
+   "source": "https://www.3gpp.org/ftp/Specs/html-info/TSG-WG--S6--officials.htm"
+  },
+  {
+   "from": "alex-jinsung-choi",
+   "to": "ai-ran-alliance",
+   "type": "Role",
+   "label": "Chair",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "ardavan-tehrani",
+   "to": "ai-ran-alliance",
+   "type": "Role",
+   "label": "Vice Chair",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "soma-velayutham",
+   "to": "ai-ran-alliance",
+   "type": "Role",
+   "label": "Secretary",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "mathias-riback",
+   "to": "ai-ran-alliance",
+   "type": "Role",
+   "label": "Treasurer",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "mo-jabbari",
+   "to": "ai-ran-alliance",
+   "type": "Role",
+   "label": "Director",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "rob-soni",
+   "to": "nga",
+   "type": "Role",
+   "label": "Chair, Full Member Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "charlie-zhang",
+   "to": "nga",
+   "type": "Role",
+   "label": "Vice Chair, Full Member Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "havish-koorapaty",
+   "to": "nga",
+   "type": "Role",
+   "label": "Co-Chair, Steering Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "brian-daly",
+   "to": "nga",
+   "type": "Role",
+   "label": "Co-Chair, Steering Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "douglas-castor",
+   "to": "nga",
+   "type": "Role",
+   "label": "Co-Chair, Steering Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "mark-cudak",
+   "to": "nga",
+   "type": "Role",
+   "label": "Chair, Spectrum Working Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "alexander-sayenko",
+   "to": "nga",
+   "type": "Role",
+   "label": "Vice Chair, Spectrum Working Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "lola-awoniyi-oteri",
+   "to": "nga",
+   "type": "Role",
+   "label": "Vice Chair, Market & Applications Working Group",
+   "source": "https://nextgalliance.org/leadership/"
+  },
+  {
+   "from": "colin-willcock",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Chairperson",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "colin-willcock",
+   "to": "sns-ju",
+   "type": "Role",
+   "label": "Chair, Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "raffaele-de-peppe",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Vice-Chairperson",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "afif-osseiran",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Treasurer",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "afif-osseiran",
+   "to": "sns-ju",
+   "type": "Role",
+   "label": "Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "javier-garcia-rodrigo",
+   "to": "sns-ju",
+   "type": "Role",
+   "label": "Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "milos-tesanovic",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "marie-helene-hamon",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "petr-ledl",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "javier-garcia-rodrigo",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "michael-dieudonne",
+   "to": "6g-ia",
+   "type": "Role",
+   "label": "Governing Board",
+   "source": "https://6g-ia.eu/wp-content/uploads/2026/05/press-release_6g-ia_elections_v2.pdf"
+  },
+  {
+   "from": "atle-monrad",
+   "to": "3gpp",
+   "type": "Role",
+   "label": "Chair, TSG SA WG6",
+   "source": "https://www.3gpp.org/ftp/Specs/html-info/TSG-WG--S6--officials.htm"
+  },
+  {
+   "from": "softbank",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Chair of the board",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "samsung",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Founding member; vice chair",
+   "source": "https://www.mobileworldlive.com/ai-cloud/industry-veteran-choi-to-head-up-ai-ran-alliance/"
+  },
+  {
+   "from": "nvidia",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Board; secretary",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "ericsson",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Founding member; treasurer",
+   "source": "https://www.mobileworldlive.com/ai-cloud/industry-veteran-choi-to-head-up-ai-ran-alliance/"
+  },
+  {
+   "from": "nokia",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.mobileworldlive.com/ai-cloud/industry-veteran-choi-to-head-up-ai-ran-alliance/"
+  },
+  {
+   "from": "microsoft",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.mobileworldlive.com/ai-cloud/industry-veteran-choi-to-head-up-ai-ran-alliance/"
+  },
+  {
+   "from": "tmobile",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Founding member",
+   "source": "https://www.mobileworldlive.com/ai-cloud/industry-veteran-choi-to-head-up-ai-ran-alliance/"
+  },
+  {
+   "from": "arm",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Board member",
+   "source": "https://ai-ran.org/board-of-directors"
+  },
+  {
+   "from": "qualcomm",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Board member (2026)",
+   "source": "https://www.businesswire.com/news/home/20260226771236/en"
+  },
+  {
+   "from": "skt",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Board member (2026)",
+   "source": "https://www.businesswire.com/news/home/20260226771236/en"
+  },
+  {
+   "from": "vodafone-group",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Board member (2026)",
+   "source": "https://www.businesswire.com/news/home/20260226771236/en"
+  },
+  {
+   "from": "nvidia",
+   "to": "nokia",
+   "type": "Funding",
+   "label": "$1bn investment and AI-RAN partnership (Oct 2025)",
+   "source": "https://www.nokia.com/newsroom/nokia-partners-with-nvidia/"
   }
  ]
 }
