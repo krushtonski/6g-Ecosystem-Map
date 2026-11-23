@@ -431,7 +431,7 @@ async function toggleCTA(){
   ctaOn=!ctaOn; document.getElementById("ctaBtn").setAttribute("aria-pressed",ctaOn);
   if(ctaOn){
     if(!ctaLayer){
-      try{ const gj=await fetch("data/call-to-action-6g.geojson?v=2").then(r=>r.json());
+      try{ const gj=await fetch("data/call-to-action-6g.geojson?v=3").then(r=>r.json());
         ctaLayer=L.geoJSON(gj,{style:f=>({color:CTA.groups[f.properties.group],weight:1,fillColor:CTA.groups[f.properties.group],fillOpacity:f.properties.group==="Publisher"?.12:.32,dashArray:f.properties.group==="Publisher"?"4 3":null}),
           onEachFeature:(f,l)=>{ l.bindTooltip(esc(f.properties.name)+(f.properties.group==="Publisher"?" (publisher, via NTIA)":"")+" · click for 6G contacts",{sticky:true}); l.on("click",e=>{ L.DomEvent.stopPropagation(e); renderCTACountry(f.properties.name); }); }});
         ctaLayer.__gj=gj;
@@ -446,7 +446,9 @@ function ctaPIP(pt,geom){ const [x,y]=pt; const polys=geom.type==="Polygon"?[geo
 function ctaOrgs(f){ if(!f.__bb){ const b=[180,90,-180,-90]; JSON.stringify(f.geometry.coordinates).match(/-?\d+(\.\d+)?,-?\d+(\.\d+)?/g).forEach(s=>{const [x,y]=s.split(",").map(Number); b[0]=Math.min(b[0],x);b[1]=Math.min(b[1],y);b[2]=Math.max(b[2],x);b[3]=Math.max(b[3],y);}); f.__bb=b; }
   if(!f.__orgs){ const b=f.__bb; f.__orgs=NODES.filter(n=>n.category!=="Person"&&n.lat!=null&&n.lng>=b[0]&&n.lng<=b[2]&&n.lat>=b[1]&&n.lat<=b[3]&&ctaPIP([n.lng,n.lat],f.geometry)).sort((a,b)=>a.name.localeCompare(b.name)); }
   return f.__orgs; }
-function ctaLead(f){ const id=f.properties.lead; return id&&byId[id]?`<button class="go" data-go="${id}">${esc(byId[id].short||byId[id].name)}</button>`:'<span style="color:var(--muted)">Not published</span>'; }
+function ctaLead(f,full){ const p=f.properties, id=p.lead;
+  const main = id&&byId[id]?`<button class="go" data-go="${id}">${esc(byId[id].short||byId[id].name)}</button>` : p.leadName?esc(p.leadName) : '<span style="color:var(--muted)">Not published</span>';
+  return full&&(p.leadNote||p.leadSrc)?`${main}<br><small style="color:var(--muted)">${esc(p.leadNote||"")} ${p.leadSrc?`<a href="${esc(p.leadSrc)}" target="_blank" rel="noopener">Source</a>`:""}</small>`:main; }
 function renderCTAKey(){
   const k=document.getElementById("ctaKey"), sw=(g,t)=>`<div><span class="cta-key" style="background:${CTA.groups[g]}${g==="Publisher"?";opacity:.5":""}"></span>${t}</div>`;
   k.innerHTML=`<h4>"Call to Action" signatories</h4><p>Governments that signed NTIA's Call to Action for 6G Leadership and Security (July 2026). Each has pledged to name 6G points of contact and a list of industry and academic stakeholders. Click a country to see them.</p>${sw("Europe","Europe")}${sw("Americas","Americas")}${sw("Asia-Pacific","Asia-Pacific")}${sw("Publisher","United States (publisher, via NTIA)")}`;
@@ -456,7 +458,7 @@ function renderCTACountry(name){
   const orgs=ctaOrgs(f), d=f.properties.joined==="2026-09-09"?"9 September 2026 (joined after launch)":"27 July 2026 (launch signatory)";
   const el=document.getElementById("detail");
   el.innerHTML=`<h2>${esc(name)}</h2><p style="color:var(--muted);font-size:13px">"Call to Action" signatory since ${d}.</p>
-    <h3>6G point of contact (lead agency)</h3><p>${ctaLead(f)}</p>
+    <h3>Lead agency (as publicly evidenced)</h3><p>${ctaLead(f,true)}</p><p class="hint">Named 6G points of contact are shared within the group and not published. This shows the body that announced each country&#39;s participation or represented it at the July 2026 launch.</p>
     <h3>Industry and academic stakeholders on this map (${orgs.length})</h3>
     ${orgs.length?`<ul class="conn">${orgs.map(n=>`<li><button class="go" data-go="${n.id}">${esc(n.name)}</button><small>${esc(n.category)}</small></li>`).join("")}</ul>`:'<p class="hint">None mapped yet.</p>'}
     <p class="hint">Each government's official stakeholder list is shared within the contact group and is not public. This list shows organisations we track whose office is in ${esc(name)}.</p>
