@@ -20446,7 +20446,7 @@
   {
    "from": "vt-arc",
    "to": "nga",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Runs the Technical Program Office",
    "source": "https://atis.org/press-releases/atis-next-g-alliance-names-vt-arc-as-technical-program-office-major-role-in-advancing-6g/"
   },
@@ -20460,7 +20460,7 @@
   {
    "from": "gmu",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Part of the OTIC team; leads CCI NoVA node",
    "source": "https://cec.gmu.edu/news/2023-07/george-mason-university-improving-next-gen-wireless-networks"
   },
@@ -20493,9 +20493,9 @@
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "deepsig",
-   "to": "nsc",
-   "type": "Contract or award",
+   "from": "nsc",
+   "to": "deepsig",
+   "type": "Grant / Contract / Award",
    "label": "Member (FutureG OCUDU award)",
    "source": "https://rt.cto.mil/deepsig-and-srs-chosen-by-futureg"
   },
@@ -20733,322 +20733,322 @@
   {
    "from": "apple",
    "to": "rings",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
   },
   {
    "from": "ericsson",
    "to": "rings",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
   },
   {
    "from": "google",
    "to": "rings",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
   },
   {
    "from": "intel",
    "to": "rings",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
   },
   {
    "from": "microsoft",
    "to": "rings",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
   },
   {
    "from": "nokia",
    "to": "rings",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
   },
   {
    "from": "qualcomm",
    "to": "rings",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
   },
   {
    "from": "att",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-lead",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "verizon",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-lead",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "ericsson",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "nokia",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "samsung",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "fujitsu",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "mavenir",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "intel",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "cci",
    "to": "accord",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "xG Testbed is its DC-area home",
    "source": "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
   },
   {
    "from": "vt-iac",
    "to": "dmimo",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Lead (Alexandria wireless lab)",
    "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
   },
   {
    "from": "wireless-vt",
    "to": "dmimo",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Research team",
    "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
   },
   {
    "from": "vt-nsi",
    "to": "dmimo",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Research team",
    "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
   },
   {
    "from": "lockheed",
    "to": "dmimo",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner",
    "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
   },
   {
    "from": "nsc",
    "to": "rapid",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Runs the solicitation",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "parallel",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "parallel",
+   "type": "Grant / Contract / Award",
    "label": "Award lead",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "wireless-vt",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "wireless-vt",
+   "type": "Grant / Contract / Award",
    "label": "Team member (with Parallel Wireless)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "nokia",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "nokia",
+   "type": "Grant / Contract / Award",
    "label": "Award lead (Nokia Federal)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "att",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "att",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Nokia Federal)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "deepsig",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "deepsig",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Nokia Federal)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "peraton",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "peraton",
+   "type": "Grant / Contract / Award",
    "label": "Award lead",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
    "from": "booz",
    "to": "aiwin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads",
    "source": "https://www.executivebiz.com/?p=470581"
   },
   {
    "from": "nvidia",
    "to": "aiwin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.executivebiz.com/?p=470581"
   },
   {
    "from": "mitre",
    "to": "aiwin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.executivebiz.com/?p=470581"
   },
   {
    "from": "vt-iac",
    "to": "wireless-vt",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Close collaboration",
    "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
   },
   {
    "from": "vt-iac",
    "to": "vt-nsi",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Close collaboration",
    "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
   },
   {
    "from": "vt-iac",
    "to": "vt-arc",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Close collaboration",
    "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
   },
   {
    "from": "vt-iac",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Close collaboration",
    "source": "https://iac.vt.edu/research-areas/next-g-wireless.html"
   },
   {
    "from": "booz",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "O-RAN collaboration",
    "source": "https://news.vt.edu/articles/2023/12/ntia-innovation-fund-showcases-vt-cci-researchers.html"
   },
   {
    "from": "comsovereign",
    "to": "gmu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Donated O-RAN/5G testbeds",
    "source": "https://cyberinitiative.org/about/regional-structure/northern-virginia-node/living-innovation-lab.html"
   },
   {
    "from": "nvidia",
    "to": "wireless-vt",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-for-5G research partnership",
    "source": "https://blogs.nvidia.com/blog/ai-5g-research/"
   },
   {
    "from": "nokia",
    "to": "vt-iac",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Bell Labs 6G distinguished lecture",
    "source": "https://news.vt.edu/articles/2024/03/innovation-campus-lecture-series-01.html"
   },
   {
    "from": "mit",
    "to": "vt-iac",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-native wireless research",
    "source": "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html"
   },
   {
    "from": "duke",
    "to": "vt-iac",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-native wireless research",
    "source": "https://news.vt.edu/articles/2025/10/learning-at-the-speed-of-wireless--lingjia-liu-to-present-ai-nat.html"
   },
   {
    "from": "jbg",
    "to": "vt-iac",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-developer of Potomac Yard district",
    "source": "https://vtx.vt.edu/articles/2021/09/innovationcampus-groundbreaking.html"
   },
   {
    "from": "jbg",
    "to": "federated-wireless",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "CBRS private wireless across Arlington & Alexandria",
    "source": "https://www.citybiz.co/article/324238/jbg-smith-and-federated-wireless-announce-an-innovative-private-wireless-partnership/"
   },
   {
    "from": "aedp",
    "to": "vt-iac",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Campus and Metro champion",
    "source": "https://virginiabusiness.com/potomac-yard-vt-metro-station-opens-in-alexandria/"
   },
   {
    "from": "aedp",
    "to": "nsf",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Kept NSF headquarters in Alexandria",
    "source": "https://www.alexandriava.gov/go/7624"
   },
   {
    "from": "amazon",
    "to": "vt-iac",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Campus part of the HQ2 talent package",
    "source": "https://wtop.com/alexandria/2025/02/virginia-tech-innovation-building-gets-ready-to-open"
   },
   {
    "from": "ida",
    "to": "futureg",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "FFRDC analysis of 5G for the DoD",
    "source": "https://ida.org/research-and-publications/publications/all/i/im/implications-and-considerations-of-5th-generation"
   },
@@ -21188,21 +21188,21 @@
   {
    "from": "liu",
    "to": "jakubisin",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Mobile dMIMO research team",
    "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
   },
   {
    "from": "liu",
    "to": "anderson",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Mobile dMIMO: VT lead and Lockheed industry lead",
    "source": "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
   },
   {
    "from": "liu",
    "to": "saad",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "NextG and O-RAN applications at the Alexandria institute",
    "source": "https://www.theroanokestar.com/2025/02/20/how-wireless-ai-are-driving-a-digital-twin-revolution/"
   },
@@ -22252,7 +22252,7 @@
   {
    "from": "futureg",
    "to": "redhat",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Named FutureG partner",
    "source": "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
   },
@@ -22399,14 +22399,14 @@
   {
    "from": "commerce",
    "to": "ntia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "NTIA is an agency of the Department of Commerce",
    "source": "https://www.executivegov.com/articles/ntia-6g-leadership-security-initiative"
   },
   {
    "from": "commerce",
    "to": "nist",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "NIST is an agency of the Department of Commerce",
    "source": "https://www.nist.gov/ctl/pscr/funding-opportunities/open-innovation-prize-challenges"
   },
@@ -22579,72 +22579,72 @@
    "source": "https://roadmap.nextgalliance.org/?p=311"
   },
   {
-   "from": "texas-tech",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "texas-tech",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Nokia Federal)",
    "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
   },
   {
-   "from": "hidden-level",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "hidden-level",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Nokia Federal)",
    "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
   },
   {
-   "from": "future-tech",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "future-tech",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Nokia Federal)",
    "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
   },
   {
-   "from": "nexcepta",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "nexcepta",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Peraton Labs)",
    "source": "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
   },
   {
    "from": "future-tech",
    "to": "nokia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Private 5G partner for federal projects",
    "source": "https://washingtonexec.com/2023/05/nokia-and-future-technologies-win-multi-million-dollar-private-5g-projects-in-federal-market"
   },
   {
    "from": "nsc",
    "to": "asc-demo",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Awarded through NSC's Spectrum Forward OTA",
    "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
   },
   {
-   "from": "peraton",
-   "to": "asc-demo",
-   "type": "Contract or award",
+   "from": "asc-demo",
+   "to": "peraton",
+   "type": "Grant / Contract / Award",
    "label": "Project lead",
    "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
   },
   {
-   "from": "nokia",
-   "to": "asc-demo",
-   "type": "Contract or award",
+   "from": "asc-demo",
+   "to": "nokia",
+   "type": "Grant / Contract / Award",
    "label": "Project lead (Nokia Federal Solutions)",
    "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
   },
   {
-   "from": "interdigital",
-   "to": "asc-demo",
-   "type": "Contract or award",
+   "from": "asc-demo",
+   "to": "interdigital",
+   "type": "Grant / Contract / Award",
    "label": "Project lead",
    "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
   },
   {
-   "from": "rtx",
-   "to": "asc-demo",
-   "type": "Contract or award",
+   "from": "asc-demo",
+   "to": "rtx",
+   "type": "Grant / Contract / Award",
    "label": "Project lead (RTX BBN Technologies)",
    "source": "https://www.businesswire.com/news/home/20251001124554/en/NSC-Announces-DoW-Selection-of-Awardees-for-Spectrum-Sharing-Demonstration"
   },
@@ -22721,7 +22721,7 @@
   {
    "from": "odc",
    "to": "aiwin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-advances-ai-powered-nextg-america"
   },
@@ -22733,23 +22733,23 @@
    "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation"
   },
   {
-   "from": "booz",
-   "to": "asc-demo",
-   "type": "Contract or award",
+   "from": "asc-demo",
+   "to": "booz",
+   "type": "Grant / Contract / Award",
    "label": "Team member with Nokia Federal (>$25M)",
    "source": "https://www.executivebiz.com/?p=470581"
   },
   {
-   "from": "att",
-   "to": "asc-demo",
-   "type": "Contract or award",
+   "from": "asc-demo",
+   "to": "att",
+   "type": "Grant / Contract / Award",
    "label": "Subcontractor to Nokia Federal",
    "source": "https://www.executivebiz.com/articles/dod-nokia-federal-spectrum-coexistence-demo"
   },
   {
    "from": "michael-jacobs",
    "to": "chris-christou",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Co-authors on AI for spectrum sharing",
    "source": "https://www.rcrwireless.com/20240402/5g/why-ai-holds-major-promise-for-spectrum-sharing-at-scale-reader-forum"
   },
@@ -22784,7 +22784,7 @@
   {
    "from": "ericsson",
    "to": "ericsson-federal",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "US government-focused business of Ericsson",
    "source": "https://www.businesswire.com/news/home/20260113370388/en/nathan-simington-joins-ericsson-federal-as-new-director-of-policy-strategy"
   },
@@ -22973,7 +22973,7 @@
   {
    "from": "sempre",
    "to": "tiami",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ISAC drone-sensing partnership (Jul 2025)",
    "source": "https://journalofcyberpolicy.com/?p=334523"
   },
@@ -22987,7 +22987,7 @@
   {
    "from": "rampart",
    "to": "wireless-vt",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "ASPEN 6G physical layer (VT subrecipient)",
    "source": "https://www.highergov.com/grant/2460IF2415"
   },
@@ -23351,7 +23351,7 @@
   {
    "from": "airspan",
    "to": "tiami",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ISAC partnership (MoU, Feb 2025)",
    "source": "https://airspan.com/news/tiami-networks-and-airspan-announce-expanded-partnership-to-pave-the-way-for-5g-and-6g-innovation/"
   },
@@ -23449,7 +23449,7 @@
   {
    "from": "cindy-yi",
    "to": "chalmers",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI and brain-inspired computing for energy-efficient 6G transmitters (NSF / Swedish Research Council)",
    "source": "https://www.chalmers.se/en/current/news/mc2-millions-in-funding-for-swedish-american-research-on-future-6g-networks"
   },
@@ -23477,7 +23477,7 @@
   {
    "from": "mitre",
    "to": "nvidia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "NVIDIA's founding 6G research partner (Mar 2025)",
    "source": "https://www.mitre.org/news-insights/news-release/mitre-shape-ai-driven-future-wireless-collaboration-nvidia"
   },
@@ -23596,7 +23596,7 @@
   {
    "from": "notre-dame",
    "to": "spectrumx",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Lead institution (Wireless Institute)",
    "source": "https://www.spectrumx.org/news/spectrumx-policy-outreach-director-notre-dame-professor-monisha-ghosh-testifies-at-senate-hearing-on-spectrum-and-national-security/"
   },
@@ -23638,7 +23638,7 @@
   {
    "from": "jeff-andrews",
    "to": "tingfang-ji",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Co-authors, '6G Takes Shape'",
    "source": "https://arxiv.org/html/2411.18435v1"
   },
@@ -23687,28 +23687,28 @@
   {
    "from": "att",
    "to": "northeastern",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner, Institute for the Wireless Internet of Things",
    "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
   },
   {
    "from": "dell",
    "to": "northeastern",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner, Institute for the Wireless Internet of Things",
    "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
   },
   {
    "from": "amd",
    "to": "northeastern",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner, Institute for the Wireless Internet of Things",
    "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
   },
   {
    "from": "intel",
    "to": "northeastern",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner, Institute for the Wireless Internet of Things",
    "source": "https://news.northeastern.edu/2025/02/06/faculty-staff/wireless-network-researchers-conference/"
   },
@@ -23869,56 +23869,56 @@
   {
    "from": "interdigital",
    "to": "surrey-6gic",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G research partnership",
    "source": "https://telecomtv.com/content/6g/interdigital-and-the-university-of-surrey-formalise-6g-research-partnership-47762"
   },
   {
    "from": "surrey-6gic",
    "to": "tudor",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Lead",
    "source": "https://www.surrey.ac.uk/news/surrey-secures-ps12m-research-grant-make-future-telecommunications-network-greener-more-resilient"
   },
   {
    "from": "ericsson-uk",
    "to": "tudor",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
   },
   {
    "from": "interdigital",
    "to": "tudor",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://www.surrey.ac.uk/news/surrey-secures-ps12m-research-grant-make-future-telecommunications-network-greener-more-resilient"
   },
   {
    "from": "qualcomm",
    "to": "tudor",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://www.gla.ac.uk/news/archiveofnews/2022/december/headline_902616_en.html"
   },
   {
    "from": "ericsson-uk",
    "to": "reason",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
   },
   {
    "from": "samsung",
    "to": "reason",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://www.engineersireland.ie/Engineers-Journal/News/consortium-nets-close-to-16312m-in-bid-to-tap-into-6g-tech-potential"
   },
   {
    "from": "nokia",
    "to": "reason",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://www.engineersireland.ie/Engineers-Journal/News/consortium-nets-close-to-16312m-in-bid-to-tap-into-6g-tech-potential"
   },
@@ -23967,7 +23967,7 @@
   {
    "from": "nga",
    "to": "6g-forum-korea",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint workshop",
    "source": "https://nextgalliance.org/next-g-alliance-6g-forum-joint-workshop/wanshi-chen/"
   },
@@ -24002,7 +24002,7 @@
   {
    "from": "luke-ibbetson",
    "to": "reason",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Named on REASON project page",
    "source": "https://reason-open-networks.ac.uk/?p=712"
   },
@@ -24023,14 +24023,14 @@
   {
    "from": "christian-fager",
    "to": "cindy-yi",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Chalmers–Virginia Tech energy-efficient 6G project (VR / NSF VINES)",
    "source": "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
   },
   {
    "from": "liu",
    "to": "chalmers",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Chalmers–Virginia Tech energy-efficient 6G project (VR / NSF VINES)",
    "source": "https://ertico.com/chalmers-and-virginia-tech-join-forces-to-develop-energy-efficient-6g-technology"
   },
@@ -24051,7 +24051,7 @@
   {
    "from": "vdi",
    "to": "uva",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "UVA spin-off (1996)",
    "source": "https://vadiodes.com/about-vdi/"
   },
@@ -24065,7 +24065,7 @@
   {
    "from": "vdi",
    "to": "spectrumx",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "SpectrumX partner institution",
    "source": "https://spectrumx.org/about/partner-institution-map"
   },
@@ -24079,7 +24079,7 @@
   {
    "from": "nishith-tripathi",
    "to": "jeff-reed",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Securing Non-Terrestrial Networks in NextG (PI and co-PI, 2021)",
    "source": "https://cyberinitiative.org/research/funded-projects/2021-funded-projects/2021-securing-nextg/non-terrestrial-networks.html"
   },
@@ -24098,9 +24098,9 @@
    "source": "https://dodcio.defense.gov/About-DoW-CIO/Bios/Davies/"
   },
   {
-   "from": "anser",
-   "to": "dow-cio",
-   "type": "Contract or award",
+   "from": "dow-cio",
+   "to": "anser",
+   "type": "Grant / Contract / Award",
    "label": "Supports DoW CIO 5G/6G enterprise strategy (hiring 5G/6G Subject Matter Expert, Alexandria)",
    "source": "https://www.anser.org/careers/job/?id=5386272008"
   },
@@ -24112,9 +24112,9 @@
    "source": "https://ofinno.com/?p=7549"
   },
   {
-   "from": "ofinno",
-   "to": "samsung",
-   "type": "Contract or award",
+   "from": "samsung",
+   "to": "ofinno",
+   "type": "Grant / Contract / Award",
    "label": "Sold 40 US wireless patents and 31 applications to Samsung (Nov 2020)",
    "source": "https://en.wikipedia.org/wiki/Ofinno"
   },
@@ -24282,21 +24282,21 @@
   {
    "from": "verizon",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "OTIC co-host and xG Testbed partner",
    "source": "https://ccixgtestbed.org/cci-designated-as-otic.html"
   },
   {
    "from": "att",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "OTIC co-host",
    "source": "https://ccixgtestbed.org/cci-designated-as-otic.html"
   },
   {
    "from": "softbank",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "xG Testbed partner",
    "source": "https://cyberinitiative.org/cci-xg-testbed.html"
   },
@@ -24380,189 +24380,189 @@
   {
    "from": "zeeshan-shah",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Resident engineer at the xG Testbed",
    "source": "https://cci-testbed-docs-public-v2.readthedocs.io/en/latest/team_info.html"
   },
   {
    "from": "wisig",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Testing WiSig O-CU, O-DU, O-RU and SMO at the xG Testbed OTIC (from Oct 2024)",
    "source": "https://cyberinitiative.org/cci-news/news-archive/cci-xg-testbed-wisig-networks.html"
   },
   {
    "from": "dish",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "OTIC co-host (Dish has since shut its Open RAN network)",
    "source": "https://ccixgtestbed.org/cci-designated-as-otic.html"
   },
   {
-   "from": "abside",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "abside",
+   "type": "Grant / Contract / Award",
    "label": "Award team with Northeastern University",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "northeastern",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "northeastern",
+   "type": "Grant / Contract / Award",
    "label": "Team member on two awards (with Abside Networks; with STR)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "altio",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "altio",
+   "type": "Grant / Contract / Award",
    "label": "Award team with ASU, DASH Tech IC and Mississippi State",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "asu",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "asu",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Altio Labs team)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "dash-tech",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "dash-tech",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Altio Labs team)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "msstate",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "msstate",
+   "type": "Grant / Contract / Award",
    "label": "Team member on two awards (Altio Labs team; INSPIRED platform)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "ericsson",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "ericsson",
+   "type": "Grant / Contract / Award",
    "label": "Award team with AT&T",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "gmu",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "gmu",
+   "type": "Grant / Contract / Award",
    "label": "Award team with Michigan State",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "michigan-state",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "michigan-state",
+   "type": "Grant / Contract / Award",
    "label": "Award team with George Mason",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "leidos",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "leidos",
+   "type": "Grant / Contract / Award",
    "label": "Award team with Tiami Networks",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "tiami",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "tiami",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Leidos team)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "ncsu",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "ncsu",
+   "type": "Grant / Contract / Award",
    "label": "INSPIRED ISAC research platform ($3M, via PAWR) with Utah and Mississippi State",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "utah",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "utah",
+   "type": "Grant / Contract / Award",
    "label": "INSPIRED ISAC research platform team member",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "str",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "str",
+   "type": "Grant / Contract / Award",
    "label": "Award team with Northeastern University",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "tamu",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "tamu",
+   "type": "Grant / Contract / Award",
    "label": "Award team with UC San Diego, IBM and Northrop Grumman",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "ucsd",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "ucsd",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Texas A&M team)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "ibm",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "ibm",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Texas A&M team)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "northrop",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "northrop",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Texas A&M team)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
-   "from": "andro",
-   "to": "rapid",
-   "type": "Contract or award",
+   "from": "rapid",
+   "to": "andro",
+   "type": "Grant / Contract / Award",
    "label": "Team member (Parallel Wireless team)",
    "source": "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
   },
   {
    "from": "david-kirkwood",
    "to": "ocudu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Program Manager, OCUDU (FutureG)",
    "source": "https://innovate-defense.com/author/aaquiro/"
   },
   {
    "from": "david-kirkwood",
    "to": "nsc",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Works with NSC to transition 6G tech into dual-use systems via OCUDU",
    "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
   },
   {
    "from": "rondeau",
    "to": "nsc",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Works with NSC to transition 6G tech into dual-use systems",
    "source": "https://www.fedinsider.com/nextgen-cellular-networks/"
   },
   {
    "from": "abside",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "xG Testbed partner",
    "source": "https://cyberinitiative.org/cci-xg-testbed.html"
   },
   {
    "from": "tamu",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Academic partner on the xG Testbed project",
    "source": "https://ccixgtestbed.org/work-opportunities-with-cci/blacksburg-based-ph-d--graduate-research-assistant.html"
   },
@@ -24604,7 +24604,7 @@
   {
    "from": "deutsche-telekom",
    "to": "tmobile",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Majority shareholder of T-Mobile US",
    "source": "https://www.telekom.com/en/investor-relations"
   },
@@ -24709,7 +24709,7 @@
   {
    "from": "vt-nssl",
    "to": "vt-iac",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Lab based at the VT Institute for Advanced Computing, Alexandria",
    "source": "https://nss.ece.vt.edu/angelos/"
   },
@@ -24730,7 +24730,7 @@
   {
    "from": "haining-wang",
    "to": "cci",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "CCI researcher",
    "source": "https://cyberinitiative.org/research/researcher-directory/wang-haining.html"
   },
@@ -24744,7 +24744,7 @@
   {
    "from": "debashri-roy",
    "to": "kaushik-chowdhury",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Former research scientist in his GENESYS lab, Northeastern (2020 to 2023); NSF SWIFT co-PI",
    "source": "https://debashriroy.github.io"
   },
@@ -24996,28 +24996,28 @@
   {
    "from": "ericsson-ottawa",
    "to": "ericsson",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Ericsson R&D site (largest in North America)",
    "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada"
   },
   {
    "from": "ericsson-montreal",
    "to": "ericsson",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Ericsson R&D centre and AI Hub Canada",
    "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada"
   },
   {
    "from": "ericsson-canada",
    "to": "ericsson",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Canadian subsidiary",
    "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada"
   },
   {
    "from": "nokia-canada",
    "to": "nokia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Nokia Canada R&D campus",
    "source": "https://www.nokia.com/newsroom/nokia-canada-breaks-ground-on-new-ottawa-innovation-campus-helping-to-shape-the-future-of-canadian-tech-leadership/"
   },
@@ -25038,21 +25038,21 @@
   {
    "from": "ericsson-canada",
    "to": "uoft",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Multi-year partnership on AI-powered next-generation mobile R&D and talent (Feb 2026)",
    "source": "https://ericsson.com/en/press-releases/6/2026/ericsson-and-the-university-of-toronto-join-forces-to-advance"
   },
   {
    "from": "ericsson-ottawa",
    "to": "carleton",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Ottawa and Montreal leadership visited Carleton-NTN Lab (Jul 2026)",
    "source": "https://carleton.ca/engineering-design/story/6g-networks-will-be-out-of-this-world/"
   },
   {
    "from": "nrc-canada",
    "to": "uottawa",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Compact terahertz receiver for 6G (HTSN program, with OZ Optics)",
    "source": "https://cnrc.canada.ca/en/stories/taking-leap-6g-technology"
   },
@@ -25080,7 +25080,7 @@
   {
    "from": "georges-kaddoum",
    "to": "ericsson-canada",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Intelligent distributed security for NFV-based 5G networks",
    "source": "https://engineerscanada.ca/awards2025/georges-kaddoum"
   },
@@ -25164,7 +25164,7 @@
   {
    "from": "pi-radio",
    "to": "nyu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "NYU WIRELESS spin-off; builds upper mid-band and 140 GHz SDRs with NYU",
    "source": "https://wireless.engineering.nyu.edu/the-pi-radio-fr3-sdr-is-operational/"
   },
@@ -25185,7 +25185,7 @@
   {
    "from": "nokia",
    "to": "nyu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Commercial partner on NTIA-funded SALSA upper mid-band project",
    "source": "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
   },
@@ -25227,7 +25227,7 @@
   {
    "from": "northeastern",
    "to": "open6g",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Hosts and runs Open6G through the Institute for Intelligent Networked Systems",
    "source": "https://www.open6g.us/"
   },
@@ -25241,14 +25241,14 @@
   {
    "from": "oran",
    "to": "open6g",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Approved as North American OTIC in the Boston Area (2023); seed funding for O-RAN digital twin",
    "source": "https://www.o-ran.org/otics/north-american-otic-in-the-boston-area-northeastern-university"
   },
   {
    "from": "keysight",
    "to": "open6g",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "OTIC end-to-end test suite built on Keysight Open RAN emulation and RF test",
    "source": "https://www.microwavejournal.com/articles/41986-the-open-6g-otic-at-northeastern-university-announces-general-availability-of-open-ran-testing-and-integration-solutions"
   },
@@ -25311,21 +25311,21 @@
   {
    "from": "northeastern",
    "to": "northeastern-london",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "INSI London hub, launched January 2026; first INSI research office outside the US",
    "source": "https://coe.northeastern.edu/news/innovation-across-the-sea-londons-new-ins-hub/"
   },
   {
    "from": "kaushik-chowdhury",
    "to": "northeastern",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Professor at Northeastern for 15 years until 2024; co-PI of NSF Colosseum; PAWR Project Office",
    "source": "https://wncg.org/news/kaushik-chowdhury-joins-ut-austin-and-6gut"
   },
   {
    "from": "osvaldo-simeone",
    "to": "bipin-rajendran",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Co-lead NeuroComm: brain-inspired wireless communications for 6G",
    "source": "https://www.nulondon.ac.uk/research/intelligent-networked-systems/"
   },
@@ -25528,7 +25528,7 @@
   {
    "from": "ut-austin",
    "to": "6g-ut",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Hosts 6G@UT within WNCG",
    "source": "https://wncg.org/about-6gut"
   },
@@ -25577,21 +25577,21 @@
   {
    "from": "ericsson",
    "to": "ericsson-austin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Ericsson R&D site: ASIC, software and AI",
    "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/united-states/austin-rd-center"
   },
   {
    "from": "samsung",
    "to": "samsung-sra-plano",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Samsung Research America site (SMI lab)",
    "source": "https://sra.samsung.com/?p=782"
   },
   {
    "from": "verizon",
    "to": "verizon-6g-forum",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads the 6G Innovation Forum",
    "source": "https://www.telecomtv.com/content/6g/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event-56243/"
   },
@@ -25605,7 +25605,7 @@
   {
    "from": "samsung",
    "to": "verizon",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "AI-powered ISAC field trial over vRAN, Dallas (July 2026)",
    "source": "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event"
   },
@@ -25654,35 +25654,35 @@
   {
    "from": "northwestern",
    "to": "spectrumx",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Faculty in SpectrumX; Michael Honig is Center Research Director",
    "source": "https://mccormick.northwestern.edu/electrical-computer/news-events/news/articles/2021/changing-how-the-radio-spectrum-is-managed.html"
   },
   {
    "from": "nokia",
    "to": "inl",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Wireless Security Institute industry partner",
    "source": "https://inl.gov/wireless-security-institute/"
   },
   {
    "from": "qualcomm",
    "to": "inl",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Wireless Security Institute industry partner",
    "source": "https://inl.gov/wireless-security-institute/"
   },
   {
    "from": "verizon",
    "to": "inl",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Wireless Security Institute industry partner",
    "source": "https://inl.gov/wireless-security-institute/"
   },
   {
    "from": "interdigital",
    "to": "inl",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Wireless Security Institute industry partner",
    "source": "https://inl.gov/wireless-security-institute/"
   },
@@ -25696,14 +25696,14 @@
   {
    "from": "jeongho-jeon",
    "to": "nga",
-   "type": "Membership",
+   "type": "Standardisation / Working Group",
    "label": "Vice Chair, Technology Working Group",
    "source": "https://research.samsung.com/news/Jeongho-Jeon-JJ-of-Samsung-Research-America-elected-as-Vice-Chair-of-ATIS-Next-G-Alliance-Technology-Working-Group"
   },
   {
    "from": "kaushik-sengupta",
    "to": "nyu",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Co-leads RFIC design on NTIA-funded SALSA upper mid-band project",
    "source": "https://engineering.nyu.edu/news/nyu-tandon-school-engineering-receives-10-million-national-telecommunications-and-information"
   },
@@ -25843,70 +25843,70 @@
   {
    "from": "rnp",
    "to": "brasil-6g",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Coordinates Brasil 6G",
    "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
   },
   {
    "from": "inatel",
    "to": "brasil-6g",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Executes Brasil 6G; leads research coordination",
    "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
   },
   {
    "from": "cpqd",
    "to": "brasil-6g",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner institution",
    "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
   },
   {
    "from": "unicamp",
    "to": "brasil-6g",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner institution",
    "source": "https://www.rnp.br/en/node/8327"
   },
   {
    "from": "ufrj",
    "to": "brasil-6g",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner institution",
    "source": "https://www.rnp.br/en/node/8327"
   },
   {
    "from": "ufc",
    "to": "brasil-6g",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner institution",
    "source": "https://www.rnp.br/en/node/8327"
   },
   {
    "from": "ufpa",
    "to": "brasil-6g",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner institution",
    "source": "https://www.rnp.br/en/node/8327"
   },
   {
    "from": "ufu",
    "to": "brasil-6g",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner institution",
    "source": "https://www.rnp.br/en/node/8327"
   },
   {
    "from": "ufsc",
    "to": "brasil-6g",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner institution",
    "source": "https://teletime.com.br/11/02/2022/6g-em-2030-desperta-debate-sobre-papel-do-brasil-na-padronizacao/"
   },
   {
    "from": "rnp",
    "to": "cpqd",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "OpenRAN@Brasil programme (with INATEL and Eldorado)",
    "source": "https://www.itu.int/en/ITU-T/webinars/amd-iic/20240313/Documents/Gustavo%20Correa%20Lima.pdf"
   },
@@ -25920,42 +25920,42 @@
   {
    "from": "ericsson",
    "to": "unicamp",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Industry partner and co-funder of SMARTNESS",
    "source": "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
   },
   {
    "from": "ericsson",
    "to": "ericsson-brazil",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Ericsson R&D site; home of Ericsson Research Brazil",
    "source": "https://www.ericsson.com/en/careers/global-locations/latin-america/brazil"
   },
   {
    "from": "ericsson-brazil",
    "to": "unicamp",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Works closely with SMARTNESS researchers",
    "source": "https://www.mobiletime.com.br/?p=743880"
   },
   {
    "from": "oulu",
    "to": "inatel",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G Flagship partner since 2017 (5G-RANGE; joint 6G work since 2020)",
    "source": "https://teletime.com.br/13/03/2023/inatel-e-universidade-finlandesa-assinam-nova-parceria-para-6g/"
   },
   {
    "from": "nokia",
    "to": "cpqd",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint 5G O-RAN development (2021)",
    "source": "https://www.rcrwireless.com/20210215/5g/nokia-partners-brazil-cpqd-develop-5g-oran-solutions"
   },
   {
    "from": "cpqd",
    "to": "cci",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Open RAN OTIC agreement with the Virginia Tech-accredited OTIC",
    "source": "https://teletime.com.br/28/03/2025/cpqd-firma-parceria-com-parque-tecnologico-do-japao-para-open-ran/"
   },
@@ -25969,7 +25969,7 @@
   {
    "from": "christian-rothenberg",
    "to": "valeria-marquezini",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Director and deputy director of SMARTNESS",
    "source": "https://agencia.fapesp.br/fapesp-and-ericsson-unveil-research-center-that-will-develop-advanced-connectivity-services/40384"
   },
@@ -26011,7 +26011,7 @@
   {
    "from": "subtel",
    "to": "onlab",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Two-year agreement (Oct 2026) to pilot 5G, 5.5G and future 6G in productive sectors",
    "source": "https://www.emol.com/noticias/Economia/2026/10/06/1213367/subtel-onlab-acuerdo-corfo-6g.html"
   },
@@ -26025,21 +26025,21 @@
   {
    "from": "corfo",
    "to": "subtel",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner in the industrial 5G/6G pilot agreement",
    "source": "https://www.intelligentcio.com/latam/?p=20093"
   },
   {
    "from": "mintic",
    "to": "ane-colombia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint Spectrum Management Policy 2026 to 2029, including 6G preparation",
    "source": "https://impactotic.co/noticias-tic/como-cambiara-el-internet-en-colombia-con-la-nueva-politica-de-espectro/"
   },
   {
    "from": "ane-colombia",
    "to": "unal-colombia",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Low-cost spectrum monitoring network prototype (Manizales campus)",
    "source": "https://dplnews.com/colombia-la-ane-suscribe-convenio-con-la-universidad-nacional-sede-manizales-para-optimizar-el-prototipo-de-la-red-de-monitoreo-de-bajo-costo-del-espectro-radioelectrico/"
   },
@@ -26109,28 +26109,28 @@
   {
    "from": "ericsson-canada",
    "to": "concordia",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-based cyber resilience for 5G and future 6G (2023)",
    "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
   },
   {
    "from": "ericsson-canada",
    "to": "umanitoba",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-based cyber resilience for 5G and future 6G (2023)",
    "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
   },
   {
    "from": "ericsson-canada",
    "to": "uwaterloo",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-based cyber resilience for 5G and future 6G (2023)",
    "source": "https://www.ericsson.com/en/press-releases/6/2023/ericsson-partners-with-canadian-universities-to-lead-ai-response-to-emerging-cybersecurity-threats"
   },
   {
    "from": "rogers",
    "to": "ubc",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "UBC Rogers 5G research partnership since 2018; Canada's first 5G campus",
    "source": "https://icics.ubc.ca/industry/ubc-rogers-5g"
   },
@@ -26207,98 +26207,98 @@
   {
    "from": "samsung",
    "to": "samsung-research-seoul",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Samsung Electronics' advanced R&D hub (Device eXperience division)",
    "source": "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g"
   },
   {
    "from": "samsung-research-seoul",
    "to": "lg-uplus",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "ISAC and AI-6G joint research MOU (May 2026); validation on 5G and 7 GHz",
    "source": "https://news.samsung.com/global/samsung-electronics-and-lg-uplus-collaborate-on-isac-technology-for-6g"
   },
   {
    "from": "samsung-research-seoul",
    "to": "skt",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G AI-RAN joint development MOU (Nov 2025)",
    "source": "https://news.samsung.com/global/samsung-and-sk-telecom-join-forces-to-lead-6g-era-with-ai-ran-technology"
   },
   {
    "from": "lg-electronics",
    "to": "lg-uplus",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-based communications, semantic communications and post-quantum cryptography; international standards",
    "source": "https://www.ddaily.co.kr/page/view/2026052911503964605"
   },
   {
    "from": "nvidia",
    "to": "yonsei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
    "source": "https://v.daum.net/v/20251103103647306"
   },
   {
    "from": "samsung",
    "to": "yonsei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
    "source": "https://v.daum.net/v/20251103103647306"
   },
   {
    "from": "skt",
    "to": "yonsei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
    "source": "https://v.daum.net/v/20251103103647306"
   },
   {
    "from": "kt",
    "to": "yonsei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
    "source": "https://v.daum.net/v/20251103103647306"
   },
   {
    "from": "lg-uplus",
    "to": "yonsei",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-RAN MOU (2025); AI-RAN to 5G handover verification (Aug 2026)",
    "source": "https://www.digitaltoday.co.kr/en/view/94222/lguplus-yonsei-university-verify-ai-ran-network-switching-technology"
   },
   {
    "from": "etri",
    "to": "yonsei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "AI-RAN joint research MOU (APEC Summit Korea 2025)",
    "source": "https://v.daum.net/v/20251103103647306"
   },
   {
    "from": "lg-electronics",
    "to": "kaist",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "LG-KAIST 6G Research Center (since 2019)",
    "source": "https://cm.asiae.co.kr/en/article/2021080313024316432"
   },
   {
    "from": "lg-electronics",
    "to": "kriss",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G terahertz development and verification MOU (2020, with KAIST)",
    "source": "https://www.asiae.co.kr/en/article/2020081207320767152"
   },
   {
    "from": "kriss",
    "to": "kaist",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G terahertz cooperation with LG Electronics",
    "source": "https://www.asiae.co.kr/en/article/2020081207320767152"
   },
   {
    "from": "samsung",
    "to": "korea-univ",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Next-generation communications contract department for 6G talent (2022)",
    "source": "https://www.asiae.co.kr/en/article/2022011713375181626"
   },
@@ -26312,35 +26312,35 @@
   {
    "from": "hfr",
    "to": "etri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "GPU-based AI-RAN software in ETRI AI-RAN Global Leading Project (2026)",
    "source": "https://iconnect007.com/article/149960/hfr-accelerates-gpubased-airan-development-with-etri/149957/ein"
   },
   {
    "from": "skku",
    "to": "etri",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner in ETRI AI-RAN project",
    "source": "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
   },
   {
    "from": "skt",
    "to": "etri",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner in ETRI AI-RAN project",
    "source": "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
   },
   {
    "from": "kt",
    "to": "etri",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner in ETRI AI-RAN project",
    "source": "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
   },
   {
    "from": "lg-uplus",
    "to": "etri",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Partner in ETRI AI-RAN project",
    "source": "https://www.digitaltoday.co.kr/en/view/61664/etri-launches-development-of-core-6g-ai-ran-technologies"
   },
@@ -26417,56 +26417,56 @@
   {
    "from": "docomo",
    "to": "yrp",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "DOCOMO R&D Center at YRP (since 1998)",
    "source": "https://www.docomo.ne.jp/english/corporate/technology/rd/rdcenter/index.html"
   },
   {
    "from": "ntt",
    "to": "yrp",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "NTT Yokosuka R&D Center at YRP",
    "source": "https://en.wikipedia.org/wiki/Yokosuka_Research_Park"
   },
   {
    "from": "nec",
    "to": "yrp",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "NEC YRP Technical Center",
    "source": "https://en.wikipedia.org/wiki/Yokosuka_Research_Park"
   },
   {
    "from": "fujitsu",
    "to": "yrp",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Fujitsu research centre at YRP",
    "source": "https://yrp.co.jp/en/wp-content/uploads/Companies_Universities_E2025_0901-1.pdf"
   },
   {
    "from": "docomo",
    "to": "ntt",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "100 Gbps sub-terahertz 6G device (Apr 2024)",
    "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html"
   },
   {
    "from": "docomo",
    "to": "nec",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "100 Gbps sub-terahertz 6G device (Apr 2024)",
    "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html"
   },
   {
    "from": "docomo",
    "to": "fujitsu",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "100 Gbps sub-terahertz 6G device (Apr 2024)",
    "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2024/0411_00.html"
   },
   {
    "from": "docomo",
    "to": "nokia",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G experimental trials with NTT, Fujitsu, NEC and Nokia (from 2022)",
    "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2022/0606_00.html"
   },
@@ -26480,49 +26480,49 @@
   {
    "from": "nict",
    "to": "oulu",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G MoU (2022) and joint 6G workshops",
    "source": "https://www.6gflagship.com/tag/japan/"
   },
   {
    "from": "utokyo",
    "to": "oulu",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Drone-mounted 5G base station trial at OuluZone (2026)",
    "source": "https://www.t.u-tokyo.ac.jp/en/press/pr2026-05-26-001"
   },
   {
    "from": "kddi",
    "to": "nvidia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "RAN Digital Twin for 6G (Jun 2026): Aerial Omniverse Digital Twin",
    "source": "https://newsroom.kddi.com/english/news/detail/kddi_nr-1068_4588.html"
   },
   {
    "from": "kddi",
    "to": "keysight",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "RAN Digital Twin for 6G (Jun 2026): UE emulation",
    "source": "https://newsroom.kddi.com/english/news/detail/kddi_nr-1068_4588.html"
   },
   {
    "from": "kddi",
    "to": "samsung",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "RAN Digital Twin for 6G (Jun 2026): Samsung Research America vRAN",
    "source": "https://newsroom.kddi.com/english/news/detail/kddi_nr-1068_4588.html"
   },
   {
    "from": "nec",
    "to": "osaka-univ",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "NEC Beyond 5G Research Alliance Laboratories (2021)",
    "source": "https://b5g-rd.nict.go.jp/en/special/r07-2.html"
   },
   {
    "from": "softbank",
    "to": "nict",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "LEO satellite optical wireless link for satellite, HAPS and ground (2026)",
    "source": "https://www.softbank.jp/sbnews/entry/20260930_03"
   },
@@ -26578,56 +26578,56 @@
   {
    "from": "nokia",
    "to": "nokia-bengaluru",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Nokia 6G Lab at its Global R&D Center (Oct 2023)",
    "source": "https://www.nokia.com/about-us/news/releases/2023/10/05/nokia-opens-6g-lab-in-india/"
   },
   {
    "from": "nokia-bengaluru",
    "to": "iisc",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G radio, architecture and ML air interface; Network as Sensor (2024)",
    "source": "https://www.nokia.com/newsroom/nokia-and-indian-institute-of-science-form-strategic-partnership-to-research-how-6g-can-meet-indias-needs/"
   },
   {
    "from": "ericsson",
    "to": "ericsson-chennai",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "India 6G programme (Oct 2023)",
    "source": "https://www.ericsson.com/en/press-releases/2/2023/10/ericsson-initiates-india-6g-program-in-india"
   },
   {
    "from": "ericsson",
    "to": "ericsson-bengaluru",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ASIC (2025) and RAN software (2025) R&D units",
    "source": "https://www.ericsson.com/en/press-releases/7/2025/new-bengaluru-ericsson-rd-unit-to-drive-5g-software-development-in-india"
   },
   {
    "from": "ericsson-chennai",
    "to": "iitm",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Responsible AI for 6G (five-year partnership)",
    "source": "https://www.ericsson.com/en/press-releases/2/2023/10/ericsson-initiates-india-6g-program-in-india"
   },
   {
    "from": "ericsson-chennai",
    "to": "iit-kharagpur",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI and distributed compute for 6G (Feb 2024)",
    "source": "https://techblog.comsoc.org/2024/02/02/ericsson-and-iit-kharagpur-partner-for-joint-research-in-ai-and-6g/"
   },
   {
    "from": "ericsson-chennai",
    "to": "isi-kolkata",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Cyber-physical systems research centre (MoU Feb 2024)",
    "source": "https://www.rcrwireless.com/20240213/featured/ericsson-indian-statistical-institute-sign-joint-research-agreement"
   },
   {
    "from": "ericsson-bengaluru",
    "to": "airtel",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "XR and digital twins at Volvo Bengaluru R&D centre",
    "source": "https://pipelinepub.com/news/24042"
   },
@@ -26641,28 +26641,28 @@
   {
    "from": "sameer-kolkata",
    "to": "iitm",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G THz testbed consortium; 6.39 Gbps demo (2026)",
    "source": "https://www.electronicsforu.com/news/india-advances-terahertz-wireless-for-6g"
   },
   {
    "from": "sameer-kolkata",
    "to": "iit-guwahati",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G THz testbed consortium",
    "source": "https://indiaeducationdiary.in/?p=421494"
   },
   {
    "from": "sameer-kolkata",
    "to": "iit-patna",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G THz testbed consortium",
    "source": "https://indiaeducationdiary.in/?p=421494"
   },
   {
    "from": "dot-india",
    "to": "bharat-6g",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Launched the Bharat 6G Alliance (July 2023)",
    "source": "https://www.rcrwireless.com/20230705/6g/india-announces-alliance-foster-6g-development"
   },
@@ -26676,21 +26676,21 @@
   {
    "from": "cdot",
    "to": "iisc",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "C-DOT Centre of Excellence at IISc (6G, AI, quantum, cybersecurity)",
    "source": "https://indiantelevision.com/?p=232763"
   },
   {
    "from": "tsdsi",
    "to": "itu-wp5d",
-   "type": "Partnership / project",
+   "type": "Standardisation / Working Group",
    "label": "Contributed to the ITU-R IMT-2030 framework",
    "source": "https://tsdsi.in/wp-content/uploads/2026/07/TSDSI-overview-July26.pdf"
   },
   {
    "from": "samsung",
    "to": "samsung-sri-b",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Samsung R&D Institute India-Bangalore",
    "source": "https://news.samsung.com/my/samsung-electronics-secures-two-leadership-positions-in-3gpp"
   },
@@ -26788,14 +26788,14 @@
   {
    "from": "caict",
    "to": "imt2030-pg",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads the IMT-2030 (6G) Promotion Group",
    "source": "https://global.chinadaily.com.cn/a/202605/10/WS6a009dcca310d6866eb47c94.html"
   },
   {
    "from": "miit",
    "to": "imt2030-pg",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Set up the group (2019); 6 GHz 6G trial spectrum permit (May 2026)",
    "source": "https://www.ehangzhou.gov.cn/2026-06/08/c_297840.htm"
   },
@@ -26823,28 +26823,28 @@
   {
    "from": "china-mobile-ri",
    "to": "qualcomm",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "U6G (6,425 to 7,125 MHz) 6G prototype base station and terminal validation (2026)",
    "source": "https://www.sdxcentral.com/news/qualcomm-powers-6g-chinese-dreams-with-china-mobile/"
   },
   {
    "from": "china-mobile-ri",
    "to": "zgc-uxi",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Cloud-native 6G prototype; Sub-7 GHz 6G baseband prototype",
    "source": "https://en.people.cn/n3/2025/0709/c98649-20338101.html"
   },
   {
    "from": "seu",
    "to": "pml",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G pervasive channel simulator; cell-free networks; shared researchers",
    "source": "https://ncrl.seu.edu.cn/2020/0807/c34871a341660/page.htm"
   },
   {
    "from": "china-mobile-ri",
    "to": "zte",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Dynamic RIS prototype verification (2022); GigaMIMO U6G field trials",
    "source": "https://www.zte.com.cn/global/about/news/20220909e3.html"
   },
@@ -26858,7 +26858,7 @@
   {
    "from": "nokia",
    "to": "nokia-shanghai-bell",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Nokia's China joint venture",
    "source": "https://en.people.cn/n3/2024/0806/c90000-20202419.html"
   },
@@ -26991,14 +26991,14 @@
   {
    "from": "nokia",
    "to": "nokia-oulu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Nokia 5G/6G radio research and manufacturing campus (2025)",
    "source": "https://rcrwireless.com/20250908/internet-of-things/nokia-factory-europe-5g-6g-ai"
   },
   {
    "from": "nokia",
    "to": "nokia-bell-labs-finland",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Nokia Bell Labs Finnish site",
    "source": "https://www.tuni.fi/en/tau/news-and-events/new-coalition-promote-development-future-6g-technology-tampere-university"
   },
@@ -27026,28 +27026,28 @@
   {
    "from": "vtt",
    "to": "oulu",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G-SatMTC satellite project; 6G-FUWIRI infrastructure",
    "source": "https://www.vttresearch.com/en/news-and-ideas/satellite-communications-could-revolutionise-critical-authority-communications-vtt"
   },
   {
    "from": "oulu",
    "to": "aalto",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G-FUWIRI sub-THz research infrastructure; AURORA-6G",
    "source": "https://research.tuni.fi/wireless/6g/5611/"
   },
   {
    "from": "oulu",
    "to": "tampere-univ",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G-FUWIRI sub-THz research infrastructure; RF ECO3",
    "source": "https://research.tuni.fi/wireless/6g/5611/"
   },
   {
    "from": "nokia",
    "to": "aalto",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "EUR 1.5 million donation and about EUR 1.3 million a year of joint R&D (Nov 2026)",
    "source": "https://www.nokia.com/newsroom/nokia-strengthens-partnership-with-aalto-university-with-15-million-donation-and-expanded-rd-collaboration-for-future-technology-research-and-talent/"
   },
@@ -27096,14 +27096,14 @@
   {
    "from": "business-finland",
    "to": "6g-finland",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-chair (Janne Järvinen)",
    "source": "https://www.6gflagship.com/?p=13551"
   },
   {
    "from": "oulu",
    "to": "6g-rocket",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads the 6G Rocket AI-RAN project (2026)",
    "source": "https://www.kaleva.fi/dnan-teknologiajohtaja-6g-tulee-matkapuhelinverkoi/12518918"
   },
@@ -27124,28 +27124,28 @@
   {
    "from": "ericsson",
    "to": "ericsson-finland",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Ericsson Finland R&D site",
    "source": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/finland"
   },
   {
    "from": "oulu",
    "to": "etri",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Joint 6G system architecture project (2021 to 2024)",
    "source": "https://www.rcrwireless.com/20230131/featured/finland-south-korea-boost-cooperation-develop-6g-architecture"
   },
   {
    "from": "oulu",
    "to": "yonsei",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AURORA-6G with Aalto, Elisa and Nokia; Finnish-Korean 6G programme (2026)",
    "source": "https://www.6gflagship.com/?p=14829"
   },
   {
    "from": "oulu",
    "to": "nvidia",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AI-RAN sensor-driven digital twins (AI-RAN Alliance)",
    "source": "https://www.6gflagship.com/?p=13626"
   },
@@ -27229,14 +27229,14 @@
   {
    "from": "sutd",
    "to": "fcp",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Hosts the FCP and its Future Communications Connectivity Lab",
    "source": "https://imda.gov.sg/how-we-can-help/future-communications-research-and-development-programme"
   },
   {
    "from": "sit",
    "to": "fcp",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Hosts the FCP Future Communications Translation Lab",
    "source": "https://fcp.sutd.edu.sg/fctlab/"
   },
@@ -27257,42 +27257,42 @@
   {
    "from": "mediatek",
    "to": "sutd",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "MediaTek-SUTD Joint Laboratory, S$34 million (2026; MoU 2024)",
    "source": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/mediatek-launches-sgd34million-sutd-research-lab.html"
   },
   {
    "from": "ericsson",
    "to": "ntu",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Trustworthy 6G Positioning (Ericsson-coordinated, 2026)",
    "source": "https://www.ntu.edu.sg/news/detail/ntu--ericsson-and-kth-team-up-to-develop-ai-powered-6g-positioning-technologies"
   },
   {
    "from": "ericsson",
    "to": "kth",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Trustworthy 6G Positioning (Vinnova-funded)",
    "source": "https://www.vinnova.se/en/p/trustworthy-6g-positioning-in-complex-environments-a-data-driven-approach"
   },
   {
    "from": "ntu",
    "to": "kth",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Trustworthy 6G Positioning",
    "source": "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g"
   },
   {
    "from": "fcp",
    "to": "oulu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "6G MoU with 6G Flagship (2021)",
    "source": "https://sutd.edu.sg/media-releases-listing/finnish-led-international-6g-technology-cooperation-expands-to-singapore"
   },
   {
    "from": "kth",
    "to": "oulu",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G-FISRE Finnish-Swedish 6G resilience programme",
    "source": "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
   },
@@ -27411,35 +27411,35 @@
   {
    "from": "cambridge",
    "to": "titan",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads TITAN",
    "source": "https://www.telecomtv.com/content/access-evolution/how-harald-haas-is-matching-industry-problems-with-academic-solutions-55978/"
   },
   {
    "from": "imperial",
    "to": "cheddar",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads CHEDDAR",
    "source": "https://www.imperial.ac.uk/news/251839/extra-funding-imperial-6g-communications/"
   },
   {
    "from": "oxford",
    "to": "hasc",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads HASC",
    "source": "https://eng.ox.ac.uk/news/new-hub-receives-2-million-to-develop-the-communications-technologies-of-tomorrow"
   },
   {
    "from": "bristol",
    "to": "joiner",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads JOINER",
    "source": "https://bristol.ac.uk/engineering/research/smart/projects/joiner"
   },
   {
    "from": "bristol",
    "to": "reason",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads REASON",
    "source": "https://reason-open-networks.ac.uk/?p=140"
   },
@@ -27460,28 +27460,28 @@
   {
    "from": "bt",
    "to": "reason",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://reason-open-networks.ac.uk/?p=140"
   },
   {
    "from": "digital-catapult",
    "to": "reason",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member (architecture)",
    "source": "https://reason-open-networks.ac.uk/?p=140"
   },
   {
    "from": "bt",
    "to": "tudor",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners"
   },
   {
    "from": "bae",
    "to": "tudor",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium member",
    "source": "https://www.gov.uk/guidance/the-future-open-networks-research-challenge-winners"
   },
@@ -27502,7 +27502,7 @@
   {
    "from": "keysight",
    "to": "sheffield",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Keysight equipment underpins the National 6G Radio Systems Facility",
    "source": "https://www.sheffield.ac.uk/eee/news/sheffield-launches-uks-first-national-6g-research-facility-0"
   },
@@ -27516,7 +27516,7 @@
   {
    "from": "npl",
    "to": "uktl",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Operates UKTL for DSIT",
    "source": "https://npl.co.uk/uk-telecoms-lab"
   },
@@ -27614,14 +27614,14 @@
   {
    "from": "uts",
    "to": "oulu",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Beyond-6G, quantum and robotics MoU; joint institute (2025)",
    "source": "https://www.uts.edu.au/news/2025/11/international-alliance-for-quantum-telecommunications-and-robotics"
   },
   {
    "from": "keysight",
    "to": "uts",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint wireless technology lab (2026)",
    "source": "https://www.uts.edu.au/news/2026/11/new-lab-opens-a-door-to-the-future-of-intelligent-wireless-technology"
   },
@@ -27635,14 +27635,14 @@
   {
    "from": "uts",
    "to": "cin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint lead",
    "source": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/university-of-technology-sydney-and-university-of-sydney-appointed-to-lead-connectivity-innovation-network"
   },
   {
    "from": "usyd",
    "to": "cin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint lead",
    "source": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/university-of-technology-sydney-and-university-of-sydney-appointed-to-lead-connectivity-innovation-network"
   },
@@ -27656,42 +27656,42 @@
   {
    "from": "arpansa",
    "to": "swinburne",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "RF exposure research; co-funds the 6G lab",
    "source": "https://www.swinburne.edu.au/research/facilities-equipment/6g-research-innovation-laboratory/"
   },
   {
    "from": "ericsson",
    "to": "telstra",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "6G letter of intent (May 2026)",
    "source": "https://www.ericsson.com/en/press-releases/7/2026/telstra-and-ericsson-sign-agreement-to-advance-6g-research-and-innovation"
   },
   {
    "from": "nokia",
    "to": "optus",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Upper 6 GHz 6G trial (2026)",
    "source": "https://www.optus.com.au/about/media-centre/media-releases/2026/08/optus-advances-australias-6g-future"
   },
   {
    "from": "mediatek",
    "to": "optus",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Test device for upper 6 GHz trial (2026)",
    "source": "https://www.optus.com.au/about/media-centre/media-releases/2026/08/optus-advances-australias-6g-future"
   },
   {
    "from": "monash",
    "to": "unimelb",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Quantum-inspired optical wireless for 6G (2026)",
    "source": "https://www.monash.edu/engineering/about/news/articles/2026/6g-gets-a-boost-from-quantum-inspired-wireless"
   },
   {
    "from": "amta",
    "to": "acma",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Spectrum advocacy for 6G (upper 6 GHz, 600 MHz)",
    "source": "https://amta.org.au/wp-content/uploads/2026/05/AMTA-submission-FYSO-2026.pdf"
   },
@@ -27747,105 +27747,105 @@
   {
    "from": "dish",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Sold AWS-4 and H-block spectrum (about $17bn, 2025); Boost Mobile access to Starlink direct-to-cell",
    "source": "https://ir.echostar.com/node/32686"
   },
   {
    "from": "fcc",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Approved 7,500 more Gen2 Starlink satellites (January 2026)",
    "source": "https://www.gadgetreview.com/?p=417911"
   },
   {
    "from": "spacexai",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Part of SpaceX after the xAI merger (February 2026)",
    "source": "https://techcrunch.com/?p=3088937"
   },
   {
    "from": "spacex",
    "to": "3gpp",
-   "type": "Membership",
+   "type": "Standardisation / Working Group",
    "label": "Engaging in 3GPP 6G NTN standards work",
    "source": "https://nextgalliance.org/technology-roadmap-working-group-ntn-panel/"
   },
   {
    "from": "tmobile",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner (T-Satellite)",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "optus",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "telstra",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "rogers",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "kddi",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "KDDI is a Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "one-nz",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "salt",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "entel",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner (Chile, Peru)",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "kyivstar",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner (live since November 2025)",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "vmo2",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
   },
   {
    "from": "airtel-africa",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell partner",
    "source": "https://www.starlink.com/direct-to-cell"
   },
@@ -27866,35 +27866,35 @@
   {
    "from": "one-nz",
    "to": "ranco",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "50% owner (proposed, 2026)",
    "source": "https://media.one.nz/one-nz-and-2degrees-propose-new-mobile-network-infrastructure-sharing-platform"
   },
   {
    "from": "2degrees",
    "to": "ranco",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "50% owner (proposed, 2026)",
    "source": "https://www.2degrees.nz/media-release/improving-aotearoas-mobile-networks"
   },
   {
    "from": "spark-nz",
    "to": "rcg-nz",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint venture owner",
    "source": "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf"
   },
   {
    "from": "one-nz",
    "to": "rcg-nz",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint venture owner",
    "source": "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf"
   },
   {
    "from": "2degrees",
    "to": "rcg-nz",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Joint venture owner",
    "source": "https://tuanz.org.nz/wp-content/uploads/2026/05/2-Ian-Hooker-compressed.pdf"
   },
@@ -27922,21 +27922,21 @@
   {
    "from": "tait",
    "to": "canterbury",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Works closely with the Wireless Research Centre",
    "source": "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/wireless-research-centre/collaborate-with-wrc"
   },
   {
    "from": "mimomax",
    "to": "canterbury",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Works closely with the Wireless Research Centre",
    "source": "https://www.canterbury.ac.nz/research/about-uc-research/research-groups-and-centres/wireless-research-centre/collaborate-with-wrc"
   },
   {
    "from": "spark-nz",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink direct-to-cell (launched April 2026)",
    "source": "https://www.scoop.co.nz/stories/SC2604/S00021.htm"
   },
@@ -27999,7 +27999,7 @@
   {
    "from": "viettel",
    "to": "qualcomm",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "6G Platform Early Access Program: 6G base stations, pre-commercial call target early 2029",
    "source": "https://technode.global/2026/07/20/vietnams-viettel-targets-first-pre-commercial-6g-call-by-early-2029-as-qualcomms-first-early-access-partner/"
   },
@@ -28020,84 +28020,84 @@
   {
    "from": "keysight",
    "to": "6g-sandbox",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Coordinates 6G-SANDBOX",
    "source": "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research"
   },
   {
    "from": "um-malaya",
    "to": "6g-sandbox",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "MoU to join 6G-SANDBOX testbeds (2024)",
    "source": "https://www.signalintegrityjournal.com/articles/3624-keysight-strengthens-european-asian-cooperation-for-6g-research"
   },
   {
    "from": "keysight",
    "to": "um-malaya",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "5G/6G millimetre-wave research project",
    "source": "https://www.um.edu.my/news/driving-5g-6g-innovation-universiti-malaya-and-keysight-technologies-launch-cutting-edge-research-project"
   },
   {
    "from": "zte",
    "to": "telkomsel",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Strategic partnership including AI-native RAN (MWC 2026)",
    "source": "https://www.telkomsel.com/about-us/news/upaya-hadirkan-konektivitas-digital-yang-lebih-cerdas-dan-inklusif-bagi-indonesia"
   },
   {
    "from": "telkom-university",
    "to": "komdigi",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "AICOMS study with Komdigi",
    "source": "https://dynamicspectrumalliance.org/summit2025/khoirul-anwar-dsa.pdf"
   },
   {
    "from": "huawei",
    "to": "ais",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G-Advanced and AI network agents",
    "source": "https://carrier.huawei.com/en/news/network-ai-award"
   },
   {
    "from": "zte",
    "to": "ais",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "AIR RAN commercial deployment (2026)",
    "source": "https://www.theregister.com/2026/01/20/zte-ais-commercialize-air-ran/"
   },
   {
    "from": "ais",
    "to": "chula",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "5G Garage Innovation Lab",
    "source": "https://www.inkl.com/news/ais-and-true-set-up-5g-development-labs-at-chula"
   },
   {
    "from": "true-corp",
    "to": "chula",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "TrueLab@ChulaEngineering 5G centre",
    "source": "https://www.inkl.com/news/ais-and-true-set-up-5g-development-labs-at-chula"
   },
   {
    "from": "globe",
    "to": "spacex",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Starlink Mobile direct-to-cell (launched 2026)",
    "source": "https://www.lightreading.com/satellite/globe-launches-d2c-satellite-service-with-starlink"
   },
   {
    "from": "globe",
    "to": "ast",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "MoU on space-based cellular broadband (2022)",
    "source": "https://yugatech.com/news/globe-signs-mou-w-ast-spacemobile-for-space-based-cellular-broadband-service"
   },
   {
    "from": "smart-ph",
    "to": "ast",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "MoU (2021); BlueWalker 3 test (2022)",
    "source": "https://mb.com.ph/2022/05/19/smart-conducting-ph-1st-space-based-cellular-broadband-test/"
   },
@@ -28174,14 +28174,14 @@
   {
    "from": "nokia",
    "to": "hexa-x-ii",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Overall lead",
    "source": "https://smart-networks.europa.eu/wp-content/uploads/2025/09/uusitalo-mikko_nokia-bell-labs_hexa-x-ii-sns-webinar-on-resilience_4.9.2025.pdf"
   },
   {
    "from": "ericsson",
    "to": "hexa-x-ii",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Technical manager",
    "source": "https://smart-networks.europa.eu/wp-content/uploads/2025/09/uusitalo-mikko_nokia-bell-labs_hexa-x-ii-sns-webinar-on-resilience_4.9.2025.pdf"
   },
@@ -28328,56 +28328,56 @@
   {
    "from": "tud",
    "to": "6g-life",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-runs 6G-life",
    "source": "https://tu-dresden.de/tu-dresden/newsportal/news/transferhub-6g-life2-startet-in-die-naechste-foerderphase?set_language=en"
   },
   {
    "from": "tum",
    "to": "6g-life",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-runs 6G-life",
    "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/6g-life-enters-the-next-funding-phase"
   },
   {
    "from": "fraunhofer-hhi",
    "to": "xg-ric",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Coordinates xG-RIC",
    "source": "https://www.hhi.fraunhofer.de/en/press/news/6g-for-medicine-and-mobility-fraunhofer-hhi-coordinates-new-transfer-projects-xg-ric-and-xg-nova.html"
   },
   {
    "from": "tu-berlin",
    "to": "xg-ric",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.tkn.tu-berlin.de/projects/xg-ric/"
   },
   {
    "from": "dlr",
    "to": "xg-ric",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.tkn.tu-berlin.de/projects/xg-ric/"
   },
   {
    "from": "dfki",
    "to": "open6ghub",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Coordinates Open6GHub+",
    "source": "https://dfki.de/en/web/news/open6ghub-deutschlands-6g-forschung-wird-industriemotor"
   },
   {
    "from": "rptu",
    "to": "open6ghub",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.itiv.kit.edu/english/201_11276.php"
   },
   {
    "from": "rwth",
    "to": "6gem",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Coordinated 6GEM",
    "source": "https://www.telecompaper.com/news/german-ministry-funds-6g-research-at-four-hubs-with-eur-250-mln--1388549"
   },
@@ -28391,35 +28391,35 @@
   {
    "from": "cea",
    "to": "pepr-reseaux",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-leads",
    "source": "https://www.imt.fr/en/?p=93075"
   },
   {
    "from": "cnrs",
    "to": "pepr-reseaux",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-leads",
    "source": "https://www.imt.fr/en/?p=93075"
   },
   {
    "from": "imt-france",
    "to": "pepr-reseaux",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-leads",
    "source": "https://www.imt.fr/en/?p=93075"
   },
   {
    "from": "unibo",
    "to": "6g-ntn",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Coordinator",
    "source": "https://6g-ntn.eu/consortium/"
   },
   {
    "from": "thales-alenia",
    "to": "6g-ntn",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Technical coordination",
    "source": "https://6g-ntn.eu/consortium/"
   },
@@ -28433,7 +28433,7 @@
   {
    "from": "tno",
    "to": "fns-nl",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads the consortium",
    "source": "https://www.tno.nl/en/newsroom/2026/03/netherlands-6g-position/"
   },
@@ -28503,28 +28503,28 @@
   {
    "from": "oulu",
    "to": "6g-test-centre",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Hosts",
    "source": "https://www.oulu.fi/en/news/bittiums-tactical-communications-system-strengthens-6g-test-centre-and-supports-finlands-innovation"
   },
   {
    "from": "bittium",
    "to": "6g-test-centre",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Donated tactical communications system",
    "source": "https://www.oulu.fi/en/news/bittiums-tactical-communications-system-strengthens-6g-test-centre-and-supports-finlands-innovation"
   },
   {
    "from": "keysight",
    "to": "6g-test-centre",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "RF measurement hardware",
    "source": "https://www.6gflagship.com/news/6g-waves-11-published-with-insights-on-leadership-in-next-generation-connectivity/"
   },
   {
    "from": "nokia",
    "to": "6g-test-centre",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner-customer",
    "source": "https://www.sttinfo.fi/tiedote/71180292/6g-test-centres-strategic-role-pioneering-dual-use-innovation-within-nato-diana?publisherId=69352634"
   },
@@ -28573,21 +28573,21 @@
   {
    "from": "cumucore",
    "to": "aalto",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Runs Aalto's test network",
    "source": "https://www.mwcbarcelona.com/exhibitors/28687-cumucore-oy"
   },
   {
    "from": "nokia",
    "to": "elisa",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Commercial 5G Cloud RAN (2024)",
    "source": "https://www.nokia.com/newsroom/nokia-and-elisa-deploy-europes-first-commercial-5g-cloud-ran-deployment-with-red-hat-openshift/"
   },
   {
    "from": "eurecom",
    "to": "oai-alliance",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Founded OpenAirInterface",
    "source": "https://arxiv.org/abs/2412.13295"
   },
@@ -28608,7 +28608,7 @@
   {
    "from": "uc3m",
    "to": "multix",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Coordinator",
    "source": "https://www.eurekalert.org/news-releases/1076354"
   },
@@ -28678,14 +28678,14 @@
   {
    "from": "tor-vergata",
    "to": "restart",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Lead proponent",
    "source": "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf"
   },
   {
    "from": "polimi",
    "to": "restart",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Scientific direction",
    "source": "https://alumni.polimi.it/en/?p=33495"
   },
@@ -28734,14 +28734,14 @@
   {
    "from": "rohde-schwarz",
    "to": "fraunhofer-hhi",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "THz 6G research (D-band, H-band)",
    "source": "https://www.hhi.fraunhofer.de/en/news/nachrichten/https-testhhifraunhoferde-presse-medien-nachrichten-archiv-2019html/rohde-schwarz-together-with-fraunhofer-institutes-hhi-and-iaf-join-forces-in-researching-6g-at-thz-frequencies.html"
   },
   {
    "from": "rohde-schwarz",
    "to": "fraunhofer-iaf",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "THz 6G research",
    "source": "https://www.hhi.fraunhofer.de/en/news/nachrichten/https-testhhifraunhoferde-presse-medien-nachrichten-archiv-2019html/rohde-schwarz-together-with-fraunhofer-institutes-hhi-and-iaf-join-forces-in-researching-6g-at-thz-frequencies.html"
   },
@@ -28797,28 +28797,28 @@
   {
    "from": "tu-dortmund",
    "to": "6gem",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
   },
   {
    "from": "rub",
    "to": "6gem",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
   },
   {
    "from": "fraunhofer-iml",
    "to": "6gem",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
   },
   {
    "from": "fraunhofer-ipt",
    "to": "6gem",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.ika.rwth-aachen.de/en/competences/projects/automated-driving/6gem-plus-en.html"
   },
@@ -28853,14 +28853,14 @@
   {
    "from": "6gem",
    "to": "6gemcubator",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Spin-off start-up incubator",
    "source": "https://comnets.etit.tu-dortmund.de/newsdetail/6g-start-up-initiative-start-upconnect-launched-in-berlin-40950/"
   },
   {
    "from": "6g-life",
    "to": "launchhub42",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Start-up incubator",
    "source": "https://www.munich-startup.de/en/116070/tum-and-tu-dresden-are-developing-6g-mobile-network-generation/"
   },
@@ -28923,21 +28923,21 @@
   {
    "from": "nstc",
    "to": "tw-nextgen-program",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads",
    "source": "https://focustaiwan.tw:443/sci-tech/202507100016"
   },
   {
    "from": "tw-nextgen-program",
    "to": "tw-nextgen-alliance",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Alliance formed under the plan",
    "source": "https://focustaiwan.tw/sci-tech/202512020016"
   },
   {
    "from": "chunghwa",
    "to": "tw-nextgen-alliance",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Chairman heads the alliance",
    "source": "https://focustaiwan.tw/sci-tech/202512020016"
   },
@@ -28951,126 +28951,126 @@
   {
    "from": "itri",
    "to": "6g-formosa",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Runs 6G-FORMOSA",
    "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
   },
   {
    "from": "itri",
    "to": "6g-sandbox",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "6G MoU (2023)",
    "source": "https://everythingrf.com/news/details/17495-industrial-technology-research-institute-and-6g-sandbox-join-forces-to-advance-6g-innovations"
   },
   {
    "from": "itri",
    "to": "tno",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "MoU on ISAC and RIS verification (2025)",
    "source": "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
   },
   {
    "from": "itri",
    "to": "joiner",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "UK-Taiwan 6G workshop (Cambridge, 2025)",
    "source": "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
   },
   {
    "from": "mediatek",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
   },
   {
    "from": "compal",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://www.telecomtv.com/content/6g/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk-53390/"
   },
   {
    "from": "tmytek",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
   },
   {
    "from": "auden",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
   },
   {
    "from": "metanoia",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
   },
   {
    "from": "yttek",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
   },
   {
    "from": "ntust",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
   },
   {
    "from": "nthu",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
   },
   {
    "from": "ccu",
    "to": "itri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "ITRI-led 6G delegation (2025)",
    "source": "https://iconnect007.com/article/146034/itri-advances-taiwans-6g-global-partnerships-in-the-eu-and-the-uk/146031/ein"
   },
   {
    "from": "tmytek",
    "to": "metanoia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "FR2 base station collaboration (2026)",
    "source": "https://en.prnasia.com/releases/global/tmytek-and-metanoia-announce-strategic-collaboration-on-5g-fr2-gnb-solutions-at-mwc-barcelona-523147.shtml"
   },
   {
    "from": "chunghwa",
    "to": "ntust",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Near-field OTA antenna validation",
    "source": "https://www.gloria-e.ntust.edu.tw/news_detail/216.htm"
   },
   {
    "from": "compal",
    "to": "nycu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "White-box O-RAN base stations for open-source core work",
    "source": "https://digitimes.com/news/a20240920PD220.html"
   },
   {
    "from": "qct",
    "to": "chunghwa",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G Open Network verification project (2022)",
    "source": "https://www.qct.io/Press-Releases/index/news/Solution-news/qct-verifies-5g-ran-and-core-networks-with-key-government-and-industry-partners/2/0"
   },
   {
    "from": "pegatron",
    "to": "keysight",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "O-RAN 5G base station",
    "source": "https://www.lightreading.com/asia/taiwan-tech-firms-chase-5g-private-network-sales/d/d-id/772639"
   },
@@ -29105,21 +29105,21 @@
   {
    "from": "lm-ventures",
    "to": "lockheed",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://news.lockheedmartin.com/2026-04-14-Lockheed-Martin-Authorizes-Increase-to-Venture-Capital-Fund-up-to-1-Billion"
   },
   {
    "from": "booz-allen-ventures",
    "to": "booz",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://www.washingtontechnology.com/companies/2025/07/booz-allen-gives-big-boost-its-venture-arm/406862"
   },
   {
    "from": "rtx-ventures",
    "to": "rtx",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://washingtontechnology.com/companies/2025/06/andurils-series-g-round-and-more-venture-moves-highlight/405983"
   },
@@ -29168,7 +29168,7 @@
   {
    "from": "ntia",
    "to": "ntia-wif",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Administers the fund",
    "source": "https://www.businesswire.com/news/home/20230809139693/en/DeepSig-Awarded-Grant-from-NTIAs-Public-Wireless-Innovation-Fund-to-Improve-Performance-and-Competitiveness-of-5G-Open-RAN-Air-Interface"
   },
@@ -29378,189 +29378,189 @@
   {
    "from": "khalifa-6grc",
    "to": "tii",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "KU–TII 6G Chair; co-host 6G Abu Dhabi Summit",
    "source": "https://www.ku.ac.ae/?p=107364"
   },
   {
    "from": "samson-lasaulce",
    "to": "tii",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Holds the KU–TII 6G Chair on Native AI",
    "source": "https://www.ku.ac.ae/college-people/samson-lasaulce"
   },
   {
    "from": "khalifa-6grc",
    "to": "kaust",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Regional research partner",
    "source": "https://www.ku.ac.ae/?p=107431"
   },
   {
    "from": "e-and",
    "to": "nyuad",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "145 Gbps 6G terahertz pilot (Oct 2025)",
    "source": "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2025/october/nyuad-researchers-achieve-6g-breakthrough.html"
   },
   {
    "from": "e-and",
    "to": "khalifa-6grc",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G engineering framework (Oct 2026)",
    "source": "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2026/october/nyuad-collaboration-global-6g-network.html"
   },
   {
    "from": "e-and",
    "to": "zayed-university",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "UAE 6G Innovation Hub and federated testbeds",
    "source": "https://innovate.ieee.org/uae-6g-innovation-hub-powered-by-ieee-technology/"
   },
   {
    "from": "khalifa-6grc",
    "to": "zayed-university",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "UAE 6G Innovation Hub",
    "source": "https://innovate.ieee.org/uae-6g-innovation-hub-powered-by-ieee-technology/"
   },
   {
    "from": "tdra",
    "to": "e-and",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Golden 6 GHz Band white paper",
    "source": "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186"
   },
   {
    "from": "tdra",
    "to": "khalifa-6grc",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Golden 6 GHz Band white paper; UAE 6G white paper",
    "source": "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186"
   },
   {
    "from": "tdra",
    "to": "nyuad",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Golden 6 GHz Band white paper",
    "source": "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186"
   },
   {
    "from": "tdra",
    "to": "du",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Upper 6 GHz commercial ecosystem launch",
    "source": "https://www.mobileworldlive.com/uae-launches-worlds-first-commercial-u6ghz-network-advancing-path-to-10gbps-connectivity/"
   },
   {
    "from": "tdra",
    "to": "huawei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Upper 6 GHz commercial ecosystem launch",
    "source": "https://www.mobileworldlive.com/uae-launches-worlds-first-commercial-u6ghz-network-advancing-path-to-10gbps-connectivity/"
   },
   {
    "from": "tdra",
    "to": "gsma",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Upper 6 GHz policy dialogue, SAMENA Leaders' Summit 2026",
    "source": "https://www.mobileworldlive.com/uae-launches-worlds-first-commercial-u6ghz-network-advancing-path-to-10gbps-connectivity/"
   },
   {
    "from": "du",
    "to": "nokia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Six-carrier aggregation, 5G-Advanced",
    "source": "https://www.telecomtv.com/content/5g/du-achieves-world-s-1st-six-carrier-aggregation-deployment-advancing-5g-and-6g-readiness-56294/amp/"
   },
   {
    "from": "du",
    "to": "khalifa-6grc",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G field trials",
    "source": "https://www.thenationalnews.com/future/technology/2026/10/13/du-and-etisalat-unveil-new-services-boosting-uae-push-towards-6g/"
   },
   {
    "from": "stc",
    "to": "cst-saudi",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "First MENA 7 GHz 6G band trial",
    "source": "https://www.telecomtv.com/content/6g/stc-group-completes-first-7-ghz-6g-enabled-band-trial-in-mena-54269/amp/"
   },
   {
    "from": "stc",
    "to": "nokia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "First MENA 7 GHz 6G band trial",
    "source": "https://www.telecomtv.com/content/6g/stc-group-completes-first-7-ghz-6g-enabled-band-trial-in-mena-54269/amp/"
   },
   {
    "from": "aces",
    "to": "movandi",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G and 6G MoU, LEAP 2026",
    "source": "https://www.developingtelecoms.com/telecom-business/vendor-news/20770-saudis-aces-announces-5g-and-6g-partnership-with-movandi.html"
   },
   {
    "from": "kaust",
    "to": "hbku",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Terahertz for high-altitude platforms",
    "source": "https://ctl.kaust.edu.sa/topics/terahertz"
   },
   {
    "from": "cra-qatar",
    "to": "ooredoo",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Qatar 6G Testbed Platform",
    "source": "https://www.thepeninsulaqatar.com/article/26/11/2025/cra-launches-qatars-6g-testbed-platform-at-mwc25-doha"
   },
   {
    "from": "icasa",
    "to": "mtn",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Temporary licence for upper 6 GHz trial",
    "source": "https://techafricanews.com/2026/10/13/mtn-south-africa-1035-gbps-africa-first-upper-6ghz-5g-advanced-trial/"
   },
   {
    "from": "mtn",
    "to": "huawei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Upper 6 GHz 5G-Advanced trial, 10.35 Gbps",
    "source": "https://techafricanews.com/2026/10/13/mtn-south-africa-1035-gbps-africa-first-upper-6ghz-5g-advanced-trial/"
   },
   {
    "from": "vodacom",
    "to": "safaricom",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Controlling shareholder",
    "source": "https://www.developingtelecoms.com/component/tags/tag/actis.html"
   },
   {
    "from": "mtn",
    "to": "vodacom",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "African Group of Six operator alliance",
    "source": "https://www.semafor.com/article/06/08/2026/mtn-leads-bid-to-share-african-digital-infrastructure-costs"
   },
   {
    "from": "ntra-egypt",
    "to": "telecom-egypt",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Africa's first upper 6 GHz mobile trial",
    "source": "https://english.ahram.org.eg/News/574850.aspx"
   },
   {
    "from": "ntra-egypt",
    "to": "huawei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Africa's first upper 6 GHz mobile trial",
    "source": "https://english.ahram.org.eg/News/574850.aspx"
   },
   {
    "from": "uct",
    "to": "tu-berlin",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Two-decade partnership on open 5G testbeds",
    "source": "https://www.news.uct.ac.za/article/-2026-07-01-putting-communities-at-the-centre-of-technology"
   },
@@ -29693,21 +29693,21 @@
   {
    "from": "turkcell",
    "to": "tubitak",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Domestic 6G intelligent-surface prototypes (Oct 2026)",
    "source": "https://www.dailysabah.com/business/tech/turkcell-tubitak-test-locally-made-6g-solutions-for-first-time/amp"
   },
   {
    "from": "turkcell",
    "to": "tubitak-bilgem",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "SRS, STS and RIS designs, HİSAR Lab",
    "source": "https://www.capital.com.tr/haberler/tum-haberler/yerli-ve-milli-6g-sebeke-cozumleri-ilk-kez-sahada-denendi"
   },
   {
    "from": "turkcell",
    "to": "tubitak-mam",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "Intelligent-surface prototypes and field tests",
    "source": "https://www.capital.com.tr/haberler/tum-haberler/yerli-ve-milli-6g-sebeke-cozumleri-ilk-kez-sahada-denendi"
   },
@@ -29728,21 +29728,21 @@
   {
    "from": "turkcell",
    "to": "ericsson",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "6G R&D MoU, MWC 2024 and 2026",
    "source": "https://www.ericsson.com/en/press-releases/5/2026/turkcell-and-ericsson-partner-on-6g-research-in-turkiye"
   },
   {
    "from": "turk-telekom",
    "to": "ericsson",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "6G standards collaboration; SafeRoute-6G",
    "source": "https://www.ericsson.com/en/press-releases/5/2026/turk-telekom-partners-with-ericsson-to-shape-6g-standards"
   },
   {
    "from": "turk-telekom",
    "to": "metu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Outdoor 6G pilots at ODTÜ Teknokent",
    "source": "https://yeniasir.com.tr/yasam/2026/03/17/turk-telekomun-kuresel-is-birlikleriyle-6g-vizyonu"
   },
@@ -29770,7 +29770,7 @@
   {
    "from": "medipol",
    "to": "habtek",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Hosts HABTEK",
    "source": "https://www.wirelessdesignonline.com/doc/strategic-move-beyond-g-turkiye-on-the-field-with-habtek-0001"
   },
@@ -29812,34 +29812,34 @@
   {
    "from": "btk",
    "to": "bilkent",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G and Beyond Joint Graduate Support Program; 5G Valley",
    "source": "https://www.btk.gov.tr/en/announcements/5g-ve-otesi-ortak-lisansustu-destekleme-programi"
   },
   {
    "from": "btk",
    "to": "metu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G and Beyond Joint Graduate Support Program; 5G Valley",
    "source": "https://www.btk.gov.tr/en/announcements/5g-ve-otesi-ortak-lisansustu-destekleme-programi"
   },
   {
    "from": "btk",
    "to": "turkcell",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G Valley open test field",
    "source": "https://btk.gov.tr/en/news/bilgi-teknolojilerinin-onemi-her-gecen-gun-artiyor"
   },
   {
    "from": "btk",
    "to": "turk-telekom",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G Valley open test field",
    "source": "https://btk.gov.tr/en/news/bilgi-teknolojilerinin-onemi-her-gecen-gun-artiyor"
   },
   {
-   "from": "turkcell",
-   "to": "sns-ju",
+   "from": "sns-ju",
+   "to": "turkcell",
    "type": "Funding",
    "label": "MAGIC-6G and other Horizon Europe projects",
    "source": "https://www.dailysabah.com/business/tech/turkiyes-turkcell-takes-part-in-6-leading-european-rd-projects/amp"
@@ -29854,35 +29854,35 @@
   {
    "from": "runel",
    "to": "sns-ju",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G BRAINS and other EU projects",
    "source": "https://celticnext.eu/offering_expertise/5g-and-beyond-physical-and-mac-layers-including-du-and-ru-in-sub-6ghz-and-mmwaves-01-03-2021"
   },
   {
    "from": "ucom",
    "to": "nokia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "6G MoU: autonomous networks and AI (Oct 2025)",
    "source": "https://en.b24.am/business/16128.html"
   },
   {
    "from": "telecom-armenia",
    "to": "azertelecom",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Reciprocal internet transit (June 2026)",
    "source": "https://www.intellinews.com/azertelecom-and-telecom-armenia-sign-internet-transit-deal-450110/"
   },
   {
    "from": "azertelecom",
    "to": "digital-silk-way",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Leads the project",
    "source": "https://eufordigital.eu/?p=30702"
   },
   {
    "from": "kazakhtelecom",
    "to": "digital-silk-way",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Trans-Caspian fibre link",
    "source": "https://azertag.az/en/xeber/__digital_silk_way_project_presented_at_gccm_2023_event_in_almaty-2748140"
   },
@@ -29896,28 +29896,28 @@
   {
    "from": "beeline-kz",
    "to": "kcell",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Rural network sharing",
    "source": "https://telecomlead.com/telecom-services/beeline-kcell-and-tele2-sign-network-sharing-deal-in-kazakhstan-97065"
   },
   {
    "from": "ucell",
    "to": "huawei",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G FWA launch, ICT Week 2026",
    "source": "https://www.huawei.com/uz/news/2026/huawei-ucell-5g-fwa-ictweek-2026"
   },
   {
    "from": "zte",
    "to": "mindigital-uz",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "MoU incl. 6G (Apr 2026)",
    "source": "https://www.mobileworldlive.com/?p=514000"
   },
   {
    "from": "zte",
    "to": "tuit",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Hackathons, internships and training",
    "source": "https://www.mobileworldlive.com/tang-luhao-president-of-cis-region-at-zte-we-are-building-a-smarter-more-connected-future-for-central-asia/"
   },
@@ -29952,7 +29952,7 @@
   {
    "from": "telia",
    "to": "ericsson",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "#6GSweden MoU (Nov 2026): upper 6 GHz and ISAC drone-sensing demos",
    "source": "https://www.ericsson.com/en/news/2026/11/telia-sweden-collaborate-on-the-path-to-6g"
   },
@@ -30442,42 +30442,42 @@
   {
    "from": "ast",
    "to": "att",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "First ground-to-satellite handoff (Oct 2026)",
    "source": "https://about.att.com/story/2026/att-ast-spacemobile-engineering-connected-world.html"
   },
   {
    "from": "ast",
    "to": "nokia",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Radio and mobility tech for the AT&T handoff",
    "source": "https://about.att.com/story/2026/att-ast-spacemobile-engineering-connected-world.html"
   },
   {
    "from": "ast",
    "to": "ericsson",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Ground-based tech for the AT&T handoff",
    "source": "https://about.att.com/story/2026/att-ast-spacemobile-engineering-connected-world.html"
   },
   {
    "from": "ast",
    "to": "verizon",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Direct-to-device partner",
    "source": "https://broadbandbreakfast.com/at-t-ast-complete-first-handoff-between-terrestrial-and-satellite-networks/"
   },
   {
    "from": "skylo",
    "to": "qualcomm",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "NTN on Snapdragon modems",
    "source": "https://www.businesswire.com/news/home/20240912596149/en"
   },
   {
    "from": "skylo",
    "to": "samsung",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Certified Exynos modems for NTN",
    "source": "https://www.businesswire.com/news/home/20250616152322/en"
   },
@@ -30540,7 +30540,7 @@
   {
    "from": "terasi",
    "to": "kth",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "KTH spin-out",
    "source": "https://www.startupresearcher.com/news/terasi-raises-11m-seed-round"
   },
@@ -30561,28 +30561,28 @@
   {
    "from": "intel-capital",
    "to": "intel",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://techcrunch.com/?p=2998877"
   },
   {
    "from": "qualcomm-ventures",
    "to": "qualcomm",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://india.entrepreneur.com/technology/qualcomm-announces-150-million-strategic-ai-venture-fund"
   },
   {
    "from": "samsung-next",
    "to": "samsung",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://www.caplight.com/investor/samsungnext"
   },
   {
    "from": "verizon-ventures",
    "to": "verizon",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://globalventuring.com/corporate/people/verizon-ventures-stops-investments/?format=md"
   },
@@ -30596,14 +30596,14 @@
   {
    "from": "tmobile-ventures",
    "to": "tmobile",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://www.businesswire.com/news/home/20230925988466/en"
   },
   {
    "from": "wayra",
    "to": "telefonica",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://www.telefonica.com/en/communication-room/press-room/wayra-celebrates-15-years-barcelona-meeting-point-start-ups-telefonicas-business/"
   },
@@ -30617,28 +30617,28 @@
   {
    "from": "docomo-ventures",
    "to": "docomo",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Venture arm",
    "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2025/1225_00.html"
   },
   {
    "from": "intellectual-ventures",
    "to": "pivotal-commware",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Spin-out",
    "source": "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
   },
   {
    "from": "intellectual-ventures",
    "to": "kymeta",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Spin-out",
    "source": "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
   },
   {
    "from": "intellectual-ventures",
    "to": "echodyne",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Spin-out",
    "source": "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
   },
@@ -30652,14 +30652,14 @@
   {
    "from": "oulu",
    "to": "6g-versus",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Coordinator",
    "source": "https://smart-networks.europa.eu/call-3-stream-d"
   },
   {
    "from": "msit",
    "to": "iitp",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "R&D management agency",
    "source": "https://www.digitaltoday.co.kr/en/view/66483/iitp-to-boost-full-stack-linking-ai-semiconductors-and-physical-ai-to-respond-to-ax-2-0"
   },
@@ -30673,14 +30673,14 @@
   {
    "from": "digital-catapult",
    "to": "uktin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Delivery partner",
    "source": "https://www.digicatapult.org.uk/programmes/programme/uk-telecoms-innovation-network-uktin/"
   },
   {
    "from": "bristol",
    "to": "uktin",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Academic lead",
    "source": "https://www.bristol.ac.uk/research/groups/smart/case-studies/uktin/"
   },
@@ -30694,42 +30694,42 @@
   {
    "from": "northeastern",
    "to": "pawr",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Co-leads the PAWR Project Office",
    "source": "https://www.us-ignite.org/program/platforms-for-advanced-wireless-research/"
   },
   {
    "from": "pawr",
    "to": "powder",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "PAWR platform",
    "source": "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g"
   },
   {
    "from": "pawr",
    "to": "cosmos",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "PAWR platform",
    "source": "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g"
   },
   {
    "from": "pawr",
    "to": "aerpaw",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "PAWR platform",
    "source": "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g"
   },
   {
    "from": "pawr",
    "to": "colosseum",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "PAWR programme asset",
    "source": "https://www.benton.org/headlines/new-investments-pawr-program-strengthen-us-commitment-wireless-research-5g-6g-and-beyond"
   },
   {
    "from": "northeastern",
    "to": "colosseum",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Operates (Burlington campus)",
    "source": "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
   },
@@ -30750,21 +30750,21 @@
   {
    "from": "kcl",
    "to": "reason",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Founding partner",
    "source": "https://www.kcl.ac.uk/news/kings-joins-12-million-project-investing-in-future-of-6g-communication-systems"
   },
   {
    "from": "kcl",
    "to": "bristol",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "6G Futures co-founders",
    "source": "https://www.kcl.ac.uk/news/kings-co-launches-centre-for-6g-research"
   },
   {
    "from": "samsung",
    "to": "snu",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Next-generation communications partnership (2021)",
    "source": "https://www.asiae.co.kr/en/article/2022051309180566753"
   },
@@ -30778,7 +30778,7 @@
   {
    "from": "digital-catapult",
    "to": "6g-leader",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Consortium partner",
    "source": "https://www.computerweekly.com/news/366623324/Digital-Catapult-joins-EU-6G-innovation-consortia"
   },
@@ -30799,28 +30799,28 @@
   {
    "from": "noema",
    "to": "surrey-6gic",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Surrey 6GIC spin-out",
    "source": "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
   },
   {
    "from": "deutsche-telekom",
    "to": "noema",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Tangible Tomorrow programme (hubraum and T-Labs)",
    "source": "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
   },
   {
    "from": "greenerwave",
    "to": "sns-ju",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "SUNRISE-6G partner (RIS)",
    "source": "https://www.greenerwave.com/greenerwave-and-sunrise-6g/"
   },
   {
    "from": "astrum-mobile",
    "to": "qualcomm",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G broadcast via GEO satellite trial",
    "source": "https://itwire.com/it-industry-news/telecoms-and-nbn/astrum-mobile,-qualcomm-claim-world-s-first-5g-broadcast-trial-via-geo-satellite.html"
   },
@@ -30918,7 +30918,7 @@
   {
    "from": "moscow-dit",
    "to": "hse-tri",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "5G and 6G partnership",
    "source": "https://apiks.hse.ru/en/news/priority/1093023536.html"
   },
@@ -30939,77 +30939,77 @@
   {
    "from": "nic-telecom",
    "to": "mintsifry",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "State research centre under the ministry",
    "source": "https://habr.com/en/news/875872"
   },
   {
    "from": "skoltech-wireless",
    "to": "nic-telecom",
-   "type": "Research together",
+   "type": "Joint R&D / Co-publication",
    "label": "State 6G foundation work",
    "source": "https://www1.ru/en/news/2026/04/05/6g-v-rossii-fundament-dlia-sviazi-sleduiushhego-pokoleniia-poiavitsia-k-2032-godu-pilotnye-zony-k-2028.html"
   },
   {
    "from": "ics-holding",
    "to": "yadro",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Subsidiary",
    "source": "https://habr.com/ru/articles/1020532"
   },
   {
    "from": "ics-holding",
    "to": "bureau-1440",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Subsidiary",
    "source": "https://www.themoscowtimes.com/2026/03/24/russian-aerospace-company-launches-first-batch-of-starlink-rival-satellites-a92318/pdf"
   },
   {
    "from": "yadro",
    "to": "megafon",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Base station supply",
    "source": "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona"
   },
   {
    "from": "yadro",
    "to": "vimpelcom",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Base station supply",
    "source": "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona"
   },
   {
    "from": "yadro",
    "to": "rostelecom",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Base station supply",
    "source": "https://mintrans.gov.ru/eye/press-center/branch-news/8741"
   },
   {
    "from": "irteya",
    "to": "mts",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Base station supply (about 20,000 by 2030)",
    "source": "https://www.akm.ru/eng/news/mts-will-install-a-batch-of-domestic-base-stations-on-its-network-by-2027/"
   },
   {
    "from": "irteya",
    "to": "vimpelcom",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Base station supply",
    "source": "https://www.comnews.ru/content/244756/2026-04-13/2026-w16/1010/kolichestvo-bazovykh-stanciy-svyazi-rossii-pochti-dostiglo-milliona"
   },
   {
    "from": "rostelecom",
    "to": "bulat",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Subsidiary",
    "source": "https://interfax.com/newsroom/top-stories/117624/"
   },
   {
    "from": "bulat",
    "to": "megafon",
-   "type": "Partnership / project",
+   "type": "Testbed / Trial / Consortium project",
    "label": "Base station supply",
    "source": "https://mintrans.gov.ru/eye/press-center/branch-news/8741"
   },

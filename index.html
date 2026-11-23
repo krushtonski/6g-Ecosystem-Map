@@ -45,7 +45,13 @@ aside h3:first-child{margin-top:0}
 .chk input{margin:0;accent-color:var(--accent)}
 .sw{width:11px;height:11px;border-radius:50%;flex:none;display:inline-block}
 .sw.sq{border-radius:2px}
-.ek{display:inline-block;width:22px;height:0;border-top:2px solid;flex:none}
+.ek{display:inline-block;width:26px;height:10px;flex:none;vertical-align:middle;overflow:visible}
+.ehelp{color:var(--muted);font-size:12px;margin:8px 0 0;padding:6px 8px;background:var(--bg);border-radius:6px;line-height:1.4}
+#etip{position:absolute;z-index:1200;max-width:300px;background:#1f2933;color:#fff;font:12.5px/1.4 var(--body);padding:6px 9px;border-radius:6px;pointer-events:none;display:none;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+#etip b{font-weight:650}#etip small{display:block;color:#c7d0d9;margin-top:2px}
+.earr{width:0;height:0;pointer-events:none}.earr span{display:block;transform-origin:50% 50%;font-size:13px;line-height:1;margin:-7px 0 0 -6px}
+.leaflet-tooltip small{display:block;color:var(--muted);margin-top:2px}
+.hit{stroke:transparent;stroke-width:9;fill:none;cursor:pointer}
 select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
 .hint{color:var(--muted);font-size:12px;margin:6px 0 0}
 .center{flex:1;min-width:0;position:relative;display:flex;flex-direction:column}
@@ -182,10 +188,26 @@ const CATS = {
   "Programmes & testbeds":{c:"#b08a12",sq:true}, "Events":{c:"#c2418f",sq:true}, "Economic development & place":{c:"#8a5a3c"}, "Person":{c:"#6b7480"}
 };
 const ETYPES = {
-  "Membership":{c:"#0b8a7a",dash:null}, "Funding":{c:"#7a4fc4",dash:"5 4"}, "Contract or award":{c:"#b08a12",dash:null},
-  "Research together":{c:"#d0662f",dash:null}, "Event participation":{c:"#c2418f",dash:"3 3"}, "Partnership / project":{c:"#7f8a96",dash:null}, "Role":{c:"#7f8a96",dash:"1.5 3"},
-  "Shared association":{c:"#0b8a7a",dash:"2 4"}
+  "Membership":{c:"#0b8a7a",dash:null,st:"solid"},
+  "Funding":{c:"#7a4fc4",dash:"6 4",st:"dashed",dir:true,verb:"funded"},
+  "Grant / Contract / Award":{c:"#a85d00",dash:null,st:"solid",dir:true,verb:"awarded"},
+  "Joint R&D / Co-publication":{c:"#d0452f",dash:null,st:"solid"},
+  "Event participation":{c:"#c2418f",dash:"3 3",st:"dashed"},
+  "Testbed / Trial / Consortium project":{c:"#1E3A8A",dash:null,st:"solid"},
+  "Standardisation / Working Group":{c:"#0284C7",dash:"8 3 2 3",st:"dash-dot"},
+  "Role":{c:"#9aa3ad",dash:"1.5 3",st:"dotted",dir:true,verb:"Role"},
+  "Shared association":{c:"#0b8a7a",dash:"2 4",st:"dotted"}
 };
+// earlier names for connection types, kept so older data still loads
+const ETYPE_ALIAS = {"Contract or award":"Grant / Contract / Award","Research together":"Joint R&D / Co-publication","Partnership / project":"Testbed / Trial / Consortium project"};
+const EHELP = "Arrows indicate direction (e.g. Funder → Recipient, Awarding body → Contractor, Person → Organisation). Undirected lines represent mutual collaboration or shared participation.";
+function ekSwatch(k){ const t=ETYPES[k]; const sw=k==="Role"?1.6:2.2;
+  return `<svg class="ek" viewBox="0 0 26 10" aria-hidden="true"><line x1="1" y1="5" x2="${t.dir?19:25}" y2="5" stroke="${t.c}" stroke-width="${sw}" ${t.dash?`stroke-dasharray="${t.dash}"`:""} stroke-linecap="${k==="Role"?"round":"butt"}"/>${t.dir?`<path d="M18,1.5 L25,5 L18,8.5 Z" fill="${t.c}"/>`:""}</svg>`; }
+function edgeText(l){ const t=ETYPES[l.type]||{}; const a=byId[l.source.id||l.source], b=byId[l.target.id||l.target];
+  const A=`<b>${esc(nm(a))}</b>`, B=`<b>${esc(nm(b))}</b>`;
+  if(l.type==="Role") return `${A} → Role: ${esc(l.label)} → ${B}`;
+  if(t.dir) return `${A} → ${t.verb} → ${B}<small>${esc(l.type)}: ${esc(l.label)}</small>`;
+  return `${A} ↔ ${B}<small>${esc(l.type)}: ${esc(l.label)}</small>`; }
 const REGIONS = ["Washington DC region","Rest of United States","International"];
 const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const nm = n => n.short || n.name;
@@ -205,7 +227,7 @@ fetch("data/ecosystem.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Er
 
 function boot(data){
   NODES = data.nodes; byId = Object.fromEntries(NODES.map(n=>[n.id,n]));
-  LINKS = data.edges.filter(e=>byId[e.from]&&byId[e.to]).map(e=>({source:e.from,target:e.to,type:e.type,label:e.label,src:e.source}));
+  LINKS = data.edges.filter(e=>byId[e.from]&&byId[e.to]).map(e=>({source:e.from,target:e.to,type:ETYPE_ALIAS[e.type]||e.type,label:e.label,src:e.source})).filter(l=>ETYPES[l.type]);
   // people inherit their organisation's memberships; link people whose organisations share an association
   const memberOf = id => new Set(LINKS.filter(l=>l.source===id && l.type==="Membership" && isGroup(byId[l.target])).map(l=>l.target));
   const orgsOf = p => [p.org, ...LINKS.filter(l=>l.source===p.id && l.type==="Role").map(l=>l.target)].filter(Boolean);
@@ -234,7 +256,7 @@ function renderFilters(){
   cf.innerHTML = Object.entries(CATS).map(([k,c])=>`<label class="chk"><input type="checkbox" data-cat="${esc(k)}" checked><span class="sw ${c.sq?"sq":""}" style="background:${c.c}"></span>${esc(k==="Person"?"Key people":k)}<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category===k).length}</span></label>`).join("");
   cf.onchange=e=>{ const k=e.target.dataset.cat; e.target.checked?state.cats.add(k):state.cats.delete(k); applyAll(); };
   const ef=document.getElementById("edgef");
-  ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}" checked><span class="ek" style="border-top-color:${t.c};border-top-style:${t.dash?(k==="Role"?"dotted":"dashed"):"solid"}"></span>${esc(k)}</label>`).join("");
+  ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}" checked>${ekSwatch(k)}${esc(k)}</label>`).join("")+`<p class="ehelp">${esc(EHELP)}</p>`;
   ef.onchange=e=>{ const k=e.target.dataset.t; e.target.checked?state.types.add(k):state.types.delete(k); applyAll(); };
   document.getElementById("shared").onchange=e=>{ state.shared=e.target.checked; e.target.checked?state.types.add("Shared association"):state.types.delete("Shared association"); buildNet(); applyAll(); if(state.sel) renderDetail(); };
   const as=document.getElementById("assocSel");
@@ -389,23 +411,29 @@ function applyGeo(){
       const a=l.source.id||l.source, b=l.target.id||l.target; if(a!==state.sel && b!==state.sel) return;
       let o = byId[a===state.sel? b : a]; if(o.lat==null && o.org) o = byId[o.org];
       if(!anchor || anchor.lat==null || !o || o.lat==null || !visible(byId[a===state.sel?b:a])) return;
-      L.polyline([[anchor.lat,anchor.lng],[o.lat,o.lng]],{color:ETYPES[l.type].c,weight:2,opacity:.75,dashArray:ETYPES[l.type].dash}).addTo(geoLines).bindTooltip(esc(l.type+": "+l.label));
+      const P1=a===state.sel?[anchor.lat,anchor.lng]:[o.lat,o.lng], P2=a===state.sel?[o.lat,o.lng]:[anchor.lat,anchor.lng];
+      L.polyline([P1,P2],{color:ETYPES[l.type].c,weight:l.type==="Role"?1.6:2.2,opacity:.85,dashArray:ETYPES[l.type].dash}).addTo(geoLines).bindTooltip(edgeText(l),{sticky:true});
+      if(ETYPES[l.type].dir && (P1[0]!==P2[0]||P1[1]!==P2[1])){ const p1=geo.latLngToLayerPoint(P1), p2=geo.latLngToLayerPoint(P2), ang=Math.atan2(p2.y-p1.y,p2.x-p1.x)*180/Math.PI;
+        L.marker([(P1[0]+P2[0])/2,(P1[1]+P2[1])/2],{interactive:false,keyboard:false,icon:L.divIcon({className:"earr",iconSize:[0,0],html:`<span style="color:${ETYPES[l.type].c};transform:rotate(${ang}deg)">➤</span>`})}).addTo(geoLines); }
     });
   }
 }
 
 /* ---------- Network ---------- */
-let svg, root, ringG, linkG, nodeG, sim, linkSel, nodeSel, zoom, R=[0,0,0,0];
+let svg, root, ringG, linkG, hitG, nodeG, sim, linkSel, hitSel, nodeSel, zoom, etip, R=[0,0,0,0];
 function netBox(){ const el=document.getElementById("v-net"); const b=el.getBoundingClientRect(); return {w:b.width||900,h:b.height||640}; }
 function targetR(n){ const r=ring(n); return r===0? R[1]*0.55 : r===1? (R[1]+R[2])/2+R[1]*0.15 : R[3]*1.04; }
 function radius(n){ return n.category==="Person"? 5 : 5 + Math.sqrt(n.deg)*2.6; }
 function buildNet(){
-  if(!svg){ svg=d3.select("#svg"); root=svg.append("g"); ringG=root.append("g"); linkG=root.append("g"); nodeG=root.append("g");
+  if(!svg){ svg=d3.select("#svg"); const defs=svg.append("defs");
+    Object.entries(ETYPES).filter(([,t])=>t.dir).forEach(([k,t])=>defs.append("marker").attr("id","arr-"+k.replace(/\W+/g,"")).attr("viewBox","0 0 10 10").attr("refX",5).attr("refY",5).attr("markerWidth",k==="Role"?6:5).attr("markerHeight",k==="Role"?6:5).attr("markerUnits","strokeWidth").attr("orient","auto").append("path").attr("d","M1,1L9,5L1,9Z").attr("fill",t.c));
+    root=svg.append("g"); ringG=root.append("g"); linkG=root.append("g"); hitG=root.append("g"); nodeG=root.append("g");
+    etip=document.createElement("div"); etip.id="etip"; document.getElementById("v-net").appendChild(etip);
     zoom=d3.zoom().scaleExtent([.35,4]).on("zoom",e=>root.attr("transform",e.transform)); svg.call(zoom);
     document.getElementById("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.3);
     document.getElementById("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.3);
     document.getElementById("zreset").onclick=resetZoom;
-    svg.on("click",()=>{ state.sel=null; renderDetail(); applyAll(); });
+    svg.on("click",()=>{ if(etip){ etip.style.display="none"; delete etip.dataset.pin; } state.sel=null; renderDetail(); applyAll(); });
   }
   const base = 340; R=[0,base*0.42,base*0.68,base*0.95];
   ringG.selectAll("*").remove();
@@ -426,7 +454,13 @@ function buildNet(){
   if(reduce){ sim.stop(); for(let i=0;i<300;i++) sim.tick(); }
   linkSel = linkG.selectAll("path").data(links).join("path").attr("fill","none")
     .attr("stroke",l=>ETYPES[l.type].c).attr("stroke-width",l=>l.type==="Role"?1:1.3)
-    .attr("stroke-opacity",l=>l.type==="Partnership / project"?.35:.6).attr("stroke-dasharray",l=>ETYPES[l.type].dash);
+    .attr("stroke-opacity",l=>l.type==="Testbed / Trial / Consortium project"?.5:l.type==="Role"?.55:.7).attr("stroke-dasharray",l=>ETYPES[l.type].dash)
+    .attr("marker-mid",l=>ETYPES[l.type].dir?`url(#arr-${l.type.replace(/\W+/g,"")})`:null);
+  const showTip=(e,l)=>{ const b=document.getElementById("v-net").getBoundingClientRect(); etip.innerHTML=edgeText(l); etip.style.display="block";
+    etip.style.left=Math.min(e.clientX-b.left+12,b.width-310)+"px"; etip.style.top=(e.clientY-b.top+12)+"px"; };
+  hitSel = hitG.selectAll("path").data(links).join("path").attr("class","hit").attr("role","img").attr("aria-label",l=>edgeText(l).replace(/<[^>]+>/g," "))
+    .on("mousemove",showTip).on("mouseleave",()=>{ if(!etip.dataset.pin) etip.style.display="none"; })
+    .on("click",(e,l)=>{ e.stopPropagation(); showTip(e,l); etip.dataset.pin="1"; });
   nodeSel = nodeG.selectAll("g.node").data(NODES,d=>d.id).join(enter=>{
     const g=enter.append("g").attr("class",d=>`node ${ring(d)===0?"alx":""} ${d.category==="Person"?"person":""}`).attr("tabindex",0).attr("role","button").attr("aria-label",d=>`${d.name}, ${d.category}, ${REGIONS[ring(d)]}`);
     g.each(function(d){ const s=d3.select(this), r=radius(d), col=CATS[d.category].c;
@@ -437,7 +471,10 @@ function buildNet(){
     g.on("click",(e,d)=>{ e.stopPropagation(); select(d.id); }).on("keydown",(e,d)=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); select(d.id);} })
      .call(d3.drag().on("start",(e,d)=>{ if(!e.active) sim.alphaTarget(.2).restart(); d.fx=d.x; d.fy=d.y; }).on("drag",(e,d)=>{ d.fx=e.x; d.fy=e.y; }).on("end",(e,d)=>{ if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
     return g; });
-  const tick=()=>{ linkSel.attr("d",l=>{ const dx=l.target.x-l.source.x, dy=l.target.y-l.source.y, dr=Math.hypot(dx,dy)*1.6; return `M${l.source.x},${l.source.y}A${dr},${dr} 0 0,1 ${l.target.x},${l.target.y}`; }); nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`); };
+  const arc=l=>{ const x1=l.source.x,y1=l.source.y,x2=l.target.x,y2=l.target.y, dx=x2-x1, dy=y2-y1, L2=Math.hypot(dx,dy)||1e-6, dr=L2*1.6;
+    const sag=dr-Math.sqrt(dr*dr-L2*L2/4), mx=(x1+x2)/2+sag*dy/L2, my=(y1+y2)/2-sag*dx/L2;
+    return `M${x1},${y1}A${dr},${dr} 0 0,1 ${mx},${my}A${dr},${dr} 0 0,1 ${x2},${y2}`; };
+  const tick=()=>{ linkSel.attr("d",arc); hitSel.attr("d",arc); nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`); };
   sim.on("tick",tick); if(reduce) tick();
   if(state.view==="v-net") resetZoom();
 }
@@ -446,6 +483,7 @@ function applyNet(){
   if(!nodeSel) return;
   const fs=focusSet();
   nodeSel.style("display",d=>visible(d)||d.id===state.sel?null:"none").classed("dim",d=>(fs&&!fs.has(d.id))||(state.q&&!matches(d)));
+  hitSel.style("display",l=>state.types.has(l.type)&&visible(l.source)&&visible(l.target)?null:"none");
   linkSel.style("display",l=>state.types.has(l.type)&&visible(l.source)&&visible(l.target)?null:"none")
     .classed("dim",l=>state.sel? !(l.source.id===state.sel||l.target.id===state.sel) : fs? !(fs.has(l.source.id)&&fs.has(l.target.id)) : (state.q&&!(matches(l.source)||matches(l.target))));
 }
@@ -467,7 +505,7 @@ function renderDetail(){
     const top=NODES.filter(n=>n.category!=="Person").sort((a,b)=>b.deg-a.deg).slice(0,10);
     el.innerHTML=`<h2>Explore the ecosystem</h2><p style="color:var(--muted);font-size:13px">Click any pin, node or name to see who it connects to, how, and the source behind each link. Use the buttons on the map to drill down from World to the Alexandria-Arlington corridor.</p>
       <h3>Most connected</h3><ul class="conn">${top.map(n=>`<li><button class="go" data-go="${n.id}">${esc(n.name)}</button><small>${esc(n.category)} · ${n.deg} connections</small></li>`).join("")}</ul>
-      <h3>Connection types</h3><ul class="conn">${Object.entries(ETYPES).map(([k,t])=>`<li><span class="ek" style="border-top-color:${t.c};border-top-style:${t.dash?(k==="Role"?"dotted":"dashed"):"solid"}"></span> ${esc(k)}</li>`).join("")}</ul>
+      <h3>Connection types</h3><ul class="conn">${Object.keys(ETYPES).filter(k=>k!=="Shared association").map(k=>`<li>${ekSwatch(k)} ${esc(k)}</li>`).join("")}</ul><p class="ehelp">${esc(EHELP)}</p>
       <p class="hint">Memberships shown are those confirmed in public sources. Most associations have many more members than appear here.</p>`;
     bindGo(el); return;
   }
@@ -485,7 +523,7 @@ function renderDetail(){
    ${n.address?`<p class="hint">📍 ${esc(n.address)}${n.precision&&n.precision!=="Street address"?` (${esc(n.precision.toLowerCase())}-level)`:""}</p>`:""}
    ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button><small>${esc(p.role)}</small></li>`).join("")}</ul>`:""}
    <h3>Connections (${rel.length})</h3>
-   <ul class="conn">${rel.map(r=>`<li><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${esc(r.l.type)}: ${esc(r.l.label)}</small></li>`).join("")}</ul>
+   <ul class="conn">${rel.map(r=>`<li><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${ETYPES[r.l.type].dir?((r.l.source.id||r.l.source)===n.id?"→ ":"← "):""}${esc(r.l.type)}: ${esc(r.l.label)}</small></li>`).join("")}</ul>
    <h3>Sources</h3><ol class="srcs">${srcs.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,"").slice(0,70))}</a></li>`).join("")}</ol>
    <p><button class="btn" id="clr">Clear selection</button></p>`;
   bindGo(el); document.getElementById("clr").onclick=()=>{ state.sel=null; try{history.replaceState(null,"",location.pathname);}catch(e){} renderDetail(); applyAll(); };
