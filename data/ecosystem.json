@@ -21857,6 +21857,329 @@
    "sources": [
     "https://its.ntia.gov/research/5g/iris/202612-iris/"
    ]
+  },
+  {
+   "id": "6g-summit-2026",
+   "name": "6G Summit 2026: Bridging 6G to the Next Horizon of Wireless Intelligence",
+   "short": "6G Summit 2026 (Helsinki)",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Finlandia Hall, Helsinki, Finland",
+   "lat": 60.1758,
+   "lng": 24.9338,
+   "precision": "Street address",
+   "description": "6G Summit at Finlandia Hall on October 28, 2026, with contacts from the University of Oulu's 6G Flagship and Business Finland. Speakers from the Finnish government, the EU SNS JU, NSF, ESA, Nokia, NVIDIA, Keysight, operators and universities.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "aina-advisors",
+   "name": "Aina Advisors Oy",
+   "short": "Aina Advisors",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Advisory firm. Its senior advisor and founding partner Katri Makkonen moderated the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "finland-tem",
+   "name": "Ministry of Economic Affairs and Employment of Finland",
+   "short": "Finland TEM",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Helsinki, Finland",
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "precision": "City",
+   "description": "Finnish ministry for economic affairs and employment. Its Under-Secretary of State gave the welcoming words at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "finland-lvm",
+   "name": "Ministry of Transport and Communications of Finland",
+   "short": "Finland LVM",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Helsinki, Finland",
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "precision": "City",
+   "description": "Finnish ministry responsible for transport and communications. Minister Lulu Ranne spoke on the strategic role of technology at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "volvo-group",
+   "name": "Volvo Group",
+   "short": "Volvo Group",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Gothenburg, Sweden",
+   "lat": 57.7089,
+   "lng": 11.9746,
+   "precision": "City",
+   "description": "Swedish maker of trucks, buses and construction equipment. Its Director Emerging Technologies spoke on the industry panel at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "research-council-finland",
+   "name": "Research Council of Finland",
+   "short": "Research Council of Finland",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Helsinki, Finland",
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "precision": "City",
+   "description": "Finland's national research funder. Its Head of Science Policy and International Affairs presented the Flagship program at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "katri-makkonen",
+   "name": "Katri Makkonen",
+   "short": "Katri Makkonen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior advisor and founding partner",
+   "org": "aina-advisors",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior advisor and founding partner at Aina Advisors. Moderated the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "petri-peltonen",
+   "name": "Petri Peltonen",
+   "short": "Petri Peltonen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Under-Secretary of State",
+   "org": "finland-tem",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Under-Secretary of State, Finnish Ministry of Economic Affairs and Employment. Gave the welcoming words at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "lulu-ranne",
+   "name": "Lulu Ranne",
+   "short": "Lulu Ranne",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Minister of Transport and Communications",
+   "org": "finland-lvm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Finland's Minister of Transport and Communications. Spoke on the strategic role of technology in geopolitics and the economy at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "erzsebet-fitori",
+   "name": "Erzsébet Fitori",
+   "short": "Erzsébet Fitori",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Director",
+   "org": "sns-ju",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Executive Director of the Smart Networks and Services Joint Undertaking. Gave the European view on 6G at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "sudharman-k-jayaweera",
+   "name": "Jayaweera Kankanamge Sudharman",
+   "short": "Jayaweera Kankanamge Sudharman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Program Director, Directorate for Technology, Innovation and Partnerships",
+   "org": "nsf",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Program Director in NSF's Directorate for Technology, Innovation and Partnerships. Spoke on European and US collaboration on 6G at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "mosaab-abughalib",
+   "name": "Mosaab Abughalib",
+   "short": "Mosaab Abughalib",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "GM and Head of Wireless Solution Group",
+   "org": "keysight",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "General Manager and Head of the Wireless Solution Group at Keysight. Gave the industry keynote at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "enrico-buracchini",
+   "name": "Enrico Buracchini",
+   "short": "Enrico Buracchini",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice Chair RAN in 3GPP",
+   "org": "tim",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telecom Italia; Vice Chair of RAN in 3GPP. Moderated the panel at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "eric-hardouin",
+   "name": "Eric Hardouin",
+   "short": "Eric Hardouin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Networks and Infrastructures Research",
+   "org": "orange",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Networks and Infrastructures Research at Orange. Panelist at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "kalle-harkki",
+   "name": "Kalle Härkki",
+   "short": "Kalle Härkki",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and CEO",
+   "org": "vtt",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and CEO of VTT Technical Research Centre of Finland. Panelist at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "sari-leppanen",
+   "name": "Sari Leppänen",
+   "short": "Sari Leppänen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO",
+   "org": "dna",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO of DNA (Telenor Group). Panelist at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "petri-mahonen",
+   "name": "Petri Mähönen",
+   "short": "Petri Mähönen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice Dean (Impact), School of Electrical Engineering",
+   "org": "aalto",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Vice Dean (Impact) of the School of Electrical Engineering at Aalto University. Panelist at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "mikael-ronnholm",
+   "name": "Mikael Rönnholm",
+   "short": "Mikael Rönnholm",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director Emerging Technologies",
+   "org": "volvo-group",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director Emerging Technologies at Volvo Group. Panelist at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "jukka-tanskanen",
+   "name": "Jukka Tanskanen",
+   "short": "Jukka Tanskanen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Science Policy and International Affairs",
+   "org": "research-council-finland",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of Science Policy and International Affairs at the Research Council of Finland. Presented the Flagship program at the 6G Summit 2026.",
+   "sources": [
+    "https://6gsummit2026.com/program/"
+   ]
   }
  ],
  "edges": [
@@ -33220,6 +33543,244 @@
    "type": "Event participation",
    "label": "Speaker",
    "source": "https://its.ntia.gov/research/5g/iris/202612-iris/"
+  },
+  {
+   "from": "katri-makkonen",
+   "to": "aina-advisors",
+   "type": "Role",
+   "label": "Senior advisor and founding partner",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "katri-makkonen",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Moderator: Part I and Concluding Session",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "petri-peltonen",
+   "to": "finland-tem",
+   "type": "Role",
+   "label": "Under-Secretary of State",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "petri-peltonen",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: Welcoming words",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "lulu-ranne",
+   "to": "finland-lvm",
+   "type": "Role",
+   "label": "Minister of Transport and Communications",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "lulu-ranne",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: Strategic Role of Technology in Geopolitics and Economy",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "erzsebet-fitori",
+   "to": "sns-ju",
+   "type": "Role",
+   "label": "Executive Director",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "erzsebet-fitori",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: European view on 6G",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "sudharman-k-jayaweera",
+   "to": "nsf",
+   "type": "Role",
+   "label": "Program Director, Directorate for Technology, Innovation and Partnerships",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "sudharman-k-jayaweera",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: European and U.S. collaboration on 6G",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "mosaab-abughalib",
+   "to": "keysight",
+   "type": "Role",
+   "label": "GM and Head of Wireless Solution Group",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "mosaab-abughalib",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Keynote: Industry keynote",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "enrico-buracchini",
+   "to": "tim",
+   "type": "Role",
+   "label": "Vice Chair RAN in 3GPP",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "enrico-buracchini",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Moderator: Panel",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "eric-hardouin",
+   "to": "orange",
+   "type": "Role",
+   "label": "VP, Networks and Infrastructures Research",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "eric-hardouin",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Panelist",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "kalle-harkki",
+   "to": "vtt",
+   "type": "Role",
+   "label": "President and CEO",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "kalle-harkki",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Panelist",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "sari-leppanen",
+   "to": "dna",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "sari-leppanen",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Panelist",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "petri-mahonen",
+   "to": "aalto",
+   "type": "Role",
+   "label": "Vice Dean (Impact), School of Electrical Engineering",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "petri-mahonen",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Panelist",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "mikael-ronnholm",
+   "to": "volvo-group",
+   "type": "Role",
+   "label": "Director Emerging Technologies",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "mikael-ronnholm",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Panelist",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "jukka-tanskanen",
+   "to": "research-council-finland",
+   "type": "Role",
+   "label": "Head of Science Policy and International Affairs",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "jukka-tanskanen",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: Flagship program",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "matti-latva-aho",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker and panelist: Welcoming words",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "justin-hotard",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: Fireside chat",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "ronnie-vasishta",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: Fireside chat",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "laurent-jaffart",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Keynote",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "ari-pouttu",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: 6G Flagship highlights",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "pekka-rantala",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Speaker: 6G Bridge highlights",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "oulu",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Co-organizer contact (6G Flagship)",
+   "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "business-finland",
+   "to": "6g-summit-2026",
+   "type": "Event participation",
+   "label": "Co-organizer contact",
+   "source": "https://6gsummit2026.com/program/"
   }
  ]
 }
