@@ -3309,23 +3309,6 @@
    "description": "Deputy Principal Director for FutureG in the Office of the Under Secretary of Defense for Research & Engineering (OUSD(R&E)) since November 2023. Responsible for the office's strategic alignment, budget execution and programme oversight. Previously Chief of the Communications & Electronics Division at the US Mission to NATO; earlier in Army defence exports and cooperation. DoD civilian since 2004."
   },
   {
-   "short": "",
-   "region": "Washington DC & Maryland",
-   "role": "Director, Public Wireless Supply Chain Innovation Fund, NTIA",
-   "org": "ntia",
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "precision": "",
-   "sources": [
-    "https://tmt.knect365.com/network-x-americas/speakers/amanda-toman/"
-   ],
-   "id": "amanda-toman",
-   "name": "Amanda Toman",
-   "category": "Person",
-   "description": "Directs NTIA's $1.5B Public Wireless Supply Chain Innovation Fund for open, interoperable networks. Previously Acting Principal Director for 5G and Next G at DoD OUSD(R&E), the forerunner of the FutureG Office. Virginia Tech alumna."
-  },
-  {
    "short": "Commerce",
    "region": "Washington DC & Maryland",
    "role": "",
@@ -23542,13 +23525,6 @@
    "source": "https://rt.cto.mil/ddre-rt/science-and-technology-futures/futureg-home/"
   },
   {
-   "from": "amanda-toman",
-   "to": "ntia",
-   "type": "Role",
-   "label": "Director, Innovation Fund",
-   "source": "https://tmt.knect365.com/network-x-americas/speakers/amanda-toman/"
-  },
-  {
    "from": "paul-dabbar",
    "to": "commerce",
    "type": "Role",
@@ -24103,13 +24079,6 @@
   },
   {
    "from": "rondeau",
-   "to": "dsi-futureg-2026",
-   "type": "Event participation",
-   "label": "Speaker",
-   "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
-  },
-  {
-   "from": "amanda-toman",
    "to": "dsi-futureg-2026",
    "type": "Event participation",
    "label": "Speaker",
