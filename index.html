@@ -51,6 +51,15 @@ aside h3:first-child{margin-top:0}
 #etip b{font-weight:650}#etip small{display:block;color:#c7d0d9;margin-top:2px}
 .earr{width:0;height:0;pointer-events:none}.earr span{display:block;transform-origin:50% 50%;font-size:13px;line-height:1;margin:-7px 0 0 -6px}
 .leaflet-tooltip small{display:block;color:var(--muted);margin-top:2px}
+.kph{display:flex;align-items:center;gap:6px}
+.info{width:16px;height:16px;border-radius:50%;border:1px solid var(--muted);background:none;color:var(--muted);font:italic 700 10px/1 Georgia,serif;cursor:pointer;padding:0;text-transform:none}
+.kpinfo{font-size:12px;line-height:1.45;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 9px;margin:0 0 8px}
+.kpc{margin-left:auto;font-size:11px;font-weight:600;color:var(--accent);background:var(--accent-soft);border-radius:10px;padding:1px 7px;white-space:nowrap}
+#kpSlider{width:100%;margin:4px 0 0;accent-color:var(--accent)}
+.kpstops{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);padding:0 2px}
+.chk.off{opacity:.45;cursor:not-allowed}
+.badges{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0 0}.badge{font-size:11.5px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:2px 8px}.badge.tag{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:600}
+.score{font-weight:700;color:var(--accent)}
 .hit{stroke:transparent;stroke-width:9;fill:none;cursor:pointer}
 select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
 .hint{color:var(--muted);font-size:12px;margin:6px 0 0}
@@ -143,6 +152,12 @@ footer a{color:var(--accent)}
     <input type="search" id="q" placeholder="Organisation or person" aria-label="Search">
     <h3>Categories</h3>
     <div id="catf"></div>
+    <h3 class="kph">Key people <button type="button" class="info" id="kpInfoBtn" aria-expanded="false" aria-controls="kpInfo" title="How are key people identified?">i</button></h3>
+    <div id="kpInfo" class="kpinfo" hidden><b>How are key people identified?</b> People are ranked by verified leadership roles, funded awards, standards governance and cross-sector collaboration, all taken from the public sources behind each link.<br>+3 named PI or lead on a funding or award link · +3 chair, vice-chair or board role · +2 links to organisations in 2 or more sectors · +2 joint R&amp;D or testbed project · +1 event speaker · +2 leadership title matching one of four types: <i>Funding Gatekeeper</i> (programme directors and grant leads at funders), <i>Standards Leader</i> (chairs and rapporteurs in 3GPP, ITU-R, O-RAN, Next G Alliance), <i>Testbed Lead</i> (PIs, lab and testbed directors), <i>Ecosystem Connector</i> (technology and 6G strategy leads, board members, regional connectors). Everyone with a verified role scores at least 1.</div>
+    <label class="chk"><input type="checkbox" id="kpOn"> Show people on the map <span id="kpCount" class="kpc"></span></label>
+    <input type="range" id="kpSlider" min="0" max="3" step="1" value="0" aria-label="Key people threshold" aria-describedby="kpLabel">
+    <div class="kpstops" aria-hidden="true"><span>Off</span><span>Core</span><span>Key</span><span>All</span></div>
+    <p class="hint" id="kpLabel"></p>
     <h3>Connection types</h3>
     <div id="edgef"></div>
     <label class="chk" style="margin-top:6px"><input type="checkbox" id="shared"> People linked by shared associations</label>
@@ -208,6 +223,54 @@ function edgeText(l){ const t=ETYPES[l.type]||{}; const a=byId[l.source.id||l.so
   if(l.type==="Role") return `${A} → Role: ${esc(l.label)} → ${B}`;
   if(t.dir) return `${A} → ${t.verb} → ${B}<small>${esc(l.type)}: ${esc(l.label)}</small>`;
   return `${A} ↔ ${B}<small>${esc(l.type)}: ${esc(l.label)}</small>`; }
+/* ---------- Key people influence scoring ---------- */
+const STD_BODIES = new Set(["3gpp","itu-wp5d","oran","nga","etsi"]);
+const RX = {
+  pi:/\b(PI|Co-PI|co-PI|principal investigator)\b/,
+  chair:/\b(chair|chairman|chairwoman|chairperson|vice[- ]chair|co-?chair|rapporteur|board member|board of (directors|trustees)|steering (group|committee)|trustee)\b/i,
+  coauth:/co-?author|co-?inventor/i,
+  stdctx:/3GPP|ITU|O-RAN|Next G|NGA|working group|\bWG\b|WP ?5D|\bTSG\b|\bRAN\d|\bSA\d|standard/i,
+  gate:/program (director|manager|officer)|programme (director|manager)|division (chief|director)|grants?\b|\bdirector\b|administrator|assistant secretary|deputy|\bchief\b|\bhead\b/i,
+  lab:/(director|lead|head|founder).{0,40}(cent(er|re)|institute|lab|testbed|platform|program|programme)|testbed|\bPI\b/i,
+  connect:/(vice president|\bvp\b|svp|evp|director|head|chief|cto|fellow).{0,40}(technolog|6g|strateg|innovation|standard|research|network|wireless)|board member|president|executive director|\bceo\b/i
+};
+const ORGCATS = c => c!=="Person" && c!=="Events";
+function scorePeople(){
+  const inc={}; LINKS.forEach(l=>{ (inc[l.source]=inc[l.source]||[]).push(l); (inc[l.target]=inc[l.target]||[]).push(l); });
+  NODES.filter(n=>n.category==="Person").forEach(p=>{
+    const es=inc[p.id]||[], other=l=>byId[l.source===p.id?l.target:l.source];
+    // job titles paired with the organisation they are held at
+    const pairs=[[byId[p.org],p.role||""], ...es.filter(l=>["Role","Membership","Standardisation / Working Group"].includes(l.type)&&l.source===p.id).map(l=>[byId[l.target],l.label||""])].filter(x=>x[0]);
+    const clean=t=>t.replace(/\b(Canada |Endowed |Research |Professorial |Distinguished )?Research Chair\b|\bEndowed Chair\b|\b[\w.]+ Chair (Professor|in)\b|\bChair Professor\b|\bChair in\b/gi,"");
+    const titles=pairs.map(x=>clean(x[1])).join(" | ");
+    const all=[titles, ...es.map(l=>l.label||"")].join(" | ");
+    const orgs=[...new Set([p.org, ...es.map(l=>other(l).id)].filter(Boolean))].map(id=>byId[id]).filter(o=>o&&ORGCATS(o.category));
+    const cats=new Set(orgs.map(o=>o.category));
+    const count=t=>es.filter(l=>t.includes(l.type)).length;
+    const ev=[]; let s=0;
+    const nFund=count(["Funding","Grant / Contract / Award"]);
+    if(nFund||RX.pi.test(all)){ s+=3; ev.push(nFund?`PI or lead on ${nFund} award${nFund>1?"s":""}`:"Named PI"); }
+    const isChair=RX.chair.test(titles);
+    if(isChair){ s+=3; ev.push("Chair or board role"); }
+    if(cats.size>=2){ s+=2; ev.push(`Cross-sector bridge (${cats.size} sectors)`); }
+    const nCo=count(["Joint R&D / Co-publication","Testbed / Trial / Consortium project"]);
+    if(nCo||RX.coauth.test(all)){ s+=2; ev.push(nCo?`${nCo} joint R&D or testbed project${nCo>1?"s":""}`:"Co-author or co-inventor"); }
+    const nEv=count(["Event participation"]);
+    if(nEv){ s+=1; ev.push(`Speaker at ${nEv} event${nEv>1?"s":""}`); }
+    // leadership archetypes (+2 once if any match)
+    const tags=[], oc=new Set(orgs.map(o=>o.category)), oid=new Set(orgs.map(o=>o.id));
+    const at=(cs,rx)=>pairs.some(([o,t])=>cs.includes(o.category)&&rx.test(clean(t)));
+    if(at(["Government & funders"],RX.gate)) tags.push("Funding Gatekeeper");
+    if(isChair && (RX.stdctx.test(titles) || [...oid].some(i=>STD_BODIES.has(i)))) tags.push("Standards Leader");
+    if(RX.pi.test(all) || at(["Academic & research","Programmes & testbeds"],RX.lab)) tags.push("Testbed Lead");
+    if(at(["Network operators","Equipment & tech vendors","Defence & integrators","Economic development & place","Associations & alliances"],RX.connect) || (isChair && cats.size>=2)) tags.push("Ecosystem Connector");
+    if(tags.length){ s+=2; ev.push("Leadership role: "+tags.join(", ")); }
+    if(s===0){ s=1; ev.push("Verified role at a tracked organisation"); }
+    p.score=s; p.evidence=ev; p.tags=tags;
+  });
+}
+
+const KP_STOPS=[{t:Infinity,l:"Off",d:"Organisation-only view"},{t:6,l:"Core Leaders (score 6+)",d:"High-influence PIs, working group chairs and cross-sector bridges"},{t:4,l:"Key Contributors (score 4+)",d:"Active multi-project leads and consortium players"},{t:1,l:"All Tracked People (score 1+)",d:"Every person on the map"}];
 const REGIONS = ["Washington DC region","Rest of United States","International"];
 const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const nm = n => n.short || n.name;
@@ -220,7 +283,7 @@ function ring(n){ const p = n.lat!=null? n : (n.org && byId[n.org] && byId[n.org
   return DCREG.includes(n.region)?0:1; }
 
 let NODES=[], LINKS=[], byId={}, SHARED=[];
-const state = {cats:new Set(Object.keys(CATS)), types:new Set(Object.keys(ETYPES).filter(t=>t!=="Shared association")), shared:false, q:"", assoc:"", sel:null, view:"v-geo"};
+const state = {cats:new Set(Object.keys(CATS)), types:new Set(Object.keys(ETYPES).filter(t=>t!=="Shared association")), shared:false, minScore:Infinity, q:"", assoc:"", sel:null, view:"v-geo"};
 
 fetch("data/ecosystem.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
  .then(boot).catch(e=>{ document.querySelector(".center").innerHTML=`<p class="err">The map data could not be loaded (${esc(e.message)}). If you opened this file directly, serve the folder over HTTP or view it on GitHub Pages.</p>`; });
@@ -237,6 +300,7 @@ function boot(data){
     const a=people[i], b=people[j]; const common=[...pa[a.id]].filter(x=>pa[b.id].has(x));
     if(common.length) SHARED.push({source:a.id,target:b.id,type:"Shared association",label:"Both connected to "+common.map(x=>nm(byId[x])).join(", "),derived:true});
   }
+  scorePeople();
   NODES.forEach(n=>n.deg = LINKS.filter(l=>l.source===n.id||l.target===n.id).length);
   document.getElementById("foot").innerHTML = `Compiled from public sources. Last updated ${esc(data.generated||"")}. Boundaries: Natural Earth, US Census.`;
   renderStats(); renderFilters(); renderMatrix(); renderDetail(); buildGeo(); buildNet(); applyAll();
@@ -253,18 +317,42 @@ function renderStats(){
 }
 function renderFilters(){
   const cf=document.getElementById("catf");
-  cf.innerHTML = Object.entries(CATS).map(([k,c])=>`<label class="chk"><input type="checkbox" data-cat="${esc(k)}" checked><span class="sw ${c.sq?"sq":""}" style="background:${c.c}"></span>${esc(k==="Person"?"Key people":k)}<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category===k).length}</span></label>`).join("");
+  cf.innerHTML = Object.entries(CATS).filter(([k])=>k!=="Person").map(([k,c])=>`<label class="chk"><input type="checkbox" data-cat="${esc(k)}" checked><span class="sw ${c.sq?"sq":""}" style="background:${c.c}"></span>${esc(k)}<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category===k).length}</span></label>`).join("");
   cf.onchange=e=>{ const k=e.target.dataset.cat; e.target.checked?state.cats.add(k):state.cats.delete(k); applyAll(); };
   const ef=document.getElementById("edgef");
   ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}" checked>${ekSwatch(k)}${esc(k)}</label>`).join("")+`<p class="ehelp">${esc(EHELP)}</p>`;
   ef.onchange=e=>{ const k=e.target.dataset.t; e.target.checked?state.types.add(k):state.types.delete(k); applyAll(); };
+  const sl=document.getElementById("kpSlider"), on=document.getElementById("kpOn"), ib=document.getElementById("kpInfoBtn");
+  let lastOn=1;
+  sl.oninput=()=>{ if(+sl.value) lastOn=+sl.value; applyKP(); };
+  on.onchange=()=>{ sl.value=on.checked?lastOn:0; applyKP(); };
+  ib.onclick=()=>{ const p=document.getElementById("kpInfo"); p.hidden=!p.hidden; ib.setAttribute("aria-expanded",!p.hidden); };
+  applyKP(true);
   document.getElementById("shared").onchange=e=>{ state.shared=e.target.checked; e.target.checked?state.types.add("Shared association"):state.types.delete("Shared association"); buildNet(); applyAll(); if(state.sel) renderDetail(); };
   const as=document.getElementById("assocSel");
   NODES.filter(n=>isGroup(n)||isProg(n)||isEvent(n)).sort((a,b)=>(isGroup(b)-isGroup(a))||nm(a).localeCompare(nm(b))).forEach(n=>{ const o=document.createElement("option"); o.value=n.id; o.textContent=(isProg(n)?"Programme: ":isEvent(n)?"Event: ":"")+nm(n); as.appendChild(o); });
   as.onchange=()=>{ state.assoc=as.value; if(as.value) select(as.value); else applyAll(); };
   document.getElementById("q").oninput=e=>{ state.q=e.target.value.trim().toLowerCase(); applyAll(); };
 }
-const visible = n => state.cats.has(n.category);
+const visible = n => n.category==="Person" ? (n.score||0)>=state.minScore : state.cats.has(n.category);
+function applyKP(init){
+  const i=+document.getElementById("kpSlider").value, st=KP_STOPS[i], off=i===0;
+  state.minScore=st.t;
+  const ppl=NODES.filter(n=>n.category==="Person"), shown=ppl.filter(n=>n.score>=st.t).length;
+  document.getElementById("kpOn").checked=!off;
+  document.getElementById("kpCount").textContent= off?`Off (${ppl.length} available)`:`${shown} shown`;
+  document.getElementById("kpLabel").textContent= `${st.l}: ${st.d}.`;
+  // person-only edges are meaningless without people on the canvas
+  const roleCb=document.querySelector('#edgef input[data-t="Role"]'), sh=document.getElementById("shared");
+  [roleCb,sh].forEach(cb=>{ if(!cb) return; cb.disabled=off; cb.closest(".chk").classList.toggle("off",off); cb.closest(".chk").title=off?"Turn on Key people to use this filter":""; });
+  if(roleCb){ if(off||!roleCb.checked) state.types.delete("Role"); else state.types.add("Role"); }
+  let rebuild=false;
+  if(off && state.shared){ state.shared=false; state.types.delete("Shared association"); rebuild=true; }
+  if(!off && sh.checked && !state.shared){ state.shared=true; state.types.add("Shared association"); rebuild=true; }
+  if(init) return;
+  if(rebuild) buildNet();
+  applyAll(); if(state.sel) renderDetail();
+}
 const matches = n => !state.q || n.name.toLowerCase().includes(state.q) || (n.short||"").toLowerCase().includes(state.q) || (n.role||"").toLowerCase().includes(state.q);
 function focusSet(){
   if(state.sel){ const s=new Set([state.sel]); allLinks().forEach(l=>{ if(!state.types.has(l.type)) return; const a=l.source.id||l.source,b=l.target.id||l.target; if(a===state.sel) s.add(b); if(b===state.sel) s.add(a); }); return s; }
@@ -513,15 +601,16 @@ function renderDetail(){
   const rel = allLinks().filter(l=>{ const a=l.source.id||l.source,b=l.target.id||l.target; return a===n.id||b===n.id; })
     .map(l=>{ const a=l.source.id||l.source,b=l.target.id||l.target; return {o:byId[a===n.id?b:a], l}; })
     .sort((x,y)=>Object.keys(ETYPES).indexOf(x.l.type)-Object.keys(ETYPES).indexOf(y.l.type));
-  const people = NODES.filter(p=>p.category==="Person" && p.org===n.id);
+  const people = NODES.filter(p=>p.category==="Person" && p.org===n.id).sort((a,b)=>b.score-a.score||a.name.localeCompare(b.name));
   const srcs=[...new Set([...(n.sources||[]), ...rel.map(r=>r.l.src).filter(Boolean)])];
   el.innerHTML=`<h2>${esc(n.name)}</h2>
    <div><span class="pill"><span class="sw ${CATS[n.category].sq?"sq":""}" style="background:${CATS[n.category].c}"></span>${esc(n.category==="Person"?"Person":n.category)}</span><span class="pill">${esc(REGIONS[ring(n)])}</span></div>
    ${n.role?`<p style="margin:8px 0 0;font-weight:600">${esc(n.role)}</p>`:""}
+   ${n.category==="Person"?`<h3>Why they are key</h3><p style="margin:0;font-size:13px">Influence score <span class="score">${n.score}</span></p><div class="badges">${(n.tags||[]).map(t=>`<span class="badge tag">${esc(t)}</span>`).join("")}${(n.evidence||[]).filter(e=>!e.startsWith("Leadership role")).map(e=>`<span class="badge">${esc(e)}</span>`).join("")}</div>${n.score<state.minScore||state.minScore===Infinity?`<p class="hint">Hidden at the current Key people setting.</p>`:""}`:""}
    <p style="font-size:13.5px">${esc(n.description)}</p>
    ${n.website?`<p class="hint">🌐 <a href="${esc(n.website)}" target="_blank" rel="noopener">${esc(n.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a></p>`:""}
    ${n.address?`<p class="hint">📍 ${esc(n.address)}${n.precision&&n.precision!=="Street address"?` (${esc(n.precision.toLowerCase())}-level)`:""}</p>`:""}
-   ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button><small>${esc(p.role)}</small></li>`).join("")}</ul>`:""}
+   ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button> <span class="score" title="Influence score">${p.score}</span><small>${esc(p.role)}${(p.tags||[]).length?" · "+esc(p.tags.join(", ")):""}</small></li>`).join("")}</ul>`:""}
    <h3>Connections (${rel.length})</h3>
    <ul class="conn">${rel.map(r=>`<li><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${ETYPES[r.l.type].dir?((r.l.source.id||r.l.source)===n.id?"→ ":"← "):""}${esc(r.l.type)}: ${esc(r.l.label)}</small></li>`).join("")}</ul>
    <h3>Sources</h3><ol class="srcs">${srcs.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,"").slice(0,70))}</a></li>`).join("")}</ol>
