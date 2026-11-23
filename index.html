@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css">
 <style>
-/* Layout: header, tab strip, three columns (filters | view | details). Geographic map opens on the world and drills down to Northern Virginia. */
+/* Layout: header, tab strip, three columns (filters | view | details). Geographic map opens on the world and drills down to the Alexandria-Arlington corridor (GO Virginia Region 7). */
 :root{
   --bg:#f3f5f7; --panel:#ffffff; --ink:#18212b; --muted:#5b6774; --line:#d9dee4;
   --accent:#0b6e74; --accent-soft:#d8eeee; --ring:#e6eaee;
@@ -140,7 +140,7 @@ footer a{color:var(--accent)}
     <section class="view on" id="v-geo" role="tabpanel" aria-labelledby="t-geo">
       <div id="geo" aria-label="Map of organisations by office location"></div>
       <div class="geobar" role="group" aria-label="Map extent">
-        <button data-ext="nova" aria-pressed="false">Northern Virginia</button>
+        <button data-ext="nova" aria-pressed="false" title="GO Virginia Region 7: Arlington, Fairfax, Loudoun and Prince William counties, and the cities of Alexandria, Fairfax, Falls Church, Manassas and Manassas Park">Alexandria-Arlington corridor</button>
         <button data-ext="us" aria-pressed="false">United States</button>
         <button id="ctaBtn" aria-pressed="false" title="Show the governments that affirmed the Call to Action for 6G Leadership and Security">Alliance Countries</button>
         <button data-ext="world" aria-pressed="true">World</button>
@@ -244,7 +244,7 @@ function applyAll(){ applyNet(); applyGeo(); }
 
 /* ---------- Geographic map ---------- */
 let geo, markers={}, geoLines, cluster;
-const EXT = {world:[[-45,-150],[68,150]], us:[[24,-125],[49.5,-66]], nova:[[38.62,-77.50],[39.16,-76.90]]};
+const EXT = {world:[[-45,-150],[68,150]], us:[[24,-125],[49.5,-66]], nova:[[38.52,-77.84],[39.33,-77.03]]};
 function pinIcon(n,faded){
   const r = Math.round(8 + Math.min(12, Math.sqrt(n.deg)*2)), d=r*2, c=CATS[n.category];
   return L.divIcon({className:"",iconSize:[d,d],iconAnchor:[r,r],html:`<span class="pin ${c.sq?"sq":""}" style="width:${d}px;height:${d}px;background:${c.c};opacity:${faded?.18:1}"></span>`});
@@ -297,7 +297,7 @@ function buildGeo(){
   document.getElementById("ctaBtn").onclick=toggleCTA;
   const unplaced = NODES.filter(n=>n.lat==null && n.category!=="Person");
   const ppl = NODES.filter(n=>n.category==="Person").length;
-  document.getElementById("geonote").innerHTML = `Numbered circles group nearby organisations: click one, or use the buttons above, to drill down to Northern Virginia. Pins mark each organisation's office (street-level in the DC region, city-level elsewhere). ${ppl} people appear under their organisation, never at a personal location. ${unplaced.length} programmes and consortia without one home are in the Network view.`;
+  document.getElementById("geonote").innerHTML = `Numbered circles group nearby organisations: click one, or use the buttons above, to drill down to the Alexandria-Arlington corridor (GO Virginia Region 7). Pins mark each organisation's office (street-level in the DC region, city-level elsewhere). ${ppl} people appear under their organisation, never at a personal location. ${unplaced.length} programmes and consortia without one home are in the Network view.`;
 }
 /* ---------- Call to Action for 6G Leadership and Security overlay ---------- */
 const CTA = {
@@ -428,7 +428,7 @@ function renderDetail(){
   const el=document.getElementById("detail");
   if(!state.sel){
     const top=NODES.filter(n=>n.category!=="Person").sort((a,b)=>b.deg-a.deg).slice(0,10);
-    el.innerHTML=`<h2>Explore the ecosystem</h2><p style="color:var(--muted);font-size:13px">Click any pin, node or name to see who it connects to, how, and the source behind each link. Use the buttons on the map to drill down from World to Northern Virginia.</p>
+    el.innerHTML=`<h2>Explore the ecosystem</h2><p style="color:var(--muted);font-size:13px">Click any pin, node or name to see who it connects to, how, and the source behind each link. Use the buttons on the map to drill down from World to the Alexandria-Arlington corridor.</p>
       <h3>Most connected</h3><ul class="conn">${top.map(n=>`<li><button class="go" data-go="${n.id}">${esc(n.name)}</button><small>${esc(n.category)} · ${n.deg} connections</small></li>`).join("")}</ul>
       <h3>Connection types</h3><ul class="conn">${Object.entries(ETYPES).map(([k,t])=>`<li><span class="ek" style="border-top-color:${t.c};border-top-style:${t.dash?(k==="Role"?"dotted":"dashed"):"solid"}"></span> ${esc(k)}</li>`).join("")}</ul>
       <p class="hint">Memberships shown are those confirmed in public sources. Most associations have many more members than appear here.</p>`;
