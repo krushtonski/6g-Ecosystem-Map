@@ -62,6 +62,12 @@ select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);ba
 .geobar button,.zoombtns button,.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;font:600 12.5px var(--body);padding:5px 10px;cursor:pointer}
 .geobar .sep{width:1px;background:var(--line);margin:2px 4px}
 .cta-list{columns:2;padding-left:18px;margin:4px 0 10px}
+#ctaKey{position:absolute;top:56px;right:10px;z-index:500;max-width:250px;font-size:11.5px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px 10px;display:none}
+#ctaKey.on{display:block}
+#ctaKey h4{margin:0 0 4px;font-size:12px}
+#ctaKey p{margin:0 0 6px;color:var(--muted)}
+#ctaKey div{margin:2px 0}
+.cta-tbl td{padding:3px 6px;border-bottom:1px solid var(--line);vertical-align:top}
 .cta-key{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin-right:6px}
 .geobar button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel)}
 .geonote{position:absolute;left:10px;bottom:22px;z-index:500;max-width:330px;font-size:11.5px;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 9px}
@@ -142,9 +148,10 @@ footer a{color:var(--accent)}
       <div class="geobar" role="group" aria-label="Map extent">
         <button data-ext="nova" aria-pressed="false" title="GO Virginia Region 7: Arlington, Fairfax, Loudoun and Prince William counties, and the cities of Alexandria, Fairfax, Falls Church, Manassas and Manassas Park">Alexandria-Arlington corridor</button>
         <button data-ext="us" aria-pressed="false">United States</button>
-        <button id="ctaBtn" aria-pressed="false" title="Show the governments that affirmed the Call to Action for 6G Leadership and Security">Alliance Countries</button>
+        <button id="ctaBtn" aria-pressed="false" title="Show the governments that signed the Call to Action for 6G Leadership and Security">"Call to Action" Signatories</button>
         <button data-ext="world" aria-pressed="true">World</button>
       </div>
+      <div id="ctaKey" role="note" aria-label="Key: Call to Action signatories"></div>
       <div class="geonote" id="geonote"></div>
     </section>
     <section class="view" id="v-net" role="tabpanel" aria-labelledby="t-net">
@@ -303,7 +310,8 @@ function buildGeo(){
 const CTA = {
   title:"Call to Action for 6G Leadership and Security",
   url:"https://www.ntia.gov/other-publication/2026/call-action-6g-leadership-and-security",
-  blurb:"A multi-government statement published by NTIA in 2026. More than 20 governments affirm a shared aim for 6G: an open, interoperable, secure, resilient, AI-supported, highly innovative and resource-efficient global communications system, led by like-minded nations.",
+  blurb:"A non-binding statement launched by NTIA on 27 July 2026. The signatory governments share an aim for 6G that is open, interoperable, secure, resilient, AI-supported, innovative and resource-efficient, led by like-minded nations. They agreed a 12-month plan of joint actions. India joined on 9 September 2026.",
+  poc:"First commitment (within one month): each government designates expert 6G points of contact and the agency that will manage communications with the contact group, and draws up a preliminary list of industry and academic stakeholders. These lists are shared between governments and are not published. Below, the lead agency is shown where it has been made public, and \"on this map\" counts the organisations we already track in each country.",
   groups:{"Europe":"#0b6e74","Americas":"#c2410c","Asia-Pacific":"#7c3aed","Publisher":"#64748b"}
 };
 let ctaLayer=null, ctaOn=false;
@@ -313,13 +321,35 @@ async function toggleCTA(){
     if(!ctaLayer){
       try{ const gj=await fetch("data/call-to-action-6g.geojson").then(r=>r.json());
         ctaLayer=L.geoJSON(gj,{style:f=>({color:CTA.groups[f.properties.group],weight:1,fillColor:CTA.groups[f.properties.group],fillOpacity:f.properties.group==="Publisher"?.12:.32,dashArray:f.properties.group==="Publisher"?"4 3":null}),
-          onEachFeature:(f,l)=>l.bindTooltip(esc(f.properties.name)+(f.properties.group==="Publisher"?" (publisher, via NTIA)":""),{sticky:true})});
+          onEachFeature:(f,l)=>{ l.bindTooltip(esc(f.properties.name)+(f.properties.group==="Publisher"?" (publisher, via NTIA)":"")+" · click for 6G contacts",{sticky:true}); l.on("click",e=>{ L.DomEvent.stopPropagation(e); renderCTACountry(f.properties.name); }); }});
         ctaLayer.__gj=gj;
       }catch(e){ ctaOn=false; document.getElementById("ctaBtn").setAttribute("aria-pressed",false); return; }
     }
-    ctaLayer.addTo(geo); ctaLayer.bringToBack(); geo.flyToBounds(EXT.world,{duration:.8});
+    ctaLayer.addTo(geo); ctaLayer.bringToBack(); renderCTAKey(); document.getElementById("ctaKey").classList.add("on"); geo.flyToBounds(EXT.world,{duration:.8});
     state.sel=null; renderCTA();
-  } else { if(ctaLayer) geo.removeLayer(ctaLayer); renderDetail(); }
+  } else { if(ctaLayer) geo.removeLayer(ctaLayer); document.getElementById("ctaKey").classList.remove("on"); renderDetail(); }
+}
+function ctaPIP(pt,geom){ const [x,y]=pt; const polys=geom.type==="Polygon"?[geom.coordinates]:geom.coordinates;
+  return polys.some(poly=>{ let ins=false; const r=poly[0]; for(let i=0,j=r.length-1;i<r.length;j=i++){ const [xi,yi]=r[i],[xj,yj]=r[j]; if(((yi>y)!==(yj>y))&&(x<(xj-xi)*(y-yi)/(yj-yi)+xi)) ins=!ins; } return ins; }); }
+function ctaOrgs(f){ if(!f.__bb){ const b=[180,90,-180,-90]; JSON.stringify(f.geometry.coordinates).match(/-?\d+(\.\d+)?,-?\d+(\.\d+)?/g).forEach(s=>{const [x,y]=s.split(",").map(Number); b[0]=Math.min(b[0],x);b[1]=Math.min(b[1],y);b[2]=Math.max(b[2],x);b[3]=Math.max(b[3],y);}); f.__bb=b; }
+  if(!f.__orgs){ const b=f.__bb; f.__orgs=NODES.filter(n=>n.category!=="Person"&&n.lat!=null&&n.lng>=b[0]&&n.lng<=b[2]&&n.lat>=b[1]&&n.lat<=b[3]&&ctaPIP([n.lng,n.lat],f.geometry)).sort((a,b)=>a.name.localeCompare(b.name)); }
+  return f.__orgs; }
+function ctaLead(f){ const id=f.properties.lead; return id&&byId[id]?`<button class="go" data-go="${id}">${esc(byId[id].short||byId[id].name)}</button>`:'<span style="color:var(--muted)">Not published</span>'; }
+function renderCTAKey(){
+  const k=document.getElementById("ctaKey"), sw=(g,t)=>`<div><span class="cta-key" style="background:${CTA.groups[g]}${g==="Publisher"?";opacity:.5":""}"></span>${t}</div>`;
+  k.innerHTML=`<h4>"Call to Action" signatories</h4><p>Governments that signed NTIA's Call to Action for 6G Leadership and Security (July 2026). Each has pledged to name 6G points of contact and a list of industry and academic stakeholders. Click a country to see them.</p>${sw("Europe","Europe")}${sw("Americas","Americas")}${sw("Asia-Pacific","Asia-Pacific")}${sw("Publisher","United States (publisher, via NTIA)")}`;
+}
+function renderCTACountry(name){
+  const f=ctaLayer.__gj.features.find(x=>x.properties.name===name); if(!f) return; state.sel=null;
+  const orgs=ctaOrgs(f), d=f.properties.joined==="2026-09-09"?"9 September 2026 (joined after launch)":"27 July 2026 (launch signatory)";
+  const el=document.getElementById("detail");
+  el.innerHTML=`<h2>${esc(name)}</h2><p style="color:var(--muted);font-size:13px">"Call to Action" signatory since ${d}.</p>
+    <h3>6G point of contact (lead agency)</h3><p>${ctaLead(f)}</p>
+    <h3>Industry and academic stakeholders on this map (${orgs.length})</h3>
+    ${orgs.length?`<ul class="conn">${orgs.map(n=>`<li><button class="go" data-go="${n.id}">${esc(n.name)}</button><small>${esc(n.category)}</small></li>`).join("")}</ul>`:'<p class="hint">None mapped yet.</p>'}
+    <p class="hint">Each government's official stakeholder list is shared within the contact group and is not public. This list shows organisations we track whose office is in ${esc(name)}.</p>
+    <p><button class="btn" id="ctaBack">Back to all signatories</button></p>`;
+  bindGo(el); document.getElementById("ctaBack").onclick=renderCTA;
 }
 function renderCTA(){
   const gj=ctaLayer.__gj, by={};
@@ -328,12 +358,17 @@ function renderCTA(){
   const n=gj.features.filter(f=>f.properties.group!=="Publisher").length;
   document.getElementById("detail").innerHTML=`<h2>${esc(CTA.title)}</h2>
     <p style="color:var(--muted);font-size:13px">${esc(CTA.blurb)}</p>
-    <p><strong>${n} affirming governments shaded on the map.</strong></p>
+    <p><strong>${n} signatory governments shaded on the map.</strong></p>
     ${sec("Europe")}${sec("Americas")}${sec("Asia-Pacific")}
+    <h3>6G points of contact and stakeholder lists</h3>
+    <p style="color:var(--muted);font-size:12.5px">${esc(CTA.poc)}</p>
+    <table class="cta-tbl"><tr><td><strong>Country</strong></td><td><strong>Lead agency</strong></td><td><strong>On this map</strong></td></tr>
+    ${gj.features.slice().sort((a,b)=>a.properties.name.localeCompare(b.properties.name)).map(f=>`<tr><td><button class="go" data-cta="${esc(f.properties.name)}">${esc(f.properties.name)}</button></td><td>${ctaLead(f)}</td><td>${ctaOrgs(f).length}</td></tr>`).join("")}</table>
     <p class="hint"><span class="cta-key" style="background:${CTA.groups.Publisher};opacity:.5"></span>United States: published by NTIA (dashed outline).</p>
     <p class="hint">Source: <a href="${CTA.url}" target="_blank" rel="noopener">NTIA</a></p>
     <p><button class="btn" id="ctaOff">Hide overlay</button></p>`;
   document.getElementById("ctaOff").onclick=toggleCTA;
+  const el=document.getElementById("detail"); bindGo(el); el.querySelectorAll("[data-cta]").forEach(b=>b.onclick=()=>renderCTACountry(b.dataset.cta));
 }
 function applyGeo(){
   if(!geo) return;
