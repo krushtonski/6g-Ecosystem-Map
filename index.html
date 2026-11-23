@@ -156,7 +156,7 @@ footer a{color:var(--accent)}
     <div id="kpInfo" class="kpinfo" hidden><b>How are key people identified?</b> People are ranked by verified leadership roles, funded awards, standards governance and cross-sector collaboration, all taken from the public sources behind each link.<br>+3 named PI or lead on a funding or award link · +3 chair, vice-chair or board role · +2 links to organisations in 2 or more sectors · +2 joint R&amp;D or testbed project · +1 event speaker · +2 leadership title matching one of four types: <i>Funding Gatekeeper</i> (programme directors and grant leads at funders), <i>Standards Leader</i> (chairs and rapporteurs in 3GPP, ITU-R, O-RAN, Next G Alliance), <i>Testbed Lead</i> (PIs, lab and testbed directors), <i>Ecosystem Connector</i> (technology and 6G strategy leads, board members, regional connectors). Everyone with a verified role scores at least 1.</div>
     <label class="chk"><input type="checkbox" id="kpOn"> Show people on the map <span id="kpCount" class="kpc"></span></label>
     <input type="range" id="kpSlider" min="0" max="3" step="1" value="0" aria-label="Key people threshold" aria-describedby="kpLabel">
-    <div class="kpstops" aria-hidden="true"><span>Off</span><span>Core</span><span>Key</span><span>All</span></div>
+    <div class="kpstops" aria-hidden="true"><span>Off</span><span>All</span><span>Key</span><span>Core</span></div>
     <p class="hint" id="kpLabel"></p>
     <h3>Connection types</h3>
     <div id="edgef"></div>
@@ -270,7 +270,7 @@ function scorePeople(){
   });
 }
 
-const KP_STOPS=[{t:Infinity,l:"Off",d:"Organisation-only view"},{t:6,l:"Core Leaders (score 6+)",d:"High-influence PIs, working group chairs and cross-sector bridges"},{t:4,l:"Key Contributors (score 4+)",d:"Active multi-project leads and consortium players"},{t:1,l:"All Tracked People (score 1+)",d:"Every person on the map"}];
+const KP_STOPS=[{t:Infinity,l:"Off",d:"Organisation-only view"},{t:1,l:"All Tracked People (score 1+)",d:"Every person on the map"},{t:4,l:"Key Contributors (score 4+)",d:"Active multi-project leads and consortium players"},{t:6,l:"Core Leaders (score 6+)",d:"High-influence PIs, working group chairs and cross-sector bridges"}];
 const REGIONS = ["Washington DC region","Rest of United States","International"];
 const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const nm = n => n.short || n.name;
@@ -323,7 +323,7 @@ function renderFilters(){
   ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}" checked>${ekSwatch(k)}${esc(k)}</label>`).join("")+`<p class="ehelp">${esc(EHELP)}</p>`;
   ef.onchange=e=>{ const k=e.target.dataset.t; e.target.checked?state.types.add(k):state.types.delete(k); applyAll(); };
   const sl=document.getElementById("kpSlider"), on=document.getElementById("kpOn"), ib=document.getElementById("kpInfoBtn");
-  let lastOn=1;
+  let lastOn=3;
   sl.oninput=()=>{ if(+sl.value) lastOn=+sl.value; applyKP(); };
   on.onchange=()=>{ sl.value=on.checked?lastOn:0; applyKP(); };
   ib.onclick=()=>{ const p=document.getElementById("kpInfo"); p.hidden=!p.hidden; ib.setAttribute("aria-expanded",!p.hidden); };
