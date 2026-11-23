@@ -21459,6 +21459,41 @@
     "https://www.alexandriava.gov/go/7514",
     "https://www.alexandriava.gov/go/7960"
    ]
+  },
+  {
+   "id": "virginia-tech",
+   "name": "Virginia Tech",
+   "short": "Virginia Tech",
+   "category": "Academic & research",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "Innovation Campus, Potomac Yard, Alexandria, VA",
+   "lat": 38.8316,
+   "lng": -77.0468,
+   "precision": "Campus",
+   "description": "Virginia's public land-grant research university, headquartered in Blacksburg, with its Innovation Campus in Alexandria's Potomac Yard. Select it to see the connections of all its 6G-relevant units together. Founding partner of National IQ.",
+   "sources": [
+    "https://news.vt.edu/articles/2025/02/historic-new-academic-building-alexandria.html",
+    "https://news.vt.edu/articles/2026/02/national-innovation-quarter.html"
+   ],
+   "units": [
+    "vt-iac",
+    "wireless-vt",
+    "vt-nsi",
+    "vt-arc",
+    "vt-nssl"
+   ],
+   "hub": [
+    "Anchor employer",
+    "Talent pipeline",
+    "Testbed or spectrum"
+   ],
+   "chal": [
+    "Judges and mentors",
+    "Host or venue",
+    "Sponsor or prize funder"
+   ]
   }
  ],
  "edges": [
@@ -32626,6 +32661,13 @@
    "type": "Testbed / Trial / Consortium project",
    "label": "Partner",
    "source": "https://www.alxnow.com/?p=84062"
+  },
+  {
+   "from": "virginia-tech",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://news.vt.edu/articles/2026/02/national-innovation-quarter.html"
   }
  ]
 }

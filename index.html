@@ -71,6 +71,11 @@ select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);ba
 .modeseg button[aria-pressed="true"]{background:var(--accent);color:#fff}
 details.adv{margin-top:16px;border-top:1px solid var(--line);padding-top:10px}
 details.adv summary{cursor:pointer;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.ctchips{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px}
+.ctchip{display:inline-flex;align-items:center;gap:5px;font:600 11.5px var(--body);padding:3px 8px;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--ink);cursor:pointer}
+.ctchip b{font-weight:700;color:var(--muted)}
+.ctchip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+ul.conn li.on{border-left:3px solid var(--accent);padding-left:6px}
 .qres{list-style:none;margin:4px 0 0;padding:0;border:1px solid var(--line);border-radius:6px;background:var(--bg);max-height:260px;overflow:auto}
 .qres li{padding:6px 8px;font-size:13px;cursor:pointer;border-bottom:1px solid var(--line)}
 .qres li:last-child{border-bottom:0}
@@ -310,7 +315,7 @@ function ring(n){ const p = n.lat!=null? n : (n.org && byId[n.org] && byId[n.org
   return DCREG.includes(n.region)?0:1; }
 
 let NODES=[], LINKS=[], byId={}, SHARED=[];
-const state = {cats:new Set(Object.keys(CATS)), types:new Set(), shared:false, minScore:Infinity, hub:"", chal:"", mode:"global", q:"", assoc:"", sel:null, view:"v-geo"};
+const state = {cats:new Set(Object.keys(CATS)), types:new Set(), shared:false, minScore:Infinity, hub:"", chal:"", mode:"global", selTypes:new Set(), q:"", assoc:"", sel:null, view:"v-geo"};
 
 fetch("data/ecosystem.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
  .then(boot).catch(e=>{ document.querySelector(".center").innerHTML=`<p class="err">The map data could not be loaded (${esc(e.message)}). If you opened this file directly, serve the folder over HTTP or view it on GitHub Pages.</p>`; });
@@ -386,7 +391,8 @@ function renderFilters(){
   q.onfocus=()=>{ if(q.value.trim()&&hits.length) qr.hidden=false; };
 }
 const inCorr = n => { const o = n.category==="Person" ? byId[n.org] : n; return !!o && (["Alexandria","Northern Virginia"].includes(o.region) || (o.hub||[]).length>0 || (o.chal||[]).length>0); };
-const visible = n => (state.mode!=="corridor" || inCorr(n)) && (n.category==="Person" ? (n.score||0)>=state.minScore && (!n.org||!byId[n.org]||state.cats.has(byId[n.org].category)) : state.cats.has(n.category) && (!state.hub||(n.hub||[]).includes(state.hub)) && (!state.chal||(n.chal||[]).includes(state.chal)));
+const visible = n => (state.sel && SELV.has(n.id)) || baseVisible(n);
+const baseVisible = n => (state.mode!=="corridor" || inCorr(n)) && (n.category==="Person" ? (n.score||0)>=state.minScore && (!n.org||!byId[n.org]||state.cats.has(byId[n.org].category)) : state.cats.has(n.category) && (!state.hub||(n.hub||[]).includes(state.hub)) && (!state.chal||(n.chal||[]).includes(state.chal)));
 function applyKP(init){
   const i=state.kp||0, st=KP_STOPS[i], off=i===0;
   document.querySelectorAll("#kpSeg button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.i===i));
@@ -407,13 +413,20 @@ function applyKP(init){
 }
 const matches = n => !state.q || n.name.toLowerCase().includes(state.q) || (n.short||"").toLowerCase().includes(state.q) || (n.role||"").toLowerCase().includes(state.q);
 // With no connection types ticked (the default), a selected item still shows all of its own links.
-const selType = t => state.types.has(t) || (![...state.types].some(x=>x!=="Role"&&x!=="Shared association") && t!=="Shared association" && (t!=="Role"||state.minScore!==Infinity));
+// Selection: pick connection types in the detail panel to add the bodies linked by those types.
+const lid = x => x.id||x;
+const GRP = () => state.sel ? new Set([state.sel, ...(byId[state.sel].units||[])]) : new Set();
+const touches = (l,G) => G.has(lid(l.source)) || G.has(lid(l.target));
+const selType = t => state.selTypes.has(t);
+let SELV = new Set();
+function calcSel(){ SELV = new Set(); if(!state.sel) return; const G=GRP(); G.forEach(x=>SELV.add(x));
+  allLinks().forEach(l=>{ if(selType(l.type) && touches(l,G)){ SELV.add(lid(l.source)); SELV.add(lid(l.target)); } }); }
 function focusSet(){
-  if(state.sel){ const s=new Set([state.sel]); allLinks().forEach(l=>{ if(!selType(l.type)) return; const a=l.source.id||l.source,b=l.target.id||l.target; if(a===state.sel) s.add(b); if(b===state.sel) s.add(a); }); return s; }
+  if(state.sel) return SELV;
   if(state.assoc){ const s=new Set([state.assoc]); LINKS.forEach(l=>{ if(l.target===state.assoc && l.type!=="Role") s.add(l.source); if(l.source===state.assoc && l.type!=="Role") s.add(l.target); }); return s; }
   return null;
 }
-function applyAll(){ applyNet(); applyGeo(); }
+function applyAll(){ calcSel(); applyNet(); applyGeo(); }
 
 /* ---------- Geographic map ---------- */
 let geo, markers={}, geoLines, cluster;
@@ -549,13 +562,14 @@ function applyGeo(){
   });
   geoLines.clearLayers();
   if(state.sel){
-    const self = byId[state.sel]; const anchor = self.lat!=null? self : (self.org && byId[self.org]);
+    const G=GRP(), loc = x => { let p=byId[x]; if(p&&p.lat==null&&p.org) p=byId[p.org]; if((!p||p.lat==null)&&x!==state.sel) return loc(state.sel); return p&&p.lat!=null?p:null; };
     allLinks().forEach(l=>{
       if(!selType(l.type)) return;
-      const a=l.source.id||l.source, b=l.target.id||l.target; if(a!==state.sel && b!==state.sel) return;
-      let o = byId[a===state.sel? b : a]; if(o.lat==null && o.org) o = byId[o.org];
-      if(!anchor || anchor.lat==null || !o || o.lat==null || !visible(byId[a===state.sel?b:a])) return;
-      const P1=a===state.sel?[anchor.lat,anchor.lng]:[o.lat,o.lng], P2=a===state.sel?[o.lat,o.lng]:[anchor.lat,anchor.lng];
+      const a=lid(l.source), b=lid(l.target); if(!G.has(a) && !G.has(b)) return;
+      const me = G.has(a)? a : b, other = me===a? b : a;
+      const anchor = loc(me), o = loc(other);
+      if(!anchor || !o) return;
+      const P1=me===a?[anchor.lat,anchor.lng]:[o.lat,o.lng], P2=me===a?[o.lat,o.lng]:[anchor.lat,anchor.lng];
       L.polyline([P1,P2],{color:ETYPES[l.type].c,weight:l.type==="Role"?1.6:2.2,opacity:.85,dashArray:ETYPES[l.type].dash}).addTo(geoLines).bindTooltip(edgeText(l),{sticky:true});
       if(ETYPES[l.type].dir && (P1[0]!==P2[0]||P1[1]!==P2[1])){ const p1=geo.latLngToLayerPoint(P1), p2=geo.latLngToLayerPoint(P2), ang=Math.atan2(p2.y-p1.y,p2.x-p1.x)*180/Math.PI;
         L.marker([(P1[0]+P2[0])/2,(P1[1]+P2[1])/2],{interactive:false,keyboard:false,icon:L.divIcon({className:"earr",iconSize:[0,0],html:`<span style="color:${ETYPES[l.type].c};transform:rotate(${ang}deg)">➤</span>`})}).addTo(geoLines); }
@@ -627,7 +641,8 @@ function applyNet(){
   if(!nodeSel) return;
   const fs=focusSet();
   nodeSel.style("display",d=>visible(d)||d.id===state.sel?null:"none").classed("dim",d=>(fs&&!fs.has(d.id))||(state.q&&!matches(d)));
-  const shown=l=>(state.types.has(l.type) || (state.sel&&(l.source.id===state.sel||l.target.id===state.sel)&&selType(l.type))) && (visible(l.source)||l.source.id===state.sel) && (visible(l.target)||l.target.id===state.sel);
+  const G=GRP();
+  const shown=l=>(state.sel&&touches(l,G)&&selType(l.type)) || (state.types.has(l.type) && visible(l.source) && visible(l.target));
   hitSel.style("display",l=>shown(l)?null:"none");
   linkSel.style("display",l=>shown(l)?null:"none")
     .classed("dim",l=>state.sel? !(l.source.id===state.sel||l.target.id===state.sel) : fs? !(fs.has(l.source.id)&&fs.has(l.target.id)) : (state.q&&!(matches(l.source)||matches(l.target))));
@@ -635,15 +650,18 @@ function applyNet(){
 
 /* ---------- Selection & details ---------- */
 function select(id){
-  state.sel=id; renderDetail(); applyAll();
+  if(state.sel!==id) state.selTypes=new Set(); state.sel=id; renderDetail(); applyAll();
   try{ history.replaceState(null,"","#"+id); }catch(e){}
   const n=byId[id];
   if(state.view==="v-geo"){ const p = n.lat!=null? n : (n.org&&byId[n.org]);
     const pts=[]; if(p&&p.lat!=null) pts.push([p.lat,p.lng]);
-    allLinks().forEach(l=>{ const a=l.source.id||l.source,b=l.target.id||l.target; if(a!==id&&b!==id) return; let o=byId[a===id?b:a]; if(o.lat==null&&o.org) o=byId[o.org]; if(o&&o.lat!=null) pts.push([o.lat,o.lng]); });
+    SELV.forEach(x=>{ let o=byId[x]; if(o&&o.lat==null&&o.org) o=byId[o.org]; if(o&&o.lat!=null) pts.push([o.lat,o.lng]); });
     if(pts.length>1) geo.flyToBounds(pts,{padding:[60,60],maxZoom:11,duration:.7}); else if(p&&p.lat!=null&&markers[p.id]) cluster.zoomToShowLayer(markers[p.id],()=>{}); }
   if(state.view==="v-net" && n.x!=null){ const {w,h}=netBox(); const k=Math.max(d3.zoomTransform(svg.node()).k,.9); svg.transition().duration(500).call(zoom.transform,d3.zoomIdentity.translate(w/2-n.x*k,h/2-n.y*k).scale(k)); }
 }
+function fitSel(){ if(state.view!=="v-geo"||!geo||!state.sel) return; const pts=[];
+  SELV.forEach(x=>{ let p=byId[x]; if(p&&p.lat==null&&p.org) p=byId[p.org]; if(p&&p.lat!=null) pts.push([p.lat,p.lng]); });
+  if(pts.length>1) geo.flyToBounds(pts,{padding:[60,60],maxZoom:11,duration:.7}); }
 function renderDetail(){
   const el=document.getElementById("detail");
   if(!state.sel){
@@ -654,9 +672,9 @@ function renderDetail(){
       <p class="hint">Memberships shown are those confirmed in public sources. Most associations have many more members than appear here.</p>`;
     bindGo(el); return;
   }
-  const n=byId[state.sel];
-  const rel = allLinks().filter(l=>{ const a=l.source.id||l.source,b=l.target.id||l.target; return a===n.id||b===n.id; })
-    .map(l=>{ const a=l.source.id||l.source,b=l.target.id||l.target; return {o:byId[a===n.id?b:a], l}; })
+  const n=byId[state.sel], G=GRP();
+  const rel = allLinks().filter(l=>touches(l,G) && !(G.has(lid(l.source))&&G.has(lid(l.target))))
+    .map(l=>{ const a=lid(l.source),b=lid(l.target); const me=G.has(a)?a:b; return {o:byId[me===a?b:a], l, via: me!==n.id? byId[me] : null}; })
     .sort((x,y)=>Object.keys(ETYPES).indexOf(x.l.type)-Object.keys(ETYPES).indexOf(y.l.type));
   const people = NODES.filter(p=>p.category==="Person" && p.org===n.id).sort((a,b)=>b.score-a.score||a.name.localeCompare(b.name));
   const srcs=[...new Set([...(n.sources||[]), ...rel.map(r=>r.l.src).filter(Boolean)])];
@@ -668,10 +686,17 @@ function renderDetail(){
    ${n.website?`<p class="hint">🌐 <a href="${esc(n.website)}" target="_blank" rel="noopener">${esc(n.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a></p>`:""}
    ${n.address?`<p class="hint">📍 ${esc(n.address)}${n.precision&&n.precision!=="Street address"?` (${esc(n.precision.toLowerCase())}-level)`:""}</p>`:""}
    ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button> <span class="score" title="Influence score">${p.score}</span><small>${esc(p.role)}${(p.tags||[]).length?" · "+esc(p.tags.join(", ")):""}</small></li>`).join("")}</ul>`:""}
+   ${(n.units||[]).length?`<h3>Includes</h3><ul class="conn">${n.units.map(u=>`<li><button class="go" data-go="${u}">${esc(nm(byId[u]))}</button></li>`).join("")}</ul>`:""}
    <h3>Connections (${rel.length})</h3>
-   <ul class="conn">${rel.map(r=>`<li><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${ETYPES[r.l.type].dir?((r.l.source.id||r.l.source)===n.id?"→ ":"← "):""}${esc(r.l.type)}: ${esc(r.l.label)}</small></li>`).join("")}</ul>
+   ${rel.length?`<p class="hint" style="margin:0 0 6px">Choose connection types to add those bodies to the map.</p><div class="ctchips">${(()=>{ const cnt={}; rel.forEach(r=>cnt[r.l.type]=(cnt[r.l.type]||0)+1); const ks=Object.keys(ETYPES).filter(k=>cnt[k]); const all=ks.every(k=>state.selTypes.has(k));
+     return `<button type="button" class="ctchip" data-ct="__all" aria-pressed="${all}">All <b>${rel.length}</b></button>`+ks.map(k=>`<button type="button" class="ctchip" data-ct="${esc(k)}" aria-pressed="${state.selTypes.has(k)}">${ekSwatch(k)}${esc(k)} <b>${cnt[k]}</b></button>`).join(""); })()}</div>`:""}
+   <ul class="conn">${rel.map(r=>`<li class="${state.selTypes.has(r.l.type)?"on":""}"><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${ETYPES[r.l.type].dir?(G.has(lid(r.l.source))?"→ ":"← "):""}${esc(r.l.type)}: ${esc(r.l.label)}${r.via?` (via ${esc(nm(r.via))})`:""}</small></li>`).join("")}</ul>
    <h3>Sources</h3><ol class="srcs">${srcs.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,"").slice(0,70))}</a></li>`).join("")}</ol>
    <p><button class="btn" id="clr">Clear selection</button></p>`;
+  el.querySelectorAll(".ctchip").forEach(b=>b.onclick=()=>{ const k=b.dataset.ct, ks=[...el.querySelectorAll(".ctchip:not([data-ct='__all'])")].map(x=>x.dataset.ct);
+    if(k==="__all"){ const all=ks.every(x=>state.selTypes.has(x)); ks.forEach(x=> all? state.selTypes.delete(x) : state.selTypes.add(x)); }
+    else state.selTypes.has(k)? state.selTypes.delete(k) : state.selTypes.add(k);
+    renderDetail(); applyAll(); fitSel(); });
   bindGo(el); document.getElementById("clr").onclick=()=>{ state.sel=null; try{history.replaceState(null,"",location.pathname);}catch(e){} renderDetail(); applyAll(); };
 }
 function bindGo(el){ el.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>select(b.dataset.go)); }
