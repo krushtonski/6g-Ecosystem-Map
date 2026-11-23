@@ -582,15 +582,15 @@ function renderCTA(){
 }
 function applyGeo(){
   if(!geo) return;
-  const fs = focusSet();
+  // The geographic map is a plain map: no connection lines. Connections live in the panel and the Network tab.
   Object.entries(markers).forEach(([id,m])=>{
-    const n=byId[id]; const show = visible(n);
+    const n=byId[id]; const show = baseVisible(n) || id===state.sel;
     if(show && !cluster.hasLayer(m)) cluster.addLayer(m); if(!show && cluster.hasLayer(m)) cluster.removeLayer(m);
-    const faded = (fs && !fs.has(id)) || (state.q && !matches(n));
+    const faded = state.q && !matches(n);
     m.setIcon(pinIcon(n,faded));
   });
   geoLines.clearLayers();
-  if(state.sel){
+  if(false){
     const LBL={};
     const G=GRP(), loc = x => { let p=byId[x]; if(p&&p.lat==null&&p.org) p=byId[p.org]; if((!p||p.lat==null)&&x!==state.sel) return loc(state.sel); return p&&p.lat!=null?p:null; };
     allLinks().forEach(l=>{
@@ -697,15 +697,14 @@ function select(id){
   const n=byId[id];
   if(state.view==="v-geo"){ const p = n.lat!=null? n : (n.org&&byId[n.org]);
     const pts=[]; if(p&&p.lat!=null) pts.push([p.lat,p.lng]);
-    SELV.forEach(x=>{ let o=byId[x]; if(o&&o.lat==null&&o.org) o=byId[o.org]; if(o&&o.lat!=null) pts.push([o.lat,o.lng]); });
-    if(pts.length>1) geo.flyToBounds(pts,{padding:[60,60],maxZoom:11,duration:.7}); else if(p&&p.lat!=null&&markers[p.id]) cluster.zoomToShowLayer(markers[p.id],()=>{}); }
+    if(false) geo.flyToBounds(pts,{padding:[60,60],maxZoom:11,duration:.7}); else if(p&&p.lat!=null&&markers[p.id]) cluster.zoomToShowLayer(markers[p.id],()=>{}); }
   if(state.view==="v-net") fitNet();
 }
 function fitNet(){ if(!svg||!state.sel) return; const ps=[...SELV].map(x=>byId[x]).filter(n=>n&&n.x!=null); if(!ps.length) return;
   const {w,h}=netBox(), x0=d3.min(ps,n=>n.x)-60, x1=d3.max(ps,n=>n.x)+60, y0=d3.min(ps,n=>n.y)-50, y1=d3.max(ps,n=>n.y)+70;
   const k=Math.max(.35,Math.min(2.2, .9*Math.min(w/(x1-x0), h/(y1-y0))));
   svg.transition().duration(500).call(zoom.transform,d3.zoomIdentity.translate(w/2-(x0+x1)/2*k,h/2-(y0+y1)/2*k).scale(k)); }
-function fitSel(){ if(state.view!=="v-geo"||!geo||!state.sel) return; const pts=[];
+function fitSel(){ return; const pts=[];
   SELV.forEach(x=>{ let p=byId[x]; if(p&&p.lat==null&&p.org) p=byId[p.org]; if(p&&p.lat!=null) pts.push([p.lat,p.lng]); });
   if(pts.length>1) geo.flyToBounds(pts,{padding:[60,60],maxZoom:11,duration:.7}); }
 function renderDetail(){
@@ -729,7 +728,7 @@ function renderDetail(){
    ${n.role?`<p style="margin:8px 0 0;font-weight:600">${esc(n.role)}</p>`:""}
    ${n.category==="Person"?`<h3>Why they are key</h3><p style="margin:0;font-size:13px">Influence score <span class="score">${n.score}</span></p><div class="badges">${(n.tags||[]).map(t=>`<span class="badge tag">${esc(t)}</span>`).join("")}${(n.evidence||[]).filter(e=>!e.startsWith("Leadership role")).map(e=>`<span class="badge">${esc(e)}</span>`).join("")}</div>${n.score<state.minScore||state.minScore===Infinity?`<p class="hint">Hidden at the current Key people setting.</p>`:""}`:""}
    <h3>Connections (${rel.length})</h3>
-   ${rel.length?`<p class="hint" style="margin:0 0 6px">All connections are shown. Click a type to hide or show it.</p><div class="ctchips">${(()=>{ const cnt={}; rel.forEach(r=>cnt[r.l.type]=(cnt[r.l.type]||0)+1); const ks=Object.keys(ETYPES).filter(k=>cnt[k]); const all=ks.every(k=>state.selTypes.has(k));
+   ${rel.length?`<p class="hint" style="margin:0 0 6px">${state.view==="v-geo"?"Open the Network tab to see these connections drawn.":"All connections are shown. Click a type to hide or show it."}</p><div class="ctchips">${(()=>{ const cnt={}; rel.forEach(r=>cnt[r.l.type]=(cnt[r.l.type]||0)+1); const ks=Object.keys(ETYPES).filter(k=>cnt[k]); const all=ks.every(k=>state.selTypes.has(k));
      return `<button type="button" class="ctchip" data-ct="__all" aria-pressed="${all}">All <b>${rel.length}</b></button>`+ks.map(k=>`<button type="button" class="ctchip" data-ct="${esc(k)}" aria-pressed="${state.selTypes.has(k)}">${ekSwatch(k)}${esc(k)} <b>${cnt[k]}</b></button>`).join(""); })()}</div>`:""}
    <ul class="conn">${rel.map(r=>`<li class="${state.selTypes.has(r.l.type)?"on":""}"><button class="go" data-go="${r.o.id}">${esc(nm(r.o))}</button><small>${ETYPES[r.l.type].dir?(G.has(lid(r.l.source))?"→ ":"← "):""}${esc(r.l.type)}: ${esc(r.l.label)}${r.via?` (via ${esc(nm(r.via))})`:""}</small></li>`).join("")}</ul>
    <p style="font-size:13.5px">${esc(n.description)}</p>
@@ -771,13 +770,13 @@ function renderMatrix(){
     const mine=new Set(ms.map(x=>x.n.id));
     const shared=all.filter(x=>x.n.id!==cur).map(x=>({n:x.n,k:x.m.filter(y=>mine.has(y.n.id)).length})).filter(x=>x.k>1).sort((a,b)=>b.k-a.k).slice(0,8);
     body.innerHTML=`<h2>${esc(g.name)}</h2><p class="hint" style="margin:0 0 10px">${esc(g.category)} · ${ms.length} ${isEvent(g)?"organisations with speakers or partners":"members and participants"} found in public sources</p>
-      <p><button class="btn" id="mxMap">Show on map</button> <button class="btn" id="mxDet">Details and sources</button></p>
+      <p><button class="btn" id="mxMap">Show in network</button> <button class="btn" id="mxDet">Details and sources</button></p>
       ${Object.keys(CATS).filter(k=>byCat[k]).map(k=>`<h3><span class="sw ${CATS[k].sq?"sq":""}" style="background:${CATS[k].c}"></span> ${esc(k)} <span class="hint">(${byCat[k].length})</span></h3><div class="mchips">${byCat[k].sort((a,b)=>nm(a.n).localeCompare(nm(b.n))).map(x=>`<button type="button" class="mchip" data-go="${esc(x.n.id)}" title="${esc(x.t+": "+x.lab.join(", "))}">${x.t==="Funding"?"$ ":""}${esc(nm(x.n))}</button>`).join("")}</div>`).join("")||`<p class="hint">No members recorded yet.</p>`}
       ${shared.length?`<h3>Shared members</h3><ul class="conn">${shared.map(x=>`<li><button class="go" data-sw="${esc(x.n.id)}">${esc(nm(x.n))}</button><small>${x.k} members in common</small></li>`).join("")}</ul>`:""}`;
     body.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>select(b.dataset.go));
     body.querySelectorAll("[data-sw]").forEach(b=>b.onclick=()=>{ const n=byId[b.dataset.sw]; kind=isGroup(n)?"g":isProg(n)?"p":"e"; cur=n.id; q.value=""; setKind(); });
     document.getElementById("mxDet").onclick=()=>select(cur);
-    document.getElementById("mxMap").onclick=()=>{ const id=cur; document.getElementById("t-geo").click(); select(id); state.selTypes=new Set(Object.keys(ETYPES).filter(k=>k!=="Shared association")); renderDetail(); applyAll(); setTimeout(fitSel,50); }; };
+    document.getElementById("mxMap").onclick=()=>{ const id=cur; document.getElementById("t-net").click(); select(id); }; };
   const setKind=()=>{ document.querySelectorAll("#mxTabs button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.k===kind)); drawList(); };
   document.querySelectorAll("#mxTabs button").forEach(b=>b.onclick=()=>{ kind=b.dataset.k; cur=null; setKind(); });
   q.oninput=drawList; drawList();
@@ -790,7 +789,7 @@ document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
   document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x===t));
   if(state.view==="v-geo" && geo) setTimeout(()=>geo.invalidateSize(),0);
   if(state.view==="v-net" && svg) setTimeout(()=>state.sel? fitNet() : resetZoom(),0);
-  if(state.view==="v-geo" && state.sel) setTimeout(fitSel,50);
+  if(state.sel) renderDetail();
 });
 </script>
 </body>
