@@ -21477,6 +21477,63 @@
     "Host or venue",
     "Sponsor or prize funder"
    ]
+  },
+  {
+   "id": "saltenna",
+   "name": "Saltenna",
+   "short": "Saltenna",
+   "category": "Equipment & tech vendors",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "Eisenhower West, Alexandria, VA",
+   "lat": 38.803,
+   "lng": -77.125,
+   "precision": "City",
+   "description": "Alexandria antenna startup using plasmonic surface-wave technology to communicate through dense jungle, underwater and through metal. Moved from McLean to Alexandria's Eisenhower West. Holds US Air Force, Army, Navy, USSOCOM and DTRA R&D contracts.",
+   "sources": [
+    "https://www.alxnow.com/?p=78928",
+    "https://aerospaceamerica.aiaa.org/departments/dodging-dead-zones/",
+    "https://executivebiz.com/articles/saltenna-plasmonix-communications-system"
+   ],
+   "chal": [
+    "Solver"
+   ]
+  },
+  {
+   "id": "ashley-johnston",
+   "name": "R. Ashley Johnston",
+   "short": "R. Ashley Johnston",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Chief Operating Officer",
+   "org": "saltenna",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Operating Officer of Saltenna.",
+   "sources": [
+    "https://www.alxnow.com/?p=78928"
+   ]
+  },
+  {
+   "id": "steve-vogelsang",
+   "name": "Steve Vogelsang",
+   "short": "Steve Vogelsang",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Chief Technology Officer, Nokia Federal Solutions",
+   "org": "nokia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO of Nokia Federal Solutions. Spoke on Nokia Federal's FutureG RAPID ISAC award (Nov 2026) and moderated the 5G and FutureG panel at the Potomac Officers Club 2026 Defense R&D Summit.",
+   "sources": [
+    "https://www.executivebiz.com/?p=476372",
+    "https://samsearch.co/government-contracting-news/nokia-federal-wins-dow-rapid-contract-for-5g-and-6g-threat-detection-249449"
+   ]
   }
  ],
  "edges": [
@@ -32637,6 +32694,41 @@
    "type": "Membership",
    "label": "Founding partner",
    "source": "https://news.vt.edu/articles/2026/02/national-innovation-quarter.html"
+  },
+  {
+   "from": "ashley-johnston",
+   "to": "saltenna",
+   "type": "Role",
+   "label": "Chief Operating Officer",
+   "source": "https://www.alxnow.com/?p=78928"
+  },
+  {
+   "from": "steve-vogelsang",
+   "to": "nokia",
+   "type": "Role",
+   "label": "CTO, Nokia Federal Solutions",
+   "source": "https://www.executivebiz.com/?p=476372"
+  },
+  {
+   "from": "vipc",
+   "to": "saltenna",
+   "type": "Funding",
+   "label": "Virginia Venture Partners investment",
+   "source": "https://www.cbinsights.com/company/saltenna"
+  },
+  {
+   "from": "afcea",
+   "to": "saltenna",
+   "type": "Grant / Contract / Award",
+   "label": "First place, AFCEA startup competition",
+   "source": "https://www.afcea.org/comment/6370"
+  },
+  {
+   "from": "saltenna",
+   "to": "building-momentum",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Prototyping at Building Momentum (VEDP profile)",
+   "source": "https://vedp.org/news/alexandrias-light-bulb-moment"
   }
  ]
 }
