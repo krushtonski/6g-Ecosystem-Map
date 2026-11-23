@@ -787,7 +787,7 @@ function renderMatrix(){
   let kind="g", cur=null;
   const list=document.getElementById("mxList"), body=document.getElementById("mxBody"), q=document.getElementById("mxQ");
   const drawList=()=>{ const v=q.value.trim().toLowerCase();
-    const xs=all.filter(x=>KINDS[kind](x.n)&&(!v||x.n.name.toLowerCase().includes(v)||(x.n.short||"").toLowerCase().includes(v))).sort((a,b)=>b.m.length-a.m.length||nm(a.n).localeCompare(nm(b.n)));
+    const xs=all.filter(x=>KINDS[kind](x.n)&&(!v||x.n.name.toLowerCase().includes(v)||(x.n.short||"").toLowerCase().includes(v))).sort((a,b)=>nm(a.n).localeCompare(nm(b.n),"en",{sensitivity:"base"}));
     if(!cur||!xs.some(x=>x.n.id===cur)) cur=xs[0]&&xs[0].n.id;
     list.innerHTML=xs.map(x=>`<li><button type="button" data-id="${esc(x.n.id)}" aria-pressed="${x.n.id===cur}"><span>${esc(nm(x.n))}</span><b>${x.m.length}</b></button></li>`).join("")||`<li class="hint">No matches</li>`;
     list.querySelectorAll("button").forEach(b=>b.onclick=()=>{ cur=b.dataset.id; drawList(); });
