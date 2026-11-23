@@ -329,6 +329,7 @@ function scorePeople(){
     if(tags.length){ s+=2; ev.push("Leadership role: "+tags.join(", ")); }
     if(s===0){ s=1; ev.push("Verified role at a tracked organisation"); }
     p.score=s; p.evidence=ev; p.tags=tags;
+    if(p.noscore){ p.score=1; p.evidence=[]; p.tags=[]; } // shown under "All" only, no influence score
   });
 }
 
@@ -726,7 +727,7 @@ function renderDetail(){
   el.innerHTML=`<h2>${esc(n.name)}</h2>
    <div><span class="pill"><span class="sw ${CATS[n.category].sq?"sq":""}" style="background:${CATS[n.category].c}"></span>${esc(n.category==="Person"?"Person":n.category)}</span><span class="pill">${esc(REGIONS[ring(n)])}</span></div>${(n.hub||[]).length||(n.chal||[]).length?`<div class="roles">${(n.hub||[]).map(r=>`<span class="pill hubp" title="Innovation hub role">Hub: ${esc(r)}</span>`).join("")}${(n.chal||[]).map(r=>`<span class="pill chalp" title="Innovation challenge role">Challenge: ${esc(r)}</span>`).join("")}</div>`:""}
    ${n.role?`<p style="margin:8px 0 0;font-weight:600">${esc(n.role)}</p>`:""}
-   ${n.category==="Person"?`<h3>Why they are key</h3><p style="margin:0;font-size:13px">Influence score <span class="score">${n.score}</span></p><div class="badges">${(n.tags||[]).map(t=>`<span class="badge tag">${esc(t)}</span>`).join("")}${(n.evidence||[]).filter(e=>!e.startsWith("Leadership role")).map(e=>`<span class="badge">${esc(e)}</span>`).join("")}</div>${n.score<state.minScore||state.minScore===Infinity?`<p class="hint">Hidden at the current Key people setting.</p>`:""}`:""}
+   ${n.category==="Person"&&!n.noscore?`<h3>Why they are key</h3><p style="margin:0;font-size:13px">Influence score <span class="score">${n.score}</span></p><div class="badges">${(n.tags||[]).map(t=>`<span class="badge tag">${esc(t)}</span>`).join("")}${(n.evidence||[]).filter(e=>!e.startsWith("Leadership role")).map(e=>`<span class="badge">${esc(e)}</span>`).join("")}</div>${n.score<state.minScore||state.minScore===Infinity?`<p class="hint">Hidden at the current Key people setting.</p>`:""}`:""}
    <h3>Connections (${rel.length})</h3>
    ${rel.length?`<p class="hint" style="margin:0 0 6px">${state.view==="v-geo"?"Open the Network tab to see these connections drawn.":"All connections are shown. Click a type to hide or show it."}</p><div class="ctchips">${(()=>{ const cnt={}; rel.forEach(r=>cnt[r.l.type]=(cnt[r.l.type]||0)+1); const ks=Object.keys(ETYPES).filter(k=>cnt[k]); const all=ks.every(k=>state.selTypes.has(k));
      return `<button type="button" class="ctchip" data-ct="__all" aria-pressed="${all}">All <b>${rel.length}</b></button>`+ks.map(k=>`<button type="button" class="ctchip" data-ct="${esc(k)}" aria-pressed="${state.selTypes.has(k)}">${ekSwatch(k)}${esc(k)} <b>${cnt[k]}</b></button>`).join(""); })()}</div>`:""}
@@ -734,7 +735,7 @@ function renderDetail(){
    <p style="font-size:13.5px">${esc(n.description)}</p>
    ${n.website?`<p class="hint">🌐 <a href="${esc(n.website)}" target="_blank" rel="noopener">${esc(n.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a></p>`:""}
    ${n.address?`<p class="hint">📍 ${esc(n.address)}${n.precision&&n.precision!=="Street address"?` (${esc(n.precision.toLowerCase())}-level)`:""}</p>`:""}
-   ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button> <span class="score" title="Influence score">${p.score}</span><small>${esc(p.role)}${(p.tags||[]).length?" · "+esc(p.tags.join(", ")):""}</small></li>`).join("")}</ul>`:""}
+   ${people.length?`<h3>People</h3><ul class="conn">${people.map(p=>`<li><button class="go" data-go="${p.id}">${esc(p.name)}</button> ${p.noscore?"":`<span class="score" title="Influence score">${p.score}</span>`}<small>${esc(p.role)}${(p.tags||[]).length?" · "+esc(p.tags.join(", ")):""}</small></li>`).join("")}</ul>`:""}
    ${(n.units||[]).length?`<h3>Includes</h3><ul class="conn">${n.units.map(u=>`<li><button class="go" data-go="${u}">${esc(nm(byId[u]))}</button></li>`).join("")}</ul>`:""}
    <h3>Sources</h3><ol class="srcs">${srcs.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,"").slice(0,70))}</a></li>`).join("")}</ol>
    <p><button class="btn" id="clr">Clear selection</button></p>`;
