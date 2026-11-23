@@ -18,6 +18,14 @@
     "https://iac.vt.edu/research-areas/next-g-wireless.html",
     "https://iac.vt.edu/about/location.html",
     "https://virginiabusiness.com/virginia-tech-opens-academic-building-alexandria/"
+   ],
+   "hub": [
+    "Site or landlord",
+    "Talent pipeline"
+   ],
+   "chal": [
+    "Judges and mentors",
+    "Host or venue"
    ]
   },
   {
@@ -72,6 +80,12 @@
    "sources": [
     "https://atis.org/press-releases/atis-next-g-alliance-names-vt-arc-as-technical-program-office-major-role-in-advancing-6g/",
     "https://iac.vt.edu/research-areas/next-g-wireless.html"
+   ],
+   "hub": [
+    "Policy and analysis"
+   ],
+   "chal": [
+    "Judges and mentors"
    ]
   },
   {
@@ -91,6 +105,13 @@
     "https://cyberinitiative.org/content/dam/cci_research_vt_edu/one-pagers-andbrochures-for-website-downloads/CCI%20xG%20Testbed%202024.pdf",
     "https://ccixgtestbed.research.vt.edu/cci-designated-as-otic.html",
     "https://rga.lis.virginia.gov/Published/2024/RD545/PDF"
+   ],
+   "hub": [
+    "Testbed or spectrum"
+   ],
+   "chal": [
+    "Judges and mentors",
+    "Host or venue"
    ]
   },
   {
@@ -111,6 +132,12 @@
     "https://cyberinitiative.org/about/regional-structure/northern-virginia-node/living-innovation-lab.html",
     "https://cec.gmu.edu/news/2023-07/george-mason-university-improving-next-gen-wireless-networks",
     "https://iucrc.nsf.gov/centers/center-for-wireless-innovation-towards-secure-pervasive-efficient-and-resilient-next-g-networks-wisper"
+   ],
+   "hub": [
+    "Talent pipeline"
+   ],
+   "chal": [
+    "Judges and mentors"
    ]
   },
   {
@@ -183,6 +210,13 @@
     "https://www.costar.com/article/1362686323",
     "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581",
     "https://www.fierce-network.com/tech/nsf-establishes-spectrumx-first-u-s-center-for-wireless-spectrum-research"
+   ],
+   "hub": [
+    "Funder or investor",
+    "Customer or problem owner"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
    ]
   },
   {
@@ -201,6 +235,12 @@
    "sources": [
     "https://ida.org/research-and-publications/publications/all/i/im/implications-and-considerations-of-5th-generation",
     "https://ida.org/-/media/corporate/leadership/bios/chas-richard-bio"
+   ],
+   "hub": [
+    "Policy and analysis"
+   ],
+   "chal": [
+    "Judges and mentors"
    ]
   },
   {
@@ -223,7 +263,14 @@
     "https://news.vt.edu/articles/2023/10/eng-futuregaward.html",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
    ],
-   "website": "https://rt.cto.mil/futureg-home/"
+   "website": "https://rt.cto.mil/futureg-home/",
+   "hub": [
+    "Funder or investor",
+    "Customer or problem owner"
+   ],
+   "chal": [
+    "Problem owner"
+   ]
   },
   {
    "id": "ntia",
@@ -313,6 +360,13 @@
    "sources": [
     "https://virginiabusiness.com/potomac-yard-vt-metro-station-opens-in-alexandria/",
     "https://www.alexandriava.gov/go/7624"
+   ],
+   "hub": [
+    "Convener"
+   ],
+   "chal": [
+    "Sponsor or prize funder",
+    "Promoter"
    ]
   },
   {
@@ -331,6 +385,14 @@
    "sources": [
     "https://www.citybiz.co/article/324238/jbg-smith-and-federated-wireless-announce-an-innovative-private-wireless-partnership/",
     "https://vtx.vt.edu/articles/2021/09/innovationcampus-groundbreaking.html"
+   ],
+   "hub": [
+    "Site or landlord",
+    "Testbed or spectrum"
+   ],
+   "chal": [
+    "Sponsor or prize funder",
+    "Host or venue"
    ]
   },
   {
@@ -348,6 +410,12 @@
    "precision": "City",
    "sources": [
     "https://wtop.com/alexandria/2025/02/virginia-tech-innovation-building-gets-ready-to-open"
+   ],
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
    ]
   },
   {
@@ -635,7 +703,10 @@
     "https://www.deepsig.ai/deepsig-joins-ocudu-ecosystem-foundation/",
     "https://briefglance.com/articles/the-pentagon-open-source-and-the-billion-dollar-race-to-6g"
    ],
-   "website": "https://www.deepsig.ai/"
+   "website": "https://www.deepsig.ai/",
+   "chal": [
+    "Solver"
+   ]
   },
   {
    "id": "comsovereign",
@@ -744,6 +815,12 @@
    "sources": [
     "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
     "https://iac.vt.edu/research-areas.html"
+   ],
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
    ]
   },
   {
@@ -761,6 +838,12 @@
    "precision": "City",
    "sources": [
     "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html"
+   ],
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
    ]
   },
   {
@@ -796,6 +879,12 @@
    "sources": [
     "https://news.vt.edu/articles/2025/05/industry-university-center-wireless-networks.html",
     "https://virginiabusiness.com/government-contractors-technology-2026-chris-brady/"
+   ],
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
    ]
   },
   {
@@ -815,7 +904,13 @@
     "https://news.vt.edu/articles/2023/12/ntia-innovation-fund-showcases-vt-cci-researchers.html",
     "https://www.executivebiz.com/?p=470581"
    ],
-   "website": "https://www.boozallen.com/expertise/tech-ecosystem/nextg-technologies.html"
+   "website": "https://www.boozallen.com/expertise/tech-ecosystem/nextg-technologies.html",
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
+   ]
   },
   {
    "id": "mitre",
@@ -833,6 +928,13 @@
    "sources": [
     "https://www.executivebiz.com/?p=470581",
     "https://www.mitre.org/news-insights/news-release/mitre-shape-ai-driven-future-wireless-collaboration-nvidia"
+   ],
+   "hub": [
+    "Anchor employer",
+    "Policy and analysis"
+   ],
+   "chal": [
+    "Judges and mentors"
    ]
   },
   {
@@ -1014,6 +1116,9 @@
    "precision": "",
    "sources": [
     "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+   ],
+   "hub": [
+    "Testbed or spectrum"
    ]
   },
   {
@@ -1032,6 +1137,9 @@
    "sources": [
     "https://news.vt.edu/articles/2023/10/eng-futuregaward.html",
     "https://news.vt.edu/articles/2026/09/virginia-tech-interdisciplinary-research-team--together-with-par.html"
+   ],
+   "hub": [
+    "Testbed or spectrum"
    ]
   },
   {
@@ -1067,6 +1175,9 @@
    "precision": "",
    "sources": [
     "https://www.executivebiz.com/?p=470581"
+   ],
+   "hub": [
+    "Testbed or spectrum"
    ]
   },
   {
@@ -3416,7 +3527,10 @@
    "name": "Hidden Level",
    "category": "Equipment & tech vendors",
    "description": "Passive radar and RF sensing for drone and airspace detection. Team member on Nokia Federal's RAPID ISAC prototype award alongside DeepSig. Booz Allen Ventures invested in its Series B (2024) and $65M Series C (Feb 2025).",
-   "website": "https://www.hiddenlevel.com/"
+   "website": "https://www.hiddenlevel.com/",
+   "chal": [
+    "Solver"
+   ]
   },
   {
    "short": "Future Tech",
@@ -3659,7 +3773,13 @@
    "id": "ericsson-federal",
    "name": "Ericsson Federal Technologies Group",
    "category": "Equipment & tech vendors",
-   "description": "Ericsson's US government-focused business, based in Vienna, VA, set up to work directly with the US government on secure 5G/6G. Holds a seat on the Missile Defense Agency's SHIELD IDIQ. CEO Christopher Ling; Director of Policy & Strategy Nathan Simington (former FCC Commissioner)."
+   "description": "Ericsson's US government-focused business, based in Vienna, VA, set up to work directly with the US government on secure 5G/6G. Holds a seat on the Missile Defense Agency's SHIELD IDIQ. CEO Christopher Ling; Director of Policy & Strategy Nathan Simington (former FCC Commissioner).",
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
+   ]
   },
   {
    "short": "",
@@ -3750,7 +3870,10 @@
    "name": "CACI International",
    "category": "Defence & integrators",
    "description": "Defence and intelligence technology contractor. Its Platform & Tactical C3I division delivers integration programmes for DoW, DHS and the intelligence community.",
-   "website": "https://www.caci.com/"
+   "website": "https://www.caci.com/",
+   "hub": [
+    "Anchor employer"
+   ]
   },
   {
    "short": "",
@@ -3768,7 +3891,10 @@
    "name": "Oceus",
    "category": "Equipment & tech vendors",
    "description": "Private 4G/5G and tactical cellular network provider for defence and federal customers (Xiphos, ONmission). NSA Trusted Integrator for CSfC.",
-   "website": "https://oceusnetworks.com/"
+   "website": "https://oceusnetworks.com/",
+   "chal": [
+    "Solver"
+   ]
   },
   {
    "short": "NSA",
@@ -3803,7 +3929,13 @@
    "id": "us-army",
    "name": "US Army",
    "category": "Government & funders",
-   "description": "US Army. Its Deputy Chief of Staff, G-6 leads Army network and cyber strategy, including 5G experimentation."
+   "description": "US Army. Its Deputy Chief of Staff, G-6 leads Army network and cyber strategy, including 5G experimentation.",
+   "hub": [
+    "Customer or problem owner"
+   ],
+   "chal": [
+    "Problem owner"
+   ]
   },
   {
    "short": "USMC",
@@ -3820,7 +3952,13 @@
    "id": "usmc",
    "name": "US Marine Corps",
    "category": "Government & funders",
-   "description": "US Marine Corps. Running tactical and installation 5G experiments; Project Dynamis is its JADC2 effort."
+   "description": "US Marine Corps. Running tactical and installation 5G experiments; Project Dynamis is its JADC2 effort.",
+   "hub": [
+    "Customer or problem owner"
+   ],
+   "chal": [
+    "Problem owner"
+   ]
   },
   {
    "short": "",
@@ -3930,6 +4068,13 @@
     "https://en.wikipedia.org/wiki/Federated_Wireless",
     "https://corrierecomunicazioni.it/telco/banda-4-gh-corsia-preferenziale-verso-la-leadership-nel-6g",
     "https://federatedwireless.ai/2026/06/18/federated-wireless-introduces-spectrum-ai-the-first-physical-ai-platform-for-shared-spectrum-delivering-up-to-5x-more-capacity-using-existing-spectrum-and-infrastructure/"
+   ],
+   "hub": [
+    "Anchor employer",
+    "Testbed or spectrum"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
    ]
   },
   {
@@ -4018,6 +4163,9 @@
    "website": "https://www.tiaminetworks.com/",
    "sources": [
     "https://journalofcyberpolicy.com/?p=334523"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -4036,6 +4184,9 @@
    "sources": [
     "https://www.rfglobalnet.com/doc/rampart-communications-and-virginia-tech-awarded-m-from-chips-act-grant-0001",
     "https://www.highergov.com/grant/2460IF2415"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -4160,6 +4311,12 @@
    "website": "https://www.doncio.navy.mil/",
    "sources": [
     "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+   ],
+   "hub": [
+    "Customer or problem owner"
+   ],
+   "chal": [
+    "Problem owner"
    ]
   },
   {
@@ -5761,6 +5918,12 @@
     "https://job-boards.greenhouse.io/analyticservicesinc/jobs/4954814008",
     "https://littlesis.org/org/335665-Anser_Institute_for_Homeland_Security",
     "https://www.anser.org/about/leadership/"
+   ],
+   "hub": [
+    "Policy and analysis"
+   ],
+   "chal": [
+    "Judges and mentors"
    ]
   },
   {
@@ -5780,6 +5943,12 @@
    "sources": [
     "https://dodcio.defense.gov/About-DoW-CIO",
     "https://www.anser.org/careers/job/?id=5386272008"
+   ],
+   "hub": [
+    "Customer or problem owner"
+   ],
+   "chal": [
+    "Problem owner"
    ]
   },
   {
@@ -5818,6 +5987,9 @@
     "https://en.wikipedia.org/wiki/Ofinno",
     "https://ofinno.com/?p=7549",
     "https://ofinno.com/our-technologies/6g-innovation-lab/"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -6460,6 +6632,9 @@
     "https://www.cbinsights.com/company/abside-networks",
     "https://cyberinitiative.org/cci-xg-testbed.html",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -6478,6 +6653,9 @@
    "sources": [
     "https://govtribe.com/vendors/altio-labs-llc-9lty3",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -6513,6 +6691,9 @@
    "sources": [
     "https://craft.co/dash-tech-integrated-circuits",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -6567,7 +6748,13 @@
     "https://www.executivegov.com/articles/dow-futureg-isac-rapid-prototype-awards",
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
    ],
-   "website": "https://www.leidos.com/"
+   "website": "https://www.leidos.com/",
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
+   ]
   },
   {
    "id": "utah",
@@ -6601,6 +6788,9 @@
    "description": "Defence R&D company. RAPID ISAC awardee with Northeastern University.",
    "sources": [
     "https://www.militaryaerospace.com/communications/article/55417118/futureg-awards-more-than-50-million-for-integrated-sensing-and-communications-prototypes"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -6749,6 +6939,10 @@
    "sources": [
     "https://nss.ece.vt.edu/people.html",
     "https://nss.ece.vt.edu/angelos/"
+   ],
+   "hub": [
+    "Testbed or spectrum",
+    "Talent pipeline"
    ]
   },
   {
@@ -6787,6 +6981,12 @@
    "description": "Trade association for the businesses that build, develop, own and operate US wireless infrastructure. Advocates for widespread deployment of wireless infrastructure to enable connectivity everywhere.",
    "sources": [
     "https://wia.org/iain-gillott-joins-wia-as-vice-president-of-technology-innovation/"
+   ],
+   "hub": [
+    "Convener"
+   ],
+   "chal": [
+    "Promoter"
    ]
   },
   {
@@ -7070,6 +7270,12 @@
     "https://www.afcea.org/",
     "https://www.afcea.org/about-afcea/afcea-senior-leadership",
     "https://federatedwireless.ai/2026/03/03/afcea-west-2026-private-5g-moves-from-pilots-to-proven-deployments/"
+   ],
+   "hub": [
+    "Convener"
+   ],
+   "chal": [
+    "Promoter"
    ]
   },
   {
@@ -7345,6 +7551,12 @@
     "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/",
     "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-C4IT-CG-6-/C5ISC/Leadership",
     "https://www.mycg.uscg.mil/News/Article/4200463/cutter-connectivity-is-faster-than-ever-before/"
+   ],
+   "hub": [
+    "Customer or problem owner"
+   ],
+   "chal": [
+    "Problem owner"
    ]
   },
   {
@@ -7365,6 +7577,12 @@
     "https://www.americangovernancetoday.com/article/936015343-fedinsider-and-carahsoft-co-host-carahsoft-s-fourth-annual-5g-summit-in-reston-va-on-aug-25-2026",
     "https://www.fedinsider.com/nextgen-cellular-networks/",
     "https://www.fedinsider.com/laying-the-groundwork-for-6g/"
+   ],
+   "hub": [
+    "Convener"
+   ],
+   "chal": [
+    "Host or venue"
    ]
   },
   {
@@ -15866,6 +16084,13 @@
    "sources": [
     "https://www.dakota.com/resources/blog/top-10-iqt-portfolio-companies-2025",
     "https://newspacetracker.com/company/in-q-tel/"
+   ],
+   "hub": [
+    "Funder or investor"
+   ],
+   "chal": [
+    "Sponsor or prize funder",
+    "Judges and mentors"
    ]
   },
   {
@@ -15884,6 +16109,9 @@
    "sources": [
     "https://aventure.vc/investors/firms/telcom-ventures-alexandria-va-us",
     "https://uk.marketscreener.com/insider/RAJENDRA-SINGH-A02IPV/network"
+   ],
+   "hub": [
+    "Funder or investor"
    ]
   },
   {
@@ -15902,6 +16130,12 @@
    "sources": [
     "https://www.washingtontechnology.com/companies/2025/07/booz-allen-gives-big-boost-its-venture-arm/406862",
     "https://globalventuring.com/corporate/fundraising/booz-allen-ventures-300m/?format=md"
+   ],
+   "hub": [
+    "Funder or investor"
+   ],
+   "chal": [
+    "Judges and mentors"
    ]
   },
   {
@@ -15919,6 +16153,12 @@
    "description": "RTX's corporate venture arm, active in early-stage defence technology rounds.",
    "sources": [
     "https://washingtontechnology.com/companies/2025/06/andurils-series-g-round-and-more-venture-moves-highlight/405983"
+   ],
+   "hub": [
+    "Funder or investor"
+   ],
+   "chal": [
+    "Judges and mentors"
    ]
   },
   {
@@ -15963,7 +16203,7 @@
    "name": "VIPC and Virginia Venture Partners",
    "short": "VIPC / VVP",
    "category": "Government & funders",
-   "region": "Rest of US & global",
+   "region": "Northern Virginia",
    "role": null,
    "org": null,
    "address": "Richmond, VA",
@@ -15976,6 +16216,12 @@
     "https://www.vabio.org/virginia-innovation-partnership-corporation-introduces-new-name-of-cit-gap-funds-virginia-venture-partners",
     "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology",
     "https://vipc.org/deepsig/"
+   ],
+   "hub": [
+    "Funder or investor"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
    ]
   },
   {
@@ -15995,6 +16241,13 @@
     "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology",
     "https://luma.com/y5ire5a5",
     "https://www.arlingtoneconomicdevelopment.com/News-Resources/Events/Missions-Markets-07-Pre-Summer-Open-House"
+   ],
+   "hub": [
+    "Convener"
+   ],
+   "chal": [
+    "Host or venue",
+    "Promoter"
    ]
   },
   {
@@ -16013,6 +16266,14 @@
    "sources": [
     "https://luma.com/y5ire5a5",
     "https://luma.com/vcIQ-FORGE"
+   ],
+   "hub": [
+    "Funder or investor",
+    "Convener"
+   ],
+   "chal": [
+    "Judges and mentors",
+    "Promoter"
    ]
   },
   {
@@ -16031,6 +16292,13 @@
    "sources": [
     "https://luma.com/y5ire5a5",
     "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+   ],
+   "hub": [
+    "Convener"
+   ],
+   "chal": [
+    "Judges and mentors",
+    "Promoter"
    ]
   },
   {
@@ -16083,6 +16351,9 @@
    "description": "Mid-Atlantic early-stage investor. Investor in DeepSig's Series A (2020).",
    "sources": [
     "https://vcnewsdaily.com/deepsig/venture-capital-funding/vdqddrdccl"
+   ],
+   "hub": [
+    "Funder or investor"
    ]
   },
   {
@@ -16226,6 +16497,13 @@
    "description": "US Defense Advanced Research Projects Agency. Funds early-stage defence research, including wireless and spectrum programmes, from Arlington.",
    "sources": [
     "https://www.darpa.mil/"
+   ],
+   "hub": [
+    "Funder or investor",
+    "Customer or problem owner"
+   ],
+   "chal": [
+    "Problem owner"
    ]
   },
   {
@@ -16334,6 +16612,9 @@
     "https://mytechdecisions.com/?p=34315",
     "https://www.insight.com/en_US/content-and-resources/blog/test-and-play-with-military-5g-communications-in-the-quantico-cyber-hub.html",
     "https://s3.amazonaws.com/ss-usa/companies/MzawMLEwNrYwAwA/uploads/CBF_CRADA.pdf"
+   ],
+   "hub": [
+    "Talent pipeline"
    ]
   },
   {
@@ -18698,6 +18979,9 @@
     "https://www.eenewseurope.com/en/bill-gates-backs-startup-to-bring-holographic-beamforming/",
     "https://www.citybiz.co/?p=456845",
     "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -18736,6 +19020,9 @@
     "https://dronelife.com/2026/07/09/echodyne-expands-u-s-radar-manufacturing-to-meet-global-c-uas-demand/",
     "https://militaryembedded.com/unmanned/counter-uas/mesa-counter-uas-radars-added-to-jiatf-401-procurement-vehicle",
     "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -18754,6 +19041,9 @@
    "sources": [
     "https://sacra.com/c/zainar/",
     "https://siliconvalleyinvestclub.com/companies/zainar/tear-sheet.pdf"
+   ],
+   "chal": [
+    "Solver"
    ]
   },
   {
@@ -20509,6 +20799,12 @@
    "sources": [
     "https://finviz.com/news/423847/iridium-activates-iridium-ntn-direct-worlds-first-standards-based-nb-iot-and-d2d-service-with-truly-global-coverage",
     "https://www.prnewswire.com/in/news-releases/iridium-accelerates-direct-to-device-service-with-acceptance-into-3gpp-standards-announces-iridium-ntn-direct-302257878.html"
+   ],
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
    ]
   },
   {
@@ -20604,6 +20900,429 @@
    "sources": [
     "https://www.viavisolutions.com/node/118215",
     "https://finviz.com/news/360568/square-peg-communications-and-viavi-solutions-join-forces-to-advance-5g-ntn-testing"
+   ]
+  },
+  {
+   "id": "aed",
+   "name": "Arlington Economic Development (AED)",
+   "short": "Arlington Economic Development",
+   "category": "Economic development & place",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "1100 N Glebe Rd #1500, Arlington, VA 22201",
+   "lat": 38.8836,
+   "lng": -77.1166,
+   "precision": "Street address",
+   "description": "Arlington County's economic development agency. Founding partner of National IQ and lead applicant for its ~$3.9M GO Virginia award (June 2026). Runs the Missions + Markets defense and dual-use series with VC in DC.",
+   "sources": [
+    "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Arlington-Awarded-4.2-million-in-GO-Virginia-Grant-funds-to-Advance-Local-Innovation-Economy-and-Lead-Statewide-Office-Study",
+    "https://arlingtonva.us/Government/County-Leadership/Executive-Bios/Ryan-Touhill"
+   ],
+   "hub": [
+    "Funder or investor",
+    "Convener"
+   ],
+   "chal": [
+    "Sponsor or prize funder",
+    "Promoter"
+   ]
+  },
+  {
+   "id": "national-landing-bid",
+   "name": "National Landing Business Improvement District",
+   "short": "National Landing BID",
+   "category": "Economic development & place",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "1550 Crystal Drive Suite 420, Arlington, VA 22202",
+   "lat": 38.859,
+   "lng": -77.05,
+   "precision": "Street address",
+   "description": "Place management nonprofit for Crystal City, Pentagon City and Potomac Yard. Founding partner of National IQ; celebrated 20 years in May 2026.",
+   "sources": [
+    "https://www.nationallanding.org/stories/national-landing-bid-celebrates-20th-anniversary-unveils-new-brand-identity",
+    "https://www.nationallanding.org/media/Board/Board-Meeting-Minutes/FY2026/minutes-fy2026q2-20251030-final.pdf"
+   ],
+   "hub": [
+    "Site or landlord",
+    "Convener"
+   ],
+   "chal": [
+    "Host or venue",
+    "Promoter"
+   ]
+  },
+  {
+   "id": "nova-cc",
+   "name": "Northern Virginia Community College (NOVA)",
+   "short": "NOVA",
+   "category": "Academic & research",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "Annandale, VA",
+   "lat": 38.8304,
+   "lng": -77.1964,
+   "precision": "City",
+   "description": "One of the largest US community colleges, with six campuses from Arlington to Manassas, including an Alexandria campus. A core technician and workforce pipeline for the corridor.",
+   "sources": [
+    "https://virginiabusiness.com/education-2026-anne-m-kress/",
+    "https://www.fairfaxcounty.gov/news/node/955"
+   ],
+   "hub": [
+    "Talent pipeline"
+   ],
+   "chal": [
+    "Promoter"
+   ]
+  },
+  {
+   "id": "nvtc",
+   "name": "Northern Virginia Technology Council (NVTC)",
+   "short": "NVTC",
+   "category": "Associations & alliances",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "McLean, VA",
+   "lat": 38.9339,
+   "lng": -77.1773,
+   "precision": "City",
+   "description": "One of the largest regional technology trade associations in the US. Launched a new strategic plan in June 2026.",
+   "sources": [
+    "https://www.nvtc.org/?p=11847",
+    "https://virginiabusiness.com/government-contractors-technology-2026-jennifer-taylor/"
+   ],
+   "hub": [
+    "Convener"
+   ],
+   "chal": [
+    "Promoter"
+   ]
+  },
+  {
+   "id": "go-va-r7",
+   "name": "GO Virginia Region 7 Council (Northern Virginia)",
+   "short": "GO Virginia Region 7",
+   "category": "Government & funders",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Business-led state economic development program council for Northern Virginia. Its largest 2026 award, nearly $4M, launched National IQ programming including an Alexandria innovation lab.",
+   "sources": [
+    "https://www.dhcd.virginia.gov/governor-spanberger-announces-56-million-go-virginia-funding-support-innovation-economic-growth",
+    "https://www.dhcd.virginia.gov/sites/default/files/DocX/gova/region-seven/gova-r7-annual-report-25.pdf"
+   ],
+   "hub": [
+    "Funder or investor"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
+   ]
+  },
+  {
+   "id": "alx-arl-workforce",
+   "name": "Alexandria/Arlington Regional Workforce Council",
+   "short": "Alexandria/Arlington Workforce Council",
+   "category": "Economic development & place",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "2100 Washington Boulevard, Arlington, VA 22204",
+   "lat": 38.8669,
+   "lng": -77.0871,
+   "precision": "City",
+   "description": "Local workforce development board for Alexandria and Arlington (Virginia Career Works).",
+   "sources": [
+    "https://virginiaworks.gov/workforce-partners",
+    "https://www.governor.virginia.gov/newsroom/news-releases/2025/july/name-1053161-en.html"
+   ],
+   "hub": [
+    "Talent pipeline"
+   ],
+   "chal": [
+    "Promoter"
+   ]
+  },
+  {
+   "id": "vcw-northern",
+   "name": "Virginia Career Works – Northern",
+   "short": "Virginia Career Works – Northern",
+   "category": "Economic development & place",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "8300 Boone Blvd, Vienna, VA 22182",
+   "lat": 38.9183,
+   "lng": -77.2297,
+   "precision": "City",
+   "description": "Workforce development board for the wider Northern Virginia region, with The SkillSource Group as fiscal sponsor. Runs reemployment programs for federal workers and contractors.",
+   "sources": [
+    "https://web.novachamber.org/Employment-Agency/Virginia-Career-Works-Northern-Region-12919",
+    "https://huntscanlon.com/pyramind-recruits-president-and-ceo-for-the-skillsource-group/"
+   ],
+   "hub": [
+    "Talent pipeline"
+   ]
+  },
+  {
+   "id": "cape",
+   "name": "Cape",
+   "short": "Cape",
+   "category": "Network operators",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "1201 Wilson Boulevard, Arlington, VA 22209",
+   "lat": 38.8954,
+   "lng": -77.0716,
+   "precision": "Street address",
+   "description": "Arlington-based privacy-first mobile carrier that runs its own mobile core and SIMs. Raised a $100M Series C in March 2026 and serves consumers, enterprises and government.",
+   "sources": [
+    "https://www.businesswire.com/news/home/20260319350390/en/Cape-Raises-100M-Series-C-to-Power-Private-and-Secure-Mobile-Connectivity-for-Enterprises-Government-and-Consumers/",
+    "https://www.cbinsights.com/company/cape-3"
+   ],
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Solver"
+   ]
+  },
+  {
+   "id": "hawkeye-360",
+   "name": "HawkEye 360",
+   "short": "HawkEye 360",
+   "category": "Equipment & tech vendors",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "450 Springpark Place Suite 500, Herndon, VA 20170",
+   "lat": 38.9566,
+   "lng": -77.4108,
+   "precision": "City",
+   "description": "Herndon-based operator of a formation-flying RF sensing satellite constellation that detects and geolocates radio emissions. Listed on the NYSE in May 2026. A natural solver for RF sensing and spectrum challenges.",
+   "sources": [
+    "https://www.cbinsights.com/company/hawkeye-360-361",
+    "https://newspaceeconomy.ca/2026/10/20/how-did-hawkeye-360-build-a-commercial-signals-intelligence-empire-in-low-earth-orbit/?amp=1"
+   ],
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Solver"
+   ]
+  },
+  {
+   "id": "saic",
+   "name": "SAIC",
+   "short": "SAIC",
+   "category": "Defence & integrators",
+   "region": "Northern Virginia",
+   "role": null,
+   "org": null,
+   "address": "Reston, VA",
+   "lat": 38.9586,
+   "lng": -77.357,
+   "precision": "City",
+   "description": "Government technology integrator and founding partner of National IQ. SAIC Ventures' managing partner chairs the National IQ board.",
+   "sources": [
+    "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology",
+    "https://www.nationallanding.org/stories/national-innovation-quarter-secures-4-million-to-grow-northern-virginias-innovation-economy"
+   ],
+   "hub": [
+    "Anchor employer"
+   ],
+   "chal": [
+    "Sponsor or prize funder"
+   ]
+  },
+  {
+   "id": "nationaliq-lab",
+   "name": "National IQ Innovation Lab (Potomac Yard)",
+   "short": "National IQ Innovation Lab",
+   "category": "Programmes & testbeds",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "Potomac Yard, Alexandria, VA",
+   "lat": 38.8316,
+   "lng": -77.0468,
+   "precision": "City",
+   "description": "Planned secure facility in Potomac Yard for entrepreneurs to prototype and test, funded with $800,000 of the 2026 GO Virginia award. Partners: Virginia Tech, Inova, City of Alexandria, National IQ and Arlington.",
+   "sources": [
+    "https://www.alxnow.com/?p=84062"
+   ],
+   "hub": [
+    "Site or landlord",
+    "Testbed or spectrum"
+   ],
+   "chal": [
+    "Host or venue"
+   ]
+  },
+  {
+   "id": "anna-nissinen",
+   "name": "Anna Nissinen",
+   "short": "Anna Nissinen",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Chief Economic Development Officer and Director",
+   "org": "aed",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads Arlington Economic Development from 29 June 2026; previously at the Fairfax County Economic Development Authority.",
+   "sources": [
+    "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Anna-Nissinen-Appointed-to-Head-Arlington-Economic-Development",
+    "https://virginiabusiness.com/arlington-county-taps-new-economic-development-director/"
+   ]
+  },
+  {
+   "id": "tracy-sayegh-gabriel",
+   "name": "Tracy Sayegh Gabriel",
+   "short": "Tracy Sayegh Gabriel",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and CEO",
+   "org": "national-landing-bid",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Has led the National Landing BID since 2018.",
+   "sources": [
+    "https://www.nationallanding.org/stories/national-landing-bid-celebrates-20th-anniversary-unveils-new-brand-identity",
+    "https://nationallanding.org/staff"
+   ]
+  },
+  {
+   "id": "anne-kress",
+   "name": "Anne M. Kress",
+   "short": "Anne M. Kress",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President",
+   "org": "nova-cc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President of NOVA since 2020; chair of the American Council on Education board from October 2026.",
+   "sources": [
+    "https://virginiabusiness.com/education-2026-anne-m-kress/",
+    "https://www.acenet.edu/News-Room/Pages/2026-ACE-Board-Election.aspx"
+   ]
+  },
+  {
+   "id": "jennifer-taylor",
+   "name": "Jennifer Taylor",
+   "short": "Jennifer Taylor",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and CEO",
+   "org": "nvtc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Has led NVTC since 2020.",
+   "sources": [
+    "https://virginiabusiness.com/government-contractors-technology-2026-jennifer-taylor/",
+    "https://www.nvtc.org/?p=11847"
+   ]
+  },
+  {
+   "id": "david-remick",
+   "name": "David Remick",
+   "short": "David Remick",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Director",
+   "org": "alx-arl-workforce",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director of the Alexandria/Arlington local workforce board.",
+   "sources": [
+    "https://virginiaworks.gov/workforce-partners"
+   ]
+  },
+  {
+   "id": "john-doyle-cape",
+   "name": "John Doyle",
+   "short": "John Doyle",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Founder and CEO",
+   "org": "cape",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founder and CEO of Cape.",
+   "sources": [
+    "https://app.welcometothejungle.com/jobs/0F88DBiG"
+   ]
+  },
+  {
+   "id": "john-serafini",
+   "name": "John Serafini",
+   "short": "John Serafini",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "CEO",
+   "org": "hawkeye-360",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of HawkEye 360.",
+   "sources": [
+    "https://finviz.com/news/367841/hawkeye-360-pathfinder-satellite-model-featured-in-new-smithsonians-national-air-and-space-museum-exhibit",
+    "https://satnews.com/2026/09/15/hawkeye-360-executes-three-part-european-strategy-to-establish-in-region-rf-intelligence-operations/"
+   ]
+  },
+  {
+   "id": "michael-hauser",
+   "name": "Michael Hauser",
+   "short": "Michael Hauser",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "Managing Partner, SAIC Ventures",
+   "org": "saic",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Managing Partner of SAIC Ventures and Board Chair of National IQ.",
+   "sources": [
+    "https://www.nationallanding.org/stories/national-innovation-quarter-secures-4-million-to-grow-northern-virginias-innovation-economy"
+   ]
+  },
+  {
+   "id": "clifford-yee",
+   "name": "Clifford Yee",
+   "short": "Clifford Yee",
+   "category": "Person",
+   "region": "Northern Virginia",
+   "role": "President and CEO, The SkillSource Group",
+   "org": "vcw-northern",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads The SkillSource Group, fiscal sponsor of Virginia Career Works – Northern, from September 2026.",
+   "sources": [
+    "https://huntscanlon.com/pyramind-recruits-president-and-ceo-for-the-skillsource-group/"
    ]
   }
  ],
@@ -31653,6 +32372,118 @@
    "type": "Testbed / Trial / Consortium project",
    "label": "Integrating Iridium NTN Direct roaming for IoT (2025)",
    "source": "https://www.telecomtv.com/content/access-evolution/iridium-begins-integration-of-ntn-direct-with-deutsche-telekom-53850/"
+  },
+  {
+   "from": "amazon",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "northrop",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "saic",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "aed",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "aedp",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "jbg",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "national-landing-bid",
+   "to": "national-iq",
+   "type": "Membership",
+   "label": "Founding partner",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/National-Innovation-Quarter-National-IQ-Launches-in-Northern-Virginia-to-Accelerate-Breakthroughs-at-the-Intersection-of-National-Competitiveness-and-Technology"
+  },
+  {
+   "from": "go-va-r7",
+   "to": "national-iq",
+   "type": "Funding",
+   "label": "~$3.9M GO Virginia award, largest in its round (2026)",
+   "source": "https://www.dhcd.virginia.gov/governor-spanberger-announces-56-million-go-virginia-funding-support-innovation-economic-growth"
+  },
+  {
+   "from": "aed",
+   "to": "national-iq",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Lead applicant for the GO Virginia award",
+   "source": "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Arlington-Awarded-4.2-million-in-GO-Virginia-Grant-funds-to-Advance-Local-Innovation-Economy-and-Lead-Statewide-Office-Study"
+  },
+  {
+   "from": "go-va-r7",
+   "to": "nationaliq-lab",
+   "type": "Funding",
+   "label": "$800,000 to set up the innovation lab",
+   "source": "https://www.alxnow.com/?p=84062"
+  },
+  {
+   "from": "national-iq",
+   "to": "nationaliq-lab",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner",
+   "source": "https://www.alxnow.com/?p=84062"
+  },
+  {
+   "from": "vt-iac",
+   "to": "nationaliq-lab",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner (Virginia Tech, Potomac Yard)",
+   "source": "https://www.alxnow.com/?p=84062"
+  },
+  {
+   "from": "aedp",
+   "to": "nationaliq-lab",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner (City of Alexandria)",
+   "source": "https://www.alxnow.com/?p=84062"
+  },
+  {
+   "from": "aed",
+   "to": "nationaliq-lab",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner (Arlington)",
+   "source": "https://www.alxnow.com/?p=84062"
+  },
+  {
+   "from": "aed",
+   "to": "vc-in-dc",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Missions + Markets series partner",
+   "source": "https://www.arlnow.com/2025/08/06/biz-talk-arlington-emerging-as-a-hub-for-dual-use-innovation-aed1/"
+  },
+  {
+   "from": "michael-hauser",
+   "to": "national-iq",
+   "type": "Role",
+   "label": "Board Chair",
+   "source": "https://www.nationallanding.org/stories/national-innovation-quarter-secures-4-million-to-grow-northern-virginias-innovation-economy"
   }
  ]
 }

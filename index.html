@@ -55,13 +55,23 @@ aside h3:first-child{margin-top:0}
 .info{width:16px;height:16px;border-radius:50%;border:1px solid var(--muted);background:none;color:var(--muted);font:italic 700 10px/1 Georgia,serif;cursor:pointer;padding:0;text-transform:none}
 .kpinfo{font-size:12px;line-height:1.45;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 9px;margin:0 0 8px}
 .kpc{margin-left:auto;font-size:11px;font-weight:600;color:var(--accent);background:var(--accent-soft);border-radius:10px;padding:1px 7px;white-space:nowrap}
-#kpSlider{width:100%;margin:4px 0 0;accent-color:var(--accent)}
-.kpstops{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);padding:0 2px}
+.kpseg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin:6px 0 0}
+.kpseg button{flex:1;font:600 12px var(--body);padding:6px 0;border:0;border-right:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.kpseg button:last-child{border-right:0}
+.kpseg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.kprow{display:flex;align-items:center;font-size:12px;color:var(--muted);margin-top:4px}
 .chk.off{opacity:.45;cursor:not-allowed}
 .badges{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0 0}.badge{font-size:11.5px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:2px 8px}.badge.tag{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:600}
 .score{font-weight:700;color:var(--accent)}
 .hit{stroke:transparent;stroke-width:9;fill:none;cursor:pointer}
 select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+.roles{margin-top:4px}.pill.hubp{background:#e6effb;color:#1E3A8A}.pill.chalp{background:#fdeee0;color:#8a4a00}
+.qres{list-style:none;margin:4px 0 0;padding:0;border:1px solid var(--line);border-radius:6px;background:var(--bg);max-height:260px;overflow:auto}
+.qres li{padding:6px 8px;font-size:13px;cursor:pointer;border-bottom:1px solid var(--line)}
+.qres li:last-child{border-bottom:0}
+.qres li:hover,.qres li.act{background:var(--accent-soft)}
+.qres small{display:block;color:var(--muted);font-size:11px}
+.qres .none{cursor:default;color:var(--muted)}
 .hint{color:var(--muted);font-size:12px;margin:6px 0 0}
 .center{flex:1;min-width:0;position:relative;display:flex;flex-direction:column}
 .view{flex:1;min-height:0;display:none;position:relative}
@@ -149,14 +159,20 @@ footer a{color:var(--accent)}
 <main>
   <aside>
     <h3>Search</h3>
-    <input type="search" id="q" placeholder="Organisation or person" aria-label="Search">
+    <input type="search" id="q" placeholder="Organisation or person" aria-label="Search" autocomplete="off" aria-controls="qres">
+    <ul id="qres" class="qres" role="listbox" hidden></ul>
     <h3>Categories</h3>
     <div id="catf"></div>
+    <h3>Corridor roles</h3>
+    <label class="hint" for="hubSel" style="display:block;margin:0 0 3px">Innovation hub role</label>
+    <select id="hubSel" aria-label="Innovation hub role"><option value="">Any</option></select>
+    <label class="hint" for="chalSel" style="display:block;margin:8px 0 3px">Innovation challenge role</label>
+    <select id="chalSel" aria-label="Innovation challenge role"><option value="">Any</option></select>
+    <p class="hint">Roles an organisation could play in a 6G innovation hub or challenge in the Alexandria-Arlington corridor. These are our assessment, based on each organisation's public profile.</p>
     <h3 class="kph">Key people <button type="button" class="info" id="kpInfoBtn" aria-expanded="false" aria-controls="kpInfo" title="How are key people identified?">i</button></h3>
     <div id="kpInfo" class="kpinfo" hidden><b>How are key people identified?</b> People are ranked by verified leadership roles, funded awards, standards governance and cross-sector collaboration, all taken from the public sources behind each link.<br>+3 named PI or lead on a funding or award link · +3 chair, vice-chair or board role · +2 links to organisations in 2 or more sectors · +2 joint R&amp;D or testbed project · +1 event speaker · +2 leadership title matching one of four types: <i>Funding Gatekeeper</i> (programme directors and grant leads at funders), <i>Standards Leader</i> (chairs and rapporteurs in 3GPP, ITU-R, O-RAN, Next G Alliance), <i>Testbed Lead</i> (PIs, lab and testbed directors), <i>Ecosystem Connector</i> (technology and 6G strategy leads, board members, regional connectors). Everyone with a verified role scores at least 1.</div>
-    <label class="chk"><input type="checkbox" id="kpOn"> Show people on the map <span id="kpCount" class="kpc"></span></label>
-    <input type="range" id="kpSlider" min="0" max="3" step="1" value="0" aria-label="Key people threshold" aria-describedby="kpLabel">
-    <div class="kpstops" aria-hidden="true"><span>Off</span><span>All</span><span>Key</span><span>Core</span></div>
+    <div class="kpseg" id="kpSeg" role="group" aria-label="Key people threshold" aria-describedby="kpLabel"><button type="button" data-i="0" aria-pressed="true">Off</button><button type="button" data-i="1" aria-pressed="false">All</button><button type="button" data-i="2" aria-pressed="false">Key</button><button type="button" data-i="3" aria-pressed="false">Core</button></div>
+    <div class="kprow">People on the map <span id="kpCount" class="kpc"></span></div>
     <p class="hint" id="kpLabel"></p>
     <h3>Connection types</h3>
     <div id="edgef"></div>
@@ -283,7 +299,7 @@ function ring(n){ const p = n.lat!=null? n : (n.org && byId[n.org] && byId[n.org
   return DCREG.includes(n.region)?0:1; }
 
 let NODES=[], LINKS=[], byId={}, SHARED=[];
-const state = {cats:new Set(Object.keys(CATS)), types:new Set(Object.keys(ETYPES).filter(t=>t!=="Shared association")), shared:false, minScore:Infinity, q:"", assoc:"", sel:null, view:"v-geo"};
+const state = {cats:new Set(Object.keys(CATS)), types:new Set(Object.keys(ETYPES).filter(t=>t!=="Shared association")), shared:false, minScore:Infinity, hub:"", chal:"", q:"", assoc:"", sel:null, view:"v-geo"};
 
 fetch("data/ecosystem.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
  .then(boot).catch(e=>{ document.querySelector(".center").innerHTML=`<p class="err">The map data could not be loaded (${esc(e.message)}). If you opened this file directly, serve the folder over HTTP or view it on GitHub Pages.</p>`; });
@@ -322,24 +338,41 @@ function renderFilters(){
   const ef=document.getElementById("edgef");
   ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}" checked>${ekSwatch(k)}${esc(k)}</label>`).join("")+`<p class="ehelp">${esc(EHELP)}</p>`;
   ef.onchange=e=>{ const k=e.target.dataset.t; e.target.checked?state.types.add(k):state.types.delete(k); applyAll(); };
-  const sl=document.getElementById("kpSlider"), on=document.getElementById("kpOn"), ib=document.getElementById("kpInfoBtn");
-  let lastOn=3;
-  sl.oninput=()=>{ if(+sl.value) lastOn=+sl.value; applyKP(); };
-  on.onchange=()=>{ sl.value=on.checked?lastOn:0; applyKP(); };
+  const ib=document.getElementById("kpInfoBtn");
+  document.querySelectorAll("#kpSeg button").forEach(b=>b.onclick=()=>{ state.kp=+b.dataset.i; applyKP(); });
   ib.onclick=()=>{ const p=document.getElementById("kpInfo"); p.hidden=!p.hidden; ib.setAttribute("aria-expanded",!p.hidden); };
   applyKP(true);
+  [["hubSel","hub",["Anchor employer","Funder or investor","Site or landlord","Testbed or spectrum","Convener","Talent pipeline","Customer or problem owner","Policy and analysis"]],["chalSel","chal",["Problem owner","Sponsor or prize funder","Judges and mentors","Host or venue","Promoter","Solver"]]].forEach(([sid,key,opts])=>{
+    const se=document.getElementById(sid);
+    opts.forEach(o=>{ const op=document.createElement("option"); op.value=o; op.textContent=`${o} (${NODES.filter(n=>(n[key]||[]).includes(o)).length})`; se.appendChild(op); });
+    se.onchange=()=>{ state[key]=se.value; applyAll(); if(se.value&&state.view==="v-geo"&&geo) geo.flyToBounds(EXT.nova,{duration:.8}); };
+  });
   document.getElementById("shared").onchange=e=>{ state.shared=e.target.checked; e.target.checked?state.types.add("Shared association"):state.types.delete("Shared association"); buildNet(); applyAll(); if(state.sel) renderDetail(); };
   const as=document.getElementById("assocSel");
   NODES.filter(n=>isGroup(n)||isProg(n)||isEvent(n)).sort((a,b)=>(isGroup(b)-isGroup(a))||nm(a).localeCompare(nm(b))).forEach(n=>{ const o=document.createElement("option"); o.value=n.id; o.textContent=(isProg(n)?"Programme: ":isEvent(n)?"Event: ":"")+nm(n); as.appendChild(o); });
   as.onchange=()=>{ state.assoc=as.value; if(as.value) select(as.value); else applyAll(); };
-  document.getElementById("q").oninput=e=>{ state.q=e.target.value.trim().toLowerCase(); applyAll(); };
+  const q=document.getElementById("q"), qr=document.getElementById("qres"); let hits=[], act=0;
+  const pick=id=>{ qr.hidden=true; q.value=nm(byId[id]); state.q=""; select(id); };
+  const draw=()=>{ qr.innerHTML = hits.length? hits.map((n,i)=>`<li role="option" data-id="${esc(n.id)}" class="${i===act?"act":""}">${esc(nm(n))}<small>${esc(n.category==="Person"?[n.role,n.org&&byId[n.org]&&nm(byId[n.org])].filter(Boolean).join(", "):n.category)}</small></li>`).join("") : `<li class="none">No matches</li>`;
+    qr.querySelectorAll("li[data-id]").forEach(li=>li.onmousedown=ev=>{ ev.preventDefault(); pick(li.dataset.id); }); };
+  q.oninput=()=>{ const v=q.value.trim().toLowerCase(); state.q=v; act=0;
+    if(!v){ qr.hidden=true; hits=[]; applyAll(); return; }
+    hits=NODES.filter(matches).sort((a,b)=>{ const sa=nm(a).toLowerCase().startsWith(v), sb=nm(b).toLowerCase().startsWith(v); return (sb-sa)||((a.category==="Person")-(b.category==="Person"))||nm(a).localeCompare(nm(b)); }).slice(0,12);
+    qr.hidden=false; draw(); applyAll(); };
+  q.onkeydown=e=>{ if(qr.hidden||!hits.length) return;
+    if(e.key==="ArrowDown"){ act=Math.min(act+1,hits.length-1); draw(); e.preventDefault(); }
+    else if(e.key==="ArrowUp"){ act=Math.max(act-1,0); draw(); e.preventDefault(); }
+    else if(e.key==="Enter"){ pick(hits[act].id); e.preventDefault(); }
+    else if(e.key==="Escape"){ qr.hidden=true; } };
+  q.onblur=()=>setTimeout(()=>qr.hidden=true,150);
+  q.onfocus=()=>{ if(q.value.trim()&&hits.length) qr.hidden=false; };
 }
-const visible = n => n.category==="Person" ? (n.score||0)>=state.minScore : state.cats.has(n.category);
+const visible = n => n.category==="Person" ? (n.score||0)>=state.minScore : state.cats.has(n.category) && (!state.hub||(n.hub||[]).includes(state.hub)) && (!state.chal||(n.chal||[]).includes(state.chal));
 function applyKP(init){
-  const i=+document.getElementById("kpSlider").value, st=KP_STOPS[i], off=i===0;
+  const i=state.kp||0, st=KP_STOPS[i], off=i===0;
+  document.querySelectorAll("#kpSeg button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.i===i));
   state.minScore=st.t;
   const ppl=NODES.filter(n=>n.category==="Person"), shown=ppl.filter(n=>n.score>=st.t).length;
-  document.getElementById("kpOn").checked=!off;
   document.getElementById("kpCount").textContent= off?`Off (${ppl.length} available)`:`${shown} shown`;
   document.getElementById("kpLabel").textContent= `${st.l}: ${st.d}.`;
   // person-only edges are meaningless without people on the canvas
@@ -606,7 +639,7 @@ function renderDetail(){
   const people = NODES.filter(p=>p.category==="Person" && p.org===n.id).sort((a,b)=>b.score-a.score||a.name.localeCompare(b.name));
   const srcs=[...new Set([...(n.sources||[]), ...rel.map(r=>r.l.src).filter(Boolean)])];
   el.innerHTML=`<h2>${esc(n.name)}</h2>
-   <div><span class="pill"><span class="sw ${CATS[n.category].sq?"sq":""}" style="background:${CATS[n.category].c}"></span>${esc(n.category==="Person"?"Person":n.category)}</span><span class="pill">${esc(REGIONS[ring(n)])}</span></div>
+   <div><span class="pill"><span class="sw ${CATS[n.category].sq?"sq":""}" style="background:${CATS[n.category].c}"></span>${esc(n.category==="Person"?"Person":n.category)}</span><span class="pill">${esc(REGIONS[ring(n)])}</span></div>${(n.hub||[]).length||(n.chal||[]).length?`<div class="roles">${(n.hub||[]).map(r=>`<span class="pill hubp" title="Innovation hub role">Hub: ${esc(r)}</span>`).join("")}${(n.chal||[]).map(r=>`<span class="pill chalp" title="Innovation challenge role">Challenge: ${esc(r)}</span>`).join("")}</div>`:""}
    ${n.role?`<p style="margin:8px 0 0;font-weight:600">${esc(n.role)}</p>`:""}
    ${n.category==="Person"?`<h3>Why they are key</h3><p style="margin:0;font-size:13px">Influence score <span class="score">${n.score}</span></p><div class="badges">${(n.tags||[]).map(t=>`<span class="badge tag">${esc(t)}</span>`).join("")}${(n.evidence||[]).filter(e=>!e.startsWith("Leadership role")).map(e=>`<span class="badge">${esc(e)}</span>`).join("")}</div>${n.score<state.minScore||state.minScore===Infinity?`<p class="hint">Hidden at the current Key people setting.</p>`:""}`:""}
    <p style="font-size:13.5px">${esc(n.description)}</p>
