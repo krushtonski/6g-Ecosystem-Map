@@ -208,7 +208,7 @@ footer a{color:var(--accent)}
     <details class="msel" id="catBox"><summary id="catSum">All categories</summary><div id="catList"></div></details>
     <h3 class="kph">Key people <button type="button" class="info" id="kpInfoBtn" aria-expanded="false" aria-controls="kpInfo" title="How are key people identified?">i</button></h3>
     <div id="kpInfo" class="kpinfo" hidden><b>How are key people identified?</b> People are ranked by verified leadership roles, funded awards, standards governance and cross-sector collaboration, all taken from the public sources behind each link.<br>+3 named PI or lead on a funding or award link · +3 chair, vice-chair or board role · +2 links to organisations in 2 or more sectors · +2 joint R&amp;D or testbed project · +1 event speaker · +2 leadership title matching one of four types: <i>Funding Gatekeeper</i> (programme directors and grant leads at funders), <i>Standards Leader</i> (chairs and rapporteurs in 3GPP, ITU-R, O-RAN, Next G Alliance), <i>Testbed Lead</i> (PIs, lab and testbed directors), <i>Ecosystem Connector</i> (technology and 6G strategy leads, board members, regional connectors). Everyone with a verified role scores at least 1.</div>
-    <div class="kpseg" id="kpSeg" role="group" aria-label="Key people threshold" aria-describedby="kpLabel"><button type="button" data-i="0" aria-pressed="true">Off</button><button type="button" data-i="1" aria-pressed="false">All</button><button type="button" data-i="2" aria-pressed="false">Key</button><button type="button" data-i="3" aria-pressed="false">Core</button></div>
+    <div class="kpseg" id="kpSeg" role="group" aria-label="Key people threshold" aria-describedby="kpLabel"><button type="button" data-i="0" aria-pressed="false">Off</button><button type="button" data-i="1" aria-pressed="true">All</button><button type="button" data-i="2" aria-pressed="false">Key</button><button type="button" data-i="3" aria-pressed="false">Core</button></div>
     <div class="kprow">People on the map <span id="kpCount" class="kpc"></span></div>
     <p class="hint" id="kpLabel"></p>
     <details class="adv"><summary>Advanced filters</summary>
@@ -345,7 +345,7 @@ function ring(n){ const p = n.lat!=null? n : (n.org && byId[n.org] && byId[n.org
   return DCREG.includes(n.region)?0:1; }
 
 let NODES=[], LINKS=[], byId={}, SHARED=[];
-const state = {cats:new Set(Object.keys(CATS)), types:new Set(), shared:false, minScore:Infinity, hub:"", chal:"", mode:"global", selTypes:new Set(), q:"", assoc:"", sel:null, view:"v-geo"};
+const state = {cats:new Set(Object.keys(CATS)), types:new Set(), shared:false, minScore:Infinity, hub:"", chal:"", mode:"global", selTypes:new Set(), kp:1, q:"", assoc:"", sel:null, view:"v-geo"};
 
 fetch("data/ecosystem.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
  .then(boot).catch(e=>{ document.querySelector(".center").innerHTML=`<p class="err">The map data could not be loaded (${esc(e.message)}). If you opened this file directly, serve the folder over HTTP or view it on GitHub Pages.</p>`; });
