@@ -1,6 +1,6 @@
 # 6G Ecosystem Map
 
-A public, no-login map of who is shaping 6G worldwide, with a drill-down to Northern Virginia and DC. It has three views: a geographic map, a network diagram and an association membership table.
+A public, no-login map of who is shaping 6G worldwide, with a drill-down to Northern Virginia and DC. It has three views: a geographic map, a network diagram and a Groups & Members view of associations, events and programs.
 
 ## How it fits together
 
