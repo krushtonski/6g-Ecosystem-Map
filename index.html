@@ -234,6 +234,12 @@ footer a{color:var(--accent)}
     </section>
     <section class="view" id="v-net" role="tabpanel" aria-labelledby="t-net">
       <svg id="svg" role="img" aria-label="Network diagram with rings for the Alexandria-Arlington corridor, the rest of the US and international"></svg>
+      <div class="geobar netbar" role="group" aria-label="Network scope">
+        <button data-scope="corridor" aria-pressed="false">Alexandria-Arlington corridor</button>
+        <button data-scope="us" aria-pressed="false">United States</button>
+        <button data-scope="cta" aria-pressed="false">"Call to Action" Signatories</button>
+        <button data-scope="world" aria-pressed="true">World</button>
+      </div>
       <div class="zoombtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button></div>
       <div class="netnote" id="netnote"><button type="button" class="nnx" aria-label="Hide this note" onclick="this.parentNode.hidden=true">×</button>Rings show where each player is based: the Alexandria-Arlington corridor (Northern Virginia) at the centre, then the rest of the US including DC and Maryland, then international. Node size = number of connections. ■ associations ◆ programmes ▲ events.<br><b>Hover</b> over a dot to preview its links, <b>click</b> to select it, <b>scroll</b> to zoom. Names of smaller players appear as you zoom in.</div>
     </section>
@@ -341,12 +347,30 @@ const isGroup = n => n.category==="Associations & alliances";
 const isProg = n => n.category==="Programmes & testbeds";
 const isEvent = n => n.category==="Events";
 const DCREG = ["Alexandria","Northern Virginia"];
+let CTAGJ=null; async function loadCTA(){ if(!CTAGJ) CTAGJ=await fetch("data/call-to-action-6g.geojson?v=3").then(r=>r.json()); return CTAGJ; }
+let CTAIDS=null;
+function scopeOf(n){ const o = n.category==="Person" && n.org && byId[n.org] ? byId[n.org] : n;
+  const loc = o.lat!=null? o : null, r = ring(o);
+  if(state.netScope==="world") return true;
+  if(state.netScope==="corridor") return r===0;
+  if(state.netScope==="us") return loc? r<=1 : ["Alexandria","Northern Virginia","Washington DC & Maryland"].includes(o.region);
+  if(state.netScope==="cta") return CTAIDS? CTAIDS.has(o.id) : true;
+  return true; }
+async function setScope(sc){
+  if(sc==="cta" && !CTAIDS){ try{ const gj=await loadCTA(); CTAIDS=new Set(); gj.features.forEach(f=>ctaOrgs(f).forEach(o=>CTAIDS.add(o.id))); }catch(e){ return; } }
+  state.netScope=sc; document.querySelectorAll(".netbar button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.scope===sc));
+  applyNet(); fitScope(); }
+function fitScope(){ if(!svg) return; if(state.netScope==="world"){ resetZoom(); return; }
+  const ps=NODES.filter(n=>n.x!=null && scopeOf(n) && baseVisible(n)); if(!ps.length) return;
+  const {w,h}=netBox(), x0=d3.min(ps,n=>n.x)-50, x1=d3.max(ps,n=>n.x)+50, y0=d3.min(ps,n=>n.y)-50, y1=d3.max(ps,n=>n.y)+60;
+  const k=Math.max(.35,Math.min(2.5,.92*Math.min(w/(x1-x0),h/(y1-y0))));
+  svg.transition().duration(600).call(zoom.transform,d3.zoomIdentity.translate(w/2-(x0+x1)/2*k,h/2-(y0+y1)/2*k).scale(k)); }
 function ring(n){ const p = n.lat!=null? n : (n.org && byId[n.org] && byId[n.org].lat!=null ? byId[n.org] : null);
   if(p){ if(p.lat>38.5&&p.lat<39.3&&p.lng>-77.7&&p.lng<-76.7&&DCREG.includes(p.region)) return 0; if(p.lat>24&&p.lat<50&&p.lng>-125&&p.lng<-66) return 1; return 2; }
   return DCREG.includes(n.region)?0:1; }
 
 let NODES=[], LINKS=[], byId={}, SHARED=[];
-const state = {cats:new Set(Object.keys(CATS)), types:new Set(), shared:false, minScore:Infinity, hub:"", chal:"", mode:"global", selTypes:new Set(), kp:1, q:"", assoc:"", sel:null, view:"v-geo"};
+const state = {cats:new Set(Object.keys(CATS)), types:new Set(), shared:false, minScore:Infinity, hub:"", chal:"", mode:"global", selTypes:new Set(), kp:1, netScope:"world", q:"", assoc:"", sel:null, view:"v-geo"};
 
 fetch("data/ecosystem.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
  .then(boot).catch(e=>{ document.querySelector(".center").innerHTML=`<p class="err">The map data could not be loaded (${esc(e.message)}). If you opened this file directly, serve the folder over HTTP or view it on GitHub Pages.</p>`; });
@@ -466,7 +490,7 @@ function pinIcon(n,faded){
   return L.divIcon({className:"",iconSize:[d,d],iconAnchor:[r,r],html:`<span class="pin ${c.sq?"sq":""}" style="width:${d}px;height:${d}px;background:${c.c};opacity:${faded?.18:1}"></span>`});
 }
 function buildGeo(){
-  geo = L.map("geo",{zoomControl:true,worldCopyJump:true,minZoom:2});
+  geo = L.map("geo",{zoomControl:false,worldCopyJump:true,minZoom:2}); L.control.zoom({position:"bottomleft"}).addTo(geo);
   // Basic basemap: coastline, country borders, state and province lines, city names. No streets, no tiles.
   geo.setMaxZoom(12);
   geo.attributionControl.addAttribution('Boundaries and cities: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, US Census');
@@ -528,7 +552,7 @@ async function toggleCTA(){
   ctaOn=!ctaOn; document.getElementById("ctaBtn").setAttribute("aria-pressed",ctaOn);
   if(ctaOn){
     if(!ctaLayer){
-      try{ const gj=await fetch("data/call-to-action-6g.geojson?v=3").then(r=>r.json());
+      try{ const gj=await loadCTA();
         ctaLayer=L.geoJSON(gj,{style:f=>({color:CTA.groups[f.properties.group],weight:1,fillColor:CTA.groups[f.properties.group],fillOpacity:f.properties.group==="Publisher"?.12:.32,dashArray:f.properties.group==="Publisher"?"4 3":null}),
           onEachFeature:(f,l)=>{ l.bindTooltip(esc(f.properties.name)+(f.properties.group==="Publisher"?" (publisher, via NTIA)":"")+" · click for 6G contacts",{sticky:true}); l.on("click",e=>{ L.DomEvent.stopPropagation(e); renderCTACountry(f.properties.name); }); }});
         ctaLayer.__gj=gj;
@@ -626,7 +650,8 @@ function buildNet(){
     zoom=d3.zoom().scaleExtent([.35,4]).on("zoom",e=>{ root.attr("transform",e.transform); svg.classed("zoomed",e.transform.k>=1.7); }); svg.call(zoom);
     document.getElementById("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.3);
     document.getElementById("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.3);
-    document.getElementById("zreset").onclick=resetZoom;
+    document.querySelectorAll(".netbar button").forEach(b=>b.onclick=()=>setScope(b.dataset.scope));
+  document.getElementById("zreset").onclick=resetZoom;
     svg.on("click",()=>{ if(etip){ etip.style.display="none"; delete etip.dataset.pin; } state.sel=null; renderDetail(); applyAll(); });
   }
   const base = 340; R=[0,base*0.52,base*0.74,base*0.97];
@@ -681,11 +706,12 @@ function applyNet(){
   if(!nodeSel) return;
   const fs=focusSet(), G=GRP(), H=state.hover? new Set([state.hover]) : null, HN=new Set();
   if(H) allLinks().forEach(l=>{ if(touches(l,H)){ HN.add(lid(l.source)); HN.add(lid(l.target)); } });
-  nodeSel.style("display",d=>visible(d)||d.id===state.sel||HN.has(d.id)?null:"none")
+  const nv=d=>(visible(d)&&(scopeOf(d)||(state.sel&&SELV.has(d.id))))||d.id===state.sel||HN.has(d.id);
+  nodeSel.style("display",d=>nv(d)?null:"none")
     .classed("dim",d=>H? !HN.has(d.id)&&!(fs&&fs.has(d.id)) : (fs&&!fs.has(d.id))||(state.q&&!matches(d)))
     .classed("lbl",d=>IMPORTANT.has(d.id)||(fs&&fs.has(d.id))||HN.has(d.id)||(state.q&&matches(d)))
     .classed("hov",d=>d.id===state.hover);
-  const shown=l=>(H&&touches(l,H)) || (state.sel&&touches(l,G)&&selType(l.type)) || (state.types.has(l.type) && visible(l.source) && visible(l.target));
+  const shown=l=>(H&&touches(l,H)) || (state.sel&&touches(l,G)&&selType(l.type)) || (state.types.has(l.type) && nv(l.source) && nv(l.target));
   hitSel.style("display",l=>shown(l)?null:"none");
   linkSel.style("display",l=>shown(l)?null:"none")
     .classed("dim",l=>H? !touches(l,H) : state.sel? !touches(l,G) : fs? !(fs.has(l.source.id)&&fs.has(l.target.id)) : (state.q&&!(matches(l.source)||matches(l.target))));
