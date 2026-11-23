@@ -206,14 +206,6 @@ footer a{color:var(--accent)}
     <ul id="qres" class="qres" role="listbox" hidden></ul>
     <h3>Category</h3>
     <details class="msel" id="catBox"><summary id="catSum">All categories</summary><div id="catList"></div></details>
-    <div id="corrBox">
-    <h3>Corridor roles</h3>
-    <label class="hint" for="hubSel" style="display:block;margin:0 0 3px">Innovation hub role</label>
-    <select id="hubSel" aria-label="Innovation hub role"><option value="">Any</option></select>
-    <label class="hint" for="chalSel" style="display:block;margin:8px 0 3px">Innovation challenge role</label>
-    <select id="chalSel" aria-label="Innovation challenge role"><option value="">Any</option></select>
-    <p class="hint">Roles an organisation could play in a 6G innovation hub or challenge in the Alexandria-Arlington corridor. These are our assessment, based on each organisation's public profile.</p>
-    </div>
     <h3 class="kph">Key people <button type="button" class="info" id="kpInfoBtn" aria-expanded="false" aria-controls="kpInfo" title="How are key people identified?">i</button></h3>
     <div id="kpInfo" class="kpinfo" hidden><b>How are key people identified?</b> People are ranked by verified leadership roles, funded awards, standards governance and cross-sector collaboration, all taken from the public sources behind each link.<br>+3 named PI or lead on a funding or award link · +3 chair, vice-chair or board role · +2 links to organisations in 2 or more sectors · +2 joint R&amp;D or testbed project · +1 event speaker · +2 leadership title matching one of four types: <i>Funding Gatekeeper</i> (programme directors and grant leads at funders), <i>Standards Leader</i> (chairs and rapporteurs in 3GPP, ITU-R, O-RAN, Next G Alliance), <i>Testbed Lead</i> (PIs, lab and testbed directors), <i>Ecosystem Connector</i> (technology and 6G strategy leads, board members, regional connectors). Everyone with a verified role scores at least 1.</div>
     <div class="kpseg" id="kpSeg" role="group" aria-label="Key people threshold" aria-describedby="kpLabel"><button type="button" data-i="0" aria-pressed="true">Off</button><button type="button" data-i="1" aria-pressed="false">All</button><button type="button" data-i="2" aria-pressed="false">Key</button><button type="button" data-i="3" aria-pressed="false">Core</button></div>
@@ -405,11 +397,6 @@ function renderFilters(){
   document.querySelectorAll("#kpSeg button").forEach(b=>b.onclick=()=>{ state.kp=+b.dataset.i; applyKP(); });
   ib.onclick=()=>{ const p=document.getElementById("kpInfo"); p.hidden=!p.hidden; ib.setAttribute("aria-expanded",!p.hidden); };
   applyKP(true);
-  [["hubSel","hub",["Anchor employer","Funder or investor","Site or landlord","Testbed or spectrum","Convener","Talent pipeline","Customer or problem owner","Policy and analysis"]],["chalSel","chal",["Problem owner","Sponsor or prize funder","Judges and mentors","Host or venue","Promoter","Solver"]]].forEach(([sid,key,opts])=>{
-    const se=document.getElementById(sid);
-    opts.forEach(o=>{ const op=document.createElement("option"); op.value=o; op.textContent=`${o} (${NODES.filter(n=>(n[key]||[]).includes(o)).length})`; se.appendChild(op); });
-    se.onchange=()=>{ state[key]=se.value; applyAll(); if(se.value&&state.view==="v-geo"&&geo) geo.flyToBounds(EXT.nova,{duration:.8}); };
-  });
   document.getElementById("shared").onchange=e=>{ state.shared=e.target.checked; e.target.checked?state.types.add("Shared association"):state.types.delete("Shared association"); buildNet(); applyAll(); if(state.sel) renderDetail(); };
   const as=document.getElementById("assocSel");
   NODES.filter(n=>isGroup(n)||isProg(n)||isEvent(n)).sort((a,b)=>(isGroup(b)-isGroup(a))||nm(a).localeCompare(nm(b))).forEach(n=>{ const o=document.createElement("option"); o.value=n.id; o.textContent=(isProg(n)?"Programme: ":isEvent(n)?"Event: ":"")+nm(n); as.appendChild(o); });
