@@ -319,7 +319,7 @@ async function toggleCTA(){
   ctaOn=!ctaOn; document.getElementById("ctaBtn").setAttribute("aria-pressed",ctaOn);
   if(ctaOn){
     if(!ctaLayer){
-      try{ const gj=await fetch("data/call-to-action-6g.geojson").then(r=>r.json());
+      try{ const gj=await fetch("data/call-to-action-6g.geojson?v=2").then(r=>r.json());
         ctaLayer=L.geoJSON(gj,{style:f=>({color:CTA.groups[f.properties.group],weight:1,fillColor:CTA.groups[f.properties.group],fillOpacity:f.properties.group==="Publisher"?.12:.32,dashArray:f.properties.group==="Publisher"?"4 3":null}),
           onEachFeature:(f,l)=>{ l.bindTooltip(esc(f.properties.name)+(f.properties.group==="Publisher"?" (publisher, via NTIA)":"")+" · click for 6G contacts",{sticky:true}); l.on("click",e=>{ L.DomEvent.stopPropagation(e); renderCTACountry(f.properties.name); }); }});
         ctaLayer.__gj=gj;
