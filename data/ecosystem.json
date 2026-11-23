@@ -563,7 +563,7 @@
    "short": "",
    "category": "Equipment & tech vendors",
    "region": "Rest of US & global",
-   "description": "ACCoRD O-RAN project partner.",
+   "description": "Richardson, Texas network software company, majority owned by Siris. A 2025 recapitalisation cut more than $1.3bn of debt. It left Open RAN radio hardware to focus on AI-native core and Open RAN software. ACCoRD O-RAN project partner.",
    "role": "",
    "org": null,
    "address": "Richardson, TX",
@@ -571,7 +571,10 @@
    "lng": -96.7299,
    "precision": "City",
    "sources": [
-    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html"
+    "https://news.vt.edu/articles/2024/02/cci-vt-role-in-wireless-project.html",
+    "https://www.fierce-network.com/wireless/mavenir-sails-new-financing-ai-focus",
+    "https://convergedigest.com/mavenir-cuts-1-3b-debt-secures-300m-financing-i/",
+    "https://www.telecomtv.com/content/ai/mavenir-refocuses-strategy-on-mobile-core-ai-with-expanded-leadership-team-to-accelerate-ai-native-network-strategy-54483/"
    ]
   },
   {
@@ -1659,7 +1662,7 @@
    "short": "",
    "category": "Network operators",
    "region": "Rest of US & global",
-   "description": "Satellite direct-to-device network operator.",
+   "description": "Builds a space-based cellular broadband network that works directly with ordinary smartphones, from Midland, Texas, where it also builds its satellites. Partners with AT&T and Verizon. In October 2026 it made the industry's first handoff between a ground network and a direct-to-device satellite network with AT&T, using Ericsson and Nokia ground technology.",
    "role": "",
    "org": null,
    "address": "Midland, TX",
@@ -1667,7 +1670,9 @@
    "lng": -102.0779,
    "precision": "City",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://about.att.com/story/2026/att-ast-spacemobile-engineering-connected-world.html",
+    "https://broadbandbreakfast.com/at-t-ast-complete-first-handoff-between-terrestrial-and-satellite-networks/"
    ]
   },
   {
@@ -1676,7 +1681,7 @@
    "short": "",
    "category": "Network operators",
    "region": "Rest of US & global",
-   "description": "Satellite direct-to-device connectivity provider.",
+   "description": "Mountain View company running a commercial 3GPP standards-based non-terrestrial network (NTN) for phones, wearables, cars and IoT. Built into Qualcomm Snapdragon modems and certified on Samsung Exynos modems.",
    "role": "",
    "org": null,
    "address": "Mountain View, CA",
@@ -1684,7 +1689,9 @@
    "lng": -122.0839,
    "precision": "City",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://www.businesswire.com/news/home/20240912596149/en",
+    "https://www.businesswire.com/news/home/20250616152322/en"
    ]
   },
   {
@@ -3570,12 +3577,14 @@
    "sources": [
     "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-advances-ai-powered-nextg-america",
     "https://www.linuxfoundation.org/press/linux-foundation-announces-ocudu-ecosystem-foundation-to-accelerate-open-source-ai-ran-innovation",
-    "https://www.telecomtv.com/content/the-future-of-ran/odc-completes-a-45m-series-a-funding-55205/"
+    "https://www.telecomtv.com/content/the-future-of-ran/odc-completes-a-45m-series-a-funding-55205/",
+    "https://www.telecomtv.com/content/the-future-of-ran/odc-launches-raniq-a-unified-edge-intelligence-platform-for-ai-native-ran-55204/",
+    "https://www.tamradar.com/funding-rounds/odc-series-a-45m"
    ],
    "id": "odc",
    "name": "O-RAN Development Company (ODC)",
    "category": "Equipment & tech vendors",
-   "description": "AI-native RAN company (Odyssey RAN platform) for 5G and emerging 6G. Seeded by affiliates of Cerberus; $45M Series A (Mar 2026) from Booz Allen, Cisco Investments, Nokia, NVIDIA, AT&T, MTN, Telecom Italia and Phoenix Venture Partners. Works with Booz Allen (McLean) on AI-WIN; OCUDU general member.",
+   "description": "AI-native RAN company (Odyssey RAN platform) for 5G and emerging 6G, led by former Altiostar engineers. Its RANIQ platform (March 2026) runs beside the RAN stack and exposes real-time RF data to edge applications. Seeded by affiliates of Cerberus; $45M Series A (Mar 2026) from Booz Allen, Cisco Investments, Nokia, NVIDIA, AT&T, MTN, Telecom Italia and Phoenix Venture Partners. Works with Booz Allen (McLean) on AI-WIN; OCUDU general member.",
    "website": "https://www.orandevco.com/"
   },
   {
@@ -18664,6 +18673,203 @@
    "sources": [
     "https://www.3gpp.org/ftp/Specs/html-info/TSG-WG--S6--officials.htm"
    ]
+  },
+  {
+   "id": "pivotal-commware",
+   "name": "Pivotal Commware",
+   "short": "Pivotal",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bothell, WA, USA",
+   "lat": 47.7623,
+   "lng": -122.2054,
+   "precision": "City",
+   "description": "mmWave repeater and antenna company built on Holographic Beam Forming, a software-defined metamaterials antenna. Spun out of Intellectual Ventures in 2016. Backed by Bill Gates; its $102m Series D was led by Gates Frontier and Tracker Capital.",
+   "sources": [
+    "https://www.eenewseurope.com/en/bill-gates-backs-startup-to-bring-holographic-beamforming/",
+    "https://www.citybiz.co/?p=456845",
+    "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
+   ]
+  },
+  {
+   "id": "kymeta",
+   "name": "Kymeta",
+   "short": "Kymeta",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Redmond, WA, USA",
+   "lat": 47.674,
+   "lng": -122.1215,
+   "precision": "City",
+   "description": "Flat-panel, electronically steered metamaterial satellite terminal maker and an Intellectual Ventures spin-out. Building multi-band (Ku/Ka), multi-orbit terminals for defence and enterprise, with prototypes from mid-2026 and commercial availability planned for 2027.",
+   "sources": [
+    "https://www.kymetacorp.com/about/news-insights/kymeta-unveils-kestrel-u5-national-security",
+    "https://www.kymetacorp.com/about/news-insights/kymetas-breakthrough-multi-band-antenna-redefines-connectivity",
+    "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
+   ]
+  },
+  {
+   "id": "echodyne",
+   "name": "Echodyne",
+   "short": "Echodyne",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kirkland, WA, USA",
+   "lat": 47.6815,
+   "lng": -122.2087,
+   "precision": "City",
+   "description": "Radar maker using metamaterials electronically scanned array (MESA) technology, an Intellectual Ventures spin-out. Supplies counter-drone radars to US and allied forces. Opened a plant in July 2026 able to build more than 30,000 radars a year.",
+   "sources": [
+    "https://dronelife.com/2026/07/09/echodyne-expands-u-s-radar-manufacturing-to-meet-global-c-uas-demand/",
+    "https://militaryembedded.com/unmanned/counter-uas/mesa-counter-uas-radars-added-to-jiatf-401-procurement-vehicle",
+    "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
+   ]
+  },
+  {
+   "id": "zainar",
+   "name": "ZaiNar",
+   "short": "ZaiNar",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Belmont, CA, USA",
+   "lat": 37.5202,
+   "lng": -122.2758,
+   "precision": "City",
+   "description": "Turns existing 5G and Wi-Fi networks into sub-metre positioning and timing systems without new hardware. Emerged from nine years in stealth in February 2026 with more than $100m raised at a valuation above $1bn.",
+   "sources": [
+    "https://sacra.com/c/zainar/",
+    "https://siliconvalleyinvestclub.com/companies/zainar/tear-sheet.pdf"
+   ]
+  },
+  {
+   "id": "elveo-mobile",
+   "name": "Elveo Mobile (Lynk Global and Omnispace)",
+   "short": "Elveo Mobile",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Washington, DC metro area, USA",
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "precision": "City",
+   "description": "Direct-to-device satellite operator formed when Lynk Global and Omnispace completed their merger on 14 August 2026. Combines Lynk's LEO smallsat technology with Omnispace's 60 MHz of global S-band spectrum. SES is a strategic shareholder. Plans 320 LEO satellites, with services from early 2028.",
+   "sources": [
+    "https://www.telecomtv.com/content/access-evolution/lynk-and-omnispace-complete-merger-to-launch-d2d-satellite-challenger-56092/amp/",
+    "https://www.criticalcommunicationsreview.com/video/news/119496/lynk-and-omnispace-launch-elveo-mobile-to-deliver-resilient-next-generation-connectivity",
+    "https://lightreading.com/satellite/lynk-and-omnispace-merger-creates-d2d-challenger-elveo-mobile"
+   ]
+  },
+  {
+   "id": "hubble-network",
+   "name": "Hubble Network",
+   "short": "Hubble",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Seattle, WA, USA",
+   "lat": 47.6062,
+   "lng": -122.3321,
+   "precision": "City",
+   "description": "Satellite network that connects standard Bluetooth Low Energy chips directly to LEO satellites for low-power IoT. Raised a $200m Series C in September 2026 at a $1.6bn valuation and opened the network to any Bluetooth device. Plans to grow from six to 60 satellites.",
+   "sources": [
+    "https://geekwire.com/2026/hubble-network-raises-200m-to-reach-1-6b-valuation-as-startup-expands-satellite-bluetooth-network/",
+    "https://telcomagazine.com/news/hubble-raises-us-200m-for-bluetooth-satellite-network"
+   ]
+  },
+  {
+   "id": "eben-frankenberg",
+   "name": "Eben Frankenberg",
+   "short": "Eben Frankenberg",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Echodyne",
+   "org": "echodyne",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Echodyne, scaling MESA radar production for counter-drone defence.",
+   "sources": [
+    "https://dronelife.com/2026/07/09/echodyne-expands-u-s-radar-manufacturing-to-meet-global-c-uas-demand/"
+   ]
+  },
+  {
+   "id": "daniel-jacker",
+   "name": "Daniel Jacker",
+   "short": "Daniel Jacker",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO and Co-founder, ZaiNar",
+   "org": "zainar",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-founder and CEO of ZaiNar.",
+   "sources": [
+    "https://siliconvalleyinvestclub.com/companies/zainar/tear-sheet.pdf"
+   ]
+  },
+  {
+   "id": "ramu-potarazu",
+   "name": "Ramu Potarazu",
+   "short": "Ramu Potarazu",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, Elveo Mobile",
+   "org": "elveo-mobile",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of Elveo Mobile and previously CEO of Lynk Global.",
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/lynk-global-and-omnispace-complete-merger-create-elveo-mobile/"
+   ]
+  },
+  {
+   "id": "alex-haro",
+   "name": "Alex Haro",
+   "short": "Alex Haro",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO and Co-founder, Hubble Network",
+   "org": "hubble-network",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-founder and CEO of Hubble Network.",
+   "sources": [
+    "https://telcomagazine.com/news/hubble-raises-us-200m-for-bluetooth-satellite-network"
+   ]
+  },
+  {
+   "id": "pardeep-kohli",
+   "name": "Pardeep Kohli",
+   "short": "Pardeep Kohli",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and CEO, Mavenir",
+   "org": "mavenir",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and CEO of Mavenir. Led its 2025 recapitalisation and its move away from radio hardware towards AI-native software.",
+   "sources": [
+    "https://www.fierce-network.com/wireless/mavenir-sails-new-financing-ai-focus"
+   ]
   }
  ],
  "edges": [
@@ -28732,6 +28938,97 @@
    "type": "Funding",
    "label": "$1bn investment and AI-RAN partnership (Oct 2025)",
    "source": "https://www.nokia.com/newsroom/nokia-partners-with-nvidia/"
+  },
+  {
+   "from": "eben-frankenberg",
+   "to": "echodyne",
+   "type": "Role",
+   "label": "CEO, Echodyne",
+   "source": "https://dronelife.com/2026/07/09/echodyne-expands-u-s-radar-manufacturing-to-meet-global-c-uas-demand/"
+  },
+  {
+   "from": "daniel-jacker",
+   "to": "zainar",
+   "type": "Role",
+   "label": "CEO and Co-founder, ZaiNar",
+   "source": "https://siliconvalleyinvestclub.com/companies/zainar/tear-sheet.pdf"
+  },
+  {
+   "from": "ramu-potarazu",
+   "to": "elveo-mobile",
+   "type": "Role",
+   "label": "CEO, Elveo Mobile",
+   "source": "https://www.datacenterdynamics.com/en/news/lynk-global-and-omnispace-complete-merger-create-elveo-mobile/"
+  },
+  {
+   "from": "alex-haro",
+   "to": "hubble-network",
+   "type": "Role",
+   "label": "CEO and Co-founder, Hubble Network",
+   "source": "https://telcomagazine.com/news/hubble-raises-us-200m-for-bluetooth-satellite-network"
+  },
+  {
+   "from": "pardeep-kohli",
+   "to": "mavenir",
+   "type": "Role",
+   "label": "President and CEO, Mavenir",
+   "source": "https://www.fierce-network.com/wireless/mavenir-sails-new-financing-ai-focus"
+  },
+  {
+   "from": "ast",
+   "to": "att",
+   "type": "Partnership / project",
+   "label": "First ground-to-satellite handoff (Oct 2026)",
+   "source": "https://about.att.com/story/2026/att-ast-spacemobile-engineering-connected-world.html"
+  },
+  {
+   "from": "ast",
+   "to": "nokia",
+   "type": "Partnership / project",
+   "label": "Radio and mobility tech for the AT&T handoff",
+   "source": "https://about.att.com/story/2026/att-ast-spacemobile-engineering-connected-world.html"
+  },
+  {
+   "from": "ast",
+   "to": "ericsson",
+   "type": "Partnership / project",
+   "label": "Ground-based tech for the AT&T handoff",
+   "source": "https://about.att.com/story/2026/att-ast-spacemobile-engineering-connected-world.html"
+  },
+  {
+   "from": "ast",
+   "to": "verizon",
+   "type": "Partnership / project",
+   "label": "Direct-to-device partner",
+   "source": "https://broadbandbreakfast.com/at-t-ast-complete-first-handoff-between-terrestrial-and-satellite-networks/"
+  },
+  {
+   "from": "skylo",
+   "to": "qualcomm",
+   "type": "Partnership / project",
+   "label": "NTN on Snapdragon modems",
+   "source": "https://www.businesswire.com/news/home/20240912596149/en"
+  },
+  {
+   "from": "skylo",
+   "to": "samsung",
+   "type": "Partnership / project",
+   "label": "Certified Exynos modems for NTN",
+   "source": "https://www.businesswire.com/news/home/20250616152322/en"
+  },
+  {
+   "from": "deepsig",
+   "to": "ai-ran-alliance",
+   "type": "Membership",
+   "label": "Member",
+   "source": "https://www.businesswire.com/news/home/20251028742262/en"
+  },
+  {
+   "from": "telcom-ventures",
+   "to": "elveo-mobile",
+   "type": "Funding",
+   "label": "Investor",
+   "source": "https://www.criticalcommunicationsreview.com/video/news/119496/lynk-and-omnispace-launch-elveo-mobile-to-deliver-resilient-next-generation-connectivity"
   }
  ]
 }
