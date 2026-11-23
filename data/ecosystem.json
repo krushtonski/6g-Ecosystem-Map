@@ -1828,7 +1828,7 @@
    "short": "",
    "category": "Academic & research",
    "region": "Rest of US & global",
-   "description": "NYU campus in Abu Dhabi.",
+   "description": "NYU campus in Abu Dhabi. Home to the NYUAD Wireless Center, led by Murat Uysal. Ran the Middle East's first 6G terahertz pilot with e& UAE (145 Gbps, October 2025). Co-author of the Golden 6 GHz Band white paper and a 2026 6G engineering framework.",
    "role": "",
    "org": null,
    "address": "Abu Dhabi, UAE",
@@ -1836,7 +1836,10 @@
    "lng": 54.4344,
    "precision": "Campus",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2025/october/nyuad-researchers-achieve-6g-breakthrough.html",
+    "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186",
+    "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2026/october/nyuad-collaboration-global-6g-network.html"
    ]
   },
   {
@@ -5173,9 +5176,10 @@
    "id": "khalifa-6grc",
    "name": "Khalifa University 6G Research Center",
    "category": "Academic & research",
-   "description": "6G Research Center at Khalifa University, Abu Dhabi, led by Merouane Debbah. Built TelecomGPT, a telco-first large language model, and works with GSMA Foundry on open telecom AI models and benchmarks.",
+   "description": "6G Research Center at Khalifa University, Abu Dhabi, founded in late 2023 and led by Merouane Debbah. Built TelecomGPT, a telco-first large language model, and works with GSMA Foundry on open telecom AI. Runs the KU–TII 6G Chair and co-hosts the 6G Abu Dhabi Summit with TII.",
    "sources": [
-    "https://www.ku.ac.ae/6g-research-center"
+    "https://www.ku.ac.ae/6g-research-center",
+    "https://www.ku.ac.ae/?p=107364"
    ],
    "website": "https://www.ku.ac.ae/6g-research-center"
   },
@@ -16475,6 +16479,698 @@
     "https://www.potomacofficersclub.com/speakers/reginald-oliver/",
     "https://www.fedinsider.com/nextgen-cellular-networks/"
    ]
+  },
+  {
+   "id": "tii",
+   "name": "Technology Innovation Institute",
+   "short": "TII",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Masdar City, Abu Dhabi, UAE",
+   "lat": 24.4269,
+   "lng": 54.617,
+   "precision": "City",
+   "description": "Abu Dhabi applied research institute. Funds the KU–TII 6G Chair at Khalifa University, kicked off in April 2024. Co-organises the annual 6G Abu Dhabi Summit with Khalifa University.",
+   "sources": [
+    "https://www.ku.ac.ae/?p=107364",
+    "https://www.ku.ac.ae/?p=92290"
+   ]
+  },
+  {
+   "id": "kaust",
+   "name": "King Abdullah University of Science and Technology",
+   "short": "KAUST",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Thuwal, Saudi Arabia",
+   "lat": 22.3095,
+   "lng": 39.1047,
+   "precision": "Campus",
+   "description": "Saudi research university. Hosts an annual 6G Summit, now in its fifth year. Strong in non-terrestrial networks and terahertz, including THz links for high-altitude platforms with HBKU.",
+   "sources": [
+    "https://www.kaust.edu.sa/news/kaust-hosts-international-and-local-6g-leaders-as-the-kingdom-aims-for-cutting-edge-wireless",
+    "https://ctl.kaust.edu.sa/topics/terahertz"
+   ]
+  },
+  {
+   "id": "hbku",
+   "name": "Hamad Bin Khalifa University",
+   "short": "HBKU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Education City, Doha, Qatar",
+   "lat": 25.3133,
+   "lng": 51.4396,
+   "precision": "Campus",
+   "description": "Qatar research university. Published a 2026 analysis with KAUST on terahertz links for high-altitude platform stations in 6G non-terrestrial networks.",
+   "sources": [
+    "https://ctl.kaust.edu.sa/topics/terahertz"
+   ]
+  },
+  {
+   "id": "zayed-university",
+   "name": "Zayed University",
+   "short": "ZU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Dubai, UAE",
+   "lat": 25.2048,
+   "lng": 55.2708,
+   "precision": "City",
+   "description": "UAE university. Signed an MoU with e& UAE and Khalifa University to set up the UAE 6G Innovation Hub and national 5G/6G federated testbeds, built on the IEEE 5G/6G Innovation Testbed.",
+   "sources": [
+    "https://innovate.ieee.org/uae-6g-innovation-hub-powered-by-ieee-technology/"
+   ]
+  },
+  {
+   "id": "ksu",
+   "name": "King Saud University",
+   "short": "KSU",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Riyadh, Saudi Arabia",
+   "lat": 24.7163,
+   "lng": 46.6191,
+   "precision": "Campus",
+   "description": "Saudi university in Riyadh. Hosts the New Emerging Technologies and 5G and Beyond Research Chair in its College of Computer and Information Sciences.",
+   "sources": [
+    "https://faculty.ksu.edu.sa/en/salmanq/publication/207272"
+   ]
+  },
+  {
+   "id": "e-and",
+   "name": "e& UAE (etisalat)",
+   "short": "e& UAE",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Abu Dhabi, UAE",
+   "lat": 24.4539,
+   "lng": 54.3773,
+   "precision": "City",
+   "description": "UAE operator. Ran the Middle East's first 6G terahertz pilot with NYU Abu Dhabi in October 2025, reaching 145 Gbps. Co-authored the Golden 6 GHz Band white paper with TDRA, KU and NYUAD. Published a 6G engineering framework with NYUAD and KU in October 2026. Partner in the UAE 6G Innovation Hub.",
+   "sources": [
+    "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2025/october/nyuad-researchers-achieve-6g-breakthrough.html",
+    "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186",
+    "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2026/october/nyuad-collaboration-global-6g-network.html",
+    "https://innovate.ieee.org/uae-6g-innovation-hub-powered-by-ieee-technology/"
+   ]
+  },
+  {
+   "id": "du",
+   "name": "du (Emirates Integrated Telecommunications)",
+   "short": "du",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Dubai, UAE",
+   "lat": 25.2048,
+   "lng": 55.2708,
+   "precision": "City",
+   "description": "UAE operator. Launched what it calls the world's first commercial end-to-end upper 6 GHz connectivity, using 350 MHz at 6775–7125 MHz. Six-carrier aggregation with Nokia in September 2026. Ran 6G field trials with Khalifa University.",
+   "sources": [
+    "https://www.zawya.com/en/press-release/companies-news/du-accelerates-the-way-for-6g-with-launch-of-worlds-first-commercial-end-to-end-u6ghz-connectivity-to-customers-1616238",
+    "https://www.telecomtv.com/content/5g/du-achieves-world-s-1st-six-carrier-aggregation-deployment-advancing-5g-and-6g-readiness-56294/amp/",
+    "https://www.thenationalnews.com/future/technology/2026/10/13/du-and-etisalat-unveil-new-services-boosting-uae-push-towards-6g/"
+   ]
+  },
+  {
+   "id": "tdra",
+   "name": "Telecommunications and Digital Government Regulatory Authority",
+   "short": "TDRA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Abu Dhabi, UAE",
+   "lat": 24.4539,
+   "lng": 54.3773,
+   "precision": "City",
+   "description": "UAE regulator. Owns the national 6G roadmap. Added upper 6 GHz to the National Frequency Plan for IMT in November 2024. Led the April 2026 launch of the world's first commercial upper 6 GHz network ecosystem at the SAMENA Leaders' Summit. Co-published the Golden 6 GHz Band white paper.",
+   "sources": [
+    "https://www.mobileworldlive.com/uae-launches-worlds-first-commercial-u6ghz-network-advancing-path-to-10gbps-connectivity/",
+    "https://www.telecomtv.com/content/spectrum/the-middle-east-s-u6ghz-moment-a-blueprint-for-global-operators-56506/amp/",
+    "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186"
+   ]
+  },
+  {
+   "id": "stc",
+   "name": "stc group",
+   "short": "stc",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Riyadh, Saudi Arabia",
+   "lat": 24.7136,
+   "lng": 46.6753,
+   "precision": "City",
+   "description": "Saudi operator group. Completed the first 7 GHz (6G-enabling) band trial in the Middle East and North Africa with CST and Nokia in November 2025.",
+   "sources": [
+    "https://www.telecomtv.com/content/6g/stc-group-completes-first-7-ghz-6g-enabled-band-trial-in-mena-54269/amp/"
+   ]
+  },
+  {
+   "id": "cst-saudi",
+   "name": "Communications, Space & Technology Commission",
+   "short": "CST",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Riyadh, Saudi Arabia",
+   "lat": 24.7136,
+   "lng": 46.6753,
+   "precision": "City",
+   "description": "Saudi regulator for communications, space and technology. Supported stc's first MENA 7 GHz 6G band trial with Nokia.",
+   "sources": [
+    "https://www.telecomtv.com/content/6g/stc-group-completes-first-7-ghz-6g-enabled-band-trial-in-mena-54269/amp/",
+    "https://www.kaust.edu.sa/news/kaust-hosts-international-and-local-6g-leaders-as-the-kingdom-aims-for-cutting-edge-wireless"
+   ]
+  },
+  {
+   "id": "aces",
+   "name": "Advanced Communications and Electronic Systems Company",
+   "short": "ACES",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Riyadh, Saudi Arabia",
+   "lat": 24.7136,
+   "lng": 46.6753,
+   "precision": "City",
+   "description": "Saudi digital infrastructure and neutral-host company with local R&D. Built an O-RAN compliant shareable 5G small cell. Signed a 5G and 6G MoU with Movandi at LEAP 2026 in August 2026.",
+   "sources": [
+    "https://www.developingtelecoms.com/telecom-business/vendor-news/20770-saudis-aces-announces-5g-and-6g-partnership-with-movandi.html",
+    "https://www.precedenceresearch.com/news/aces-movandi-5g-6g-infrastructure-saudi-arabia"
+   ]
+  },
+  {
+   "id": "movandi",
+   "name": "Movandi",
+   "short": "Movandi",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Irvine, CA, USA",
+   "lat": 33.6846,
+   "lng": -117.8265,
+   "precision": "City",
+   "description": "US mmWave RF, RFIC and beamforming company. Partnered with ACES in August 2026 on 5G, future 6G and O-RAN infrastructure in Saudi Arabia and the Middle East.",
+   "sources": [
+    "https://www.developingtelecoms.com/telecom-business/vendor-news/20770-saudis-aces-announces-5g-and-6g-partnership-with-movandi.html",
+    "https://www.webull.com/news/15497094523462656"
+   ]
+  },
+  {
+   "id": "ooredoo",
+   "name": "Ooredoo",
+   "short": "Ooredoo",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Doha, Qatar",
+   "lat": 25.2854,
+   "lng": 51.531,
+   "precision": "City",
+   "description": "Qatari operator group. Signed a letter of intent with CRA and Vodafone Qatar in November 2025 for the Qatar 6G Testbed Platform. Ooredoo Kuwait is pushing 5G-Advanced with 1024QAM and 8x8 MIMO.",
+   "sources": [
+    "https://www.thepeninsulaqatar.com/article/26/11/2025/cra-launches-qatars-6g-testbed-platform-at-mwc25-doha",
+    "https://www.zawya.com/en/press-release/companies-news/ooredoo-kuwait-sets-a-new-regional-milestone-in-5g-advanced-technology-1021363"
+   ]
+  },
+  {
+   "id": "cra-qatar",
+   "name": "Communications Regulatory Authority (Qatar)",
+   "short": "CRA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Doha, Qatar",
+   "lat": 25.2854,
+   "lng": 51.531,
+   "precision": "City",
+   "description": "Qatar regulator. Launched the Qatar 6G Testbed Platform at MWC25 Doha in November 2025, with Ooredoo Qatar and Vodafone Qatar.",
+   "sources": [
+    "https://www.thepeninsulaqatar.com/article/26/11/2025/cra-launches-qatars-6g-testbed-platform-at-mwc25-doha"
+   ]
+  },
+  {
+   "id": "zain",
+   "name": "Zain Group",
+   "short": "Zain",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kuwait City, Kuwait",
+   "lat": 29.3759,
+   "lng": 47.9774,
+   "precision": "City",
+   "description": "Kuwaiti operator group across the Middle East. Zain Kuwait launched nationwide 5G-Advanced in 2025 and tested six-carrier aggregation in September 2026. No dedicated 6G programme found yet.",
+   "sources": [
+    "https://www.rcrwireless.com/20250702/5g/zain-5g-advanced-kuwait",
+    "https://telecomlead.com/4g-lte/how-gulf-operators-are-investing-to-improve-mobile-network-performance-127756"
+   ]
+  },
+  {
+   "id": "up-pretoria",
+   "name": "University of Pretoria",
+   "short": "UP",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hatfield, Pretoria, South Africa",
+   "lat": -25.7545,
+   "lng": 28.2314,
+   "precision": "Campus",
+   "description": "South African university. Its Carl and Emily Fuchs Institute for Microelectronics (CEFIM) runs a sub-terahertz measurement facility up to 300 GHz, described as the only one in Africa, for 6G and radio astronomy.",
+   "sources": [
+    "https://www.up.ac.za/news/ups-carl-and-emily-fuchs-institute-microelectronics-establishes-state-of-art-measurement"
+   ]
+  },
+  {
+   "id": "uct",
+   "name": "University of Cape Town",
+   "short": "UCT",
+   "category": "Academic & research",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Rondebosch, Cape Town, South Africa",
+   "lat": -33.9577,
+   "lng": 18.4612,
+   "precision": "Campus",
+   "description": "South African university. Runs a 5G/6G digital health testbed. Long-running research partnership with TU Berlin on open 5G testbeds for Africa.",
+   "sources": [
+    "https://www.news.uct.ac.za/article/-2026-07-01-putting-communities-at-the-centre-of-technology",
+    "https://cbn.uct.ac.za/node/446049"
+   ]
+  },
+  {
+   "id": "mtn",
+   "name": "MTN Group",
+   "short": "MTN",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Johannesburg, South Africa",
+   "lat": -26.1076,
+   "lng": 28.0567,
+   "precision": "City",
+   "description": "Africa's largest operator by customers. MTN South Africa ran what it calls Africa's first upper 6 GHz 5G-Advanced trial with Huawei in October 2026, peaking at 10.35 Gbps under a temporary ICASA licence. Leads the African Group of Six operator alliance.",
+   "sources": [
+    "https://techafricanews.com/2026/10/13/mtn-south-africa-1035-gbps-africa-first-upper-6ghz-5g-advanced-trial/",
+    "https://cioafrica.co/mtn-south-africa-trials-5g-advanced/",
+    "https://www.semafor.com/article/06/08/2026/mtn-leads-bid-to-share-african-digital-infrastructure-costs"
+   ]
+  },
+  {
+   "id": "vodacom",
+   "name": "Vodacom Group",
+   "short": "Vodacom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Midrand, South Africa",
+   "lat": -25.9992,
+   "lng": 28.1263,
+   "precision": "City",
+   "description": "South African operator group, majority owned by Vodafone. Completed its acquisition of a controlling stake in Safaricom in 2026. Member of the African Group of Six.",
+   "sources": [
+    "https://www.developingtelecoms.com/component/tags/tag/actis.html",
+    "https://telecomlead.com/telecom-services/top-10-mobile-operators-in-africa-2026-mtn-airtel-africa-and-vodacom-lead-network-expansion-127732",
+    "https://www.semafor.com/article/06/08/2026/mtn-leads-bid-to-share-african-digital-infrastructure-costs"
+   ]
+  },
+  {
+   "id": "safaricom",
+   "name": "Safaricom",
+   "short": "Safaricom",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Nairobi, Kenya",
+   "lat": -1.2921,
+   "lng": 36.8219,
+   "precision": "City",
+   "description": "Kenya's largest operator, now controlled by Vodacom. Holds about 64% of Kenya's mobile broadband market. Runs Kenya's 5G standalone network.",
+   "sources": [
+    "https://www.samenacouncil.org/samena_daily_news?news=113102",
+    "https://www.developingtelecoms.com/component/tags/tag/actis.html"
+   ]
+  },
+  {
+   "id": "icasa",
+   "name": "Independent Communications Authority of South Africa",
+   "short": "ICASA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Johannesburg, South Africa",
+   "lat": -26.1076,
+   "lng": 28.0567,
+   "precision": "City",
+   "description": "South African regulator. Published its IMT Roadmap 2026 for consultation in July 2026, covering IMT-2030 (6G) spectrum. Its National Radio Frequency Plan 2026 allocates the full 700 MHz upper 6 GHz band to IMT.",
+   "sources": [
+    "https://www.itweb.co.za/article/icasa-unveils-roadmap-for-south-africas-6g-future/JBwEr7n3WXOM6Db2",
+    "https://cioafrica.co/mtn-south-africa-trials-5g-advanced/"
+   ]
+  },
+  {
+   "id": "ncc-nigeria",
+   "name": "Nigerian Communications Commission",
+   "short": "NCC",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Maitama, Abuja, Nigeria",
+   "lat": 9.0765,
+   "lng": 7.3986,
+   "precision": "City",
+   "description": "Nigerian regulator. Its draft Spectrum Roadmap 2026–2030 earmarks upper 6 GHz for future mobile use and targets about 3.8 GHz of mobile spectrum by 2030.",
+   "sources": [
+    "https://www.riotimesonline.com/upper-6ghz-nigeria-spectrum-congestion-2026/",
+    "https://ncc.gov.ng/sites/default/files/2026-02/Welcome-Address-by-the-Dr-Aminu-Maida-EVC-NCC-at-the-Stakeholders-Consultative-Forum-on-Spectrum-Roadmap-2026---2030-and-Guidelines-for-Opening-Lower-6GHZ-and-60-GHZ-Bands.pdf"
+   ]
+  },
+  {
+   "id": "ca-kenya",
+   "name": "Communications Authority of Kenya",
+   "short": "CA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Nairobi, Kenya",
+   "lat": -1.2921,
+   "lng": 36.8219,
+   "precision": "City",
+   "description": "Kenyan ICT regulator and spectrum manager. Kenya reached 2.1 million 5G subscriptions in June 2026. No published 6G roadmap found yet.",
+   "sources": [
+    "https://www.kenyans.co.ke/news/119777-communications-authority-moves-regulate-5g-network-invites-public-participation",
+    "https://nation.africa/kenya/business/airtel-kenya-pays-sh8-4-billion-for-5g-spectrum-in-network-expansion-push-5652832"
+   ]
+  },
+  {
+   "id": "ntra-egypt",
+   "name": "National Telecom Regulatory Authority (Egypt)",
+   "short": "NTRA",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Smart Village, Giza, Egypt",
+   "lat": 30.0717,
+   "lng": 31.0177,
+   "precision": "City",
+   "description": "Egyptian regulator. Ran Africa's first upper 6 GHz mobile trial with Telecom Egypt and Huawei. Approved the Mobile Spectrum Roadmap 2026–2030 and is preparing a 2030–2035 national spectrum plan.",
+   "sources": [
+    "https://english.ahram.org.eg/News/574850.aspx",
+    "https://www.tra.gov.eg/wp-content/uploads/2026/03/Egypt-Mobile-Spectrum-Roadmap-2026-–-2030-Enabling-the-Future-of-Mobile-Connectivity-1.pdf",
+    "https://en.amwalalghad.com/?p=230280"
+   ]
+  },
+  {
+   "id": "telecom-egypt",
+   "name": "Telecom Egypt",
+   "short": "Telecom Egypt",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Cairo, Egypt",
+   "lat": 30.0444,
+   "lng": 31.2357,
+   "precision": "City",
+   "description": "Egypt's incumbent operator. Ran Africa's first upper 6 GHz mobile trial with NTRA and Huawei.",
+   "sources": [
+    "https://english.ahram.org.eg/News/574850.aspx"
+   ]
+  },
+  {
+   "id": "samson-lasaulce",
+   "name": "Samson Lasaulce",
+   "short": "Samson Lasaulce",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Research Scientist; holder of the KU–TII 6G Chair on Native AI",
+   "org": "khalifa-6grc",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Research Scientist at Khalifa University and holder of the KU–TII 6G Chair on Native AI. Also a CNRS Director of Research in France.",
+   "sources": [
+    "https://www.ku.ac.ae/college-people/samson-lasaulce"
+   ]
+  },
+  {
+   "id": "murat-uysal",
+   "name": "Murat Uysal",
+   "short": "Murat Uysal",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Founding Director, NYUAD Wireless Center",
+   "org": "nyuad",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founding Director of the NYU Abu Dhabi Wireless Center. Led the 145 Gbps terahertz pilot with e& UAE in October 2025.",
+   "sources": [
+    "https://www.samenacouncil.org/samena_daily_news.php?news=107832",
+    "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2025/october/nyuad-researchers-achieve-6g-breakthrough.html"
+   ]
+  },
+  {
+   "id": "salman-alqahtani",
+   "name": "Salman AlQahtani",
+   "short": "Salman AlQahtani",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Dean, College of Computer and Information Sciences, King Saud University",
+   "org": "ksu",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Professor of computer engineering at King Saud University. Dean of its College of Computer and Information Sciences and supervisor of the 5G and Beyond Research Chair. Co-authored a 2021 survey of the 6G ecosystem.",
+   "sources": [
+    "https://faculty.ksu.edu.sa/sites/default/files/Salman_CV_ENGLISH%20-%202025.pdf",
+    "https://faculty.ksu.edu.sa/en/salmanq/publication/207272"
+   ]
+  },
+  {
+   "id": "mohamed-slim-alouini",
+   "name": "Mohamed-Slim Alouini",
+   "short": "Mohamed-Slim Alouini",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Al-Khawarizmi Distinguished Professor of ECE, KAUST",
+   "org": "kaust",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads the KAUST Communication Theory Lab and chairs the KAUST 6G Summit. UNESCO Chair on Education to Connect the Unconnected. Elected to the US National Academy of Engineering in February 2026.",
+   "sources": [
+    "https://www.kaust.edu.sa/news/kaust-hosts-international-and-local-6g-leaders-as-the-kingdom-aims-for-cutting-edge-wireless",
+    "https://ctl.kaust.edu.sa/articles/by-type/awards"
+   ]
+  },
+  {
+   "id": "marwan-bin-shaker",
+   "name": "Marwan Bin Shaker",
+   "short": "Marwan Bin Shaker",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Acting Chief Technology and Information Officer, e& UAE",
+   "org": "e-and",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Acting CTIO of e& UAE. Spokesperson for the 145 Gbps terahertz pilot with NYU Abu Dhabi.",
+   "sources": [
+    "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2025/october/nyuad-researchers-achieve-6g-breakthrough.html"
+   ]
+  },
+  {
+   "id": "saleem-alblooshi",
+   "name": "Saleem Alblooshi",
+   "short": "Saleem Alblooshi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Technology Officer, du",
+   "org": "du",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO of du. Led its commercial upper 6 GHz launch.",
+   "sources": [
+    "https://www.zawya.com/en/press-release/companies-news/du-accelerates-the-way-for-6g-with-launch-of-worlds-first-commercial-end-to-end-u6ghz-connectivity-to-customers-1616238"
+   ]
+  },
+  {
+   "id": "tariq-al-awadhi",
+   "name": "Tariq Al Awadhi",
+   "short": "Tariq Al Awadhi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Director, Spectrum Affairs, TDRA",
+   "org": "tdra",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leads spectrum affairs at TDRA. Public face of the UAE's upper 6 GHz policy and the Golden 6 GHz Band white paper.",
+   "sources": [
+    "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2026/september/6g-mobile-deployment.html"
+   ]
+  },
+  {
+   "id": "maryam-rofougaran",
+   "name": "Maryam Rofougaran",
+   "short": "Maryam Rofougaran",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO and Co-founder, Movandi",
+   "org": "movandi",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO and co-founder of Movandi. Signed the 2026 ACES partnership for 5G and 6G in Saudi Arabia.",
+   "sources": [
+    "https://www.webull.com/news/15497094523462656"
+   ]
+  },
+  {
+   "id": "tinus-stander",
+   "name": "Tinus Stander",
+   "short": "Tinus Stander",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Professor, CEFIM, University of Pretoria",
+   "org": "up-pretoria",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Professor at the University of Pretoria's Carl and Emily Fuchs Institute for Microelectronics. Leads its sub-terahertz measurement facility for 6G research.",
+   "sources": [
+    "https://www.up.ac.za/news/ups-carl-and-emily-fuchs-institute-microelectronics-establishes-state-of-art-measurement"
+   ]
+  },
+  {
+   "id": "joyce-mwangama",
+   "name": "Joyce Mwangama",
+   "short": "Joyce Mwangama",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Professor, Electrical Engineering, UCT",
+   "org": "uct",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Associate Professor at the University of Cape Town. Built South Africa's first university 5G testbed and now works on AI-run community 5G with TU Berlin.",
+   "sources": [
+    "https://www.news.uct.ac.za/article/-2026-07-01-putting-communities-at-the-centre-of-technology"
+   ]
+  },
+  {
+   "id": "angela-wamola",
+   "name": "Angela Wamola",
+   "short": "Angela Wamola",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Africa, GSMA",
+   "org": "gsma",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of Africa at the GSMA, previously Head of Sub-Saharan Africa. Leads GSMA policy work across the continent.",
+   "sources": [
+    "https://techafricanews.com/2026/04/09/gsmas-angela-wamola-on-smartphone-affordability-ai-and-africas-policy-roadmap/",
+    "https://www.gsma.com/newsroom/all-documents/gsma-welcomes-abuja-declaration-on-meaningful-connectivity-for-africa-and-joins-partners-to-launch-atlas-umoja"
+   ]
+  },
+  {
+   "id": "ferdi-moolman",
+   "name": "Ferdi Moolman",
+   "short": "Ferdi Moolman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO, MTN South Africa",
+   "org": "mtn",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO of MTN South Africa. Spokesperson for its October 2026 upper 6 GHz 5G-Advanced trial.",
+   "sources": [
+    "https://techafricanews.com/2026/10/13/mtn-south-africa-1035-gbps-africa-first-upper-6ghz-5g-advanced-trial/"
+   ]
+  },
+  {
+   "id": "aminu-maida",
+   "name": "Aminu Maida",
+   "short": "Aminu Maida",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Vice Chairman and CEO, NCC",
+   "org": "ncc-nigeria",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of the Nigerian Communications Commission. Opened the January 2026 consultation on the Spectrum Roadmap 2026–2030.",
+   "sources": [
+    "https://ncc.gov.ng/sites/default/files/2026-02/Welcome-Address-by-the-Dr-Aminu-Maida-EVC-NCC-at-the-Stakeholders-Consultative-Forum-on-Spectrum-Roadmap-2026---2030-and-Guidelines-for-Opening-Lower-6GHZ-and-60-GHZ-Bands.pdf"
+   ]
+  },
+  {
+   "id": "mohamed-shamroukh",
+   "name": "Mohamed Shamroukh",
+   "short": "Mohamed Shamroukh",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive President, NTRA",
+   "org": "ntra-egypt",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of Egypt's NTRA. Announced Africa's first upper 6 GHz mobile trial and the 2030–2035 spectrum plan.",
+   "sources": [
+    "https://en.amwalalghad.com/?p=230280"
+   ]
   }
  ],
  "edges": [
@@ -25416,6 +26112,300 @@
    "type": "Role",
    "label": "Chief Digital Transformation Officer, Capability Program Executive Aviation, U.S. Army",
    "source": "https://www.potomacofficersclub.com/speakers/reginald-oliver/"
+  },
+  {
+   "from": "samson-lasaulce",
+   "to": "khalifa-6grc",
+   "type": "Role",
+   "label": "Chief Research Scientist; holder of the KU–TII 6G Chair on Native AI",
+   "source": "https://www.ku.ac.ae/college-people/samson-lasaulce"
+  },
+  {
+   "from": "murat-uysal",
+   "to": "nyuad",
+   "type": "Role",
+   "label": "Founding Director, NYUAD Wireless Center",
+   "source": "https://www.samenacouncil.org/samena_daily_news.php?news=107832"
+  },
+  {
+   "from": "salman-alqahtani",
+   "to": "ksu",
+   "type": "Role",
+   "label": "Dean, College of Computer and Information Sciences, King Saud University",
+   "source": "https://faculty.ksu.edu.sa/sites/default/files/Salman_CV_ENGLISH%20-%202025.pdf"
+  },
+  {
+   "from": "mohamed-slim-alouini",
+   "to": "kaust",
+   "type": "Role",
+   "label": "Al-Khawarizmi Distinguished Professor of ECE, KAUST",
+   "source": "https://www.kaust.edu.sa/news/kaust-hosts-international-and-local-6g-leaders-as-the-kingdom-aims-for-cutting-edge-wireless"
+  },
+  {
+   "from": "marwan-bin-shaker",
+   "to": "e-and",
+   "type": "Role",
+   "label": "Acting Chief Technology and Information Officer, e& UAE",
+   "source": "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2025/october/nyuad-researchers-achieve-6g-breakthrough.html"
+  },
+  {
+   "from": "saleem-alblooshi",
+   "to": "du",
+   "type": "Role",
+   "label": "Chief Technology Officer, du",
+   "source": "https://www.zawya.com/en/press-release/companies-news/du-accelerates-the-way-for-6g-with-launch-of-worlds-first-commercial-end-to-end-u6ghz-connectivity-to-customers-1616238"
+  },
+  {
+   "from": "tariq-al-awadhi",
+   "to": "tdra",
+   "type": "Role",
+   "label": "Executive Director, Spectrum Affairs, TDRA",
+   "source": "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2026/september/6g-mobile-deployment.html"
+  },
+  {
+   "from": "maryam-rofougaran",
+   "to": "movandi",
+   "type": "Role",
+   "label": "CEO and Co-founder, Movandi",
+   "source": "https://www.webull.com/news/15497094523462656"
+  },
+  {
+   "from": "tinus-stander",
+   "to": "up-pretoria",
+   "type": "Role",
+   "label": "Professor, CEFIM, University of Pretoria",
+   "source": "https://www.up.ac.za/news/ups-carl-and-emily-fuchs-institute-microelectronics-establishes-state-of-art-measurement"
+  },
+  {
+   "from": "joyce-mwangama",
+   "to": "uct",
+   "type": "Role",
+   "label": "Associate Professor, Electrical Engineering, UCT",
+   "source": "https://www.news.uct.ac.za/article/-2026-07-01-putting-communities-at-the-centre-of-technology"
+  },
+  {
+   "from": "angela-wamola",
+   "to": "gsma",
+   "type": "Role",
+   "label": "Head of Africa, GSMA",
+   "source": "https://techafricanews.com/2026/04/09/gsmas-angela-wamola-on-smartphone-affordability-ai-and-africas-policy-roadmap/"
+  },
+  {
+   "from": "ferdi-moolman",
+   "to": "mtn",
+   "type": "Role",
+   "label": "CEO, MTN South Africa",
+   "source": "https://techafricanews.com/2026/10/13/mtn-south-africa-1035-gbps-africa-first-upper-6ghz-5g-advanced-trial/"
+  },
+  {
+   "from": "aminu-maida",
+   "to": "ncc-nigeria",
+   "type": "Role",
+   "label": "Executive Vice Chairman and CEO, NCC",
+   "source": "https://ncc.gov.ng/sites/default/files/2026-02/Welcome-Address-by-the-Dr-Aminu-Maida-EVC-NCC-at-the-Stakeholders-Consultative-Forum-on-Spectrum-Roadmap-2026---2030-and-Guidelines-for-Opening-Lower-6GHZ-and-60-GHZ-Bands.pdf"
+  },
+  {
+   "from": "mohamed-shamroukh",
+   "to": "ntra-egypt",
+   "type": "Role",
+   "label": "Executive President, NTRA",
+   "source": "https://en.amwalalghad.com/?p=230280"
+  },
+  {
+   "from": "khalifa-6grc",
+   "to": "tii",
+   "type": "Partnership / project",
+   "label": "KU–TII 6G Chair; co-host 6G Abu Dhabi Summit",
+   "source": "https://www.ku.ac.ae/?p=107364"
+  },
+  {
+   "from": "samson-lasaulce",
+   "to": "tii",
+   "type": "Partnership / project",
+   "label": "Holds the KU–TII 6G Chair on Native AI",
+   "source": "https://www.ku.ac.ae/college-people/samson-lasaulce"
+  },
+  {
+   "from": "khalifa-6grc",
+   "to": "kaust",
+   "type": "Partnership / project",
+   "label": "Regional research partner",
+   "source": "https://www.ku.ac.ae/?p=107431"
+  },
+  {
+   "from": "e-and",
+   "to": "nyuad",
+   "type": "Research together",
+   "label": "145 Gbps 6G terahertz pilot (Oct 2025)",
+   "source": "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2025/october/nyuad-researchers-achieve-6g-breakthrough.html"
+  },
+  {
+   "from": "e-and",
+   "to": "khalifa-6grc",
+   "type": "Research together",
+   "label": "6G engineering framework (Oct 2026)",
+   "source": "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2026/october/nyuad-collaboration-global-6g-network.html"
+  },
+  {
+   "from": "e-and",
+   "to": "zayed-university",
+   "type": "Partnership / project",
+   "label": "UAE 6G Innovation Hub and federated testbeds",
+   "source": "https://innovate.ieee.org/uae-6g-innovation-hub-powered-by-ieee-technology/"
+  },
+  {
+   "from": "khalifa-6grc",
+   "to": "zayed-university",
+   "type": "Partnership / project",
+   "label": "UAE 6G Innovation Hub",
+   "source": "https://innovate.ieee.org/uae-6g-innovation-hub-powered-by-ieee-technology/"
+  },
+  {
+   "from": "tdra",
+   "to": "e-and",
+   "type": "Partnership / project",
+   "label": "Golden 6 GHz Band white paper",
+   "source": "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186"
+  },
+  {
+   "from": "tdra",
+   "to": "khalifa-6grc",
+   "type": "Partnership / project",
+   "label": "Golden 6 GHz Band white paper; UAE 6G white paper",
+   "source": "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186"
+  },
+  {
+   "from": "tdra",
+   "to": "nyuad",
+   "type": "Partnership / project",
+   "label": "Golden 6 GHz Band white paper",
+   "source": "https://www.zawya.com/en/press-release/companies-news/uae-moves-6gs-golden-band-into-commercial-deployment-publishes-engineering-findings-1019186"
+  },
+  {
+   "from": "tdra",
+   "to": "du",
+   "type": "Partnership / project",
+   "label": "Upper 6 GHz commercial ecosystem launch",
+   "source": "https://www.mobileworldlive.com/uae-launches-worlds-first-commercial-u6ghz-network-advancing-path-to-10gbps-connectivity/"
+  },
+  {
+   "from": "tdra",
+   "to": "huawei",
+   "type": "Partnership / project",
+   "label": "Upper 6 GHz commercial ecosystem launch",
+   "source": "https://www.mobileworldlive.com/uae-launches-worlds-first-commercial-u6ghz-network-advancing-path-to-10gbps-connectivity/"
+  },
+  {
+   "from": "tdra",
+   "to": "gsma",
+   "type": "Partnership / project",
+   "label": "Upper 6 GHz policy dialogue, SAMENA Leaders' Summit 2026",
+   "source": "https://www.mobileworldlive.com/uae-launches-worlds-first-commercial-u6ghz-network-advancing-path-to-10gbps-connectivity/"
+  },
+  {
+   "from": "du",
+   "to": "nokia",
+   "type": "Partnership / project",
+   "label": "Six-carrier aggregation, 5G-Advanced",
+   "source": "https://www.telecomtv.com/content/5g/du-achieves-world-s-1st-six-carrier-aggregation-deployment-advancing-5g-and-6g-readiness-56294/amp/"
+  },
+  {
+   "from": "du",
+   "to": "khalifa-6grc",
+   "type": "Research together",
+   "label": "6G field trials",
+   "source": "https://www.thenationalnews.com/future/technology/2026/10/13/du-and-etisalat-unveil-new-services-boosting-uae-push-towards-6g/"
+  },
+  {
+   "from": "stc",
+   "to": "cst-saudi",
+   "type": "Partnership / project",
+   "label": "First MENA 7 GHz 6G band trial",
+   "source": "https://www.telecomtv.com/content/6g/stc-group-completes-first-7-ghz-6g-enabled-band-trial-in-mena-54269/amp/"
+  },
+  {
+   "from": "stc",
+   "to": "nokia",
+   "type": "Partnership / project",
+   "label": "First MENA 7 GHz 6G band trial",
+   "source": "https://www.telecomtv.com/content/6g/stc-group-completes-first-7-ghz-6g-enabled-band-trial-in-mena-54269/amp/"
+  },
+  {
+   "from": "aces",
+   "to": "movandi",
+   "type": "Partnership / project",
+   "label": "5G and 6G MoU, LEAP 2026",
+   "source": "https://www.developingtelecoms.com/telecom-business/vendor-news/20770-saudis-aces-announces-5g-and-6g-partnership-with-movandi.html"
+  },
+  {
+   "from": "kaust",
+   "to": "hbku",
+   "type": "Research together",
+   "label": "Terahertz for high-altitude platforms",
+   "source": "https://ctl.kaust.edu.sa/topics/terahertz"
+  },
+  {
+   "from": "cra-qatar",
+   "to": "ooredoo",
+   "type": "Partnership / project",
+   "label": "Qatar 6G Testbed Platform",
+   "source": "https://www.thepeninsulaqatar.com/article/26/11/2025/cra-launches-qatars-6g-testbed-platform-at-mwc25-doha"
+  },
+  {
+   "from": "icasa",
+   "to": "mtn",
+   "type": "Partnership / project",
+   "label": "Temporary licence for upper 6 GHz trial",
+   "source": "https://techafricanews.com/2026/10/13/mtn-south-africa-1035-gbps-africa-first-upper-6ghz-5g-advanced-trial/"
+  },
+  {
+   "from": "mtn",
+   "to": "huawei",
+   "type": "Partnership / project",
+   "label": "Upper 6 GHz 5G-Advanced trial, 10.35 Gbps",
+   "source": "https://techafricanews.com/2026/10/13/mtn-south-africa-1035-gbps-africa-first-upper-6ghz-5g-advanced-trial/"
+  },
+  {
+   "from": "vodacom",
+   "to": "safaricom",
+   "type": "Partnership / project",
+   "label": "Controlling shareholder",
+   "source": "https://www.developingtelecoms.com/component/tags/tag/actis.html"
+  },
+  {
+   "from": "mtn",
+   "to": "vodacom",
+   "type": "Partnership / project",
+   "label": "African Group of Six operator alliance",
+   "source": "https://www.semafor.com/article/06/08/2026/mtn-leads-bid-to-share-african-digital-infrastructure-costs"
+  },
+  {
+   "from": "ntra-egypt",
+   "to": "telecom-egypt",
+   "type": "Partnership / project",
+   "label": "Africa's first upper 6 GHz mobile trial",
+   "source": "https://english.ahram.org.eg/News/574850.aspx"
+  },
+  {
+   "from": "ntra-egypt",
+   "to": "huawei",
+   "type": "Partnership / project",
+   "label": "Africa's first upper 6 GHz mobile trial",
+   "source": "https://english.ahram.org.eg/News/574850.aspx"
+  },
+  {
+   "from": "uct",
+   "to": "tu-berlin",
+   "type": "Research together",
+   "label": "Two-decade partnership on open 5G testbeds",
+   "source": "https://www.news.uct.ac.za/article/-2026-07-01-putting-communities-at-the-centre-of-technology"
+  },
+  {
+   "from": "thomas-magedanz",
+   "to": "uct",
+   "type": "Role",
+   "label": "Honorary Professor (since Jan 2026)",
+   "source": "https://ebe.uct.ac.za/department-electrical-engineering/contacts/thomas-magedanz"
   }
  ]
 }
