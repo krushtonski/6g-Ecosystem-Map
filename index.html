@@ -207,7 +207,7 @@ footer a{color:var(--accent)}
     <h3>Category</h3>
     <details class="msel" id="catBox"><summary id="catSum">All categories</summary><div id="catList"></div></details>
     <h3 class="kph">Key people <button type="button" class="info" id="kpInfoBtn" aria-expanded="false" aria-controls="kpInfo" title="How are key people identified?">i</button></h3>
-    <div id="kpInfo" class="kpinfo" hidden><b>How are key people identified?</b> People are ranked by verified leadership roles, funded awards, standards governance and cross-sector collaboration, all taken from the public sources behind each link.<br>+3 named PI or lead on a funding or award link · +3 chair, vice-chair or board role · +2 links to organisations in 2 or more sectors · +2 joint R&amp;D or testbed project · +1 event speaker · +2 leadership title matching one of four types: <i>Funding Gatekeeper</i> (programme directors and grant leads at funders), <i>Standards Leader</i> (chairs and rapporteurs in 3GPP, ITU-R, O-RAN, Next G Alliance), <i>Testbed Lead</i> (PIs, lab and testbed directors), <i>Ecosystem Connector</i> (technology and 6G strategy leads, board members, regional connectors). Everyone with a verified role scores at least 1.</div>
+    <div id="kpInfo" class="kpinfo" hidden><b>How are key people identified?</b> People are ranked by verified leadership roles, funded awards, standards governance and cross-sector collaboration, all taken from the public sources behind each link.<br>+3 named PI or lead on a funding or award link · +3 chair, vice-chair or board role · +2 links to organisations in 2 or more sectors · +2 joint R&amp;D or testbed project · +1 event speaker · +2 leadership title matching one of four types: <i>Funding Gatekeeper</i> (program directors and grant leads at funders), <i>Standards Leader</i> (chairs and rapporteurs in 3GPP, ITU-R, O-RAN, Next G Alliance), <i>Testbed Lead</i> (PIs, lab and testbed directors), <i>Ecosystem Connector</i> (technology and 6G strategy leads, board members, regional connectors). Everyone with a verified role scores at least 1.</div>
     <div class="kpseg" id="kpSeg" role="group" aria-label="Key people threshold" aria-describedby="kpLabel"><button type="button" data-i="0" aria-pressed="false">Off</button><button type="button" data-i="1" aria-pressed="true">All</button><button type="button" data-i="2" aria-pressed="false">Key</button><button type="button" data-i="3" aria-pressed="false">Core</button></div>
     <div class="kprow">People on the map <span id="kpCount" class="kpc"></span></div>
     <p class="hint" id="kpLabel"></p>
@@ -241,14 +241,14 @@ footer a{color:var(--accent)}
         <button data-scope="world" aria-pressed="true">World</button>
       </div>
       <div class="zoombtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button></div>
-      <div class="netnote" id="netnote"><button type="button" class="nnx" aria-label="Hide this note" onclick="this.parentNode.hidden=true">×</button>Rings show where each player is based: the Alexandria-Arlington corridor (Northern Virginia) at the centre, then the rest of the US including DC and Maryland, then international. Node size = number of connections. ■ associations ◆ programmes ▲ events.<br><b>Hover</b> over a dot to preview its links, <b>click</b> to select it, <b>scroll</b> to zoom. Names of smaller players appear as you zoom in.</div>
+      <div class="netnote" id="netnote"><button type="button" class="nnx" aria-label="Hide this note" onclick="this.parentNode.hidden=true">×</button>Rings show where each player is based: the Alexandria-Arlington corridor (Northern Virginia) at the centre, then the rest of the US including DC and Maryland, then international. Node size = number of connections. ■ associations ◆ programs ▲ events.<br><b>Hover</b> over a dot to preview its links, <b>click</b> to select it, <b>scroll</b> to zoom. Names of smaller players appear as you zoom in.</div>
     </section>
     <section class="view" id="v-mx" role="tabpanel" aria-labelledby="t-mx">
       <div class="scroll">
-        <p class="intro">Pick an association, programme or event to see who belongs to it. Shared members shows which other bodies have the most members in common.</p>
+        <p class="intro">Pick an association, program or event to see who belongs to it. Shared members shows which other bodies have the most members in common.</p>
         <div class="mxwrap">
           <div class="mxlist">
-            <div class="mxtabs" id="mxTabs" role="group" aria-label="Type"><button type="button" data-k="g" aria-pressed="true">Associations</button><button type="button" data-k="p" aria-pressed="false">Programmes</button><button type="button" data-k="e" aria-pressed="false">Events</button></div>
+            <div class="mxtabs" id="mxTabs" role="group" aria-label="Type"><button type="button" data-k="g" aria-pressed="true">Associations</button><button type="button" data-k="p" aria-pressed="false">Programs</button><button type="button" data-k="e" aria-pressed="false">Events</button></div>
             <input type="search" id="mxQ" placeholder="Filter" aria-label="Filter list">
             <ul id="mxList"></ul>
           </div>
@@ -268,7 +268,7 @@ footer a{color:var(--accent)}
 const CATS = {
   "Academic & research":{c:"#2f6fd0"}, "Government & funders":{c:"#7a4fc4"}, "Equipment & tech vendors":{c:"#d0662f"},
   "Network operators":{c:"#c23d5e"}, "Defence & integrators":{c:"#5b7a2f"}, "Associations & alliances":{c:"#0b8a7a",sq:true},
-  "Programmes & testbeds":{c:"#b08a12",sq:true}, "Events":{c:"#c2418f",sq:true}, "Economic development & place":{c:"#8a5a3c"}, "Consultancy":{c:"#1f8fb3"}, "Person":{c:"#6b7480"}
+  "Programs & testbeds":{c:"#b08a12",sq:true}, "Events":{c:"#c2418f",sq:true}, "Economic development & place":{c:"#8a5a3c"}, "Consultancy":{c:"#1f8fb3"}, "Person":{c:"#6b7480"}
 };
 const ETYPES = {
   "Membership":{c:"#0b8a7a",dash:null,st:"solid"},
@@ -298,7 +298,7 @@ const RX = {
   chair:/\b(chair|chairman|chairwoman|chairperson|vice[- ]chair|co-?chair|rapporteur|board member|board of (directors|trustees)|steering (group|committee)|trustee)\b/i,
   coauth:/co-?author|co-?inventor/i,
   stdctx:/3GPP|ITU|O-RAN|Next G|NGA|working group|\bWG\b|WP ?5D|\bTSG\b|\bRAN\d|\bSA\d|standard/i,
-  gate:/program (director|manager|officer)|programme (director|manager)|division (chief|director)|grants?\b|\bdirector\b|administrator|assistant secretary|deputy|\bchief\b|\bhead\b/i,
+  gate:/program (director|manager|officer)|program(me)? (director|manager)|division (chief|director)|grants?\b|\bdirector\b|administrator|assistant secretary|deputy|\bchief\b|\bhead\b/i,
   lab:/(director|lead|head|founder).{0,40}(cent(er|re)|institute|lab|testbed|platform|program|programme)|testbed|\bPI\b/i,
   connect:/(vice president|\bvp\b|svp|evp|director|head|chief|cto|fellow).{0,40}(technolog|6g|strateg|innovation|standard|research|network|wireless)|board member|president|executive director|\bceo\b/i
 };
@@ -330,7 +330,7 @@ function scorePeople(){
     const at=(cs,rx)=>pairs.some(([o,t])=>cs.includes(o.category)&&rx.test(clean(t)));
     if(at(["Government & funders"],RX.gate)) tags.push("Funding Gatekeeper");
     if(isChair && (RX.stdctx.test(titles) || [...oid].some(i=>STD_BODIES.has(i)))) tags.push("Standards Leader");
-    if(RX.pi.test(all) || at(["Academic & research","Programmes & testbeds"],RX.lab)) tags.push("Testbed Lead");
+    if(RX.pi.test(all) || at(["Academic & research","Programs & testbeds"],RX.lab)) tags.push("Testbed Lead");
     if(at(["Network operators","Equipment & tech vendors","Defence & integrators","Economic development & place","Associations & alliances"],RX.connect) || (isChair && cats.size>=2)) tags.push("Ecosystem Connector");
     if(tags.length){ s+=2; ev.push("Leadership role: "+tags.join(", ")); }
     if(s===0){ s=1; ev.push("Verified role at a tracked organisation"); }
@@ -344,7 +344,7 @@ const REGIONS = ["Alexandria-Arlington corridor","Rest of United States","Intern
 const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const nm = n => n.short || n.name;
 const isGroup = n => n.category==="Associations & alliances";
-const isProg = n => n.category==="Programmes & testbeds";
+const isProg = n => n.category==="Programs & testbeds";
 const isEvent = n => n.category==="Events";
 const DCREG = ["Alexandria","Northern Virginia"];
 let CTAGJ=null; async function loadCTA(){ if(!CTAGJ) CTAGJ=await fetch("data/call-to-action-6g.geojson?v=3").then(r=>r.json()); return CTAGJ; }
@@ -398,7 +398,7 @@ function allLinks(){ return state.shared? LINKS.concat(SHARED) : LINKS; }
 
 /* ---------- Stats & filters ---------- */
 function renderStats(){
-  const orgs = NODES.filter(n=>!["Person","Programmes & testbeds","Associations & alliances","Events"].includes(n.category)).length;
+  const orgs = NODES.filter(n=>!["Person","Programs & testbeds","Associations & alliances","Events"].includes(n.category)).length;
   const items=[[orgs,"organisations"],[NODES.filter(n=>n.category==="Person").length,"people"],[NODES.filter(isGroup).length,"associations"],[NODES.filter(isEvent).length,NODES.filter(isEvent).length===1?"event":"events"],[LINKS.length,"connections"]];
   document.getElementById("stats").innerHTML = items.map(([v,l])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
 }
@@ -424,7 +424,7 @@ function renderFilters(){
   applyKP(true);
   document.getElementById("shared").onchange=e=>{ state.shared=e.target.checked; e.target.checked?state.types.add("Shared association"):state.types.delete("Shared association"); buildNet(); applyAll(); if(state.sel) renderDetail(); };
   const as=document.getElementById("assocSel");
-  NODES.filter(n=>isGroup(n)||isProg(n)||isEvent(n)).sort((a,b)=>(isGroup(b)-isGroup(a))||nm(a).localeCompare(nm(b))).forEach(n=>{ const o=document.createElement("option"); o.value=n.id; o.textContent=(isProg(n)?"Programme: ":isEvent(n)?"Event: ":"")+nm(n); as.appendChild(o); });
+  NODES.filter(n=>isGroup(n)||isProg(n)||isEvent(n)).sort((a,b)=>(isGroup(b)-isGroup(a))||nm(a).localeCompare(nm(b))).forEach(n=>{ const o=document.createElement("option"); o.value=n.id; o.textContent=(isProg(n)?"Program: ":isEvent(n)?"Event: ":"")+nm(n); as.appendChild(o); });
   as.onchange=()=>{ state.assoc=as.value; if(as.value) select(as.value); else applyAll(); };
   const q=document.getElementById("q"), qr=document.getElementById("qres"); let hits=[], act=0;
   const pick=id=>{ qr.hidden=true; q.value=nm(byId[id]); state.q=""; select(id); };
@@ -537,7 +537,7 @@ function buildGeo(){
   document.getElementById("ctaBtn").onclick=toggleCTA;
   const unplaced = NODES.filter(n=>n.lat==null && n.category!=="Person");
   const ppl = NODES.filter(n=>n.category==="Person").length;
-  document.getElementById("geonote").innerHTML = `Numbered circles group nearby organisations: click one, or use the buttons above, to drill down to the Alexandria-Arlington corridor (GO Virginia Region 7). Pins mark each organisation's office (street-level in the DC region, city-level elsewhere). ${ppl} people appear under their organisation, never at a personal location. ${unplaced.length} programmes and consortia without one home are in the Network view.`;
+  document.getElementById("geonote").innerHTML = `Numbered circles group nearby organisations: click one, or use the buttons above, to drill down to the Alexandria-Arlington corridor (GO Virginia Region 7). Pins mark each organisation's office (street-level in the DC region, city-level elsewhere). ${ppl} people appear under their organisation, never at a personal location. ${unplaced.length} programs and consortia without one home are in the Network view.`;
 }
 /* ---------- Call to Action for 6G Leadership and Security overlay ---------- */
 const CTA = {

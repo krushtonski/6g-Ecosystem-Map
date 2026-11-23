@@ -41,7 +41,7 @@ const nodes = eco.map(pg => {
   const org = rel(p["Organisation"]).map(x => idOf.get(x)).find(Boolean) || null; // only public orgs resolve
   // WHITELIST: add a field here only if it is safe to publish
   return {
-    id, name: text(p["Name"]), short: text(p["Short name"]), category: sel(p["Category"]) || "Person",
+    id, name: text(p["Name"]), short: text(p["Short name"]), category: ({"Programmes & testbeds":"Programs & testbeds"}[sel(p["Category"])] || sel(p["Category"]) || "Person"),
     region: sel(p["Region"]) || "Rest of US & global", description: text(p["Description"]), role: text(p["Role"]), org,
     address: text(p["Address"]), lat: num(p["Latitude"]), lng: num(p["Longitude"]), precision: sel(p["Location precision"]),
     sources: text(p["Sources"]).split(/\s+/).filter(s => /^https?:\/\//.test(s)),

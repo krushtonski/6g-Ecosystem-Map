@@ -297,7 +297,7 @@
    "short": "",
    "category": "Government & funders",
    "region": "Washington DC & Maryland",
-   "description": "Federal partner in the NSF RINGS NextG programme.",
+   "description": "Federal partner in the NSF RINGS NextG program.",
    "role": "",
    "org": null,
    "address": "Gaithersburg, MD",
@@ -1071,9 +1071,9 @@
    "id": "rings",
    "name": "NSF RINGS",
    "short": "",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
-   "description": "Resilient & Intelligent NextG Systems: about $40M public-private research programme run by NSF with DoD, NIST and industry partners.",
+   "description": "Resilient & Intelligent NextG Systems: about $40M public-private research program run by NSF with DoD, NIST and industry partners.",
    "role": "",
    "org": null,
    "address": "",
@@ -1088,7 +1088,7 @@
    "id": "spectrumx",
    "name": "SpectrumX",
    "short": "",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "description": "NSF's $25M national spectrum innovation centre, with NTIA and FCC support. Led by the University of Notre Dame's Wireless Institute.",
    "role": "",
@@ -1105,7 +1105,7 @@
    "id": "accord",
    "name": "ACCoRD O-RAN project",
    "short": "ACCoRD",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Northern Virginia",
    "description": "$42M NTIA-funded O-RAN testing project announced at the Virginia Tech Research Center, Arlington. CCI xG Testbed is its DC-area home.",
    "role": "",
@@ -1125,7 +1125,7 @@
    "id": "dmimo",
    "name": "Mobile dMIMO (FutureG)",
    "short": "Mobile dMIMO",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Alexandria",
    "description": "$9M DoD FutureG project led by Virginia Tech, now worked on in the Alexandria wireless lab with Lockheed Martin.",
    "role": "",
@@ -1146,7 +1146,7 @@
    "id": "rapid",
    "name": "RAPID ISAC awards",
    "short": "RAPID ISAC",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "description": "Eleven awards (over $50M, Nov 2026) from the National Spectrum Consortium and the FutureG Office for integrated sensing and communications prototypes for 5G/6G.",
    "role": "",
@@ -1164,7 +1164,7 @@
    "id": "aiwin",
    "name": "AI WIN",
    "short": "",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Northern Virginia",
    "description": "Booz Allen's AI Wireless Innovation Networks initiative with NVIDIA and MITRE, focused on spectrum agility for 6G.",
    "role": "",
@@ -3017,7 +3017,7 @@
    "short": "",
    "category": "Person",
    "region": "Rest of US & global",
-   "description": "Former VP and Head of Ericsson Research (led the launch and 2025 renewal of Ericsson's UK 6G research programme); now an advisor in Ericsson's CTO office. Speaker at the Brooklyn 6G Summit 2026 (Nov 5: Panel: Wireless research in the age of AI).",
+   "description": "Former VP and Head of Ericsson Research (led the launch and 2025 renewal of Ericsson's UK 6G research program); now an advisor in Ericsson's CTO office. Speaker at the Brooklyn 6G Summit 2026 (Nov 5: Panel: Wireless research in the age of AI).",
    "role": "Advisor, CTO Office, Ericsson; former Head of Ericsson Research",
    "org": "ericsson",
    "address": "",
@@ -3306,7 +3306,7 @@
    "id": "marlan-macklin",
    "name": "Marlan L. Macklin",
    "category": "Person",
-   "description": "Deputy Principal Director for FutureG in the Office of the Under Secretary of Defense for Research & Engineering (OUSD(R&E)) since November 2023. Responsible for the office's strategic alignment, budget execution and programme oversight. Previously Chief of the Communications & Electronics Division at the US Mission to NATO; earlier in Army defence exports and cooperation. DoD civilian since 2004."
+   "description": "Deputy Principal Director for FutureG in the Office of the Under Secretary of Defense for Research & Engineering (OUSD(R&E)) since November 2023. Responsible for the office's strategic alignment, budget execution and program oversight. Previously Chief of the Communications & Electronics Division at the US Mission to NATO; earlier in Army defence exports and cooperation. DoD civilian since 2004."
   },
   {
    "short": "Commerce",
@@ -3388,7 +3388,7 @@
    "short": "",
    "category": "Person",
    "region": "Northern Virginia",
-   "description": "Manages the development and execution of FutureG applied research programmes that advance wireless networking for national security.",
+   "description": "Manages the development and execution of FutureG applied research programs that advance wireless networking for national security.",
    "role": "Program Developer and Portfolio Execution Lead, FutureG Applied Research, OUSD(R&E)",
    "org": "futureg",
    "address": "",
@@ -3567,7 +3567,7 @@
    ],
    "id": "asc-demo",
    "name": "Advanced Spectrum Coexistence (ASC) Demonstration",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "description": "Department of War large-scale spectrum-sharing demonstration in mid-band, awarded through the National Spectrum Consortium's $2.5B Spectrum Forward OTA (Oct 2025). Project leads: Peraton Labs, InterDigital, Nokia Federal Solutions, RTX BBN Technologies and Northeastern's Kostas Research Institute."
   },
   {
@@ -3852,7 +3852,7 @@
    "id": "caci",
    "name": "CACI International",
    "category": "Defence & integrators",
-   "description": "Defence and intelligence technology contractor. Its Platform & Tactical C3I division delivers integration programmes for DoW, DHS and the intelligence community.",
+   "description": "Defence and intelligence technology contractor. Its Platform & Tactical C3I division delivers integration programs for DoW, DHS and the intelligence community.",
    "website": "https://www.caci.com/",
    "hub": [
     "Anchor employer"
@@ -4106,7 +4106,7 @@
    "id": "sempre",
    "name": "SEMPRE",
    "category": "Equipment & tech vendors",
-   "description": "Builds hardened private 5G and edge platforms (EMP-hardened micro-edge data centres, private 5G, satellite links) for defence, government and first responders. Partnered with Tiami Networks in 2025 to add passive 5G ISAC drone sensing. Active in DC-area FutureG programmes and events.",
+   "description": "Builds hardened private 5G and edge platforms (EMP-hardened micro-edge data centres, private 5G, satellite links) for defence, government and first responders. Partnered with Tiami Networks in 2025 to add passive 5G ISAC drone sensing. Active in DC-area FutureG programs and events.",
    "sources": [
     "https://www.cbinsights.com/company/sempre",
     "https://journalofcyberpolicy.com/?p=334523"
@@ -4847,7 +4847,7 @@
    "id": "alex-sprintson",
    "name": "Alex Sprintson",
    "category": "Person",
-   "description": "Chair of Electrical and Computer Engineering at George Mason (since 2025) and Academic Fellow and Chair of the Research Council at the Next G Alliance. Previously led the $40M NSF RINGS NextG programme as an NSF programme director, and was Network Security Principal at Nokia Bell Labs. A key policy-to-research link in Northern Virginia.",
+   "description": "Chair of Electrical and Computer Engineering at George Mason (since 2025) and Academic Fellow and Chair of the Research Council at the Next G Alliance. Previously led the $40M NSF RINGS NextG program as an NSF program director, and was Network Security Principal at Nokia Bell Labs. A key policy-to-research link in Northern Virginia.",
    "sources": [
     "https://cec.sitemasonry.gmu.edu/news/2025-08/new-ece-chair-focuses-future-proof-engineering-george-mason",
     "https://lingjialiu.ece.vt.edu/index/research/US-ALIGNS/Agenda.html"
@@ -5240,7 +5240,7 @@
    "id": "samsung-uk",
    "name": "Samsung R&D Institute UK",
    "category": "Equipment & tech vendors",
-   "description": "Samsung's UK research centre, part of Samsung's global 6G research programme.",
+   "description": "Samsung's UK research centre, part of Samsung's global 6G research program.",
    "sources": [
     "https://research.samsung.com/"
    ]
@@ -5255,9 +5255,9 @@
    "lng": null,
    "precision": "",
    "id": "ericsson-uk",
-   "name": "Ericsson UK 6G research programme",
+   "name": "Ericsson UK 6G research program",
    "category": "Equipment & tech vendors",
-   "description": "Ericsson's UK-based 6G research programme, launched in 2022 with a ten-year, tens-of-millions-of-pounds commitment and renewed in June 2025. Focus areas include multi-point transmission, integrated sensing and communication, cognitive networks, energy efficiency, resilience and security, feeding into 3GPP standards. Worked on the UK government-backed REASON and TUDOR projects.",
+   "description": "Ericsson's UK-based 6G research program, launched in 2022 with a ten-year, tens-of-millions-of-pounds commitment and renewed in June 2025. Focus areas include multi-point transmission, integrated sensing and communication, cognitive networks, energy efficiency, resilience and security, feeding into 3GPP standards. Worked on the UK government-backed REASON and TUDOR projects.",
    "sources": [
     "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks",
     "https://pipelinepub.com/news/ericsson-recommits-to-uk-research-program"
@@ -5274,7 +5274,7 @@
    "precision": "",
    "id": "tudor",
    "name": "TUDOR",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "description": "Towards Ubiquitous 3D Open Resilient Network: a £12M DSIT-funded UK flagship 6G research project (Feb 2023 to Jan 2025) led by Surrey's 6GIC, integrating satellite, airborne and terrestrial networks. Consortium included Ericsson, InterDigital, BT, BAE Systems and Qualcomm.",
    "sources": [
     "https://www.surrey.ac.uk/towards-ubiquitous-3d-open-resilient-network"
@@ -5292,7 +5292,7 @@
    "precision": "Campus",
    "id": "reason",
    "name": "REASON",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "description": "Realising Enabling Architectures and Solutions for Open Networks: UK 6G flagship project led by the University of Bristol (Professor Dimitra Simeonidou), with about £12m from DSIT (December 2022 to December 2025). Developed open 6G architectures and multi-technology access networks. Partners included Ericsson, Nokia Bell Labs, Samsung, BT, Digital Catapult, Thales UK, King's College London, Southampton and Strathclyde. Won the 2024 National AI Award for High Tech and Telecom.",
    "sources": [
     "https://reason-open-networks.ac.uk/?p=140",
@@ -5312,7 +5312,7 @@
    "id": "oulu",
    "name": "University of Oulu / 6G Flagship",
    "category": "Academic & research",
-   "description": "Finnish university running 6G Flagship, the world's first large-scale 6G research programme (from 2018), directed by Ari Pouttu since 2025. Runs the 6G Test Centre, a NATO DIANA test centre, and leads the 6G Rocket AI-RAN project. Member of the AI-RAN Alliance.",
+   "description": "Finnish university running 6G Flagship, the world's first large-scale 6G research program (from 2018), directed by Ari Pouttu since 2025. Runs the 6G Test Centre, a NATO DIANA test centre, and leads the 6G Rocket AI-RAN project. Member of the AI-RAN Alliance.",
    "sources": [
     "https://www.6gflagship.com/?p=14218",
     "https://www.eurekalert.org/news-releases/1086083",
@@ -6330,7 +6330,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Director of the CCI xG Testbed in Arlington since 2020, leading a team of faculty, postdocs, graduate research assistants and interns. Works on wireless networking (NFV, SDN, SDR), radio access and core networks, and large-scale testbed experimentation. Also research faculty in Virginia Tech's Bradley Department of ECE. Previously with the NSF PAWR programme. Not related to CCI executive director Luiz DaSilva.",
+   "description": "Director of the CCI xG Testbed in Arlington since 2020, leading a team of faculty, postdocs, graduate research assistants and interns. Works on wireless networking (NFV, SDN, SDR), radio access and core networks, and large-scale testbed experimentation. Also research faculty in Virginia Tech's Bradley Department of ECE. Previously with the NSF PAWR program. Not related to CCI executive director Luiz DaSilva.",
    "sources": [
     "https://cyberinitiative.org/people/faculty/aloizio-pereira-da-silva.html",
     "https://ccixgtestbed.org/cci-xg-testbed-team.html",
@@ -6861,7 +6861,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Program Manager for the FutureG Office's OCUDU programme. Building the public-private partnership behind OCUDU with the Linux Foundation and the National Spectrum Consortium, including the OCUDU Ecosystem Foundation (68+ members).",
+   "description": "Program Manager for the FutureG Office's OCUDU program. Building the public-private partnership behind OCUDU with the Linux Foundation and the National Spectrum Consortium, including the OCUDU Ecosystem Foundation (68+ members).",
    "sources": [
     "https://www.fedinsider.com/the-search-for-open-source-hardware/",
     "https://innovate-defense.com/author/aaquiro/"
@@ -7341,7 +7341,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Leads AFCEA's national security and defence portfolio, including its TechNet events and industry programmes. Retired US Army brigadier general.",
+   "description": "Leads AFCEA's national security and defence portfolio, including its TechNet events and industry programs. Retired US Army brigadier general.",
    "sources": [
     "https://www.afcea.org/about-afcea/afcea-senior-leadership"
    ]
@@ -8330,7 +8330,7 @@
    "id": "open6g",
    "name": "Open6G (Northeastern University)",
    "short": "Open6G",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": "",
    "org": null,
@@ -8594,7 +8594,7 @@
    "lat": 40.3431,
    "lng": -74.6551,
    "precision": "Campus",
-   "description": "Princeton's NextG Initiative, formed in 2023, links faculty and a corporate affiliates programme on wireless, terahertz integrated circuits, networking and cloud. Affiliates include Samsung Research America, Ericsson, Intel, MediaTek, Nokia Bell Labs, Qualcomm and Vodafone.",
+   "description": "Princeton's NextG Initiative, formed in 2023, links faculty and a corporate affiliates program on wireless, terahertz integrated circuits, networking and cloud. Affiliates include Samsung Research America, Ericsson, Intel, MediaTek, Nokia Bell Labs, Qualcomm and Vodafone.",
    "sources": [
     "https://nextg.princeton.edu/corporate-program/meet-your-faculty-leaders/",
     "https://news.samsung.com/us/samsung-princeton-university-partners-pave-way-6g-innovation/"
@@ -8995,7 +8995,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Co-director of Princeton NextG and its industry affiliates programme. Works on terahertz and mmWave wireless networking and sensing. 2026 Sloan Research Fellow.",
+   "description": "Co-director of Princeton NextG and its industry affiliates program. Works on terahertz and mmWave wireless networking and sensing. 2026 Sloan Research Fellow.",
    "sources": [
     "https://nextg.princeton.edu/corporate-program/meet-your-faculty-leaders/"
    ]
@@ -9179,7 +9179,7 @@
    "id": "brasil-6g",
    "name": "Brasil 6G Project",
    "short": "Brasil 6G",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": "",
    "org": null,
@@ -9187,7 +9187,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "National 6G research programme created by Brazil's Ministry of Science, Technology and Innovation (MCTI) as a Priority IT Programme (PPI). Coordinated by RNP and executed by INATEL with CPQD and universities including Unicamp, UFRJ, UFC, UFPA, UFSC, UFU, UFG and Unisinos. Entered its third phase (prototypes and remote-access testing) in the second half of 2024.",
+   "description": "National 6G research program created by Brazil's Ministry of Science, Technology and Innovation (MCTI) as a Priority IT Program (PPI). Coordinated by RNP and executed by INATEL with CPQD and universities including Unicamp, UFRJ, UFC, UFPA, UFSC, UFU, UFG and Unisinos. Entered its third phase (prototypes and remote-access testing) in the second half of 2024.",
    "sources": [
     "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks",
     "https://www.rnp.br/en/node/8327",
@@ -9206,7 +9206,7 @@
    "lat": -22.9068,
    "lng": -43.1729,
    "precision": "City",
-   "description": "Brazil's National Education and Research Network. Coordinates the Brasil 6G programme and the OpenRAN@Brasil and 5G-in-a-box Priority IT projects for MCTI.",
+   "description": "Brazil's National Education and Research Network. Coordinates the Brasil 6G program and the OpenRAN@Brasil and 5G-in-a-box Priority IT projects for MCTI.",
    "sources": [
     "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks",
     "https://www.rnp.br/en/node/8327"
@@ -9224,7 +9224,7 @@
    "lat": -15.7998,
    "lng": -47.8645,
    "precision": "City",
-   "description": "Brazilian federal ministry that created and funds the Brasil 6G programme and OpenRAN@Brasil through its Priority IT Programmes.",
+   "description": "Brazilian federal ministry that created and funds the Brasil 6G program and OpenRAN@Brasil through its Priority IT Programs.",
    "sources": [
     "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
    ]
@@ -9450,7 +9450,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "RNP researcher working on the Brasil 6G programme. Presented the Plataforma Brasil 6G at the RNP Workshop (WRNP) in May 2026.",
+   "description": "RNP researcher working on the Brasil 6G program. Presented the Plataforma Brasil 6G at the RNP Workshop (WRNP) in May 2026.",
    "sources": [
     "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks",
     "https://indico.rnp.br/event/155/contributions/1262/contribution.pdf"
@@ -9468,7 +9468,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Directs RNP's R&D programmes, including Brasil 6G, OpenRAN@Brasil and 5G-in-a-box.",
+   "description": "Directs RNP's R&D programs, including Brasil 6G, OpenRAN@Brasil and 5G-in-a-box.",
    "sources": [
     "https://www.rnp.br/en/node/8327"
    ]
@@ -9643,7 +9643,7 @@
    "lat": -33.443,
    "lng": -70.654,
    "precision": "City",
-   "description": "Chile's state economic development agency. Its Technological Capabilities division backs the Subtel and OnLab industrial 5G/6G pilot programme.",
+   "description": "Chile's state economic development agency. Its Technological Capabilities division backs the Subtel and OnLab industrial 5G/6G pilot program.",
    "sources": [
     "https://www.emol.com/noticias/Economia/2026/10/06/1213367/subtel-onlab-acuerdo-corfo-6g.html",
     "https://www.intelligentcio.com/latam/?p=20093"
@@ -9653,7 +9653,7 @@
    "id": "onlab",
    "name": "OnLab",
    "short": "",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": "",
    "org": null,
@@ -9785,7 +9785,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Heads Corfo's Technological Capabilities division, which backs the Subtel and OnLab 5G/6G pilots. Also leads Corfo programmes on AI adoption and green hydrogen.",
+   "description": "Heads Corfo's Technological Capabilities division, which backs the Subtel and OnLab 5G/6G pilots. Also leads Corfo programs on AI adoption and green hydrogen.",
    "sources": [
     "https://www.mch.cl/suscriben-acuerdo-para-impulsar-el-5g-y-6g-en-sectores-productivos-como-la-mineria/",
     "https://fch.cl/en/noticias/corfo-refocuses-green-hydrogen-promotion-with-emphasis-on-domestic-demand-and-job-creation/"
@@ -9888,7 +9888,7 @@
    "lat": 49.2606,
    "lng": -123.246,
    "precision": "Campus",
-   "description": "Vancouver university. Canada's first 5G smart campus (with Rogers) and a living lab for next-generation wireless. Its ICICS institute and Arctic research programme work on secure 5G/6G communications, sensing and AI for harsh Arctic conditions and defence applications.",
+   "description": "Vancouver university. Canada's first 5G smart campus (with Rogers) and a living lab for next-generation wireless. Its ICICS institute and Arctic research program work on secure 5G/6G communications, sensing and AI for harsh Arctic conditions and defence applications.",
    "sources": [
     "https://apsc.ubc.ca/research-partnerships/arctic/data-security-defence-technology-predictive-systems",
     "https://icics.ubc.ca/industry/ubc-rogers-5g"
@@ -10734,7 +10734,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Presented SoftBank's HAPS programme ahead of its 2026 trial service (July 2026).",
+   "description": "Presented SoftBank's HAPS program ahead of its 2026 trial service (July 2026).",
    "sources": [
     "https://www.softbank.jp/en/sbnews/entry/20260731_01"
    ]
@@ -10787,7 +10787,7 @@
    "lat": 12.95,
    "lng": 80.24,
    "precision": "City",
-   "description": "Ericsson's India 6G programme, launched October 2023 at its Chennai R&D centre. Researchers in radio, networks, AI and cloud work with Ericsson Research in Sweden and the US. Partners with IIT Madras (Responsible AI), IIT Kharagpur (AI and distributed compute) and ISI Kolkata (cyber-physical systems).",
+   "description": "Ericsson's India 6G program, launched October 2023 at its Chennai R&D centre. Researchers in radio, networks, AI and cloud work with Ericsson Research in Sweden and the US. Partners with IIT Madras (Responsible AI), IIT Kharagpur (AI and distributed compute) and ISI Kolkata (cyber-physical systems).",
    "sources": [
     "https://www.ericsson.com/en/press-releases/2/2023/10/ericsson-initiates-india-6g-program-in-india",
     "https://techblog.comsoc.org/2024/02/02/ericsson-and-iit-kharagpur-partner-for-joint-research-in-ai-and-6g/",
@@ -11089,7 +11089,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Leads Ericsson India, including its India 6G programme and Bengaluru ASIC expansion.",
+   "description": "Leads Ericsson India, including its India 6G program and Bengaluru ASIC expansion.",
    "sources": [
     "https://www.ericsson.com/en/press-releases/2/2025/6/ericsson-strengthens-rd-in-india--to-commence-asic-development-in-bengaluru",
     "https://mobileworldlive.com/?p=394255"
@@ -11211,7 +11211,7 @@
    "lat": 39.907,
    "lng": 116.388,
    "precision": "City",
-   "description": "China's industry and telecoms ministry. Set up the IMT-2030 (6G) Promotion Group in 2019, granted it 6 GHz (6,425 to 7,125 MHz) 6G trial spectrum in May 2026, and launched a ministry-provincial 6G pilot programme (June 2026). In November 2026 approved eight pilot regions: Beijing, Hebei, Shanghai, Jiangsu, Zhejiang, Anhui, Hubei and Guangdong. In November 2026 approved eight pilot regions: Beijing, Hebei, Shanghai, Jiangsu, Zhejiang, Anhui, Hubei and Guangdong.",
+   "description": "China's industry and telecoms ministry. Set up the IMT-2030 (6G) Promotion Group in 2019, granted it 6 GHz (6,425 to 7,125 MHz) 6G trial spectrum in May 2026, and launched a ministry-provincial 6G pilot program (June 2026). In November 2026 approved eight pilot regions: Beijing, Hebei, Shanghai, Jiangsu, Zhejiang, Anhui, Hubei and Guangdong. In November 2026 approved eight pilot regions: Beijing, Hebei, Shanghai, Jiangsu, Zhejiang, Anhui, Hubei and Guangdong.",
    "sources": [
     "https://www.thestar.com.my/business/business-news/2026/05/08/china-approves-6g-trials-to-accelerate-next-gen-connectivity",
     "https://www.abiresearch.com/market-research/insight/7787874-6-ghz-6g-and-the-battle-for-global-spectru",
@@ -11591,7 +11591,7 @@
    "lat": 60.163,
    "lng": 24.907,
    "precision": "City",
-   "description": "Finland's innovation funding agency. Ran the 6G Bridge programme (2022 to 2026, EUR 130 million) for 5G-Advanced and 6G, and awarded Nokia EUR 40 million for AI-driven 6G and defence network R&D (June 2026). Runs joint 6G calls with South Korea and Sweden.",
+   "description": "Finland's innovation funding agency. Ran the 6G Bridge program (2022 to 2026, EUR 130 million) for 5G-Advanced and 6G, and awarded Nokia EUR 40 million for AI-driven 6G and defence network R&D (June 2026). Runs joint 6G calls with South Korea and Sweden.",
    "sources": [
     "https://smart-networks.europa.eu/wp-content/uploads/2025/09/rantala-pekka_business-finland-resilience-in-6g-the-finnish-6g-bridge-program-perspectives_4.9.2025.pdf",
     "https://www.businessfinland.fi/en/services/Programs-and-ecosystems/Programs/6G-Bridge/",
@@ -11695,7 +11695,7 @@
    "id": "cinet",
    "name": "CINET Flagship (Connected Intelligence and Networks for Resilient Society)",
    "short": "CINET",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": "",
    "org": "",
@@ -11712,7 +11712,7 @@
    "id": "6g-rocket",
    "name": "6G Rocket (AI-RAN project)",
    "short": "6G Rocket",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": "",
    "org": "",
@@ -11914,7 +11914,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Co-leads 6G-FISRE, the joint Finnish-Swedish 6G resilience programme with KTH.",
+   "description": "Co-leads 6G-FISRE, the joint Finnish-Swedish 6G resilience program with KTH.",
    "sources": [
     "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
    ]
@@ -11931,7 +11931,7 @@
    "lat": null,
    "lng": null,
    "precision": "",
-   "description": "Led Business Finland's EUR 130 million 6G Bridge programme (2022 to 2026) and its international 6G calls.",
+   "description": "Led Business Finland's EUR 130 million 6G Bridge program (2022 to 2026) and its international 6G calls.",
    "sources": [
     "https://www.businessfinland.fi/en/whats-new/Events/2026/6G-summit-2026/",
     "https://smart-networks.europa.eu/wp-content/uploads/2025/09/rantala-pekka_business-finland-resilience-in-6g-the-finnish-6g-bridge-program-perspectives_4.9.2025.pdf"
@@ -12037,7 +12037,7 @@
    "lat": 1.2756,
    "lng": 103.799,
    "precision": "City",
-   "description": "Singapore's digital and telecoms regulator and development agency. With the National Research Foundation, is investing close to S$70 million in the Future Communications Research and Development Programme (FCP), Singapore's national 6G programme. Sets Singapore's telecoms standards.",
+   "description": "Singapore's digital and telecoms regulator and development agency. With the National Research Foundation, is investing close to S$70 million in the Future Communications Research and Development Program (FCP), Singapore's national 6G program. Sets Singapore's telecoms standards.",
    "sources": [
     "https://www.imda.gov.sg/futurecommsprogramme",
     "https://imda.gov.sg/how-we-can-help/future-communications-research-and-development-programme"
@@ -12055,7 +12055,7 @@
    "lat": 1.28,
    "lng": 103.85,
    "precision": "City",
-   "description": "Singapore's national research funder. Co-funds the Future Communications Research and Development Programme with IMDA.",
+   "description": "Singapore's national research funder. Co-funds the Future Communications Research and Development Program with IMDA.",
    "sources": [
     "https://www.imda.gov.sg/futurecommsprogramme"
    ]
@@ -12064,7 +12064,7 @@
    "id": "fcp",
    "name": "Future Communications Research and Development Programme (FCP)",
    "short": "FCP",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -12072,7 +12072,7 @@
    "lat": 1.3418,
    "lng": 103.9645,
    "precision": "Campus",
-   "description": "Singapore's first national future communications and 6G programme, launched 2021 with close to S$70 million from IMDA and NRF. Hosted by SUTD and directed by Professor Tony Quek. Runs the Future Communications Connectivity Lab at SUTD and the Future Communications Translation Lab at SIT, awards research and translation grants, and has a 6G MoU with Finland's 6G Flagship.",
+   "description": "Singapore's first national future communications and 6G program, launched 2021 with close to S$70 million from IMDA and NRF. Hosted by SUTD and directed by Professor Tony Quek. Runs the Future Communications Connectivity Lab at SUTD and the Future Communications Translation Lab at SIT, awards research and translation grants, and has a 6G MoU with Finland's 6G Flagship.",
    "sources": [
     "https://www.imda.gov.sg/futurecommsprogramme",
     "https://imda.gov.sg/how-we-can-help/future-communications-research-and-development-programme",
@@ -12162,7 +12162,7 @@
    "lat": 59.3498,
    "lng": 18.0707,
    "precision": "Campus",
-   "description": "Stockholm university. Leads AI and algorithm research in Ericsson's Trustworthy 6G Positioning project with NTU (2026). Co-leads the Finnish-Swedish 6G-FISRE resilience programme with the University of Oulu.",
+   "description": "Stockholm university. Leads AI and algorithm research in Ericsson's Trustworthy 6G Positioning project with NTU (2026). Co-leads the Finnish-Swedish 6G-FISRE resilience program with the University of Oulu.",
    "sources": [
     "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g",
     "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
@@ -12174,13 +12174,13 @@
    "short": "Tony Quek",
    "category": "Person",
    "region": "Rest of US & global",
-   "role": "Director, Future Communications Research and Development Programme (FCP); Associate Provost (AI and Digital Innovation), SUTD",
+   "role": "Director, Future Communications Research and Development Program (FCP); Associate Provost (AI and Digital Innovation), SUTD",
    "org": "sutd",
    "address": null,
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Leads Singapore's national 6G programme and SUTD's O-RAN and AI-RAN work. Also heads SIT's Future Communications Translation Lab. IEEE Fellow.",
+   "description": "Leads Singapore's national 6G program and SUTD's O-RAN and AI-RAN work. Also heads SIT's Future Communications Translation Lab. IEEE Fellow.",
    "sources": [
     "https://www.sutd.edu.sg/profile/professor-tony-quek/",
     "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
@@ -12296,7 +12296,7 @@
    "short": "Guan Yong Liang",
    "category": "Person",
    "region": "Rest of US & global",
-   "role": "Associate Vice President (Infrastructure and Programmes), NTU; FCP Co-PI",
+   "role": "Associate Vice President (Infrastructure and Programs), NTU; FCP Co-PI",
    "org": "ntu",
    "address": null,
    "lat": null,
@@ -12336,7 +12336,7 @@
    "lat": 51.5658,
    "lng": -1.7853,
    "precision": "Street address",
-   "description": "UK Research and Innovation's engineering and physical sciences council. Funds the UK's future telecoms hubs (TITAN, CHEDDAR, HASC, JOINER and the Federated Telecoms Hubs) through the Future Connectivity Hubs Evolution Programme with DSIT, and funds the National 6G Radio Systems Facility at Sheffield.",
+   "description": "UK Research and Innovation's engineering and physical sciences council. Funds the UK's future telecoms hubs (TITAN, CHEDDAR, HASC, JOINER and the Federated Telecoms Hubs) through the Future Connectivity Hubs Evolution Program with DSIT, and funds the National 6G Radio Systems Facility at Sheffield.",
    "sources": [
     "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/",
     "https://www.ukri.org/news/major-future-telecoms-research-boost-announced/"
@@ -12365,7 +12365,7 @@
    "id": "fth",
    "name": "Federated Telecoms Hubs (FTH)",
    "short": "FTH",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -12373,7 +12373,7 @@
    "lat": 52.2053,
    "lng": 0.1218,
    "precision": "City",
-   "description": "Umbrella that links the UK's EPSRC telecoms research hubs (TITAN, CHEDDAR, HASC) and the JOINER experimentation platform, handling commercialisation, standards and industry engagement. Part of the Future Connectivity Hubs Evolution Programme, which allows up to about £97.6m full economic cost across the five hubs (EPSRC funds 80%).",
+   "description": "Umbrella that links the UK's EPSRC telecoms research hubs (TITAN, CHEDDAR, HASC) and the JOINER experimentation platform, handling commercialisation, standards and industry engagement. Part of the Future Connectivity Hubs Evolution Program, which allows up to about £97.6m full economic cost across the five hubs (EPSRC funds 80%).",
    "sources": [
     "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/",
     "https://www.telecomtv.com/content/access-evolution/how-harald-haas-is-matching-industry-problems-with-academic-solutions-55978/"
@@ -12383,7 +12383,7 @@
    "id": "titan",
    "name": "TITAN (Platform Driving the Ultimate Connectivity)",
    "short": "TITAN",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -12401,7 +12401,7 @@
    "id": "cheddar",
    "name": "CHEDDAR (Communications Hub for Empowering Distributed clouD computing Applications and Research)",
    "short": "CHEDDAR",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -12419,7 +12419,7 @@
    "id": "hasc",
    "name": "HASC (Hub in All-Spectrum Connectivity)",
    "short": "HASC",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -12437,7 +12437,7 @@
    "id": "joiner",
    "name": "JOINER (Joint Open Infrastructure for Networks Research)",
    "short": "JOINER",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -12561,7 +12561,7 @@
    "id": "uktl",
    "name": "UK Telecoms Lab (UKTL)",
    "short": "UKTL",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -12730,7 +12730,7 @@
    "lat": -33.8962,
    "lng": 151.193,
    "precision": "Campus",
-   "description": "Digital research arm of CSIRO, Australia's national science agency. Ran Australia's 6G security research programme for the Department of Home Affairs (2022 to mid-2025), covering privacy, secure protocols, network software and spectrum, and built a radio frequency test and collaboration platform. Published 'Security and privacy in 6G mobile' (October 2025).",
+   "description": "Digital research arm of CSIRO, Australia's national science agency. Ran Australia's 6G security research program for the Department of Home Affairs (2022 to mid-2025), covering privacy, secure protocols, network software and spectrum, and built a radio frequency test and collaboration platform. Published 'Security and privacy in 6G mobile' (October 2025).",
    "sources": [
     "https://research.csiro.au/6gsecurity",
     "https://www.csiro.au/en/research/technology-space/data/Security-and-privacy-in-6G-mobile",
@@ -12749,7 +12749,7 @@
    "lat": -35.3075,
    "lng": 149.134,
    "precision": "City",
-   "description": "Australian government department. Funded CSIRO's three-year 6G and next-generation telecoms security research programme.",
+   "description": "Australian government department. Funded CSIRO's three-year 6G and next-generation telecoms security research program.",
    "sources": [
     "https://research.csiro.au/6gsecurity"
    ]
@@ -12795,7 +12795,7 @@
    "id": "cin",
    "name": "Connectivity Innovation Network (CIN)",
    "short": "CIN",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -13159,7 +13159,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Leads Optus's 6G research programme, including the 2026 upper 6 GHz trial with Nokia.",
+   "description": "Leads Optus's 6G research program, including the 2026 upper 6 GHz trial with Nokia.",
    "sources": [
     "https://www.whistleout.com.au/MobilePhones/News/Optus-6G-testing",
     "https://optus.com.au/about/media-centre/speeches-and-reports/2026/06/commsday-summit-sri-amirthalingam"
@@ -13446,7 +13446,7 @@
    "lat": 40.8296,
    "lng": -96.683,
    "precision": "Campus",
-   "description": "Nebraska Law runs one of the main US space, cyber and telecommunications law programmes, with an advisory board including satellite industry figures.",
+   "description": "Nebraska Law runs one of the main US space, cyber and telecommunications law programs, with an advisory board including satellite industry figures.",
    "sources": [
     "https://law.unl.edu/taxonomy/term/785",
     "https://law.unl.edu/node/818/"
@@ -13464,7 +13464,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Satellite regulatory policy expert with over 30 years' experience. Former Senior Advisor for Regulatory and Space Policy at OneWeb (now part of Eutelsat). Earlier worked at O3b (now SES) and American Mobile Satellite Corporation. Teaches space and telecoms law at Ole Miss and is linked to Nebraska's Space, Cyber and Telecommunications Law programme.",
+   "description": "Satellite regulatory policy expert with over 30 years' experience. Former Senior Advisor for Regulatory and Space Policy at OneWeb (now part of Eutelsat). Earlier worked at O3b (now SES) and American Mobile Satellite Corporation. Teaches space and telecoms law at Ole Miss and is linked to Nebraska's Space, Cyber and Telecommunications Law program.",
    "sources": [
     "https://law.olemiss.edu/faculty-directory/ruth-pritchard-kelly",
     "https://swfound.org/about-us/our-advisory-committee/ms-ruth-pritchard-kelly",
@@ -13719,7 +13719,7 @@
    "id": "6g-sandbox",
    "name": "6G-SANDBOX",
    "short": "6G-SANDBOX",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14096,7 +14096,7 @@
    "id": "hexa-x-ii",
    "name": "Hexa-X-II (European 6G Flagship)",
    "short": "Hexa-X-II",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14141,7 +14141,7 @@
    "lat": 52.52,
    "lng": 13.405,
    "precision": "City",
-   "description": "German research ministry (formerly BMBF). Funded four 6G research hubs from 2021 with up to €250 million, within a 6G programme of up to €700 million. Since 2026 funds their successors as 6G transfer hubs (6G-life², xG-RIC, Open6GHub+, 6GEM+) and the 6G Platform Germany.",
+   "description": "German research ministry (formerly BMBF). Funded four 6G research hubs from 2021 with up to €250 million, within a 6G program of up to €700 million. Since 2026 funds their successors as 6G transfer hubs (6G-life², xG-RIC, Open6GHub+, 6GEM+) and the 6G Platform Germany.",
    "sources": [
     "https://www.telecompaper.com/news/german-ministry-funds-6g-research-at-four-hubs-with-eur-250-mln--1388549",
     "https://www.hhi.fraunhofer.de/en/press/news/germany-strengthens-its-6g-strategy-6g-platform-germany-enters-second-transfer-oriented-funding-phase.html"
@@ -14151,7 +14151,7 @@
    "id": "6g-life",
    "name": "6G-life² (TU Dresden and TU Munich)",
    "short": "6G-life",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14170,7 +14170,7 @@
    "id": "xg-ric",
    "name": "xG-RIC (formerly 6G-RIC), Berlin",
    "short": "xG-RIC",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14189,7 +14189,7 @@
    "id": "open6ghub",
    "name": "Open6GHub+",
    "short": "Open6GHub+",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14208,7 +14208,7 @@
    "id": "6gem",
    "name": "6GEM+ (RWTH Aachen and partners)",
    "short": "6GEM+",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14367,7 +14367,7 @@
    "id": "pepr-reseaux",
    "name": "PEPR Networks of the Future (Réseaux du Futur), France 2030",
    "short": "PEPR Réseaux du Futur",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14375,7 +14375,7 @@
    "lat": 48.8566,
    "lng": 2.3522,
    "precision": "City",
-   "description": "French national research programme on 5G and 6G (launched July 2023, €65 million over six years from France 2030), co-led by CEA, CNRS and Institut Mines-Télécom. Covers end-to-end systems, technology building blocks and platforms, including environmental impact. Tasked with proposing a 'France 6G' platform.",
+   "description": "French national research program on 5G and 6G (launched July 2023, €65 million over six years from France 2030), co-led by CEA, CNRS and Institut Mines-Télécom. Covers end-to-end systems, technology building blocks and platforms, including environmental impact. Tasked with proposing a 'France 6G' platform.",
    "sources": [
     "https://www.imt.fr/en/?p=93075",
     "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/",
@@ -14394,7 +14394,7 @@
    "lat": 45.1964,
    "lng": 5.709,
    "precision": "Campus",
-   "description": "French Alternative Energies and Atomic Energy Commission. Co-leads the PEPR Networks of the Future programme.",
+   "description": "French Alternative Energies and Atomic Energy Commission. Co-leads the PEPR Networks of the Future program.",
    "sources": [
     "https://www.imt.fr/en/?p=93075",
     "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
@@ -14412,7 +14412,7 @@
    "lat": 48.8471,
    "lng": 2.2646,
    "precision": "City",
-   "description": "Co-leads the PEPR Networks of the Future programme.",
+   "description": "Co-leads the PEPR Networks of the Future program.",
    "sources": [
     "https://www.imt.fr/en/?p=93075",
     "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
@@ -14430,7 +14430,7 @@
    "lat": 48.713,
    "lng": 2.2,
    "precision": "City",
-   "description": "French group of engineering schools including Télécom Paris. Co-leads the PEPR Networks of the Future programme.",
+   "description": "French group of engineering schools including Télécom Paris. Co-leads the PEPR Networks of the Future program.",
    "sources": [
     "https://www.imt.fr/en/?p=93075",
     "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
@@ -14475,7 +14475,7 @@
    "id": "6g-ntn",
    "name": "6G-NTN (6G Non-Terrestrial Networks)",
    "short": "6G-NTN",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14583,7 +14583,7 @@
    "id": "fns-nl",
    "name": "Future Network Services (6G NL)",
    "short": "FNS",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14591,7 +14591,7 @@
    "lat": 52.0705,
    "lng": 4.32,
    "precision": "City",
-   "description": "Dutch national 6G programme led by TNO with around 60 partners in antennas, semiconductors, network software and mobile networks. Backed by up to €203 million from the National Growth Fund (€61 million phase 1 from 2024; €142 million phase 2 from 2026). Aims include the first fully wireless factory in the Netherlands.",
+   "description": "Dutch national 6G program led by TNO with around 60 partners in antennas, semiconductors, network software and mobile networks. Backed by up to €203 million from the National Growth Fund (€61 million phase 1 from 2024; €142 million phase 2 from 2026). Aims include the first fully wireless factory in the Netherlands.",
    "sources": [
     "https://www.tno.nl/en/newsroom/2026/03/netherlands-6g-position/",
     "https://hollandhightech.nl/en/news-calendar/news/development-of-the-national-growth-fund-project-6g-netherlands-has-started",
@@ -14610,7 +14610,7 @@
    "lat": 52.002,
    "lng": 4.373,
    "precision": "Campus",
-   "description": "Partner in the Dutch Future Network Services 6G programme.",
+   "description": "Partner in the Dutch Future Network Services 6G program.",
    "sources": [
     "https://rvo.nl/sites/default/files/2024-06/Maatwerkbeschikking%2013062024%20NGF6G2301%20Besluit%20tot%20verlening%20subsidie.pdf"
    ]
@@ -14734,7 +14734,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Co-directs France's 5G and 6G research programme for CEA.",
+   "description": "Co-directs France's 5G and 6G research program for CEA.",
    "sources": [
     "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
    ]
@@ -14751,7 +14751,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Co-directs France's 5G and 6G research programme for CNRS.",
+   "description": "Co-directs France's 5G and 6G research program for CNRS.",
    "sources": [
     "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
    ]
@@ -14768,7 +14768,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Co-directs France's 5G and 6G research programme for Institut Mines-Télécom.",
+   "description": "Co-directs France's 5G and 6G research program for Institut Mines-Télécom.",
    "sources": [
     "https://anr.fr/en/france-2030/programmes-et-equipements-prioritaires-de-recherche-pepr/reseaux-du-futur/"
    ]
@@ -14812,7 +14812,7 @@
    "id": "6g-test-centre",
    "name": "6G Test Centre (University of Oulu)",
    "short": "6G Test Centre",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14831,7 +14831,7 @@
    "id": "rf-eco3",
    "name": "RF ECO3 (Finland)",
    "short": "RF ECO3",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -14990,7 +14990,7 @@
    "id": "multix",
    "name": "MultiX (EU 6G sensing project)",
    "short": "MultiX",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -15034,7 +15034,7 @@
    "lat": 41.9028,
    "lng": 12.4964,
    "precision": "City",
-   "description": "Italian operator. Partner in RESTART, Italy's national 6G and telecoms research programme.",
+   "description": "Italian operator. Partner in RESTART, Italy's national 6G and telecoms research program.",
    "sources": [
     "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf"
    ]
@@ -15077,9 +15077,9 @@
   },
   {
    "id": "restart",
-   "name": "RESTART (Italy national telecoms and 6G programme)",
+   "name": "RESTART (Italy national telecoms and 6G program)",
    "short": "RESTART",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -15087,7 +15087,7 @@
    "lat": 41.8536,
    "lng": 12.6046,
    "precision": "City",
-   "description": "Italy's largest public telecoms R&D programme (€116 million, national recovery plan, 25 partners). Led by the University of Rome Tor Vergata with scientific direction at PoliMi. Partners include CNIT, TIM, Vodafone, Wind Tre, Ericsson, Leonardo and the University of Bologna.",
+   "description": "Italy's largest public telecoms R&D program (€116 million, national recovery plan, 25 partners). Led by the University of Rome Tor Vergata with scientific direction at PoliMi. Partners include CNIT, TIM, Vodafone, Wind Tre, Ericsson, Leonardo and the University of Bologna.",
    "sources": [
     "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf",
     "https://alumni.polimi.it/en/?p=33495",
@@ -15106,7 +15106,7 @@
    "lat": 41.8536,
    "lng": 12.6046,
    "precision": "Campus",
-   "description": "Lead proponent of the RESTART programme.",
+   "description": "Lead proponent of the RESTART program.",
    "sources": [
     "https://docbox.etsi.org/Workshop/2024/04_ETSI_6G_NTN/SESSION%2007/S7_03_Morosi.pdf",
     "https://alumni.polimi.it/en/?p=33495"
@@ -15326,7 +15326,7 @@
    "id": "6gemcubator",
    "name": "6GEMcubator",
    "short": "6GEMcubator",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -15334,7 +15334,7 @@
    "lat": 50.7753,
    "lng": 6.0839,
    "precision": "City",
-   "description": "6G start-up incubator spun off from the 6GEM hub, with RWTH Innovation, Cube 5 (Bochum) and TU concept (Dortmund). Regional contact point for the national StartUpConnect programme.",
+   "description": "6G start-up incubator spun off from the 6GEM hub, with RWTH Innovation, Cube 5 (Bochum) and TU concept (Dortmund). Regional contact point for the national StartUpConnect program.",
    "sources": [
     "https://comnets.etit.tu-dortmund.de/newsdetail/6g-start-up-initiative-start-upconnect-launched-in-berlin-40950/"
    ]
@@ -15343,7 +15343,7 @@
    "id": "launchhub42",
    "name": "launchhub42",
    "short": "launchhub42",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -15403,7 +15403,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Scientific coordinator of Italy's RESTART programme.",
+   "description": "Scientific coordinator of Italy's RESTART program.",
    "sources": [
     "https://www.deib.polimi.it/eng/news/details/1166"
    ]
@@ -15554,7 +15554,7 @@
    "id": "tw-nextgen-program",
    "name": "Next-Generation Communications Technology Development Program (Taiwan)",
    "short": "Taiwan NextGen Comms Program",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -15562,7 +15562,7 @@
    "lat": 25.033,
    "lng": 121.5654,
    "precision": "City",
-   "description": "Taiwan's national 6G and satellite programme, approved by the Cabinet in July 2025: NT$27 billion over six years (2025 to 2030), led by NSTC. Aims for commercial 6G by 2030, satellite ground equipment, experimental and 6G simulation networks, and at least three satellite service providers in Taiwan by 2030.",
+   "description": "Taiwan's national 6G and satellite program, approved by the Cabinet in July 2025: NT$27 billion over six years (2025 to 2030), led by NSTC. Aims for commercial 6G by 2030, satellite ground equipment, experimental and 6G simulation networks, and at least three satellite service providers in Taiwan by 2030.",
    "sources": [
     "https://focustaiwan.tw:443/sci-tech/202507100016",
     "https://digi.pdis.tw/news/nt27-billion-six-year-plan-to-boost-next-gen-communications/",
@@ -15593,7 +15593,7 @@
    "id": "6g-formosa",
    "name": "6G-FORMOSA (ITRI)",
    "short": "6G-FORMOSA",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -15958,7 +15958,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Speaks for the national 6G and satellite programme.",
+   "description": "Speaks for the national 6G and satellite program.",
    "sources": [
     "https://ocacnews.net/article/402866"
    ]
@@ -16193,7 +16193,7 @@
    "lat": 37.5407,
    "lng": -77.436,
    "precision": "City",
-   "description": "Virginia Innovation Partnership Corporation and its venture programme, Virginia Venture Partners (formerly CIT GAP Funds), which invests in early-stage Virginia tech companies. A founding partner of National IQ. The Commonwealth of Virginia is listed among DeepSig's investors.",
+   "description": "Virginia Innovation Partnership Corporation and its venture program, Virginia Venture Partners (formerly CIT GAP Funds), which invests in early-stage Virginia tech companies. A founding partner of National IQ. The Commonwealth of Virginia is listed among DeepSig's investors.",
    "sources": [
     "https://www.caplight.com/investor/vipc-org",
     "https://www.vabio.org/virginia-innovation-partnership-corporation-introduces-new-name-of-cit-gap-funds-virginia-venture-partners",
@@ -16448,7 +16448,7 @@
    "id": "ntia-wif",
    "name": "Public Wireless Supply Chain Innovation Fund (NTIA)",
    "short": "Wireless Innovation Fund",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Washington DC & Maryland",
    "role": null,
    "org": null,
@@ -16477,7 +16477,7 @@
    "lat": 38.8813,
    "lng": -77.1162,
    "precision": "Street address",
-   "description": "US Defense Advanced Research Projects Agency. Funds early-stage defence research, including wireless and spectrum programmes, from Arlington.",
+   "description": "US Defense Advanced Research Projects Agency. Funds early-stage defence research, including wireless and spectrum programs, from Arlington.",
    "sources": [
     "https://www.darpa.mil/"
    ],
@@ -16572,7 +16572,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Leads VIPC's investment programmes.",
+   "description": "Leads VIPC's investment programs.",
    "sources": [
     "https://www.vabio.org/?p=1650",
     "https://siliconvalleyinvestclub.com/investors/virginia-venture-partners/"
@@ -16582,7 +16582,7 @@
    "id": "cyber-bytes",
    "name": "Cyber Bytes Foundation",
    "short": "Cyber Bytes",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Northern Virginia",
    "role": null,
    "org": null,
@@ -16706,7 +16706,7 @@
    "lat": null,
    "lng": null,
    "precision": null,
-   "description": "Works in GSA's Information Technology Category (Federal Acquisition Service), providing solutions engineering for federal agencies on the Enterprise Infrastructure Solutions (EIS) programme, managed networking and cybersecurity. Speaker at FedInsider's NextGen Cellular Networks event.",
+   "description": "Works in GSA's Information Technology Category (Federal Acquisition Service), providing solutions engineering for federal agencies on the Enterprise Infrastructure Solutions (EIS) program, managed networking and cybersecurity. Speaker at FedInsider's NextGen Cellular Networks event.",
    "sources": [
     "https://www.fedinsider.com/nextgen-cellular-networks/",
     "https://tmt.knect365.com/network-x-americas/speakers/brian-vu"
@@ -16742,7 +16742,7 @@
    "lat": 34.684,
    "lng": -86.654,
    "precision": "City",
-   "description": "US Army acquisition organisation for aviation programmes (formerly PEO Aviation), within ASA(ALT). Has a Chief Digital Transformation Officer under the Army acquisition CDTO programme, which drives data-centric changes to processes, technology and culture.",
+   "description": "US Army acquisition organisation for aviation programs (formerly PEO Aviation), within ASA(ALT). Has a Chief Digital Transformation Officer under the Army acquisition CDTO program, which drives data-centric changes to processes, technology and culture.",
    "sources": [
     "https://www.potomacofficersclub.com/speakers/reginald-oliver/",
     "https://www.army.mil/CDTO"
@@ -17029,7 +17029,7 @@
    "lat": 29.3759,
    "lng": 47.9774,
    "precision": "City",
-   "description": "Kuwaiti operator group across the Middle East. Zain Kuwait launched nationwide 5G-Advanced in 2025 and tested six-carrier aggregation in September 2026. No dedicated 6G programme found yet.",
+   "description": "Kuwaiti operator group across the Middle East. Zain Kuwait launched nationwide 5G-Advanced in 2025 and tested six-carrier aggregation in September 2026. No dedicated 6G program found yet.",
    "sources": [
     "https://www.rcrwireless.com/20250702/5g/zain-5g-advanced-kuwait",
     "https://telecomlead.com/4g-lte/how-gulf-operators-are-investing-to-improve-mobile-network-performance-127756"
@@ -17675,7 +17675,7 @@
    "lat": 39.8914,
    "lng": 32.776,
    "precision": "Campus",
-   "description": "Ankara university. Partner in BTK's 5G and Beyond graduate programme and 5G Valley. Türk Telekom planned its first outdoor 6G pilots around ODTÜ Teknokent in summer 2026.",
+   "description": "Ankara university. Partner in BTK's 5G and Beyond graduate program and 5G Valley. Türk Telekom planned its first outdoor 6G pilots around ODTÜ Teknokent in summer 2026.",
    "sources": [
     "https://www.btk.gov.tr/en/announcements/5g-ve-otesi-ortak-lisansustu-destekleme-programi",
     "https://yeniasir.com.tr/yasam/2026/03/17/turk-telekomun-kuresel-is-birlikleriyle-6g-vizyonu"
@@ -17703,7 +17703,7 @@
    "id": "iisac",
    "name": "IISAC Consortium (Intelligent Integrated Sensing and Communication)",
    "short": "IISAC",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -17883,7 +17883,7 @@
    "id": "digital-silk-way",
    "name": "Digital Silk Way",
    "short": "Digital Silk Way",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -17946,7 +17946,7 @@
    "lat": 43.2389,
    "lng": 76.8897,
    "precision": "City",
-   "description": "Kazakh mobile operator, 51% owned by Kazakhtelecom. Rated fastest network in Kazakhstan, including on 5G, in 2026. No published 6G programme found.",
+   "description": "Kazakh mobile operator, 51% owned by Kazakhtelecom. Rated fastest network in Kazakhstan, including on 5G, in 2026. No published 6G program found.",
    "sources": [
     "https://www.inform.kz/ru/bolee-32mlrd-tenge-vset-investiroval-kcell-vpervom-polugodii-2026-goda-f26dff1e",
     "https://insights.opensignal.com/reports/2026/11/kazakhstan/mobile-network-experience",
@@ -17965,7 +17965,7 @@
    "lat": 43.2389,
    "lng": 76.8897,
    "precision": "City",
-   "description": "Kazakh mobile operator. Shares rural network infrastructure with Kcell and Tele2. Leads on coverage. No published 6G programme found.",
+   "description": "Kazakh mobile operator. Shares rural network infrastructure with Kcell and Tele2. Leads on coverage. No published 6G program found.",
    "sources": [
     "https://telecomlead.com/telecom-services/beeline-kcell-and-tele2-sign-network-sharing-deal-in-kazakhstan-97065",
     "https://insights.opensignal.com/reports/2026/11/kazakhstan/mobile-network-experience"
@@ -18001,7 +18001,7 @@
    "lat": 41.2995,
    "lng": 69.2401,
    "precision": "City",
-   "description": "Uzbek mobile operator. Rated fastest mobile network in Uzbekistan for the third year in 2026. Launched 5G FWA with Huawei. No published 6G programme found.",
+   "description": "Uzbek mobile operator. Rated fastest mobile network in Uzbekistan for the third year in 2026. Launched 5G FWA with Huawei. No published 6G program found.",
    "sources": [
     "https://ucell.uz/en/news/ucell_speed_ookla",
     "https://www.huawei.com/uz/news/2026/huawei-ucell-5g-fwa-ictweek-2026"
@@ -19455,7 +19455,7 @@
    "id": "6g-versus",
    "name": "6G-VERSUS (6G Vertical Trials for Sustainability)",
    "short": "6G-VERSUS",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -19492,7 +19492,7 @@
    "id": "uktin",
    "name": "UK Telecoms Innovation Network (UKTIN)",
    "short": "UKTIN",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -19511,7 +19511,7 @@
    "id": "pawr",
    "name": "Platforms for Advanced Wireless Research (PAWR)",
    "short": "PAWR",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -19519,7 +19519,7 @@
    "lat": 42.3398,
    "lng": -71.0892,
    "precision": "City",
-   "description": "NSF programme that runs city-scale wireless testbeds for 5G, 6G and beyond: POWDER (Salt Lake City), COSMOS (New York City), AERPAW (Research Triangle, NC) and the rural ARA testbed, plus the Colosseum emulator. Its Project Office is co-led by US Ignite and Northeastern University. All the platforms are O-RAN Alliance Open Testing and Integration Centres (OTICs).",
+   "description": "NSF program that runs city-scale wireless testbeds for 5G, 6G and beyond: POWDER (Salt Lake City), COSMOS (New York City), AERPAW (Research Triangle, NC) and the rural ARA testbed, plus the Colosseum emulator. Its Project Office is co-led by US Ignite and Northeastern University. All the platforms are O-RAN Alliance Open Testing and Integration Centres (OTICs).",
    "sources": [
     "https://www.lightreading.com/5g/new-investments-in-pawr-program-strengthen-us-commitment-to-5g-and-6g",
     "https://www.nsf.gov/tip/updates/nsf-invests-7-million-expand-advanced-wireless",
@@ -19531,7 +19531,7 @@
    "id": "powder",
    "name": "POWDER",
    "short": "POWDER",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -19549,7 +19549,7 @@
    "id": "cosmos",
    "name": "COSMOS",
    "short": "COSMOS",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -19567,7 +19567,7 @@
    "id": "aerpaw",
    "name": "AERPAW",
    "short": "AERPAW",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -19585,7 +19585,7 @@
    "id": "colosseum",
    "name": "Colosseum",
    "short": "Colosseum",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -19641,7 +19641,7 @@
    "id": "6g-leader",
    "name": "6G-LEADER (Learning-driven and Evolved Radio for 6G)",
    "short": "6G-LEADER",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -19687,7 +19687,7 @@
    "lat": 51.2362,
    "lng": -0.5704,
    "precision": "City",
-   "description": "2026 spin-out from the University of Surrey's 6G Innovation Centre. Its signal processing lets existing masts carry more data and connect more devices. Won the Best Startup Award at the 2026 EuCNC & 6G Summit, joined Deutsche Telekom's Tangible Tomorrow programme (hubraum with T-Labs) and has raised around £1.2m.",
+   "description": "2026 spin-out from the University of Surrey's 6G Innovation Centre. Its signal processing lets existing masts carry more data and connect more devices. Won the Best Startup Award at the 2026 EuCNC & 6G Summit, joined Deutsche Telekom's Tangible Tomorrow program (hubraum with T-Labs) and has raised around £1.2m.",
    "sources": [
     "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more",
     "https://www.eucnc.eu/authors/awards/"
@@ -20638,7 +20638,7 @@
    "lat": 48.8566,
    "lng": 2.3522,
    "precision": "City",
-   "description": "Its Space for 5G/6G & Sustainable Connectivity programme runs the 5G/6G Telecom Lab at ESTEC and co-runs NTN and direct-to-device innovation challenges with GSMA Foundry, with access to up to €100M announced at MWC26.",
+   "description": "Its Space for 5G/6G & Sustainable Connectivity program runs the 5G/6G Telecom Lab at ESTEC and co-runs NTN and direct-to-device innovation challenges with GSMA Foundry, with access to up to €100M announced at MWC26.",
    "sources": [
     "https://www.gsma.com/get-involved/gsma-foundry/general/gsma-foundry-and-esa-announce-access-to-new-funding-worth-up-to-e100m-for-ai-ntn-d2d-and-6g-at-mwc26-barcelona/",
     "https://connectivity.esa.int/?p=25249"
@@ -21130,7 +21130,7 @@
    "id": "nationaliq-lab",
    "name": "National IQ Innovation Lab (Potomac Yard)",
    "short": "National IQ Innovation Lab",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Alexandria",
    "role": null,
    "org": null,
@@ -21592,7 +21592,7 @@
    "id": "gsma-foundry",
    "name": "GSMA Foundry (NTN Community)",
    "short": "GSMA Foundry",
-   "category": "Programmes & testbeds",
+   "category": "Programs & testbeds",
    "region": "Rest of US & global",
    "role": null,
    "org": null,
@@ -21987,7 +21987,7 @@
    "from": "nsf",
    "to": "wisper",
    "type": "Funding",
-   "label": "NSF IUCRC programme",
+   "label": "NSF IUCRC program",
    "source": "https://iucrc.nsf.gov/centers/center-for-wireless-innovation-towards-secure-pervasive-efficient-and-resilient-next-g-networks-wisper"
   },
   {
@@ -25312,7 +25312,7 @@
    "from": "ericsson-uk",
    "to": "ericsson",
    "type": "Role",
-   "label": "UK research programme of Ericsson",
+   "label": "UK research program of Ericsson",
    "source": "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
   },
   {
@@ -25326,7 +25326,7 @@
    "from": "magnus-frodigh",
    "to": "ericsson-uk",
    "type": "Role",
-   "label": "Launched and renewed the programme as Head of Ericsson Research",
+   "label": "Launched and renewed the program as Head of Ericsson Research",
    "source": "https://www.ericsson.com/en/press-releases/3/2025/ericsson-recommits-to-uk-research-program-for-6g-and-future-networks"
   },
   {
@@ -25473,7 +25473,7 @@
    "from": "cci",
    "to": "nishith-tripathi",
    "type": "Funding",
-   "label": "Securing NextG 2021 programme: Securing Non-Terrestrial Networks in NextG",
+   "label": "Securing NextG 2021 program: Securing Non-Terrestrial Networks in NextG",
    "source": "https://cyberinitiative.org/research/funded-projects/2021-funded-projects/2021-securing-nextg/non-terrestrial-networks.html"
   },
   {
@@ -27223,7 +27223,7 @@
    "from": "mcti",
    "to": "brasil-6g",
    "type": "Funding",
-   "label": "Created and funds Brasil 6G as a Priority IT Programme",
+   "label": "Created and funds Brasil 6G as a Priority IT Program",
    "source": "https://rnp.br/en/news/brasil-6g-program-country-anticipates-arrival-new-generation-mobile-networks"
   },
   {
@@ -27293,7 +27293,7 @@
    "from": "rnp",
    "to": "cpqd",
    "type": "Testbed / Trial / Consortium project",
-   "label": "OpenRAN@Brasil programme (with INATEL and Eldorado)",
+   "label": "OpenRAN@Brasil program (with INATEL and Eldorado)",
    "source": "https://www.itu.int/en/ITU-T/webinars/amd-iic/20240313/Documents/Gustavo%20Correa%20Lima.pdf"
   },
   {
@@ -27979,7 +27979,7 @@
    "from": "ericsson",
    "to": "ericsson-chennai",
    "type": "Testbed / Trial / Consortium project",
-   "label": "India 6G programme (Oct 2023)",
+   "label": "India 6G program (Oct 2023)",
    "source": "https://www.ericsson.com/en/press-releases/2/2023/10/ericsson-initiates-india-6g-program-in-india"
   },
   {
@@ -28525,7 +28525,7 @@
    "from": "oulu",
    "to": "yonsei",
    "type": "Joint R&D / Co-publication",
-   "label": "AURORA-6G with Aalto, Elisa and Nokia; Finnish-Korean 6G programme (2026)",
+   "label": "AURORA-6G with Aalto, Elisa and Nokia; Finnish-Korean 6G program (2026)",
    "source": "https://www.6gflagship.com/?p=14829"
   },
   {
@@ -28539,7 +28539,7 @@
    "from": "tony-quek",
    "to": "sutd",
    "type": "Role",
-   "label": "Director, Future Communications Research and Development Programme (FCP); Associate Provost (AI and Digital Innovation), SUTD",
+   "label": "Director, Future Communications Research and Development Program (FCP); Associate Provost (AI and Digital Innovation), SUTD",
    "source": "https://www.sutd.edu.sg/profile/professor-tony-quek/"
   },
   {
@@ -28588,7 +28588,7 @@
    "from": "guan-yong-liang",
    "to": "ntu",
    "type": "Role",
-   "label": "Associate Vice President (Infrastructure and Programmes), NTU; FCP Co-PI",
+   "label": "Associate Vice President (Infrastructure and Programs), NTU; FCP Co-PI",
    "source": "https://fcp.sutd.edu.sg/lead-pi-and-co-pis/"
   },
   {
@@ -28679,7 +28679,7 @@
    "from": "kth",
    "to": "oulu",
    "type": "Joint R&D / Co-publication",
-   "label": "6G-FISRE Finnish-Swedish 6G resilience programme",
+   "label": "6G-FISRE Finnish-Swedish 6G resilience program",
    "source": "https://www.oulu.fi/en/news/finland-and-sweden-strengthen-societal-resilience-through-joint-6g-programme"
   },
   {
@@ -28728,14 +28728,14 @@
    "from": "epsrc",
    "to": "fth",
    "type": "Funding",
-   "label": "Future Connectivity Hubs Evolution Programme (with DSIT)",
+   "label": "Future Connectivity Hubs Evolution Program (with DSIT)",
    "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
   },
   {
    "from": "dsit",
    "to": "fth",
    "type": "Funding",
-   "label": "Partner funder, Future Connectivity Hubs Evolution Programme",
+   "label": "Partner funder, Future Connectivity Hubs Evolution Program",
    "source": "https://www.ukri.org/opportunity/future-connectivity-hubs-evolution-programme-invite-only/"
   },
   {
@@ -28994,7 +28994,7 @@
    "from": "home-affairs",
    "to": "csiro-data61",
    "type": "Funding",
-   "label": "6G security research programme (2022 to mid-2025)",
+   "label": "6G security research program (2022 to mid-2025)",
    "source": "https://research.csiro.au/6gsecurity"
   },
   {
@@ -29246,7 +29246,7 @@
    "from": "ruth-pritchard-kelly",
    "to": "unl-law",
    "type": "Role",
-   "label": "Space, Cyber and Telecommunications Law programme (advisory board; teaching)",
+   "label": "Space, Cyber and Telecommunications Law program (advisory board; teaching)",
    "source": "https://law.unl.edu/node/818/"
   },
   {
@@ -32109,7 +32109,7 @@
    "from": "pawr",
    "to": "colosseum",
    "type": "Testbed / Trial / Consortium project",
-   "label": "PAWR programme asset",
+   "label": "PAWR program asset",
    "source": "https://www.benton.org/headlines/new-investments-pawr-program-strengthen-us-commitment-wireless-research-5g-6g-and-beyond"
   },
   {
@@ -32193,7 +32193,7 @@
    "from": "deutsche-telekom",
    "to": "noema",
    "type": "Testbed / Trial / Consortium project",
-   "label": "Tangible Tomorrow programme (hubraum and T-Labs)",
+   "label": "Tangible Tomorrow program (hubraum and T-Labs)",
    "source": "https://www.surrey.ac.uk/news/surrey-spin-out-develops-algorithmic-framework-boost-mobile-network-connectivity-and-connect-more"
   },
   {
