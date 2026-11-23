@@ -16197,11 +16197,13 @@
    "lat": 38.8939,
    "lng": -77.0283,
    "precision": "City",
-   "description": "$1.5 billion NTIA grant fund from the CHIPS and Science Act for open and interoperable wireless networks (Open RAN). Awarded DeepSig grants in 2023 and 2025.",
+   "description": "NTIA grant fund from the CHIPS and Science Act, originally $1.5 billion for open and interoperable wireless networks (Open RAN). The One Big Beautiful Bill Act (July 2025) rescinded $850m of unallocated money. In 2026 NTIA cancelled awards under its third round and put the last $53m into a fourth round on AI-native RAN. Awarded DeepSig grants in 2023 and 2025.",
    "sources": [
     "https://www.businesswire.com/news/home/20230809139693/en/DeepSig-Awarded-Grant-from-NTIAs-Public-Wireless-Innovation-Fund-to-Improve-Performance-and-Competitiveness-of-5G-Open-RAN-Air-Interface",
     "https://businesswire.com/news/home/20250113108539/en/DeepSig-Secures-NTIA-Grant-to-Advance-Telecom-AI-Driven-Spectrum-Sensing",
-    "https://www.commerce.gov/node/5444"
+    "https://www.commerce.gov/node/5444",
+    "https://www.telecomtv.com/content/ai/ntia-switches-funding-focus-to-ai-ran-55108/",
+    "https://www.ntia.gov/press-release/2026/ntia-announces-funding-opportunity-ai-native-wireless-network-innovation"
    ]
   },
   {
@@ -18869,6 +18871,362 @@
    "description": "President and CEO of Mavenir. Led its 2025 recapitalisation and its move away from radio hardware towards AI-native software.",
    "sources": [
     "https://www.fierce-network.com/wireless/mavenir-sails-new-financing-ai-focus"
+   ]
+  },
+  {
+   "id": "terasi",
+   "name": "TERASi",
+   "short": "TERASi",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Stockholm, Sweden",
+   "lat": 59.347,
+   "lng": 18.073,
+   "precision": "City",
+   "description": "KTH spin-out building compact, hard-to-detect and hard-to-jam millimetre-wave data links using MEMS technology, for defence and satellite communications. Raised an €11m seed round in September 2026, co-led by the NATO Innovation Fund (its first direct investment in Sweden) and JOIN Capital.",
+   "sources": [
+    "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/",
+    "https://www.startupresearcher.com/news/terasi-raises-11m-seed-round",
+    "https://pulse2.com/terasi-raises-e11-million-seed-round-led-by-nato-innovation-fund-and-join-capital/"
+   ]
+  },
+  {
+   "id": "nato-innovation-fund",
+   "name": "NATO Innovation Fund (NIF)",
+   "short": "NATO Innovation Fund",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Amsterdam, Netherlands",
+   "lat": 52.3676,
+   "lng": 4.9041,
+   "precision": "City",
+   "description": "€1bn multi-sovereign venture fund backed by 24 NATO countries, investing in deep tech for defence, security and resilience. Co-led TERASi's €11m seed round in September 2026.",
+   "sources": [
+    "https://www.businesswire.com/news/home/20240617573406/en/nato-innovation-fund-makes-first-investments-to-secure-the-future-of-the-alliance%e2%80%99s-1-billion-citizens",
+    "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+   ]
+  },
+  {
+   "id": "join-capital",
+   "name": "JOIN Capital",
+   "short": "JOIN Capital",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Berlin, Germany",
+   "lat": 52.52,
+   "lng": 13.405,
+   "precision": "City",
+   "description": "Early-stage European deep-tech venture fund. Co-led TERASi's €11m seed round with the NATO Innovation Fund.",
+   "sources": [
+    "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/",
+    "https://www.startupresearcher.com/news/terasi-raises-11m-seed-round"
+   ]
+  },
+  {
+   "id": "d3-vc",
+   "name": "D3 (Dare to Defend Democracy)",
+   "short": "D3",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Kyiv, Ukraine",
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "precision": "City",
+   "description": "Kyiv-based early-stage venture fund, founded in 2023, investing in defence and deep tech for Ukraine and its NATO allies, including drones, electronic warfare, sensors and AI. Joined TERASi's seed round in 2026.",
+   "sources": [
+    "https://www.caplight.com/investor/d3",
+    "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+   ]
+  },
+  {
+   "id": "navigare-ventures",
+   "name": "Navigare Ventures",
+   "short": "Navigare Ventures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Stockholm, Sweden",
+   "lat": 59.3326,
+   "lng": 18.0649,
+   "precision": "City",
+   "description": "Swedish early-stage investor. Backed TERASi at pre-seed and returned for its 2026 seed round.",
+   "sources": [
+    "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+   ]
+  },
+  {
+   "id": "almi-invest",
+   "name": "Almi Invest",
+   "short": "Almi Invest",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Stockholm, Sweden",
+   "lat": 59.3303,
+   "lng": 18.059,
+   "precision": "City",
+   "description": "Swedish state-backed venture investor. Returning investor in TERASi's 2026 seed round.",
+   "sources": [
+    "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+   ]
+  },
+  {
+   "id": "cisco-investments",
+   "name": "Cisco Investments",
+   "short": "Cisco Investments",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "San Jose, CA, USA",
+   "lat": 37.3382,
+   "lng": -121.8863,
+   "precision": "City",
+   "description": "Cisco's corporate venture arm. Co-led ODC's $45m Series A in March 2026.",
+   "sources": [
+    "https://www.ciscoinvestments.com/portfolio/oran-development-corporation-odc",
+    "https://www.telecomtv.com/content/the-future-of-ran/odc-completes-a-45m-series-a-funding-55205/"
+   ]
+  },
+  {
+   "id": "cerberus",
+   "name": "Cerberus Capital Management",
+   "short": "Cerberus",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "New York, NY, USA",
+   "lat": 40.758,
+   "lng": -73.9855,
+   "precision": "City",
+   "description": "Private investment firm. Its affiliates made the seed investment in ODC, which calls itself a Cerberus portfolio company.",
+   "sources": [
+    "https://www.telecomtv.com/content/the-future-of-ran/odc-completes-a-45m-series-a-funding-55205/"
+   ]
+  },
+  {
+   "id": "intel-capital",
+   "name": "Intel Capital",
+   "short": "Intel Capital",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Santa Clara, CA, USA",
+   "lat": 37.3541,
+   "lng": -121.9552,
+   "precision": "City",
+   "description": "Intel's corporate venture arm, investing in silicon, 5G, devices and cloud. Intel dropped its 2025 plan to spin it out. It now stays in-house and is more selective about new deals.",
+   "sources": [
+    "https://techcrunch.com/?p=2998877"
+   ]
+  },
+  {
+   "id": "qualcomm-ventures",
+   "name": "Qualcomm Ventures",
+   "short": "Qualcomm Ventures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "San Diego, CA, USA",
+   "lat": 32.7157,
+   "lng": -117.1611,
+   "precision": "City",
+   "description": "Qualcomm's global investment arm. In 2026 it announced a strategic AI venture fund of up to $150m for Indian startups.",
+   "sources": [
+    "https://india.entrepreneur.com/technology/qualcomm-announces-150-million-strategic-ai-venture-fund"
+   ]
+  },
+  {
+   "id": "samsung-next",
+   "name": "Samsung NEXT Ventures",
+   "short": "Samsung NEXT",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Mountain View, CA, USA",
+   "lat": 37.3861,
+   "lng": -122.0839,
+   "precision": "City",
+   "description": "Investment arm of Samsung NEXT, an innovation group within Samsung Electronics. Mostly invests in early-stage software and AI.",
+   "sources": [
+    "https://www.caplight.com/investor/samsungnext"
+   ]
+  },
+  {
+   "id": "verizon-ventures",
+   "name": "Verizon Ventures",
+   "short": "Verizon Ventures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Basking Ridge, NJ, USA",
+   "lat": 40.7062,
+   "lng": -74.5493,
+   "precision": "City",
+   "description": "Verizon's corporate venture arm. It has reportedly stopped making new investments and now manages its existing portfolio of around 42 companies, which includes Pivotal Commware.",
+   "sources": [
+    "https://globalventuring.com/corporate/people/verizon-ventures-stops-investments/?format=md",
+    "https://www.caplight.com/investor/verizonventures"
+   ]
+  },
+  {
+   "id": "tmobile-ventures",
+   "name": "T-Mobile Ventures",
+   "short": "T-Mobile Ventures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bellevue, WA, USA",
+   "lat": 47.6101,
+   "lng": -122.2015,
+   "precision": "City",
+   "description": "T-Mobile's corporate venture fund for 5G, industrial and IoT products. Its second fund launched in 2023 and is managed with Touchdown Ventures.",
+   "sources": [
+    "https://www.businesswire.com/news/home/20230925988466/en",
+    "https://www.cbinsights.com/investor/t-mobile-ventures"
+   ]
+  },
+  {
+   "id": "wayra",
+   "name": "Wayra (Telefónica)",
+   "short": "Wayra",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Madrid, Spain",
+   "lat": 40.4168,
+   "lng": -3.7038,
+   "precision": "City",
+   "description": "Telefónica's corporate venture capital arm and open innovation platform. It now also covers the work Telefónica Ventures used to do.",
+   "sources": [
+    "https://www.telefonica.com/en/communication-room/press-room/wayra-celebrates-15-years-barcelona-meeting-point-start-ups-telefonicas-business/",
+    "https://globalventuring.com/corporate/people/telefonica-appoints-castellano-to-lead-corporate-venture-arm/"
+   ]
+  },
+  {
+   "id": "dtcp",
+   "name": "DTCP (Digital Transformation Capital Partners)",
+   "short": "DTCP",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Hamburg, Germany",
+   "lat": 53.5511,
+   "lng": 9.9937,
+   "precision": "City",
+   "description": "Investment firm founded as Deutsche Telekom Capital Partners. Now independent, with Deutsche Telekom as anchor investor. Its new defence fund reached a €455m first close in September 2026.",
+   "sources": [
+    "https://tech.eu/2026/09/24/dtcp-closes-eur455m-defence-fund-to-scale-europes-strategic-tech-capabilities/",
+    "https://techcrunch.com/2024/06/26/backed-by-deutsche-telekom-and-softbank-dtcp-raises-450-million-for-its-growth-and-early-stage-funds"
+   ]
+  },
+  {
+   "id": "docomo-ventures",
+   "name": "NTT DOCOMO Ventures",
+   "short": "DOCOMO Ventures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Tokyo, Japan",
+   "lat": 35.6762,
+   "lng": 139.6503,
+   "precision": "City",
+   "description": "NTT DOCOMO group's corporate venture arm. Manages DOCOMO Innovation Fund IV (¥15bn, launched January 2026).",
+   "sources": [
+    "https://www.docomo.ne.jp/english/info/media_center/pr/2025/1225_00.html"
+   ]
+  },
+  {
+   "id": "intellectual-ventures",
+   "name": "Intellectual Ventures",
+   "short": "Intellectual Ventures",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Bellevue, WA, USA",
+   "lat": 47.6153,
+   "lng": -122.195,
+   "precision": "City",
+   "description": "Invention and patent business that spun out metamaterials companies including Kymeta, Echodyne and Pivotal Commware. Bill Gates invested in each.",
+   "sources": [
+    "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/",
+    "https://runwaygirlnetwork.com/?p=39137"
+   ]
+  },
+  {
+   "id": "6g-versus",
+   "name": "6G-VERSUS (6G Vertical Trials for Sustainability)",
+   "short": "6G-VERSUS",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Oulu, Finland",
+   "lat": 65.0121,
+   "lng": 25.4651,
+   "precision": "City",
+   "description": "SNS JU-funded Horizon Europe project (2025 to 2027), coordinated by the University of Oulu. Runs 6G vertical trials for sustainability, plus a venture accelerator for 25 EU startups and SMEs (September to November 2026).",
+   "sources": [
+    "https://smart-networks.europa.eu/6g-versus-venture-accelerator-is-now-open/",
+    "https://envolveglobal.org/innovation-project/6g-versus/",
+    "https://smart-networks.europa.eu/call-3-stream-d"
+   ]
+  },
+  {
+   "id": "iitp",
+   "name": "IITP (Institute for Information & Communications Technology Planning & Evaluation)",
+   "short": "IITP",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "Daejeon, South Korea",
+   "lat": 36.3504,
+   "lng": 127.3845,
+   "precision": "City",
+   "description": "R&D management agency under Korea's MSIT. It funds about ₩1.9 trillion of AI and ICT projects in 2026, plus a national 6G demonstration planned for 2028.",
+   "sources": [
+    "https://www.digitaltoday.co.kr/en/view/66483/iitp-to-boost-full-stack-linking-ai-semiconductors-and-physical-ai-to-respond-to-ax-2-0",
+    "https://www.digitaltoday.co.kr/jp/view/68079/iitp-to-boost-full-stack-linking-ai-semiconductors-and-physical-ai-to-respond-to-ax-2-0"
+   ]
+  },
+  {
+   "id": "uktin",
+   "name": "UK Telecoms Innovation Network (UKTIN)",
+   "short": "UKTIN",
+   "category": "Programmes & testbeds",
+   "region": "Rest of US & global",
+   "role": null,
+   "org": null,
+   "address": "London, UK",
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "precision": "City",
+   "description": "DSIT-funded network that helps UK telecoms firms find R&D funding, testbeds and partners. It is delivered with Digital Catapult, Cambridge Wireless, the University of Bristol and WM5G, and continued from April 2025.",
+   "sources": [
+    "https://www.digicatapult.org.uk/programmes/programme/uk-telecoms-innovation-network-uktin/",
+    "https://www.bristol.ac.uk/research/groups/smart/case-studies/uktin/",
+    "https://uktin.net/whats-happening/news/uk-telecoms-innovation-network-future"
    ]
   }
  ],
@@ -29029,6 +29387,195 @@
    "type": "Funding",
    "label": "Investor",
    "source": "https://www.criticalcommunicationsreview.com/video/news/119496/lynk-and-omnispace-launch-elveo-mobile-to-deliver-resilient-next-generation-connectivity"
+  },
+  {
+   "from": "nato-innovation-fund",
+   "to": "terasi",
+   "type": "Funding",
+   "label": "Co-led €11m seed (Sep 2026)",
+   "source": "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+  },
+  {
+   "from": "join-capital",
+   "to": "terasi",
+   "type": "Funding",
+   "label": "Co-led €11m seed (Sep 2026)",
+   "source": "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+  },
+  {
+   "from": "in-q-tel",
+   "to": "terasi",
+   "type": "Funding",
+   "label": "Seed investor (2026)",
+   "source": "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+  },
+  {
+   "from": "d3-vc",
+   "to": "terasi",
+   "type": "Funding",
+   "label": "Seed investor (2026)",
+   "source": "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+  },
+  {
+   "from": "navigare-ventures",
+   "to": "terasi",
+   "type": "Funding",
+   "label": "Pre-seed and seed investor",
+   "source": "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+  },
+  {
+   "from": "almi-invest",
+   "to": "terasi",
+   "type": "Funding",
+   "label": "Seed investor",
+   "source": "https://tech.eu/2026/09/22/nato-innovation-fund-co-leads-eur11m-investment-in-defencetech-outfit-terasi/"
+  },
+  {
+   "from": "terasi",
+   "to": "kth",
+   "type": "Partnership / project",
+   "label": "KTH spin-out",
+   "source": "https://www.startupresearcher.com/news/terasi-raises-11m-seed-round"
+  },
+  {
+   "from": "cisco-investments",
+   "to": "odc",
+   "type": "Funding",
+   "label": "Series A co-lead (Mar 2026)",
+   "source": "https://www.telecomtv.com/content/the-future-of-ran/odc-completes-a-45m-series-a-funding-55205/"
+  },
+  {
+   "from": "cerberus",
+   "to": "odc",
+   "type": "Funding",
+   "label": "Seed investor (affiliates)",
+   "source": "https://www.telecomtv.com/content/the-future-of-ran/odc-completes-a-45m-series-a-funding-55205/"
+  },
+  {
+   "from": "intel-capital",
+   "to": "intel",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://techcrunch.com/?p=2998877"
+  },
+  {
+   "from": "qualcomm-ventures",
+   "to": "qualcomm",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://india.entrepreneur.com/technology/qualcomm-announces-150-million-strategic-ai-venture-fund"
+  },
+  {
+   "from": "samsung-next",
+   "to": "samsung",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://www.caplight.com/investor/samsungnext"
+  },
+  {
+   "from": "verizon-ventures",
+   "to": "verizon",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://globalventuring.com/corporate/people/verizon-ventures-stops-investments/?format=md"
+  },
+  {
+   "from": "verizon-ventures",
+   "to": "pivotal-commware",
+   "type": "Funding",
+   "label": "Series D co-investor (2023)",
+   "source": "https://www.caplight.com/investor/verizonventures"
+  },
+  {
+   "from": "tmobile-ventures",
+   "to": "tmobile",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://www.businesswire.com/news/home/20230925988466/en"
+  },
+  {
+   "from": "wayra",
+   "to": "telefonica",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://www.telefonica.com/en/communication-room/press-room/wayra-celebrates-15-years-barcelona-meeting-point-start-ups-telefonicas-business/"
+  },
+  {
+   "from": "deutsche-telekom",
+   "to": "dtcp",
+   "type": "Funding",
+   "label": "Anchor investor",
+   "source": "https://tech.eu/2026/09/24/dtcp-closes-eur455m-defence-fund-to-scale-europes-strategic-tech-capabilities/"
+  },
+  {
+   "from": "docomo-ventures",
+   "to": "docomo",
+   "type": "Partnership / project",
+   "label": "Venture arm",
+   "source": "https://www.docomo.ne.jp/english/info/media_center/pr/2025/1225_00.html"
+  },
+  {
+   "from": "intellectual-ventures",
+   "to": "pivotal-commware",
+   "type": "Partnership / project",
+   "label": "Spin-out",
+   "source": "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
+  },
+  {
+   "from": "intellectual-ventures",
+   "to": "kymeta",
+   "type": "Partnership / project",
+   "label": "Spin-out",
+   "source": "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
+  },
+  {
+   "from": "intellectual-ventures",
+   "to": "echodyne",
+   "type": "Partnership / project",
+   "label": "Spin-out",
+   "source": "https://www.geekwire.com/2018/pivotal-commware-millions-beamforming-antenna/"
+  },
+  {
+   "from": "sns-ju",
+   "to": "6g-versus",
+   "type": "Funding",
+   "label": "Horizon Europe SNS JU project",
+   "source": "https://envolveglobal.org/innovation-project/6g-versus/"
+  },
+  {
+   "from": "oulu",
+   "to": "6g-versus",
+   "type": "Partnership / project",
+   "label": "Coordinator",
+   "source": "https://smart-networks.europa.eu/call-3-stream-d"
+  },
+  {
+   "from": "msit",
+   "to": "iitp",
+   "type": "Partnership / project",
+   "label": "R&D management agency",
+   "source": "https://www.digitaltoday.co.kr/en/view/66483/iitp-to-boost-full-stack-linking-ai-semiconductors-and-physical-ai-to-respond-to-ax-2-0"
+  },
+  {
+   "from": "dsit",
+   "to": "uktin",
+   "type": "Funding",
+   "label": "Funder",
+   "source": "https://www.digicatapult.org.uk/programmes/programme/uk-telecoms-innovation-network-uktin/"
+  },
+  {
+   "from": "digital-catapult",
+   "to": "uktin",
+   "type": "Partnership / project",
+   "label": "Delivery partner",
+   "source": "https://www.digicatapult.org.uk/programmes/programme/uk-telecoms-innovation-network-uktin/"
+  },
+  {
+   "from": "bristol",
+   "to": "uktin",
+   "type": "Partnership / project",
+   "label": "Academic lead",
+   "source": "https://www.bristol.ac.uk/research/groups/smart/case-studies/uktin/"
   }
  ]
 }
