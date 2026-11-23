@@ -66,6 +66,11 @@ aside h3:first-child{margin-top:0}
 .hit{stroke:transparent;stroke-width:9;fill:none;cursor:pointer}
 select,input[type="search"]{width:100%;font:13px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
 .roles{margin-top:4px}.pill.hubp{background:#e6effb;color:#1E3A8A}.pill.chalp{background:#fdeee0;color:#8a4a00}
+.modeseg{display:flex;border:1px solid var(--accent);border-radius:8px;overflow:hidden}
+.modeseg button{flex:1;font:600 13px var(--body);padding:8px 0;border:0;background:var(--bg);color:var(--accent);cursor:pointer}
+.modeseg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+details.adv{margin-top:16px;border-top:1px solid var(--line);padding-top:10px}
+details.adv summary{cursor:pointer;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .qres{list-style:none;margin:4px 0 0;padding:0;border:1px solid var(--line);border-radius:6px;background:var(--bg);max-height:260px;overflow:auto}
 .qres li{padding:6px 8px;font-size:13px;cursor:pointer;border-bottom:1px solid var(--line)}
 .qres li:last-child{border-bottom:0}
@@ -158,28 +163,34 @@ footer a{color:var(--accent)}
 </div>
 <main>
   <aside>
+    <div class="modeseg" id="modeSeg" role="group" aria-label="View mode"><button type="button" data-m="global" aria-pressed="true">Global 6G</button><button type="button" data-m="corridor" aria-pressed="false">Corridor hub</button></div>
+    <p class="hint" id="modeHint"></p>
     <h3>Search</h3>
     <input type="search" id="q" placeholder="Organisation or person" aria-label="Search" autocomplete="off" aria-controls="qres">
     <ul id="qres" class="qres" role="listbox" hidden></ul>
-    <h3>Categories</h3>
-    <div id="catf"></div>
+    <h3>Category</h3>
+    <select id="catSel" aria-label="Category"></select>
+    <div id="corrBox" hidden>
     <h3>Corridor roles</h3>
     <label class="hint" for="hubSel" style="display:block;margin:0 0 3px">Innovation hub role</label>
     <select id="hubSel" aria-label="Innovation hub role"><option value="">Any</option></select>
     <label class="hint" for="chalSel" style="display:block;margin:8px 0 3px">Innovation challenge role</label>
     <select id="chalSel" aria-label="Innovation challenge role"><option value="">Any</option></select>
     <p class="hint">Roles an organisation could play in a 6G innovation hub or challenge in the Alexandria-Arlington corridor. These are our assessment, based on each organisation's public profile.</p>
+    </div>
     <h3 class="kph">Key people <button type="button" class="info" id="kpInfoBtn" aria-expanded="false" aria-controls="kpInfo" title="How are key people identified?">i</button></h3>
     <div id="kpInfo" class="kpinfo" hidden><b>How are key people identified?</b> People are ranked by verified leadership roles, funded awards, standards governance and cross-sector collaboration, all taken from the public sources behind each link.<br>+3 named PI or lead on a funding or award link · +3 chair, vice-chair or board role · +2 links to organisations in 2 or more sectors · +2 joint R&amp;D or testbed project · +1 event speaker · +2 leadership title matching one of four types: <i>Funding Gatekeeper</i> (programme directors and grant leads at funders), <i>Standards Leader</i> (chairs and rapporteurs in 3GPP, ITU-R, O-RAN, Next G Alliance), <i>Testbed Lead</i> (PIs, lab and testbed directors), <i>Ecosystem Connector</i> (technology and 6G strategy leads, board members, regional connectors). Everyone with a verified role scores at least 1.</div>
     <div class="kpseg" id="kpSeg" role="group" aria-label="Key people threshold" aria-describedby="kpLabel"><button type="button" data-i="0" aria-pressed="true">Off</button><button type="button" data-i="1" aria-pressed="false">All</button><button type="button" data-i="2" aria-pressed="false">Key</button><button type="button" data-i="3" aria-pressed="false">Core</button></div>
     <div class="kprow">People on the map <span id="kpCount" class="kpc"></span></div>
     <p class="hint" id="kpLabel"></p>
+    <details class="adv"><summary>Advanced filters</summary>
     <h3>Connection types</h3>
     <div id="edgef"></div>
     <label class="chk" style="margin-top:6px"><input type="checkbox" id="shared"> People linked by shared associations</label>
     <p class="hint">Adds a link between two people when their organisations belong to the same association or consortium.</p>
     <h3>Highlight an association or event</h3>
     <select id="assocSel" aria-label="Highlight members of an association"><option value="">None</option></select>
+    </details>
   </aside>
   <div class="center">
     <section class="view on" id="v-geo" role="tabpanel" aria-labelledby="t-geo">
@@ -299,7 +310,7 @@ function ring(n){ const p = n.lat!=null? n : (n.org && byId[n.org] && byId[n.org
   return DCREG.includes(n.region)?0:1; }
 
 let NODES=[], LINKS=[], byId={}, SHARED=[];
-const state = {cats:new Set(Object.keys(CATS)), types:new Set(Object.keys(ETYPES).filter(t=>t!=="Shared association")), shared:false, minScore:Infinity, hub:"", chal:"", q:"", assoc:"", sel:null, view:"v-geo"};
+const state = {cats:new Set(Object.keys(CATS)), types:new Set(), shared:false, minScore:Infinity, hub:"", chal:"", mode:"global", q:"", assoc:"", sel:null, view:"v-geo"};
 
 fetch("data/ecosystem.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
  .then(boot).catch(e=>{ document.querySelector(".center").innerHTML=`<p class="err">The map data could not be loaded (${esc(e.message)}). If you opened this file directly, serve the folder over HTTP or view it on GitHub Pages.</p>`; });
@@ -332,11 +343,18 @@ function renderStats(){
   document.getElementById("stats").innerHTML = items.map(([v,l])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
 }
 function renderFilters(){
-  const cf=document.getElementById("catf");
-  cf.innerHTML = Object.entries(CATS).filter(([k])=>k!=="Person").map(([k,c])=>`<label class="chk"><input type="checkbox" data-cat="${esc(k)}" checked><span class="sw ${c.sq?"sq":""}" style="background:${c.c}"></span>${esc(k)}<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category===k).length}</span></label>`).join("");
-  cf.onchange=e=>{ const k=e.target.dataset.cat; e.target.checked?state.cats.add(k):state.cats.delete(k); applyAll(); };
+  const cs=document.getElementById("catSel"), orgN=NODES.filter(n=>n.category!=="Person").length;
+  cs.innerHTML = `<option value="">All categories (${orgN})</option>`+Object.keys(CATS).filter(k=>k!=="Person").map(k=>`<option value="${esc(k)}">${esc(k)} (${NODES.filter(n=>n.category===k).length})</option>`).join("");
+  cs.onchange=()=>{ state.cats = cs.value? new Set([cs.value,"Person"]) : new Set(Object.keys(CATS)); applyAll(); };
+  const setMode=m=>{ state.mode=m; document.querySelectorAll("#modeSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===m));
+    document.getElementById("corrBox").hidden = m!=="corridor";
+    if(m!=="corridor"){ state.hub=state.chal=""; document.getElementById("hubSel").value=document.getElementById("chalSel").value=""; }
+    document.getElementById("modeHint").textContent = m==="corridor" ? `Alexandria-Arlington and Northern Virginia players, plus the funders and problem owners tagged with a corridor role (${NODES.filter(n=>n.category!=="Person"&&inCorr(n)).length} organisations).` : "Everyone shaping 6G worldwide.";
+    applyAll(); if(geo&&state.view==="v-geo") geo.flyToBounds(EXT[m==="corridor"?"nova":"world"],{duration:.8}); };
+  document.querySelectorAll("#modeSeg button").forEach(b=>b.onclick=()=>setMode(b.dataset.m));
+  setTimeout(()=>{ document.getElementById("modeHint").textContent="Everyone shaping 6G worldwide."; },0);
   const ef=document.getElementById("edgef");
-  ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}" checked>${ekSwatch(k)}${esc(k)}</label>`).join("")+`<p class="ehelp">${esc(EHELP)}</p>`;
+  ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}">${ekSwatch(k)}${esc(k)}</label>`).join("")+`<p class="ehelp">${esc(EHELP)}</p>`;
   ef.onchange=e=>{ const k=e.target.dataset.t; e.target.checked?state.types.add(k):state.types.delete(k); applyAll(); };
   const ib=document.getElementById("kpInfoBtn");
   document.querySelectorAll("#kpSeg button").forEach(b=>b.onclick=()=>{ state.kp=+b.dataset.i; applyKP(); });
@@ -367,7 +385,8 @@ function renderFilters(){
   q.onblur=()=>setTimeout(()=>qr.hidden=true,150);
   q.onfocus=()=>{ if(q.value.trim()&&hits.length) qr.hidden=false; };
 }
-const visible = n => n.category==="Person" ? (n.score||0)>=state.minScore : state.cats.has(n.category) && (!state.hub||(n.hub||[]).includes(state.hub)) && (!state.chal||(n.chal||[]).includes(state.chal));
+const inCorr = n => { const o = n.category==="Person" ? byId[n.org] : n; return !!o && (["Alexandria","Northern Virginia"].includes(o.region) || (o.hub||[]).length>0 || (o.chal||[]).length>0); };
+const visible = n => (state.mode!=="corridor" || inCorr(n)) && (n.category==="Person" ? (n.score||0)>=state.minScore && (!n.org||!byId[n.org]||state.cats.has(byId[n.org].category)) : state.cats.has(n.category) && (!state.hub||(n.hub||[]).includes(state.hub)) && (!state.chal||(n.chal||[]).includes(state.chal)));
 function applyKP(init){
   const i=state.kp||0, st=KP_STOPS[i], off=i===0;
   document.querySelectorAll("#kpSeg button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.i===i));
@@ -387,8 +406,10 @@ function applyKP(init){
   applyAll(); if(state.sel) renderDetail();
 }
 const matches = n => !state.q || n.name.toLowerCase().includes(state.q) || (n.short||"").toLowerCase().includes(state.q) || (n.role||"").toLowerCase().includes(state.q);
+// With no connection types ticked (the default), a selected item still shows all of its own links.
+const selType = t => state.types.has(t) || (![...state.types].some(x=>x!=="Role"&&x!=="Shared association") && t!=="Shared association" && (t!=="Role"||state.minScore!==Infinity));
 function focusSet(){
-  if(state.sel){ const s=new Set([state.sel]); allLinks().forEach(l=>{ if(!state.types.has(l.type)) return; const a=l.source.id||l.source,b=l.target.id||l.target; if(a===state.sel) s.add(b); if(b===state.sel) s.add(a); }); return s; }
+  if(state.sel){ const s=new Set([state.sel]); allLinks().forEach(l=>{ if(!selType(l.type)) return; const a=l.source.id||l.source,b=l.target.id||l.target; if(a===state.sel) s.add(b); if(b===state.sel) s.add(a); }); return s; }
   if(state.assoc){ const s=new Set([state.assoc]); LINKS.forEach(l=>{ if(l.target===state.assoc && l.type!=="Role") s.add(l.source); if(l.source===state.assoc && l.type!=="Role") s.add(l.target); }); return s; }
   return null;
 }
@@ -530,7 +551,7 @@ function applyGeo(){
   if(state.sel){
     const self = byId[state.sel]; const anchor = self.lat!=null? self : (self.org && byId[self.org]);
     allLinks().forEach(l=>{
-      if(!state.types.has(l.type)) return;
+      if(!selType(l.type)) return;
       const a=l.source.id||l.source, b=l.target.id||l.target; if(a!==state.sel && b!==state.sel) return;
       let o = byId[a===state.sel? b : a]; if(o.lat==null && o.org) o = byId[o.org];
       if(!anchor || anchor.lat==null || !o || o.lat==null || !visible(byId[a===state.sel?b:a])) return;
@@ -606,8 +627,9 @@ function applyNet(){
   if(!nodeSel) return;
   const fs=focusSet();
   nodeSel.style("display",d=>visible(d)||d.id===state.sel?null:"none").classed("dim",d=>(fs&&!fs.has(d.id))||(state.q&&!matches(d)));
-  hitSel.style("display",l=>state.types.has(l.type)&&visible(l.source)&&visible(l.target)?null:"none");
-  linkSel.style("display",l=>state.types.has(l.type)&&visible(l.source)&&visible(l.target)?null:"none")
+  const shown=l=>(state.types.has(l.type) || (state.sel&&(l.source.id===state.sel||l.target.id===state.sel)&&selType(l.type))) && (visible(l.source)||l.source.id===state.sel) && (visible(l.target)||l.target.id===state.sel);
+  hitSel.style("display",l=>shown(l)?null:"none");
+  linkSel.style("display",l=>shown(l)?null:"none")
     .classed("dim",l=>state.sel? !(l.source.id===state.sel||l.target.id===state.sel) : fs? !(fs.has(l.source.id)&&fs.has(l.target.id)) : (state.q&&!(matches(l.source)||matches(l.target))));
 }
 

@@ -21324,6 +21324,141 @@
    "sources": [
     "https://huntscanlon.com/pyramind-recruits-president-and-ceo-for-the-skillsource-group/"
    ]
+  },
+  {
+   "id": "city-of-alexandria",
+   "name": "City of Alexandria (city government)",
+   "short": "City of Alexandria",
+   "category": "Government & funders",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "301 King Street, Alexandria, VA 22314",
+   "lat": 38.8048,
+   "lng": -77.043,
+   "precision": "Street address",
+   "description": "Alexandria city government, run under a council-manager system. A partner in the National IQ Innovation Lab at Potomac Yard and home to the Virginia Tech Innovation Campus.",
+   "sources": [
+    "https://www.alexandriava.gov/go/1131",
+    "https://www.alxnow.com/?p=84062"
+   ],
+   "hub": [
+    "Customer or problem owner",
+    "Site or landlord"
+   ],
+   "chal": [
+    "Problem owner",
+    "Sponsor or prize funder",
+    "Promoter"
+   ]
+  },
+  {
+   "id": "building-momentum",
+   "name": "Building Momentum (The Garden)",
+   "short": "Building Momentum",
+   "category": "Economic development & place",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "5380 Eisenhower Ave, Suite C, Alexandria, VA 22304",
+   "lat": 38.803,
+   "lng": -77.129,
+   "precision": "Street address",
+   "description": "Disabled-veteran-owned Alexandria prototyping, systems integration and training facility. Runs The Garden makerspace, coworking and event venue.",
+   "sources": [
+    "https://vedp.org/news/alexandrias-light-bulb-moment",
+    "https://www.uniquevenues.com/venue/the-garden-alexandria/"
+   ],
+   "hub": [
+    "Site or landlord",
+    "Testbed or spectrum"
+   ],
+   "chal": [
+    "Host or venue",
+    "Judges and mentors"
+   ]
+  },
+  {
+   "id": "expansive-old-town",
+   "name": "Expansive Old Town (coworking)",
+   "short": "Expansive Old Town",
+   "category": "Economic development & place",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "950 North Washington Street, Alexandria, VA 22314",
+   "lat": 38.8137,
+   "lng": -77.0446,
+   "precision": "Street address",
+   "description": "Four-floor flexible workspace and coworking building in Old Town Alexandria.",
+   "sources": [
+    "https://www.propertyshark.com/cre/coworking-property/us/va/alexandria/expansive-old-town/"
+   ],
+   "hub": [
+    "Site or landlord"
+   ],
+   "chal": [
+    "Host or venue"
+   ]
+  },
+  {
+   "id": "alx-community",
+   "name": "ALX Community (coworking)",
+   "short": "ALX Community",
+   "category": "Economic development & place",
+   "region": "Alexandria",
+   "role": null,
+   "org": null,
+   "address": "277 S. Washington Street, Alexandria, VA 22314",
+   "lat": 38.8016,
+   "lng": -77.0474,
+   "precision": "Street address",
+   "description": "Old Town Alexandria coworking and flexible office provider, with a rooftop conference centre at its Atrium site.",
+   "sources": [
+    "https://www.cityfeet.com/cont/listing/277-s-washington-st-alexandria-va-22314/cs40178907"
+   ],
+   "hub": [
+    "Site or landlord"
+   ],
+   "chal": [
+    "Host or venue"
+   ]
+  },
+  {
+   "id": "alyia-gaskins",
+   "name": "Alyia Gaskins",
+   "short": "Alyia Gaskins",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "Mayor",
+   "org": "city-of-alexandria",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Mayor of Alexandria since January 2025.",
+   "sources": [
+    "https://www.alexandriava.gov/go/2856",
+    "https://www.alxnow.com/2026/07/16/alexandria-mayor-gaskins-chosen-for-network-of-rising-democratic-leaders/"
+   ]
+  },
+  {
+   "id": "james-parajon",
+   "name": "James F. Parajon",
+   "short": "James F. Parajon",
+   "category": "Person",
+   "region": "Alexandria",
+   "role": "City Manager",
+   "org": "city-of-alexandria",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "City Manager of Alexandria since 2022.",
+   "sources": [
+    "https://www.alexandriava.gov/go/7514",
+    "https://www.alexandriava.gov/go/7960"
+   ]
   }
  ],
  "edges": [
@@ -32484,6 +32619,13 @@
    "type": "Role",
    "label": "Board Chair",
    "source": "https://www.nationallanding.org/stories/national-innovation-quarter-secures-4-million-to-grow-northern-virginias-innovation-economy"
+  },
+  {
+   "from": "city-of-alexandria",
+   "to": "nationaliq-lab",
+   "type": "Testbed / Trial / Consortium project",
+   "label": "Partner",
+   "source": "https://www.alxnow.com/?p=84062"
   }
  ]
 }
