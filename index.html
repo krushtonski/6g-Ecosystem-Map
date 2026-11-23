@@ -358,13 +358,15 @@ function renderStats(){
 }
 function renderFilters(){
   const CK=Object.keys(CATS).filter(k=>k!=="Person"), cl=document.getElementById("catList");
-  cl.innerHTML = `<label class="chk"><input type="checkbox" data-cat="__all" checked><b>All categories</b></label>`+CK.map(k=>`<label class="chk"><input type="checkbox" data-cat="${esc(k)}" checked><span class="sw ${CATS[k].sq?"sq":""}" style="background:${CATS[k].c}"></span>${esc(k)}<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category===k).length}</span></label>`).join("");
-  cl.onchange=e=>{ const k=e.target.dataset.cat, boxes=[...cl.querySelectorAll("input:not([data-cat='__all'])")];
+  cl.innerHTML = `<label class="chk"><input type="checkbox" data-cat="__all" checked><b>All categories</b></label>`+`<label class="chk"><input type="checkbox" id="catPeople" data-cat="__people"><span class="sw" style="background:${CATS.Person.c}"></span>People<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category==="Person").length}</span></label>`+CK.map(k=>`<label class="chk"><input type="checkbox" data-cat="${esc(k)}" checked><span class="sw ${CATS[k].sq?"sq":""}" style="background:${CATS[k].c}"></span>${esc(k)}<span style="color:var(--muted);margin-left:auto">${NODES.filter(n=>n.category===k).length}</span></label>`).join("");
+  cl.onchange=e=>{ const k=e.target.dataset.cat;
+    if(k==="__people"){ state.kp = e.target.checked ? (state.kpLast||1) : 0; applyKP(); return; }
+    const boxes=[...cl.querySelectorAll("input:not([data-cat='__all']):not([data-cat='__people'])")];
     if(k==="__all") boxes.forEach(b=>b.checked=e.target.checked);
     const on=boxes.filter(b=>b.checked).map(b=>b.dataset.cat);
     cl.querySelector("[data-cat='__all']").checked = on.length===CK.length;
     state.cats=new Set([...on,"Person"]);
-    document.getElementById("catSum").textContent = on.length===CK.length? "All categories" : on.length===0? "No categories" : on.length<=2? on.join(", ") : `${on.length} categories`;
+    state.catLbl = on.length===CK.length? "All categories" : on.length===0? "No categories" : on.length<=2? on.join(", ") : `${on.length} categories`; catSum();
     applyAll(); };
   const setMode=m=>{ state.mode=m; document.querySelectorAll("#modeSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===m));
     document.getElementById("corrBox").hidden = m!=="corridor";
@@ -408,8 +410,10 @@ function renderFilters(){
 const inCorr = n => { const o = n.category==="Person" ? byId[n.org] : n; return !!o && (["Alexandria","Northern Virginia"].includes(o.region) || (o.hub||[]).length>0 || (o.chal||[]).length>0); };
 const visible = n => (state.sel && SELV.has(n.id)) || baseVisible(n);
 const baseVisible = n => (state.mode!=="corridor" || inCorr(n)) && (n.category==="Person" ? (n.score||0)>=state.minScore && (!n.org||!byId[n.org]||state.cats.has(byId[n.org].category)) : state.cats.has(n.category) && (!state.hub||(n.hub||[]).includes(state.hub)) && (!state.chal||(n.chal||[]).includes(state.chal)));
+function catSum(){ const el=document.getElementById("catSum"); if(el) el.textContent=(state.catLbl||"All categories")+(state.kp?" + people":""); }
 function applyKP(init){
   const i=state.kp||0, st=KP_STOPS[i], off=i===0;
+  if(i) state.kpLast=i; const cp=document.getElementById("catPeople"); if(cp) cp.checked=!off; catSum();
   document.querySelectorAll("#kpSeg button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.i===i));
   state.minScore=st.t;
   const ppl=NODES.filter(n=>n.category==="Person"), shown=ppl.filter(n=>n.score>=st.t).length;
