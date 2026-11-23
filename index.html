@@ -85,6 +85,7 @@ ul.conn li.on{border-left:3px solid var(--accent);padding-left:6px}
 .plbl-go{all:unset;cursor:pointer;font:600 11.5px var(--body);color:var(--accent)}
 .plbl-go:hover{text-decoration:underline}
 .plbl-more{font-size:11px;color:var(--muted)}
+#corrBox h3{margin-top:18px}
 .qres{list-style:none;margin:4px 0 0;padding:0;border:1px solid var(--line);border-radius:6px;background:var(--bg);max-height:260px;overflow:auto}
 .qres li{padding:6px 8px;font-size:13px;cursor:pointer;border-bottom:1px solid var(--line)}
 .qres li:last-child{border-bottom:0}
@@ -177,14 +178,12 @@ footer a{color:var(--accent)}
 </div>
 <main>
   <aside>
-    <div class="modeseg" id="modeSeg" role="group" aria-label="View mode"><button type="button" data-m="global" aria-pressed="true">Global 6G</button><button type="button" data-m="corridor" aria-pressed="false">Corridor hub</button></div>
-    <p class="hint" id="modeHint"></p>
     <h3>Search</h3>
     <input type="search" id="q" placeholder="Organisation or person" aria-label="Search" autocomplete="off" aria-controls="qres">
     <ul id="qres" class="qres" role="listbox" hidden></ul>
     <h3>Category</h3>
     <details class="msel" id="catBox"><summary id="catSum">All categories</summary><div id="catList"></div></details>
-    <div id="corrBox" hidden>
+    <div id="corrBox">
     <h3>Corridor roles</h3>
     <label class="hint" for="hubSel" style="display:block;margin:0 0 3px">Innovation hub role</label>
     <select id="hubSel" aria-label="Innovation hub role"><option value="">Any</option></select>
@@ -368,13 +367,7 @@ function renderFilters(){
     state.cats=new Set([...on,"Person"]);
     state.catLbl = on.length===CK.length? "All categories" : on.length===0? "No categories" : on.length<=2? on.join(", ") : `${on.length} categories`; catSum();
     applyAll(); };
-  const setMode=m=>{ state.mode=m; document.querySelectorAll("#modeSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===m));
-    document.getElementById("corrBox").hidden = m!=="corridor";
-    if(m!=="corridor"){ state.hub=state.chal=""; document.getElementById("hubSel").value=document.getElementById("chalSel").value=""; }
-    document.getElementById("modeHint").textContent = m==="corridor" ? `Alexandria-Arlington and Northern Virginia players, plus the funders and problem owners tagged with a corridor role (${NODES.filter(n=>n.category!=="Person"&&inCorr(n)).length} organisations).` : "Everyone shaping 6G worldwide.";
-    applyAll(); if(geo&&state.view==="v-geo") geo.flyToBounds(EXT[m==="corridor"?"nova":"world"],{duration:.8}); };
-  document.querySelectorAll("#modeSeg button").forEach(b=>b.onclick=()=>setMode(b.dataset.m));
-  setTimeout(()=>{ document.getElementById("modeHint").textContent="Everyone shaping 6G worldwide."; },0);
+
   const ef=document.getElementById("edgef");
   ef.innerHTML = Object.entries(ETYPES).filter(([k])=>k!=="Shared association").map(([k,t])=>`<label class="chk"><input type="checkbox" data-t="${esc(k)}">${ekSwatch(k)}${esc(k)}</label>`).join("")+`<p class="ehelp">${esc(EHELP)}</p>`;
   ef.onchange=e=>{ const k=e.target.dataset.t; e.target.checked?state.types.add(k):state.types.delete(k); applyAll(); };
