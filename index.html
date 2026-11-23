@@ -150,6 +150,25 @@ thead th{position:sticky;top:0;background:var(--panel);z-index:1}
 .mx td.dot{text-align:center;color:var(--accent);font-size:14px;min-width:26px}
 .mx th.grp{text-align:center;font:600 12px var(--display);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .mx tbody th{font-weight:500;white-space:nowrap}
+.mxwrap{display:flex;gap:20px;align-items:flex-start}
+.mxlist{width:280px;flex:none;position:sticky;top:0}
+.mxtabs{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-bottom:8px}
+.mxtabs button{flex:1;font:600 12px var(--body);padding:6px 0;border:0;border-right:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.mxtabs button:last-child{border-right:0}
+.mxtabs button[aria-pressed="true"]{background:var(--accent);color:#fff}
+#mxList{list-style:none;margin:8px 0 0;padding:0;max-height:calc(100vh - 330px);overflow:auto;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+#mxList button{all:unset;box-sizing:border-box;display:flex;width:100%;gap:8px;padding:7px 10px;font-size:13px;cursor:pointer;border-bottom:1px solid var(--line)}
+#mxList button span{flex:1}
+#mxList button b{color:var(--muted);font-weight:600}
+#mxList button:hover{background:var(--accent-soft)}
+#mxList button[aria-pressed="true"]{background:var(--accent);color:#fff}
+#mxList button[aria-pressed="true"] b{color:#fff}
+.mxbody{flex:1;min-width:0;max-width:820px}
+.mxbody h2{margin:0 0 4px}
+.mxbody h3{display:flex;align-items:center;gap:6px;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:16px 0 6px}
+.mchips{display:flex;flex-wrap:wrap;gap:6px}
+.mchip{font:500 12.5px var(--body);padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--ink);cursor:pointer}
+.mchip:hover{border-color:var(--accent);color:var(--accent)}
 .intro{max-width:72ch;color:var(--muted);margin:0 0 12px;font-size:13px}
 footer{font-size:11.5px;color:var(--muted);padding:6px 20px;border-top:1px solid var(--line);background:var(--panel)}
 footer a{color:var(--accent)}
@@ -218,14 +237,21 @@ footer a{color:var(--accent)}
       <div class="geonote" id="geonote"></div>
     </section>
     <section class="view" id="v-net" role="tabpanel" aria-labelledby="t-net">
-      <svg id="svg" role="img" aria-label="Network diagram with rings for the Washington DC region, the rest of the US and international"></svg>
+      <svg id="svg" role="img" aria-label="Network diagram with rings for the Alexandria-Arlington corridor, the rest of the US and international"></svg>
       <div class="zoombtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button></div>
-      <div class="netnote">Rings show where each player is based: Washington DC region at the centre, then the rest of the US, then international. Node size = number of connections. ■ associations ◆ programmes ▲ events.</div>
+      <div class="netnote">Rings show where each player is based: the Alexandria-Arlington corridor (Northern Virginia) at the centre, then the rest of the US including DC and Maryland, then international. Node size = number of connections. ■ associations ◆ programmes ▲ events.</div>
     </section>
     <section class="view" id="v-mx" role="tabpanel" aria-labelledby="t-mx">
       <div class="scroll">
-        <p class="intro">Which organisations belong to which associations, alliances and consortia, and which shared programmes they take part in. ● = member or participant, $ = funder, ▲ = has speakers at the event. Click a name for details.</p>
-        <table class="mx" id="mx"></table>
+        <p class="intro">Pick an association, programme or event to see who belongs to it. Shared members shows which other bodies have the most members in common.</p>
+        <div class="mxwrap">
+          <div class="mxlist">
+            <div class="mxtabs" id="mxTabs" role="group" aria-label="Type"><button type="button" data-k="g" aria-pressed="true">Associations</button><button type="button" data-k="p" aria-pressed="false">Programmes</button><button type="button" data-k="e" aria-pressed="false">Events</button></div>
+            <input type="search" id="mxQ" placeholder="Filter" aria-label="Filter list">
+            <ul id="mxList"></ul>
+          </div>
+          <div class="mxbody" id="mxBody"></div>
+        </div>
       </div>
     </section>
   </div>
@@ -311,15 +337,15 @@ function scorePeople(){
 }
 
 const KP_STOPS=[{t:Infinity,l:"Off",d:"Organisation-only view"},{t:1,l:"All Tracked People (score 1+)",d:"Every person on the map"},{t:4,l:"Key Contributors (score 4+)",d:"Active multi-project leads and consortium players"},{t:6,l:"Core Leaders (score 6+)",d:"High-influence PIs, working group chairs and cross-sector bridges"}];
-const REGIONS = ["Washington DC region","Rest of United States","International"];
+const REGIONS = ["Alexandria-Arlington corridor","Rest of United States","International"];
 const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const nm = n => n.short || n.name;
 const isGroup = n => n.category==="Associations & alliances";
 const isProg = n => n.category==="Programmes & testbeds";
 const isEvent = n => n.category==="Events";
-const DCREG = ["Alexandria","Northern Virginia","Washington DC & Maryland"];
+const DCREG = ["Alexandria","Northern Virginia"];
 function ring(n){ const p = n.lat!=null? n : (n.org && byId[n.org] && byId[n.org].lat!=null ? byId[n.org] : null);
-  if(p){ if(p.lat>38.5&&p.lat<39.3&&p.lng>-77.7&&p.lng<-76.7) return 0; if(p.lat>24&&p.lat<50&&p.lng>-125&&p.lng<-66) return 1; return 2; }
+  if(p){ if(p.lat>38.5&&p.lat<39.3&&p.lng>-77.7&&p.lng<-76.7&&DCREG.includes(p.region)) return 0; if(p.lat>24&&p.lat<50&&p.lng>-125&&p.lng<-66) return 1; return 2; }
   return DCREG.includes(n.region)?0:1; }
 
 let NODES=[], LINKS=[], byId={}, SHARED=[];
@@ -610,7 +636,7 @@ function buildNet(){
     document.getElementById("zreset").onclick=resetZoom;
     svg.on("click",()=>{ if(etip){ etip.style.display="none"; delete etip.dataset.pin; } state.sel=null; renderDetail(); applyAll(); });
   }
-  const base = 340; R=[0,base*0.42,base*0.68,base*0.95];
+  const base = 340; R=[0,base*0.52,base*0.74,base*0.97];
   ringG.selectAll("*").remove();
   [R[1]*0.85,(R[2]+R[3])/2+R[1]*0.05,R[3]*1.16].forEach((r,i)=>{
     ringG.append("circle").attr("r",r).attr("fill",i?"none":"var(--accent-soft)").attr("stroke",i?"var(--line)":"var(--accent)").attr("stroke-dasharray",i?"4 5":null).attr("opacity",i?1:.6);
@@ -720,18 +746,38 @@ function bindGo(el){ el.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>s
 
 /* ---------- Membership matrix ---------- */
 function renderMatrix(){
-  const c1=NODES.filter(isGroup), c2=NODES.filter(isProg), c3=NODES.filter(isEvent), cols=[...c1,...c2,...c3];
   const staff = id => NODES.filter(p=>p.category==="Person"&&p.org===id).map(p=>p.id);
-  const link=(r,c)=>{ const l=LINKS.find(l=>(l.source===r.id&&l.target===c.id)||(l.target===r.id&&l.source===c.id)); if(l) return {t:l.type,lab:l.label};
-    if(isEvent(c)){ const ps=staff(r.id).filter(p=>LINKS.some(l=>l.source===p&&l.target===c.id)); if(ps.length) return {t:"Event participation",lab:ps.length+" speaker"+(ps.length>1?"s":"")+": "+ps.map(p=>byId[p].name).join(", ")}; }
-    return null; };
-  const rows=NODES.filter(n=>!isGroup(n)&&!isProg(n)&&!isEvent(n)&&n.category!=="Person").map(n=>({n,k:cols.filter(c=>link(n,c)).length})).filter(x=>x.k)
-    .sort((a,b)=>b.k-a.k||nm(a.n).localeCompare(nm(b.n))).map(x=>x.n);
-  const cell=(r,c)=>{ const l=link(r,c); return l?`<td class="dot" title="${esc(l.t+": "+l.lab)}">${l.t==="Funding"?"$":l.t==="Event participation"?"▲":"●"}</td>`:"<td></td>"; };
-  document.getElementById("mx").innerHTML=`<thead><tr><th></th><th></th><th class="grp" colspan="${c1.length}">Associations & consortia</th><th class="grp" colspan="${c2.length}">Programmes</th><th class="grp" colspan="${c3.length}">Events</th></tr>
-   <tr><th>Organisation</th><th>Category</th>${cols.map(c=>`<th class="col">${esc(nm(c))}</th>`).join("")}</tr></thead>
-   <tbody>${rows.map(r=>`<tr><th><button class="go" data-go="${r.id}">${esc(nm(r))}</button></th><td><span class="sw" style="background:${CATS[r.category].c}"></span> ${esc(r.category)}</td>${cols.map(c=>cell(r,c)).join("")}</tr>`).join("")}</tbody>`;
-  bindGo(document.getElementById("mx"));
+  const members = g => { const m=new Map();
+    LINKS.forEach(l=>{ if(l.type==="Role"&&isEvent(g)) return; const a=l.source,b=l.target; let o=a===g.id?b:b===g.id?a:null; if(!o) return; let n=byId[o];
+      if(n.category==="Person"){ if(!isEvent(g)) return; if(!n.org||!byId[n.org]) return; const org=byId[n.org]; const e=m.get(org.id)||{n:org,t:"Event participation",lab:[]}; e.lab.push(n.name); m.set(org.id,e); return; }
+      if(!m.has(o)) m.set(o,{n,t:l.type,lab:[l.label]}); });
+    return [...m.values()]; };
+  const KINDS={g:isGroup,p:isProg,e:isEvent};
+  const all=NODES.filter(n=>isGroup(n)||isProg(n)||isEvent(n)).map(n=>({n,m:members(n)}));
+  const MEM=new Map(all.map(x=>[x.n.id,x.m]));
+  let kind="g", cur=null;
+  const list=document.getElementById("mxList"), body=document.getElementById("mxBody"), q=document.getElementById("mxQ");
+  const drawList=()=>{ const v=q.value.trim().toLowerCase();
+    const xs=all.filter(x=>KINDS[kind](x.n)&&(!v||x.n.name.toLowerCase().includes(v)||(x.n.short||"").toLowerCase().includes(v))).sort((a,b)=>b.m.length-a.m.length||nm(a.n).localeCompare(nm(b.n)));
+    if(!cur||!xs.some(x=>x.n.id===cur)) cur=xs[0]&&xs[0].n.id;
+    list.innerHTML=xs.map(x=>`<li><button type="button" data-id="${esc(x.n.id)}" aria-pressed="${x.n.id===cur}"><span>${esc(nm(x.n))}</span><b>${x.m.length}</b></button></li>`).join("")||`<li class="hint">No matches</li>`;
+    list.querySelectorAll("button").forEach(b=>b.onclick=()=>{ cur=b.dataset.id; drawList(); });
+    drawBody(); };
+  const drawBody=()=>{ if(!cur){ body.innerHTML=""; return; } const g=byId[cur], ms=MEM.get(cur)||[];
+    const byCat={}; ms.forEach(x=>(byCat[x.n.category]=byCat[x.n.category]||[]).push(x));
+    const mine=new Set(ms.map(x=>x.n.id));
+    const shared=all.filter(x=>x.n.id!==cur).map(x=>({n:x.n,k:x.m.filter(y=>mine.has(y.n.id)).length})).filter(x=>x.k>1).sort((a,b)=>b.k-a.k).slice(0,8);
+    body.innerHTML=`<h2>${esc(g.name)}</h2><p class="hint" style="margin:0 0 10px">${esc(g.category)} · ${ms.length} ${isEvent(g)?"organisations with speakers or partners":"members and participants"} found in public sources</p>
+      <p><button class="btn" id="mxMap">Show on map</button> <button class="btn" id="mxDet">Details and sources</button></p>
+      ${Object.keys(CATS).filter(k=>byCat[k]).map(k=>`<h3><span class="sw ${CATS[k].sq?"sq":""}" style="background:${CATS[k].c}"></span> ${esc(k)} <span class="hint">(${byCat[k].length})</span></h3><div class="mchips">${byCat[k].sort((a,b)=>nm(a.n).localeCompare(nm(b.n))).map(x=>`<button type="button" class="mchip" data-go="${esc(x.n.id)}" title="${esc(x.t+": "+x.lab.join(", "))}">${x.t==="Funding"?"$ ":""}${esc(nm(x.n))}</button>`).join("")}</div>`).join("")||`<p class="hint">No members recorded yet.</p>`}
+      ${shared.length?`<h3>Shared members</h3><ul class="conn">${shared.map(x=>`<li><button class="go" data-sw="${esc(x.n.id)}">${esc(nm(x.n))}</button><small>${x.k} members in common</small></li>`).join("")}</ul>`:""}`;
+    body.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{ state.selTypes=new Set(); select(b.dataset.go); });
+    body.querySelectorAll("[data-sw]").forEach(b=>b.onclick=()=>{ const n=byId[b.dataset.sw]; kind=isGroup(n)?"g":isProg(n)?"p":"e"; cur=n.id; q.value=""; setKind(); });
+    document.getElementById("mxDet").onclick=()=>select(cur);
+    document.getElementById("mxMap").onclick=()=>{ const id=cur; document.getElementById("t-geo").click(); select(id); state.selTypes=new Set(Object.keys(ETYPES).filter(k=>k!=="Shared association")); renderDetail(); applyAll(); setTimeout(fitSel,50); }; };
+  const setKind=()=>{ document.querySelectorAll("#mxTabs button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.k===kind)); drawList(); };
+  document.querySelectorAll("#mxTabs button").forEach(b=>b.onclick=()=>{ kind=b.dataset.k; cur=null; setKind(); });
+  q.oninput=drawList; drawList();
 }
 
 /* ---------- Tabs ---------- */
