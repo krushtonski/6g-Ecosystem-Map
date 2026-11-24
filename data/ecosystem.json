@@ -1388,7 +1388,8 @@
    "sources": [
     "https://tmt.knect365.com/network-x-americas/speakers/jaydee-griffith",
     "https://tmt.knect365.com/network-x-demo/speakers/jaydee-griffith",
-    "https://nextgalliance.org"
+    "https://nextgalliance.org",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -2064,7 +2065,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -2132,7 +2134,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -2268,7 +2271,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -2750,7 +2754,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -3060,7 +3065,8 @@
    "precision": "",
    "sources": [
     "https://b6gs.com/agenda",
-    "https://nextgalliance.org/leadership/"
+    "https://nextgalliance.org/leadership/",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -3196,7 +3202,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://www.ntia.gov/personnel-profile/tricia-j-paoletta"
+    "https://www.ntia.gov/personnel-profile/tricia-j-paoletta",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -4452,7 +4459,8 @@
    "category": "Person",
    "description": "Verizon representative at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -4639,7 +4647,8 @@
    "category": "Person",
    "description": "Chief Program Officer at the National Spectrum Consortium. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -5047,7 +5056,8 @@
    "sources": [
     "https://spectrumx.org/?p=5386",
     "https://www.techuk.org/asset/A0AB424F%2D83FE%2D4B9F%2DBAA7ECE51B0463BE",
-    "https://ee.nd.edu/?p=3495"
+    "https://ee.nd.edu/?p=3495",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -5153,7 +5163,8 @@
    "description": "AT&T Fellow who leads AT&T's standards strategy. Co-chair of the FCC TAC 6G Working Group, co-chair of the Next G Alliance Steering Group, and co-lead of the National Spectrum Consortium 5G/Next G Working Group.",
    "sources": [
     "https://nextgalliance.org/nga_event_speaker/brain-daly/",
-    "https://www.fcc.gov/sites/default/files/Consolidated_6G_Paper_FCCTAC23_Final_for_Web.pdf"
+    "https://www.fcc.gov/sites/default/files/Consolidated_6G_Paper_FCCTAC23_Final_for_Web.pdf",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -18703,7 +18714,8 @@
    "description": "Leads AT&T's RAN architecture and technology roadmaps. Chairs the Next G Alliance Full Member Group and the Telecom Infra Project.",
    "sources": [
     "https://nextgalliance.org/leadership/",
-    "https://tmt.knect365.com/network-x-americas/speakers/rob-soni"
+    "https://tmt.knect365.com/network-x-americas/speakers/rob-soni",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -18720,7 +18732,8 @@
    "precision": null,
    "description": "Ericsson representative and co-chair of the Next G Alliance Steering Group.",
    "sources": [
-    "https://nextgalliance.org/leadership/"
+    "https://nextgalliance.org/leadership/",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -18737,7 +18750,8 @@
    "precision": null,
    "description": "Nokia researcher who chairs the Next G Alliance Spectrum Working Group.",
    "sources": [
-    "https://nextgalliance.org/leadership/"
+    "https://nextgalliance.org/leadership/",
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   },
   {
@@ -22179,6 +22193,4122 @@
    "description": "Head of Science Policy and International Affairs at the Research Council of Finland. Presented the Flagship program at the 6G Summit 2026.",
    "sources": [
     "https://6gsummit2026.com/program/"
+   ]
+  },
+  {
+   "id": "network-x-americas-2026",
+   "name": "Network X Americas 2026",
+   "short": "Network X Americas 2026",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Irving Convention Center at Las Colinas, 500 W Las Colinas Blvd, Irving, TX 75039",
+   "lat": 32.8776,
+   "lng": -96.9398,
+   "precision": "Street address",
+   "description": "Telecom industry event, May 18 to 20, 2026, at the Irving Convention Center at Las Colinas, Dallas, Texas. Organized by Informa Connect and co-located with WBA's Wireless Global Congress Americas.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/",
+    "https://tmt.knect365.com/network-x-americas/beforeyouarrive",
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "comcast",
+   "name": "Comcast",
+   "short": "Comcast",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Philadelphia, PA",
+   "lat": 39.9526,
+   "lng": -75.1652,
+   "precision": "City",
+   "description": "US cable and broadband operator. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "optimum",
+   "name": "Optimum (Altice USA)",
+   "short": "Optimum",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Long Island City, NY",
+   "lat": 40.7447,
+   "lng": -73.9485,
+   "precision": "City",
+   "description": "US broadband and mobile operator, formerly Altice USA. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tech-mahindra",
+   "name": "Tech Mahindra",
+   "short": "Tech Mahindra",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Pune, India",
+   "lat": 18.5204,
+   "lng": 73.8567,
+   "precision": "City",
+   "description": "Indian IT and telecom services company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "telus",
+   "name": "TELUS",
+   "short": "TELUS",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Vancouver, BC, Canada",
+   "lat": 49.2827,
+   "lng": -123.1207,
+   "precision": "City",
+   "description": "Canadian telecom operator. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "wba",
+   "name": "Wireless Broadband Alliance (WBA)",
+   "short": "WBA",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wi-Fi industry body. Delivers Wireless Global Congress Americas, co-located with Network X Americas. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "netscout",
+   "name": "NETSCOUT",
+   "short": "NETSCOUT",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Westford, MA",
+   "lat": 42.5793,
+   "lng": -71.4378,
+   "precision": "City",
+   "description": "Network monitoring and assurance vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "firstnet",
+   "name": "FirstNet",
+   "short": "FirstNet",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "US nationwide public safety broadband network. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "schneider",
+   "name": "Schneider Electric",
+   "short": "Schneider Electric",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Rueil-Malmaison, France",
+   "lat": 48.8778,
+   "lng": 2.1803,
+   "precision": "City",
+   "description": "Energy management and automation company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "amazon-leo",
+   "name": "Amazon Leo",
+   "short": "Amazon Leo",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Redmond, WA",
+   "lat": 47.674,
+   "lng": -122.1215,
+   "precision": "City",
+   "description": "Amazon's low Earth orbit satellite broadband network. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "vistabeam",
+   "name": "Vistabeam",
+   "short": "Vistabeam",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Fixed wireless internet provider. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "boingo",
+   "name": "Boingo Wireless",
+   "short": "Boingo",
+   "category": "Network operators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Los Angeles, CA",
+   "lat": 34.0522,
+   "lng": -118.2437,
+   "precision": "City",
+   "description": "Wi-Fi, DAS and private network provider. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "chevron",
+   "name": "Chevron",
+   "short": "Chevron",
+   "category": "Enterprise & end users",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Houston, TX",
+   "lat": 29.7604,
+   "lng": -95.3698,
+   "precision": "City",
+   "description": "Energy company and private wireless user. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "rakuten-symphony",
+   "name": "Rakuten Symphony",
+   "short": "Rakuten Symphony",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Tokyo, Japan",
+   "lat": 35.6762,
+   "lng": 139.6503,
+   "precision": "City",
+   "description": "Cloud-native telecom platform vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ongo",
+   "name": "OnGo Alliance",
+   "short": "OnGo Alliance",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Industry body for CBRS shared spectrum. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "wavelo",
+   "name": "Wavelo",
+   "short": "Wavelo",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Toronto, ON, Canada",
+   "lat": 43.6532,
+   "lng": -79.3832,
+   "precision": "City",
+   "description": "Telecom software (BSS/OSS) company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "wyebot",
+   "name": "Wyebot",
+   "short": "Wyebot",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wi-Fi network analytics vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "detecon",
+   "name": "Detecon",
+   "short": "Detecon",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Cologne, Germany",
+   "lat": 50.9375,
+   "lng": 6.9603,
+   "precision": "City",
+   "description": "Management and technology consultancy. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tulsa-airport",
+   "name": "Tulsa International Airport",
+   "short": "Tulsa Airport",
+   "category": "Enterprise & end users",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Tulsa, OK",
+   "lat": 36.154,
+   "lng": -95.9928,
+   "precision": "City",
+   "description": "Airport and connectivity end user. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "omdia",
+   "name": "Omdia",
+   "short": "Omdia",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "London, UK",
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "precision": "City",
+   "description": "Technology research and analyst firm. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "arthur-d-little",
+   "name": "Arthur D. Little",
+   "short": "Arthur D. Little",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Management consultancy with a telecoms practice. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "recon-analytics",
+   "name": "Recon Analytics",
+   "short": "Recon Analytics",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telecom research and analyst firm. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "granite-comms",
+   "name": "Granite Communications & Security",
+   "short": "Granite Communications",
+   "category": "Defence & integrators",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Communications and security integrator. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "fifty-elm",
+   "name": "Fifty Elm",
+   "short": "Fifty Elm",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Advisory firm. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "wispa",
+   "name": "WISPA",
+   "short": "WISPA",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Association of US fixed wireless internet service providers. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sercomm",
+   "name": "Sercomm",
+   "short": "Sercomm",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Taipei, Taiwan",
+   "lat": 25.033,
+   "lng": 121.5654,
+   "precision": "City",
+   "description": "Broadband and small cell equipment maker. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "cambium",
+   "name": "Cambium Networks",
+   "short": "Cambium Networks",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Rolling Meadows, IL",
+   "lat": 42.0842,
+   "lng": -88.0131,
+   "precision": "City",
+   "description": "Fixed wireless and Wi-Fi equipment vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "itau",
+   "name": "Itaú Unibanco",
+   "short": "Itaú Unibanco",
+   "category": "Enterprise & end users",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "São Paulo, Brazil",
+   "lat": -23.5505,
+   "lng": -46.6333,
+   "precision": "City",
+   "description": "Brazilian bank and network end user. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "eleven-software",
+   "name": "Eleven Software",
+   "short": "Eleven Software",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telecom software company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "quilt",
+   "name": "The Quilt",
+   "short": "QUILT",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "US association of research and education networks. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "stl-partners",
+   "name": "STL Partners",
+   "short": "STL Partners",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "London, UK",
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "precision": "City",
+   "description": "Telecoms research and consultancy. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "hechtman-ventures",
+   "name": "Hechtman Ventures",
+   "short": "Hechtman Ventures",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Advisory and ventures firm. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jma",
+   "name": "JMA Wireless",
+   "short": "JMA Wireless",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Syracuse, NY",
+   "lat": 43.0481,
+   "lng": -76.1474,
+   "precision": "City",
+   "description": "US wireless infrastructure and RAN vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tejas",
+   "name": "Tejas Networks",
+   "short": "Tejas Networks",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Bengaluru, India",
+   "lat": 12.9716,
+   "lng": 77.5946,
+   "precision": "City",
+   "description": "Indian optical, broadband and RAN equipment vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "silicon-labs",
+   "name": "Silicon Labs",
+   "short": "Silicon Labs",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Austin, TX",
+   "lat": 30.2672,
+   "lng": -97.7431,
+   "precision": "City",
+   "description": "IoT wireless chipmaker. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "short": "TikTok",
+   "category": "Enterprise & end users",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Social video platform. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "netexperience",
+   "name": "NetExperience",
+   "short": "NetExperience",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wi-Fi cloud management vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "amdocs",
+   "name": "Amdocs",
+   "short": "Amdocs",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Chesterfield, MO",
+   "lat": 38.6631,
+   "lng": -90.5771,
+   "precision": "City",
+   "description": "Telecom software and services company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "itron",
+   "name": "Itron",
+   "short": "Itron",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Liberty Lake, WA",
+   "lat": 47.6743,
+   "lng": -117.1132,
+   "precision": "City",
+   "description": "Utility metering and IoT network vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "murray-csd",
+   "name": "Murray City School District",
+   "short": "Murray City School District",
+   "category": "Enterprise & end users",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Murray, UT",
+   "lat": 40.6669,
+   "lng": -111.888,
+   "precision": "City",
+   "description": "Utah school district and connectivity end user. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sage-hospitality",
+   "name": "Sage Hospitality Group",
+   "short": "Sage Hospitality",
+   "category": "Enterprise & end users",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Denver, CO",
+   "lat": 39.7392,
+   "lng": -104.9903,
+   "precision": "City",
+   "description": "Hotel operator and connectivity end user. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "wifi-alliance",
+   "name": "Wi-Fi Alliance",
+   "short": "Wi-Fi Alliance",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Austin, TX",
+   "lat": 30.2672,
+   "lng": -97.7431,
+   "precision": "City",
+   "description": "Wi-Fi certification and industry body. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "motive",
+   "name": "Motive",
+   "short": "Motive",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "San Francisco, CA",
+   "lat": 37.7749,
+   "lng": -122.4194,
+   "precision": "City",
+   "description": "Fleet management and IoT company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "infinig",
+   "name": "InfiniG",
+   "short": "InfiniG",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wireless connectivity company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "aws",
+   "name": "Amazon Web Services (AWS)",
+   "short": "AWS",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Seattle, WA",
+   "lat": 47.6062,
+   "lng": -122.3321,
+   "precision": "City",
+   "description": "Amazon's cloud computing business. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "lpda",
+   "name": "Leadership and Personal Development Academy",
+   "short": "LPDA",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Leadership development provider. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ookla",
+   "name": "Ookla",
+   "short": "Ookla",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Seattle, WA",
+   "lat": 47.6062,
+   "lng": -122.3321,
+   "precision": "City",
+   "description": "Network testing and analytics company (Speedtest). Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tip",
+   "name": "Telecom Infra Project (TIP)",
+   "short": "TIP",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Industry body for open, disaggregated network infrastructure. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "hpe",
+   "name": "Hewlett Packard Enterprise (HPE)",
+   "short": "HPE",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Houston, TX",
+   "lat": 29.7604,
+   "lng": -95.3698,
+   "precision": "City",
+   "description": "Enterprise networking and compute vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "counterpoint",
+   "name": "Counterpoint Research",
+   "short": "Counterpoint",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Technology research and analyst firm. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "uplink",
+   "name": "Uplink",
+   "short": "Uplink",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Connectivity company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "cisco",
+   "name": "Cisco",
+   "short": "Cisco",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "San Jose, CA",
+   "lat": 37.3382,
+   "lng": -121.8863,
+   "precision": "City",
+   "description": "Networking equipment and software vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "airties",
+   "name": "Airties",
+   "short": "Airties",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wi-Fi software and mesh vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "opensignal",
+   "name": "Opensignal",
+   "short": "Opensignal",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "London, UK",
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "precision": "City",
+   "description": "Mobile network analytics company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tarana",
+   "name": "Tarana Wireless",
+   "short": "Tarana",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Milpitas, CA",
+   "lat": 37.4323,
+   "lng": -121.8996,
+   "precision": "City",
+   "description": "Fixed wireless access equipment vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "linux-foundation",
+   "name": "Linux Foundation (CAMARA Project)",
+   "short": "Linux Foundation",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "San Francisco, CA",
+   "lat": 37.7749,
+   "lng": -122.4194,
+   "precision": "City",
+   "description": "Open source foundation hosting the CAMARA network API project. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "asiarf",
+   "name": "AsiaRF",
+   "short": "AsiaRF",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wireless module maker. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "light-reading",
+   "name": "Light Reading",
+   "short": "Light Reading",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telecom industry publication linked to Network X Americas. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "radcom",
+   "name": "RADCOM",
+   "short": "RADCOM",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Tel Aviv, Israel",
+   "lat": 32.0853,
+   "lng": 34.7818,
+   "precision": "City",
+   "description": "Network assurance vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "nc-expert",
+   "name": "NC Expert",
+   "short": "NC Expert",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wireless training and consulting firm. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ieee",
+   "name": "IEEE (802.11 Working Group)",
+   "short": "IEEE 802.11",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Standards body for Wi-Fi (IEEE 802.11). Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "nobu-hotels",
+   "name": "Nobu Hotels",
+   "short": "Nobu Hotels",
+   "category": "Enterprise & end users",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Hotel group and connectivity end user. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "gigamon",
+   "name": "Gigamon",
+   "short": "Gigamon",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Santa Clara, CA",
+   "lat": 37.3541,
+   "lng": -121.9552,
+   "precision": "City",
+   "description": "Network visibility vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "barich",
+   "name": "Barich, Inc.",
+   "short": "Barich",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Technology consultancy. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ironwifi",
+   "name": "IronWifi",
+   "short": "IronWifi",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Cloud Wi-Fi authentication vendor. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "c3spectra",
+   "name": "C3Spectra",
+   "short": "C3Spectra",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Spectrum management company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "telecom-company",
+   "name": "The Telecom Company",
+   "short": "The Telecom Company",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telecom advisory company. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "informa-connect",
+   "name": "Informa Connect",
+   "short": "Informa Connect",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "London, UK",
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "precision": "City",
+   "description": "Event organiser behind Network X Americas. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "atis",
+   "name": "ATIS (Alliance for Telecommunications Industry Solutions)",
+   "short": "ATIS",
+   "category": "Associations & alliances",
+   "region": "Washington DC & Maryland",
+   "role": "",
+   "org": null,
+   "address": "1200 G St NW, Washington, DC",
+   "lat": 38.8983,
+   "lng": -77.0286,
+   "precision": "Street address",
+   "description": "US telecom standards body. Hosts the Next G Alliance. Staff spoke at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "easycell",
+   "name": "EasyCell",
+   "short": "EasyCell",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Connectivity company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "everforth",
+   "name": "Everforth (Apex Systems)",
+   "short": "Everforth",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "IT services and staffing group behind Apex Systems. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "askey",
+   "name": "Askey Computer",
+   "short": "Askey",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "New Taipei City, Taiwan",
+   "lat": 25.012,
+   "lng": 121.4657,
+   "precision": "City",
+   "description": "Taiwanese broadband, CPE and small cell maker. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "net-insight",
+   "name": "Net Insight",
+   "short": "Net Insight",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Stockholm, Sweden",
+   "lat": 59.3293,
+   "lng": 18.0686,
+   "precision": "City",
+   "description": "Network synchronization and media transport vendor. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "eino",
+   "name": "Eino",
+   "short": "Eino",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "AI company for network planning. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "dassault",
+   "name": "Dassault Systèmes",
+   "short": "Dassault Systèmes",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Vélizy-Villacoublay, France",
+   "lat": 48.7833,
+   "lng": 2.2167,
+   "precision": "City",
+   "description": "3D design, simulation and digital twin software company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "array-inc",
+   "name": "Array",
+   "short": "Array",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Technology company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "tupl",
+   "name": "Tupl",
+   "short": "Tupl",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "AI-driven network automation vendor. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "clearfield",
+   "name": "Clearfield",
+   "short": "Clearfield",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Minneapolis, MN",
+   "lat": 44.9778,
+   "lng": -93.265,
+   "precision": "City",
+   "description": "Fibre management and connectivity products maker. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "everpure",
+   "name": "Everpure (Pure Storage)",
+   "short": "Everpure",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Santa Clara, CA",
+   "lat": 37.3541,
+   "lng": -121.9552,
+   "precision": "City",
+   "description": "Data storage company (purestorage.com). Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "mobileum",
+   "name": "Mobileum",
+   "short": "Mobileum",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Santa Clara, CA",
+   "lat": 37.3541,
+   "lng": -121.9552,
+   "precision": "City",
+   "description": "Telecom analytics, roaming and network testing vendor. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "red-hat",
+   "name": "Red Hat",
+   "short": "Red Hat",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Raleigh, NC",
+   "lat": 35.7796,
+   "lng": -78.6382,
+   "precision": "City",
+   "description": "Open source and cloud-native platform vendor (IBM). Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "bluearcus",
+   "name": "BlueArcus",
+   "short": "BlueArcus",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telecom software company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "relay",
+   "name": "Relay",
+   "short": "Relay",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Push-to-talk and frontline communications company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "nextnav",
+   "name": "NextNav",
+   "short": "NextNav",
+   "category": "Equipment & tech vendors",
+   "region": "Northern Virginia",
+   "role": "",
+   "org": null,
+   "address": "McLean, VA",
+   "lat": 38.9339,
+   "lng": -77.1773,
+   "precision": "City",
+   "description": "3D positioning, navigation and timing company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "calix",
+   "name": "Calix",
+   "short": "Calix",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Broadband platform and systems vendor. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "plekton-labs",
+   "name": "Plekton Labs",
+   "short": "Plekton Labs",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Engineering and technology services firm. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "skyovi",
+   "name": "Skyovi",
+   "short": "Skyovi",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Connectivity company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "epam",
+   "name": "EPAM Systems",
+   "short": "EPAM",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Newtown, PA",
+   "lat": 40.229,
+   "lng": -74.9368,
+   "precision": "City",
+   "description": "Software engineering and IT services company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "bitdefender",
+   "name": "Bitdefender",
+   "short": "Bitdefender",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Bucharest, Romania",
+   "lat": 44.4268,
+   "lng": 26.1025,
+   "precision": "City",
+   "description": "Cybersecurity company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "invences",
+   "name": "Invences",
+   "short": "Invences",
+   "category": "Consultancy",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telecom engineering services firm. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "ocient",
+   "name": "Ocient",
+   "short": "Ocient",
+   "category": "Equipment & tech vendors",
+   "region": "Rest of US & global",
+   "role": "",
+   "org": null,
+   "address": "Chicago, IL",
+   "lat": 41.8781,
+   "lng": -87.6298,
+   "precision": "City",
+   "description": "Hyperscale data analytics company. Exhibited at Network X Americas 2026.",
+   "sources": [
+    "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+   ]
+  },
+  {
+   "id": "yigal-elbaz",
+   "name": "Yigal Elbaz",
+   "short": "Yigal Elbaz",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "SVP, Technology & Network Services, Network CTO",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "SVP, Technology & Network Services, Network CTO, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "elad-nafshi",
+   "name": "Elad Nafshi",
+   "short": "Elad Nafshi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "EVP & Chief Network Officer",
+   "org": "comcast",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "EVP & Chief Network Officer, Comcast. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "shawn-hakl",
+   "name": "Shawn Hakl",
+   "short": "Shawn Hakl",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "SVP, Business Product",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "SVP, Business Product, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "joe-constantine",
+   "name": "Joe Constantine",
+   "short": "Joe Constantine",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Strategy and Technology Officer, Ericsson Americas",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Strategy and Technology Officer, Ericsson Americas. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "nate-edwards",
+   "name": "Nate Edwards",
+   "short": "Nate Edwards",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Operating Officer",
+   "org": "optimum",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Operating Officer, Optimum. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mitch-olson",
+   "name": "Mitch Olson",
+   "short": "Mitch Olson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Corporate Strategy",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Corporate Strategy, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "josh-arensberg",
+   "name": "Josh Arensberg",
+   "short": "Josh Arensberg",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Global MD, Sports, Media and Technology, Verizon Business Group",
+   "org": "verizon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Global MD, Sports, Media and Technology, Verizon Business Group. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "manish-mangal",
+   "name": "Manish Mangal",
+   "short": "Manish Mangal",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President and Head of the Americas Communications Business",
+   "org": "tech-mahindra",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President and Head of the Americas Communications Business, Tech Mahindra. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "bernard-bureau",
+   "name": "Bernard Bureau",
+   "short": "Bernard Bureau",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Wireless Technology & Services",
+   "org": "telus",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Wireless Technology & Services, TELUS. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "akhil-gokul",
+   "name": "Akhil Gokul",
+   "short": "Akhil Gokul",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Head of Technology, Ericsson Americas",
+   "org": "ericsson",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Head of Technology, Ericsson Americas. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "josh-goodell",
+   "name": "Josh Goodell",
+   "short": "Josh Goodell",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Broadband and Converged Product Development",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Broadband and Converged Product Development, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "gavin-mitchell",
+   "name": "Gavin Mitchell",
+   "short": "Gavin Mitchell",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Product Quality Assurance",
+   "org": "optimum",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Product Quality Assurance, Optimum. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jonathan-levine",
+   "name": "Jonathan Levine",
+   "short": "Jonathan Levine",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Sr. Director, Wireless Operations and RAN Design, Spectrum Mobile",
+   "org": "charter",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Sr. Director, Wireless Operations and RAN Design, Spectrum Mobile, Charter. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tiago-rodrigues",
+   "name": "Tiago Rodrigues",
+   "short": "Tiago Rodrigues",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President & CEO",
+   "org": "wba",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President & CEO, WBA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sanjay-ahuja",
+   "name": "Sanjay Ahuja",
+   "short": "Sanjay Ahuja",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director, Software Development & Cloud Technologies",
+   "org": "verizon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Director, Software Development & Cloud Technologies, Verizon. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sushil-rawat",
+   "name": "Sushil Rawat",
+   "short": "Sushil Rawat",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, RAN Strategy",
+   "org": "telus",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director, RAN Strategy, TELUS. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "catherine-lefevre",
+   "name": "Catherine Lefevre",
+   "short": "Catherine Lefevre",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "AVP, Member of Technical Staff (Software Development & Engineering)",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "AVP, Member of Technical Staff (Software Development & Engineering), AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sebnem-ozer",
+   "name": "Sebnem Ozer",
+   "short": "Sebnem Ozer",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Engineer",
+   "org": "charter",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Distinguished Engineer, Charter. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "rick-fulwiler",
+   "name": "Rick Fulwiler",
+   "short": "Rick Fulwiler",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director, Product Management",
+   "org": "netscout",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Director, Product Management, NETSCOUT. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "paul-ruelas",
+   "name": "Paul Ruelas",
+   "short": "Paul Ruelas",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate VP, NaaS Solutions, Product & Marketing",
+   "org": "verizon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Associate VP, NaaS Solutions, Product & Marketing, Verizon. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jin-wang",
+   "name": "Jin Wang",
+   "short": "Jin Wang",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Vice President, AT&T Labs",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Assistant Vice President, AT&T Labs. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jeff-stewart",
+   "name": "Jeff Stewart",
+   "short": "Jeff Stewart",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "AVP, Public Policy, AT&T External and Legislative Affairs",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "AVP, Public Policy, AT&T External and Legislative Affairs. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "greg-pelton",
+   "name": "Greg Pelton",
+   "short": "Greg Pelton",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO",
+   "org": "iridium",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO, Iridium. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "doaa-abouzeid",
+   "name": "Doaa AbouZeid",
+   "short": "Doaa AbouZeid",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Sr. Manager, Product & Engineering",
+   "org": "tmobile",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Sr. Manager, Product & Engineering, T-Mobile. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mark-lipford",
+   "name": "Mark Lipford",
+   "short": "Mark Lipford",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Sr. Standards Engineer, Ecosystem and Standards Engagement",
+   "org": "firstnet",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Sr. Standards Engineer, Ecosystem and Standards Engagement, FirstNet. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "nathan-cobos",
+   "name": "Nathan Cobos",
+   "short": "Nathan Cobos",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Environmental Sustainability",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director, Environmental Sustainability, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "john-powers",
+   "name": "John Powers",
+   "short": "John Powers",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Global Renewable Energy and Carbon Advisory",
+   "org": "schneider",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Global Renewable Energy and Carbon Advisory, Schneider Electric. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "matt-conrod",
+   "name": "Matt Conrod",
+   "short": "Matt Conrod",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Telco Business Development",
+   "org": "amazon-leo",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Telco Business Development, Amazon Leo. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sanket-walavalkar",
+   "name": "Sanket Walavalkar",
+   "short": "Sanket Walavalkar",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP",
+   "org": "comcast",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Comcast. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "kristine-depippo",
+   "name": "Kristine DePippo",
+   "short": "Kristine DePippo",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director, Product Management, Verizon Business",
+   "org": "verizon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Director, Product Management, Verizon Business. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "matt-larsen",
+   "name": "Matt Larsen",
+   "short": "Matt Larsen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO",
+   "org": "vistabeam",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO, Vistabeam. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ivy-kelly",
+   "name": "Ivy Kelly",
+   "short": "Ivy Kelly",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Member of Technical Staff, Research & Development",
+   "org": "cspire",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Distinguished Member of Technical Staff, Research & Development, C Spire. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "derek-peterson",
+   "name": "Derek Peterson",
+   "short": "Derek Peterson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO",
+   "org": "boingo",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO, Boingo. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "javier-barreiro",
+   "name": "Javier Barreiro",
+   "short": "Javier Barreiro",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Radio Systems Engineer",
+   "org": "chevron",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Radio Systems Engineer, Chevron. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "derek-khlopin",
+   "name": "Derek Khlopin",
+   "short": "Derek Khlopin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Deputy Associate Administrator, Spectrum Planning and Policy",
+   "org": "ntia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Deputy Associate Administrator, Spectrum Planning and Policy, NTIA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jerry-jae-yeol-kim",
+   "name": "Jerry Jae Yeol Kim",
+   "short": "Jerry Jae Yeol Kim",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Fellow in Technology Strategy; Vice Executive Chair, 6G Forum",
+   "org": "lg-uplus",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Research Fellow in Technology Strategy; Vice Executive Chair, 6G Forum, LG Uplus. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sarah-skaluba",
+   "name": "Sarah Skaluba",
+   "short": "Sarah Skaluba",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "6G Policy Lead, Office of Policy Analysis and Development",
+   "org": "ntia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "6G Policy Lead, Office of Policy Analysis and Development, NTIA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "prakash-sankara",
+   "name": "Prakash Sankara",
+   "short": "Prakash Sankara",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "SVP Product Development & Partnerships",
+   "org": "jio",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "SVP Product Development & Partnerships, Jio. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "rauf-hafeez",
+   "name": "Rauf Hafeez",
+   "short": "Rauf Hafeez",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director of Research",
+   "org": "charter",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Director of Research, Charter. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "umashankar-velusamy",
+   "name": "Umashankar Velusamy",
+   "short": "Umashankar Velusamy",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director, Technology Development, Network Automation",
+   "org": "verizon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Director, Technology Development, Network Automation, Verizon. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ahmed-abdelaziz",
+   "name": "Ahmed Abdelaziz",
+   "short": "Ahmed Abdelaziz",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP of Automation & Transformation",
+   "org": "rakuten-symphony",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP of Automation & Transformation, Rakuten Symphony. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "akshay-agarwal",
+   "name": "Akshay Agarwal",
+   "short": "Akshay Agarwal",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Tech Partnerships",
+   "org": "google",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director, Tech Partnerships, Google. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "alan-ewing",
+   "name": "Alan Ewing",
+   "short": "Alan Ewing",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Director",
+   "org": "ongo",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Executive Director. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "aleksandar-damnjanovic",
+   "name": "Aleksandar Damnjanovic",
+   "short": "Aleksandar Damnjanovic",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice Chair, Spectrum Working Group",
+   "org": "nga",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Vice Chair, Spectrum Working Group, Next G Alliance. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "bhushan-joshi",
+   "name": "Bhushan Joshi",
+   "short": "Bhushan Joshi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chair, Sustainable Development Working Group",
+   "org": "nga",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chair, Sustainable Development Working Group, Next G Alliance. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "bob-dietrich",
+   "name": "Bob Dietrich",
+   "short": "Bob Dietrich",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Solutions Engineering",
+   "org": "wavelo",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director, Solutions Engineering, Wavelo. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "brad-howell",
+   "name": "Brad Howell",
+   "short": "Brad Howell",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Sales Engineer",
+   "org": "wyebot",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Sales Engineer, Wyebot. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "bradley-kalgovas",
+   "name": "Bradley Kalgovas",
+   "short": "Bradley Kalgovas",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Manager",
+   "org": "detecon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Manager, Detecon. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "brent-wall",
+   "name": "Brent Wall",
+   "short": "Brent Wall",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Technology & Innovation",
+   "org": "tulsa-airport",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director, Technology & Innovation, Tulsa Airport. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "brian-washburn",
+   "name": "Brian Washburn",
+   "short": "Brian Washburn",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Analyst, Telco B2B Solutions",
+   "org": "omdia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Analyst, Telco B2B Solutions, Omdia. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "bruno-tomas",
+   "name": "Bruno Tomas",
+   "short": "Bruno Tomas",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO",
+   "org": "wba",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO, WBA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "camille-osborne",
+   "name": "Camille Osborne",
+   "short": "Camille Osborne",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Ecosystem and Standards Engagement",
+   "org": "firstnet",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director of Ecosystem and Standards Engagement, FirstNet. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "chip-lacorte",
+   "name": "Chip LaCorte",
+   "short": "Chip LaCorte",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of Distribution Strategy and Strategic Partnerships",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of Distribution Strategy and Strategic Partnerships, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "christophe-meunier",
+   "name": "Christophe Meunier",
+   "short": "Christophe Meunier",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Partner",
+   "org": "arthur-d-little",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Partner, Arthur D. Little. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "damian-lewis",
+   "name": "Damian Lewis",
+   "short": "Damian Lewis",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Market Development Director, Advanced Non-Terrestrial Services; Vice-chair, Business Models and Go-To-Market Strategies, 5GAA",
+   "org": "viasat",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Market Development Director, Advanced Non-Terrestrial Services; Vice-chair, Business Models and Go-To-Market Strategies, 5GAA, Viasat. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "daryl-schoolar",
+   "name": "Daryl Schoolar",
+   "short": "Daryl Schoolar",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Analyst & Director",
+   "org": "recon-analytics",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Analyst & Director, Recon Analytics. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "david-hand",
+   "name": "David Hand",
+   "short": "David Hand",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Operations",
+   "org": "granite-comms",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director of Operations, Granite Communications. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "david-waite",
+   "name": "David Waite",
+   "short": "David Waite",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Principal",
+   "org": "fifty-elm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Principal, Fifty Elm. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "david-zumwalt",
+   "name": "David Zumwalt",
+   "short": "David Zumwalt",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President & CEO",
+   "org": "wispa",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President & CEO, WISPA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "derek-ferro",
+   "name": "Derek Ferro",
+   "short": "Derek Ferro",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Engineering",
+   "org": "sercomm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director of Engineering, Sercomm. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "derek-underwood",
+   "name": "Derek Underwood",
+   "short": "Derek Underwood",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Regional VP Americas",
+   "org": "cambium",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Regional VP Americas, Cambium Networks. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "diego-turi-oliviera",
+   "name": "Diego Turi Oliviera",
+   "short": "Diego Turi Oliviera",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "IT Manager",
+   "org": "itau",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "IT Manager, Itaú Unibanco. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "diwakar-kasibhotla",
+   "name": "Diwakar Kasibhotla",
+   "short": "Diwakar Kasibhotla",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO",
+   "org": "eleven-software",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO, Eleven Software. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jennifer-yates",
+   "name": "Jennifer Yates",
+   "short": "Jennifer Yates",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Assistant Vice President, Inventive Science, Network and Service Automation",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Assistant Vice President, Inventive Science, Network and Service Automation, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "necati-canpolat",
+   "name": "Necati Canpolat",
+   "short": "Necati Canpolat",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Sr. Staff Wireless Systems Architect",
+   "org": "intel",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Sr. Staff Wireless Systems Architect, Intel. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "dwayne-douglas",
+   "name": "Dwayne Douglas",
+   "short": "Dwayne Douglas",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO",
+   "org": "quilt",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO, QUILT. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "emma-buckland",
+   "name": "Emma Buckland",
+   "short": "Emma Buckland",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Director",
+   "org": "stl-partners",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Research Director, STL Partners. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "eric-mclaughlin",
+   "name": "Eric McLaughlin",
+   "short": "Eric McLaughlin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP & GM Wireless Solutions",
+   "org": "intel",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP & GM Wireless Solutions, Intel. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "erik-varney",
+   "name": "Erik Varney",
+   "short": "Erik Varney",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Managing Director, Telematics and Industrial IoT, Verizon Business",
+   "org": "verizon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Managing Director, Telematics and Industrial IoT, Verizon Business. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "gabriel-brown",
+   "name": "Gabriel Brown",
+   "short": "Gabriel Brown",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Principal Analyst, GTM Telecom Insights and Advisory",
+   "org": "omdia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Principal Analyst, GTM Telecom Insights and Advisory, Omdia. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "gagandeep-bhatti",
+   "name": "Gagandeep Bhatti",
+   "short": "Gagandeep Bhatti",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice-Chair, Sustainable Development Working Group",
+   "org": "nga",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Vice-Chair, Sustainable Development Working Group, Next G Alliance. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "george-hechtman",
+   "name": "George Hechtman",
+   "short": "George Hechtman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Principal",
+   "org": "hechtman-ventures",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Principal, Hechtman Ventures. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "george-varghese",
+   "name": "George Varghese",
+   "short": "George Varghese",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Energy & Sustainability Procurement",
+   "org": "tmobile",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Energy & Sustainability Procurement, T-Mobile. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "gilberto-brizzi",
+   "name": "Gilberto Brizzi",
+   "short": "Gilberto Brizzi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Technology Officer, MNO",
+   "org": "jma",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Technology Officer, MNO, JMA Wireless. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "greg-white",
+   "name": "Greg White",
+   "short": "Greg White",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Technologist",
+   "org": "cablelabs",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Distinguished Technologist, CableLabs. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "hannah-greenberg",
+   "name": "Hannah Greenberg",
+   "short": "Hannah Greenberg",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO",
+   "org": "eleven-software",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO, Eleven Software. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "harmeet-singh",
+   "name": "Harmeet Singh",
+   "short": "Harmeet Singh",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "EVP, Global Sales",
+   "org": "tejas",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "EVP, Global Sales, Tejas Networks. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "irvind-ghai",
+   "name": "Irvind Ghai",
+   "short": "Irvind Ghai",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President",
+   "org": "silicon-labs",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Vice President, Silicon Labs. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "isaac-bess",
+   "name": "Isaac Bess",
+   "short": "Isaac Bess",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Managing Director, Product Partnerships",
+   "org": "tiktok",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Managing Director, Product Partnerships, TikTok. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jack-raynor",
+   "name": "Jack Raynor",
+   "short": "Jack Raynor",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "President",
+   "org": "netexperience",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "President, NetExperience. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jacob-thomas",
+   "name": "Jacob Thomas",
+   "short": "Jacob Thomas",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO & Head of Solution Architecture",
+   "org": "amdocs",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO & Head of Solution Architecture, Amdocs. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jan-forslow",
+   "name": "Jan Forslow",
+   "short": "Jan Forslow",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Sr. Solutions Architect for Network Solutions",
+   "org": "itron",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Sr. Solutions Architect for Network Solutions, Itron. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jana-westover",
+   "name": "Jana Westover",
+   "short": "Jana Westover",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "TA, AI Augmentations & Initiatives / Research Scientist",
+   "org": "cspire",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "TA, AI Augmentations & Initiatives / Research Scientist, C Spire. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jason-eyre",
+   "name": "Jason Eyre",
+   "short": "Jason Eyre",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Technology Department Coordinator",
+   "org": "murray-csd",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Technology Department Coordinator, Murray City School District. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jeff-parker",
+   "name": "Jeff Parker",
+   "short": "Jeff Parker",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP Property Technology",
+   "org": "sage-hospitality",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP Property Technology, Sage Hospitality. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jeff-platon",
+   "name": "Jeff Platon",
+   "short": "Jeff Platon",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP of Marketing",
+   "org": "wifi-alliance",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP of Marketing, Wi-Fi Alliance. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jeffrey-spiess",
+   "name": "Jeffrey Spiess",
+   "short": "Jeffrey Spiess",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Product Director",
+   "org": "motive",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Product Director, Motive. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jim-hodges",
+   "name": "Jim Hodges",
+   "short": "Jim Hodges",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Director, Cloud and Security, GTM Telecom Insights and Advisory",
+   "org": "omdia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Research Director, Cloud and Security, GTM Telecom Insights and Advisory, Omdia. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "joel-lindholm",
+   "name": "Joel Lindholm",
+   "short": "Joel Lindholm",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO",
+   "org": "infinig",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO, InfiniG. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "joost-rietman",
+   "name": "Joost Rietman",
+   "short": "Joost Rietman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Key Account Manager",
+   "org": "deutsche-telekom",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Key Account Manager, DT. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "jr-wilson",
+   "name": "JR Wilson",
+   "short": "JR Wilson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief of Networks & Spectrum",
+   "org": "ast",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief of Networks & Spectrum, AST SpaceMobile. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "kaniz-mahdi",
+   "name": "Kaniz Mahdi",
+   "short": "Kaniz Mahdi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Technology, AWS Industries",
+   "org": "aws",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director of Technology, AWS Industries. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "karim-taga",
+   "name": "Karim Taga",
+   "short": "Karim Taga",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Managing Partner",
+   "org": "arthur-d-little",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Managing Partner, Arthur D. Little. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "katherine-nagel",
+   "name": "Katherine Nagel",
+   "short": "Katherine Nagel",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Manager, AI Programs and Solutions",
+   "org": "wavelo",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Manager, AI Programs and Solutions, Wavelo. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "keith-shaw",
+   "name": "Keith Shaw",
+   "short": "Keith Shaw",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Engagement Officer",
+   "org": "lpda",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Engagement Officer, LPDA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ken-mathias",
+   "name": "Ken Mathias",
+   "short": "Ken Mathias",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Strategic Development",
+   "org": "charter",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Strategic Development, Charter. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "kerry-baker",
+   "name": "Kerry Baker",
+   "short": "Kerry Baker",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Lead Industry Analyst, North America",
+   "org": "ookla",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Lead Industry Analyst, North America, Ookla. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "kishore-raja",
+   "name": "Kishore Raja",
+   "short": "Kishore Raja",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Cloud and AI Officer",
+   "org": "infinig",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Cloud and AI Officer, InfiniG. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "kristian-toivo",
+   "name": "Kristian Toivo",
+   "short": "Kristian Toivo",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Executive Director",
+   "org": "tip",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Executive Director, TIP. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "kristin-paulin",
+   "name": "Kristin Paulin",
+   "short": "Kristin Paulin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Principal Analyst, North America Markets",
+   "org": "omdia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Principal Analyst, North America Markets, Omdia. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "kyung-mun",
+   "name": "Kyung Mun",
+   "short": "Kyung Mun",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Principal Analyst, Mobile, Wireless, Cable",
+   "org": "mobile-experts",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Principal Analyst, Mobile, Wireless, Cable, Mobile Experts. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "marc-charney",
+   "name": "Marc Charney",
+   "short": "Marc Charney",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Principal Consulting Engineer",
+   "org": "hpe",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Principal Consulting Engineer, HPE. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "marc-einstein",
+   "name": "Marc Einstein",
+   "short": "Marc Einstein",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Director",
+   "org": "counterpoint",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Research Director, Counterpoint. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mark-carter",
+   "name": "Mark Carter",
+   "short": "Mark Carter",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chief Operating Officer",
+   "org": "uplink",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chief Operating Officer, Uplink. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mark-grayson",
+   "name": "Mark Grayson",
+   "short": "Mark Grayson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Cisco Fellow",
+   "org": "cisco",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Cisco Fellow. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "matt-mcpherson",
+   "name": "Matt McPherson",
+   "short": "Matt McPherson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Wireless CTO",
+   "org": "cisco",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Wireless CTO, Cisco. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "meredith-williams",
+   "name": "Meredith Williams",
+   "short": "Meredith Williams",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "AVP, Executive Branch",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "AVP, Executive Branch, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "metin-taskin",
+   "name": "Metin Taskin",
+   "short": "Metin Taskin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Founder & Chief Executive Officer",
+   "org": "airties",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founder & Chief Executive Officer, Airties. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "micah-sachs",
+   "name": "Micah Sachs",
+   "short": "Micah Sachs",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP of Broadband Products",
+   "org": "opensignal",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP of Broadband Products, Opensignal. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mike-calabrese",
+   "name": "Mike Calabrese",
+   "short": "Mike Calabrese",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Global Sales and Business Development",
+   "org": "tarana",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Global Sales and Business Development, Tarana. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mike-dano",
+   "name": "Mike Dano",
+   "short": "Mike Dano",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Lead Industry Analyst",
+   "org": "ookla",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Lead Industry Analyst, Ookla. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mike-merluzzi",
+   "name": "Mike Merluzzi",
+   "short": "Mike Merluzzi",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "GM, Radio Access Network Division, Network & Edge",
+   "org": "intel",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "GM, Radio Access Network Division, Network & Edge, Intel. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mitch-tseng",
+   "name": "Mitch Tseng",
+   "short": "Mitch Tseng",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Research Consultant; Vice-Chair, Market & Applications Working Group",
+   "org": "itri",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Research Consultant; Vice-Chair, Market & Applications Working Group, ITRI. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mittal-parekh",
+   "name": "Mittal Parekh",
+   "short": "Mittal Parekh",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Director Product & Solutions Marketing",
+   "org": "hpe",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Director Product & Solutions Marketing, HPE. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "mohit-sharma",
+   "name": "Mohit Sharma",
+   "short": "Mohit Sharma",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Customer Business Executive",
+   "org": "amdocs",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Customer Business Executive, Amdocs. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "nick-venezia",
+   "name": "Nick Venezia",
+   "short": "Nick Venezia",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "End User Council Representative, CAMARA Project Technical Steering Committee",
+   "org": "linux-foundation",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "End User Council Representative, CAMARA Project Technical Steering Committee, Linux Foundation. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "nivi-thadasina",
+   "name": "Nivi Thadasina",
+   "short": "Nivi Thadasina",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Head of Engineering, Samsung Networks",
+   "org": "samsung",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Head of Engineering, Samsung Networks. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "norman-fekrat",
+   "name": "Norman Fekrat",
+   "short": "Norman Fekrat",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chairman, OnGo Alliance; CEO & Managing Partner, Imagine Wireless",
+   "org": "ongo",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chairman, OnGo Alliance; CEO & Managing Partner, Imagine Wireless. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "olli-andersson",
+   "name": "Olli Andersson",
+   "short": "Olli Andersson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO",
+   "org": "tip",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO, TIP. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "paul-lai",
+   "name": "Paul Lai",
+   "short": "Paul Lai",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Founder & CEO",
+   "org": "asiarf",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Founder & CEO, AsiaRF. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "pedro-mouta",
+   "name": "Pedro Mouta",
+   "short": "Pedro Mouta",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Program Manager",
+   "org": "wba",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Program Manager, WBA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "phil-harvey",
+   "name": "Phil Harvey",
+   "short": "Phil Harvey",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Editor-in-Chief",
+   "org": "light-reading",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Editor-in-Chief, Light Reading. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "philip-powell",
+   "name": "Philip Powell",
+   "short": "Philip Powell",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Regional Director BEAD Funding",
+   "org": "ntia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Regional Director BEAD Funding, NTIA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "poppy-coutinho",
+   "name": "Poppy Coutinho",
+   "short": "Poppy Coutinho",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Technology Leader, Product and Engineering",
+   "org": "tmobile",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Technology Leader, Product and Engineering, T-Mobile. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "rami-amit",
+   "name": "Rami Amit",
+   "short": "Rami Amit",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CTO and Head of Product",
+   "org": "radcom",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CTO and Head of Product, RADCOM. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "rie-morgan",
+   "name": "Rie Morgan",
+   "short": "Rie Morgan",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO",
+   "org": "nc-expert",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO, NC Expert. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "robert-stacey",
+   "name": "Robert Stacey",
+   "short": "Robert Stacey",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "IEEE 802.11 Working Group Chair",
+   "org": "ieee",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "IEEE 802.11 Working Group Chair. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "rodney-linville",
+   "name": "Rodney Linville",
+   "short": "Rodney Linville",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Head of IT Infrastructure",
+   "org": "nobu-hotels",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Head of IT Infrastructure, Nobu Hotels. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ronan-de-renesse",
+   "name": "Ronan de Renesse",
+   "short": "Ronan de Renesse",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Research, Telecoms",
+   "org": "omdia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Research, Telecoms, Omdia. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ruth-brown",
+   "name": "Ruth Brown",
+   "short": "Ruth Brown",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Principal Analyst, GTM Telecom Insights and Advisory",
+   "org": "omdia",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Principal Analyst, GTM Telecom Insights and Advisory, Omdia. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "ryan-mahoney",
+   "name": "Ryan Mahoney",
+   "short": "Ryan Mahoney",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Product Director, AI & Service Providers",
+   "org": "gigamon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Product Director, AI & Service Providers, Gigamon. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "samuel-g-ingalls",
+   "name": "Samuel G. Ingalls",
+   "short": "Samuel G. Ingalls",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Principal",
+   "org": "barich",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Principal, Barich. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sankalp-kohli",
+   "name": "Sankalp Kohli",
+   "short": "Sankalp Kohli",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Director, Product Management",
+   "org": "verizon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Associate Director, Product Management, Verizon. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sarper-gokturk",
+   "name": "Sarper Gokturk",
+   "short": "Sarper Gokturk",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP of Innovation",
+   "org": "airties",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP of Innovation, Airties. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "satish-sadagopan",
+   "name": "Satish Sadagopan",
+   "short": "Satish Sadagopan",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Engineer, CTO, Global Telco Center of Excellence",
+   "org": "ibm",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Distinguished Engineer, CTO, Global Telco Center of Excellence, IBM. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "scott-poretsky",
+   "name": "Scott Poretsky",
+   "short": "Scott Poretsky",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Co-Chair, TOPS Study Group on Enhanced Zero Trust and 5G",
+   "org": "atis",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Co-Chair, TOPS Study Group on Enhanced Zero Trust and 5G, ATIS. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "shawn-bausman",
+   "name": "Shawn Bausman",
+   "short": "Shawn Bausman",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Associate Director, Inbuilding Solutions",
+   "org": "att",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Associate Director, Inbuilding Solutions, AT&T. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "sri-gundavelli",
+   "name": "Sri Gundavelli",
+   "short": "Sri Gundavelli",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Principal Engineer",
+   "org": "cisco",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Principal Engineer, Cisco. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "steve-andrews",
+   "name": "Steve Andrews",
+   "short": "Steve Andrews",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Chairman, G Network Communications; WBA Board Adviser",
+   "org": "wba",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Chairman, G Network Communications; WBA Board Adviser. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "steve-namaseevayum",
+   "name": "Steve Namaseevayum",
+   "short": "Steve Namaseevayum",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Vice President, Memberships & Industry Engagement",
+   "org": "wba",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Vice President, Memberships & Industry Engagement, WBA. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "taylor-swanson",
+   "name": "Taylor Swanson",
+   "short": "Taylor Swanson",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Advisor",
+   "org": "ironwifi",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Advisor, IronWifi. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tim-fell",
+   "name": "Tim Fell",
+   "short": "Tim Fell",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "VP, Wireline Technology & Services",
+   "org": "telus",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "VP, Wireline Technology & Services, TELUS. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "tracy-holmquist",
+   "name": "Tracy Holmquist",
+   "short": "Tracy Holmquist",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director of Sales Engineering, Campus & Branch",
+   "org": "hpe",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director of Sales Engineering, Campus & Branch, HPE. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "troy-martin",
+   "name": "Troy Martin",
+   "short": "Troy Martin",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director Product Marketing",
+   "org": "ookla",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director Product Marketing, Ookla. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "vaseem-kazia",
+   "name": "Vaseem Kazia",
+   "short": "Vaseem Kazia",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Senior Product Manager",
+   "org": "silicon-labs",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Senior Product Manager, Silicon Labs. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "vijay-venkateswaran",
+   "name": "Vijay Venkateswaran",
+   "short": "Vijay Venkateswaran",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Strategy and Business Development Executive",
+   "org": "c3spectra",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Strategy and Business Development Executive, C3Spectra. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "vijay-yerra",
+   "name": "Vijay Yerra",
+   "short": "Vijay Yerra",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Director, Network Operations",
+   "org": "cspire",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Director, Network Operations, C Spire. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "vincent-depalo",
+   "name": "Vincent DePalo",
+   "short": "Vincent DePalo",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "CEO",
+   "org": "telecom-company",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "CEO, The Telecom Company. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "walt-magnussen",
+   "name": "Walt Magnussen",
+   "short": "Walt Magnussen",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Lead Research and Business Development, Center for Applied Communications and Networks, Texas A&M University System",
+   "org": "tamu",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Lead Research and Business Development, Center for Applied Communications and Networks, Texas A&M University System. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "melina-diamantopoulou",
+   "name": "Melina Diamantopoulou",
+   "short": "Melina Diamantopoulou",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Conference Director",
+   "org": "informa-connect",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Conference Director, Informa Connect. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
+   ]
+  },
+  {
+   "id": "raghu-valisammagari",
+   "name": "Raghu Valisammagari",
+   "short": "Raghu Valisammagari",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "role": "Distinguished Engineer, NaaS/SASE/MEC Architect",
+   "org": "verizon",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "description": "Distinguished Engineer, NaaS/SASE/MEC Architect, Verizon. Speaker at Network X Americas 2026.",
+   "sources": [
+    "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
   }
  ],
@@ -33781,6 +37911,2533 @@
    "type": "Event participation",
    "label": "Co-organizer contact",
    "source": "https://6gsummit2026.com/program/"
+  },
+  {
+   "from": "arielle-roth",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "yigal-elbaz",
+   "to": "att",
+   "type": "Role",
+   "label": "SVP, Technology & Network Services, Network CTO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "yigal-elbaz",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "elad-nafshi",
+   "to": "comcast",
+   "type": "Role",
+   "label": "EVP & Chief Network Officer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "elad-nafshi",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "tricia-paoletta",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "shawn-hakl",
+   "to": "att",
+   "type": "Role",
+   "label": "SVP, Business Product",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "shawn-hakl",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "joe-constantine",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "Chief Strategy and Technology Officer, Ericsson Americas",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "joe-constantine",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "nate-edwards",
+   "to": "optimum",
+   "type": "Role",
+   "label": "Chief Operating Officer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "nate-edwards",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mitch-olson",
+   "to": "att",
+   "type": "Role",
+   "label": "VP, Corporate Strategy",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mitch-olson",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rob-soni",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "takehiro-nakamura",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "josh-arensberg",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Global MD, Sports, Media and Technology, Verizon Business Group",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "josh-arensberg",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "manish-mangal",
+   "to": "tech-mahindra",
+   "type": "Role",
+   "label": "President and Head of the Americas Communications Business",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "manish-mangal",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bernard-bureau",
+   "to": "telus",
+   "type": "Role",
+   "label": "VP, Wireless Technology & Services",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bernard-bureau",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "egil-gronstad",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "akhil-gokul",
+   "to": "ericsson",
+   "type": "Role",
+   "label": "VP, Head of Technology, Ericsson Americas",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "akhil-gokul",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "josh-goodell",
+   "to": "att",
+   "type": "Role",
+   "label": "VP, Broadband and Converged Product Development",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "josh-goodell",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "gavin-mitchell",
+   "to": "optimum",
+   "type": "Role",
+   "label": "VP, Product Quality Assurance",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "gavin-mitchell",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jonathan-levine",
+   "to": "charter",
+   "type": "Role",
+   "label": "Sr. Director, Wireless Operations and RAN Design, Spectrum Mobile",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jonathan-levine",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "tiago-rodrigues",
+   "to": "wba",
+   "type": "Role",
+   "label": "President & CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "tiago-rodrigues",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sanjay-ahuja",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Senior Director, Software Development & Cloud Technologies",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sanjay-ahuja",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sushil-rawat",
+   "to": "telus",
+   "type": "Role",
+   "label": "Director, RAN Strategy",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sushil-rawat",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "catherine-lefevre",
+   "to": "att",
+   "type": "Role",
+   "label": "AVP, Member of Technical Staff (Software Development & Engineering)",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "catherine-lefevre",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "griffith",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sebnem-ozer",
+   "to": "charter",
+   "type": "Role",
+   "label": "Distinguished Engineer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sebnem-ozer",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rick-fulwiler",
+   "to": "netscout",
+   "type": "Role",
+   "label": "Senior Director, Product Management",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rick-fulwiler",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "paul-ruelas",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Associate VP, NaaS Solutions, Product & Marketing",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "paul-ruelas",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jin-wang",
+   "to": "att",
+   "type": "Role",
+   "label": "Assistant Vice President, AT&T Labs",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jin-wang",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jeff-stewart",
+   "to": "att",
+   "type": "Role",
+   "label": "AVP, Public Policy, AT&T External and Legislative Affairs",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jeff-stewart",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "greg-pelton",
+   "to": "iridium",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "greg-pelton",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "doaa-abouzeid",
+   "to": "tmobile",
+   "type": "Role",
+   "label": "Sr. Manager, Product & Engineering",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "doaa-abouzeid",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mark-lipford",
+   "to": "firstnet",
+   "type": "Role",
+   "label": "Sr. Standards Engineer, Ecosystem and Standards Engagement",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mark-lipford",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "nathan-cobos",
+   "to": "att",
+   "type": "Role",
+   "label": "Director, Environmental Sustainability",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "nathan-cobos",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "john-powers",
+   "to": "schneider",
+   "type": "Role",
+   "label": "VP, Global Renewable Energy and Carbon Advisory",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "john-powers",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "matt-conrod",
+   "to": "amazon-leo",
+   "type": "Role",
+   "label": "Telco Business Development",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "matt-conrod",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sanket-walavalkar",
+   "to": "comcast",
+   "type": "Role",
+   "label": "VP",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sanket-walavalkar",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kristine-depippo",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Senior Director, Product Management, Verizon Business",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kristine-depippo",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "matt-larsen",
+   "to": "vistabeam",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "matt-larsen",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ivy-kelly",
+   "to": "cspire",
+   "type": "Role",
+   "label": "Distinguished Member of Technical Staff, Research & Development",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ivy-kelly",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "derek-peterson",
+   "to": "boingo",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "derek-peterson",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "javier-barreiro",
+   "to": "chevron",
+   "type": "Role",
+   "label": "Radio Systems Engineer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "javier-barreiro",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "derek-khlopin",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Deputy Associate Administrator, Spectrum Planning and Policy",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "derek-khlopin",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jerry-jae-yeol-kim",
+   "to": "lg-uplus",
+   "type": "Role",
+   "label": "Research Fellow in Technology Strategy; Vice Executive Chair, 6G Forum",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jerry-jae-yeol-kim",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sarah-skaluba",
+   "to": "ntia",
+   "type": "Role",
+   "label": "6G Policy Lead, Office of Policy Analysis and Development",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sarah-skaluba",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "prakash-sankara",
+   "to": "jio",
+   "type": "Role",
+   "label": "SVP Product Development & Partnerships",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "prakash-sankara",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rauf-hafeez",
+   "to": "charter",
+   "type": "Role",
+   "label": "Senior Director of Research",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rauf-hafeez",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "umashankar-velusamy",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Senior Director, Technology Development, Network Automation",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "umashankar-velusamy",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ahmed-abdelaziz",
+   "to": "rakuten-symphony",
+   "type": "Role",
+   "label": "VP of Automation & Transformation",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ahmed-abdelaziz",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "akshay-agarwal",
+   "to": "google",
+   "type": "Role",
+   "label": "Director, Tech Partnerships",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "akshay-agarwal",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "alan-ewing",
+   "to": "ongo",
+   "type": "Role",
+   "label": "Executive Director",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "alan-ewing",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "aleksandar-damnjanovic",
+   "to": "nga",
+   "type": "Role",
+   "label": "Vice Chair, Spectrum Working Group",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "aleksandar-damnjanovic",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bhushan-joshi",
+   "to": "nga",
+   "type": "Role",
+   "label": "Chair, Sustainable Development Working Group",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bhushan-joshi",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bob-dietrich",
+   "to": "wavelo",
+   "type": "Role",
+   "label": "Director, Solutions Engineering",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bob-dietrich",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "brad-howell",
+   "to": "wyebot",
+   "type": "Role",
+   "label": "Senior Sales Engineer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "brad-howell",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bradley-kalgovas",
+   "to": "detecon",
+   "type": "Role",
+   "label": "Senior Manager",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bradley-kalgovas",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "brent-wall",
+   "to": "tulsa-airport",
+   "type": "Role",
+   "label": "Director, Technology & Innovation",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "brent-wall",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "brian-washburn",
+   "to": "omdia",
+   "type": "Role",
+   "label": "Chief Analyst, Telco B2B Solutions",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "brian-washburn",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "brian-daly",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bruno-tomas",
+   "to": "wba",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "bruno-tomas",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "camille-osborne",
+   "to": "firstnet",
+   "type": "Role",
+   "label": "Director of Ecosystem and Standards Engagement",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "camille-osborne",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "chip-lacorte",
+   "to": "att",
+   "type": "Role",
+   "label": "Head of Distribution Strategy and Strategic Partnerships",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "chip-lacorte",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "christophe-meunier",
+   "to": "arthur-d-little",
+   "type": "Role",
+   "label": "Partner",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "christophe-meunier",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "damian-lewis",
+   "to": "viasat",
+   "type": "Role",
+   "label": "Market Development Director, Advanced Non-Terrestrial Services; Vice-chair, Business Models and Go-To-Market Strategies, 5GAA",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "damian-lewis",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "daryl-schoolar",
+   "to": "recon-analytics",
+   "type": "Role",
+   "label": "Analyst & Director",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "daryl-schoolar",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "david-hand",
+   "to": "granite-comms",
+   "type": "Role",
+   "label": "Director of Operations",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "david-hand",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "david-waite",
+   "to": "fifty-elm",
+   "type": "Role",
+   "label": "Principal",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "david-waite",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "david-zumwalt",
+   "to": "wispa",
+   "type": "Role",
+   "label": "President & CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "david-zumwalt",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "derek-ferro",
+   "to": "sercomm",
+   "type": "Role",
+   "label": "Director of Engineering",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "derek-ferro",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "derek-underwood",
+   "to": "cambium",
+   "type": "Role",
+   "label": "Regional VP Americas",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "derek-underwood",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "diego-turi-oliviera",
+   "to": "itau",
+   "type": "Role",
+   "label": "IT Manager",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "diego-turi-oliviera",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "diwakar-kasibhotla",
+   "to": "eleven-software",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "diwakar-kasibhotla",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "douglas-castor",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jennifer-yates",
+   "to": "att",
+   "type": "Role",
+   "label": "Assistant Vice President, Inventive Science, Network and Service Automation",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jennifer-yates",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "necati-canpolat",
+   "to": "intel",
+   "type": "Role",
+   "label": "Sr. Staff Wireless Systems Architect",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "necati-canpolat",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "dwayne-douglas",
+   "to": "quilt",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "dwayne-douglas",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "emma-buckland",
+   "to": "stl-partners",
+   "type": "Role",
+   "label": "Research Director",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "emma-buckland",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "eric-mclaughlin",
+   "to": "intel",
+   "type": "Role",
+   "label": "VP & GM Wireless Solutions",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "eric-mclaughlin",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "erik-varney",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Managing Director, Telematics and Industrial IoT, Verizon Business",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "erik-varney",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "gabriel-brown",
+   "to": "omdia",
+   "type": "Role",
+   "label": "Senior Principal Analyst, GTM Telecom Insights and Advisory",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "gabriel-brown",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "gagandeep-bhatti",
+   "to": "nga",
+   "type": "Role",
+   "label": "Vice-Chair, Sustainable Development Working Group",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "gagandeep-bhatti",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "george-hechtman",
+   "to": "hechtman-ventures",
+   "type": "Role",
+   "label": "Principal",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "george-hechtman",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "george-varghese",
+   "to": "tmobile",
+   "type": "Role",
+   "label": "Energy & Sustainability Procurement",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "george-varghese",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "gilberto-brizzi",
+   "to": "jma",
+   "type": "Role",
+   "label": "Chief Technology Officer, MNO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "gilberto-brizzi",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "greg-white",
+   "to": "cablelabs",
+   "type": "Role",
+   "label": "Distinguished Technologist",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "greg-white",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "hannah-greenberg",
+   "to": "eleven-software",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "hannah-greenberg",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "harmeet-singh",
+   "to": "tejas",
+   "type": "Role",
+   "label": "EVP, Global Sales",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "harmeet-singh",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "havish-koorapaty",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "irvind-ghai",
+   "to": "silicon-labs",
+   "type": "Role",
+   "label": "Vice President",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "irvind-ghai",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "isaac-bess",
+   "to": "tiktok",
+   "type": "Role",
+   "label": "Managing Director, Product Partnerships",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "isaac-bess",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jack-raynor",
+   "to": "netexperience",
+   "type": "Role",
+   "label": "President",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jack-raynor",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jacob-thomas",
+   "to": "amdocs",
+   "type": "Role",
+   "label": "CTO & Head of Solution Architecture",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jacob-thomas",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jan-forslow",
+   "to": "itron",
+   "type": "Role",
+   "label": "Sr. Solutions Architect for Network Solutions",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jan-forslow",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jana-westover",
+   "to": "cspire",
+   "type": "Role",
+   "label": "TA, AI Augmentations & Initiatives / Research Scientist",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jana-westover",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jason-eyre",
+   "to": "murray-csd",
+   "type": "Role",
+   "label": "Technology Department Coordinator",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jason-eyre",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jeff-parker",
+   "to": "sage-hospitality",
+   "type": "Role",
+   "label": "VP Property Technology",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jeff-parker",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jeff-platon",
+   "to": "wifi-alliance",
+   "type": "Role",
+   "label": "VP of Marketing",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jeff-platon",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jeffrey-spiess",
+   "to": "motive",
+   "type": "Role",
+   "label": "Product Director",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jeffrey-spiess",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jim-hodges",
+   "to": "omdia",
+   "type": "Role",
+   "label": "Research Director, Cloud and Security, GTM Telecom Insights and Advisory",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jim-hodges",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "joe-madden",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "joel-lindholm",
+   "to": "infinig",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "joel-lindholm",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "joost-rietman",
+   "to": "deutsche-telekom",
+   "type": "Role",
+   "label": "Key Account Manager",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "joost-rietman",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jr-wilson",
+   "to": "ast",
+   "type": "Role",
+   "label": "Chief of Networks & Spectrum",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "jr-wilson",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kaniz-mahdi",
+   "to": "aws",
+   "type": "Role",
+   "label": "Director of Technology, AWS Industries",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kaniz-mahdi",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "karim-taga",
+   "to": "arthur-d-little",
+   "type": "Role",
+   "label": "Managing Partner",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "karim-taga",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "katherine-nagel",
+   "to": "wavelo",
+   "type": "Role",
+   "label": "Manager, AI Programs and Solutions",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "katherine-nagel",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "keith-shaw",
+   "to": "lpda",
+   "type": "Role",
+   "label": "Chief Engagement Officer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "keith-shaw",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ken-mathias",
+   "to": "charter",
+   "type": "Role",
+   "label": "VP, Strategic Development",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ken-mathias",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kerry-baker",
+   "to": "ookla",
+   "type": "Role",
+   "label": "Lead Industry Analyst, North America",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kerry-baker",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kishore-raja",
+   "to": "infinig",
+   "type": "Role",
+   "label": "Chief Cloud and AI Officer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kishore-raja",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kristian-toivo",
+   "to": "tip",
+   "type": "Role",
+   "label": "Executive Director",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kristian-toivo",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kristin-paulin",
+   "to": "omdia",
+   "type": "Role",
+   "label": "Principal Analyst, North America Markets",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kristin-paulin",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kyung-mun",
+   "to": "mobile-experts",
+   "type": "Role",
+   "label": "Principal Analyst, Mobile, Wireless, Cable",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "kyung-mun",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "lamont-copeland",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "marc-charney",
+   "to": "hpe",
+   "type": "Role",
+   "label": "Senior Principal Consulting Engineer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "marc-charney",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "marc-einstein",
+   "to": "counterpoint",
+   "type": "Role",
+   "label": "Research Director",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "marc-einstein",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mari-silbey",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mark-carter",
+   "to": "uplink",
+   "type": "Role",
+   "label": "Chief Operating Officer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mark-carter",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mark-cudak",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mark-grayson",
+   "to": "cisco",
+   "type": "Role",
+   "label": "Cisco Fellow",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mark-grayson",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "matt-mcpherson",
+   "to": "cisco",
+   "type": "Role",
+   "label": "Wireless CTO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "matt-mcpherson",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "meredith-williams",
+   "to": "att",
+   "type": "Role",
+   "label": "AVP, Executive Branch",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "meredith-williams",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "metin-taskin",
+   "to": "airties",
+   "type": "Role",
+   "label": "Founder & Chief Executive Officer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "metin-taskin",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "micah-sachs",
+   "to": "opensignal",
+   "type": "Role",
+   "label": "VP of Broadband Products",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "micah-sachs",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mike-calabrese",
+   "to": "tarana",
+   "type": "Role",
+   "label": "VP, Global Sales and Business Development",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mike-calabrese",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mike-dano",
+   "to": "ookla",
+   "type": "Role",
+   "label": "Lead Industry Analyst",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mike-dano",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mike-merluzzi",
+   "to": "intel",
+   "type": "Role",
+   "label": "GM, Radio Access Network Division, Network & Edge",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mike-merluzzi",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mitch-tseng",
+   "to": "itri",
+   "type": "Role",
+   "label": "Research Consultant; Vice-Chair, Market & Applications Working Group",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mitch-tseng",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mittal-parekh",
+   "to": "hpe",
+   "type": "Role",
+   "label": "Senior Director Product & Solutions Marketing",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mittal-parekh",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mohit-sharma",
+   "to": "amdocs",
+   "type": "Role",
+   "label": "VP, Customer Business Executive",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "mohit-sharma",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "monisha-ghosh",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "nick-venezia",
+   "to": "linux-foundation",
+   "type": "Role",
+   "label": "End User Council Representative, CAMARA Project Technical Steering Committee",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "nick-venezia",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "nivi-thadasina",
+   "to": "samsung",
+   "type": "Role",
+   "label": "VP, Head of Engineering, Samsung Networks",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "nivi-thadasina",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "norman-fekrat",
+   "to": "ongo",
+   "type": "Role",
+   "label": "Chairman, OnGo Alliance; CEO & Managing Partner, Imagine Wireless",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "norman-fekrat",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "olli-andersson",
+   "to": "tip",
+   "type": "Role",
+   "label": "CTO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "olli-andersson",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "paul-lai",
+   "to": "asiarf",
+   "type": "Role",
+   "label": "Founder & CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "paul-lai",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "pedro-mouta",
+   "to": "wba",
+   "type": "Role",
+   "label": "Senior Program Manager",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "pedro-mouta",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "phil-harvey",
+   "to": "light-reading",
+   "type": "Role",
+   "label": "Editor-in-Chief",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "phil-harvey",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "philip-powell",
+   "to": "ntia",
+   "type": "Role",
+   "label": "Regional Director BEAD Funding",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "philip-powell",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "poppy-coutinho",
+   "to": "tmobile",
+   "type": "Role",
+   "label": "Senior Technology Leader, Product and Engineering",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "poppy-coutinho",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rami-amit",
+   "to": "radcom",
+   "type": "Role",
+   "label": "CTO and Head of Product",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rami-amit",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rie-morgan",
+   "to": "nc-expert",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rie-morgan",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "robert-stacey",
+   "to": "ieee",
+   "type": "Role",
+   "label": "IEEE 802.11 Working Group Chair",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "robert-stacey",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rodney-linville",
+   "to": "nobu-hotels",
+   "type": "Role",
+   "label": "Head of IT Infrastructure",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "rodney-linville",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ronan-de-renesse",
+   "to": "omdia",
+   "type": "Role",
+   "label": "VP, Research, Telecoms",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ronan-de-renesse",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ruth-brown",
+   "to": "omdia",
+   "type": "Role",
+   "label": "Senior Principal Analyst, GTM Telecom Insights and Advisory",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ruth-brown",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ryan-mahoney",
+   "to": "gigamon",
+   "type": "Role",
+   "label": "Product Director, AI & Service Providers",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "ryan-mahoney",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "samuel-g-ingalls",
+   "to": "barich",
+   "type": "Role",
+   "label": "Principal",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "samuel-g-ingalls",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sankalp-kohli",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Associate Director, Product Management",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sankalp-kohli",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sarper-gokturk",
+   "to": "airties",
+   "type": "Role",
+   "label": "VP of Innovation",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sarper-gokturk",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "satish-sadagopan",
+   "to": "ibm",
+   "type": "Role",
+   "label": "Distinguished Engineer, CTO, Global Telco Center of Excellence",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "satish-sadagopan",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "scott-poretsky",
+   "to": "atis",
+   "type": "Role",
+   "label": "Co-Chair, TOPS Study Group on Enhanced Zero Trust and 5G",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "scott-poretsky",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "shawn-bausman",
+   "to": "att",
+   "type": "Role",
+   "label": "Associate Director, Inbuilding Solutions",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "shawn-bausman",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sri-gundavelli",
+   "to": "cisco",
+   "type": "Role",
+   "label": "Principal Engineer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "sri-gundavelli",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "steve-andrews",
+   "to": "wba",
+   "type": "Role",
+   "label": "Chairman, G Network Communications; WBA Board Adviser",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "steve-andrews",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "steve-namaseevayum",
+   "to": "wba",
+   "type": "Role",
+   "label": "Vice President, Memberships & Industry Engagement",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "steve-namaseevayum",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "taylor-swanson",
+   "to": "ironwifi",
+   "type": "Role",
+   "label": "Advisor",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "taylor-swanson",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "tim-fell",
+   "to": "telus",
+   "type": "Role",
+   "label": "VP, Wireline Technology & Services",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "tim-fell",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "tracy-holmquist",
+   "to": "hpe",
+   "type": "Role",
+   "label": "Director of Sales Engineering, Campus & Branch",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "tracy-holmquist",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "troy-martin",
+   "to": "ookla",
+   "type": "Role",
+   "label": "Director Product Marketing",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "troy-martin",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "vaseem-kazia",
+   "to": "silicon-labs",
+   "type": "Role",
+   "label": "Senior Product Manager",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "vaseem-kazia",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "vijay-venkateswaran",
+   "to": "c3spectra",
+   "type": "Role",
+   "label": "Strategy and Business Development Executive",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "vijay-venkateswaran",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "vijay-yerra",
+   "to": "cspire",
+   "type": "Role",
+   "label": "Director, Network Operations",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "vijay-yerra",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "vincent-depalo",
+   "to": "telecom-company",
+   "type": "Role",
+   "label": "CEO",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "vincent-depalo",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "walt-magnussen",
+   "to": "tamu",
+   "type": "Role",
+   "label": "Lead Research and Business Development, Center for Applied Communications and Networks, Texas A&M University System",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "walt-magnussen",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "melina-diamantopoulou",
+   "to": "informa-connect",
+   "type": "Role",
+   "label": "Conference Director",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "melina-diamantopoulou",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "raghu-valisammagari",
+   "to": "verizon",
+   "type": "Role",
+   "label": "Distinguished Engineer, NaaS/SASE/MEC Architect",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "raghu-valisammagari",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "informa-connect",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Organizer",
+   "source": "https://tmt.knect365.com/network-x-americas/speakers/"
+  },
+  {
+   "from": "wba",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Co-located Wireless Global Congress Americas",
+   "source": "https://tmt.knect365.com/network-x-americas/beforeyouarrive"
+  },
+  {
+   "from": "ookla",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "silicon-labs",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "c3spectra",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 117)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "easycell",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth A108)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "netexperience",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "hpe",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "amdocs",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "everforth",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "wavelo",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 110)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "askey",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth A109)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "infinig",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth A107)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "airties",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "net-insight",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 139)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "eino",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "cisco",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "dassault",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 120)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "uplink",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "ironwifi",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "eleven-software",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "intel",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "array-inc",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "tupl",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "ieee",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 121)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "clearfield",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 141)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "everpure",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "mobileum",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "asiarf",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "red-hat",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 114)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "bluearcus",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth A111)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "netscout",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 127)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "relay",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth A112)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "nextnav",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "cambium",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "calix",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "plekton-labs",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 109)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "skyovi",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "wyebot",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "epam",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 142)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "rakuten-symphony",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "boingo",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "bitdefender",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 128)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "invences",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor (booth 108)",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "ocient",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
   }
  ]
 }
