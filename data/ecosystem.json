@@ -1266,7 +1266,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://wirelessinnovation.org/assets/International-spectrum-sharing-workshop-2024/Wednesday%20Buger%20for%20distro.pdf"
+    "https://wirelessinnovation.org/assets/International-spectrum-sharing-workshop-2024/Wednesday%20Buger%20for%20distro.pdf",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -1294,14 +1295,15 @@
    "category": "Person",
    "region": "Northern Virginia",
    "description": "Principal Director, DoD FutureG Office.",
-   "role": "Principal Director, DoD FutureG Office",
+   "role": "Principal Director for FutureG, OUSW (R&E)",
    "org": "futureg",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "sources": [
-    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced"
+    "https://militaryembedded.com/comms/spectrum-management/integrated-sensing-and-communications-awards-for-future-6g-tech-announced",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -3013,7 +3015,8 @@
    "lng": null,
    "precision": "",
    "sources": [
-    "https://b6gs.com/agenda"
+    "https://b6gs.com/agenda",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -3979,7 +3982,8 @@
    "precision": "",
    "sources": [
     "https://www.caci.com/bio/retired-army-major-general-pete-gallagher",
-    "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/"
+    "https://www.potomacofficersclub.com/events/poc-2022-5g-forum/",
+    "https://futureg.dsigroup.org/"
    ],
    "id": "pete-gallagher",
    "name": "Pete Gallagher",
@@ -4134,7 +4138,8 @@
    "description": "Retired US Air Force brigadier general and former National Security Council senior director for strategic planning, known for the 2018 NSC paper on a secure national 5G network. Founded SEMPRE. Speaker at the 2026 FutureG for Defense & Warfare Summit in DC.",
    "sources": [
     "https://www.govconwire.com/articles/sempre-buys-newspace-networks-to-grow-comm-tech-portfolio",
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -4374,7 +4379,8 @@
    "category": "Person",
    "description": "SVP Strategy at Cohere Technologies and co-author of the first OTFS paper. Previously VP and CTO of Wireless Initiatives at Viasat. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -4414,24 +4420,25 @@
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "CTO North America, Ericsson",
+   "role": "Chief Technology Officer, North America",
    "org": "ericsson",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "id": "sheryl-genco",
-   "name": "Sheryl Genco",
+   "name": "Sheryl M. Genco",
    "category": "Person",
-   "description": "CTO North America at Ericsson. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
+   "description": "Chief Technology Officer, North America at Ericsson. Former Director of the Institute for Telecommunication Sciences (ITS), NTIA. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://www.pr.com/press-release/958240"
    ]
   },
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "Global Business Director, Ericsson",
+   "role": "Mission Critical Networks, Ericsson",
    "org": "ericsson",
    "address": "",
    "lat": null,
@@ -4442,13 +4449,14 @@
    "category": "Person",
    "description": "Global Business Director at Ericsson. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "Verizon",
+   "role": "Senior Director, Public Sector Solutions, Verizon",
    "org": "verizon",
    "address": "",
    "lat": null,
@@ -4460,7 +4468,8 @@
    "description": "Verizon representative at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
     "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
-    "https://tmt.knect365.com/network-x-americas/speakers/"
+    "https://tmt.knect365.com/network-x-americas/speakers/",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -4483,7 +4492,7 @@
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "T-Mobile",
+   "role": "National Director, Government Strategy, T-Mobile",
    "org": "tmobile",
    "address": "",
    "lat": null,
@@ -4494,7 +4503,8 @@
    "category": "Person",
    "description": "T-Mobile representative at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -4568,18 +4578,19 @@
   {
    "short": "",
    "region": "Northern Virginia",
-   "role": "NSF",
+   "role": "Program Director, Directorate for Technology, Innovation and Partnerships",
    "org": "nsf",
    "address": "",
    "lat": null,
    "lng": null,
    "precision": "",
    "id": "sudharam-jayaweera",
-   "name": "Sudharam Jayaweera",
+   "name": "Sudharman K. Jayaweera",
    "category": "Person",
-   "description": "National Science Foundation representative at the 2026 FutureG for Defense & Warfare Summit.",
+   "description": "Program Director in NSF's Directorate for Technology, Innovation and Partnerships. Spoke at the 2026 FutureG for Defense & Warfare Summit and on European and US collaboration on 6G at the 6G Summit 2026 (Helsinki).",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://6gsummit2026.com/program/"
    ]
   },
   {
@@ -4602,7 +4613,7 @@
   {
    "short": "",
    "region": "Northern Virginia",
-   "role": "Spectrum policy, Department of the Navy CIO",
+   "role": "Director, Department of the Navy Strategic Spectrum Policy, DON CIO",
    "org": "us-navy",
    "address": "",
    "lat": null,
@@ -4613,7 +4624,8 @@
    "category": "Person",
    "description": "Spectrum policy lead in the Department of the Navy CIO office. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
-    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
+    "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -4648,13 +4660,14 @@
    "description": "Chief Program Officer at the National Spectrum Consortium. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
     "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
-    "https://tmt.knect365.com/network-x-americas/speakers/"
+    "https://tmt.knect365.com/network-x-americas/speakers/",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
    "short": "",
    "region": "Rest of US & global",
-   "role": "Open6G, Northeastern University",
+   "role": "Director, Research & Industry Partnerships, Northeastern University INSI, Open6G Lab; Co-Founder, TwiNet",
    "org": "northeastern",
    "address": "",
    "lat": null,
@@ -4666,7 +4679,8 @@
    "description": "Northeastern University, Open6G. Works on wireless digital twins and Open RAN on Colosseum, including the O-RAN Alliance-funded O-RAN digital twin platform. Speaker at the 2026 FutureG for Defense & Warfare Summit.",
    "sources": [
     "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026",
-    "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/"
+    "https://insi.northeastern.edu/news/o-ran-alliance-awards-seed-funding-to-wiot-for-next-generation-open-ran-research-platforms/",
+    "https://futureg.dsigroup.org/"
    ]
   },
   {
@@ -22043,23 +22057,6 @@
    ]
   },
   {
-   "id": "sudharman-k-jayaweera",
-   "name": "Jayaweera Kankanamge Sudharman",
-   "short": "Jayaweera Kankanamge Sudharman",
-   "category": "Person",
-   "region": "Rest of US & global",
-   "role": "Program Director, Directorate for Technology, Innovation and Partnerships",
-   "org": "nsf",
-   "address": null,
-   "lat": null,
-   "lng": null,
-   "precision": null,
-   "description": "Program Director in NSF's Directorate for Technology, Innovation and Partnerships. Spoke on European and US collaboration on 6G at the 6G Summit 2026.",
-   "sources": [
-    "https://6gsummit2026.com/program/"
-   ]
-  },
-  {
    "id": "mosaab-abughalib",
    "name": "Mosaab Abughalib",
    "short": "Mosaab Abughalib",
@@ -26310,6 +26307,24 @@
    "sources": [
     "https://tmt.knect365.com/network-x-americas/speakers/"
    ]
+  },
+  {
+   "short": "FutureG Summit 2027",
+   "region": "Washington DC & Maryland",
+   "role": "",
+   "org": null,
+   "address": "American Institute of Architects, 1735 New York Ave NW, Washington, DC",
+   "lat": 38.8968,
+   "lng": -77.0411,
+   "precision": "Street address",
+   "id": "dsi-futureg-2027",
+   "name": "FutureG for Defense & Warfare Summit 2027",
+   "category": "Events",
+   "description": "DSI's 4th annual FutureG for Defense & Warfare Summit, March 24 to 25, 2027, Washington DC. Town-hall event on secure, resilient wireless and 6G for defense.",
+   "website": "https://futureg.dsigroup.org/",
+   "sources": [
+    "https://futureg.dsigroup.org/"
+   ]
   }
  ],
  "edges": [
@@ -29075,7 +29090,7 @@
    "from": "sudharam-jayaweera",
    "to": "nsf",
    "type": "Role",
-   "label": "NSF",
+   "label": "Program Director, Directorate for Technology, Innovation and Partnerships",
    "source": "https://www.govevents.com/details/99764/3rd-annual-futureg-for-defense-and-warfare-summit-2026"
   },
   {
@@ -37731,14 +37746,7 @@
    "source": "https://6gsummit2026.com/program/"
   },
   {
-   "from": "sudharman-k-jayaweera",
-   "to": "nsf",
-   "type": "Role",
-   "label": "Program Director, Directorate for Technology, Innovation and Partnerships",
-   "source": "https://6gsummit2026.com/program/"
-  },
-  {
-   "from": "sudharman-k-jayaweera",
+   "from": "sudharam-jayaweera",
    "to": "6g-summit-2026",
    "type": "Event participation",
    "label": "Speaker: European and U.S. collaboration on 6G",
@@ -40438,6 +40446,97 @@
    "type": "Event participation",
    "label": "Exhibitor",
    "source": "https://welcome.informaengage.com/sponsorships-2026/network-x-americas-2026-must-see-b/"
+  },
+  {
+   "from": "rondeau",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Keynote speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "arthur-de-leon",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "pete-gallagher",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "lamont-copeland",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "jeffrey-neal",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "rob-spalding",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "alex-jinsung-choi",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "anton-monk",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "kenyatta-clark",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "mari-silbey",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "burger",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "pedram-johari",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Speaker",
+   "source": "https://futureg.dsigroup.org/"
+  },
+  {
+   "from": "cohere",
+   "to": "dsi-futureg-2027",
+   "type": "Event participation",
+   "label": "Exhibitor",
+   "source": "https://futureg.dsigroup.org/"
   }
  ]
 }
