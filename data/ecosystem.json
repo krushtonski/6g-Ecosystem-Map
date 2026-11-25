@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24",
+ "generated": "2026-11-25",
  "nodes": [
   {
    "id": "vt-iac",
@@ -486,7 +486,7 @@
    "short": "",
    "category": "Equipment & tech vendors",
    "region": "Rest of US & global",
-   "description": "Next G Alliance founding member and RINGS partner.",
+   "description": "Next G Alliance founding member and RINGS partner. Headquartered in San Diego. Plans 6G commercialisation in 2029, with a technology demonstration at the 2028 Los Angeles Olympics.",
    "role": "",
    "org": null,
    "address": "San Diego, CA",
@@ -495,7 +495,9 @@
    "precision": "City",
    "sources": [
     "https://ansi.org/standards-news/member-updates/2020/10/10-22-20-atis-launches-next-g-alliance-for-north-american-leadership-in-6g-technology",
-    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581"
+    "https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21581",
+    "https://www.digitaltoday.co.kr/en/view/107755/qualcomm-says-agentic-ai-devices-underpin-6g-demand-keeps-2029-commercialisation-timeline",
+    "https://www.fierce-network.com/wireless/trump-admin-wants-6g-devices-olympics-qualcomm-says"
    ]
   },
   {
@@ -7967,8 +7969,7 @@
    "precision": "",
    "description": "Heads Ericsson's AI Hub Canada in Montreal. Visited Carleton's Non-Terrestrial Networks Lab with the Ottawa leadership team in July 2026.",
    "sources": [
-    "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada",
-    "https://tr.linkedin.com/in/omertylmzz"
+    "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/canada"
    ]
   },
   {
@@ -26391,6 +26392,325 @@
    "sources": [
     "https://futureg.dsigroup.org/"
    ]
+  },
+  {
+   "id": "fba",
+   "name": "Fiber Broadband Association (FBA)",
+   "short": "FBA",
+   "category": "Associations & alliances",
+   "region": "Washington DC & Maryland",
+   "description": "Largest trade association in the Americas dedicated to all-fibre broadband, with 350+ member companies across the US, Canada and Latin America. Says fibre will underpin 6G wireless, AI and quantum networking.",
+   "role": "",
+   "org": null,
+   "address": "670 Maine Avenue SW, Suite 600, Washington, DC 20024",
+   "lat": 38.8786,
+   "lng": -77.0233,
+   "precision": "Street address",
+   "sources": [
+    "https://fiberbroadband.org/gary-bolton/",
+    "https://www.benton.org/headlines/fiber-broadband-association-responds-ntia-administrator-arielle-roth%E2%80%99s-remarks-future"
+   ]
+  },
+  {
+   "id": "ntia-osm",
+   "name": "NTIA Office of Spectrum Management (OSM)",
+   "short": "NTIA OSM",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "description": "NTIA office that manages the federal government's use of radio spectrum while supporting commercial wireless broadband. Associate Administrator: Charles Cooper.",
+   "role": "",
+   "org": null,
+   "address": "1401 Constitution Ave NW, Washington, DC 20230",
+   "lat": 38.8937,
+   "lng": -77.0331,
+   "precision": "Street address",
+   "sources": [
+    "https://www.ntia.doc.gov/office/OSM"
+   ]
+  },
+  {
+   "id": "doe",
+   "name": "U.S. Department of Energy (DOE)",
+   "short": "DOE",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "description": "Federal department that runs the national laboratories, including Idaho National Laboratory and its Wireless Security Institute.",
+   "role": "",
+   "org": null,
+   "address": "Forrestal Building, 1000 Independence Ave SW, Washington, DC 20585",
+   "lat": 38.8868,
+   "lng": -77.0257,
+   "precision": "Street address",
+   "sources": [
+    "https://www.energy.gov",
+    "https://inl.gov/wireless-security-institute/"
+   ]
+  },
+  {
+   "id": "ieee-foundation",
+   "name": "IEEE Foundation",
+   "short": "",
+   "category": "Government & funders",
+   "region": "Rest of US & global",
+   "description": "Philanthropic partner of IEEE, founded 1973. Funds technology access, literacy and education programmes and IEEE grants and awards.",
+   "role": "",
+   "org": null,
+   "address": "445 Hoes Lane, Piscataway, NJ 08854",
+   "lat": 40.553,
+   "lng": -74.4648,
+   "precision": "Street address",
+   "sources": [
+    "https://grantable.co/funders/ieee-foundation-inc-morg_4da96610f04242ee8a7fe11f22842c20",
+    "https://wikiwand.com/en/IEEE_Foundation"
+   ]
+  },
+  {
+   "id": "us-senate",
+   "name": "U.S. Senate",
+   "short": "",
+   "category": "Government & funders",
+   "region": "Washington DC & Maryland",
+   "description": "Upper chamber of the US Congress. Legislates on spectrum, broadband and national 6G policy.",
+   "role": "",
+   "org": null,
+   "address": "U.S. Capitol, Washington, DC",
+   "lat": 38.8899,
+   "lng": -77.0091,
+   "precision": "Campus",
+   "sources": [
+    "https://www.senate.gov"
+   ]
+  },
+  {
+   "id": "brattle",
+   "name": "The Brattle Group",
+   "short": "Brattle",
+   "category": "Consultancy",
+   "region": "Washington DC & Maryland",
+   "description": "Economic consultancy. Its Telecommunications, Media & Entertainment practice advises on FCC spectrum auctions, spectrum value and broadband policy.",
+   "role": "",
+   "org": null,
+   "address": "Washington, DC",
+   "lat": 38.904,
+   "lng": -77.042,
+   "precision": "City",
+   "sources": [
+    "https://www.brattle.com/experts/paroma-sanyal/"
+   ]
+  },
+  {
+   "id": "women-in-6g",
+   "name": "Women in 6G",
+   "short": "",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "description": "Global membership community working to close the gender gap in 6G careers. Publishes the annual \"100 Brilliant and Inspiring Women in 6G\" list and runs networking events and short courses. Founded by Pavithra Nagaraj, based in Bengaluru.",
+   "role": "",
+   "org": null,
+   "address": "Bengaluru, India",
+   "lat": 12.9716,
+   "lng": 77.5946,
+   "precision": "City",
+   "sources": [
+    "https://www.womenin6g.org/",
+    "https://6gworld.com/?p=27904",
+    "https://womenawards.globant.com/judge/PavithraNagaraj"
+   ]
+  },
+  {
+   "id": "6g-ic",
+   "name": "6G Industry Community (6G IC), IEEE ComSoc",
+   "short": "6G IC",
+   "category": "Associations & alliances",
+   "region": "Rest of US & global",
+   "description": "Special interest group of the IEEE Communications Society Industry Communities Board. Brings academia, industry and government together on 6G research, standards and technology transfer.",
+   "role": "",
+   "org": null,
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "sources": [
+    "https://icb.boards.comsoc.org/special-interest-groups/6g-industry-community-6g-ic/"
+   ]
+  },
+  {
+   "id": "6g-symposium-dc-2026",
+   "name": "6G Symposium DC 2026",
+   "short": "",
+   "category": "Events",
+   "region": "Washington DC & Maryland",
+   "description": "6GWorld's annual 6G Symposium in Washington DC, September 2026. Brings together government, industry and research on North American 6G.",
+   "role": "",
+   "org": null,
+   "address": "Washington, DC",
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "precision": "City",
+   "sources": [
+    "https://6gworld.com/?p=2050",
+    "https://6gsummits.com"
+   ]
+  },
+  {
+   "id": "nova-future-summit-2026",
+   "name": "Nova Future Summit 2026",
+   "short": "",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "description": "Invite-only summit for senior telecom and tech leaders, co-created by the GSMA and Wing Venture Capital. 28 to 30 September 2026, The Meritage Resort and Spa, Napa, California. Held under the Chatham House Rule. Next edition: 27 to 29 September 2027, Half Moon Bay.",
+   "role": "",
+   "org": null,
+   "address": "The Meritage Resort and Spa, Napa, CA",
+   "lat": 38.2975,
+   "lng": -122.2869,
+   "precision": "City",
+   "sources": [
+    "https://www.gsma.com/newsroom/press-release/gsma-and-wing-announce-nova-future-summit-a-new-event-for-trailblazing-technology-and-connectivity-leaders/",
+    "https://www.beri.net/events/nova-future-summit-2026"
+   ]
+  },
+  {
+   "id": "rcr-6g-forum-2026",
+   "name": "RCR Wireless News 6G Forum 2026",
+   "short": "",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "description": "Third edition of RCR Wireless News' free virtual 6G Forum, October 2026. Topics: AI-native networks, spectrum and standards, NTN and ISAC, trust and security, 6G monetisation. Online only.",
+   "role": "",
+   "org": null,
+   "address": "Online",
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "sources": [
+    "https://www.6g-forum.com/",
+    "https://lightreading.com/6g/6g-s-monetization-puzzle-from-sensing-to-physical-ai"
+   ]
+  },
+  {
+   "id": "broadband-nation-expo-2026",
+   "name": "Broadband Nation Expo & Data Center Excellence Summit 2026",
+   "short": "",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "description": "Fourth annual Broadband Nation Expo, 18 to 20 November 2026, Hilton Riverside New Orleans. Produced by Fierce Network and TIA. First year co-located with the Data Center Excellence Summit.",
+   "role": "",
+   "org": null,
+   "address": "Hilton Riverside New Orleans, 732 Convention Center Blvd, New Orleans, LA 70130",
+   "lat": 29.9467,
+   "lng": -90.063,
+   "precision": "Street address",
+   "sources": [
+    "https://tiaonline.org/event/broadband-nation-expo/",
+    "https://www.fierce-network.com/broadband/what-know-about-broadband-nation-expo-year"
+   ]
+  },
+  {
+   "id": "wgc-americas-2027",
+   "name": "Wireless Global Congress Americas 2027",
+   "short": "",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "description": "Wireless Broadband Alliance's Wireless Global Congress, Americas edition. 17 to 20 May 2027, Dallas, Texas.",
+   "role": "",
+   "org": null,
+   "address": "Dallas, TX",
+   "lat": 32.7767,
+   "lng": -96.797,
+   "precision": "City",
+   "sources": [
+    "https://www.wirelessglobalcongress.com"
+   ]
+  },
+  {
+   "id": "ieee-ccnc-2026",
+   "name": "IEEE CCNC 2026",
+   "short": "",
+   "category": "Events",
+   "region": "Rest of US & global",
+   "description": "IEEE Consumer Communications & Networking Conference, 9 to 12 January 2026, Las Vegas, Nevada.",
+   "role": "",
+   "org": null,
+   "address": "Las Vegas, NV",
+   "lat": 36.1699,
+   "lng": -115.1398,
+   "precision": "City",
+   "sources": [
+    "https://ccnc2026.ieee-ccnc.org/"
+   ]
+  },
+  {
+   "id": "gary-bolton",
+   "name": "Gary Bolton",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "President and CEO of the Fiber Broadband Association since November 2020. Previously 11 years at ADTRAN as VP of Global Marketing and Government Affairs.",
+   "role": "President and CEO, Fiber Broadband Association",
+   "org": "fba",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://fiberbroadband.org/gary-bolton/",
+    "https://www.businesswire.com/news/home/20201029005158/en/Fiber-Broadband-Association-Appoints-Gary-Bolton-as-New-President-and-CEO"
+   ]
+  },
+  {
+   "id": "paroma-sanyal",
+   "name": "Paroma Sanyal",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Economist at The Brattle Group, where she co-leads the Telecommunications, Media & Entertainment practice. Advises on FCC spectrum auctions, spectrum value and broadband regulation. Former Chief Economist of the FCC Wireless Telecommunications Bureau (2015 to 2018).",
+   "role": "Principal; Co-Leader, Telecommunications, Media & Entertainment, The Brattle Group",
+   "org": "brattle",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.brattle.com/experts/paroma-sanyal/",
+    "https://www.brattle.com/wp-content/uploads/2026/01/Sanyal-CV-January-2026__Final.pdf"
+   ]
+  },
+  {
+   "id": "mark-warner",
+   "name": "Mark Warner",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "US Senator for Virginia. Re-elected in November 2026 (race called by AP).",
+   "role": "U.S. Senator for Virginia",
+   "org": "us-senate",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.warner.senate.gov"
+   ]
+  },
+  {
+   "id": "jeremy-glenn",
+   "name": "Jeremy Glenn",
+   "short": "",
+   "category": "Person",
+   "region": "Rest of US & global",
+   "description": "Program Management Specialist at NTIA's Institute for Telecommunication Sciences. Challenge manager for the NTIA/DoD 5G Challenge. Co-author of ITS reports on Open RAN integration in the 5G Challenges. Previously prize and challenge specialist at NIST PSCR.",
+   "role": "Program Management Specialist, NTIA Institute for Telecommunication Sciences",
+   "org": "ntia-its",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://www.ntia.gov/category/institute-telecommunication-sciences",
+    "https://fnwf2022.ieee.org/panels-industry-forums/5g-challenge-results-and-state-of-oran-interoperability-panel/index.html",
+    "https://its.ntia.gov/publications/download/SP-25-578.pdf"
+   ]
   }
  ],
  "edges": [
@@ -31069,13 +31389,6 @@
    "type": "Joint R&D / Co-publication",
    "label": "Multi-year partnership on AI-powered next-generation mobile R&D and talent (Feb 2026)",
    "source": "https://ericsson.com/en/press-releases/6/2026/ericsson-and-the-university-of-toronto-join-forces-to-advance"
-  },
-  {
-   "from": "ericsson-ottawa",
-   "to": "carleton",
-   "type": "Joint R&D / Co-publication",
-   "label": "Ottawa and Montreal leadership visited Carleton-NTN Lab (Jul 2026)",
-   "source": "https://tr.linkedin.com/in/omertylmzz"
   },
   {
    "from": "nrc-canada",
@@ -40946,6 +41259,83 @@
    "type": "Role",
    "label": "City Manager",
    "source": "https://www.alexandriava.gov/go/7514"
+  },
+  {
+   "from": "gary-bolton",
+   "to": "fba",
+   "type": "Role",
+   "label": "President and CEO",
+   "source": "https://fiberbroadband.org/gary-bolton/"
+  },
+  {
+   "from": "paroma-sanyal",
+   "to": "brattle",
+   "type": "Role",
+   "label": "Principal; Co-Leader, TME practice",
+   "source": "https://www.brattle.com/experts/paroma-sanyal/"
+  },
+  {
+   "from": "mark-warner",
+   "to": "us-senate",
+   "type": "Role",
+   "label": "U.S. Senator for Virginia",
+   "source": "https://www.warner.senate.gov"
+  },
+  {
+   "from": "jeremy-glenn",
+   "to": "ntia-its",
+   "type": "Role",
+   "label": "Program Management Specialist; 5G Challenge manager",
+   "source": "https://fnwf2022.ieee.org/panels-industry-forums/5g-challenge-results-and-state-of-oran-interoperability-panel/index.html"
+  },
+  {
+   "from": "ntia-osm",
+   "to": "ntia",
+   "type": "Membership",
+   "label": "NTIA office",
+   "source": "https://www.ntia.doc.gov/office/OSM"
+  },
+  {
+   "from": "ieee-foundation",
+   "to": "ieee",
+   "type": "Membership",
+   "label": "Philanthropic partner of IEEE",
+   "source": "https://wikiwand.com/en/IEEE_Foundation"
+  },
+  {
+   "from": "6g-ic",
+   "to": "ieee",
+   "type": "Membership",
+   "label": "IEEE ComSoc special interest group",
+   "source": "https://icb.boards.comsoc.org/special-interest-groups/6g-industry-community-6g-ic/"
+  },
+  {
+   "from": "inl",
+   "to": "doe",
+   "type": "Membership",
+   "label": "DOE national laboratory",
+   "source": "https://inl.gov/wireless-security-institute/"
+  },
+  {
+   "from": "gsma",
+   "to": "nova-future-summit-2026",
+   "type": "Event participation",
+   "label": "Co-organiser",
+   "source": "https://www.gsma.com/newsroom/press-release/gsma-and-wing-announce-nova-future-summit-a-new-event-for-trailblazing-technology-and-connectivity-leaders/"
+  },
+  {
+   "from": "wba",
+   "to": "wgc-americas-2027",
+   "type": "Event participation",
+   "label": "Organiser",
+   "source": "https://www.wirelessglobalcongress.com"
+  },
+  {
+   "from": "nga",
+   "to": "network-x-americas-2026",
+   "type": "Event participation",
+   "label": "6G Summit partner",
+   "source": "https://tmt.knect365.com/network-x-americas/6g-summit"
   }
  ]
 }
