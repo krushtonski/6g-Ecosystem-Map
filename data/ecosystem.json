@@ -26711,6 +26711,94 @@
     "https://fnwf2022.ieee.org/panels-industry-forums/5g-challenge-results-and-state-of-oran-interoperability-panel/index.html",
     "https://its.ntia.gov/publications/download/SP-25-578.pdf"
    ]
+  },
+  {
+   "id": "marissa-mitrovich",
+   "name": "Marissa Mitrovich",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Vice President of Public Policy at the Fiber Broadband Association. Spoke on panels at the Wireless Infrastructure Association's Connect(X) conference in 2026.",
+   "role": "Vice President of Public Policy, Fiber Broadband Association",
+   "org": "fba",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://fiberbroadband.org/advocacy/the-last-mile-letter-may-2026/"
+   ]
+  },
+  {
+   "id": "lukas-pietrzak",
+   "name": "Lukas Pietrzak",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Policy Director at the Fiber Broadband Association. Spoke on panels at the Wireless Infrastructure Association's Connect(X) conference in 2026.",
+   "role": "Policy Director, Fiber Broadband Association",
+   "org": "fba",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://fiberbroadband.org/advocacy/the-last-mile-letter-may-2026/"
+   ]
+  },
+  {
+   "id": "deborah-kish",
+   "name": "Deborah Kish",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Vice President of Research and Workforce Development at the Fiber Broadband Association. Leads FBA research papers, including its 2026 comparison of fibre, cable and fixed wireless.",
+   "role": "Vice President, Research and Workforce Development, Fiber Broadband Association",
+   "org": "fba",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://fiberbroadband.org/leadership-staff/",
+    "https://fiberbroadband.org/2026/09/08/fiber-broadband-association-paper-finds-fiber-delivers-significant-energy-and-carbon-reduction-advantages-compared-to-hfc-cable-and-fixed-wireless/"
+   ]
+  },
+  {
+   "id": "john-george",
+   "name": "John George",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Chairs the Fiber Broadband Association's Technology Committee, which published \"The Future of Fiber Technology: What's Next?\" in November 2026. Senior director at Lightera (formerly OFS), Norcross, Georgia. FBA board member 2008 to 2018.",
+   "role": "Chair, Technology Committee, Fiber Broadband Association; Senior Director, Lightera",
+   "org": "fba",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://fiberbroadband.org/?p=33959",
+    "https://fiberbroadband.org/?p=25420",
+    "https://www.sensorsconverge.com/event/contact/john-george"
+   ]
+  },
+  {
+   "id": "ariane-schaffer",
+   "name": "Ariane Schaffer",
+   "short": "",
+   "category": "Person",
+   "region": "Washington DC & Maryland",
+   "description": "Chair of the Fiber Broadband Association Board, re-elected for a three-year term from 2026. Head of U.S. Federal and State Policy at GFiber.",
+   "role": "Chair, FBA Board of Directors; Head of U.S. Federal and State Policy, GFiber",
+   "org": "fba",
+   "address": "",
+   "lat": null,
+   "lng": null,
+   "precision": "",
+   "sources": [
+    "https://fiberbroadband.org/2025/12/18/fiber-broadband-association-announces-2026-board-of-directors-election-results/"
+   ]
   }
  ],
  "edges": [
@@ -41336,6 +41424,41 @@
    "type": "Event participation",
    "label": "6G Summit partner",
    "source": "https://tmt.knect365.com/network-x-americas/6g-summit"
+  },
+  {
+   "from": "marissa-mitrovich",
+   "to": "fba",
+   "type": "Role",
+   "label": "Vice President of Public Policy",
+   "source": "https://fiberbroadband.org/advocacy/the-last-mile-letter-may-2026/"
+  },
+  {
+   "from": "lukas-pietrzak",
+   "to": "fba",
+   "type": "Role",
+   "label": "Policy Director",
+   "source": "https://fiberbroadband.org/advocacy/the-last-mile-letter-may-2026/"
+  },
+  {
+   "from": "deborah-kish",
+   "to": "fba",
+   "type": "Role",
+   "label": "VP, Research and Workforce Development",
+   "source": "https://fiberbroadband.org/leadership-staff/"
+  },
+  {
+   "from": "john-george",
+   "to": "fba",
+   "type": "Role",
+   "label": "Chair, Technology Committee",
+   "source": "https://fiberbroadband.org/?p=33959"
+  },
+  {
+   "from": "ariane-schaffer",
+   "to": "fba",
+   "type": "Role",
+   "label": "Board Chair",
+   "source": "https://fiberbroadband.org/2025/12/18/fiber-broadband-association-announces-2026-board-of-directors-election-results/"
   }
  ]
 }
