@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "nodes": [
   {
    "id": "vt-iac",
@@ -26409,7 +26409,8 @@
    "sources": [
     "https://fiberbroadband.org/gary-bolton/",
     "https://www.benton.org/headlines/fiber-broadband-association-responds-ntia-administrator-arielle-roth%E2%80%99s-remarks-future"
-   ]
+   ],
+   "website": "https://fiberbroadband.org"
   },
   {
    "id": "ntia-osm",
@@ -26426,7 +26427,8 @@
    "precision": "Street address",
    "sources": [
     "https://www.ntia.doc.gov/office/OSM"
-   ]
+   ],
+   "website": "https://www.ntia.gov/office/OSM"
   },
   {
    "id": "doe",
@@ -26444,7 +26446,8 @@
    "sources": [
     "https://www.energy.gov",
     "https://inl.gov/wireless-security-institute/"
-   ]
+   ],
+   "website": "https://www.energy.gov"
   },
   {
    "id": "ieee-foundation",
@@ -26462,7 +26465,8 @@
    "sources": [
     "https://grantable.co/funders/ieee-foundation-inc-morg_4da96610f04242ee8a7fe11f22842c20",
     "https://wikiwand.com/en/IEEE_Foundation"
-   ]
+   ],
+   "website": "https://www.ieeefoundation.org"
   },
   {
    "id": "us-senate",
@@ -26479,7 +26483,8 @@
    "precision": "Campus",
    "sources": [
     "https://www.senate.gov"
-   ]
+   ],
+   "website": "https://www.senate.gov"
   },
   {
    "id": "brattle",
@@ -26496,7 +26501,8 @@
    "precision": "City",
    "sources": [
     "https://www.brattle.com/experts/paroma-sanyal/"
-   ]
+   ],
+   "website": "https://www.brattle.com"
   },
   {
    "id": "women-in-6g",
@@ -26515,7 +26521,8 @@
     "https://www.womenin6g.org/",
     "https://6gworld.com/?p=27904",
     "https://womenawards.globant.com/judge/PavithraNagaraj"
-   ]
+   ],
+   "website": "https://www.womenin6g.org/"
   },
   {
    "id": "6g-ic",
@@ -26532,7 +26539,8 @@
    "precision": null,
    "sources": [
     "https://icb.boards.comsoc.org/special-interest-groups/6g-industry-community-6g-ic/"
-   ]
+   ],
+   "website": "https://icb.boards.comsoc.org/special-interest-groups/6g-industry-community-6g-ic/"
   },
   {
    "id": "6g-symposium-dc-2026",
@@ -26550,7 +26558,8 @@
    "sources": [
     "https://6gworld.com/?p=2050",
     "https://6gsummits.com"
-   ]
+   ],
+   "website": "https://6gsummits.com"
   },
   {
    "id": "nova-future-summit-2026",
@@ -26568,7 +26577,8 @@
    "sources": [
     "https://www.gsma.com/newsroom/press-release/gsma-and-wing-announce-nova-future-summit-a-new-event-for-trailblazing-technology-and-connectivity-leaders/",
     "https://www.beri.net/events/nova-future-summit-2026"
-   ]
+   ],
+   "website": "https://www.novasummit.com/"
   },
   {
    "id": "rcr-6g-forum-2026",
@@ -26586,7 +26596,8 @@
    "sources": [
     "https://www.6g-forum.com/",
     "https://lightreading.com/6g/6g-s-monetization-puzzle-from-sensing-to-physical-ai"
-   ]
+   ],
+   "website": "https://www.6g-forum.com/"
   },
   {
    "id": "broadband-nation-expo-2026",
@@ -26604,7 +26615,8 @@
    "sources": [
     "https://tiaonline.org/event/broadband-nation-expo/",
     "https://www.fierce-network.com/broadband/what-know-about-broadband-nation-expo-year"
-   ]
+   ],
+   "website": "https://www.broadbandnationexpo.com/"
   },
   {
    "id": "wgc-americas-2027",
@@ -26621,7 +26633,8 @@
    "precision": "City",
    "sources": [
     "https://www.wirelessglobalcongress.com"
-   ]
+   ],
+   "website": "https://www.wirelessglobalcongress.com"
   },
   {
    "id": "ieee-ccnc-2026",
@@ -26638,7 +26651,8 @@
    "precision": "City",
    "sources": [
     "https://ccnc2026.ieee-ccnc.org/"
-   ]
+   ],
+   "website": "https://ccnc2026.ieee-ccnc.org/"
   },
   {
    "id": "gary-bolton",
@@ -26691,7 +26705,8 @@
    "precision": "",
    "sources": [
     "https://www.warner.senate.gov"
-   ]
+   ],
+   "website": "https://www.warner.senate.gov"
   },
   {
    "id": "jeremy-glenn",
